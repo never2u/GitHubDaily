@@ -43,6 +43,10 @@
   "ko": "디컴파일, 재컴파일, 리버스 엔지니어링된 게임을 평가와 함께 자동 갱신하는 목록. 디컴프, 정적 리컴파일, 소스 포트, 엔진 리메이크, 브라우저 포트를 포함합니다.",
   "src": "Rated, auto-refreshed list of decompiled, recompiled & reverse-engineered games: decomps, static recomps, source ports, engine remakes, browser ports."
  },
+ "Supermedo/uncharted_pc": {
+  "ko": "SuperMedo가 만든, Windows에서 네이티브로 실행되는 언차티드: 네이선 드레이크 컬렉션입니다.",
+  "src": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo"
+ },
  "Tencent/WeKnora": {
   "ko": "오픈소스 LLM 지식 플랫폼입니다. 원본 문서를 질의 가능한 RAG, 자율 추론 에이전트, 스스로 관리되는 위키로 바꿔 줍니다.",
   "src": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki."
@@ -99,6 +103,10 @@
   "ko": "Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Pi를 위한 편집 디자인 다이어그램 도구입니다. 44가지 다이어그램 유형을 지원하며, 독립형 HTML + SVG로 만들어집니다. 그림자 효과가 없고 Mermaid 방식의 어설픈 결과물이 아닙니다.",
   "src": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop."
  },
+ "chenglou/handwired": {
+  "ko": "기존 자바스크립트 코드를 신경망으로 바꿔 줍니다.",
+  "src": "Turn your regular JavaScript code into a neural net."
+ },
  "chenwei810/Semiconductor_Manufacturing_Introduction": {
   "ko": "반도체 제조 입문",
   "src": "Introduction to Semiconductor Manufacturing"
@@ -118,6 +126,10 @@
  "earthtojake/text-to-cad": {
   "ko": "에이전트에게 CAD 슈퍼파워를 부여하세요.",
   "src": "Give your agent CAD superpowers."
+ },
+ "feder-cr/open_scion": {
+  "ko": "코딩 에이전트를 위해 만든 버전 관리 시스템 Scion의 오픈소스 버전입니다.",
+  "src": "Open-source version of Scion: version control built for coding agents."
  },
  "heygen-com/hyperframes": {
   "ko": "HTML을 작성하고 영상을 렌더링하세요. 에이전트를 위해 만들어졌습니다.",
@@ -163,6 +175,10 @@
   "ko": "Claude Code에서 일곱 명의 AI 자문가(베이조스, 폴 그레이엄, 호르모지, 게리 베이너척, 댄 마텔, 지노 위크먼, 버핏)가 테이블에 둘러앉아 여러분의 사업 결정을 실시간으로 토론합니다.",
   "src": "Seven AI advisors (Bezos, Paul Graham, Hormozi, Gary Vee, Dan Martell, Gino Wickman, Buffett) debate your business decision in Claude Code, live around a table."
  },
+ "npwitk/Macintosh-Skeletal-Filled": {
+  "ko": "helllllllllloooo 폰트! 알고 보니 Macintosh Skeleton이라는 이름이네요.",
+  "src": "helllllllllloooo font! Turns out it's called Macintosh Skeleton"
+ },
  "obra/superpowers": {
   "ko": "실제로 잘 동작하는 에이전트 스킬 프레임워크이자 소프트웨어 개발 방법론입니다.",
   "src": "An agentic skills framework & software development methodology that works."
@@ -190,6 +206,10 @@
  "ranxianglei/billion-context": {
   "ko": "작은 컨텍스트 윈도우를 위한 컨텍스트 압축 플러그인입니다(100K 컨텍스트면 충분합니다). 토큰을 5배 적게 쓰고, 한 달 이상 이어지는 단일 세션(수십억 토큰)도 지원합니다. 上下文压缩插件，兼顾小窗口(100k上下文足矣)省token(省5倍token)和超长会话(数月级别几十亿token单会话)。billion-context is all you need",
   "src": "A context-compression plugin for small context windows (a 100K context is enough), token savings (5x fewer tokens), and month-long single sessions (billions of tokens).上下文压缩插件，兼顾小窗口(100k上下文足矣)省token(省5倍token)和超长会话(数月级别几十亿token单会话)。billion-context is all you need"
+ },
+ "rayytor/desktop_gifs": {
+  "ko": "데스크톱 브라우저에서 YouTube 댓글과 답글에 GIF를 올릴 수 있는 Chrome·Firefox 확장 프로그램입니다.",
+  "src": "Post GIFs in YouTube comments and replies from a desktop browser. Extension for Chrome and Firefox."
  },
  "rociiu/talorys": {
   "ko": "본인의 Cloudflare 계정에서 실행하는 개인 AI 에이전트. 채팅, 메모리, 작업, 메모, 예약 알림을 지원하며, 명령어 하나(npx create-talorys@latest)로 배포합니다. 무료 요금제에 적합하고, 단일 사용자용이며, 텔레메트리가 없습니다.",
@@ -222,6 +242,10 @@
  "thedotmack/claude-mem": {
   "ko": "모든 에이전트를 위한 세션 간 지속 컨텍스트입니다. 세션 중 에이전트가 하는 모든 일을 기록하고 AI로 압축한 뒤, 관련 컨텍스트를 이후 세션에 다시 주입합니다. Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode 등과 함께 작동합니다.",
   "src": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More"
+ },
+ "threerocks/sweety-handdraw-video": {
+  "ko": "주제나 글로 손그림 강의 영상을 만들어 줍니다. 부위별 선 그리기, 글자별 필기, VoiceStudio 더빙, 기본 제공 제작 의존성 5종을 지원합니다.",
+  "src": "从主题或文章制作完整手绘讲解视频：按部位描线、逐字书写、VoiceStudio 配音、五项内置制作依赖。"
  },
  "trycua/cua": {
   "ko": "오픈소스 드라이버, 여러 OS를 아우르는 플릿, 학습·평가·데이터 생성을 위한 벤치마크로 컴퓨터 사용 2.0을 확장합니다.",
