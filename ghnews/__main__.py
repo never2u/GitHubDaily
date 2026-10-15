@@ -1,0 +1,78 @@
+"""CLI: collect today's edition and (re)build the static site.
+
+    python -m ghnews                 # fetch + build
+    python -m ghnews --no-fetch      # rebuild site from saved data only
+"""
+
+from __future__ import annotations
+
+import argparse
+import datetime as dt
+import json
+import os
+from pathlib import Path
+
+from .editorial import annotate
+from .fetch import collect
+from .render import render_archive, render_edition, render_feed
+
+FEED_SIZE = 20
+
+
+def load_editions(data_dir: Path) -> list[dict]:
+    """All saved editions, newest first."""
+    editions = []
+    for path in sorted(data_dir.glob("*.json"), reverse=True):
+        editions.append(json.loads(path.read_text(encoding="utf-8")))
+    return editions
+
+
+def build_site(data_dir: Path, out_dir: Path, base_url: str) -> int:
+    editions = load_editions(data_dir)
+    out_dir.mkdir(parents=True, exist_ok=True)
+    (out_dir / "archive").mkdir(exist_ok=True)
+
+    annotated = []
+    for i, edition in enumerate(editions):
+        daily = annotate(edition.get("trending", {}).get("daily", []), editions[i + 1:])
+        annotated.append((edition, daily))
+        page = render_edition(edition, daily, root="../")
+        (out_dir / "archive" / f"{edition['date']}.html").write_text(page, encoding="utf-8")
+
+    if annotated:
+        latest, daily = annotated[0]
+        (out_dir / "index.html").write_text(render_edition(latest, daily), encoding="utf-8")
+    (out_dir / "archive.html").write_text(
+        render_archive([e["date"] for e in editions]), encoding="utf-8")
+    (out_dir / "feed.xml").write_text(render_feed(annotated[:FEED_SIZE], base_url), encoding="utf-8")
+    (out_dir / ".nojekyll").write_text("")
+    return len(editions)
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description="GitHub 트렌딩 뉴스 사이트 생성기")
+    parser.add_argument("--data", default="data", type=Path, help="edition JSON directory")
+    parser.add_argument("--out", default="site", type=Path, help="output directory")
+    parser.add_argument("--date", help="edition date (YYYY-MM-DD), default today (UTC)")
+    parser.add_argument("--no-fetch", action="store_true", help="only rebuild from saved data")
+    parser.add_argument("--base-url", default=os.environ.get("SITE_URL", "https://never2u.github.io/JerrySpace/"))
+    args = parser.parse_args()
+
+    args.data.mkdir(parents=True, exist_ok=True)
+    if not args.no_fetch:
+        today = dt.date.fromisoformat(args.date) if args.date else dt.datetime.now(dt.timezone.utc).date()
+        edition = collect(today)
+        has_content = edition["trending"].get("daily") or edition["new_arrivals"]
+        if has_content:
+            path = args.data / f"{edition['date']}.json"
+            path.write_text(json.dumps(edition, ensure_ascii=False, indent=1), encoding="utf-8")
+            print(f"saved {path}")
+        else:
+            print("nothing collected; keeping previous editions")
+
+    count = build_site(args.data, args.out, args.base_url)
+    print(f"built {count} edition(s) into {args.out}/")
+
+
+if __name__ == "__main__":
+    main()
