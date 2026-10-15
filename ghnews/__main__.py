@@ -15,6 +15,7 @@ from pathlib import Path
 from .editorial import annotate
 from .fetch import collect
 from .render import render_archive, render_edition, render_feed
+from . import translate
 
 FEED_SIZE = 20
 
@@ -22,13 +23,16 @@ FEED_SIZE = 20
 def load_editions(data_dir: Path) -> list[dict]:
     """All saved editions, newest first."""
     editions = []
-    for path in sorted(data_dir.glob("*.json"), reverse=True):
+    for path in sorted(data_dir.glob("[0-9]*.json"), reverse=True):
         editions.append(json.loads(path.read_text(encoding="utf-8")))
     return editions
 
 
 def build_site(data_dir: Path, out_dir: Path, base_url: str) -> int:
     editions = load_editions(data_dir)
+    cache = translate.load_cache(data_dir / "translations.json")
+    for edition in editions:
+        translate.apply(edition, cache)
     out_dir.mkdir(parents=True, exist_ok=True)
     (out_dir / "archive").mkdir(exist_ok=True)
 
@@ -55,6 +59,7 @@ def main() -> None:
     parser.add_argument("--out", default="site", type=Path, help="output directory")
     parser.add_argument("--date", help="edition date (YYYY-MM-DD), default today (UTC)")
     parser.add_argument("--no-fetch", action="store_true", help="only rebuild from saved data")
+    parser.add_argument("--no-translate", action="store_true", help="skip Korean translation")
     parser.add_argument("--base-url", default=os.environ.get("SITE_URL", "https://never2u.github.io/JerrySpace/"))
     args = parser.parse_args()
 
@@ -67,6 +72,11 @@ def main() -> None:
             path = args.data / f"{edition['date']}.json"
             path.write_text(json.dumps(edition, ensure_ascii=False, indent=1), encoding="utf-8")
             print(f"saved {path}")
+            if not args.no_translate:
+                cache_path = args.data / "translations.json"
+                cache = translate.load_cache(cache_path)
+                if translate.translate_edition(edition, cache):
+                    translate.save_cache(cache_path, cache)
         else:
             print("nothing collected; keeping previous editions")
 

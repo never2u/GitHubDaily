@@ -134,6 +134,14 @@ def _meta(repo: dict, gain_label: str | None) -> str:
     return f'<div class="meta">{"".join(parts)}</div>'
 
 
+def _desc(repo: dict) -> str:
+    """Korean description when available; the English original goes in a tooltip."""
+    ko, en = repo.get("description_ko"), repo.get("description") or ""
+    if ko:
+        return f'<span title="{escape(en)}" lang="ko">{escape(ko)}</span>'
+    return f'<span lang="en">{escape(en)}</span>' if en else ""
+
+
 def _card(repo: dict, gain_label: str | None, with_headline: bool = False) -> str:
     lang = escape(repo.get("language") or "기타")
     topics = repo.get("topics") or []
@@ -142,7 +150,7 @@ def _card(repo: dict, gain_label: str | None, with_headline: bool = False) -> st
         if topics else ""
     )
     hl = f'<p class="hl">{escape(headline_for(repo))}</p>' if with_headline else ""
-    desc = f"<p>{escape(repo['description'])}</p>" if repo.get("description") else ""
+    desc = f"<p>{_desc(repo)}</p>" if repo.get("description") else ""
     return (
         f'<article class="card" data-lang="{lang}">'
         f'<h3><span class="rank">{repo["rank"]}</span>'
@@ -243,7 +251,7 @@ def render_edition(edition: dict, daily: list[dict], root: str = "") -> str:
             '<div class="kicker">오늘의 톱뉴스</div>'
             f'<h2><a href="{escape(top["url"])}" target="_blank" rel="noopener">{escape(headline_for(top))}</a></h2>'
             f'<p class="desc"><strong>{escape(top["full_name"])}</strong>{_badges(top)} — '
-            f'{escape(top.get("description") or "설명이 없는 저장소입니다.")}</p>'
+            f'{_desc(top) or "설명이 없는 저장소입니다."}</p>'
             f'{_meta(top, "오늘")}'
             '<h3 style="margin:20px 0 4px;font-size:.8rem;letter-spacing:.1em;color:var(--muted)">오늘의 언어 지형</h3>'
             f'{_lang_bar(daily)}'

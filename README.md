@@ -23,13 +23,26 @@ GitHub에서 지금 가장 뜨거운 저장소들을 모아 **신문처럼** 보
 - `archive/YYYY-MM-DD.html`, `archive.html` — 지난 호
 - `feed.xml` — RSS (최근 20호)
 
+## 한국어 번역
+
+저장소 설명은 Claude Haiku 5.5(`claude-haiku-5-5`)로 한국어로 번역합니다. 원문 영어는 마우스를 올리면 툴팁으로 보입니다.
+
+- **번역 캐시** `data/translations.json`: 이미 번역한 저장소는 다시 번역하지 않고, 설명이 바뀐 경우에만 새로 번역합니다.
+- 새로 번역할 설명을 40개씩 묶어 요청하므로 보통 하루 1~2번 호출, 한 달 비용은 1달러 미만입니다.
+- `ANTHROPIC_API_KEY`가 없거나 API 호출이 실패하면 영어 원문을 그대로 보여 줍니다(사이트 빌드는 계속됩니다).
+
+설정: [Claude Console](https://console.anthropic.com)에서 API 키를 발급받아 저장소
+**Settings → Secrets and variables → Actions**에 `ANTHROPIC_API_KEY`로 등록하세요.
+Console의 사용 한도(spend limit)를 낮게 걸어 두면 예상 밖 과금을 막을 수 있습니다.
+
 ## 실행
 
-Python 3.10+ 표준 라이브러리만 사용합니다. 별도 설치가 필요 없습니다.
+수집·렌더링은 Python 3.10+ 표준 라이브러리만 사용합니다. 번역을 쓰려면 `pip install -r requirements.txt`가 필요합니다.
 
 ```bash
 python -m ghnews               # 오늘 데이터 수집 → data/YYYY-MM-DD.json 저장 → site/ 생성
 python -m ghnews --no-fetch    # 저장된 데이터로 사이트만 다시 생성
+python -m ghnews --no-translate  # 번역 없이 수집·생성
 python -m unittest discover -s tests -t .
 ```
 
@@ -49,8 +62,9 @@ ghnews/
   fetch.py      # 트렌딩 페이지 스크래핑 + Search API 수집
   editorial.py  # 배지·헤드라인·브리핑 생성 (순수 함수)
   render.py     # HTML / RSS 렌더링
+  translate.py  # Claude Haiku 5.5 한국어 번역 + 캐시
   __main__.py   # CLI
-data/           # 호별 수집 데이터 (JSON)
+data/           # 호별 수집 데이터 (JSON), translations.json 번역 캐시
 tests/          # 파서·편집 로직·빌드 테스트
 ```
 
