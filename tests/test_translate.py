@@ -43,6 +43,23 @@ class TranslateTest(unittest.TestCase):
         self.assertEqual(cache["o/r0"]["ko"], "캐시됨")
         self.assertNotIn("o/r2", cache)  # empty description skipped
 
+    def test_non_korean_results_are_retried(self):
+        cache = {"o/r0": {"src": "中文描述", "ko": "中文描述"}}
+        self.assertEqual(translate.pending(edition("中文描述"), cache), {"o/r0": "中文描述"})
+
+        class EchoClient(FakeClient):  # returns the input untranslated
+            def create(self, **kwargs):
+                r = super().create(**kwargs)
+                body = json.loads(r.content[0].text)
+                for t in body["translations"]:
+                    t["ko"] = t["ko"].removeprefix("한글:")
+                r.content[0].text = json.dumps(body)
+                return r
+
+        cache = {}
+        translate.translate_edition(edition("中文描述"), cache, EchoClient(), log=lambda *_: None)
+        self.assertEqual(cache, {})
+
     def test_chunking(self):
         client = FakeClient()
         cache = {}

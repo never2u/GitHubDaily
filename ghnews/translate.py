@@ -10,15 +10,19 @@ from __future__ import annotations
 
 import json
 import os
+import re
 from pathlib import Path
 
 MODEL = "claude-haiku-5-5"
 CHUNK_SIZE = 40
 MAX_DESC_CHARS = 400
 
+HANGUL = re.compile("[\uac00-\ud7a3]")
+
 SYSTEM_PROMPT = """\
 You translate short GitHub repository descriptions into natural Korean for a
-Korean tech news site. Keep product names, library names, code identifiers,
+Korean tech news site. Descriptions may be written in any language (English,
+Chinese, Japanese, ...); always translate them into Korean. Keep product names, library names, code identifiers,
 acronyms and emoji as they are. Write concise, natural Korean (not a stiff
 word-for-word translation) and keep the original meaning; do not add
 information. If a description is already Korean, return it unchanged."""
@@ -65,7 +69,7 @@ def pending(edition: dict, cache: dict) -> dict[str, str]:
         if not desc:
             continue
         cached = cache.get(repo["full_name"])
-        if cached and cached.get("src") == desc:
+        if cached and cached.get("src") == desc and HANGUL.search(cached.get("ko", "")):
             continue
         todo[repo["full_name"]] = desc
     return todo
@@ -83,7 +87,7 @@ def _translate_chunk(client, items: list[tuple[str, str]]) -> dict[str, str]:
         output_config={"effort": "low", "format": {"type": "json_schema", "schema": SCHEMA}},
         messages=[{
             "role": "user",
-            "content": "Translate each description to Korean. Return one entry per id.\n\n" + numbered,
+            "content": "Translate each description into Korean. Return one entry per id.\n\n" + numbered,
         }],
     )
     if response.stop_reason != "end_turn":
@@ -92,7 +96,9 @@ def _translate_chunk(client, items: list[tuple[str, str]]) -> dict[str, str]:
     out = {}
     for entry in json.loads(text)["translations"]:
         idx, ko = entry["id"], entry["ko"].strip()
-        if 0 <= idx < len(items) and ko:
+        # Only accept output that is actually Korean; anything else stays
+        # pending and is retried on the next run.
+        if 0 <= idx < len(items) and HANGUL.search(ko):
             out[items[idx][0]] = ko
     return out
 
