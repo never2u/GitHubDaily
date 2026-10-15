@@ -22,6 +22,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -41,8 +43,15 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data
-          git diff --cached --quiet || git commit -m "edition: $(date -u +%F)"
-          git push
+          git diff --cached --quiet && exit 0
+          git commit -m "edition: $(date -u +%F)"
+          # The branch may have moved since checkout (new commits, or a re-run of an
+          # old run). Replay our data commit on top; on a clash keep today's fresh data.
+          for i in 1 2 3; do
+            git pull --rebase -X theirs origin "$GITHUB_REF_NAME" && git push origin "HEAD:$GITHUB_REF_NAME" && exit 0
+            sleep $((i * 5))
+          done
+          exit 1
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
