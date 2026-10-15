@@ -51,7 +51,7 @@ python -m unittest discover -s tests -t .
 ## 배포 (GitHub Pages)
 
 1. 저장소 **Settings → Pages → Source** 를 **GitHub Actions** 로 설정합니다.
-2. `.github/workflows/daily.yml` 이 매일 09:13 (KST)에 실행되어 새 호를 발행하고,
+2. `.github/workflows/daily.yml` 이 매일 오전 8시(KST) 전에 실행되어 새 호를 발행하고,
    수집한 데이터(`data/`)를 커밋해 다음 날 비교(신규 진입·순위 변동·연속 일수)에 사용합니다.
 3. Actions 탭에서 **Daily edition → Run workflow** 로 즉시 발행할 수도 있습니다.
 

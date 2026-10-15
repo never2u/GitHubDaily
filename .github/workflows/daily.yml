@@ -2,7 +2,9 @@ name: Daily edition
 
 on:
   schedule:
-    - cron: "13 0 * * *" # 매일 09:13 KST
+    # 07:47 KST (= 22:47 UTC). GitHub delays on-the-hour schedules, so start a
+    # little early to have the edition live by 08:00 KST.
+    - cron: "47 22 * * *"
   workflow_dispatch:
   push:
     branches: [main]
@@ -44,7 +46,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data
           git diff --cached --quiet && exit 0
-          git commit -m "edition: $(date -u +%F)"
+          git commit -m "edition: $(TZ=Asia/Seoul date +%F)"
           # The branch may have moved since checkout (new commits, or a re-run of an
           # old run). Replay our data commit on top; on a clash keep today's fresh data.
           for i in 1 2 3; do

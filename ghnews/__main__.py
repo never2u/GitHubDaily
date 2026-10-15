@@ -18,6 +18,7 @@ from .render import render_archive, render_edition, render_feed
 from . import translate
 
 FEED_SIZE = 20
+KST = dt.timezone(dt.timedelta(hours=9))  # editions are dated in Korean time
 
 
 def load_editions(data_dir: Path) -> list[dict]:
@@ -57,7 +58,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="GitHub 트렌딩 뉴스 사이트 생성기")
     parser.add_argument("--data", default="data", type=Path, help="edition JSON directory")
     parser.add_argument("--out", default="site", type=Path, help="output directory")
-    parser.add_argument("--date", help="edition date (YYYY-MM-DD), default today (UTC)")
+    parser.add_argument("--date", help="edition date (YYYY-MM-DD), default today (KST)")
     parser.add_argument("--no-fetch", action="store_true", help="only rebuild from saved data")
     parser.add_argument("--no-translate", action="store_true", help="skip Korean translation")
     parser.add_argument("--base-url", default=os.environ.get("SITE_URL", "https://never2u.github.io/JerrySpace/"))
@@ -65,7 +66,7 @@ def main() -> None:
 
     args.data.mkdir(parents=True, exist_ok=True)
     if not args.no_fetch:
-        today = dt.date.fromisoformat(args.date) if args.date else dt.datetime.now(dt.timezone.utc).date()
+        today = dt.date.fromisoformat(args.date) if args.date else dt.datetime.now(KST).date()
         edition = collect(today)
         has_content = edition["trending"].get("daily") or edition["new_arrivals"]
         if has_content:
