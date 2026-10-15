@@ -8,7 +8,7 @@
   "src": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw"
  },
  "Caho1/open-claude-ui": {
-  "ko": "基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。纯手写 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。",
+  "ko": "REA 기반으로 Claude 공식 데스크톱 UI를 깊이 분석해 높은 충실도로 재현했습니다. 30개의 독립 React 컴포넌트를 직접 작성했고, 8가지 핵심 인터랙션 물리 알고리즘을 포함하며, 3000줄이 넘는 역공학 분석 문서를 함께 제공합니다.",
   "src": "基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。纯手写 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。"
  },
  "CoolkHz/gptibo": {
