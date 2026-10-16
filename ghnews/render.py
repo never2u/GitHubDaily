@@ -6,7 +6,7 @@ import datetime as dt
 from email.utils import format_datetime
 from html import escape
 
-from .editorial import briefing, fmt_num, headline_for, language_breakdown
+from .editorial import briefing, fmt_num, headline_for, language_breakdown, split_front
 
 SITE_TITLE = "깃허브 데일리"
 SITE_TAGLINE = "오늘 GitHub에서 가장 뜨거운 오픈소스 소식"
@@ -15,6 +15,11 @@ PERIOD_LABELS = {"daily": "오늘", "weekly": "이번 주", "monthly": "이번 �
 GAIN_LABELS = {"daily": "오늘", "weekly": "이번 주", "monthly": "이번 달"}
 
 WEEKDAYS = "월화수목금토일"
+
+PUBLISHER = "데이드림"
+# Publisher e-mail, reversed and base64-encoded so it never appears in the page
+# source (or this repo) as plain text; the page decodes it only on click.
+PUBLISHER_MAIL = "bW9jLmxpYW1nQDc3ZG5hbHJldmVu"
 
 CSS = """
 :root{--bg:#f7f5f0;--paper:#fffdf8;--ink:#1d1b16;--muted:#6b665c;--rule:#d9d3c5;
@@ -77,12 +82,41 @@ padding:4px 12px;font:inherit;font-size:.85rem;cursor:pointer}
 .legend{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:.8rem;color:var(--muted)}
 .legend i{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:4px}
 .archive li{margin:4px 0}
+.article .lead-p{font-size:1.12rem;font-weight:600;margin:0 0 12px}
+.article p{margin:0 0 12px}
+.facts{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:.85rem;color:var(--muted);margin:0 0 14px}
+.facts b{color:var(--star)}
+.points{background:var(--paper);border:1px solid var(--rule);padding:12px 16px;margin:4px 0 16px}
+.points h4{margin:0 0 6px;font-size:.78rem;letter-spacing:.1em;color:var(--accent)}
+.points ul{margin:0;padding-left:1.2em}
+.side .blurb{font-size:.9rem;margin:4px 0}
+.chart{width:100%;border-collapse:collapse}
+.chart td{border-top:1px solid var(--rule);padding:10px 8px;vertical-align:top}
+.chart .pos{font:800 1.4rem Georgia,serif;width:2.2em;text-align:center}
+.chart .mv{width:4.5em;font-size:.8rem;font-weight:700;text-align:center;white-space:nowrap}
+.mv.up{color:var(--up)}.mv.down{color:var(--accent)}.mv.same{color:var(--muted)}
+.mv.new{color:var(--new)}
+.chart .name a{font-weight:700;text-decoration:none;overflow-wrap:anywhere}
+.chart .name p{margin:2px 0 0;font-size:.88rem;opacity:.85}
+.chart .stat{font-size:.8rem;color:var(--muted);white-space:nowrap;text-align:right}
+.chart tr.no1 .pos{color:var(--accent)}
+.crown{display:inline-block;font-size:.72rem;font-weight:700;background:var(--accent);color:var(--accent-ink);
+padding:1px 6px;border-radius:3px;margin-left:6px}
+footer .pub{color:var(--ink);font-weight:700}
+footer button{font:inherit;color:inherit;background:none;border:0;padding:0;text-decoration:underline;cursor:pointer}
+@media (max-width:600px){.chart .stat{display:none}}
 footer{border-top:3px double var(--ink);margin-top:48px;padding:16px 0 40px;color:var(--muted);font-size:.85rem}
 .notice{background:var(--chip);padding:8px 12px;font-size:.85rem;margin:16px 0}
 @media (max-width:760px){.lead{grid-template-columns:1fr}}
 """
 
 FILTER_JS = """
+document.querySelectorAll('[data-m]').forEach(function(b){
+  b.addEventListener('click',function(){
+    var a=atob(b.dataset.m).split('').reverse().join('');
+    location.href='mai'+'lto:'+a;
+  });
+});
 document.querySelectorAll('[data-filter-for]').forEach(function(bar){
   var grid=document.getElementById(bar.dataset.filterFor);
   bar.addEventListener('click',function(e){
@@ -142,6 +176,15 @@ def _desc(repo: dict) -> str:
     return f'<span lang="en">{escape(en)}</span>' if en else ""
 
 
+def _intro(repo: dict) -> str:
+    """AI-written introduction when available, else the (translated) description."""
+    if repo.get("blurb"):
+        return escape(repo["blurb"])
+    if repo.get("article"):
+        return escape(repo["article"]["lead"])
+    return _desc(repo)
+
+
 def _card(repo: dict, gain_label: str | None, with_headline: bool = False) -> str:
     lang = escape(repo.get("language") or "기타")
     topics = repo.get("topics") or []
@@ -150,7 +193,8 @@ def _card(repo: dict, gain_label: str | None, with_headline: bool = False) -> st
         if topics else ""
     )
     hl = f'<p class="hl">{escape(headline_for(repo))}</p>' if with_headline else ""
-    desc = f"<p>{_desc(repo)}</p>" if repo.get("description") else ""
+    intro = _intro(repo)
+    desc = f"<p>{intro}</p>" if intro else ""
     return (
         f'<article class="card" data-lang="{lang}">'
         f'<h3><span class="rank">{repo["rank"]}</span>'
@@ -216,8 +260,10 @@ def _page(title: str, body: str, root: str, date: dt.date) -> str:
 <div class="dateline"><span>{korean_date(date)}</span>
 <span><a href="{root}archive.html">지난 호 보기</a> · <a href="{root}feed.xml">RSS</a></span></div>
 {body}
-<footer>데이터 출처: github.com/trending, GitHub Search API · 매일 자동 발행 ·
-<a href="https://github.com/never2u/JerrySpace">소스 코드</a></footer>
+<footer><p>발행인 <span class="pub">{PUBLISHER}</span> ·
+<button type="button" data-m="{PUBLISHER_MAIL}">메일 보내기</button></p>
+<p>데이터 출처: github.com/trending, GitHub Search API · 매일 오전 8시 발행 ·
+<a href="https://github.com/never2u/JerrySpace">소스 코드</a></p></footer>
 </div>
 <script>{FILTER_JS}</script>
 </body>
@@ -225,7 +271,72 @@ def _page(title: str, body: str, root: str, date: dt.date) -> str:
 """
 
 
-def render_edition(edition: dict, daily: list[dict], root: str = "") -> str:
+def _top_story(top: dict) -> str:
+    """Headline, day-specific facts and (when written) the full article."""
+    link = f'href="{escape(top["url"])}" target="_blank" rel="noopener"'
+    facts = [f'<span><b>★ +{fmt_num(top.get("stars_gained", 0))}</b> 오늘</span>',
+             f'<span>★ {fmt_num(top.get("stars", 0))} 누적</span>']
+    if top.get("streak", 1) >= 2:
+        facts.append(f'<span>{top["streak"]}일 연속 트렌딩</span>')
+    if top.get("language"):
+        facts.append(f'<span>{escape(top["language"])}</span>')
+    facts_html = f'<div class="facts"><span><strong>{escape(top["full_name"])}</strong>{_badges(top)}</span>' \
+                 f'{"".join(facts)}</div>'
+    art = top.get("article")
+    if not art:
+        return (f'<h2><a {link}>{escape(headline_for(top))}</a></h2>{facts_html}'
+                f'<p class="desc">{_intro(top) or "설명이 없는 저장소입니다."}</p>')
+    body = "".join(f"<p>{escape(p)}</p>" for p in art["body"])
+    points = "".join(f"<li>{escape(h)}</li>" for h in art.get("highlights", []))
+    points_html = f'<div class="points"><h4>핵심 포인트</h4><ul>{points}</ul></div>' if points else ""
+    return (f'<h2><a {link}>{escape(art["headline"])}</a></h2>'
+            f'<p style="margin:-4px 0 10px;color:var(--muted)">{escape(headline_for(top))}</p>{facts_html}'
+            f'<div class="article"><p class="lead-p">{escape(art["lead"])}</p>{body}</div>{points_html}'
+            f'<p><a {link}>저장소 바로가기 →</a></p>')
+
+
+def _movement(e: dict, has_previous: bool) -> str:
+    if not has_previous:
+        return '<td class="mv same">첫 차트</td>'
+    if e["is_new"]:
+        return '<td class="mv new">NEW</td>'
+    if e["re_entry"]:
+        return '<td class="mv new">재진입</td>'
+    if e["delta"] > 0:
+        return f'<td class="mv up">▲ {e["delta"]}</td>'
+    if e["delta"] < 0:
+        return f'<td class="mv down">▼ {-e["delta"]}</td>'
+    return '<td class="mv same">–</td>'
+
+
+def _chart_section(chart: dict | None) -> str:
+    if not chart or not chart["entries"]:
+        return ""
+    d = dt.date.fromisoformat(chart["date"])
+    monday = d - dt.timedelta(days=d.weekday())
+    rows = []
+    for e in chart["entries"]:
+        crown = ""
+        if e["rank"] == 1 and e.get("no1_weeks", 1) >= 2:
+            crown = f'<span class="crown">{e["no1_weeks"]}주 연속 1위</span>'
+        elif e["rank"] == 1 and chart["has_previous"]:
+            crown = '<span class="crown">새 1위</span>'
+        intro = _intro(e)
+        rows.append(
+            f'<tr class="{"no1" if e["rank"] == 1 else ""}"><td class="pos">{e["rank"]}</td>'
+            f'{_movement(e, chart["has_previous"])}'
+            f'<td class="name"><a href="{escape(e["url"])}" target="_blank" rel="noopener">'
+            f'{escape(e["full_name"])}</a>{crown}{f"<p>{intro}</p>" if intro else ""}</td>'
+            f'<td class="stat">★ +{fmt_num(e.get("stars_gained", 0))} 주간<br>'
+            f'최고 {e["peak"]}위 · 차트 {e["weeks"]}주</td></tr>'
+        )
+    sub = (f"{monday.month}월 {monday.day}일 주간 · 매주 월요일 갱신 · 일주일간 받은 별 순위"
+           + (" · 순위 변동은 지난주 차트 대비" if chart["has_previous"] else ""))
+    return (f'<section id="chart"><h2>주간 인기 차트</h2><p class="sub">{escape(sub)}</p>'
+            f'<table class="chart"><tbody>{"".join(rows)}</tbody></table></section>')
+
+
+def render_edition(edition: dict, daily: list[dict], root: str = "", chart: dict | None = None) -> str:
     date = dt.date.fromisoformat(edition["date"])
     trending = edition.get("trending", {})
     parts = []
@@ -239,20 +350,17 @@ def render_edition(edition: dict, daily: list[dict], root: str = "") -> str:
                      + "".join(f"<li>{escape(l)}</li>" for l in lines) + "</ul></aside>")
 
     if daily:
-        ranked = sorted(daily, key=lambda r: -r.get("stars_gained", 0))
-        top, runners = ranked[0], ranked[1:6]
+        top, runners, _ = split_front(daily)
         side = "".join(
             f'<li><a href="{escape(r["url"])}" target="_blank" rel="noopener">{escape(r["full_name"])}</a>'
-            f'{_badges(r)}<div>{escape(headline_for(r))}</div>{_meta(r, "오늘")}</li>'
+            f'{_badges(r)}<div>{escape(headline_for(r))}</div>'
+            f'{f"<p class=blurb>{_intro(r)}</p>" if _intro(r) else ""}{_meta(r, "오늘")}</li>'
             for r in runners
         )
         parts.append(
             '<div class="lead"><div>'
             '<div class="kicker">오늘의 톱뉴스</div>'
-            f'<h2><a href="{escape(top["url"])}" target="_blank" rel="noopener">{escape(headline_for(top))}</a></h2>'
-            f'<p class="desc"><strong>{escape(top["full_name"])}</strong>{_badges(top)} — '
-            f'{_desc(top) or "설명이 없는 저장소입니다."}</p>'
-            f'{_meta(top, "오늘")}'
+            f'{_top_story(top)}'
             '<h3 style="margin:20px 0 4px;font-size:.8rem;letter-spacing:.1em;color:var(--muted)">오늘의 언어 지형</h3>'
             f'{_lang_bar(daily)}'
             '</div><div class="side"><h3>함께 떠오르는 저장소</h3>'
@@ -261,11 +369,10 @@ def render_edition(edition: dict, daily: list[dict], root: str = "") -> str:
 
     parts.append(_section("daily", "오늘의 트렌딩",
                           "지난 24시간 동안 별을 가장 많이 받은 저장소", daily, "오늘", headlines=True))
-    parts.append(_section("new", "갓 태어난 신작",
+    parts.append(_section("new", "주목받는 신작",
                           "최근 7일 안에 만들어진 저장소 중 별이 가장 많은 순",
                           edition.get("new_arrivals", [])[:18], None))
-    parts.append(_section("weekly", "이번 주 화제",
-                          "지난 7일간 별을 가장 많이 받은 저장소", trending.get("weekly", []), "이번 주"))
+    parts.append(_chart_section(chart))
     parts.append(_section("monthly", "이번 달 결산",
                           "지난 30일간 별을 가장 많이 받은 저장소", trending.get("monthly", []), "이번 달"))
 
@@ -295,7 +402,11 @@ def render_feed(editions: list[tuple[dict, list[dict]]], base_url: str) -> str:
         desc = "<ul>" + "".join(f"<li>{escape(l)}</li>" for l in briefing(edition, daily)) + "</ul><ol>" + "".join(
             f'<li><a href="{escape(r["url"])}">{escape(r["full_name"])}</a> — '
             f'{escape(headline_for(r))}</li>' for r in top) + "</ol>"
-        title = headline_for(top[0]) if top else "오늘의 GitHub 소식"
+        lead, _, _ = split_front(daily)
+        art = (lead or {}).get("article")
+        if art:
+            desc = f"<p><strong>{escape(art['headline'])}</strong> — {escape(art['lead'])}</p>" + desc
+        title = (art["headline"] if art else headline_for(top[0])) if top else "오늘의 GitHub 소식"
         items.append(
             f"<item><title>{escape(f'[{korean_date(date)}] {title}')}</title>"
             f"<link>{escape(link)}</link><guid isPermaLink=\"true\">{escape(link)}</guid>"

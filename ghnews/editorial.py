@@ -91,5 +91,14 @@ def briefing(edition: dict, daily: list[dict]) -> list[str]:
     arrivals = edition.get("new_arrivals") or []
     if arrivals:
         a = arrivals[0]
-        lines.append(f"이번 주 탄생한 저장소 중 1위는 {a['full_name']} (★ {fmt_num(a['stars'])}).")
+        lines.append(f"주목받는 신작 1위는 {a['full_name']} (★ {fmt_num(a['stars'])}).")
     return lines
+
+
+def split_front(daily: list[dict]):
+    """(top story, five rising repos, the rest) of the daily list."""
+    if not daily:
+        return None, [], []
+    ranked = sorted(daily, key=lambda r: -r.get("stars_gained", 0))
+    front = {r["full_name"] for r in ranked[:6]}
+    return ranked[0], ranked[1:6], [r for r in daily if r["full_name"] not in front]

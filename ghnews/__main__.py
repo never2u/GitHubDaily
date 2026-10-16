@@ -15,7 +15,9 @@ from pathlib import Path
 from .editorial import annotate
 from .fetch import collect
 from .render import render_archive, render_edition, render_feed
-from . import translate
+from . import stories, translate
+from .chart import build_charts, chart_for
+from .usage import Usage
 
 FEED_SIZE = 20
 KST = dt.timezone(dt.timedelta(hours=9))  # editions are dated in Korean time
@@ -32,8 +34,12 @@ def load_editions(data_dir: Path) -> list[dict]:
 def build_site(data_dir: Path, out_dir: Path, base_url: str) -> int:
     editions = load_editions(data_dir)
     cache = translate.load_cache(data_dir / "translations.json")
+    story_cache = stories.load_cache(data_dir / "stories.json")
     for edition in editions:
         translate.apply(edition, cache)
+        for repos in edition.get("trending", {}).values():
+            stories.attach(repos, story_cache)
+    charts = build_charts(editions)
     out_dir.mkdir(parents=True, exist_ok=True)
     (out_dir / "archive").mkdir(exist_ok=True)
 
@@ -41,12 +47,13 @@ def build_site(data_dir: Path, out_dir: Path, base_url: str) -> int:
     for i, edition in enumerate(editions):
         daily = annotate(edition.get("trending", {}).get("daily", []), editions[i + 1:])
         annotated.append((edition, daily))
-        page = render_edition(edition, daily, root="../")
+        page = render_edition(edition, daily, root="../", chart=chart_for(edition["date"], charts))
         (out_dir / "archive" / f"{edition['date']}.html").write_text(page, encoding="utf-8")
 
     if annotated:
         latest, daily = annotated[0]
-        (out_dir / "index.html").write_text(render_edition(latest, daily), encoding="utf-8")
+        page = render_edition(latest, daily, chart=chart_for(latest["date"], charts))
+        (out_dir / "index.html").write_text(page, encoding="utf-8")
     (out_dir / "archive.html").write_text(
         render_archive([e["date"] for e in editions]), encoding="utf-8")
     (out_dir / "feed.xml").write_text(render_feed(annotated[:FEED_SIZE], base_url), encoding="utf-8")
@@ -60,7 +67,7 @@ def main() -> None:
     parser.add_argument("--out", default="site", type=Path, help="output directory")
     parser.add_argument("--date", help="edition date (YYYY-MM-DD), default today (KST)")
     parser.add_argument("--no-fetch", action="store_true", help="only rebuild from saved data")
-    parser.add_argument("--no-translate", action="store_true", help="skip Korean translation")
+    parser.add_argument("--no-translate", action="store_true", help="skip Korean translation and stories")
     parser.add_argument("--base-url", default=os.environ.get("SITE_URL", "https://never2u.github.io/JerrySpace/"))
     args = parser.parse_args()
 
@@ -74,10 +81,18 @@ def main() -> None:
             path.write_text(json.dumps(edition, ensure_ascii=False, indent=1), encoding="utf-8")
             print(f"saved {path}")
             if not args.no_translate:
+                usage = Usage()
                 cache_path = args.data / "translations.json"
                 cache = translate.load_cache(cache_path)
-                if translate.translate_edition(edition, cache):
+                if translate.translate_edition(edition, cache, usage=usage):
                     translate.save_cache(cache_path, cache)
+
+                story_path = args.data / "stories.json"
+                story_cache = stories.load_cache(story_path)
+                if stories.write_stories(edition["trending"].get("daily", []), story_cache, today, usage):
+                    stories.save_cache(story_path, story_cache)
+                for line in usage.report():
+                    print(line)
         else:
             print("nothing collected; keeping previous editions")
 

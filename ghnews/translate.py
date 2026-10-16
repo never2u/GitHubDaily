@@ -18,11 +18,18 @@ CHUNK_SIZE = 40
 MAX_DESC_CHARS = 400
 
 HANGUL = re.compile("[\uac00-\ud7a3]")
+HAN_RUN = re.compile("[\u4e00-\u9fff\u3040-\u30ff]{3,}")  # leftover Chinese/Japanese text
+
+
+def is_korean(text: str) -> bool:
+    return bool(HANGUL.search(text)) and not HAN_RUN.search(text)
 
 SYSTEM_PROMPT = """\
 You translate short GitHub repository descriptions into natural Korean for a
 Korean tech news site. Descriptions may be written in any language (English,
-Chinese, Japanese, ...); always translate them into Korean. Keep product names, library names, code identifiers,
+Chinese, Japanese, ...); always translate them into Korean. If a description
+repeats the same content in several languages, translate it once into a single
+Korean text - do not leave any Chinese or Japanese in the output. Keep product names, library names, code identifiers,
 acronyms and emoji as they are. Write concise, natural Korean (not a stiff
 word-for-word translation) and keep the original meaning; do not add
 information. If a description is already Korean, return it unchanged."""
@@ -69,13 +76,13 @@ def pending(edition: dict, cache: dict) -> dict[str, str]:
         if not desc:
             continue
         cached = cache.get(repo["full_name"])
-        if cached and cached.get("src") == desc and HANGUL.search(cached.get("ko", "")):
+        if cached and cached.get("src") == desc and is_korean(cached.get("ko", "")):
             continue
         todo[repo["full_name"]] = desc
     return todo
 
 
-def _translate_chunk(client, items: list[tuple[str, str]]) -> dict[str, str]:
+def _translate_chunk(client, items: list[tuple[str, str]], usage=None) -> dict[str, str]:
     numbered = "\n".join(
         json.dumps({"id": i, "text": desc[:MAX_DESC_CHARS]}, ensure_ascii=False)
         for i, (_, desc) in enumerate(items)
@@ -90,6 +97,8 @@ def _translate_chunk(client, items: list[tuple[str, str]]) -> dict[str, str]:
             "content": "Translate each description into Korean. Return one entry per id.\n\n" + numbered,
         }],
     )
+    if usage is not None:
+        usage.record(response)
     if response.stop_reason != "end_turn":
         raise RuntimeError(f"unexpected stop_reason: {response.stop_reason}")
     text = next(b.text for b in response.content if b.type == "text")
@@ -98,12 +107,12 @@ def _translate_chunk(client, items: list[tuple[str, str]]) -> dict[str, str]:
         idx, ko = entry["id"], entry["ko"].strip()
         # Only accept output that is actually Korean; anything else stays
         # pending and is retried on the next run.
-        if 0 <= idx < len(items) and HANGUL.search(ko):
+        if 0 <= idx < len(items) and is_korean(ko):
             out[items[idx][0]] = ko
     return out
 
 
-def translate_edition(edition: dict, cache: dict, client=None, log=print) -> int:
+def translate_edition(edition: dict, cache: dict, client=None, log=print, usage=None) -> int:
     """Fill `cache` with Korean for this edition's new descriptions.
 
     Returns the number of newly translated descriptions.
@@ -125,7 +134,7 @@ def translate_edition(edition: dict, cache: dict, client=None, log=print) -> int
     for start in range(0, len(items), CHUNK_SIZE):
         chunk = items[start:start + CHUNK_SIZE]
         try:
-            result = _translate_chunk(client, chunk)
+            result = _translate_chunk(client, chunk, usage)
         except Exception as exc:  # API error, refusal, bad JSON - keep English
             log(f"translate: chunk {start // CHUNK_SIZE + 1} failed: {exc}")
             continue

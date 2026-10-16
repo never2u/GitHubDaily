@@ -46,6 +46,9 @@ class TranslateTest(unittest.TestCase):
     def test_non_korean_results_are_retried(self):
         cache = {"o/r0": {"src": "中文描述", "ko": "中文描述"}}
         self.assertEqual(translate.pending(edition("中文描述"), cache), {"o/r0": "中文描述"})
+        mixed = {"o/r0": {"src": "x", "ko": "압축 플러그인입니다. 上下文压缩插件"}}
+        self.assertEqual(translate.pending(edition("x"), mixed), {"o/r0": "x"})
+        self.assertTrue(translate.is_korean("Claude Code용 SwiftUI 스킬"))
 
         class EchoClient(FakeClient):  # returns the input untranslated
             def create(self, **kwargs):
