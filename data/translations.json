@@ -8,8 +8,8 @@
   "src": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw"
  },
  "Caho1/open-claude-ui": {
-  "ko": "REA 기반으로 Claude 공식 데스크톱 UI를 깊이 분석해 높은 충실도로 재현했습니다. 30개의 독립 React 컴포넌트를 직접 작성했고, 8가지 핵심 인터랙션 물리 알고리즘을 포함하며, 3000줄이 넘는 역공학 분석 문서를 함께 제공합니다.",
-  "src": "基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。纯手写 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。"
+  "ko": "REA로 Claude 공식 데스크톱 UI를 심층 분석하여 고충실도로 재현한 프로젝트. 독립 React 컴포넌트 30개와 핵심 인터랙션 물리 알고리즘 8종을 재현하며, 3000줄 이상의 역공학 분석 문서를 포함합니다.",
+  "src": "基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。"
  },
  "CoolkHz/gptibo": {
   "ko": "자체 호스팅 가능한 GPTibo 스토어프론트, 관리자 페이지, Go 백엔드. 민감 정보를 제거한 MIT 라이선스 소스",
@@ -30,6 +30,10 @@
  "K-Dense-AI/scientific-agent-skills": {
   "ko": "어떤 AI 에이전트든 AI 과학자로 바꿔 줍니다. 전 세계 25만 명 이상의 과학자가 사용하는 과학 분야 1위 Agent Skills 라이브러리입니다. 검증된 즉시 사용 가능한 스킬 177개와 100개 이상의 과학 데이터베이스를 제공하며, 생물학, 화학, 의학, 신약 개발을 다룹니다. Cursor, Claude Code, Codex, Pi, Antigravity 및 오픈 Agent Skills 표준과 호환됩니다.",
   "src": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard."
+ },
+ "LibreSpark/LibreTV": {
+  "ko": "Docker 등 배포 방식을 지원하는 1분 만에 구축 가능한 영상 사이트",
+  "src": "一分钟搭建影视站，支持Docker等部署方式"
  },
  "NVIDIA/OpenShell": {
   "ko": "OpenShell은 자율 AI 에이전트를 위한 안전하고 비공개적인 런타임입니다.",
@@ -58,6 +62,10 @@
  "YeonwooSung/my-claude-code-mods": {
   "ko": "내가 필요한 맞춤형 Claude Code 모드",
   "src": "Custom Claude Code Mods that I need"
+ },
+ "Zfinix/eleven": {
+  "ko": "macOS, Windows, Linux용 에이전트 우선 리버스 엔지니어링 도구. 모든 ACP 에이전트가 바이너리, 안드로이드 앱, GPU 커널을 읽고, 이름을 바꾸고, 패치할 수 있습니다.",
+  "src": "Agent-first reverse engineering for macOS, Windows and Linux: any ACP agent reads, renames and patches binaries, Android apps and GPU kernels next to you."
  },
  "addyosmani/agent-skills": {
   "ko": "AI 코딩 에이전트를 위한 실무 수준의 엔지니어링 스킬입니다.",
@@ -136,7 +144,7 @@
   "src": "Write HTML. Render video. Built for agents."
  },
  "jhaizhou-ops/d2r-mobile": {
-  "ko": "Reign of the Warlock 확장팩이 포함된 Diablo II: Resurrected를 위한 오픈소스 iOS / macOS 호환 계층입니다. 본인이 가진 Switch 버전 게임을 iPhone, iPad, Mac에서 네이티브로 실행하며, 전체 터치 조작, 60fps, 새로운 엔드게임 모드를 지원합니다. 게임 파일은 직접 준비해야 합니다. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS 兼容层",
+  "ko": "Reign of the Warlock 확장팩이 포함된 Diablo II: Resurrected를 iOS / macOS에서 실행하는 오픈소스 호환 레이어. 보유한 Switch 게임 사본을 iPhone, iPad, Mac에서 네이티브로 실행하며, 완전한 터치 조작, 60 fps, 새로운 엔드게임 모드를 지원합니다. 게임 파일은 직접 준비해야 합니다.",
   "src": "Open-source iOS / macOS compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad and Mac — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS 兼容层"
  },
  "lightseekorg/tokenspeed": {
@@ -204,7 +212,7 @@
   "src": "The open-source app everyone uses to manage agents at work"
  },
  "ranxianglei/billion-context": {
-  "ko": "작은 컨텍스트 윈도우를 위한 컨텍스트 압축 플러그인입니다(100K 컨텍스트면 충분합니다). 토큰을 5배 적게 쓰고, 한 달 이상 이어지는 단일 세션(수십억 토큰)도 지원합니다. 上下文压缩插件，兼顾小窗口(100k上下文足矣)省token(省5倍token)和超长会话(数月级别几十亿token单会话)。billion-context is all you need",
+  "ko": "작은 컨텍스트 창(100K 컨텍스트면 충분), 토큰 5배 절감, 월 단위 단일 세션(수십억 토큰)을 위한 컨텍스트 압축 플러그인. billion-context is all you need",
   "src": "A context-compression plugin for small context windows (a 100K context is enough), token savings (5x fewer tokens), and month-long single sessions (billions of tokens).上下文压缩插件，兼顾小窗口(100k上下文足矣)省token(省5倍token)和超长会话(数月级别几十亿token单会话)。billion-context is all you need"
  },
  "rayytor/desktop_gifs": {
