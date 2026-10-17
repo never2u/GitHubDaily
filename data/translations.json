@@ -1,4 +1,8 @@
 {
+ "0xProbabillity/house-control": {
+  "ko": "Mac 메뉴 바와 iPhone에서 집을 실시간 3D 모델로 보여줍니다. Smart Life, Home Assistant, Philips Hue, Apple Home을 통해 조명과 에어컨을 제어할 수 있습니다.",
+  "src": "Your home as a live 3D model in the Mac menu bar and on iPhone — lights and ACs via Smart Life, Home Assistant, Philips Hue and Apple Home."
+ },
  "AjncSystem/ShadowOfTheColossus-PC": {
   "ko": "Shadow of the Colossus(PS4, CUSA08809)의 Windows 네이티브 포트. 본인의 게임 덤프가 필요합니다. PC용 네이티브 포트.",
   "src": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC."
@@ -19,6 +23,10 @@
   "ko": "직접 호스팅하는 헬스장 및 맨몸 운동 추적기입니다. 루틴 계획, 운동 기록(슈퍼세트, 워밍업, 유산소 포함), 어떤 근육이 훈련되었는지, 피로하거나 훈련량이 줄었는지 확인, FitNotes, Strong, Hevy에서 가져오기, 패스키 로그인을 지원합니다. 데이터도, 서버도 직접 관리하세요.",
   "src": "Self-hosted gym & body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server."
  },
+ "HKUDS/CLI-Anything": {
+  "ko": "\"CLI-Anything: 모든 소프트웨어를 에이전트 네이티브로 만들기\" -- CLI-Hub: https://clianything.cc/",
+  "src": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/"
+ },
  "HeyPuter/everything": {
   "ko": "전 세계의 소프트웨어를 처음부터 다시 만들고 오픈 소스로 공개하고 있습니다.",
   "src": "We're rebuilding and open-sourcing the world’s software from scratch."
@@ -35,6 +43,14 @@
   "ko": "Docker 등 배포 방식을 지원하는 1분 만에 구축 가능한 영상 사이트",
   "src": "一分钟搭建影视站，支持Docker等部署方式"
  },
+ "MadsLorentzen/ai-job-search": {
+  "ko": "내 컴퓨터에서 돌아가는 구직 도구. Claude Code 기반의 AI 지원 프레임워크로, 채용 공고 평가, 이력서 맞춤화, 자기소개서 작성, 면접 준비를 도와줍니다. 포크해서 내 것으로 만들어 쓰세요.",
+  "src": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it."
+ },
+ "MyLuxy/overdrive": {
+  "ko": "PS5용 홈브루 게임 스토어 Overdrive, 1,800여 개의 게임 제공.",
+  "src": "Overdrive, a PS5 homebrew game store with 1,800+ games."
+ },
  "NVIDIA/OpenShell": {
   "ko": "OpenShell은 자율 AI 에이전트를 위한 안전하고 비공개적인 런타임입니다.",
   "src": "OpenShell is the safe, private runtime for autonomous AI agents."
@@ -42,6 +58,10 @@
  "NationalSecurityAgency/ghidra": {
   "ko": "Ghidra는 소프트웨어 리버스 엔지니어링(SRE) 프레임워크입니다.",
   "src": "Ghidra is a software reverse engineering (SRE) framework"
+ },
+ "PS5Dev/Byepervisor-Reborn": {
+  "ko": "어쩌다 보니 Byepervisor가 반환되었다...",
+  "src": "Somehow, Byepervisor returned..."
  },
  "SubmitGame/awesome-decomp-games": {
   "ko": "디컴파일, 재컴파일, 리버스 엔지니어링된 게임을 평가와 함께 자동 갱신하는 목록. 디컴프, 정적 리컴파일, 소스 포트, 엔진 리메이크, 브라우저 포트를 포함합니다.",
@@ -58,6 +78,10 @@
  "TencentCloud/Octop": {
   "ko": "더 똑똑한 직접 호스팅 AI 어시스턴트로, 다중 사용자와 다중 에이전트를 지원합니다.",
   "src": "A smarter, self-hosted AI assistant — multi-user, multi-agent."
+ },
+ "VectifyAI/PageIndex": {
+  "ko": "📑 PageIndex: 벡터 없이 추론 기반으로 동작하는 RAG를 위한 문서 인덱스",
+  "src": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG"
  },
  "YeonwooSung/my-claude-code-mods": {
   "ko": "내가 필요한 맞춤형 Claude Code 모드",
@@ -119,9 +143,17 @@
   "ko": "반도체 제조 입문",
   "src": "Introduction to Semiconductor Manufacturing"
  },
+ "cloudflare/security-audit-skill": {
+  "ko": "독립적으로 검증되고 기계가 읽을 수 있는 결과를 제공하는 다단계 보안 감사용 코딩 에이전트 스킬",
+  "src": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings"
+ },
  "cursor/plugins": {
   "ko": "Cursor 플러그인 사양 및 공식 플러그인입니다.",
   "src": "Cursor plugin specification and official plugins"
+ },
+ "datalab-to/indra": {
+  "ko": "빠른 CPU OCR: 줄 검출, CTC 인식, 읽기 순서 처리, 마크다운 출력",
+  "src": "Fast CPU OCR: line detection, CTC recognition, reading order, markdown"
  },
  "debpalash/VoiceStudio": {
   "ko": "VoiceStudio는 오픈소스이자 완전 로컬에서 동작하는 ElevenLabs 대안입니다. 음성 복제, 음성 디자인, 영상 더빙, 받아쓰기, 전사, 오디오북 제작을 646개 언어로 지원합니다.",
@@ -135,6 +167,10 @@
   "ko": "에이전트에게 CAD 슈퍼파워를 부여하세요.",
   "src": "Give your agent CAD superpowers."
  },
+ "feder-cr/git-ai": {
+  "ko": "AI 에이전트를 위해 설계된 Git.",
+  "src": "Git designed for AI agents."
+ },
  "feder-cr/open_scion": {
   "ko": "코딩 에이전트를 위해 만든 버전 관리 시스템 Scion의 오픈소스 버전입니다.",
   "src": "Open-source version of Scion: version control built for coding agents."
@@ -142,6 +178,10 @@
  "heygen-com/hyperframes": {
   "ko": "HTML을 작성하고 영상을 렌더링하세요. 에이전트를 위해 만들어졌습니다.",
   "src": "Write HTML. Render video. Built for agents."
+ },
+ "i12bp8/decomp.wtf": {
+  "ko": "What The Function: AI 에이전트가 사용자가 소유한 게임을 디컴파일하여, 동일한 바이트로 컴파일되는 C 코드로 바꿔줍니다. 로컬에서 실행됩니다.",
+  "src": "What The Function: your AI agent decompiles games you own into C that compiles to the exact same bytes. Runs locally."
  },
  "jhaizhou-ops/d2r-mobile": {
   "ko": "Reign of the Warlock 확장팩이 포함된 Diablo II: Resurrected를 iOS / macOS에서 실행하는 오픈소스 호환 레이어. 보유한 Switch 게임 사본을 iPhone, iPad, Mac에서 네이티브로 실행하며, 완전한 터치 조작, 60 fps, 새로운 엔드게임 모드를 지원합니다. 게임 파일은 직접 준비해야 합니다.",
@@ -234,6 +274,14 @@
  "shaongitbd/doory": {
   "ko": "오픈 소스 Canva 대안",
   "src": "Open source canva alternative"
+ },
+ "solana-classic/solana-classic": {
+  "ko": "재미를 되찾자. 아트, NFT, 밈과 그 커뮤니티에 초점을 맞춘 오픈소스 SVM 블록체인 개발 프로젝트. 실험용 테스트넷이 공개되었습니다.",
+  "src": "Bring back the fun. Open-source SVM blockchain development focused on art, NFTs, memes and their communities. Experimental testnet live."
+ },
+ "storytold/artcraft": {
+  "ko": "예술가, 디자이너, 영상 제작자를 위한 의도 중심 창작 엔진 ArtCraft",
+  "src": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers"
  },
  "storytold/craft-launcher": {
   "ko": "The Craft 앱 런처입니다.",
