@@ -9,7 +9,7 @@
     "url": "https://github.com/anthropics/claude-plugins-official",
     "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
     "language": "Python",
-    "stars": 41766,
+    "stars": 41780,
     "forks": 4465,
     "stars_gained": 1397,
     "built_by": [
@@ -26,8 +26,8 @@
     "url": "https://github.com/MadsLorentzen/ai-job-search",
     "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
     "language": "Python",
-    "stars": 50413,
-    "forks": 16939,
+    "stars": 50435,
+    "forks": 16938,
     "stars_gained": 1365,
     "built_by": [
      "claude",
@@ -44,7 +44,7 @@
     "url": "https://github.com/affaan-m/ECC",
     "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
     "language": "JavaScript",
-    "stars": 282516,
+    "stars": 282532,
     "forks": 41987,
     "stars_gained": 1145,
     "built_by": [
@@ -61,7 +61,7 @@
     "url": "https://github.com/HKUDS/CLI-Anything",
     "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
     "language": "Python",
-    "stars": 54062,
+    "stars": 54071,
     "forks": 4905,
     "stars_gained": 574,
     "built_by": [
@@ -79,7 +79,7 @@
     "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
     "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
     "language": "Python",
-    "stars": 52256,
+    "stars": 52264,
     "forks": 4630,
     "stars_gained": 878,
     "built_by": [
@@ -96,8 +96,8 @@
     "url": "https://github.com/akitaonrails/ai-memory",
     "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
     "language": "Rust",
-    "stars": 9924,
-    "forks": 718,
+    "stars": 9925,
+    "forks": 719,
     "stars_gained": 178,
     "built_by": [
      "akitaonrails",
@@ -114,7 +114,7 @@
     "url": "https://github.com/android/skills",
     "description": "",
     "language": "Kotlin",
-    "stars": 8428,
+    "stars": 8432,
     "forks": 555,
     "stars_gained": 355,
     "built_by": [
@@ -132,7 +132,7 @@
     "url": "https://github.com/stablyai/orca",
     "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
     "language": "TypeScript",
-    "stars": 95421,
+    "stars": 95432,
     "forks": 6114,
     "stars_gained": 830,
     "built_by": [
@@ -150,7 +150,7 @@
     "url": "https://github.com/anthropics/claude-code",
     "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
     "language": "TypeScript",
-    "stars": 151758,
+    "stars": 151764,
     "forks": 26877,
     "stars_gained": 179,
     "built_by": [
@@ -168,8 +168,8 @@
     "url": "https://github.com/debpalash/VoiceStudio",
     "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
     "language": "Python",
-    "stars": 73393,
-    "forks": 8034,
+    "stars": 73413,
+    "forks": 8035,
     "stars_gained": 2125,
     "built_by": [
      "debpalash",
@@ -186,8 +186,8 @@
     "url": "https://github.com/anomalyco/opencode",
     "description": "The open source coding agent.",
     "language": "TypeScript",
-    "stars": 215338,
-    "forks": 28866,
+    "stars": 215362,
+    "forks": 28867,
     "stars_gained": 438,
     "built_by": [
      "thdxr",
@@ -203,7 +203,7 @@
     "url": "https://github.com/ruvnet/ruflo",
     "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
     "language": "TypeScript",
-    "stars": 76071,
+    "stars": 76078,
     "forks": 9002,
     "stars_gained": 420,
     "built_by": [
@@ -220,7 +220,7 @@
     "url": "https://github.com/xerj-org/xerj",
     "description": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep (1974 tool). One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. It’s durable and can replace ElasticSearch saving you x10 infra costs.",
     "language": "Rust",
-    "stars": 7807,
+    "stars": 7816,
     "forks": 416,
     "stars_gained": 1160,
     "built_by": [
@@ -240,8 +240,8 @@
     "url": "https://github.com/morluto/rea",
     "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
     "language": "TypeScript",
-    "stars": 307908,
-    "forks": 77913,
+    "stars": 308070,
+    "forks": 77949,
     "stars_gained": 239923,
     "built_by": [
      "morluto",
@@ -258,8 +258,8 @@
     "url": "https://github.com/storytold/artcraft",
     "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
     "language": "Rust",
-    "stars": 31787,
-    "forks": 5035,
+    "stars": 31801,
+    "forks": 5038,
     "stars_gained": 18479,
     "built_by": [
      "echelon",
@@ -276,8 +276,8 @@
     "url": "https://github.com/boykopovar/AnyPS5",
     "description": "Tool for automatic PS5 executables porting to Linux and Windows",
     "language": "C++",
-    "stars": 41766,
-    "forks": 3762,
+    "stars": 41786,
+    "forks": 3766,
     "stars_gained": 16250,
     "built_by": [
      "claude",
@@ -294,8 +294,8 @@
     "url": "https://github.com/cathrynlavery/diagram-design",
     "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
     "language": "HTML",
-    "stars": 57027,
-    "forks": 3626,
+    "stars": 57038,
+    "forks": 3628,
     "stars_gained": 8382,
     "built_by": [
      "cathrynlavery",
@@ -311,7 +311,7 @@
     "url": "https://github.com/anthropics/claude-plugins-official",
     "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
     "language": "Python",
-    "stars": 41766,
+    "stars": 41780,
     "forks": 4465,
     "stars_gained": 3581,
     "built_by": [
@@ -328,8 +328,8 @@
     "url": "https://github.com/heygen-com/hyperframes",
     "description": "Write HTML. Render video. Built for agents.",
     "language": "TypeScript",
-    "stars": 66010,
-    "forks": 5959,
+    "stars": 66016,
+    "forks": 5961,
     "stars_gained": 5639,
     "built_by": [
      "miguel-heygen",
@@ -346,7 +346,7 @@
     "url": "https://github.com/mksglu/context-mode",
     "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
     "language": "TypeScript",
-    "stars": 30524,
+    "stars": 30523,
     "forks": 2212,
     "stars_gained": 4438,
     "built_by": [
@@ -363,8 +363,8 @@
     "url": "https://github.com/NationalSecurityAgency/ghidra",
     "description": "Ghidra is a software reverse engineering (SRE) framework",
     "language": "Java",
-    "stars": 90273,
-    "forks": 10107,
+    "stars": 90282,
+    "forks": 10108,
     "stars_gained": 7608,
     "built_by": [
      "ryanmkurtz",
@@ -381,7 +381,7 @@
     "url": "https://github.com/mattpocock/skills",
     "description": "Skills for Real Engineers. Straight from my .agents directory.",
     "language": "Shell",
-    "stars": 295121,
+    "stars": 295133,
     "forks": 24755,
     "stars_gained": 11272,
     "built_by": [
@@ -397,8 +397,8 @@
     "url": "https://github.com/ranxianglei/billion-context",
     "description": "A context-compression plugin for small context windows (a 100K context is enough), token savings (5x fewer tokens), and month-long single sessions (billions of tokens).上下文压缩插件，兼顾小窗口(100k上下文足矣)省token(省5倍token)和超长会话(数月级别几十亿token单会话)。billion-context is all you need",
     "language": "TypeScript",
-    "stars": 1719,
-    "forks": 137,
+    "stars": 1721,
+    "forks": 138,
     "stars_gained": 888,
     "built_by": [
      "ranxianglei",
@@ -416,7 +416,7 @@
     "url": "https://github.com/cloudflare/security-audit-skill",
     "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
     "language": "JavaScript",
-    "stars": 30719,
+    "stars": 30723,
     "forks": 1921,
     "stars_gained": 22054,
     "built_by": [
@@ -432,7 +432,7 @@
     "url": "https://github.com/paperclipai/paperclip",
     "description": "The open-source app everyone uses to manage agents at work",
     "language": "TypeScript",
-    "stars": 103655,
+    "stars": 103658,
     "forks": 17332,
     "stars_gained": 22891,
     "built_by": [
@@ -468,8 +468,8 @@
     "url": "https://github.com/heygen-com/hyperframes",
     "description": "Write HTML. Render video. Built for agents.",
     "language": "TypeScript",
-    "stars": 66010,
-    "forks": 5959,
+    "stars": 66016,
+    "forks": 5961,
     "stars_gained": 15041,
     "built_by": [
      "miguel-heygen",
@@ -486,8 +486,8 @@
     "url": "https://github.com/debpalash/VoiceStudio",
     "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
     "language": "Python",
-    "stars": 73393,
-    "forks": 8034,
+    "stars": 73413,
+    "forks": 8035,
     "stars_gained": 40333,
     "built_by": [
      "debpalash",
@@ -504,7 +504,7 @@
     "url": "https://github.com/vectorize-io/hindsight",
     "description": "Hindsight: Agent Memory That Learns",
     "language": "Python",
-    "stars": 50869,
+    "stars": 50874,
     "forks": 6129,
     "stars_gained": 27228,
     "built_by": [
@@ -522,7 +522,7 @@
     "url": "https://github.com/agent-substrate/substrate",
     "description": "Agent Substrate: the core system",
     "language": "Go",
-    "stars": 5419,
+    "stars": 5418,
     "forks": 592,
     "stars_gained": 3487,
     "built_by": [
@@ -540,7 +540,7 @@
     "url": "https://github.com/affaan-m/ECC",
     "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
     "language": "JavaScript",
-    "stars": 282516,
+    "stars": 282532,
     "forks": 41987,
     "stars_gained": 23023,
     "built_by": [
@@ -557,7 +557,7 @@
     "url": "https://github.com/mksglu/context-mode",
     "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
     "language": "TypeScript",
-    "stars": 30524,
+    "stars": 30523,
     "forks": 2212,
     "stars_gained": 7235,
     "built_by": [
@@ -574,7 +574,7 @@
     "url": "https://github.com/anthropics/knowledge-work-plugins",
     "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
     "language": "Python",
-    "stars": 30009,
+    "stars": 30010,
     "forks": 3391,
     "stars_gained": 5654,
     "built_by": [
@@ -591,7 +591,7 @@
     "url": "https://github.com/NVIDIA/OpenShell",
     "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
     "language": "Rust",
-    "stars": 16539,
+    "stars": 16540,
     "forks": 1807,
     "stars_gained": 7956,
     "built_by": [
@@ -609,8 +609,8 @@
     "url": "https://github.com/tashfeenahmed/freellmapi",
     "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
     "language": "TypeScript",
-    "stars": 36640,
-    "forks": 4956,
+    "stars": 36642,
+    "forks": 4958,
     "stars_gained": 9863,
     "built_by": [
      "tashfeenahmed",
@@ -627,8 +627,8 @@
     "url": "https://github.com/NationalSecurityAgency/ghidra",
     "description": "Ghidra is a software reverse engineering (SRE) framework",
     "language": "Java",
-    "stars": 90273,
-    "forks": 10107,
+    "stars": 90282,
+    "forks": 10108,
     "stars_gained": 12003,
     "built_by": [
      "ryanmkurtz",
@@ -645,7 +645,7 @@
     "url": "https://github.com/TencentCloud/Octop",
     "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
     "language": "Python",
-    "stars": 9780,
+    "stars": 9781,
     "forks": 1249,
     "stars_gained": 6631,
     "built_by": [
@@ -663,7 +663,7 @@
     "url": "https://github.com/trycua/cua",
     "description": "Scale computer-use 2.0 with open-source drivers, cross-OS sandboxes, and benchmarks for training, evaluation, and data generation.",
     "language": "Rust",
-    "stars": 30042,
+    "stars": 30044,
     "forks": 2154,
     "stars_gained": 7435,
     "built_by": [
@@ -680,7 +680,7 @@
     "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
     "description": "Learn AI Engineering! Learn it. Build it. Ship it for others.",
     "language": "Python",
-    "stars": 70681,
+    "stars": 70685,
     "forks": 12444,
     "stars_gained": 16014,
     "built_by": [
@@ -697,8 +697,8 @@
     "url": "https://github.com/cursor/plugins",
     "description": "Cursor plugin specification and official plugins",
     "language": "TypeScript",
-    "stars": 12308,
-    "forks": 1197,
+    "stars": 12321,
+    "forks": 1198,
     "stars_gained": 4213,
     "built_by": [
      "cursoragent",
@@ -715,7 +715,7 @@
     "url": "https://github.com/addyosmani/agent-skills",
     "description": "Production-grade engineering skills for AI coding agents.",
     "language": "JavaScript",
-    "stars": 107851,
+    "stars": 107857,
     "forks": 11242,
     "stars_gained": 12605,
     "built_by": [
@@ -733,7 +733,7 @@
     "url": "https://github.com/longbridge/gpui-kit",
     "description": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
     "language": "Rust",
-    "stars": 17973,
+    "stars": 17972,
     "forks": 1091,
     "stars_gained": 3500,
     "built_by": [
@@ -768,7 +768,7 @@
     "url": "https://github.com/anthropics/claude-code",
     "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
     "language": "TypeScript",
-    "stars": 151758,
+    "stars": 151764,
     "forks": 26877,
     "stars_gained": 6460,
     "built_by": [
@@ -789,9 +789,9 @@
    "url": "https://github.com/jhaizhou-ops/d2r-mobile",
    "description": "Open-source iOS / macOS compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad and Mac — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS 兼容层",
    "language": "C",
-   "stars": 3709,
+   "stars": 3710,
    "forks": 1053,
-   "stars_gained": 3709,
+   "stars_gained": 3710,
    "topics": [
     "compatibility-layer",
     "diablo-2-resurrected",
@@ -812,9 +812,9 @@
    "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
    "description": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
    "language": "Python",
-   "stars": 2636,
+   "stars": 2641,
    "forks": 508,
-   "stars_gained": 2636,
+   "stars_gained": 2641,
    "topics": [
     "agent-skill",
     "comfyui",
@@ -835,9 +835,9 @@
    "url": "https://github.com/HeyPuter/everything",
    "description": "We're rebuilding and open-sourcing the world’s software from scratch.",
    "language": "JavaScript",
-   "stars": 2053,
+   "stars": 2055,
    "forks": 294,
-   "stars_gained": 2053,
+   "stars_gained": 2055,
    "topics": [
     "adobe",
     "cad",
@@ -858,9 +858,9 @@
    "url": "https://github.com/ahwootech/BRUTAL",
    "description": "A free, open source C# framework for making games, or your own game engine. Direct access to native APIs and Vulkan, with the low-level libraries around them. The foundation under Kitten Space Agency and RimWorld's Waylith engine.",
    "language": "C#",
-   "stars": 1793,
+   "stars": 1794,
    "forks": 94,
-   "stars_gained": 1793,
+   "stars_gained": 1794,
    "topics": [
     "csharp",
     "dotnet",
@@ -880,9 +880,9 @@
    "url": "https://github.com/deeplethe/solid-glass",
    "description": "A design system for AI applications. Material, physical, tactile, technical.",
    "language": "TypeScript",
-   "stars": 1720,
+   "stars": 1730,
    "forks": 21,
-   "stars_gained": 1720,
+   "stars_gained": 1730,
    "topics": [
     "agent-ui",
     "ai",
@@ -903,9 +903,9 @@
    "url": "https://github.com/chenglou/handwired",
    "description": "Turn your regular JavaScript code into a neural net.",
    "language": "TypeScript",
-   "stars": 1676,
+   "stars": 1677,
    "forks": 135,
-   "stars_gained": 1676,
+   "stars_gained": 1677,
    "topics": [],
    "created_at": "2026-10-15T02:15:09Z",
    "built_by": [
@@ -919,9 +919,9 @@
    "url": "https://github.com/Supermedo/uncharted_pc",
    "description": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
    "language": "C++",
-   "stars": 1260,
+   "stars": 1262,
    "forks": 68,
-   "stars_gained": 1260,
+   "stars_gained": 1262,
    "topics": [],
    "created_at": "2026-10-15T00:17:23Z",
    "built_by": [
@@ -930,6 +930,29 @@
   },
   {
    "rank": 8,
+   "full_name": "Caho1/open-claude-ui",
+   "owner": "Caho1",
+   "url": "https://github.com/Caho1/open-claude-ui",
+   "description": "基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。",
+   "language": "TypeScript",
+   "stars": 1138,
+   "forks": 251,
+   "stars_gained": 1138,
+   "topics": [
+    "anthropic",
+    "audioworklet",
+    "claude",
+    "design-system",
+    "framer-motion",
+    "motion-physics"
+   ],
+   "created_at": "2026-10-14T14:05:05Z",
+   "built_by": [
+    "Caho1"
+   ]
+  },
+  {
+   "rank": 9,
    "full_name": "feder-cr/git-ai",
    "owner": "feder-cr",
    "url": "https://github.com/feder-cr/git-ai",
@@ -949,29 +972,6 @@
    "created_at": "2026-10-15T13:12:02Z",
    "built_by": [
     "feder-cr"
-   ]
-  },
-  {
-   "rank": 9,
-   "full_name": "Caho1/open-claude-ui",
-   "owner": "Caho1",
-   "url": "https://github.com/Caho1/open-claude-ui",
-   "description": "基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。",
-   "language": "TypeScript",
-   "stars": 1136,
-   "forks": 250,
-   "stars_gained": 1136,
-   "topics": [
-    "anthropic",
-    "audioworklet",
-    "claude",
-    "design-system",
-    "framer-motion",
-    "motion-physics"
-   ],
-   "created_at": "2026-10-14T14:05:05Z",
-   "built_by": [
-    "Caho1"
    ]
   },
   {
@@ -1004,9 +1004,9 @@
    "url": "https://github.com/AjncSystem/ShadowOfTheColossus-PC",
    "description": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.",
    "language": "C++",
-   "stars": 982,
-   "forks": 47,
-   "stars_gained": 982,
+   "stars": 985,
+   "forks": 48,
+   "stars_gained": 985,
    "topics": [],
    "created_at": "2026-10-12T13:11:53Z",
    "built_by": [
@@ -1059,9 +1059,9 @@
    "url": "https://github.com/rohit267/net-merge",
    "description": "Use all your network adapters at once on Windows/Linux/Mac: per-connection load balancing over Wi-Fi, Ethernet and phone/USB tethers (TUN + Wintun)",
    "language": "Go",
-   "stars": 795,
+   "stars": 798,
    "forks": 30,
-   "stars_gained": 795,
+   "stars_gained": 798,
    "topics": [
     "bandwidth-aggregation",
     "downloader",
@@ -1082,9 +1082,9 @@
    "url": "https://github.com/xscreensaver-official/xscreensaver",
    "description": "There is no official XScreenSaver GitHub repository.",
    "language": null,
-   "stars": 709,
-   "forks": 19,
-   "stars_gained": 709,
+   "stars": 714,
+   "forks": 20,
+   "stars_gained": 714,
    "topics": [],
    "created_at": "2026-10-16T16:24:44Z",
    "built_by": [
@@ -1098,9 +1098,9 @@
    "url": "https://github.com/Leonxlnx/earshot",
    "description": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
    "language": "Python",
-   "stars": 684,
+   "stars": 686,
    "forks": 40,
-   "stars_gained": 684,
+   "stars_gained": 686,
    "topics": [
     "ai-agents",
     "audio",
@@ -1120,9 +1120,9 @@
    "url": "https://github.com/Zfinix/eleven",
    "description": "Agent-first reverse engineering for macOS, Windows and Linux: any ACP agent reads, renames and patches binaries, Android apps and GPU kernels next to you.",
    "language": "TypeScript",
-   "stars": 674,
+   "stars": 676,
    "forks": 107,
-   "stars_gained": 674,
+   "stars_gained": 676,
    "topics": [
     "acp",
     "ai-agents",
@@ -1159,9 +1159,9 @@
    "url": "https://github.com/MyLuxy/overdrive",
    "description": "Overdrive, a PS5 homebrew game store with 1,800+ games.",
    "language": "C++",
-   "stars": 643,
-   "forks": 156,
-   "stars_gained": 643,
+   "stars": 647,
+   "forks": 157,
+   "stars_gained": 647,
    "topics": [
     "exfat",
     "game-store",
@@ -1182,9 +1182,9 @@
    "url": "https://github.com/anujasid/blender-ai-mcp-addon",
    "description": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with OpenAI, ChatGPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon and plugin, copilot for 3D, bpy Python scripting, MCP integration.",
    "language": "Python",
-   "stars": 616,
-   "forks": 129,
-   "stars_gained": 616,
+   "stars": 622,
+   "forks": 133,
+   "stars_gained": 622,
    "topics": [
     "ai-assistant",
     "blender",
@@ -1221,9 +1221,9 @@
    "url": "https://github.com/datalab-to/indra",
    "description": "Fast CPU OCR: line detection, CTC recognition, reading order, markdown",
    "language": "Python",
-   "stars": 584,
+   "stars": 585,
    "forks": 47,
-   "stars_gained": 584,
+   "stars_gained": 585,
    "topics": [
     "ai",
     "cpu",
@@ -1244,9 +1244,9 @@
    "url": "https://github.com/Tencent-Hunyuan/Hy-Memory",
    "description": "",
    "language": "Python",
-   "stars": 574,
+   "stars": 575,
    "forks": 56,
-   "stars_gained": 574,
+   "stars_gained": 575,
    "topics": [],
    "created_at": "2026-10-15T13:06:56Z",
    "built_by": [
@@ -1260,9 +1260,9 @@
    "url": "https://github.com/0xProbabillity/house-control",
    "description": "Your home as a live 3D model in the Mac menu bar and on iPhone — lights and ACs via Smart Life, Home Assistant, Philips Hue and Apple Home.",
    "language": "Swift",
-   "stars": 557,
+   "stars": 558,
    "forks": 77,
-   "stars_gained": 557,
+   "stars_gained": 558,
    "topics": [
     "home-assistant",
     "home-automation",
@@ -1299,9 +1299,9 @@
    "url": "https://github.com/solana-classic/solana-classic",
    "description": "Bring back the fun. Open-source SVM blockchain development focused on art, NFTs, memes and their communities. Experimental testnet live.",
    "language": "Rust",
-   "stars": 498,
+   "stars": 500,
    "forks": 57,
-   "stars_gained": 498,
+   "stars_gained": 500,
    "topics": [
     "agave",
     "blockchain",
@@ -1322,9 +1322,9 @@
    "url": "https://github.com/HayatoG/iss_pc",
    "description": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.",
    "language": "C++",
-   "stars": 496,
+   "stars": 497,
    "forks": 32,
-   "stars_gained": 496,
+   "stars_gained": 497,
    "topics": [
     "game-preservation",
     "homebrew",
@@ -1345,9 +1345,9 @@
    "url": "https://github.com/Noniv/web-ocean",
    "description": "Real-time WebGPU ocean renderer written from scratch, no engine. FFT waves, whitecaps, sun glitter, physically based sunset sky with clouds, free camera. Built with Claude Code (Opus 5.5). Opens from a single 61 KB HTML file in Chrome.",
    "language": "HTML",
-   "stars": 491,
+   "stars": 496,
    "forks": 83,
-   "stars_gained": 491,
+   "stars_gained": 496,
    "topics": [],
    "created_at": "2026-10-16T23:49:53Z",
    "built_by": [
@@ -1394,5 +1394,31 @@
    ]
   }
  ],
- "top_story": "anthropics/claude-plugins-official"
+ "layout": {
+  "top": "stablyai/orca",
+  "rising": [
+   "anomalyco/opencode",
+   "anthropics/claude-code",
+   "akitaonrails/ai-memory"
+  ],
+  "fresh": [],
+  "steady": [
+   "anthropics/claude-plugins-official",
+   "MadsLorentzen/ai-job-search",
+   "affaan-m/ECC",
+   "HKUDS/CLI-Anything",
+   "K-Dense-AI/scientific-agent-skills",
+   "android/skills",
+   "debpalash/VoiceStudio",
+   "ruvnet/ruflo",
+   "xerj-org/xerj"
+  ],
+  "arrivals": [
+   "Supermedo/uncharted_pc",
+   "Caho1/open-claude-ui",
+   "AjncSystem/ShadowOfTheColossus-PC",
+   "outcrawlai/scout"
+  ]
+ },
+ "top_story": "stablyai/orca"
 }
