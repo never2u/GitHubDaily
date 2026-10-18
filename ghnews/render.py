@@ -90,6 +90,22 @@ padding:4px 12px;font:inherit;font-size:.85rem;cursor:pointer}
 .points h4{margin:0 0 6px;font-size:.78rem;letter-spacing:.1em;color:var(--accent)}
 .points ul{margin:0;padding-left:1.2em}
 .side .blurb{font-size:.9rem;margin:4px 0}
+.deck{font-size:1.1rem;color:var(--muted);margin:-4px 0 10px}
+.hero{margin:6px 0 14px}
+.hero img{display:block;width:100%;max-height:440px;object-fit:contain;background:var(--paper);
+border:1px solid var(--rule);border-radius:4px}
+.hero figcaption{font-size:.8rem;color:var(--muted);margin-top:6px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(96px,1fr));gap:1px;background:var(--rule);
+border:1px solid var(--rule);margin:0 0 16px}
+.stats div{background:var(--paper);padding:10px 12px}
+.stats b{display:block;font:800 1.3rem Georgia,serif;color:var(--star)}
+.stats span{font-size:.75rem;color:var(--muted)}
+.article h3{font-size:1.05rem;margin:18px 0 6px}
+.builders h4{margin:0 0 8px;font-size:.78rem;letter-spacing:.1em;color:var(--muted)}
+.builders div{display:flex;flex-wrap:wrap;gap:10px 16px;margin-bottom:12px}
+.builders a{display:flex;align-items:center;gap:6px;text-decoration:none;font-size:.85rem}
+.builders img{width:28px;height:28px;border-radius:50%;background:var(--chip)}
+.cta a{font-weight:700}
 .chart{width:100%;border-collapse:collapse}
 .chart td{border-top:1px solid var(--rule);padding:10px 8px;vertical-align:top}
 .chart .pos{font:800 1.4rem Georgia,serif;width:2.2em;text-align:center}
@@ -271,28 +287,60 @@ def _page(title: str, body: str, root: str, date: dt.date) -> str:
 """
 
 
-def _top_story(top: dict) -> str:
-    """Headline, day-specific facts and (when written) the full article."""
-    link = f'href="{escape(top["url"])}" target="_blank" rel="noopener"'
-    facts = [f'<span><b>★ +{fmt_num(top.get("stars_gained", 0))}</b> 오늘</span>',
-             f'<span>★ {fmt_num(top.get("stars", 0))} 누적</span>']
+def _hero(top: dict, art: dict | None) -> str:
+    """Main image: the README screenshot when found, else GitHub's social card."""
+    card = f"https://opengraph.githubassets.com/1/{top['full_name']}"
+    src = (art or {}).get("image") or card
+    caption = (art or {}).get("image_caption") or f"{top['full_name']} 소개 이미지"
+    source = "README" if (art or {}).get("image") else "GitHub"
+    return (f'<figure class="hero"><img src="{escape(src)}" alt="{escape(caption)}" loading="eager" '
+            f'referrerpolicy="no-referrer" onerror="this.onerror=null;this.src=\'{escape(card)}\'">'
+            f'<figcaption>{escape(caption)} <span>· 이미지 출처: {source}</span></figcaption></figure>')
+
+
+def _stat_box(top: dict) -> str:
+    cells = [("오늘 받은 별", f'+{fmt_num(top.get("stars_gained", 0))}'),
+             ("누적 별", fmt_num(top.get("stars", 0))),
+             ("포크", fmt_num(top.get("forks", 0)))]
     if top.get("streak", 1) >= 2:
-        facts.append(f'<span>{top["streak"]}일 연속 트렌딩</span>')
+        cells.append(("트렌딩", f'{top["streak"]}일째'))
     if top.get("language"):
-        facts.append(f'<span>{escape(top["language"])}</span>')
-    facts_html = f'<div class="facts"><span><strong>{escape(top["full_name"])}</strong>{_badges(top)}</span>' \
-                 f'{"".join(facts)}</div>'
+        cells.append(("언어", escape(top["language"])))
+    return '<div class="stats">' + "".join(
+        f'<div><b>{v}</b><span>{k}</span></div>' for k, v in cells) + "</div>"
+
+
+def _builders(top: dict) -> str:
+    people = [p for p in top.get("built_by", []) if p and p != "claude"][:5]
+    if not people:
+        return ""
+    faces = "".join(
+        f'<a href="https://github.com/{escape(p)}" target="_blank" rel="noopener" title="{escape(p)}">'
+        f'<img src="https://github.com/{escape(p)}.png?size=64" alt="{escape(p)}" loading="lazy" '
+        f'referrerpolicy="no-referrer"><span>{escape(p)}</span></a>' for p in people)
+    return f'<div class="builders"><h4>만든 사람들</h4><div>{faces}</div></div>'
+
+
+def _top_story(top: dict) -> str:
+    """Headline, image, numbers, the full article (when written) and the makers."""
+    link = f'href="{escape(top["url"])}" target="_blank" rel="noopener"'
+    name_line = (f'<div class="facts"><span><strong>{escape(top["full_name"])}</strong>{_badges(top)}</span>'
+                 f'<span>{escape(headline_for(top))}</span></div>')
     art = top.get("article")
     if not art:
-        return (f'<h2><a {link}>{escape(headline_for(top))}</a></h2>{facts_html}'
-                f'<p class="desc">{_intro(top) or "설명이 없는 저장소입니다."}</p>')
-    body = "".join(f"<p>{escape(p)}</p>" for p in art["body"])
+        return (f'<h2><a {link}>{escape(headline_for(top))}</a></h2>{name_line}{_hero(top, None)}'
+                f'{_stat_box(top)}<p class="desc">{_intro(top) or "설명이 없는 저장소입니다."}</p>'
+                f'{_builders(top)}<p class="cta"><a {link}>저장소 바로가기 →</a></p>')
+    if art.get("sections"):
+        body = "".join(f'<h3>{escape(x["heading"])}</h3><p>{escape(x["text"])}</p>' for x in art["sections"])
+    else:  # articles cached before sections existed
+        body = "".join(f"<p>{escape(p)}</p>" for p in art.get("body", []))
     points = "".join(f"<li>{escape(h)}</li>" for h in art.get("highlights", []))
     points_html = f'<div class="points"><h4>핵심 포인트</h4><ul>{points}</ul></div>' if points else ""
-    return (f'<h2><a {link}>{escape(art["headline"])}</a></h2>'
-            f'<p style="margin:-4px 0 10px;color:var(--muted)">{escape(headline_for(top))}</p>{facts_html}'
-            f'<div class="article"><p class="lead-p">{escape(art["lead"])}</p>{body}</div>{points_html}'
-            f'<p><a {link}>저장소 바로가기 →</a></p>')
+    deck = f'<p class="deck">{escape(art["subheadline"])}</p>' if art.get("subheadline") else ""
+    return (f'<h2><a {link}>{escape(art["headline"])}</a></h2>{deck}{name_line}{_hero(top, art)}'
+            f'{_stat_box(top)}<div class="article"><p class="lead-p">{escape(art["lead"])}</p>{body}</div>'
+            f'{points_html}{_builders(top)}<p class="cta"><a {link}>저장소 바로가기 →</a></p>')
 
 
 def _movement(e: dict, has_previous: bool) -> str:
@@ -350,7 +398,7 @@ def render_edition(edition: dict, daily: list[dict], root: str = "", chart: dict
                      + "".join(f"<li>{escape(l)}</li>" for l in lines) + "</ul></aside>")
 
     if daily:
-        top, runners, _ = split_front(daily)
+        top, runners, _ = split_front(daily, edition.get("top_story"))
         side = "".join(
             f'<li><a href="{escape(r["url"])}" target="_blank" rel="noopener">{escape(r["full_name"])}</a>'
             f'{_badges(r)}<div>{escape(headline_for(r))}</div>'
@@ -402,7 +450,7 @@ def render_feed(editions: list[tuple[dict, list[dict]]], base_url: str) -> str:
         desc = "<ul>" + "".join(f"<li>{escape(l)}</li>" for l in briefing(edition, daily)) + "</ul><ol>" + "".join(
             f'<li><a href="{escape(r["url"])}">{escape(r["full_name"])}</a> — '
             f'{escape(headline_for(r))}</li>' for r in top) + "</ol>"
-        lead, _, _ = split_front(daily)
+        lead, _, _ = split_front(daily, edition.get("top_story"))
         art = (lead or {}).get("article")
         if art:
             desc = f"<p><strong>{escape(art['headline'])}</strong> — {escape(art['lead'])}</p>" + desc

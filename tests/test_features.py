@@ -66,8 +66,10 @@ class FakeClient:
 
     def _article(self, **kw):
         self.calls.append(kw)
-        return self._resp(kw["model"], {"headline": "톱 기사", "lead": "요약입니다.",
-                                        "body": ["첫 문단.", "둘째 문단."], "highlights": ["포인트"]})
+        return self._resp(kw["model"], {"headline": "톱 기사", "subheadline": "부제", "lead": "요약입니다.",
+                                        "sections": [{"heading": "무엇인가", "text": "첫 문단."},
+                                                     {"heading": "왜 지금", "text": "둘째 문단."}],
+                                        "highlights": ["포인트"], "image_caption": "데모 화면"})
 
     def _blurbs(self, **kw):
         self.calls.append(kw)
@@ -81,7 +83,8 @@ class StoriesTest(unittest.TestCase):
 
     def test_writes_article_and_blurbs_then_caches(self):
         cache, client, usage = {"articles": {}, "blurbs": {}}, FakeClient(), Usage()
-        n = stories.write_stories(self.daily(), cache, TODAY, usage, client, readme=lambda _: "README", log=lambda *_: None)
+        readme = lambda name: '# T\n<img src="docs/demo.png" width="900">' if name == "o/r0" else "README"
+        n = stories.write_stories(self.daily(), cache, TODAY, usage, client, readme=readme, log=lambda *_: None)
         self.assertEqual(n, 10)                                   # 1 article + 9 blurbs
         art_call = client.calls[0]
         self.assertEqual(art_call["model"], "claude-sonnet-5-5")
@@ -91,6 +94,8 @@ class StoriesTest(unittest.TestCase):
         self.assertTrue(cache["blurbs"]["o/r1"]["long"])          # rising -> long
         self.assertFalse(cache["blurbs"]["o/r9"]["long"])
         self.assertNotIn("o/r0", cache["blurbs"])                 # top story gets an article
+        self.assertEqual(cache["articles"]["o/r0"]["image"], "https://raw.githubusercontent.com/o/r0/HEAD/docs/demo.png")
+        self.assertNotIn("<img", art_call["messages"][0]["content"])  # README is cleaned before sending
         self.assertGreater(usage.cost(), 0)
 
         client2 = FakeClient()
@@ -124,6 +129,30 @@ class StoriesTest(unittest.TestCase):
         self.assertEqual(stories.clean_readme(md), "# Title\n link\n para")
 
 
+class TopStoryTest(unittest.TestCase):
+    def test_rotation_skips_recent_top_stories(self):
+        from ghnews.editorial import assign_top_stories, split_front
+        mk = lambda d, names: {"date": d, "trending": {"daily": [repo(n, 100 - i) for i, n in enumerate(names)]}}
+        eds = [mk("2026-10-15", ["a", "b", "c"]), mk("2026-10-16", ["a", "b", "c"]), mk("2026-10-17", ["b", "a", "c"])]
+        assign_top_stories(eds)
+        self.assertEqual([e["top_story"] for e in eds], ["a", "b", "c"])
+        top, rising, rest = split_front(eds[1]["trending"]["daily"], eds[1]["top_story"])
+        self.assertEqual(top["full_name"], "b")
+        self.assertEqual([r["full_name"] for r in rising], ["a", "c"])  # the #1 by stars moves to rising
+
+    def test_persisted_top_story_is_kept(self):
+        from ghnews.editorial import assign_top_stories
+        e = {"date": "2026-10-15", "top_story": "c", "trending": {"daily": [repo("a"), repo("c")]}}
+        assign_top_stories([e])
+        self.assertEqual(e["top_story"], "c")
+
+    def test_find_image(self):
+        raw = ('<img src="logo.png" width="100">\n![ci](https://img.shields.io/x.svg)\n'
+               '![shot](https://github.com/o/r/blob/main/a.png)')
+        self.assertEqual(stories.find_image(raw, "o/r"), "https://raw.githubusercontent.com/o/r/main/a.png")
+        self.assertIsNone(stories.find_image("![badge](https://badgen.net/x)", "o/r"))
+
+
 class SiteTest(unittest.TestCase):
     def test_page_features(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -132,17 +161,25 @@ class SiteTest(unittest.TestCase):
             e = ed("2026-10-19", ["o/r0", "o/r1"], daily=["o/r0", "o/r1"])
             e["trending"]["daily"][0]["stars_gained"] = 999
             e["new_arrivals"] = [repo("n/new")]
+            e["trending"]["daily"][0]["built_by"] = ["alice", "claude"]
             Path(data, "2026-10-19.json").write_text(json.dumps(e))
             stories.save_cache(data / "stories.json", {
                 "articles": {"o/r0": {"date": "2026-10-19", "headline": "AI 톱 헤드라인", "lead": "리드 문장",
-                                      "body": ["본문 문단"], "highlights": ["핵심 하나"]}},
+                                      "subheadline": "부제 한 줄", "image": "https://example.com/shot.png",
+                                      "image_caption": "실행 화면",
+                                      "sections": [{"heading": "어떻게 동작하나", "text": "본문 문단"}],
+                                      "highlights": ["핵심 하나"]}},
                 "blurbs": {"o/r1": {"date": "2026-10-19", "long": True, "text": "떠오르는 소개"}}})
             build_site(data, out, "https://example.com/")
             html = (out / "index.html").read_text()
             for text in ("AI 톱 헤드라인", "리드 문장", "핵심 포인트", "떠오르는 소개",
-                         "주간 인기 차트", "첫 차트", "주목받는 신작", "발행인", "데이드림"):
+                         "주간 인기 차트", "첫 차트", "주목받는 신작", "발행인", "데이드림",
+                         "부제 한 줄", "<h3>어떻게 동작하나</h3>", 'src="https://example.com/shot.png"',
+                         "opengraph.githubassets.com/1/o/r0", "실행 화면", "만든 사람들", "alice.png",
+                         "오늘 받은 별"):
                 self.assertIn(text, html)
             self.assertNotIn("갓 태어난", html)
+            self.assertNotIn("claude.png", html)                  # bot co-authors are not "makers"
             import base64
             from ghnews.render import PUBLISHER_MAIL
             address = base64.b64decode(PUBLISHER_MAIL).decode()[::-1]

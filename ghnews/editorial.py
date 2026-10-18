@@ -95,10 +95,39 @@ def briefing(edition: dict, daily: list[dict]) -> list[str]:
     return lines
 
 
-def split_front(daily: list[dict]):
+TOP_STORY_COOLDOWN = 7  # editions before the same repo can lead again
+
+
+def pick_top(daily: list[dict], recent: list[str]) -> str:
+    """Hottest repo that has not led the paper in the recent editions.
+
+    `recent` holds earlier top stories, newest first. If every repo led
+    recently, the one that led longest ago is chosen.
+    """
+    ranked = sorted(daily, key=lambda r: -r.get("stars_gained", 0))
+    for repo in ranked:
+        if repo["full_name"] not in recent:
+            return repo["full_name"]
+    return max(ranked, key=lambda r: recent.index(r["full_name"]))["full_name"]
+
+
+def assign_top_stories(editions: list[dict]) -> None:
+    """Fill in `top_story` for editions that lack one, oldest first."""
+    recent = []
+    for ed in sorted(editions, key=lambda e: e["date"]):
+        daily = ed.get("trending", {}).get("daily") or []
+        if daily and not ed.get("top_story"):
+            ed["top_story"] = pick_top(daily, recent[:TOP_STORY_COOLDOWN])
+        if ed.get("top_story"):
+            recent.insert(0, ed["top_story"])
+
+
+def split_front(daily: list[dict], top_name: str | None = None):
     """(top story, five rising repos, the rest) of the daily list."""
     if not daily:
         return None, [], []
     ranked = sorted(daily, key=lambda r: -r.get("stars_gained", 0))
-    front = {r["full_name"] for r in ranked[:6]}
-    return ranked[0], ranked[1:6], [r for r in daily if r["full_name"] not in front]
+    top = next((r for r in ranked if r["full_name"] == top_name), ranked[0])
+    rising = [r for r in ranked if r is not top][:5]
+    front = {top["full_name"], *(r["full_name"] for r in rising)}
+    return top, rising, [r for r in daily if r["full_name"] not in front]
