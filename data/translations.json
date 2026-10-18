@@ -27,6 +27,10 @@
   "ko": "\"CLI-Anything: 모든 소프트웨어를 에이전트 네이티브로 만들기\" -- CLI-Hub: https://clianything.cc/",
   "src": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/"
  },
+ "HayatoG/iss_pc": {
+  "ko": "inFAMOUS Second Son(PS4, CUSA00223)의 네이티브 PC 포트(Linux/Windows)입니다. 개발 중이며 플레이 가능하고, 사용자가 보유한 게임 덤프로 실행합니다. 게임이나 펌웨어 파일은 포함되어 있지 않습니다. 모션 센서 에뮬레이션을 지원합니다. | inFAMOUS Second Son의 네이티브 PC 포트(개발 중)이며, 사용자 본인의 덤프를 사용합니다.",
+  "src": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump."
+ },
  "HeyPuter/everything": {
   "ko": "전 세계의 소프트웨어를 처음부터 다시 만들고 오픈 소스로 공개하고 있습니다.",
   "src": "We're rebuilding and open-sourcing the world’s software from scratch."
@@ -38,6 +42,10 @@
  "K-Dense-AI/scientific-agent-skills": {
   "ko": "어떤 AI 에이전트든 AI 과학자로 바꿔 줍니다. 전 세계 25만 명 이상의 과학자가 사용하는 과학 분야 1위 Agent Skills 라이브러리입니다. 검증된 즉시 사용 가능한 스킬 177개와 100개 이상의 과학 데이터베이스를 제공하며, 생물학, 화학, 의학, 신약 개발을 다룹니다. Cursor, Claude Code, Codex, Pi, Antigravity 및 오픈 Agent Skills 표준과 호환됩니다.",
   "src": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard."
+ },
+ "Leonxlnx/earshot": {
+  "ko": "코딩 에이전트를 위한 귀: AI가 듣고, 검토하고, 소리를 만들 수 있게 합니다. CPU만으로 동작하는 오픈소스입니다.",
+  "src": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source."
  },
  "LibreSpark/LibreTV": {
   "ko": "Docker 등 배포 방식을 지원하는 1분 만에 구축 가능한 영상 사이트",
@@ -58,6 +66,10 @@
  "NationalSecurityAgency/ghidra": {
   "ko": "Ghidra는 소프트웨어 리버스 엔지니어링(SRE) 프레임워크입니다.",
   "src": "Ghidra is a software reverse engineering (SRE) framework"
+ },
+ "Noniv/web-ocean": {
+  "ko": "엔진 없이 처음부터 작성한 실시간 WebGPU 바다 렌더러입니다. FFT 파도, 백캡, 햇빛 반짝임, 구름이 있는 물리 기반 일몰 하늘, 자유 카메라를 지원합니다. Claude Code(Opus 5.5)로 제작되었으며, 61KB 단일 HTML 파일을 Chrome에서 열어 실행합니다.",
+  "src": "Real-time WebGPU ocean renderer written from scratch, no engine. FFT waves, whitecaps, sun glitter, physically based sunset sky with clouds, free camera. Built with Claude Code (Opus 5.5). Opens from a single 61 KB HTML file in Chrome."
  },
  "PS5Dev/Byepervisor-Reborn": {
   "ko": "어쩌다 보니 Byepervisor가 반환되었다...",
@@ -107,9 +119,17 @@
   "ko": "게임이나 자체 게임 엔진을 만들 수 있는 무료 오픈 소스 C# 프레임워크. 네이티브 API와 Vulkan에 직접 접근할 수 있으며, 주변의 저수준 라이브러리도 함께 제공합니다. Kitten Space Agency와 RimWorld의 Waylith 엔진의 기반입니다.",
   "src": "A free, open source C# framework for making games, or your own game engine. Direct access to native APIs and Vulkan, with the low-level libraries around them. The foundation under Kitten Space Agency and RimWorld's Waylith engine."
  },
+ "akitaonrails/ai-memory": {
+  "ko": "코딩 에이전트 CLI를 위한 장기 기억 솔루션이며, 서로 다른 에이전트 벤더 간 작업 인계를 돕습니다.",
+  "src": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors"
+ },
  "alibaba/open-code-review": {
   "ko": "안전하고 빠르며 효율적이고, 알리바바 규모에서 검증되었습니다. 결정적 파이프라인과 LLM 에이전트를 결합한 하이브리드 코드 리뷰 도구로, 정밀한 라인 단위 코멘트를 제공하며 NPE, 스레드 안전성, XSS, SQL 인젝션 등 다국어 기본 규칙셋을 내장하고 OpenAI 및 Anthropic과 호환됩니다.",
   "src": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible."
+ },
+ "anomalyco/opencode": {
+  "ko": "오픈소스 코딩 에이전트입니다.",
+  "src": "The open source coding agent."
  },
  "anthropics/claude-code": {
   "ko": "Claude Code는 터미널에 상주하며 코드베이스를 이해하고, 일상적인 작업 실행, 복잡한 코드 설명, git 워크플로 처리를 자연어 명령으로 수행해 더 빠르게 코딩하도록 돕는 에이전트형 코딩 도구입니다.",
@@ -122,6 +142,10 @@
  "anthropics/knowledge-work-plugins": {
   "ko": "Claude Cowork에서 주로 지식 노동자가 사용하도록 만든 플러그인 모음 오픈소스 저장소입니다.",
   "src": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork"
+ },
+ "anujasid/blender-ai-mcp-addon": {
+  "ko": "Blender용 AI 어시스턴트이자 MCP 서버입니다. 시각적 채팅, 씬 도구, 다중 에이전트 워크플로를 제공합니다. OpenAI, ChatGPT, Claude, Gemini, Ollama, OpenCode와 함께 작동합니다. Blender AI 애드온과 플러그인, 3D 코파일럿, bpy Python 스크립팅, MCP 연동을 지원합니다.",
+  "src": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with OpenAI, ChatGPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon and plugin, copilot for 3D, bpy Python scripting, MCP integration."
  },
  "boykopovar/AnyPS5": {
   "ko": "PS5 실행 파일을 Linux와 Windows로 자동 포팅하는 도구입니다.",
@@ -263,6 +287,10 @@
   "ko": "본인의 Cloudflare 계정에서 실행하는 개인 AI 에이전트. 채팅, 메모리, 작업, 메모, 예약 알림을 지원하며, 명령어 하나(npx create-talorys@latest)로 배포합니다. 무료 요금제에 적합하고, 단일 사용자용이며, 텔레메트리가 없습니다.",
   "src": "Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friendly, single-user, no telemetry."
  },
+ "rohit267/net-merge": {
+  "ko": "Windows/Linux/Mac에서 모든 네트워크 어댑터를 동시에 사용하세요. Wi-Fi, 이더넷, 휴대폰/USB 테더링에 걸쳐 연결별 부하 분산을 지원합니다(TUN + Wintun).",
+  "src": "Use all your network adapters at once on Windows/Linux/Mac: per-connection load balancing over Wi-Fi, Ethernet and phone/USB tethers (TUN + Wintun)"
+ },
  "rohitg00/ai-engineering-from-scratch": {
   "ko": "AI 엔지니어링을 배우세요! 배우고, 만들고, 다른 사람에게 선보이세요.",
   "src": "Learn AI Engineering! Learn it. Build it. Ship it for others."
@@ -278,6 +306,10 @@
  "solana-classic/solana-classic": {
   "ko": "재미를 되찾자. 아트, NFT, 밈과 그 커뮤니티에 초점을 맞춘 오픈소스 SVM 블록체인 개발 프로젝트. 실험용 테스트넷이 공개되었습니다.",
   "src": "Bring back the fun. Open-source SVM blockchain development focused on art, NFTs, memes and their communities. Experimental testnet live."
+ },
+ "stablyai/orca": {
+  "ko": "Orca는 여러 에이전트(예: Grok Bot, Claude Code)를 함께 운영하는 공간입니다. 자신의 구독으로 어떤 코딩 에이전트든 실행할 수 있으며, 데스크톱, 모바일, 원격 런타임에서 사용할 수 있습니다.",
+  "src": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime."
  },
  "storytold/artcraft": {
   "ko": "예술가, 디자이너, 영상 제작자를 위한 의도 중심 창작 엔진 ArtCraft",
@@ -304,8 +336,8 @@
   "src": "从主题或文章制作完整手绘讲解视频：按部位描线、逐字书写、VoiceStudio 配音、五项内置制作依赖。"
  },
  "trycua/cua": {
-  "ko": "오픈소스 드라이버, 여러 OS를 아우르는 플릿, 학습·평가·데이터 생성을 위한 벤치마크로 컴퓨터 사용 2.0을 확장합니다.",
-  "src": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation."
+  "ko": "오픈소스 드라이버, 크로스 OS 샌드박스, 학습·평가·데이터 생성용 벤치마크로 computer-use 2.0을 확장합니다.",
+  "src": "Scale computer-use 2.0 with open-source drivers, cross-OS sandboxes, and benchmarks for training, evaluation, and data generation."
  },
  "twostraws/SwiftUI-Agent-Skill": {
   "ko": "Claude Code, Codex 및 기타 AI 도구를 위한 SwiftUI 에이전트 스킬입니다.",
@@ -316,8 +348,12 @@
   "src": "Hindsight: Agent Memory That Learns"
  },
  "xerj-org/xerj": {
-  "ko": "XERJ는 AI가 데이터를 검색하는 새로운 방식입니다. 자동 인덱싱 기능으로 에이전트가 grep과 sed의 토큰 낭비 없이 데이터를 파악합니다. 명령 한 번으로 코드, 문서, 로그, PDF를 인덱싱해 검색, RAG, 보안 감사, 에이전트 메모리에 활용하며, grep보다 40배 적은 토큰을 사용합니다. Elasticsearch와 호환되어 기존 클라이언트를 그대로 쓸 수 있습니다.",
-  "src": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep and sed. One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. Elasticsearch compatible, so existing clients just work."
+  "ko": "XERJ는 AI가 데이터를 검색하는 새로운 방식입니다. 자동 인덱싱 기능으로 에이전트가 grep(1974년 도구)처럼 토큰을 낭비하지 않고도 데이터를 파악하게 합니다. 명령어 하나로 코드, 문서, 로그, PDF를 인덱싱해 검색, RAG, 보안 감사, 에이전트 메모리에 활용할 수 있으며, grep보다 40배 적은 토큰을 사용합니다. 내구성이 있으며 ElasticSearch를 대체해 인프라 비용을 10배 절감할 수 있습니다.",
+  "src": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep (1974 tool). One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. It’s durable and can replace ElasticSearch saving you x10 infra costs."
+ },
+ "xscreensaver-official/xscreensaver": {
+  "ko": "공식 XScreenSaver GitHub 저장소는 없습니다.",
+  "src": "There is no official XScreenSaver GitHub repository."
  },
  "zeusinsight/FinderSearch": {
   "ko": "fsearch 기반의 빠른 퍼지 파일명 검색을 제공하는 네이티브 macOS 파일 브라우저",
