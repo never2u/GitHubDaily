@@ -78,7 +78,12 @@ def main() -> None:
         edition = collect(today)
         has_content = edition["trending"].get("daily") or edition["new_arrivals"]
         if has_content:
-            earlier = [e for e in load_editions(args.data) if e["date"] != edition["date"]]
+            saved = load_editions(args.data)
+            earlier = [e for e in saved if e["date"] != edition["date"]]
+            # A same-day re-run keeps the top story already published, if still trending.
+            published = next((e.get("top_story") for e in saved if e["date"] == edition["date"]), None)
+            if published in {r["full_name"] for r in edition["trending"].get("daily", [])}:
+                edition["top_story"] = published
             assign_layouts(earlier + [edition])
             print(f"layout: {edition['layout']}")
             path = args.data / f"{edition['date']}.json"
