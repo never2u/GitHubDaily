@@ -20,7 +20,7 @@ import re
 import urllib.parse
 from pathlib import Path
 
-from .editorial import split_front
+from .editorial import pick
 from .fetch import _get
 from .translate import is_korean
 
@@ -167,9 +167,10 @@ def _fresh(entry: dict | None, today: dt.date, ttl: int) -> bool:
     return bool(entry) and (today - dt.date.fromisoformat(entry["date"])).days < ttl
 
 
-def plan(daily: list[dict], cache: dict, today: dt.date, top_name: str | None = None):
-    """Which repos need a new article / blurb today."""
-    top, rising, rest = split_front(daily, top_name)
+def plan(daily: list[dict], cache: dict, today: dt.date, layout: dict):
+    """Which repos need a new article / blurb today, given the day's layout."""
+    top = (pick(daily, [layout["top"]]) or [None])[0]
+    rising, rest = pick(daily, layout.get("rising", [])), pick(daily, layout.get("fresh", []))
     article = top if top and not _fresh(cache["articles"].get(top["full_name"]), today, ARTICLE_TTL_DAYS) else None
     blurbs = []
     for repo, long in [(r, True) for r in rising] + [(r, False) for r in rest]:
@@ -249,12 +250,15 @@ def write_blurbs(client, items: list[tuple[dict, bool, str]], usage) -> dict[str
 
 
 def write_stories(daily: list[dict], cache: dict, today: dt.date, usage, client=None,
-                  readme=fetch_readme_raw, log=print, top_name: str | None = None) -> int:
+                  readme=fetch_readme_raw, log=print, layout: dict | None = None) -> int:
     """Fill `cache` with today's missing stories. Returns how many were written.
 
     `readme` returns the raw README for a repository.
     """
-    article_repo, blurb_jobs = plan(daily, cache, today, top_name)
+    if layout is None:
+        from .editorial import build_layout
+        layout = build_layout({"trending": {"daily": daily}}, [])
+    article_repo, blurb_jobs = plan(daily, cache, today, layout)
     if not article_repo and not blurb_jobs:
         log("stories: all cached")
         return 0

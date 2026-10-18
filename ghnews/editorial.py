@@ -111,23 +111,57 @@ def pick_top(daily: list[dict], recent: list[str]) -> str:
     return max(ranked, key=lambda r: recent.index(r["full_name"]))["full_name"]
 
 
-def assign_top_stories(editions: list[dict]) -> None:
-    """Fill in `top_story` for editions that lack one, oldest first."""
-    recent = []
-    for ed in sorted(editions, key=lambda e: e["date"]):
-        daily = ed.get("trending", {}).get("daily") or []
-        if daily and not ed.get("top_story"):
-            ed["top_story"] = pick_top(daily, recent[:TOP_STORY_COOLDOWN])
-        if ed.get("top_story"):
-            recent.insert(0, ed["top_story"])
+FEATURE_COOLDOWN = 7  # editions before a repo can be featured again
+RISING_MAX = 3
+FRESH_MAX = 6
+ARRIVALS_MAX = 4
 
 
-def split_front(daily: list[dict], top_name: str | None = None):
-    """(top story, five rising repos, the rest) of the daily list."""
-    if not daily:
-        return None, [], []
+def build_layout(edition: dict, history: list[dict]) -> dict:
+    """Decide which repos each "fresh" section shows today.
+
+    `history` is the earlier editions (with layouts), newest first. A repo
+    featured with text (top story, rising, today's cards, new arrivals) in
+    the last FEATURE_COOLDOWN editions is not featured again, so quiet days
+    produce shorter sections instead of repeated stories.
+    """
+    daily = edition.get("trending", {}).get("daily") or []
+    recent = [e["layout"] for e in history[:FEATURE_COOLDOWN] if e.get("layout")]
     ranked = sorted(daily, key=lambda r: -r.get("stars_gained", 0))
-    top = next((r for r in ranked if r["full_name"] == top_name), ranked[0])
-    rising = [r for r in ranked if r is not top][:5]
-    front = {top["full_name"], *(r["full_name"] for r in rising)}
-    return top, rising, [r for r in daily if r["full_name"] not in front]
+
+    featured = set()
+    for l in recent:
+        featured |= {l.get("top"), *l.get("rising", []), *l.get("fresh", [])}
+    top = edition.get("top_story")
+    if not top and daily:
+        unseen = [r for r in daily if r["full_name"] not in featured]
+        top = pick_top(unseen or daily, [l["top"] for l in recent if l.get("top")])
+    yesterday = {r["full_name"] for r in history[0].get("trending", {}).get("daily", [])} if history else set()
+
+    rising = [r["full_name"] for r in ranked if r["full_name"] != top and r["full_name"] not in featured][:RISING_MAX]
+    taken = {top, *rising}
+    fresh = [r["full_name"] for r in daily
+             if r["full_name"] not in taken | featured | yesterday][:FRESH_MAX]
+    steady = [r["full_name"] for r in daily if r["full_name"] not in taken | set(fresh)]
+
+    shown = set()
+    for l in recent:
+        shown |= set(l.get("arrivals", []))
+    arrivals = [a["full_name"] for a in edition.get("new_arrivals", []) if a["full_name"] not in shown][:ARRIVALS_MAX]
+    return {"top": top, "rising": rising, "fresh": fresh, "steady": steady, "arrivals": arrivals}
+
+
+def assign_layouts(editions: list[dict]) -> None:
+    """Fill in `layout` (and `top_story`) for editions lacking one, oldest first."""
+    done = []
+    for ed in sorted(editions, key=lambda e: e["date"]):
+        if not ed.get("layout"):
+            ed["layout"] = build_layout(ed, done[::-1])
+        ed["top_story"] = ed["layout"]["top"]
+        done.append(ed)
+
+
+def pick(repos: list[dict], names: list[str]) -> list[dict]:
+    """The repos named in `names`, in that order."""
+    by_name = {r["full_name"]: r for r in repos}
+    return [by_name[n] for n in names if n in by_name]

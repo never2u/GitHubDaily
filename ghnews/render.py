@@ -6,7 +6,7 @@ import datetime as dt
 from email.utils import format_datetime
 from html import escape
 
-from .editorial import briefing, fmt_num, headline_for, language_breakdown, split_front
+from .editorial import briefing, fmt_num, headline_for, language_breakdown, pick
 
 SITE_TITLE = "깃허브 데일리"
 SITE_TAGLINE = "오늘 GitHub에서 가장 뜨거운 오픈소스 소식"
@@ -106,6 +106,16 @@ border:1px solid var(--rule);margin:0 0 16px}
 .builders a{display:flex;align-items:center;gap:6px;text-decoration:none;font-size:.85rem}
 .builders img{width:28px;height:28px;border-radius:50%;background:var(--chip)}
 .cta a{font-weight:700}
+.compact{list-style:none;margin:0;padding:0;columns:2 320px;column-gap:32px}
+.compact li{break-inside:avoid;display:flex;gap:10px;align-items:baseline;border-top:1px solid var(--rule);
+padding:8px 0;font-size:.92rem}
+.compact .n{font:800 1rem Georgia,serif;color:var(--muted);min-width:1.4em;text-align:right}
+.compact a{font-weight:700;text-decoration:none;overflow-wrap:anywhere}
+.compact small{color:var(--muted);margin-left:auto;white-space:nowrap;padding-left:8px}
+.compact small b{color:var(--star)}
+.steady{margin-top:20px}
+.steady h3{font-size:.8rem;letter-spacing:.1em;color:var(--muted);margin:0 0 6px}
+.quiet{color:var(--muted);font-size:.92rem;margin:0}
 .chart{width:100%;border-collapse:collapse}
 .chart td{border-top:1px solid var(--rule);padding:10px 8px;vertical-align:top}
 .chart .pos{font:800 1.4rem Georgia,serif;width:2.2em;text-align:center}
@@ -343,6 +353,18 @@ def _top_story(top: dict) -> str:
             f'{points_html}{_builders(top)}<p class="cta"><a {link}>저장소 바로가기 →</a></p>')
 
 
+def _compact_list(repos: list[dict], gain_label: str, numbered: bool = True, streak: bool = False) -> str:
+    """One line per repo: rank, name and a number - for sections that may repeat."""
+    items = []
+    for i, r in enumerate(repos, start=1):
+        extra = f' · {r["streak"]}일째' if streak and r.get("streak", 1) >= 2 else ""
+        items.append(
+            f'<li>{f"<span class=n>{i}</span>" if numbered else ""}'
+            f'<a href="{escape(r["url"])}" target="_blank" rel="noopener">{escape(r["full_name"])}</a>'
+            f'<small><b>★ +{fmt_num(r.get("stars_gained", 0))}</b> {gain_label}{extra}</small></li>')
+    return f'<ol class="compact">{"".join(items)}</ol>'
+
+
 def _movement(e: dict, has_previous: bool) -> str:
     if not has_previous:
         return '<td class="mv same">첫 차트</td>'
@@ -357,19 +379,22 @@ def _movement(e: dict, has_previous: bool) -> str:
     return '<td class="mv same">–</td>'
 
 
+CHART_SHOWN = 10
+
+
 def _chart_section(chart: dict | None) -> str:
     if not chart or not chart["entries"]:
         return ""
     d = dt.date.fromisoformat(chart["date"])
     monday = d - dt.timedelta(days=d.weekday())
     rows = []
-    for e in chart["entries"]:
+    for e in chart["entries"][:CHART_SHOWN]:
         crown = ""
         if e["rank"] == 1 and e.get("no1_weeks", 1) >= 2:
             crown = f'<span class="crown">{e["no1_weeks"]}주 연속 1위</span>'
         elif e["rank"] == 1 and chart["has_previous"]:
             crown = '<span class="crown">새 1위</span>'
-        intro = _intro(e)
+        intro = _desc(e)  # charts repeat week to week: keep it to the one-line description
         rows.append(
             f'<tr class="{"no1" if e["rank"] == 1 else ""}"><td class="pos">{e["rank"]}</td>'
             f'{_movement(e, chart["has_previous"])}'
@@ -380,7 +405,7 @@ def _chart_section(chart: dict | None) -> str:
         )
     sub = (f"{monday.month}월 {monday.day}일 주간 · 매주 월요일 갱신 · 일주일간 받은 별 순위"
            + (" · 순위 변동은 지난주 차트 대비" if chart["has_previous"] else ""))
-    return (f'<section id="chart"><h2>주간 인기 차트</h2><p class="sub">{escape(sub)}</p>'
+    return (f'<section id="chart"><h2>주간 인기 차트 Top {min(CHART_SHOWN, len(chart["entries"]))}</h2><p class="sub">{escape(sub)}</p>'
             f'<table class="chart"><tbody>{"".join(rows)}</tbody></table></section>')
 
 
@@ -397,14 +422,16 @@ def render_edition(edition: dict, daily: list[dict], root: str = "", chart: dict
         parts.append('<aside class="brief"><h2>오늘의 브리핑</h2><ul>'
                      + "".join(f"<li>{escape(l)}</li>" for l in lines) + "</ul></aside>")
 
+    layout = edition.get("layout") or {}
     if daily:
-        top, runners, _ = split_front(daily, edition.get("top_story"))
+        top = (pick(daily, [layout.get("top")]) or daily[:1])[0]
+        runners = pick(daily, layout.get("rising", []))
         side = "".join(
             f'<li><a href="{escape(r["url"])}" target="_blank" rel="noopener">{escape(r["full_name"])}</a>'
             f'{_badges(r)}<div>{escape(headline_for(r))}</div>'
             f'{f"<p class=blurb>{_intro(r)}</p>" if _intro(r) else ""}{_meta(r, "오늘")}</li>'
             for r in runners
-        )
+        ) or '<li><p class="quiet">오늘은 새로 떠오른 저장소가 없습니다.</p></li>'
         parts.append(
             '<div class="lead"><div>'
             '<div class="kicker">오늘의 톱뉴스</div>'
@@ -415,14 +442,27 @@ def render_edition(edition: dict, daily: list[dict], root: str = "", chart: dict
             f'<ol>{side}</ol></div></div>'
         )
 
-    parts.append(_section("daily", "오늘의 트렌딩",
-                          "지난 24시간 동안 별을 가장 많이 받은 저장소", daily, "오늘", headlines=True))
-    parts.append(_section("new", "주목받는 신작",
-                          "최근 7일 안에 만들어진 저장소 중 별이 가장 많은 순",
-                          edition.get("new_arrivals", [])[:18], None))
+        fresh, steady = pick(daily, layout.get("fresh", [])), pick(daily, layout.get("steady", []))
+        cards = "".join(_card(r, "오늘", True) for r in fresh) if fresh else ""
+        body = (f'<div class="grid">{cards}</div>' if cards
+                else '<p class="quiet">오늘은 새로 트렌딩에 오른 저장소가 없습니다.</p>')
+        if steady:
+            body += ('<div class="steady"><h3>계속 트렌딩 중</h3>'
+                     f'{_compact_list(steady, "오늘", numbered=False, streak=True)}</div>')
+        parts.append('<section id="daily"><h2>오늘의 트렌딩</h2>'
+                     '<p class="sub">오늘 새로 트렌딩에 오른 저장소 · 이미 소개한 저장소는 한 줄로 모았습니다</p>'
+                     f'{body}</section>')
+
+    arrivals = pick(edition.get("new_arrivals", []), layout.get("arrivals", [])) if layout \
+        else edition.get("new_arrivals", [])[:4]
+    parts.append(_section("new", "주목받는 신작", "최근 7일 안에 만들어진 저장소 중 아직 소개하지 않은 것",
+                          arrivals, None, filters=False))
     parts.append(_chart_section(chart))
-    parts.append(_section("monthly", "이번 달 결산",
-                          "지난 30일간 별을 가장 많이 받은 저장소", trending.get("monthly", []), "이번 달"))
+    monthly = trending.get("monthly", [])[:10]
+    if monthly:
+        parts.append('<section id="monthly"><h2>이번 달 결산 Top 10</h2>'
+                     '<p class="sub">지난 30일간 별을 가장 많이 받은 저장소</p>'
+                     f'{_compact_list(monthly, "이번 달")}</section>')
 
     if not daily and not any(trending.values()):
         parts.append('<p class="notice">이번 호에는 수집된 소식이 없습니다.</p>')
@@ -450,7 +490,7 @@ def render_feed(editions: list[tuple[dict, list[dict]]], base_url: str) -> str:
         desc = "<ul>" + "".join(f"<li>{escape(l)}</li>" for l in briefing(edition, daily)) + "</ul><ol>" + "".join(
             f'<li><a href="{escape(r["url"])}">{escape(r["full_name"])}</a> — '
             f'{escape(headline_for(r))}</li>' for r in top) + "</ol>"
-        lead, _, _ = split_front(daily, edition.get("top_story"))
+        lead = (pick(daily, [(edition.get("layout") or {}).get("top")]) or daily[:1] or [None])[0]
         art = (lead or {}).get("article")
         if art:
             desc = f"<p><strong>{escape(art['headline'])}</strong> — {escape(art['lead'])}</p>" + desc

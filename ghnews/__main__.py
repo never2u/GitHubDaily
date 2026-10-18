@@ -12,7 +12,7 @@ import json
 import os
 from pathlib import Path
 
-from .editorial import annotate, assign_top_stories
+from .editorial import annotate, assign_layouts
 from .fetch import collect
 from .render import render_archive, render_edition, render_feed
 from . import stories, translate
@@ -33,7 +33,7 @@ def load_editions(data_dir: Path) -> list[dict]:
 
 def build_site(data_dir: Path, out_dir: Path, base_url: str) -> int:
     editions = load_editions(data_dir)
-    assign_top_stories(editions)
+    assign_layouts(editions)
     cache = translate.load_cache(data_dir / "translations.json")
     story_cache = stories.load_cache(data_dir / "stories.json")
     for edition in editions:
@@ -79,8 +79,8 @@ def main() -> None:
         has_content = edition["trending"].get("daily") or edition["new_arrivals"]
         if has_content:
             earlier = [e for e in load_editions(args.data) if e["date"] != edition["date"]]
-            assign_top_stories(earlier + [edition])
-            print(f"top story: {edition.get('top_story')}")
+            assign_layouts(earlier + [edition])
+            print(f"layout: {edition['layout']}")
             path = args.data / f"{edition['date']}.json"
             path.write_text(json.dumps(edition, ensure_ascii=False, indent=1), encoding="utf-8")
             print(f"saved {path}")
@@ -94,7 +94,7 @@ def main() -> None:
                 story_path = args.data / "stories.json"
                 story_cache = stories.load_cache(story_path)
                 if stories.write_stories(edition["trending"].get("daily", []), story_cache, today, usage,
-                                         top_name=edition.get("top_story")):
+                                         layout=edition["layout"]):
                     stories.save_cache(story_path, story_cache)
                 for line in usage.report():
                     print(line)

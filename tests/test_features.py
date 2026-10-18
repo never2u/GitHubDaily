@@ -108,11 +108,12 @@ class StoriesTest(unittest.TestCase):
         cache = {"articles": {"o/r0": {"date": old}},
                  "blurbs": {"o/r1": {"date": TODAY.isoformat(), "long": False, "text": "짧음"},
                             "o/r7": {"date": TODAY.isoformat(), "long": False, "text": "ok"}}}
-        article, blurbs = stories.plan(self.daily(), cache, TODAY)
+        layout = {"top": "o/r0", "rising": ["o/r1"], "fresh": ["o/r7", "o/r8"], "steady": ["o/r9"]}
+        article, blurbs = stories.plan(self.daily(), cache, TODAY, layout)
         self.assertEqual(article["full_name"], "o/r0")            # expired article
         names = [r["full_name"] for r, _ in blurbs]
-        self.assertIn("o/r1", names)                              # promoted to rising: needs long
-        self.assertNotIn("o/r7", names)
+        self.assertEqual(names, ["o/r1", "o/r8"])                 # r1 promoted (needs long), r7 cached
+        self.assertNotIn("o/r9", names)                           # steady repos get no new text
 
     def test_no_key_is_noop(self):
         import os
@@ -129,22 +130,48 @@ class StoriesTest(unittest.TestCase):
         self.assertEqual(stories.clean_readme(md), "# Title\n link\n para")
 
 
-class TopStoryTest(unittest.TestCase):
-    def test_rotation_skips_recent_top_stories(self):
-        from ghnews.editorial import assign_top_stories, split_front
-        mk = lambda d, names: {"date": d, "trending": {"daily": [repo(n, 100 - i) for i, n in enumerate(names)]}}
-        eds = [mk("2026-10-15", ["a", "b", "c"]), mk("2026-10-16", ["a", "b", "c"]), mk("2026-10-17", ["b", "a", "c"])]
-        assign_top_stories(eds)
-        self.assertEqual([e["top_story"] for e in eds], ["a", "b", "c"])
-        top, rising, rest = split_front(eds[1]["trending"]["daily"], eds[1]["top_story"])
-        self.assertEqual(top["full_name"], "b")
-        self.assertEqual([r["full_name"] for r in rising], ["a", "c"])  # the #1 by stars moves to rising
+class LayoutTest(unittest.TestCase):
+    def mk(self, date, names, arrivals=()):
+        return {"date": date, "trending": {"daily": [repo(n, 100 - i) for i, n in enumerate(names)]},
+                "new_arrivals": [repo(a) for a in arrivals]}
 
-    def test_persisted_top_story_is_kept(self):
-        from ghnews.editorial import assign_top_stories
-        e = {"date": "2026-10-15", "top_story": "c", "trending": {"daily": [repo("a"), repo("c")]}}
-        assign_top_stories([e])
-        self.assertEqual(e["top_story"], "c")
+    def test_quiet_days_shrink_instead_of_repeating(self):
+        from ghnews.editorial import assign_layouts
+        names = list("abcdefghijkl")
+        eds = [self.mk("2026-10-15", names, "uvwxyz"), self.mk("2026-10-16", names, "uvwxyz"),
+               self.mk("2026-10-17", names + ["m"], "uvwxyz")]
+        assign_layouts(eds)
+        d1, d2, d3 = (e["layout"] for e in eds)
+        self.assertEqual((d1["top"], d1["rising"]), ("a", ["b", "c", "d"]))
+        self.assertEqual(len(d1["fresh"]), 6)
+        # unchanged trending: a new top story, nothing featured twice
+        featured1 = {d1["top"], *d1["rising"], *d1["fresh"]}
+        featured2 = {d2["top"], *d2["rising"], *d2["fresh"]}
+        self.assertFalse(featured1 & featured2)
+        self.assertEqual(d2["fresh"], [])
+        self.assertEqual(d2["arrivals"], ["y", "z"])               # only arrivals not shown before
+        # a newcomer is featured as soon as it appears
+        self.assertIn("m", {d3["top"], *d3["rising"], *d3["fresh"]})
+        self.assertEqual(eds[2]["top_story"], d3["top"])
+        # every daily repo appears exactly once on the page
+        for d, e in zip((d1, d2, d3), eds):
+            shown = [d["top"], *d["rising"], *d["fresh"], *d["steady"]]
+            self.assertCountEqual(shown, [r["full_name"] for r in e["trending"]["daily"]])
+
+    def test_falls_back_when_everything_was_featured(self):
+        from ghnews.editorial import assign_layouts
+        eds = [self.mk(f"2026-10-1{i}", ["a", "b"]) for i in range(5)]
+        assign_layouts(eds)
+        self.assertTrue(all(e["layout"]["top"] for e in eds))     # always a top story
+        tops = [e["layout"]["top"] for e in eds]
+        self.assertTrue(all(x != y for x, y in zip(tops, tops[1:])))
+
+    def test_persisted_layout_is_kept(self):
+        from ghnews.editorial import assign_layouts
+        e = self.mk("2026-10-15", ["a", "c"])
+        e["layout"] = {"top": "c", "rising": [], "fresh": [], "steady": ["a"], "arrivals": []}
+        assign_layouts([e])
+        self.assertEqual((e["top_story"], e["layout"]["steady"]), ("c", ["a"]))
 
     def test_find_image(self):
         raw = ('<img src="logo.png" width="100">\n![ci](https://img.shields.io/x.svg)\n'
