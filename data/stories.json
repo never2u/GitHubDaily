@@ -1,5 +1,38 @@
 {
  "articles": {
+  "anthropics/claude-plugins-official": {
+   "date": "2026-10-18",
+   "headline": "Anthropic, Claude Code 공식 플러그인 디렉터리 공개",
+   "highlights": [
+    "Anthropic이 관리하는 Claude Code 플러그인 공식 디렉터리",
+    "내부 플러그인(/plugins)과 서드파티 플러그인(/external_plugins)으로 구성",
+    "`/plugin install {plugin-name}@claude-plugins-official`로 설치",
+    "플러그인 `name`은 불변 슬러그이며, 변경 시 `renames` 맵으로 자동 이전",
+    "설치 전 플러그인의 신뢰 여부를 확인하라는 Anthropic의 경고"
+   ],
+   "image": null,
+   "image_caption": "Claude Code 플러그인 공식 디렉터리 claude-plugins-official 저장소 대표 이미지",
+   "lead": "Anthropic이 관리하는 공식 저장소 'claude-plugins-official'은 Claude Code용 고품질 플러그인을 모아 둔 디렉터리다. 사용자는 Claude Code의 플러그인 시스템에서 명령어 한 줄로 원하는 플러그인을 설치할 수 있다.",
+   "sections": [
+    {
+     "heading": "무엇인가: 공식 큐레이션 디렉터리",
+     "text": "이 저장소는 Claude Code 플러그인을 모아 소개하는 공식 마켓플레이스 역할을 한다. 구조는 두 갈래로 나뉜다. '/plugins' 폴더에는 Anthropic이 직접 개발하고 유지·관리하는 내부 플러그인이, '/external_plugins' 폴더에는 파트너와 커뮤니티가 만든 서드파티 플러그인이 담긴다. 저장소 설명은 이를 'Anthropic이 관리하는 고품질 Claude Code 플러그인의 공식 디렉터리'로 규정한다."
+    },
+    {
+     "heading": "사용 방법: 명령어 한 줄 설치",
+     "text": "설치는 Claude Code의 플러그인 시스템을 통해 이뤄진다. `/plugin install {plugin-name}@claude-plugins-official` 명령을 실행하거나, `/plugin > Discover` 메뉴에서 플러그인을 찾아볼 수 있다. 기여 방식도 구분돼 있다. 내부 플러그인은 Anthropic 팀원이 개발하며 `/plugins/example-plugin`이 참고용 구현 예시로 제공된다. 외부 플러그인은 파트너가 제출 양식을 통해 신청할 수 있고, 품질과 보안 기준을 충족해야 승인된다."
+    },
+    {
+     "heading": "운영 규칙: 변하지 않는 이름과 스킬 번들",
+     "text": "README는 마켓플레이스 항목의 `name` 필드를 변경할 수 없는 '불변 슬러그'로 정의한다. 이미 설치한 사용자가 해당 슬러그로 플러그인을 갖고 있어, 이름을 바꾸면 `plugin-not-found` 오류가 나기 때문이다. UI에 표시되는 이름을 바꾸려면 `displayName`을 수정하면 된다. 불가피하게 이름을 바꿔야 한다면 `.claude-plugin/marketplace.json` 최상위의 `renames` 맵에 항목을 추가한다. 그러면 플러그인 로더가 다음 동기화 때 이전 슬러그를 새 슬러그로 자동 변환한다."
+    },
+    {
+     "heading": "스킬 번들 플러그인과 신뢰 경고",
+     "text": "플러그인 소스 저장소가 `.claude-plugin/plugin.json` 매니페스트 없이 `SKILL.md` 파일만 제공하는 경우, 마켓플레이스 항목에서 `strict: false`와 명시적인 `skills` 배열로 스킬을 직접 선언할 수 있다. 각 경로는 `source.path` 기준 상대 경로이며 `SKILL.md`가 있는 디렉터리를 가리킨다. `[\"./libA/skill-1\", \"./libB/skill-2\"]`처럼 여러 하위 디렉터리에 걸쳐 일부만 골라 노출하는 것도 가능하다. 한편 Anthropic은 플러그인에 포함된 MCP 서버나 파일 등을 통제하지 않으며, 정상 작동이나 내용의 불변을 보장할 수 없다고 경고한다. 설치·업데이트·사용 전에 신뢰할 수 있는 플러그인인지 확인하고 각 플러그인의 홈페이지를 살펴볼 것을 당부했다."
+    }
+   ],
+   "subheadline": "내부 개발 플러그인과 서드파티 플러그인을 한곳에 모은 큐레이션 마켓플레이스"
+  },
   "debpalash/VoiceStudio": {
    "body": [
     "VoiceStudio는 음성 복제, 음성 디자인, 영상 더빙, 받아쓰기, 전사, 오디오북 제작을 646개 언어로 지원하는 오픈소스 음성 작업 도구다. 기본 엔진으로는 k2-fsa/OmniVoice 기반의 VoiceStudio를 사용하며, 다른 엔진을 선택할 수도 있다. 로컬 워크플로는 사용자 하드웨어에서 실행되고, 원격 서비스는 선택 사항이며 사용 분석은 동의를 받아야 한다고 밝히고 있다.",
