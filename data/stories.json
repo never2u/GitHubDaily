@@ -1,5 +1,38 @@
 {
  "articles": {
+  "Comfy-Org/ComfyUI": {
+   "date": "2026-10-19",
+   "headline": "ComfyUI, 노드 기반 AI 창작 엔진의 표준을 노린다",
+   "highlights": [
+    "노드 그래프로 이미지·영상·오디오·3D·텍스트 워크플로 구성",
+    "비동기 가중치 스트리밍으로 4GB VRAM + 8GB RAM에서도 대형 모델 실행",
+    "Windows·Linux·macOS와 NVIDIA·AMD·Intel·Apple Silicon·Ascend 지원",
+    "API 엔드포인트와 App Mode로 프로덕션 파이프라인 및 간편 UI 연동",
+    "`--offline` 옵션으로 완전 오프라인 실행 가능"
+   ],
+   "image": "https://github.com/user-attachments/assets/36e065e0-bfae-4456-8c7f-8369d5ea48a2",
+   "image_caption": "노드 그래프 인터페이스로 AI 콘텐츠 생성 워크플로를 구성하는 ComfyUI 화면",
+   "lead": "Comfy-Org의 ComfyUI는 노드 그래프 인터페이스로 이미지, 영상, 3D 모델, 오디오 등을 생성하는 오픈소스 AI 창작 엔진입니다. 로컬 소비자용 하드웨어에서의 최적화를 앞세워 최신 오픈소스 모델을 폭넓게 지원합니다.",
+   "sections": [
+    {
+     "heading": "무엇인가: 코드 없이 짜는 시각적 워크플로",
+     "text": "ComfyUI는 시각적 노드 그래프로 이미지, 영상, 오디오, 3D, 텍스트 워크플로를 만들고 재사용할 수 있게 해 주는 도구입니다. README는 이를 모델과 파라미터, 출력 하나하나를 세밀하게 제어하길 원하는 비주얼 전문가를 위한 엔진이라고 소개합니다. 재사용 가능한 서브그래프와 워크플로 템플릿을 제공하며, 복잡한 워크플로를 간단한 UI로 노출하는 App Mode도 갖췄습니다. 워크플로는 JSON으로 저장하고 불러올 수 있고, 지원하는 생성 미디어에서 전체 워크플로와 시드를 복원할 수도 있습니다."
+    },
+    {
+     "heading": "어떻게 동작하나: 저사양 GPU까지 겨냥한 최적화",
+     "text": "프로젝트는 확산 모델용 추론 엔진 가운데 로컬 소비자 하드웨어에 가장 최적화된 것을 지향한다고 밝힙니다. 비동기 가중치 스트리밍 기술을 통해 가장 큰 오픈소스 모델도 4GB VRAM과 8GB RAM 환경에서 비교적 빠르게 돌릴 수 있다는 설명입니다. 비동기 큐잉, 부분 그래프 재실행, VRAM·RAM 관리, 모델 오프로딩, 양자화 모델 지원도 기능 목록에 포함됩니다. 16비트 PNG, 32비트 EXR, 10비트 AVIF와 HDR 영상·이미지 저장 및 불러오기도 지원합니다."
+    },
+    {
+     "heading": "폭넓은 모델 지원과 확장성",
+     "text": "지원 모델은 Stable Diffusion 1.5, SDXL, SD3.5, Flux.1, Qwen Image 등 이미지 생성 계열을 비롯해 Flux Kontext, Qwen Image Edit 같은 편집 모델, Wan 2.1·2.2, LTX-Video, HunyuanVideo 1.5 등 영상 모델, ACE-Step 1.5 같은 오디오 모델, Hunyuan3D 2.1 등 3D·비전 모델, Gemma, Qwen3 계열 텍스트 모델까지 이어집니다. 인페인팅, 아웃페인팅, 업스케일링, 프레임 보간, 세그멘테이션, 깊이 추정 등 내장 도구도 갖췄습니다. 커스텀 노드로 기능을 확장할 수 있고, extra_model_paths.yaml로 추가 모델 경로를 지정할 수 있습니다. 파트너 노드를 쓰면 Nano Banana, Seedance, Hunyuan3D 같은 클로즈드 소스 모델도 이용할 수 있습니다."
+    },
+    {
+     "heading": "설치와 운영: 데스크톱부터 클라우드까지",
+     "text": "가장 쉬운 시작 방법은 Windows와 macOS용 데스크톱 애플리케이션이며, 신규 사용자에게 권장됩니다. 수동 설치는 모든 운영체제와 NVIDIA, AMD, Intel, Apple Silicon, Ascend GPU를 지원합니다. Windows에는 NVIDIA GPU 또는 CPU 전용 포터블 빌드와 AMD·Intel용 포터블도 제공되지만 일반 사용자에게는 권장되지 않습니다. 하드웨어가 부족한 사용자를 위한 유료 공식 클라우드 Comfy Cloud도 있습니다. 코어는 `--offline` 옵션으로 완전 오프라인 실행이 가능하고, `--disable-partner-nodes`로 API 노드만 끌 수도 있습니다. 릴리스는 주간 주기를 목표로 하며 코어는 대략 2주마다 새 안정 버전을 내놓습니다. 안정 릴리스 태그 밖의 커밋은 불안정해 많은 커스텀 노드가 깨질 수 있다고 경고합니다."
+    }
+   ],
+   "subheadline": "이미지·영상·오디오·3D까지 아우르는 모듈형 확산 모델 GUI이자 API, 백엔드"
+  },
   "anthropics/claude-plugins-official": {
    "date": "2026-10-18",
    "headline": "Anthropic, Claude Code 공식 플러그인 디렉터리 공개",
@@ -117,6 +150,11 @@
    "long": true,
    "text": "Scientific Agent Skills는 AI 에이전트를 과학 연구 보조자로 바꿔주는 177개의 검증된 스킬 모음입니다. 생물학, 화학, 의학, 물리학, 공학 등 여러 분야의 특정 패키지, 데이터 소스, 워크플로에 대한 지침을 제공하며, 100개 이상의 과학 데이터베이스와 연계됩니다. 열린 Agent Skills 표준을 따르기 때문에 Cursor, Claude Code, Codex 등 여러 에이전트 환경에서 사용할 수 있다는 점이 특징입니다."
   },
+  "Kruk2/jasna": {
+   "date": "2026-10-19",
+   "long": true,
+   "text": "Jasna는 비디오와 이미지에서 모자이크를 찾아 복원해 주는 무료 도구로, 간편한 앱과 명령줄 인터페이스를 함께 제공하며 GPU에서 실행됩니다. 빠른 BasicVSR++ 모델과 더 세밀하지만 느린 LTX 모델을 지원하고, 복원할 구간만 골라 미리 보면서 작업할 수 있는 Segment Editor와 파일을 만들지 않고 실시간으로 복원 영상을 볼 수 있는 Video Player도 갖추고 있습니다. NVIDIA와 일부 AMD GPU가 필요하며, 첫 실행 때 모델 준비에 시간이 오래 걸린다는 점을 미리 알아두면 좋습니다."
+  },
   "LibreSpark/LibreTV": {
    "date": "2026-10-16",
    "long": true,
@@ -181,6 +219,11 @@
    "date": "2026-10-16",
    "long": false,
    "text": "context-mode는 MCP 도구 호출이 대량의 원시 데이터를 컨텍스트 창에 쌓아 올리는 문제를 해결하는 MCP 서버입니다. 샌드박스로 도구 출력을 격리해 README 기준 315KB를 5.4KB로 줄인다고 설명하며, 세션 이벤트를 SQLite와 FTS5에 기록해 대화가 압축되어도 작업 맥락을 이어갈 수 있게 합니다. 코딩 에이전트의 컨텍스트 낭비를 줄이고 싶은 개발자에게 실용적인 프로젝트입니다."
+  },
+  "mlabonne/llm-course": {
+   "date": "2026-10-19",
+   "long": true,
+   "text": "mlabonne/llm-course는 대규모 언어 모델(LLM)을 처음부터 배울 수 있도록 구성된 무료 학습 과정입니다. 수학, Python, 신경망의 기초를 다루는 LLM Fundamentals, 최신 기법으로 더 나은 LLM을 만드는 LLM Scientist, 그리고 LLM 기반 애플리케이션을 만들고 배포하는 LLM Engineer의 세 부분으로 나뉘어 있습니다. 로드맵과 Colab 노트북을 함께 제공해 이론과 실습을 나란히 따라갈 수 있다는 점이 특징이며, 입문자부터 실무 개발자까지 단계별로 활용하기 좋은 자료입니다."
   },
   "obra/superpowers": {
    "date": "2026-10-17",
