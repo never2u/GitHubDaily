@@ -7,6 +7,10 @@
   "ko": "Shadow of the Colossus(PS4, CUSA08809)의 Windows 네이티브 포트. 본인의 게임 덤프가 필요합니다. PC용 네이티브 포트.",
   "src": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC."
  },
+ "Ansub/tv-detox": {
+  "ko": "Claude Code나 Codex로 오래된 Android TV를 다시 빠르게 만듭니다. 광고 없는 간단한 홈 화면과 이를 정리하는 프롬프트를 제공합니다.",
+  "src": "Make an old Android TV fast again with Claude Code or Codex: a tiny ad-free home screen plus the prompt to clean it up"
+ },
  "Arekejoker/qwen21-nsfw-pose-skill": {
   "ko": "Qwen-Image 2.1 NSFW/포즈 이미지 생성 스킬입니다. 작성자 수준의 프롬프트 레시피, NSFW LoRA, 136가지 포즈를 제어하는 VNCCS 인형 컨트롤을 제공하며, Claude Code / Codex / Cursor / OpenClaw에서 사용할 수 있습니다.",
   "src": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw"
@@ -34,6 +38,10 @@
  "DuarteSantos8/openGym": {
   "ko": "직접 호스팅하는 헬스장 및 맨몸 운동 추적기입니다. 루틴 계획, 운동 기록(슈퍼세트, 워밍업, 유산소 포함), 어떤 근육이 훈련되었는지, 피로하거나 훈련량이 줄었는지 확인, FitNotes, Strong, Hevy에서 가져오기, 패스키 로그인을 지원합니다. 데이터도, 서버도 직접 관리하세요.",
   "src": "Self-hosted gym & body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server."
+ },
+ "Gathin23/cleanyourtv": {
+  "ko": "Wi-Fi로 모든 Android 또는 Google TV의 불필요한 기능을 정리하고, Apple TV 스타일의 홈 화면을 만들어 줍니다.",
+  "src": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home."
  },
  "Gathin23/tv-vibehack": {
   "ko": "광고 없는 TV. ADB로 모든 Android TV의 불필요한 기능을 제거하고 tvOS에서 영감을 받은 깔끔한 런처를 제공합니다. Claude Code로 반나절 만에 만들었습니다.",
@@ -111,6 +119,10 @@
   "ko": "SuperMedo가 만든, Windows에서 네이티브로 실행되는 언차티드: 네이선 드레이크 컬렉션입니다.",
   "src": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo"
  },
+ "TG-Twilight/c001apk": {
+  "ko": "가볍고 비공식적인 쿠안(酷安) 클라이언트",
+  "src": "一个轻量的非官方酷安客户端"
+ },
  "Tencent/WeKnora": {
   "ko": "오픈소스 LLM 지식 플랫폼입니다. 원본 문서를 질의 가능한 RAG, 자율 추론 에이전트, 스스로 관리되는 위키로 바꿔 줍니다.",
   "src": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki."
@@ -119,6 +131,10 @@
   "ko": "더 똑똑한 직접 호스팅 AI 어시스턴트로, 다중 사용자와 다중 에이전트를 지원합니다.",
   "src": "A smarter, self-hosted AI assistant — multi-user, multi-agent."
  },
+ "VITASID57/bluntcore-intimacy-lab": {
+  "ko": "🧬 钝核｜인간-기계 친밀 실험실 · Bluntcore Intimacy Lab: 인간-AI 연애, 성인용 AI, 프롬프트, 메모리, 에이전트, 모델 테스트 및 실험 기록.",
+  "src": "🧬 钝核｜人机亲密实验室 · Bluntcore Intimacy Lab｜人机恋、成人 AI、Prompt、Memory、Agent、模型床测与实验记录。"
+ },
  "VectifyAI/PageIndex": {
   "ko": "📑 PageIndex: 벡터 없이 추론 기반으로 동작하는 RAG를 위한 문서 인덱스",
   "src": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG"
@@ -126,6 +142,10 @@
  "YeonwooSung/my-claude-code-mods": {
   "ko": "내가 필요한 맞춤형 Claude Code 모드",
   "src": "Custom Claude Code Mods that I need"
+ },
+ "YuJunZhiXue/dsh-purge": {
+  "ko": "DeepSeek Harness 탈옥: 모든 모델을 탈옥할 수 있으며, 모델마다 프롬프트를 바꿔 쓸 수 있습니다. 기본 프롬프트는 국산 모델 '샤오마장'을 대상으로 합니다. Jailbreak for every model — swap prompts per model. 스타와 즐겨찾기를 부탁드립니다. 2차 개발을 하시려면 저작자 표시 요건을 확인해 주세요.",
+  "src": "DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐ 如要二开，请查看署名要求部分"
  },
  "Zfinix/eleven": {
   "ko": "macOS, Windows, Linux용 에이전트 우선 리버스 엔지니어링 도구. 모든 ACP 에이전트가 바이너리, 안드로이드 앱, GPU 커널을 읽고, 이름을 바꾸고, 패치할 수 있습니다.",
@@ -154,6 +174,10 @@
  "akitaonrails/ai-memory": {
   "ko": "코딩 에이전트 CLI를 위한 장기 기억 솔루션이며, 서로 다른 에이전트 벤더 간 작업 인계를 돕습니다.",
   "src": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors"
+ },
+ "alchaincyf/huashu-motion": {
+  "ko": "에이전트로 상업용 수준의 제품 홍보 영상을 한 번에 만들어 냅니다. 음악도 작곡하고, 화면을 가리키며 수정할 수도 있습니다. Commercial-grade launch films by your coding agent — point at the frame to change it.",
+  "src": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it."
  },
  "alibaba/open-code-review": {
   "ko": "안전하고 빠르며 효율적이고, 알리바바 규모에서 검증되었습니다. 결정적 파이프라인과 LLM 에이전트를 결합한 하이브리드 코드 리뷰 도구로, 정밀한 라인 단위 코멘트를 제공하며 NPE, 스레드 안전성, XSS, SQL 인젝션 등 다국어 기본 규칙셋을 내장하고 OpenAI 및 Anthropic과 호환됩니다.",
@@ -223,6 +247,10 @@
   "ko": "AI 애플리케이션을 위한 디자인 시스템. 머티리얼, physical, 촉각적, 기술적 요소를 담고 있습니다.",
   "src": "A design system for AI applications. Material, physical, tactile, technical."
  },
+ "dipa-studio/ios-sweet": {
+  "ko": "Redmi Note 10 Pro(sweet, SM7150)에서 구동하는 iOS 16 userland + XNU",
+  "src": "iOS 16 userland + XNU on Redmi Note 10 Pro (sweet, SM7150)"
+ },
  "earthtojake/text-to-cad": {
   "ko": "에이전트에게 CAD 슈퍼파워를 부여하세요.",
   "src": "Give your agent CAD superpowers."
@@ -235,6 +263,10 @@
   "ko": "코딩 에이전트를 위해 만든 버전 관리 시스템 Scion의 오픈소스 버전입니다.",
   "src": "Open-source version of Scion: version control built for coding agents."
  },
+ "headroomlabs-ai/headroom": {
+  "ko": "LLM에 전달하기 전에 도구 출력, 로그, 파일, RAG 청크를 압축합니다. 코딩 에이전트에서는 토큰을 20% 줄이고, JSON에서는 60~95% 줄이며, 답변은 동일하게 유지합니다. 라이브러리, 프록시, MCP 서버로 제공됩니다.",
+  "src": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server."
+ },
  "heygen-com/hyperframes": {
   "ko": "HTML을 작성하고 영상을 렌더링하세요. 에이전트를 위해 만들어졌습니다.",
   "src": "Write HTML. Render video. Built for agents."
@@ -246,6 +278,10 @@
  "jhaizhou-ops/d2r-mobile": {
   "ko": "Reign of the Warlock 확장팩이 포함된 Diablo II: Resurrected를 iOS / macOS에서 실행하는 오픈소스 호환 레이어. 보유한 Switch 게임 사본을 iPhone, iPad, Mac에서 네이티브로 실행하며, 완전한 터치 조작, 60 fps, 새로운 엔드게임 모드를 지원합니다. 게임 파일은 직접 준비해야 합니다.",
   "src": "Open-source iOS / macOS compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad and Mac — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS 兼容层"
+ },
+ "kitlangton/scrawl": {
+  "ko": "에이전트에게 문제를 보여 주세요: 표시하고, 기록하고, 전송합니다.",
+  "src": "Show an agent a problem: mark up, record, send"
  },
  "lightseekorg/tokenspeed": {
   "ko": "TokenSpeed는 빛의 속도에 가까운 LLM 추론 엔진입니다.",
@@ -315,6 +351,10 @@
   "ko": "업무에서 에이전트를 관리할 때 모두가 쓰는 오픈소스 앱입니다.",
   "src": "The open-source app everyone uses to manage agents at work"
  },
+ "pbakaus/impeccable": {
+  "ko": "AI 하네스의 디자인 품질을 높여 주는 디자인 언어입니다.",
+  "src": "The design language that makes your AI harness better at design."
+ },
  "ranxianglei/billion-context": {
   "ko": "작은 컨텍스트 창(100K 컨텍스트면 충분), 토큰 5배 절감, 월 단위 단일 세션(수십억 토큰)을 위한 컨텍스트 압축 플러그인. billion-context is all you need",
   "src": "A context-compression plugin for small context windows (a 100K context is enough), token savings (5x fewer tokens), and month-long single sessions (billions of tokens).上下文压缩插件，兼顾小窗口(100k上下文足矣)省token(省5倍token)和超长会话(数月级别几十亿token单会话)。billion-context is all you need"
@@ -346,6 +386,10 @@
  "shaongitbd/doory": {
   "ko": "오픈 소스 Canva 대안",
   "src": "Open source canva alternative"
+ },
+ "shiyu-coder/Kronos": {
+  "ko": "Kronos: 금융 시장의 언어를 위한 파운데이션 모델",
+  "src": "Kronos: A Foundation Model for the Language of Financial Markets"
  },
  "solana-classic/solana-classic": {
   "ko": "재미를 되찾자. 아트, NFT, 밈과 그 커뮤니티에 초점을 맞춘 오픈소스 SVM 블록체인 개발 프로젝트. 실험용 테스트넷이 공개되었습니다.",
@@ -395,9 +439,17 @@
   "ko": "XERJ는 AI가 데이터를 검색하는 새로운 방식입니다. 자동 인덱싱 기능으로 에이전트가 grep(1974년 도구)처럼 토큰을 낭비하지 않고도 데이터를 파악하게 합니다. 명령어 하나로 코드, 문서, 로그, PDF를 인덱싱해 검색, RAG, 보안 감사, 에이전트 메모리에 활용할 수 있으며, grep보다 40배 적은 토큰을 사용합니다. 내구성이 있으며 ElasticSearch를 대체해 인프라 비용을 10배 절감할 수 있습니다.",
   "src": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep (1974 tool). One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. It’s durable and can replace ElasticSearch saving you x10 infra costs."
  },
+ "xiaoyang111222/cn-math-taxonomy": {
+  "ko": "초·중등 수학 지식 그래프 + 사전 진단: 교육과정 기준 정렬, 인교판 1~9학년, 531개 지식점, 2271문항, 적응형 진단",
+  "src": "中小学数学知识图谱 + 前置诊断：课标对齐、人教版一–九年级、531 知识点、2271 题、自适应诊断"
+ },
  "xscreensaver-official/xscreensaver": {
   "ko": "공식 XScreenSaver GitHub 저장소는 없습니다.",
   "src": "There is no official XScreenSaver GitHub repository."
+ },
+ "zcbacxc/mcd-party-planner": {
+  "ko": "맥도날드 MCP 모임·단체 식사 조직 도우미: Model Context Protocol 기반의 파티 예약 및 단체 식사 계획 CLI/Skill",
+  "src": "麦当劳 MCP 聚会/团餐组织助手 — 基于 Model Context Protocol 的派对预订与团餐规划 CLI/Skill"
  },
  "zeusinsight/FinderSearch": {
   "ko": "fsearch 기반의 빠른 퍼지 파일명 검색을 제공하는 네이티브 macOS 파일 브라우저",
