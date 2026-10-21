@@ -35,9 +35,17 @@
   "ko": "자체 호스팅 가능한 GPTibo 스토어프론트, 관리자 페이지, Go 백엔드. 민감 정보를 제거한 MIT 라이선스 소스",
   "src": "Self-hosted GPTibo storefront, admin and Go backend — sanitized MIT source"
  },
+ "DietrichGebert/ponytail": {
+  "ko": "AI 에이전트가 방 안에서 가장 게으른 시니어 개발자처럼 생각하게 만듭니다. 최고의 코드는 작성하지 않은 코드입니다.",
+  "src": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote."
+ },
  "DuarteSantos8/openGym": {
   "ko": "직접 호스팅하는 헬스장 및 맨몸 운동 추적기입니다. 루틴 계획, 운동 기록(슈퍼세트, 워밍업, 유산소 포함), 어떤 근육이 훈련되었는지, 피로하거나 훈련량이 줄었는지 확인, FitNotes, Strong, Hevy에서 가져오기, 패스키 로그인을 지원합니다. 데이터도, 서버도 직접 관리하세요.",
   "src": "Self-hosted gym & body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server."
+ },
+ "ELY-Open-Source/ElyOffice": {
+  "ko": "Ely Office: Rust와 GPUI로 만든 오프라인 우선 데스크톱 앱",
+  "src": "Ely Office: offline-first desktop apps in Rust and GPUI"
  },
  "Gathin23/cleanyourtv": {
   "ko": "Wi-Fi로 모든 Android 또는 Google TV의 불필요한 기능을 정리하고, Apple TV 스타일의 홈 화면을 만들어 줍니다.",
@@ -46,6 +54,10 @@
  "Gathin23/tv-vibehack": {
   "ko": "광고 없는 TV. ADB로 모든 Android TV의 불필요한 기능을 제거하고 tvOS에서 영감을 받은 깔끔한 런처를 제공합니다. Claude Code로 반나절 만에 만들었습니다.",
   "src": "Your TV, minus the ads. Debloat any Android TV over ADB and give it a clean, tvOS-inspired launcher. Built in an afternoon with Claude Code."
+ },
+ "Graphify-Labs/graphify": {
+  "ko": "문서, SQL 스키마, 설정 파일, PDF 등 모든 코드베이스를 질의 가능한 지식 그래프로 바꿔 줍니다. Claude Code, Cursor, Codex, Gemini CLI용 /graphify 스킬로, 로컬에서 결정적 AST 파싱을 수행하고 모든 연결 관계에 설명을 붙이며 벡터 저장소를 사용하지 않습니다.",
+  "src": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store."
  },
  "HKUDS/CLI-Anything": {
   "ko": "\"CLI-Anything: 모든 소프트웨어를 에이전트 네이티브로 만들기\" -- CLI-Hub: https://clianything.cc/",
@@ -58,6 +70,10 @@
  "HeyPuter/everything": {
   "ko": "전 세계의 소프트웨어를 처음부터 다시 만들고 오픈 소스로 공개하고 있습니다.",
   "src": "We're rebuilding and open-sourcing the world’s software from scratch."
+ },
+ "JoasASantos/REA-Prompts": {
+  "ko": "REAP - REA(Reverse Engineer Anything)를 활용해 어떤 프로그램이든 최대한 활용하고, 복제하거나 분석할 수 있도록 돕는 프롬프트 모음",
+  "src": "REAP - Prompts for you to use REA (Reverse Engineer Anything), get the most out of it, and clone or break down any program"
  },
  "JuliusBrussee/caveman": {
   "ko": "🪨 적은 토큰으로 될 일에 왜 많은 토큰을 쓰나요? 원시인처럼 말해서 토큰을 65% 줄여 주는, 코딩 에이전트용 화제의 스킬 겸 프록시입니다.",
@@ -247,6 +263,10 @@
   "ko": "AI 애플리케이션을 위한 디자인 시스템. 머티리얼, physical, 촉각적, 기술적 요소를 담고 있습니다.",
   "src": "A design system for AI applications. Material, physical, tactile, technical."
  },
+ "deepseek-ai/DeepInfer": {
+  "ko": "DeepInfer: DeepSeek 모델을 위한 고성능 대규모 추론 프레임워크",
+  "src": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models"
+ },
  "dipa-studio/ios-sweet": {
   "ko": "Redmi Note 10 Pro(sweet, SM7150)에서 구동하는 iOS 16 userland + XNU",
   "src": "iOS 16 userland + XNU on Redmi Note 10 Pro (sweet, SM7150)"
@@ -263,6 +283,10 @@
   "ko": "코딩 에이전트를 위해 만든 버전 관리 시스템 Scion의 오픈소스 버전입니다.",
   "src": "Open-source version of Scion: version control built for coding agents."
  },
+ "gichirimaku/wp2shell-PoC": {
+  "ko": "CVE-2026-63030 + CVE-2026-60137 익스플로잇 RCE 체인",
+  "src": "CVE-2026-63030 + CVE-2026-60137 exploit RCE chain."
+ },
  "headroomlabs-ai/headroom": {
   "ko": "LLM에 전달하기 전에 도구 출력, 로그, 파일, RAG 청크를 압축합니다. 코딩 에이전트에서는 토큰을 20% 줄이고, JSON에서는 60~95% 줄이며, 답변은 동일하게 유지합니다. 라이브러리, 프록시, MCP 서버로 제공됩니다.",
   "src": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server."
@@ -274,6 +298,10 @@
  "i12bp8/decomp.wtf": {
   "ko": "What The Function: AI 에이전트가 사용자가 소유한 게임을 디컴파일하여, 동일한 바이트로 컴파일되는 C 코드로 바꿔줍니다. 로컬에서 실행됩니다.",
   "src": "What The Function: your AI agent decompiles games you own into C that compiles to the exact same bytes. Runs locally."
+ },
+ "interplains/zero-breach": {
+  "ko": "Zero Breach: AdFection / Candiru 광고 배포 스파이웨어 캠페인의 흔적을 컴퓨터에서 찾아내는 로컬 읽기 전용 스캐너입니다. 네트워크, 관리자 권한, 의존성이 필요하지 않습니다.",
+  "src": "Zero Breach — local, read-only scanner that checks a computer for indicators of the AdFection / Candiru ad-delivered spyware campaign. No network, no admin, no dependencies."
  },
  "jhaizhou-ops/d2r-mobile": {
   "ko": "Reign of the Warlock 확장팩이 포함된 Diablo II: Resurrected를 iOS / macOS에서 실행하는 오픈소스 호환 레이어. 보유한 Switch 게임 사본을 iPhone, iPad, Mac에서 네이티브로 실행하며, 완전한 터치 조작, 60 fps, 새로운 엔드게임 모드를 지원합니다. 게임 파일은 직접 준비해야 합니다.",
@@ -299,6 +327,10 @@
   "ko": "실무 엔지니어를 위한 스킬. 제 .agents 디렉터리에서 그대로 가져왔습니다.",
   "src": "Skills for Real Engineers. Straight from my .agents directory."
  },
+ "mistralai/timestral": {
+  "ko": "Mistral AI의 시계열 기반 모델 Timestral의 저장소",
+  "src": "Repository for Timestral, the time-series foundation model by Mistral AI"
+ },
  "mksglu/context-mode": {
   "ko": "AI 코딩 에이전트를 위한 컨텍스트 윈도우 최적화 도구입니다. 도구 출력을 샌드박스로 격리해 98% 줄이고, 세션 메모리를 유지하며, MCP와 훅을 통해 17개 플랫폼에 걸쳐 라우팅을 적용합니다.",
   "src": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks."
@@ -314,6 +346,10 @@
  "morluto/rea": {
   "ko": "에이전트로 앱 동작부터 네이티브 바이너리까지 무엇이든 리버스 엔지니어링합니다.",
   "src": "Reverse engineer anything with agents, from app behavior down to native binaries."
+ },
+ "msitarzewski/agency-agents": {
+  "ko": "손끝에서 쓸 수 있는 완전한 AI 에이전시입니다. 프론트엔드 마법사부터 레딧 커뮤니티 닌자, 위미(whimsy) 인젝터부터 현실 점검가까지 다양합니다. 각 에이전트는 개성, 프로세스, 검증된 결과물을 갖춘 전문가입니다.",
+  "src": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables."
  },
  "n1tr00-10/tiktok-web-signature": {
   "ko": "TikTok 웹 서명을 리버스 엔지니어링하여 API 요청에 사용할 유효한 TikTok 서명을 생성하는 도구",
@@ -355,6 +391,10 @@
   "ko": "AI 하네스의 디자인 품질을 높여 주는 디자인 언어입니다.",
   "src": "The design language that makes your AI harness better at design."
  },
+ "pengchujin/aerial-tv": {
+  "ko": "국산 TV를 위한 깔끔한 바탕화면: tvOS 디자인을 참고한 오픈 소스 Android TV 런처로, 광고가 없고 켜면 자동으로 실행됩니다. Xiaomi, TCL 등 중국 시장 TV를 위한 tvOS 스타일 런처입니다.",
+  "src": "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs."
+ },
  "ranxianglei/billion-context": {
   "ko": "작은 컨텍스트 창(100K 컨텍스트면 충분), 토큰 5배 절감, 월 단위 단일 세션(수십억 토큰)을 위한 컨텍스트 압축 플러그인. billion-context is all you need",
   "src": "A context-compression plugin for small context windows (a 100K context is enough), token savings (5x fewer tokens), and month-long single sessions (billions of tokens).上下文压缩插件，兼顾小窗口(100k上下文足矣)省token(省5倍token)和超长会话(数月级别几十亿token单会话)。billion-context is all you need"
@@ -391,6 +431,14 @@
   "ko": "Kronos: 금융 시장의 언어를 위한 파운데이션 모델",
   "src": "Kronos: A Foundation Model for the Language of Financial Markets"
  },
+ "sickn33/agentic-awesome-skills": {
+  "ko": "AAS Core는 전체 카탈로그 탐색, 에이전트 주도 선택, 스택 검증, 계획 수립을 위한 로컬 중심 에이전트 제어 플레인으로, 2,600개 이상의 에이전틱 스킬을 기반으로 합니다. CLI, 로컬 MCP, 카탈로그, 플러그인, Workbench를 포함합니다.",
+  "src": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,600+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench."
+ },
+ "simbasjungles/free-my-tv": {
+  "ko": "빠르고 광고 없는 Google TV 홈 화면입니다. 오픈 소스이며 Claude Code로 만들었습니다. 버튼 한 번으로 되돌릴 수 있습니다.",
+  "src": "A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo."
+ },
  "solana-classic/solana-classic": {
   "ko": "재미를 되찾자. 아트, NFT, 밈과 그 커뮤니티에 초점을 맞춘 오픈소스 SVM 블록체인 개발 프로젝트. 실험용 테스트넷이 공개되었습니다.",
   "src": "Bring back the fun. Open-source SVM blockchain development focused on art, NFTs, memes and their communities. Experimental testnet live."
@@ -398,6 +446,10 @@
  "stablyai/orca": {
   "ko": "Orca는 여러 에이전트(예: Grok Bot, Claude Code)를 함께 운영하는 공간입니다. 자신의 구독으로 어떤 코딩 에이전트든 실행할 수 있으며, 데스크톱, 모바일, 원격 런타임에서 사용할 수 있습니다.",
   "src": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime."
+ },
+ "stackedlol/ascii-sharks": {
+  "ko": "TypeScript로 만든 ascii shark 컴포넌트",
+  "src": "ascii shark components in typescript"
  },
  "storytold/artcraft": {
   "ko": "예술가, 디자이너, 영상 제작자를 위한 의도 중심 창작 엔진 ArtCraft",
@@ -435,13 +487,21 @@
   "ko": "Hindsight: 학습하는 에이전트 메모리",
   "src": "Hindsight: Agent Memory That Learns"
  },
+ "vllm-project/vllm": {
+  "ko": "처리량이 높고 메모리 효율이 좋은 LLM용 추론 및 서빙 엔진",
+  "src": "A high-throughput and memory-efficient inference and serving engine for LLMs"
+ },
+ "wshobson/agents": {
+  "ko": "Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, Pi를 지원하는 멀티 하네스 에이전틱 플러그인 마켓플레이스",
+  "src": "Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, and Pi"
+ },
  "xerj-org/xerj": {
   "ko": "XERJ는 AI가 데이터를 검색하는 새로운 방식입니다. 자동 인덱싱 기능으로 에이전트가 grep(1974년 도구)처럼 토큰을 낭비하지 않고도 데이터를 파악하게 합니다. 명령어 하나로 코드, 문서, 로그, PDF를 인덱싱해 검색, RAG, 보안 감사, 에이전트 메모리에 활용할 수 있으며, grep보다 40배 적은 토큰을 사용합니다. 내구성이 있으며 ElasticSearch를 대체해 인프라 비용을 10배 절감할 수 있습니다.",
   "src": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep (1974 tool). One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. It’s durable and can replace ElasticSearch saving you x10 infra costs."
  },
  "xiaoyang111222/cn-math-taxonomy": {
-  "ko": "초·중등 수학 지식 그래프 + 사전 진단: 교육과정 기준 정렬, 인교판 1~9학년, 531개 지식점, 2271문항, 적응형 진단",
-  "src": "中小学数学知识图谱 + 前置诊断：课标对齐、人教版一–九年级、531 知识点、2271 题、自适应诊断"
+  "ko": "초중고 지식 그래프 + 사전 진단: 수학(1~9학년, 고등학교 필수 및 선택 과목) + 초등 영어, 교육과정 정합, 인민교육출판사 교재 기준, 지식점 999개, 문항 4,143개, 적응형 진단",
+  "src": "中小学知识图谱 + 前置诊断：数学（一–九年级、高中必修与选择性必修）+ 小学英语，课标对齐、人教版，999 知识点、4143 题、自适应诊断"
  },
  "xscreensaver-official/xscreensaver": {
   "ko": "공식 XScreenSaver GitHub 저장소는 없습니다.",
