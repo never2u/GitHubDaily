@@ -3,6 +3,14 @@
   "ko": "Mac 메뉴 바와 iPhone에서 집을 실시간 3D 모델로 보여줍니다. Smart Life, Home Assistant, Philips Hue, Apple Home을 통해 조명과 에어컨을 제어할 수 있습니다.",
   "src": "Your home as a live 3D model in the Mac menu bar and on iPhone — lights and ACs via Smart Life, Home Assistant, Philips Hue and Apple Home."
  },
+ "9bie/php2shell-bypass-aslr-exp": {
+  "ko": "공식 버전을 수정할 필요가 없고 display_errors나 limit_memory가 필요 없는 php2shell 익스플로잇.",
+  "src": "A php2shell exploit that requires no modifications to the official version, and does not require display_errors or limit_memory."
+ },
+ "Acelogic/Snapintosh": {
+  "ko": "ASUS A16(Snapdragon X2 Elite)에서 macOS를 부팅하는 EL2 하이퍼바이저 및 툴체인, Adreno Metal/IOGPU 스택 포함",
+  "src": "EL2 hypervisor and toolchain that boots macOS on the ASUS A16 (Snapdragon X2 Elite), with an Adreno Metal/IOGPU stack"
+ },
  "AjncSystem/ShadowOfTheColossus-PC": {
   "ko": "Shadow of the Colossus(PS4, CUSA08809)의 Windows 네이티브 포트. 본인의 게임 덤프가 필요합니다. PC용 네이티브 포트.",
   "src": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC."
@@ -38,6 +46,10 @@
  "DietrichGebert/ponytail": {
   "ko": "AI 에이전트가 방 안에서 가장 게으른 시니어 개발자처럼 생각하게 만듭니다. 최고의 코드는 작성하지 않은 코드입니다.",
   "src": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote."
+ },
+ "Domainsun/awesome-chinese-secondhand-slang": {
+  "ko": "🐟 중국 중고거래 은어 완전 정리 및 함정 회피·규정 준수 가이드 (Xianyu / Zhuanzhuan / 샤오홍슈 기준 4,476개 이상의 실전 은어 변형, 판매자 속뜻 해석, 구매자 검수 및 사기 방지 가이드)",
+  "src": "🐟 中国二手交易暗语全书与避坑合规指南 (闲鱼 / 转转 / 小红书 4,476+ 条实战暗号变体、卖家潜台词透视与买家验货防割指南)"
  },
  "DuarteSantos8/openGym": {
   "ko": "직접 호스팅하는 헬스장 및 맨몸 운동 추적기입니다. 루틴 계획, 운동 기록(슈퍼세트, 워밍업, 유산소 포함), 어떤 근육이 훈련되었는지, 피로하거나 훈련량이 줄었는지 확인, FitNotes, Strong, Hevy에서 가져오기, 패스키 로그인을 지원합니다. 데이터도, 서버도 직접 관리하세요.",
@@ -75,6 +87,10 @@
   "ko": "임의의 스프라이트와 애니메이션 스프라이트 시트에서 노멀 맵을 생성하는 도구.",
   "src": "A tool to generate normal maps from any sprite and animated sprite sheet."
  },
+ "Jakeschincariol/day-trader-skill": {
+  "ko": "데이 트레이딩을 위한 Claude 스킬 11종: 수천 개의 차트를 스캔하고, 속보 뉴스를 추적하며, 모든 진입과 청산 시점을 정하고, 돈을 걸기 전에 모든 결과를 재생해 봅니다.",
+  "src": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar."
+ },
  "JoasASantos/REA-Prompts": {
   "ko": "REAP - REA(Reverse Engineer Anything)를 활용해 어떤 프로그램이든 최대한 활용하고, 복제하거나 분석할 수 있도록 돕는 프롬프트 모음",
   "src": "REAP - Prompts for you to use REA (Reverse Engineer Anything), get the most out of it, and clone or break down any program"
@@ -106,6 +122,10 @@
  "MadsLorentzen/ai-job-search": {
   "ko": "내 컴퓨터에서 돌아가는 구직 도구. Claude Code 기반의 AI 지원 프레임워크로, 채용 공고 평가, 이력서 맞춤화, 자기소개서 작성, 면접 준비를 도와줍니다. 포크해서 내 것으로 만들어 쓰세요.",
   "src": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it."
+ },
+ "Meloong-Git/PCL": {
+  "ko": "Minecraft 런처 Plain Craft Launcher(PCL).",
+  "src": "Minecraft 启动器 Plain Craft Launcher（PCL）。"
  },
  "MyLuxy/overdrive": {
   "ko": "PS5용 홈브루 게임 스토어 Overdrive, 1,800여 개의 게임 제공.",
@@ -199,6 +219,10 @@
   "ko": "REA(Reverse Engineer Anything)를 대체하는 8KB짜리 스킬 하나. MCP 없이 순수 CLI 도구로 동작합니다. 벤치마크 결과 38% 빠르고 35% 저렴합니다.",
   "src": "One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper."
  },
+ "aicodeking/pandacode": {
+  "ko": "PandaCode: 코딩 에이전트를 위한 차분한 데스크톱 작업 공간",
+  "src": "PandaCode: a calm desktop workspace for coding agents"
+ },
  "akitaonrails/ai-memory": {
   "ko": "코딩 에이전트 CLI를 위한 장기 기억 솔루션이며, 서로 다른 에이전트 벤더 간 작업 인계를 돕습니다.",
   "src": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors"
@@ -259,6 +283,10 @@
   "ko": "독립적으로 검증되고 기계가 읽을 수 있는 결과를 제공하는 다단계 보안 감사용 코딩 에이전트 스킬",
   "src": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings"
  },
+ "colinhacks/reylo": {
+  "ko": "완전한 타입 추론과 코드 생성 없이 .sql 파일을 TypeScript로 가져옵니다.",
+  "src": "Import .sql files into TypeScript with full type inference and zero codegen."
+ },
  "cranebeaker/coop-anything": {
   "ko": "Co-op Anything: AI 에이전트가 어떤 싱글플레이어 게임이든 조종해 친구들과 함께 플레이하게 해줍니다(온라인 및/또는 분할 화면 지원). 배운 내용을 역공학, 수정, 테스트, 배포, 공유할 수 있게 해주는 MCP 서버와 플레이북입니다.",
   "src": "Co-op Anything: point your AI agent at any single-player game and play it with friends (online and/or splitscreen!). MCP server and playbook to let you reverse engineer, fix, test, ship and share what it learns."
@@ -303,6 +331,10 @@
   "ko": "php2shell(CVE-2026-109618 / CVE-2026-109619)용 증명 코드(PoC) 익스플로잇으로, 취약한 PHP 환경에서의 원격 코드 실행을 보여줍니다. 보안 연구 및 교육 목적으로만 사용하세요.",
   "src": "Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in vulnerable PHP environments. For security research and educational purposes only."
  },
+ "fastapi/fastapi": {
+  "ko": "높은 성능, 배우기 쉬움, 빠른 코딩, 프로덕션 준비 완료된 FastAPI 프레임워크",
+  "src": "FastAPI framework, high performance, easy to learn, fast to code, ready for production"
+ },
  "feder-cr/git-ai": {
   "ko": "AI 에이전트를 위해 설계된 Git.",
   "src": "Git designed for AI agents."
@@ -323,13 +355,17 @@
   "ko": "HTML을 작성하고 영상을 렌더링하세요. 에이전트를 위해 만들어졌습니다.",
   "src": "Write HTML. Render video. Built for agents."
  },
+ "humblemuzzu/dumbtv": {
+  "ko": "루트 권한 없이 ADB를 통해 Fire TV에서 광고, 추적, 불필요한 요소를 제거합니다. 모든 단계는 되돌릴 수 있으며, 오픈소스 홈 화면이 함께 제공됩니다.",
+  "src": "Take the ads, tracking and clutter out of your Fire TV over ADB, no root. Every step can be undone. Comes with its own open-source home screen."
+ },
  "i12bp8/decomp.wtf": {
   "ko": "What The Function: AI 에이전트가 사용자가 소유한 게임을 디컴파일하여, 동일한 바이트로 컴파일되는 C 코드로 바꿔줍니다. 로컬에서 실행됩니다.",
   "src": "What The Function: your AI agent decompiles games you own into C that compiles to the exact same bytes. Runs locally."
  },
  "ikow/php2shell-poc": {
-  "ko": "CVE-2026-109618/109619 PHP session.upload_progress 익스플로잇 연구 — PoC 및 분석",
-  "src": "CVE-2026-109618/109619 PHP session.upload_progress Exploit Research — POC & Analysis"
+  "ko": "CVE-2026-109618/109619 — RCE 체인 5개와 탐지 규칙(Suricata, Sigma, ModSecurity). PHP session.upload_progress 인증 전 익스플로잇 연구.",
+  "src": "CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit research."
  },
  "interplains/zero-breach": {
   "ko": "Zero Breach: AdFection / Candiru 광고 배포 스파이웨어 캠페인의 흔적을 컴퓨터에서 찾아내는 로컬 읽기 전용 스캐너입니다. 네트워크, 관리자 권한, 의존성이 필요하지 않습니다.",
@@ -350,6 +386,10 @@
  "longbridge/gpui-kit": {
   "ko": "GPUI를 사용해 훌륭한 크로스 플랫폼 데스크톱 애플리케이션을 만들기 위한 Rust GUI 컴포넌트입니다.",
   "src": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI."
+ },
+ "luongnv89/claude-howto": {
+  "ko": "기본 개념부터 고급 에이전트까지, 바로 활용 가능한 복사-붙여넣기 템플릿과 함께하는 예제 중심의 시각적 Claude Code 가이드",
+  "src": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value."
  },
  "marclou/mailcheap": {
   "ko": "보내는 이메일에 대해서만 요금을 내는 뉴스레터 서비스. 휴면 구독자에게는 요금이 없으며, beehiiv 등과 비교해 훨씬 저렴합니다. 오픈 소스이므로 직접 호스팅하거나 mailcheap.ai를 이용할 수 있습니다.",
@@ -426,6 +466,10 @@
  "pengchujin/aerial-tv": {
   "ko": "국산 TV를 위한 깔끔한 바탕화면: tvOS 디자인을 참고한 오픈 소스 Android TV 런처로, 광고가 없고 켜면 자동으로 실행됩니다. Xiaomi, TCL 등 중국 시장 TV를 위한 tvOS 스타일 런처입니다.",
   "src": "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs."
+ },
+ "php/php-src": {
+  "ko": "PHP 인터프리터",
+  "src": "The PHP Interpreter"
  },
  "ranxianglei/billion-context": {
   "ko": "작은 컨텍스트 창(100K 컨텍스트면 충분), 토큰 5배 절감, 월 단위 단일 세션(수십억 토큰)을 위한 컨텍스트 압축 플러그인. billion-context is all you need",
@@ -507,6 +551,10 @@
   "ko": "월 77억 토큰, 무료 LLM 제공자 34곳, 무료 모델 엔드포인트 635개를 하나의 /v1 엔드포인트로 제공합니다. 원하는 커스텀 OpenAI 호환 엔드포인트도 추가할 수 있습니다. 스마트 라우팅, 자동 장애 조치, 암호화된 키를 지원합니다. 개인 실험용으로만 사용하세요.",
   "src": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only."
  },
+ "tek-sys-hub/Rubix-lang": {
+  "ko": "100% 순수 x86-64 어셈블리 시스템 언어",
+  "src": "The 100% Pure x86-64 Assembly Systems Language"
+ },
  "thedotmack/claude-mem": {
   "ko": "모든 에이전트를 위한 세션 간 지속 컨텍스트입니다. 세션 중 에이전트가 하는 모든 일을 기록하고 AI로 압축한 뒤, 관련 컨텍스트를 이후 세션에 다시 주입합니다. Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode 등과 함께 작동합니다.",
   "src": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More"
@@ -544,8 +592,8 @@
   "src": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep (1974 tool). One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. It’s durable and can replace ElasticSearch saving you x10 infra costs."
  },
  "xiaoyang111222/cn-math-taxonomy": {
-  "ko": "초중고 지식 그래프 + 사전 진단: 수학(1~9학년, 고등학교 필수 및 선택 과목) + 초등 영어, 교육과정 정합, 인민교육출판사 교재 기준, 지식점 999개, 문항 4,143개, 적응형 진단",
-  "src": "中小学知识图谱 + 前置诊断：数学（一–九年级、高中必修与选择性必修）+ 小学英语，课标对齐、人教版，999 知识点、4143 题、自适应诊断"
+  "ko": "초등부터 고등까지의 수학, 3학년부터 고등까지의 영어, 중학교 물리의 지식 그래프: 1644개 지식점, 2403개 선수 관계 간선, 6723개 문제. 교육과정 기준에 맞추고 적응형 사전 진단을 제공합니다.",
+  "src": "数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。"
  },
  "xscreensaver-official/xscreensaver": {
   "ko": "공식 XScreenSaver GitHub 저장소는 없습니다.",
