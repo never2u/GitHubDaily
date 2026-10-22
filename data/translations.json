@@ -71,6 +71,10 @@
   "ko": "전 세계의 소프트웨어를 처음부터 다시 만들고 오픈 소스로 공개하고 있습니다.",
   "src": "We're rebuilding and open-sourcing the world’s software from scratch."
  },
+ "Hugo-Dz/spritefusion-sprite-normals": {
+  "ko": "임의의 스프라이트와 애니메이션 스프라이트 시트에서 노멀 맵을 생성하는 도구.",
+  "src": "A tool to generate normal maps from any sprite and animated sprite sheet."
+ },
  "JoasASantos/REA-Prompts": {
   "ko": "REAP - REA(Reverse Engineer Anything)를 활용해 어떤 프로그램이든 최대한 활용하고, 복제하거나 분석할 수 있도록 돕는 프롬프트 모음",
   "src": "REAP - Prompts for you to use REA (Reverse Engineer Anything), get the most out of it, and clone or break down any program"
@@ -123,6 +127,10 @@
   "ko": "MOSS-Image의 공식 저장소. 고품질 텍스트 렌더링, 레이아웃 생성, 효율적인 미세 조정을 지원하는 50억 파라미터 기반 DiT 모델입니다.",
   "src": "Official repository for MOSS-Image, a 5B-parameter base DiT model with high-quality text rendering, layout generation, and efficient fine-tuning."
  },
+ "OverkillLabs3/driveclub-recomp": {
+  "ko": "Windows에서 네이티브로 실행되는 DriveClub (PS4, 버전 1.28)",
+  "src": "DriveClub (PS4, version 1.28) running natively on Windows"
+ },
  "PS5Dev/Byepervisor-Reborn": {
   "ko": "어쩌다 보니 Byepervisor가 반환되었다...",
   "src": "Somehow, Byepervisor returned..."
@@ -146,6 +154,10 @@
  "TencentCloud/Octop": {
   "ko": "더 똑똑한 직접 호스팅 AI 어시스턴트로, 다중 사용자와 다중 에이전트를 지원합니다.",
   "src": "A smarter, self-hosted AI assistant — multi-user, multi-agent."
+ },
+ "UniXNU/UniXNU": {
+  "ko": "UEFI를 통해 비 Apple ARM64 하드웨어에서 iOS 및 macOS를 실행합니다.",
+  "src": "Run iOS and macOS on non-Apple ARM64 hardware through UEFI."
  },
  "VITASID57/bluntcore-intimacy-lab": {
   "ko": "🧬 钝核｜인간-기계 친밀 실험실 · Bluntcore Intimacy Lab: 인간-AI 연애, 성인용 AI, 프롬프트, 메모리, 에이전트, 모델 테스트 및 실험 기록.",
@@ -227,6 +239,10 @@
   "ko": "멀티플레이를 지원하는 GTA V의 iOS/macOS용 네이티브 Mach-O 포트",
   "src": "A native Mach-O port for iOS/macOS of GTA V, with multiplayer"
  },
+ "c22dev/mush8": {
+  "ko": "Mario Kart 8 Deluxe를 iOS/macOS에서 네이티브로 실행할 수 있도록 Mach-O로 移植한 프로젝트이며, LAN, 온라인, 무선 멀티플레이어를 지원합니다.",
+  "src": "A native Mach-O iOS/macOS port of Mario Kart 8 Deluxe, with LAN, online and wireless multiplayer"
+ },
  "cathrynlavery/diagram-design": {
   "ko": "Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Pi를 위한 편집 디자인 다이어그램 도구입니다. 44가지 다이어그램 유형을 지원하며, 독립형 HTML + SVG로 만들어집니다. 그림자 효과가 없고 Mermaid 방식의 어설픈 결과물이 아닙니다.",
   "src": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop."
@@ -271,9 +287,21 @@
   "ko": "Redmi Note 10 Pro(sweet, SM7150)에서 구동하는 iOS 16 userland + XNU",
   "src": "iOS 16 userland + XNU on Redmi Note 10 Pro (sweet, SM7150)"
  },
+ "dominikmartn/harp": {
+  "ko": "하나의 사이드바에서 여러 Claude Code 및 Codex 에이전트를 나란히 실행하고, 어떤 에이전트가 사용자의 확인을 필요로 하는지 알려줍니다. Warp의 비공식 포크입니다.",
+  "src": "Run many Claude Code and Codex agents side by side, in one sidebar that tells you which one needs you. An unofficial fork of Warp."
+ },
+ "eagle-hq/EAGLE-4": {
+  "ko": "EAGLE-4 공식 추론 코드",
+  "src": "Official Inference Code of EAGLE-4"
+ },
  "earthtojake/text-to-cad": {
   "ko": "에이전트에게 CAD 슈퍼파워를 부여하세요.",
   "src": "Give your agent CAD superpowers."
+ },
+ "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC": {
+  "ko": "php2shell(CVE-2026-109618 / CVE-2026-109619)용 증명 코드(PoC) 익스플로잇으로, 취약한 PHP 환경에서의 원격 코드 실행을 보여줍니다. 보안 연구 및 교육 목적으로만 사용하세요.",
+  "src": "Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in vulnerable PHP environments. For security research and educational purposes only."
  },
  "feder-cr/git-ai": {
   "ko": "AI 에이전트를 위해 설계된 Git.",
@@ -298,6 +326,10 @@
  "i12bp8/decomp.wtf": {
   "ko": "What The Function: AI 에이전트가 사용자가 소유한 게임을 디컴파일하여, 동일한 바이트로 컴파일되는 C 코드로 바꿔줍니다. 로컬에서 실행됩니다.",
   "src": "What The Function: your AI agent decompiles games you own into C that compiles to the exact same bytes. Runs locally."
+ },
+ "ikow/php2shell-poc": {
+  "ko": "CVE-2026-109618/109619 PHP session.upload_progress 익스플로잇 연구 — PoC 및 분석",
+  "src": "CVE-2026-109618/109619 PHP session.upload_progress Exploit Research — POC & Analysis"
  },
  "interplains/zero-breach": {
   "ko": "Zero Breach: AdFection / Candiru 광고 배포 스파이웨어 캠페인의 흔적을 컴퓨터에서 찾아내는 로컬 읽기 전용 스캐너입니다. 네트워크, 관리자 권한, 의존성이 필요하지 않습니다.",
@@ -463,6 +495,14 @@
   "ko": "FigCraft: 인터페이스 디자인과 프로토타이핑. 순수 Rust로 구현한, 협업 디자인 워크플로를 위한 오픈 소스 클린룸 재구현 프로젝트",
   "src": "FigCraft: interface design and prototyping; an open-source, clean-room reimplementation of collaborative design workflows in pure Rust"
  },
+ "strelov1/freehire": {
+  "ko": "freehire — 구직자를 위한 오픈소스 검색 엔진",
+  "src": "freehire — the open-source search engine for job seekers"
+ },
+ "supabase/supabase": {
+  "ko": "Postgres 개발 플랫폼. Supabase는 웹, 모바일, AI 애플리케이션을 만들 수 있도록 전용 Postgres 데이터베이스를 제공합니다.",
+  "src": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications."
+ },
  "tashfeenahmed/freellmapi": {
   "ko": "월 77억 토큰, 무료 LLM 제공자 34곳, 무료 모델 엔드포인트 635개를 하나의 /v1 엔드포인트로 제공합니다. 원하는 커스텀 OpenAI 호환 엔드포인트도 추가할 수 있습니다. 스마트 라우팅, 자동 장애 조치, 암호화된 키를 지원합니다. 개인 실험용으로만 사용하세요.",
   "src": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only."
@@ -478,6 +518,10 @@
  "trycua/cua": {
   "ko": "오픈소스 드라이버, 크로스 OS 샌드박스, 학습·평가·데이터 생성용 벤치마크로 computer-use 2.0을 확장합니다.",
   "src": "Scale computer-use 2.0 with open-source drivers, cross-OS sandboxes, and benchmarks for training, evaluation, and data generation."
+ },
+ "twentyhq/twenty": {
+  "ko": "AI를 위해 설계된, Salesforce의 오픈 대안.",
+  "src": "The open alternative to Salesforce, designed for AI."
  },
  "twostraws/SwiftUI-Agent-Skill": {
   "ko": "Claude Code, Codex 및 기타 AI 도구를 위한 SwiftUI 에이전트 스킬입니다.",

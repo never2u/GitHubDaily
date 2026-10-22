@@ -198,6 +198,39 @@
     }
    ],
    "subheadline": "Claude Code·Codex 등을 각자의 워크트리에서 병렬로 돌리고 하나의 화면에서 추적한다"
+  },
+  "supabase/supabase": {
+   "date": "2026-10-22",
+   "headline": "Supabase, 오픈소스로 짠 Postgres 개발 플랫폼",
+   "highlights": [
+    "호스팅 Postgres, 인증, REST·GraphQL·Realtime API, 함수, 스토리지, 벡터 툴킷을 한 플랫폼에서 제공",
+    "MIT·Apache 2 등 오픈 라이선스 도구를 우선 활용하고 없으면 직접 개발해 공개",
+    "설치 없이 호스팅으로 시작하거나 셀프 호스팅·로컬 개발 선택 가능",
+    "JavaScript(TypeScript), Flutter, Swift, Python 공식 클라이언트와 다양한 커뮤니티 라이브러리 지원",
+    "한국어를 포함한 다국어 README 번역 제공"
+   ],
+   "image": "https://user-images.githubusercontent.com/8291514/213727234-cda046d6-28c6-491a-b284-b86c5cede25d.png#gh-light-mode-only",
+   "image_caption": "Postgres 기반 개발 플랫폼 Supabase의 대표 이미지",
+   "lead": "Supabase는 웹·모바일·AI 애플리케이션을 위한 전용 Postgres 데이터베이스를 제공하는 개발 플랫폼이다. 인증, 자동 생성 API, 함수, 파일 스토리지, 벡터 툴킷까지 한데 묶어 Firebase와 유사한 개발자 경험을 오픈소스 기반으로 제공한다.",
+   "sections": [
+    {
+     "heading": "무엇인가: Postgres 중심의 개발 플랫폼",
+     "text": "Supabase는 스스로를 'Postgres 개발 플랫폼'이라고 소개한다. README에 따르면 호스팅 Postgres 데이터베이스, 인증 및 권한 관리, REST·GraphQL·Realtime 구독 등 자동 생성 API, 데이터베이스 함수와 Edge Functions, 파일 스토리지, AI 및 벡터/임베딩 툴킷, 대시보드를 기능으로 제공한다. 프로젝트는 Firebase의 기능을 엔터프라이즈급 오픈소스 도구로 만들겠다는 목표를 내세우지만, Firebase를 1대1로 대응시킨 제품은 아니며 Firebase와 비슷한 개발자 경험을 주는 것이 목적이라고 밝힌다."
+    },
+    {
+     "heading": "어떻게 작동하나: 오픈소스 도구의 조합",
+     "text": "Supabase는 여러 오픈소스 도구를 조합한 구조다. MIT나 Apache 2 등 동등한 라이선스의 도구가 이미 있으면 그것을 사용하고 지원하며, 없으면 직접 만들어 공개한다는 원칙이다. 핵심 구성 요소는 다음과 같다. Postgres는 30년 이상 개발돼 온 객체 관계형 데이터베이스다. Realtime은 Elixir 서버로, Postgres의 복제 기능을 통해 삽입·수정·삭제 변경을 감지해 JSON으로 바꾼 뒤 웹소켓으로 권한 있는 클라이언트에 전달한다. PostgREST는 Postgres를 곧바로 RESTful API로 바꿔 준다. GoTrue는 JWT 기반 인증 API이며, Storage는 S3 파일을 관리하는 RESTful API로 권한은 Postgres가 맡는다. 이 밖에 GraphQL API를 노출하는 pg_graphql 확장, 테이블 조회·역할 추가·쿼리 실행을 지원하는 postgres-meta, 엣지·서비스 프록시인 Envoy가 포함된다."
+    },
+    {
+     "heading": "사용 방식과 클라이언트 라이브러리",
+     "text": "Supabase는 호스팅 플랫폼이어서 별도 설치 없이 가입만으로 쓸 수 있다. 셀프 호스팅과 로컬 개발도 가능하다. 클라이언트 라이브러리는 모듈식으로, 각 하위 라이브러리가 하나의 외부 시스템에 대한 독립 구현이며 이는 기존 도구를 지원하는 방식의 하나라고 설명한다. 공식 지원 언어는 JavaScript(TypeScript)의 supabase-js, Flutter의 supabase-flutter, Swift의 supabase-swift, Python의 supabase-py다. 커뮤니티 차원에서는 C#, Go, Java, Kotlin, Ruby, Rust, Godot Engine(GDScript)용 라이브러리가 마련돼 있다."
+    },
+    {
+     "heading": "커뮤니티와 지원",
+     "text": "지원 채널은 용도별로 나뉜다. 커뮤니티 포럼은 개발 도움과 데이터베이스 모범 사례 논의에, GitHub Issues는 버그와 오류 보고에, 이메일 지원은 데이터베이스나 인프라 문제에, Discord는 애플리케이션 공유와 교류에 적합하다고 안내한다. 전체 문서는 supabase.com/docs에서 볼 수 있고, 저장소를 watch 하면 주요 업데이트 알림을 받을 수 있다. README는 한국어를 포함해 40여 개 언어 번역도 제공한다."
+    }
+   ],
+   "subheadline": "Firebase의 개발 경험을 엔터프라이즈급 오픈소스 도구로 구현하다"
   }
  },
  "blurbs": {
@@ -335,6 +368,16 @@
    "date": "2026-10-18",
    "long": false,
    "text": "Codex, Claude Code, OpenCode 같은 여러 코딩 에이전트를 나란히 실행하고 한곳에서 관리하는 TypeScript 기반 오케스트레이터입니다. 각 에이전트를 독립된 git worktree에서 돌리고 결과를 비교해 가장 나은 결과를 병합할 수 있습니다. 모바일 앱으로 진행 상황을 확인하고 후속 지시를 보낼 수 있으며, SSH 원격 환경과 GitHub, Linear 연동도 지원합니다. 여러 에이전트를 병렬로 활용하려는 개발자에게 흥미로운 도구입니다."
+  },
+  "strelov1/freehire": {
+   "date": "2026-10-22",
+   "long": true,
+   "text": "freehire는 기업 채용 페이지에서 직접 수집한 IT 채용 공고를 모아 보여주는 오픈소스 검색 엔진입니다. 중개업체의 재게시글이나 죽은 링크 없이 원본 공고로 연결되며, 여러 게시판에 올라온 같은 공고는 하나로 합쳐 보여준다고 소개합니다. 직무, 근무 형태, 연차, 기술 스택, 연봉 등 여러 조건으로 검색할 수 있고, MIT 라이선스로 공개되어 직접 호스팅하거나 API와 CLI를 활용해 확장할 수도 있다는 점이 특징입니다. Go와 PostgreSQL, Meilisearch 등으로 구성되어 있습니다."
+  },
+  "twentyhq/twenty": {
+   "date": "2026-10-22",
+   "long": true,
+   "text": "twenty는 기술 팀이 복잡한 업무 요구에 맞춰 직접 만들고 확장할 수 있도록 설계된 오픈소스 CRM입니다. 객체, 필드, 뷰, 워크플로와 에이전트를 코드로 정의하고 워크스페이스에 배포할 수 있어, 개발 스택의 다른 부분과 같은 방식으로 관리할 수 있다는 점이 눈에 띕니다. 클라우드 버전을 바로 쓸 수도 있고 Docker Compose로 직접 호스팅할 수도 있습니다. TypeScript, NestJS, React 기반으로 만들어졌으며 AI 기능을 염두에 둔 설계를 내세우고 있습니다."
   },
   "vllm-project/vllm": {
    "date": "2026-10-21",
