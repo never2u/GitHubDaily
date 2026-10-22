@@ -1,12 +1,12 @@
 name: Daily edition
 
 on:
-  # The 08:00 KST edition is started by an external scheduler (cron-job.org)
-  # calling workflow_dispatch at 07:55 KST; dispatches start within seconds.
-  # GitHub's own schedule often starts hours late, so it is only a backup:
-  # it skips itself when today's edition is already published.
+  # GitHub starts scheduled runs late (1.5-2.5 h observed), so start well before
+  # 08:00 KST to have the edition live by then. The second schedule is a retry
+  # for days the first run fails; it skips itself if today's edition exists.
   schedule:
-    - cron: "47 22 * * *"  # 07:47 KST, usually runs ~09:30-10:30 KST
+    - cron: "47 19 * * *"  # 04:47 KST -> usually published ~06:30-07:30
+    - cron: "13 22 * * *"  # 07:13 KST retry (skipped when already published)
   workflow_dispatch:
   push:
     branches: [main]
@@ -29,7 +29,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - id: guard
-        name: Skip the backup run if today's edition is already out
+        name: Skip a scheduled run if today's edition is already out
         run: |
           today="$(TZ=Asia/Seoul date +%F)"
           if [ "${{ github.event_name }}" = "schedule" ] && [ -f "data/$today.json" ]; then
