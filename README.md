@@ -68,8 +68,18 @@ python -m unittest discover -s tests -t .
 ## 배포 (GitHub Pages)
 
 1. 저장소 **Settings → Pages → Source** 를 **GitHub Actions** 로 설정합니다.
-2. `.github/workflows/daily.yml` 이 매일 오전 8시(KST) 전에 실행되어 새 호를 발행하고,
-   수집한 데이터(`data/`)를 커밋해 다음 날 비교(신규 진입·순위 변동·연속 일수)에 사용합니다.
+2. 매일 오전 8시 발행은 **외부 스케줄러가 07:55(KST)에 워크플로를 실행**하는 방식입니다.
+   GitHub 자체 예약 실행(`schedule`)은 1~2시간 이상 늦게 시작되는 일이 잦아서 백업으로만 둡니다.
+   백업 실행은 그날 호가 이미 발행돼 있으면 아무것도 하지 않습니다.
+   수집한 데이터(`data/`)는 커밋되어 다음 날 비교에 쓰입니다.
+
+   외부 스케줄러 설정 (cron-job.org, 무료):
+   - GitHub **Settings → Developer settings → Fine-grained tokens**에서 이 저장소만 선택하고
+     권한 **Actions: Read and write**만 준 토큰을 만듭니다.
+   - cron-job.org에서 새 작업: 매일 07:55, 시간대 Asia/Seoul,
+     URL `https://api.github.com/repos/never2u/GitHubDaily/actions/workflows/daily.yml/dispatches`,
+     메서드 `POST`, 헤더 `Authorization: Bearer <토큰>`, `Accept: application/vnd.github+json`,
+     본문 `{"ref": "<기본 브랜치 이름>"}`.
 3. Actions 탭에서 **Daily edition → Run workflow** 로 즉시 발행할 수도 있습니다.
 
 ## 구조
