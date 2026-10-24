@@ -166,6 +166,39 @@
    ],
    "lead": "morluto/rea는 하나의 MCP 서버로 네이티브 바이너리, 애플리케이션, 런타임 동작을 역분석할 수 있게 해 주는 TypeScript 기반 도구다. 에이전트가 소스 코드 없이 앱의 기능을 조사하고, 근거와 함께 동작 원리를 설명하도록 돕는다."
   },
+  "pbakaus/impeccable": {
+   "date": "2026-10-25",
+   "headline": "AI 디자인의 '뻔한 티'를 지우는 Impeccable",
+   "highlights": [
+    "스킬 1개, 명령 24개, 결정론적 탐지 규칙 62개로 구성",
+    "`/impeccable init`이 `PRODUCT.md`에 제품 정보를 기록하고 시각 시스템은 `DESIGN.md`에 분리",
+    "CLI와 브라우저 확장의 탐지 규칙은 LLM이나 API 키 없이 실행",
+    "Cursor, Claude Code, Gemini CLI, Codex CLI 등 다수의 AI 도구 지원",
+    "Inter 남용, 카드 중첩, 보라-파랑 그라디언트 등 AI 디자인의 전형적 징후를 안티패턴으로 명시"
+   ],
+   "image": null,
+   "image_caption": "Impeccable: AI 코딩 에이전트의 프런트엔드 디자인을 다듬는 디자인 언어",
+   "lead": "Impeccable은 AI 코딩 에이전트가 만든 프런트엔드 디자인을 개선하기 위한 디자인 지침 모음입니다. 하나의 스킬 아래 24개 명령과 62개의 결정론적 탐지 규칙을 묶어, 모델이 반복해서 내놓는 전형적인 디자인 습관을 줄이는 것을 목표로 합니다.",
+   "sections": [
+    {
+     "heading": "무엇인가: AI 에이전트를 위한 디자인 언어",
+     "text": "Impeccable은 README에서 스스로를 AI 코딩 에이전트를 위한 디자인 가이드라고 소개합니다. 구성은 하나의 스킬, 24개의 명령, 브라우저에서의 실시간 반복 작업, 그리고 AI가 생성한 프런트엔드 디자인을 점검하는 62개의 결정론적 탐지 규칙입니다. 프로젝트는 Anthropic의 frontend-design이 Claude용으로 널리 쓰인 첫 디자인 스킬이었다는 점을 언급하며, 그 출발점에서 확장했다고 밝힙니다."
+    },
+    {
+     "heading": "왜 필요한가: 모델이 공유하는 '템플릿의 흔적'",
+     "text": "README는 모든 모델이 같은 SaaS 템플릿으로 학습했기 때문에, 지침 없이 작업하면 매번 비슷한 징후가 나타난다고 지적합니다. 모든 곳에 쓰인 Inter 글꼴, 보라에서 파랑으로 이어지는 그라디언트, 카드 안에 중첩된 카드, 색 배경 위의 회색 글씨, 제목 위에 놓인 둥근 사각형 아이콘 타일이 대표적인 예입니다. Impeccable은 이런 패턴을 명시적인 안티패턴 지침으로 정리했습니다. Arial·Inter·시스템 기본 글꼴 지양, 순수한 검정과 회색 대신 색을 섞은 톤 사용, 바운스·엘라스틱 이징 회피 등이 포함됩니다."
+    },
+    {
+     "heading": "어떻게 동작하나: init, 명령, 탐지 규칙",
+     "text": "작업은 `/impeccable init`으로 시작합니다. 이 명령은 프로젝트를 살피고, 꼭 필요한 빈칸만 질문한 뒤 대상 사용자, 목적, 운영 환경, 제약, 어조, 근거 같은 지속적인 제품 정보를 `PRODUCT.md`에 기록합니다. 시각적 방향은 화면별로 나중에 정하며, 기존 또는 새로 만든 비주얼 시스템은 `DESIGN.md`에 따로 남깁니다. 이후에는 `polish`, `audit`, `critique`, `distill`, `animate`, `bolder`, `quieter` 등 24개 명령을 `/impeccable`을 통해 쓸 수 있고, `/impeccable pin audit`처럼 단독 단축 명령도 만들 수 있습니다. 62개의 결정론적 규칙은 CLI와 브라우저 확장에서 LLM이나 API 키 없이 실행되며, LLM 기반 비평 점검이 이를 보완합니다."
+    },
+    {
+     "heading": "어디서 쓰나: 폭넓은 도구 지원과 설치 방식",
+     "text": "권장 설치 방법은 프로젝트 루트에서 `npx impeccable install`을 실행하는 것입니다. 설치기는 `~/.claude`, `~/.codex`, `~/.grok`, `~/.hermes`, `~/.veto`, 프로젝트 로컬 `.cursor` 같은 하네스를 감지하며, `--providers`와 `--scope=project|global` 옵션으로 스크립트에서 선택을 고정할 수 있습니다. Cursor, Claude Code, Gemini CLI, Codex CLI, Grok Build, Hermes Agent, Veto 등을 지원하고, Git 서브모듈, VS Code 마켓플레이스의 GitHub Copilot 확장, Claude Code 플러그인, 웹사이트 ZIP, 저장소 직접 복사 방식도 제공합니다. 스킬에는 자체 런타임이 필요 없습니다. 각 스킬 사본에 포함된 작은 런처가 자체 완결형 바이너리를 실행하며, 이 바이너리는 런처 옆에 있거나 첫 실행 때 `~/.impeccable/bin/`에 내려받아집니다. 한편 Codex는 훅 승인, Grok Build는 폴더 신뢰, Hermes는 `hermes skills trust` 같은 하네스별 신뢰 절차가 필요합니다."
+    }
+   ],
+   "subheadline": "스킬 1개·명령 24개·탐지 규칙 62개로 AI 코딩 에이전트의 프런트엔드 디자인 품질을 끌어올린다"
+  },
   "php/php-src": {
    "date": "2026-10-23",
    "headline": "PHP 인터프리터 소스, 오픈소스로 이어가는 웹의 근간",
@@ -345,6 +378,11 @@
    "long": true,
    "text": "Ghidra는 미국 NSA 연구부서가 만들고 관리하는 소프트웨어 리버스 엔지니어링(SRE) 프레임워크입니다. 여러 플랫폼의 컴파일된 코드를 분석하는 디스어셈블리, 디컴파일, 그래프 표시, 스크립팅 등 다양한 기능을 갖추고 있으며, Java나 Python으로 확장 컴포넌트와 스크립트를 개발할 수 있습니다. 보안 분야의 분석 도구를 찾는 개발자와 연구자에게 유용하며, 설치 전 보안 권고 사항을 확인하라는 경고도 포함되어 있습니다."
   },
+  "Nutlope/hallmark": {
+   "date": "2026-10-25",
+   "long": true,
+   "text": "Hallmark은 Claude Code, Codex, Cursor, OpenCode에서 쓸 수 있는 디자인 스킬로, AI가 만든 듯한 획일적인 웹페이지 느낌을 피하는 것을 목표로 합니다. 48개의 테마 소재 중 세 가지를 골라 방문자가 하려는 작업을 중심으로 페이지를 구성하고, 실제 브라우저에서 눈에 띄는 AI 특유의 패턴을 점검합니다. 접근성과 반응형 레이아웃 같은 바닥선은 반드시 지키도록 설계되어 있어 실무 활용도가 높습니다."
+  },
   "OpenBMB/VoxCPM": {
    "date": "2026-10-24",
    "long": true,
@@ -390,6 +428,11 @@
    "long": false,
    "text": "knowledge-work-plugins는 Anthropic이 공개한 플러그인 모음으로, Claude를 특정 직무와 팀, 회사 환경에 맞는 전문가로 만들어 줍니다. Claude Cowork에서 설치할 수 있고 Claude Code와도 호환됩니다. 각 플러그인은 직무별 스킬, 커넥터, 슬래시 명령, 서브 에이전트를 묶어 제공하며, 사용자는 회사의 도구와 용어, 업무 절차에 맞게 커스터마이즈할 수 있습니다. 지식 노동자가 반복되는 업무를 일관된 방식으로 처리하도록 돕는 프로젝트입니다."
   },
+  "aws/agent-toolkit-for-aws": {
+   "date": "2026-10-25",
+   "long": false,
+   "text": "Agent Toolkit for AWS는 AWS가 공식 지원하는 MCP 서버, 스킬, 플러그인 모음으로, Claude Code, Codex, Cursor 같은 AI 코딩 에이전트가 AWS 서비스를 다루며 애플리케이션을 만들고 배포하도록 돕습니다. Claude Code에서는 공식 마켓플레이스를 통해 aws-core, aws-agents, aws-data-analytics 등 용도별 플러그인을 설치할 수 있습니다. AWS 환경에서 에이전트를 활용하려는 개발자에게 바로 쓸 수 있는 도구입니다."
+  },
   "cursor/plugins": {
    "date": "2026-10-17",
    "long": false,
@@ -405,6 +448,11 @@
    "long": true,
    "text": "FastAPI는 표준 Python 타입 힌트를 기반으로 API를 빠르게 만들 수 있는 현대적인 웹 프레임워크입니다. 공식 문서에서는 NodeJS 및 Go에 견줄 만한 높은 성능을 강조하며, Starlette과 Pydantic을 기반으로 동작한다고 소개합니다. 자동으로 생성되는 대화형 API 문서와 OpenAPI, JSON Schema 같은 개방형 표준 호환성도 주요 특징입니다. 여러 기업이 실제 프로덕션 서비스에 도입했다는 후기가 소개되어 있어, 배우기 쉽고 운영 환경에서도 쓸 수 있는 Python API 프레임워크를 찾는 개발자에게 적합합니다. 같은 제작자의 Typer는 CLI 앱을 만드는 데 쓰입니다."
   },
+  "google-gemini/gemini-cli": {
+   "date": "2026-10-25",
+   "long": false,
+   "text": "Gemini CLI는 Gemini 모델의 기능을 터미널에서 바로 사용할 수 있게 해 주는 오픈소스 AI 에이전트입니다. npx, npm, Homebrew 등 여러 방법으로 설치할 수 있고 주간 프리뷰와 안정 버전 등 릴리스 채널을 제공합니다. 다만 README에는 이 도구가 Antigravity CLI로 대체되었고 최신 Gemini 모델에 최적화되어 있지 않다는 안내가 함께 적혀 있어 이 점을 확인하는 것이 좋습니다."
+  },
   "headroomlabs-ai/headroom": {
    "date": "2026-10-20",
    "long": true,
@@ -419,6 +467,11 @@
    "date": "2026-10-23",
    "long": true,
    "text": "claude-howto는 Claude Code를 처음 쓰는 사람부터 고급 에이전트를 다루는 사용자까지 단계적으로 익힐 수 있도록 만든 시각적 예제 중심 가이드입니다. 슬래시 명령, CLAUDE.md 템플릿, 훅 스크립트, MCP 설정 등을 바로 복사해 프로젝트에 적용할 수 있는 템플릿으로 제공하며, Mermaid 다이어그램으로 각 기능이 내부적으로 어떻게 동작하는지도 설명합니다. 공식 문서가 기능을 나열하는 데 그친다는 점을 보완하려는 학습 자료로, Claude Code를 실무에 활용하려는 개발자에게 유용합니다."
+  },
+  "makecindy/cindy": {
+   "date": "2026-10-25",
+   "long": true,
+   "text": "Cindy는 여러 하네스, 모델, 도구를 하나의 에이전트로 묶어 프로젝트와 앱에서 실제 작업을 끝내도록 만든 오픈소스 AI 에이전트입니다. 이 저장소는 데스크톱과 모바일 앱, 공유 패키지를 담은 pnpm 모노레포 클라이언트이며 Apache-2.0 라이선스로 공개되어 있습니다. 현재는 Claude Code와 Codex를 지원하고, 메모리와 스킬, 자동화 등을 사용자가 직접 바꿔 쓸 수 있다는 점이 특징입니다."
   },
   "mksglu/context-mode": {
    "date": "2026-10-16",
@@ -444,6 +497,11 @@
    "date": "2026-10-17",
    "long": true,
    "text": "Superpowers는 코딩 에이전트가 따를 수 있는 조합형 스킬과 초기 지침으로 구성된 소프트웨어 개발 방법론 프레임워크입니다. 에이전트가 바로 코드를 쓰지 않고 먼저 요구사항을 묻고, 설계를 작은 단위로 나눠 확인받은 뒤 구현 계획을 세우는 흐름을 따릅니다. TDD, YAGNI, DRY 원칙을 강조하며 Claude Code, Cursor, Gemini CLI 등 여러 하네스에 설치할 수 있습니다. 스킬이 자동으로 트리거되어 사용자가 별도 조작을 하지 않아도 된다는 점이 특징입니다."
+  },
+  "pollen-robotics/microduck": {
+   "date": "2026-10-25",
+   "long": true,
+   "text": "Microduck은 강화학습 정책으로 움직이는 약 25cm 크기의 작은 이족 보행 오리 로봇으로, 이 저장소는 그 로봇의 두뇌에 해당하는 Rust 소프트웨어를 담고 있습니다. 50Hz 제어 루프로 열다섯 개의 서보를 구동하고, 무선 통신과 카메라, 서명된 릴리스 업데이트까지 여러 데몬이 JSON-RPC로 협력하는 구조입니다. 설계 문서가 함께 공개되어 있어 로봇 제어 소프트웨어를 공부하는 개발자에게도 흥미로운 사례입니다."
   },
   "ruvnet/ruflo": {
    "date": "2026-10-16",

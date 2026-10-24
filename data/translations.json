@@ -15,6 +15,10 @@
   "ko": "Shadow of the Colossus(PS4, CUSA08809)의 Windows 네이티브 포트. 본인의 게임 덤프가 필요합니다. PC용 네이티브 포트.",
   "src": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC."
  },
+ "Alejandros17487/ai-jailbreaks": {
+  "ko": "AI 탈옥 프롬프트: 25개 이상의 최신 및 오픈 웨이트 모델용 바로 붙여넣기 가능한 35개의 AI 탈옥 프롬프트. 시스템 프롬프트, AGENTS.md 명세, Ollama Modelfile을 포함하며 AI 보안 연구 및 레드팀 테스트를 위해 만들어졌습니다.",
+  "src": "AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, AGENTS.md specs, and Ollama Modelfiles. Built for AI security research and red-team testing."
+ },
  "Ansub/tv-detox": {
   "ko": "Claude Code나 Codex로 오래된 Android TV를 다시 빠르게 만듭니다. 광고 없는 간단한 홈 화면과 이를 정리하는 프롬프트를 제공합니다.",
   "src": "Make an old Android TV fast again with Claude Code or Codex: a tiny ad-free home screen plus the prompt to clean it up"
@@ -71,6 +75,10 @@
   "ko": "광고 없는 TV. ADB로 모든 Android TV의 불필요한 기능을 제거하고 tvOS에서 영감을 받은 깔끔한 런처를 제공합니다. Claude Code로 반나절 만에 만들었습니다.",
   "src": "Your TV, minus the ads. Debloat any Android TV over ADB and give it a clean, tvOS-inspired launcher. Built in an afternoon with Claude Code."
  },
+ "Gaurav-Gosain/tuios": {
+  "ko": "에이전트들의 작업 상태를 파악하는 터미널 창 관리자. 타일링 패널, 워크스페이스, 재시작 후에도 유지되는 세션, 모든 코딩 에이전트를 위한 하나의 Inbox를 제공합니다. 공식 배포처는 tuios.dev와 이 저장소뿐이며, tuios는 X(트위터) 계정이 없습니다.",
+  "src": "A terminal window manager that knows what your agents are doing. Tiling panes, workspaces, sessions that survive restarts, and one Inbox for every coding agent. Official only at tuios.dev and this repo. tuios has no X/Twitter account."
+ },
  "Graphify-Labs/graphify": {
   "ko": "문서, SQL 스키마, 설정 파일, PDF 등 모든 코드베이스를 질의 가능한 지식 그래프로 바꿔 줍니다. Claude Code, Cursor, Codex, Gemini CLI용 /graphify 스킬로, 로컬에서 결정적 AST 파싱을 수행하고 모든 연결 관계에 설명을 붙이며 벡터 저장소를 사용하지 않습니다.",
   "src": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store."
@@ -102,6 +110,10 @@
  "JuliusBrussee/caveman": {
   "ko": "🪨 적은 토큰으로 될 일에 왜 많은 토큰을 쓰나요? 원시인처럼 말해서 토큰을 65% 줄여 주는, 코딩 에이전트용 화제의 스킬 겸 프록시입니다.",
   "src": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman."
+ },
+ "JustAResearcher/gpu-unlock-ada": {
+  "ko": "RTX 4090 및 실험적 RTX 4070 Ti SUPER용 GPU 텐서 잠금 해제 소스. 펌웨어는 로컬에서 생성됨",
+  "src": "GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally"
  },
  "K-Dense-AI/scientific-agent-skills": {
   "ko": "어떤 AI 에이전트든 AI 과학자로 바꿔 줍니다. 전 세계 25만 명 이상의 과학자가 사용하는 과학 분야 1위 Agent Skills 라이브러리입니다. 검증된 즉시 사용 가능한 스킬 177개와 100개 이상의 과학 데이터베이스를 제공하며, 생물학, 화학, 의학, 신약 개발을 다룹니다. Cursor, Claude Code, Codex, Pi, Antigravity 및 오픈 Agent Skills 표준과 호환됩니다.",
@@ -146,6 +158,10 @@
  "Noniv/web-ocean": {
   "ko": "엔진 없이 처음부터 작성한 실시간 WebGPU 바다 렌더러입니다. FFT 파도, 백캡, 햇빛 반짝임, 구름이 있는 물리 기반 일몰 하늘, 자유 카메라를 지원합니다. Claude Code(Opus 5.5)로 제작되었으며, 61KB 단일 HTML 파일을 Chrome에서 열어 실행합니다.",
   "src": "Real-time WebGPU ocean renderer written from scratch, no engine. FFT waves, whitecaps, sun glitter, physically based sunset sky with clouds, free camera. Built with Claude Code (Opus 5.5). Opens from a single 61 KB HTML file in Chrome."
+ },
+ "Nutlope/hallmark": {
+  "ko": "Claude Code, Cursor, Codex를 위한 AI 슬롭(저품질 AI 결과물)을 배제한 디자인 스킬",
+  "src": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex."
  },
  "OpenBMB/VoxCPM": {
   "ko": "VoxCPM2: 다국어 음성 생성, 창의적 음성 설계, 실물에 가까운 음성 복제를 위한 토크나이저 없는 TTS",
@@ -275,6 +291,14 @@
   "ko": "Blender용 AI 어시스턴트이자 MCP 서버입니다. 시각적 채팅, 씬 도구, 다중 에이전트 워크플로를 제공합니다. OpenAI, ChatGPT, Claude, Gemini, Ollama, OpenCode와 함께 작동합니다. Blender AI 애드온과 플러그인, 3D 코파일럿, bpy Python 스크립팅, MCP 연동을 지원합니다.",
   "src": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with OpenAI, ChatGPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon and plugin, copilot for 3D, bpy Python scripting, MCP integration."
  },
+ "assetnote/php2shell-scanner": {
+  "ko": "php2shell(CVE-2026-109618, CVE-2026-109619)을 정밀하게 탐지하는 스캐너",
+  "src": "High fidelity scanner for php2shell (CVE-2026-109618 and CVE-2026-109619)"
+ },
+ "aws/agent-toolkit-for-aws": {
+  "ko": "AI 에이전트가 AWS에서 개발할 수 있도록 돕는, AWS가 공식 지원하는 MCP 서버, 스킬, 플러그인",
+  "src": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS"
+ },
  "boykopovar/AnyPS5": {
   "ko": "PS5 실행 파일을 Linux와 Windows로 자동 포팅하는 도구입니다.",
   "src": "Tool for automatic PS5 executables porting to Linux and Windows"
@@ -371,6 +395,10 @@
   "ko": "CVE-2026-63030 + CVE-2026-60137 익스플로잇 RCE 체인",
   "src": "CVE-2026-63030 + CVE-2026-60137 exploit RCE chain."
  },
+ "google-gemini/gemini-cli": {
+  "ko": "Gemini의 능력을 터미널에서 바로 사용할 수 있게 해주는 오픈소스 AI 에이전트",
+  "src": "An open-source AI agent that brings the power of Gemini directly into your terminal."
+ },
  "headroomlabs-ai/headroom": {
   "ko": "LLM에 전달하기 전에 도구 출력, 로그, 파일, RAG 청크를 압축합니다. 코딩 에이전트에서는 토큰을 20% 줄이고, JSON에서는 60~95% 줄이며, 답변은 동일하게 유지합니다. 라이브러리, 프록시, MCP 서버로 제공됩니다.",
   "src": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server."
@@ -395,6 +423,10 @@
   "ko": "Zero Breach: AdFection / Candiru 광고 배포 스파이웨어 캠페인의 흔적을 컴퓨터에서 찾아내는 로컬 읽기 전용 스캐너입니다. 네트워크, 관리자 권한, 의존성이 필요하지 않습니다.",
   "src": "Zero Breach — local, read-only scanner that checks a computer for indicators of the AdFection / Candiru ad-delivered spyware campaign. No network, no admin, no dependencies."
  },
+ "jbiaojerry/ebook-treasure-chest": {
+  "ko": "각종 전자책 다운로드 링크를 모아 둔 전자책 다운로드 보고. 고전문학, 경제경영, 자기계발, 평생학습, 직장·창업, 기술 서적 등 다양한 분야의 책을 찾을 수 있습니다. 판샤오(帆书, 구 판덩독서), 위챗 읽기, 징둥 읽기, 시마라야 등 주요 독서 앱의 대부분의 전자책을 포함합니다.",
+  "src": "欢迎来到电子书下载宝库，一个汇聚了各类电子书下载链接的地方。无论你是喜欢阅读经典文学、经管励志、终身学习、职场创业、技术手册还是其他类型的书籍，这里都能满足你的需求。 该库涵盖了帆书app(原樊登读书)、微信读书、京东读书、喜马拉雅等读书app的大部分电子书。"
+ },
  "jhaizhou-ops/d2r-mobile": {
   "ko": "Reign of the Warlock 확장팩이 포함된 Diablo II: Resurrected를 iOS / macOS에서 실행하는 오픈소스 호환 레이어. 보유한 Switch 게임 사본을 iPhone, iPad, Mac에서 네이티브로 실행하며, 완전한 터치 조작, 60 fps, 새로운 엔드게임 모드를 지원합니다. 게임 파일은 직접 준비해야 합니다.",
   "src": "Open-source iOS / macOS compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad and Mac — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS 兼容层"
@@ -402,6 +434,10 @@
  "kitlangton/scrawl": {
   "ko": "에이전트에게 문제를 보여 주세요: 표시하고, 기록하고, 전송합니다.",
   "src": "Show an agent a problem: mark up, record, send"
+ },
+ "lesnolie/Tigris": {
+  "ko": "Android TV용 tvOS 27 스타일 런처 Tigris: 리퀴드 글래스 도크, 탑 셸프, 글래스 제어 센터, 사진 화면보호기를 제공합니다. 에이전트로 설치할 수 있습니다.",
+  "src": "Tigris — tvOS 27 style launcher for Android TV: Liquid Glass dock, Top Shelf, glass Control Center, photo screensaver. Agent-installable."
  },
  "lightseekorg/tokenspeed": {
   "ko": "TokenSpeed는 빛의 속도에 가까운 LLM 추론 엔진입니다.",
@@ -414,6 +450,10 @@
  "luongnv89/claude-howto": {
   "ko": "기본 개념부터 고급 에이전트까지, 바로 활용 가능한 복사-붙여넣기 템플릿과 함께하는 예제 중심의 시각적 Claude Code 가이드",
   "src": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value."
+ },
+ "makecindy/cindy": {
+  "ko": "맡겨만 주세요. 별다른 설정 없이 바로 작동하는 오픈소스 AI 에이전트. 생각하면, 바로 실현됩니다.",
+  "src": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。"
  },
  "marclou/mailcheap": {
   "ko": "보내는 이메일에 대해서만 요금을 내는 뉴스레터 서비스. 휴면 구독자에게는 요금이 없으며, beehiiv 등과 비교해 훨씬 저렴합니다. 오픈 소스이므로 직접 호스팅하거나 mailcheap.ai를 이용할 수 있습니다.",
@@ -502,6 +542,10 @@
  "php/php-src": {
   "ko": "PHP 인터프리터",
   "src": "The PHP Interpreter"
+ },
+ "pollen-robotics/microduck": {
+  "ko": "작은 이족보행 오리 로봇 🦆",
+  "src": "A Tiny biped duck robot 🦆"
  },
  "ranxianglei/billion-context": {
   "ko": "작은 컨텍스트 창(100K 컨텍스트면 충분), 토큰 5배 절감, 월 단위 단일 세션(수십억 토큰)을 위한 컨텍스트 압축 플러그인. billion-context is all you need",
@@ -595,6 +639,10 @@
   "ko": "주제나 글로 손그림 강의 영상을 만들어 줍니다. 부위별 선 그리기, 글자별 필기, VoiceStudio 더빙, 기본 제공 제작 의존성 5종을 지원합니다.",
   "src": "从主题或文章制作完整手绘讲解视频：按部位描线、逐字书写、VoiceStudio 配音、五项内置制作依赖。"
  },
+ "torrentplayer/torrentplayer": {
+  "ko": "토렌트, 동영상, 오디오를 스트리밍하고 원하는 지점으로 약 1초 만에 이동할 수 있습니다. Windows, macOS, Linux용 무료 오픈소스 데스크톱 앱. 서버, 계정, 텔레메트리가 없습니다.",
+  "src": "Stream any torrent, video or audio, and skip to any moment in about a second. Free, open-source desktop app for Windows, macOS and Linux. No servers, no accounts, no telemetry."
+ },
  "trycua/cua": {
   "ko": "오픈소스 드라이버, 크로스 OS 샌드박스, 학습·평가·데이터 생성용 벤치마크로 computer-use 2.0을 확장합니다.",
   "src": "Scale computer-use 2.0 with open-source drivers, cross-OS sandboxes, and benchmarks for training, evaluation, and data generation."
@@ -650,5 +698,9 @@
  "zhuyansen/new-term-radar": {
   "ko": "새로운 AI 용어를 매일 탐지하는 레이더. 키워드 도구가 목록에 올리기 전에 X, Hugging Face, GitHub, 사이트맵에서 새 모델, 제품, 저장소 이름을 찾아냅니다.",
   "src": "Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging Face, GitHub and sitemaps before keyword tools list them."
+ },
+ "zita-ch/supermimic_vibed": {
+  "ko": "1시간 만에 바이브 코딩으로 만든 supermimic, 1.5 GPU시간 학습으로 LAFAN 통과",
+  "src": "vibe coded supermimic within 1h, LAFAN passed within 1.5 gpuh training"
  }
 }
