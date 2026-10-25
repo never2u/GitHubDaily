@@ -11,6 +11,10 @@
   "ko": "ASUS A16(Snapdragon X2 Elite)에서 macOS를 부팅하는 EL2 하이퍼바이저 및 툴체인, Adreno Metal/IOGPU 스택 포함",
   "src": "EL2 hypervisor and toolchain that boots macOS on the ASUS A16 (Snapdragon X2 Elite), with an Adreno Metal/IOGPU stack"
  },
+ "AgriciDaniel/claude-seo": {
+  "ko": "Claude Code용 범용 SEO 스킬. 기술 SEO, E-E-A-T, 스키마, GEO/AEO, 에이전트 준비도(Lighthouse Agentic Browsing, WebMCP, llms.txt), 백링크, 로컬 SEO, 이커머스, 국제 SEO, Google API, PDF/Excel 보고서를 다루는 26개 하위 스킬과 19개 하위 에이전트를 제공합니다. 실시간 SEO 데이터를 위한 선택형 확장 9개 포함.",
+  "src": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data."
+ },
  "AjncSystem/ShadowOfTheColossus-PC": {
   "ko": "Shadow of the Colossus(PS4, CUSA08809)의 Windows 네이티브 포트. 본인의 게임 덤프가 필요합니다. PC용 네이티브 포트.",
   "src": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC."
@@ -46,6 +50,10 @@
  "CoolkHz/gptibo": {
   "ko": "자체 호스팅 가능한 GPTibo 스토어프론트, 관리자 페이지, Go 백엔드. 민감 정보를 제거한 MIT 라이선스 소스",
   "src": "Self-hosted GPTibo storefront, admin and Go backend — sanitized MIT source"
+ },
+ "DenisSergeevitch/ex-ussr-kinship-research": {
+  "ko": "구소련 지역의 교회 기록, 민사, 군사, 강제 이주 및 탄압 기록을 다루는 증거 중심 족보 스킬(Codex, Claude Code용). 사용자의 언어로 응답합니다.",
+  "src": "Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across the former USSR. Replies in your language."
  },
  "DietrichGebert/ponytail": {
   "ko": "AI 에이전트가 방 안에서 가장 게으른 시니어 개발자처럼 생각하게 만듭니다. 최고의 코드는 작성하지 않은 코드입니다.",
@@ -103,6 +111,10 @@
   "ko": "데이 트레이딩을 위한 Claude 스킬 11종: 수천 개의 차트를 스캔하고, 속보 뉴스를 추적하며, 모든 진입과 청산 시점을 정하고, 돈을 걸기 전에 모든 결과를 재생해 봅니다.",
   "src": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar."
  },
+ "JetBrains/thinkrail": {
+  "ko": "작업 방식에 맞춰 스스로 커스터마이즈되는 가볍고 실용적인 IDE에서 pi로 바이브 코딩하세요. 당신에게 필요한 바이브.",
+  "src": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need"
+ },
  "JoasASantos/REA-Prompts": {
   "ko": "REAP - REA(Reverse Engineer Anything)를 활용해 어떤 프로그램이든 최대한 활용하고, 복제하거나 분석할 수 있도록 돕는 프롬프트 모음",
   "src": "REAP - Prompts for you to use REA (Reverse Engineer Anything), get the most out of it, and clone or break down any program"
@@ -122,6 +134,10 @@
  "Kruk2/jasna": {
   "ko": "영상 복원 도구",
   "src": "Video restoration tool"
+ },
+ "LNPANDY/NX2Apple": {
+  "ko": "Switch 게임을 iPhone/iPad에서 플레이하세요. 원클릭 macOS 앱, 터미널 불필요. | 그래픽 인터페이스로 원클릭 빌드하여 Switch 게임을 iPhone에 설치하며, 명령줄이 필요 없습니다. 본인의 게임을 가져오세요.",
+  "src": "Play your own Switch games on iPhone/iPad — one-click macOS app, no terminal. | 把 Switch 游戏装进 iPhone：图形界面一键构建，不用命令行。Bring your own game."
  },
  "Leonxlnx/earshot": {
   "ko": "코딩 에이전트를 위한 귀: AI가 듣고, 검토하고, 소리를 만들 수 있게 합니다. CPU만으로 동작하는 오픈소스입니다.",
@@ -179,6 +195,10 @@
   "ko": "어쩌다 보니 Byepervisor가 반환되었다...",
   "src": "Somehow, Byepervisor returned..."
  },
+ "Renhuai123/ziwei-doushu": {
+  "ko": "《天纪》 체계를 기반으로 한 오픈소스 자미두수 배반 엔진. 완전한 배반 알고리즘, 사화 시스템, 격국 지식 베이스, 고전 원문 데이터를 포함합니다.",
+  "src": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据"
+ },
  "SnailSploit/Claude-Red": {
   "ko": "claude-red는 Claude 스킬 시스템을 위해 설계된 공격형 보안 스킬 큐레이션 라이브러리입니다. 각 스킬은 SQL 인젝션부터 셸코드, EDR 우회부터 익스플로잇 개발까지 특정 공격 영역에 대해 전문가 수준의 방법론을 Claude에 주입하는 구조화된 SKILL.md 파일입니다.",
   "src": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development."
@@ -198,6 +218,10 @@
  "TG-Twilight/c001apk": {
   "ko": "가볍고 비공식적인 쿠안(酷安) 클라이언트",
   "src": "一个轻量的非官方酷安客户端"
+ },
+ "TauricResearch/TradingAgents": {
+  "ko": "TradingAgents: 다중 에이전트 LLM 금융 트레이딩 프레임워크",
+  "src": "TradingAgents: Multi-Agents LLM Financial Trading Framework"
  },
  "Tencent/WeKnora": {
   "ko": "오픈소스 LLM 지식 플랫폼입니다. 원본 문서를 질의 가능한 RAG, 자율 추론 에이전트, 스스로 관리되는 위키로 바꿔 줍니다.",
@@ -331,6 +355,10 @@
   "ko": "완전한 타입 추론과 코드 생성 없이 .sql 파일을 TypeScript로 가져옵니다.",
   "src": "Import .sql files into TypeScript with full type inference and zero codegen."
  },
+ "coollabsio/coolify": {
+  "ko": "Vercel, Heroku, Netlify를 대체할 수 있는 오픈소스 셀프 호스팅 PaaS. 정적 사이트, 데이터베이스, 풀스택 애플리케이션과 360개 이상의 원클릭 서비스를 자신의 서버에 쉽게 배포할 수 있습니다.",
+  "src": "An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 360+ one-click services on your own servers."
+ },
  "cranebeaker/coop-anything": {
   "ko": "Co-op Anything: AI 에이전트가 어떤 싱글플레이어 게임이든 조종해 친구들과 함께 플레이하게 해줍니다(온라인 및/또는 분할 화면 지원). 배운 내용을 역공학, 수정, 테스트, 배포, 공유할 수 있게 해주는 MCP 서버와 플레이북입니다.",
   "src": "Co-op Anything: point your AI agent at any single-player game and play it with friends (online and/or splitscreen!). MCP server and playbook to let you reverse engineer, fix, test, ship and share what it learns."
@@ -451,6 +479,10 @@
   "ko": "기본 개념부터 고급 에이전트까지, 바로 활용 가능한 복사-붙여넣기 템플릿과 함께하는 예제 중심의 시각적 Claude Code 가이드",
   "src": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value."
  },
+ "lyramakesmusic/neuron-explorer": {
+  "ko": "Qwen3.5-4B용 조향 중심 뉴런 탐색기. 모든 MLP 뉴런을 밀어보고, 모든 롤아웃을 보관하며, 결과를 탐색할 수 있습니다.",
+  "src": "Steering-first neuron explorer for Qwen3.5-4B: push every MLP neuron, keep every rollout, browse the results"
+ },
  "makecindy/cindy": {
   "ko": "맡겨만 주세요. 별다른 설정 없이 바로 작동하는 오픈소스 AI 에이전트. 생각하면, 바로 실현됩니다.",
   "src": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。"
@@ -467,6 +499,10 @@
   "ko": "Mistral AI의 시계열 기반 모델 Timestral의 저장소",
   "src": "Repository for Timestral, the time-series foundation model by Mistral AI"
  },
+ "mizorewww/gdirect": {
+  "ko": "고정된 libaria2를 사용하는 Rust 기반 Google 드라이브 직접 다운로더",
+  "src": "Rust Google Drive direct downloader using pinned libaria2"
+ },
  "mksglu/context-mode": {
   "ko": "AI 코딩 에이전트를 위한 컨텍스트 윈도우 최적화 도구입니다. 도구 출력을 샌드박스로 격리해 98% 줄이고, 세션 메모리를 유지하며, MCP와 훅을 통해 17개 플랫폼에 걸쳐 라우팅을 적용합니다.",
   "src": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks."
@@ -474,6 +510,10 @@
  "mlabonne/llm-course": {
   "ko": "로드맵과 Colab 노트북으로 배우는 대규모 언어 모델(LLM) 입문 강좌.",
   "src": "Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks."
+ },
+ "morganlinton/BeautifulRust": {
+  "ko": "Claude가 관용적이고 견고한 Rust 코드를 작성하도록 가르치는 Claude Code 플러그인",
+  "src": "A Claude Code plugin that teaches Claude to write idiomatic, robust Rust"
  },
  "morluto/awesome-reverse-engineering": {
   "ko": "바이너리, 앱, 펌웨어, 포맷, 프로토콜을 위한 큐레이션된 리버스 엔지니어링 도구와 학습 자료 모음",
@@ -486,6 +526,10 @@
  "msitarzewski/agency-agents": {
   "ko": "손끝에서 쓸 수 있는 완전한 AI 에이전시입니다. 프론트엔드 마법사부터 레딧 커뮤니티 닌자, 위미(whimsy) 인젝터부터 현실 점검가까지 다양합니다. 각 에이전트는 개성, 프로세스, 검증된 결과물을 갖춘 전문가입니다.",
   "src": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables."
+ },
+ "multica-ai/andrej-karpathy-skills": {
+  "ko": "Andrej Karpathy가 지적한 LLM 코딩의 함정을 바탕으로 Claude Code의 동작을 개선하는 단일 CLAUDE.md 파일.",
+  "src": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls."
  },
  "n1tr00-10/tiktok-web-signature": {
   "ko": "TikTok 웹 서명을 리버스 엔지니어링하여 API 요청에 사용할 유효한 TikTok 서명을 생성하는 도구",
@@ -551,9 +595,17 @@
   "ko": "작은 컨텍스트 창(100K 컨텍스트면 충분), 토큰 5배 절감, 월 단위 단일 세션(수십억 토큰)을 위한 컨텍스트 압축 플러그인. billion-context is all you need",
   "src": "A context-compression plugin for small context windows (a 100K context is enough), token savings (5x fewer tokens), and month-long single sessions (billions of tokens).上下文压缩插件，兼顾小窗口(100k上下文足矣)省token(省5倍token)和超长会话(数月级别几十亿token单会话)。billion-context is all you need"
  },
+ "raymondchins/Bridgeplay": {
+  "ko": "NotProton의 무료 포크: CodeWeavers의 Wine과 Apple의 Game Porting Toolkit으로 Mac Steam에서 Windows Steam 게임을 실행합니다.",
+  "src": "Free fork of NotProton: Windows Steam games in Mac Steam, on CodeWeavers' Wine and Apple's Game Porting Toolkit"
+ },
  "rayytor/desktop_gifs": {
   "ko": "데스크톱 브라우저에서 YouTube 댓글과 답글에 GIF를 올릴 수 있는 Chrome·Firefox 확장 프로그램입니다.",
   "src": "Post GIFs in YouTube comments and replies from a desktop browser. Extension for Chrome and Firefox."
+ },
+ "rddmwmddr/android-ad-cleaner": {
+  "ko": "국산 안드로이드 휴대폰 시스템의 광고, 인기 검색어, 정보 추천, 마케팅 푸시를 끕니다. 루팅이 필요 없고 원상복구가 가능하며, AI 에이전트로 한 번에 실행할 수 있습니다.",
+  "src": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。"
  },
  "reason-machines/reason-network": {
   "ko": "Reason Network: 팀의 코딩 에이전트들이 서로 소통하게 합니다. `reason network`의 핵심 엔진입니다.",
@@ -570,6 +622,10 @@
  "rohitg00/ai-engineering-from-scratch": {
   "ko": "AI 엔지니어링을 배우세요! 배우고, 만들고, 다른 사람에게 선보이세요.",
   "src": "Learn AI Engineering! Learn it. Build it. Ship it for others."
+ },
+ "rossark0/rossark-motion-skill": {
+  "ko": "어떤 SVG든 전문가 수준의 60fps 애니메이션으로 바꿔 줍니다. 그린 것은 무엇이든 살아 움직이게 하는 Claude Code 스킬로, 라이브 얼굴, 전신 연기, 장면 전체를 React Native와 SwiftUI에서 구현합니다.",
+  "src": "Turn any SVG into a professional 60 fps animation. A Claude Code skill that brings anything drawn to life: live faces, full-body acting and whole scenes, in React Native and SwiftUI."
  },
  "ruvnet/ruflo": {
   "ko": "🌊 원조 에이전트 하네스입니다. 지능형 다중 플레이어 스웜을 배포하고, 자율 워크플로를 조율하며, 대화형 AI 시스템을 구축하세요. 적응형 메모리, 자기 학습 지능, 페더레이션, 벡터 RAG 통합, 그리고 네이티브 Claude Code / Codex / Hermes 등 여러 통합을 지원합니다.",
@@ -655,6 +711,10 @@
   "ko": "Claude Code, Codex 및 기타 AI 도구를 위한 SwiftUI 에이전트 스킬입니다.",
   "src": "SwiftUI agent skill for Claude Code, Codex, and other AI tools."
  },
+ "udhaykumarbala/cleanyourtv-app": {
+  "ko": "Clean Your TV를 위한 커뮤니티 제작 휴대폰 앱. 노트북이나 코딩 에이전트 없이 휴대폰으로 안드로이드 TV를 정리합니다. 아무것도 제거되지 않습니다.",
+  "src": "A community-built phone app for Clean Your TV: clean up an Android TV from your phone. No laptop, no coding agent, nothing uninstalled."
+ },
  "vectorize-io/hindsight": {
   "ko": "Hindsight: 학습하는 에이전트 메모리",
   "src": "Hindsight: Agent Memory That Learns"
@@ -676,8 +736,8 @@
   "src": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep (1974 tool). One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. It’s durable and can replace ElasticSearch saving you x10 infra costs."
  },
  "xevrion/hatchzip": {
-  "ko": "대용량 압축 파일을 제자리에서 풀어냅니다. 파일이 풀리는 만큼 아카이브 크기가 줄어들어 출력 결과물에 필요한 공간만 있으면 됩니다. ZIP, 7z, tar, 분할 아카이브를 지원합니다.",
-  "src": "Extract huge archives in place: the archive shrinks as your files hatch, so you only need room for the output. ZIP, 7z, tar, split archives."
+  "ko": "HatchZip은 Windows, macOS, Linux용 무료 오픈소스 압축 해제 도구입니다. ZIP, 7z, RAR, tar, 분할 압축 파일을 제자리에서 풀어, 추출된 파일 용량만큼의 여유 공간만 필요합니다. 데스크톱 앱과 CLI를 제공합니다.",
+  "src": "HatchZip is a free, open-source archive extractor for Windows, macOS and Linux that extracts ZIP, 7z, RAR, tar and split archives in place, so it needs free space for the extracted files only. Desktop app and CLI."
  },
  "xiaoyang111222/cn-math-taxonomy": {
   "ko": "초등부터 고등까지의 수학, 3학년부터 고등까지의 영어, 중학교 물리의 지식 그래프: 1644개 지식점, 2403개 선수 관계 간선, 6723개 문제. 교육과정 기준에 맞추고 적응형 사전 진단을 제공합니다.",
