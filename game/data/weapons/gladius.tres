@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="WeaponData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/weapon_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"gladius"
+display_name = "글라디우스"
+attack_type = 0
+slot_type = 0
+tags = PackedStringArray("blade")
+damage = 8.0
+cooldown = 0.8
+attack_range = 38.0
+swing_arc_deg = 110.0
+knockback = 150.0
+projectile_speed = 300.0
+pierce = 0
+color = Color(0.85, 0.88, 0.95, 1)

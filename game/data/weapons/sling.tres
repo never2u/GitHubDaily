@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="WeaponData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/weapon_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"sling"
+display_name = "투석구"
+attack_type = 1
+slot_type = 0
+tags = PackedStringArray("thrown")
+damage = 6.0
+cooldown = 0.7
+attack_range = 180.0
+swing_arc_deg = 0.0
+knockback = 120.0
+projectile_speed = 320.0
+pierce = 0
+color = Color(0.7, 0.7, 0.7, 1)

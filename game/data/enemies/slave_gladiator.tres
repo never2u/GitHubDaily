@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="EnemyData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/enemy_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"slave_gladiator"
+display_name = "노예 검투사"
+behavior = 0
+max_hp = 10.0
+speed = 55.0
+contact_damage = 4.0
+radius = 8.0
+coin_drop = 1
+ult_charge = 0.5
+color = Color(0.7, 0.35, 0.3, 1)

@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="ClassData" load_steps=5 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/class_data.gd" id="1"]
+[ext_resource type="Resource" path="res://data/weapons/gladius.tres" id="2"]
+[ext_resource type="Resource" path="res://data/weapons/hasta.tres" id="3"]
+[ext_resource type="Resource" path="res://data/ultimates/blade_storm.tres" id="4"]
+
+[resource]
+script = ExtResource("1")
+id = &"swordsman"
+display_name = "검사"
+description = "근접 무기만 장착 가능. 근접 피해 +25%, 근접 공격 속도 +15%. 원거리 피해 -50%.\n얼티밋: 검풍난무"
+color = Color(0.4, 0.6, 0.95, 1)
+max_hp = 30.0
+move_speed = 115.0
+armor = 1.0
+melee_damage_mult = 1.25
+melee_attack_speed_mult = 1.15
+ranged_damage_mult = 0.5
+can_use_ranged = false
+starting_weapons = [ExtResource("2"), ExtResource("3")]
+ultimate = ExtResource("4")

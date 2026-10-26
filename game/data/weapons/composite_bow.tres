@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="WeaponData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/weapon_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"composite_bow"
+display_name = "복합궁"
+attack_type = 1
+slot_type = 0
+tags = PackedStringArray("bow")
+damage = 9.0
+cooldown = 1.0
+attack_range = 230.0
+swing_arc_deg = 0.0
+knockback = 80.0
+projectile_speed = 420.0
+pierce = 1
+color = Color(0.95, 0.85, 0.5, 1)

@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="EnemyData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/enemy_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"archer"
+display_name = "궁수"
+behavior = 2
+max_hp = 8.0
+speed = 50.0
+contact_damage = 2.0
+radius = 7.0
+coin_drop = 1
+ult_charge = 0.5
+color = Color(0.35, 0.55, 0.3, 1)
+preferred_distance = 150.0
+shot_cooldown = 2.2
+shot_speed = 150.0
+shot_damage = 4.0
