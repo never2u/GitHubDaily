@@ -63,6 +63,10 @@
   "ko": "🐟 중국 중고거래 은어 완전 정리 및 함정 회피·규정 준수 가이드 (Xianyu / Zhuanzhuan / 샤오홍슈 기준 4,476개 이상의 실전 은어 변형, 판매자 속뜻 해석, 구매자 검수 및 사기 방지 가이드)",
   "src": "🐟 中国二手交易暗语全书与避坑合规指南 (闲鱼 / 转转 / 小红书 4,476+ 条实战暗号变体、卖家潜台词透视与买家验货防割指南)"
  },
+ "DrWhax/unfairplay": {
+  "ko": "macOS에서 IPA 파일 복호화",
+  "src": "Decrypt IPA's on MacOS"
+ },
  "DuarteSantos8/openGym": {
   "ko": "직접 호스팅하는 헬스장 및 맨몸 운동 추적기입니다. 루틴 계획, 운동 기록(슈퍼세트, 워밍업, 유산소 포함), 어떤 근육이 훈련되었는지, 피로하거나 훈련량이 줄었는지 확인, FitNotes, Strong, Hevy에서 가져오기, 패스키 로그인을 지원합니다. 데이터도, 서버도 직접 관리하세요.",
   "src": "Self-hosted gym & body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server."
@@ -131,6 +135,10 @@
   "ko": "어떤 AI 에이전트든 AI 과학자로 바꿔 줍니다. 전 세계 25만 명 이상의 과학자가 사용하는 과학 분야 1위 Agent Skills 라이브러리입니다. 검증된 즉시 사용 가능한 스킬 177개와 100개 이상의 과학 데이터베이스를 제공하며, 생물학, 화학, 의학, 신약 개발을 다룹니다. Cursor, Claude Code, Codex, Pi, Antigravity 및 오픈 Agent Skills 표준과 호환됩니다.",
   "src": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard."
  },
+ "KillaBoi/StealMyBitcoin-PoC": {
+  "ko": "Steal My Bitcoin 챌린지의 공개 릴리스",
+  "src": "A public release of the Steal My Bitcoin challenge"
+ },
  "Kruk2/jasna": {
   "ko": "영상 복원 도구",
   "src": "Video restoration tool"
@@ -167,6 +175,10 @@
   "ko": "OpenShell은 자율 AI 에이전트를 위한 안전하고 비공개적인 런타임입니다.",
   "src": "OpenShell is the safe, private runtime for autonomous AI agents."
  },
+ "NVIDIA/SkillSpector": {
+  "ko": "Claude Code, Codex, MCP 스킬을 설치하기 전에 취약점, 악성 패턴, 보안 위험, 프롬프트 인젝션, 데이터 유출, 공급망 위험을 탐지하는 AI 에이전트 스킬 보안 스캐너.",
+  "src": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them."
+ },
  "NationalSecurityAgency/ghidra": {
   "ko": "Ghidra는 소프트웨어 리버스 엔지니어링(SRE) 프레임워크입니다.",
   "src": "Ghidra is a software reverse engineering (SRE) framework"
@@ -194,6 +206,10 @@
  "PS5Dev/Byepervisor-Reborn": {
   "ko": "어쩌다 보니 Byepervisor가 반환되었다...",
   "src": "Somehow, Byepervisor returned..."
+ },
+ "Panniantong/Agent-Reach": {
+  "ko": "AI 에이전트에 인터넷 전체를 볼 수 있는 눈을 달아 주세요. 트위터, 레딧, 유튜브, 깃허브, 빌리빌리, 샤오홍슈를 읽고 검색하세요. CLI 하나로, API 요금은 0원.",
+  "src": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees."
  },
  "Renhuai123/ziwei-doushu": {
   "ko": "《天纪》 체계를 기반으로 한 오픈소스 자미두수 배반 엔진. 완전한 배반 알고리즘, 사화 시스템, 격국 지식 베이스, 고전 원문 데이터를 포함합니다.",
@@ -287,6 +303,10 @@
   "ko": "코딩 에이전트 CLI를 위한 장기 기억 솔루션이며, 서로 다른 에이전트 벤더 간 작업 인계를 돕습니다.",
   "src": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors"
  },
+ "alchaincyf/huashu-design": {
+  "ko": "Huashu Design 3.0 · 에이전트에 한마디만 하면 바로 납품 가능한 디자인을 받습니다: 웹 / 앱 프로토타입 / 편집 가능한 PPTX / 애니메이션 / 인포그래픽 · 여섯 개 후보 중 세 방향 선택 · 샘플이 포함된 84가지 스타일 라이브러리 · 사용할수록 나를 알아가는 외관 기록과 디자인 점검 · Claude Code, Codex, Cursor 및 모든 에이전트를 위한 HTML 네이티브 디자인 스킬",
+  "src": "Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 84 种带样张的风格库 · 越用越懂你的外观账本与设计体检 · HTML-native design skill for Claude Code, Codex, Cursor & any agent"
+ },
  "alchaincyf/huashu-motion": {
   "ko": "에이전트로 상업용 수준의 제품 홍보 영상을 한 번에 만들어 냅니다. 음악도 작곡하고, 화면을 가리키며 수정할 수도 있습니다. Commercial-grade launch films by your coding agent — point at the frame to change it.",
   "src": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it."
@@ -294,6 +314,10 @@
  "alibaba/open-code-review": {
   "ko": "안전하고 빠르며 효율적이고, 알리바바 규모에서 검증되었습니다. 결정적 파이프라인과 LLM 에이전트를 결합한 하이브리드 코드 리뷰 도구로, 정밀한 라인 단위 코멘트를 제공하며 NPE, 스레드 안전성, XSS, SQL 인젝션 등 다국어 기본 규칙셋을 내장하고 OpenAI 및 Anthropic과 호환됩니다.",
   "src": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible."
+ },
+ "andyhuo520/digital-human-koubo": {
+  "ko": "사진 한 장으로 만드는 AI 디지털 휴먼 토킹헤드 영상: Renoise MCP 생성 + 편집 스타일 5종 + 크리에이터급 패키징 컴포넌트 48종. Claude Code / Codex / OpenClaw / WorkBuddy 등을 위한 에이전트 스킬 …",
+  "src": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …"
  },
  "anomalyco/opencode": {
   "ko": "오픈소스 코딩 에이전트입니다.",
@@ -383,6 +407,10 @@
   "ko": "DeepInfer: DeepSeek 모델을 위한 고성능 대규모 추론 프레임워크",
   "src": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models"
  },
+ "designfuchen/word-atlas": {
+  "ko": "词光 · Word Atlas: 7,298개 단어를 담은 삽화 포함 IELTS 어휘 학습 앱. 영국/미국 발음 오디오와 FSRS 복습 제공. 오픈소스 앱 + CC BY 4.0 데이터셋.",
+  "src": "词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset."
+ },
  "dipa-studio/ios-sweet": {
   "ko": "Redmi Note 10 Pro(sweet, SM7150)에서 구동하는 iOS 16 userland + XNU",
   "src": "iOS 16 userland + XNU on Redmi Note 10 Pro (sweet, SM7150)"
@@ -422,6 +450,10 @@
  "gichirimaku/wp2shell-PoC": {
   "ko": "CVE-2026-63030 + CVE-2026-60137 익스플로잇 RCE 체인",
   "src": "CVE-2026-63030 + CVE-2026-60137 exploit RCE chain."
+ },
+ "gitroomhq/postiz-app": {
+  "ko": "📨 최고의 에이전틱 소셜 미디어 예약 도구 🤖",
+  "src": "📨 The ultimate agentic social media scheduling tool 🤖"
  },
  "google-gemini/gemini-cli": {
   "ko": "Gemini의 능력을 터미널에서 바로 사용할 수 있게 해주는 오픈소스 AI 에이전트",
@@ -512,8 +544,8 @@
   "src": "Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks."
  },
  "morganlinton/BeautifulRust": {
-  "ko": "Claude가 관용적이고 견고한 Rust 코드를 작성하도록 가르치는 Claude Code 플러그인",
-  "src": "A Claude Code plugin that teaches Claude to write idiomatic, robust Rust"
+  "ko": "관용적인 Rust 코드를 작성, 리뷰, 이식하도록 코딩 에이전트를 가르치는 에이전트 스킬과 검증된 clippy 설정. Claude Code, Codex, Copilot, Cursor, Gemini CLI와 함께 작동합니다.",
+  "src": "Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config. Works with Claude Code, Codex, Copilot, Cursor, and Gemini CLI."
  },
  "morluto/awesome-reverse-engineering": {
   "ko": "바이너리, 앱, 펌웨어, 포맷, 프로토콜을 위한 큐레이션된 리버스 엔지니어링 도구와 학습 자료 모음",
@@ -538,6 +570,10 @@
  "nateherkai/roast-room": {
   "ko": "Claude Code에서 일곱 명의 AI 자문가(베이조스, 폴 그레이엄, 호르모지, 게리 베이너척, 댄 마텔, 지노 위크먼, 버핏)가 테이블에 둘러앉아 여러분의 사업 결정을 실시간으로 토론합니다.",
   "src": "Seven AI advisors (Bezos, Paul Graham, Hormozi, Gary Vee, Dan Martell, Gino Wickman, Buffett) debate your business decision in Claude Code, live around a table."
+ },
+ "nightly-labs/openbot": {
+  "ko": "영속적인 AI 팀원을 위한 로컬 우선 데스크톱 워크스페이스. 전용 워크스페이스, 작업 큐, 파일 공유, 브라우저 제어, 에이전트 간 협업으로 Codex, Claude, Grok을 실행하세요.",
+  "src": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration."
  },
  "nodejs/node": {
   "ko": "Node.js JavaScript 런타임 ✨🐢🚀✨",
@@ -651,6 +687,10 @@
   "ko": "재미를 되찾자. 아트, NFT, 밈과 그 커뮤니티에 초점을 맞춘 오픈소스 SVM 블록체인 개발 프로젝트. 실험용 테스트넷이 공개되었습니다.",
   "src": "Bring back the fun. Open-source SVM blockchain development focused on art, NFTs, memes and their communities. Experimental testnet live."
  },
+ "songjianyang/xss-audit": {
+  "ko": "React, TypeScript, JavaScript 프로젝트를 위한 14개 계층 검사를 갖춘 정적 XSS 감사 스킬.",
+  "src": "Static XSS audit skill with 14 layers of checks for React, TypeScript, and JavaScript projects."
+ },
  "stablyai/orca": {
   "ko": "Orca는 여러 에이전트(예: Grok Bot, Claude Code)를 함께 운영하는 공간입니다. 자신의 구독으로 어떤 코딩 에이전트든 실행할 수 있으며, 데스크톱, 모바일, 원격 런타임에서 사용할 수 있습니다.",
   "src": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime."
@@ -678,6 +718,14 @@
  "supabase/supabase": {
   "ko": "Postgres 개발 플랫폼. Supabase는 웹, 모바일, AI 애플리케이션을 만들 수 있도록 전용 Postgres 데이터베이스를 제공합니다.",
   "src": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications."
+ },
+ "surendrapandar/minilytics": {
+  "ko": "오픈소스. 인디 해커와 1인 창업자를 위한 매출 중심 분석 도구",
+  "src": "Opensource Revenue-first analytics for indie hackers & solo founders"
+ },
+ "t3dotgg/tstack": {
+  "ko": "제가 매일 사용하는 에이전트 스킬. Claude Code 및 Codex와 함께 작동합니다.",
+  "src": "The agent skills I use every day. Works with Claude Code and Codex."
  },
  "tashfeenahmed/freellmapi": {
   "ko": "월 77억 토큰, 무료 LLM 제공자 34곳, 무료 모델 엔드포인트 635개를 하나의 /v1 엔드포인트로 제공합니다. 원하는 커스텀 OpenAI 호환 엔드포인트도 추가할 수 있습니다. 스마트 라우팅, 자동 장애 조치, 암호화된 키를 지원합니다. 개인 실험용으로만 사용하세요.",
@@ -722,6 +770,10 @@
  "vllm-project/vllm": {
   "ko": "처리량이 높고 메모리 효율이 좋은 LLM용 추론 및 서빙 엔진",
   "src": "A high-throughput and memory-efficient inference and serving engine for LLMs"
+ },
+ "wangrongding/tv-fresh": {
+  "ko": "tv-fresh TV 새단장: 샤오미 TV(MIUI TV)의 광고 제거, 기본 설치 앱 정리, 바탕화면 변경, 프록시 및 영상 창고 설치를 돕는 에이전트 스킬. 루트 없이 되돌릴 수 있으며, 펌웨어 리버싱 기록과 원클릭 스크립트 포함",
+  "src": "tv-fresh 电视焕新：小米电视(MIUI TV)去广告/清理预装/换桌面/装代理与影视仓的 Agent Skill——免root可逆，含固件逆向实录与一键脚本"
  },
  "wesbos/3d-model-anything": {
   "ko": "iPhone LiDAR와 사진을 캡처해 편집 가능한 Three.js 방을 재구성하고, 브라우저에서 둘러볼 수 있게 합니다.",
