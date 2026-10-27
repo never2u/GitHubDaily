@@ -99,6 +99,10 @@
   "ko": "\"CLI-Anything: 모든 소프트웨어를 에이전트 네이티브로 만들기\" -- CLI-Hub: https://clianything.cc/",
   "src": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/"
  },
+ "HKUDS/DeepTutor": {
+  "ko": "DeepTutor: 평생 개인 맞춤형 튜터링. https://deeptutor.info/",
+  "src": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ ."
+ },
  "HayatoG/iss_pc": {
   "ko": "inFAMOUS Second Son(PS4, CUSA00223)의 네이티브 PC 포트(Linux/Windows)입니다. 개발 중이며 플레이 가능하고, 사용자가 보유한 게임 덤프로 실행합니다. 게임이나 펌웨어 파일은 포함되어 있지 않습니다. 모션 센서 에뮬레이션을 지원합니다. | inFAMOUS Second Son의 네이티브 PC 포트(개발 중)이며, 사용자 본인의 덤프를 사용합니다.",
   "src": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump."
@@ -166,6 +170,10 @@
  "Meloong-Git/PCL": {
   "ko": "Minecraft 런처 Plain Craft Launcher(PCL).",
   "src": "Minecraft 启动器 Plain Craft Launcher（PCL）。"
+ },
+ "Motionsites-AI/claude-skill": {
+  "ko": "무료 Claude 스킬: Claude가 수상작 수준의 영화적인 랜딩 페이지를 만들도록 합니다. MotionSites 제작.",
+  "src": "Free Claude skill: make Claude build award-level, cinematic landing pages. By MotionSites."
  },
  "MyLuxy/overdrive": {
   "ko": "PS5용 홈브루 게임 스토어 Overdrive, 1,800여 개의 게임 제공.",
@@ -274,6 +282,10 @@
  "Zfinix/eleven": {
   "ko": "macOS, Windows, Linux용 에이전트 우선 리버스 엔지니어링 도구. 모든 ACP 에이전트가 바이너리, 안드로이드 앱, GPU 커널을 읽고, 이름을 바꾸고, 패치할 수 있습니다.",
   "src": "Agent-first reverse engineering for macOS, Windows and Linux: any ACP agent reads, renames and patches binaries, Android apps and GPU kernels next to you."
+ },
+ "ZiChuanLan/agent-purge": {
+  "ko": "하나의 페르소나를 여러 코딩 에이전트에 적용하세요. 로컬 웹 콘솔에서 codex, claude, opencode, grok, omp, hermes, pi, zcode의 시스템 프롬프트를 교체하거나 주입합니다.",
+  "src": "One persona, many coding agents. Replace or inject system prompts across codex, claude, opencode, grok, omp, hermes, pi, zcode - with a local web console."
  },
  "addyosmani/agent-skills": {
   "ko": "AI 코딩 에이전트를 위한 실무 수준의 엔지니어링 스킬입니다.",
@@ -424,12 +436,16 @@
   "src": "Official Inference Code of EAGLE-4"
  },
  "earthtojake/text-to-cad": {
-  "ko": "에이전트에게 CAD 슈퍼파워를 부여하세요.",
-  "src": "Give your agent CAD superpowers."
+  "ko": "AI로 실물 제품 디자인하기",
+  "src": "Design physical products with AI"
  },
  "elie222/rakazo": {
   "ko": "오픈소스 Grok Bot 대안. 원하는 모델과 샌드박스를 직접 선택할 수 있습니다.",
   "src": "Open-source Grok Bot alternative. Choose your own model and sandbox."
+ },
+ "enesozturk/dimensional-drawing": {
+  "ko": "UI 컴포넌트의 Apple 스타일 치수 도면을 만듭니다.",
+  "src": "Create Apple style dimensional drawings of UI components."
  },
  "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC": {
   "ko": "php2shell(CVE-2026-109618 / CVE-2026-109619)용 증명 코드(PoC) 익스플로잇으로, 취약한 PHP 환경에서의 원격 코드 실행을 보여줍니다. 보안 연구 및 교육 목적으로만 사용하세요.",
@@ -446,6 +462,10 @@
  "feder-cr/open_scion": {
   "ko": "코딩 에이전트를 위해 만든 버전 관리 시스템 Scion의 오픈소스 버전입니다.",
   "src": "Open-source version of Scion: version control built for coding agents."
+ },
+ "flutter/flutter": {
+  "ko": "Flutter로 모바일과 그 밖의 플랫폼에서 아름다운 앱을 쉽고 빠르게 만들 수 있습니다",
+  "src": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond"
  },
  "gichirimaku/wp2shell-PoC": {
   "ko": "CVE-2026-63030 + CVE-2026-60137 익스플로잇 RCE 체인",
@@ -467,6 +487,10 @@
   "ko": "HTML을 작성하고 영상을 렌더링하세요. 에이전트를 위해 만들어졌습니다.",
   "src": "Write HTML. Render video. Built for agents."
  },
+ "huaxialucaicaizi/ai-startup-skills": {
+  "ko": "스타트업이 AI 제품을 만드는 7단계 Agent Skill 모음: 검증 → 사업계획서 → 정책 → 발표 → 고객 확보 → 가격 책정 → 등록.",
+  "src": "创业公司做 AI 产品的 7 步 Agent Skill 合集：验证 → BP → 政策 → 路演 → 获客 → 定价 → 注册。"
+ },
  "humblemuzzu/dumbtv": {
   "ko": "루트 권한 없이 ADB를 통해 Fire TV에서 광고, 추적, 불필요한 요소를 제거합니다. 모든 단계는 되돌릴 수 있으며, 오픈소스 홈 화면이 함께 제공됩니다.",
   "src": "Take the ads, tracking and clutter out of your Fire TV over ADB, no root. Every step can be undone. Comes with its own open-source home screen."
@@ -478,6 +502,10 @@
  "ikow/php2shell-poc": {
   "ko": "CVE-2026-109618/109619 — RCE 체인 5개와 탐지 규칙(Suricata, Sigma, ModSecurity). PHP session.upload_progress 인증 전 익스플로잇 연구.",
   "src": "CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit research."
+ },
+ "interplains/Zero-Breach-Toolkit": {
+  "ko": "알려진 용병 스파이웨어 흔적을 무료로 점검하는 오픈소스 오프라인 도구. Windows 컴퓨터와 Android 휴대폰 샘플로 테스트했습니다.",
+  "src": "Free, open-source, offline checks for traces of known mercenary spyware. Tested with Windows computers and Android phone collections."
  },
  "interplains/zero-breach": {
   "ko": "Zero Breach: AdFection / Candiru 광고 배포 스파이웨어 캠페인의 흔적을 컴퓨터에서 찾아내는 로컬 읽기 전용 스캐너입니다. 네트워크, 관리자 권한, 의존성이 필요하지 않습니다.",
@@ -523,9 +551,21 @@
   "ko": "보내는 이메일에 대해서만 요금을 내는 뉴스레터 서비스. 휴면 구독자에게는 요금이 없으며, beehiiv 등과 비교해 훨씬 저렴합니다. 오픈 소스이므로 직접 호스팅하거나 mailcheap.ai를 이용할 수 있습니다.",
   "src": "Newsletters where you pay for the emails you send, not for dormant subscribers, at a fraction of the price of beehiiv and the like. Open source: self-host it, or use mailcheap.ai."
  },
+ "martinkeith700/ruyiJS": {
+  "ko": "Python에서 실제 미니 AI 헤드리스 브라우저로 어떤 사이트든 실행하고, 안티 크롤러 보안을 우회하여 원하는 데이터와 토큰을 얻으세요.",
+  "src": "Run any site  from Python with the real mini AI headless browser , bypass any security anti-crawler , get the data and token you want"
+ },
  "mattpocock/skills": {
   "ko": "실무 엔지니어를 위한 스킬. 제 .agents 디렉터리에서 그대로 가져왔습니다.",
   "src": "Skills for Real Engineers. Straight from my .agents directory."
+ },
+ "mirkobrombin/raven": {
+  "ko": "앱이 인식하는 Windows.",
+  "src": "A Windows your apps recognize."
+ },
+ "misshexa66/OunceCake": {
+  "ko": "Switch 2 게임의 암호화되지 않은 romFS와 exeFS를 추출하는 도구",
+  "src": "Tool to dump unencrypted romFS and exeFS for Switch 2 games"
  },
  "mistralai/timestral": {
   "ko": "Mistral AI의 시계열 기반 모델 Timestral의 저장소",
@@ -699,6 +739,10 @@
   "ko": "TypeScript로 만든 ascii shark 컴포넌트",
   "src": "ascii shark components in typescript"
  },
+ "stormydayy/halo-overlay": {
+  "ko": "실시간 대화를 위한 경량 오픈소스 AI 오버레이. 듣고, 보고, 제안합니다.",
+  "src": "Lightweight opensource AI overlay for live conversations. Hears, sees, suggests."
+ },
  "storytold/artcraft": {
   "ko": "예술가, 디자이너, 영상 제작자를 위한 의도 중심 창작 엔진 ArtCraft",
   "src": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers"
@@ -742,6 +786,10 @@
  "threerocks/sweety-handdraw-video": {
   "ko": "주제나 글로 손그림 강의 영상을 만들어 줍니다. 부위별 선 그리기, 글자별 필기, VoiceStudio 더빙, 기본 제공 제작 의존성 5종을 지원합니다.",
   "src": "从主题或文章制作完整手绘讲解视频：按部位描线、逐字书写、VoiceStudio 配音、五项内置制作依赖。"
+ },
+ "togg53192-cmd/jailbreaks": {
+  "ko": "내 모든 재일브레이크(탈옥) 목록",
+  "src": "LIST OF ALL MY JAILBREAKS"
  },
  "torrentplayer/torrentplayer": {
   "ko": "토렌트, 동영상, 오디오를 스트리밍하고 원하는 지점으로 약 1초 만에 이동할 수 있습니다. Windows, macOS, Linux용 무료 오픈소스 데스크톱 앱. 서버, 계정, 텔레메트리가 없습니다.",

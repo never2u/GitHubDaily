@@ -33,6 +33,39 @@
    ],
    "subheadline": "이미지·영상·오디오·3D까지 아우르는 모듈형 확산 모델 GUI이자 API, 백엔드"
   },
+  "HKUDS/DeepTutor": {
+   "date": "2026-10-28",
+   "headline": "DeepTutor, 평생 개인 맞춤형 AI 튜터를 내세우다",
+   "highlights": [
+    "문서 읽기·퀴즈·책 생성·Mastery Path를 한데 묶은 개인 맞춤형 학습 워크스페이스",
+    "LightRAG, PageIndex OSS, LlamaIndex 등 다양한 검색·파싱 엔진 지원",
+    "Partners, MCP Services, 101개 CLI Apps 등 확장 가능한 에이전트 생태계",
+    "프랑스어·독일어·폴란드어 등 다국어 UI와 Python 3.14 지원",
+    "v1.6.15까지 이어진 촘촘한 릴리스와 오픈 로드맵 기반 기여 환영"
+   ],
+   "image": "https://raw.githubusercontent.com/HKUDS/DeepTutor/HEAD/assets/figs/web-1.6.5/OVERVIEW.png",
+   "image_caption": "DeepTutor: 평생 개인 맞춤형 튜터링을 표방하는 학습 플랫폼",
+   "lead": "HKUDS의 오픈소스 프로젝트 DeepTutor는 '평생 개인 맞춤형 튜터링'을 목표로 하는 Python 기반 학습 플랫폼이다. README에 정리된 릴리스 기록을 보면 최근 수개월 동안 기능이 빠르게 확장되고 있음을 알 수 있다.",
+   "sections": [
+    {
+     "heading": "무엇인가: 평생 학습을 위한 튜터링 플랫폼",
+     "text": "DeepTutor는 저장소 설명에서 스스로를 'Lifelong Personalized Tutoring'이라고 소개한다. README는 Features, Get Started, Explore, CLI, Ecosystem, Community 항목으로 구성돼 있으며, 로드맵 항목에 투표하거나 새 항목을 제안할 수 있도록 기여를 폭넓게 환영한다고 밝혔다. 분기 전략과 코딩 표준은 별도의 Contributing Guide에서 안내한다."
+    },
+    {
+     "heading": "어떻게 작동하나: 읽기, 연습, 지식베이스의 결합",
+     "text": "릴리스 노트에 따르면 DeepTutor는 문서를 스레드 옆에 열어 페이지 단위로 인용하는 Immersive Reading, 책 형태의 학습물을 생성하는 Books, 문제은행과 일일 연습, Mastery Path, Courses 등을 갖추고 있다. 지식베이스는 LightRAG, PageIndex OSS, LlamaIndex 등을 활용한 검색을 지원하며, MinerU·Apache Tika·LiteParse 등 다양한 문서 파싱 엔진을 선택할 수 있다. 또한 YouTube 학습, EPUB 읽기와 주석, 학습 일지, 폴더 기반 학습 워크스페이스 같은 기능도 이름을 올렸다."
+    },
+    {
+     "heading": "생태계: 파트너, 에이전트, 연동 확장",
+     "text": "사용자별로 소유하는 Partners는 비공개 대화와 연결 가능한 채팅 계정을 지원하며, Mattermost 채널과 WeChat QR 로그인 등이 추가됐다. 코딩 CLI 에이전트로는 Gemini, Kimi, opencode, MiMo 등이 My Agents에 포함됐고, 계정별 MCP Services 스토어와 튜터가 실행할 수 있는 101개의 CLI Apps도 제공된다. MarginNote 4, IMA 라이브러리, GitHub 저장소를 지식 소스로 연결하는 기능도 있다. 모델 공급자 측면에서는 OpenAI Codex OAuth, Eden AI, Novita AI, Atlas Cloud, Gemini Embedding 2 등이 거론된다."
+    },
+    {
+     "heading": "운영과 안정성: 잦은 릴리스와 다국어 지원",
+     "text": "v1.6.15까지 이어진 릴리스는 학습 경로 변경 검토, 묶음 평가, 제한된 튜터링 메모리, 채팅 복구, 더 견고한 파싱, 검색 비교, Gemini 네이티브 음성 등을 담았다. 프랑스어, 우크라이나어, 독일어, 폴란드어 UI가 추가됐고 Python 3.14 지원도 언급된다. v1.6.3에서는 프런트엔드·백엔드의 호환성을 깨는 리팩터링이 이뤄졌으며, `deeptutor doctor` 명령과 안내형 업데이트 등 운영 편의 기능도 도입됐다."
+    }
+   ],
+   "subheadline": "읽기·퀴즈·지식베이스·파트너까지 아우르는 학습 워크스페이스, 빠른 릴리스로 진화"
+  },
   "NVIDIA/OpenShell": {
    "date": "2026-10-24",
    "headline": "NVIDIA OpenShell, AI 에이전트 안전 런타임",
@@ -522,6 +555,11 @@
    "long": true,
    "text": "VoiceStudio는 ElevenLabs의 오픈소스 대안을 표방하는 프로젝트로, 음성 복제, 음성 디자인, 영상 더빙, 받아쓰기, 전사, 오디오북 제작 기능을 646개 언어로 제공합니다. 기본 엔진으로 k2-fsa/OmniVoice를 사용하며, 로컬 워크플로는 사용자의 하드웨어에서 실행되고 원격 서비스는 선택 사항이라는 점이 특징입니다. 음성 복제 시에는 권한을 얻어야 한다는 책임 있는 사용 원칙도 함께 안내하고 있습니다."
   },
+  "elayadesign/ai-design-skills": {
+   "date": "2026-10-28",
+   "long": true,
+   "text": "elayadesign/ai-design-skills는 Claude Code, Cursor, Codex, Windsurf 등 마크다운 규칙 파일을 읽는 AI 코딩 도구를 위한 디자인 스킬 모음입니다. 각 스킬은 독립된 폴더 형태로 제공되어 필요한 것만 골라 설치할 수 있으며, 도구별로 SKILL.md 파일을 복사하거나 업로드하는 방법이 안내되어 있습니다. 폰트, 색상, 간격, 모션 같은 디자인 값이 파일 하단 한 섹션에 모여 있어 저장소를 포크해 쉽게 수정할 수 있다는 점이 특징입니다. 라이선스는 MIT입니다."
+  },
   "fastapi/fastapi": {
    "date": "2026-10-23",
    "long": true,
@@ -616,6 +654,11 @@
    "date": "2026-10-22",
    "long": true,
    "text": "freehire는 기업 채용 페이지에서 직접 수집한 IT 채용 공고를 모아 보여주는 오픈소스 검색 엔진입니다. 중개업체의 재게시글이나 죽은 링크 없이 원본 공고로 연결되며, 여러 게시판에 올라온 같은 공고는 하나로 합쳐 보여준다고 소개합니다. 직무, 근무 형태, 연차, 기술 스택, 연봉 등 여러 조건으로 검색할 수 있고, MIT 라이선스로 공개되어 직접 호스팅하거나 API와 CLI를 활용해 확장할 수도 있다는 점이 특징입니다. Go와 PostgreSQL, Meilisearch 등으로 구성되어 있습니다."
+  },
+  "togg53192-cmd/jailbreaks": {
+   "date": "2026-10-28",
+   "long": true,
+   "text": "togg53192-cmd/jailbreaks는 시스템 프롬프트, 페르소나 설정, 워크스페이스 정책, AGENTS.md 파일 등을 여러 AI 모델별로 정리한 컬렉션입니다. README에 따르면 25개 이상의 모델을 대상으로 한 31개의 프롬프트가 포함되어 있으며, OpenCode Zen의 무료 모델, Claude, Gemini, GLM, DeepSeek, Kimi, Ollama Modelfile 등이 다뤄집니다. 저장소는 연구 및 교육 목적임을 명시하면서, 지침 계층이나 프롬프트 충돌이 모델 행동에 어떤 영향을 주는지 분석하는 자료로 소개하고 있습니다. 다만 우회 목적의 악용이나 서비스 약관 위반은 하지 말라는 경고가 함께 적혀 있어, 사용 전 주의가 필요한 프로젝트입니다."
   },
   "twentyhq/twenty": {
    "date": "2026-10-22",
