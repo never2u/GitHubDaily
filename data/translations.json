@@ -155,6 +155,10 @@
   "ko": "코딩 에이전트를 위한 귀: AI가 듣고, 검토하고, 소리를 만들 수 있게 합니다. CPU만으로 동작하는 오픈소스입니다.",
   "src": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source."
  },
+ "Leonxlnx/taste-skill": {
+  "ko": "일반적인 AI 페이지 대신 아트 디렉션, 참고 이미지, 브라우저 검사를 통해 코딩 에이전트에게 감각을 부여하는 에이전트 스킬입니다.",
+  "src": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages"
+ },
  "LiCinCan/blender-ai-mcp-addon": {
   "ko": "Blender용 AI 어시스턴트이자 MCP 서버: 시각적 채팅, 씬 도구, 다중 에이전트 워크플로우. OpenAI, ChatGPT, Claude, Gemini, Ollama, OpenCode와 함께 작동합니다. 3D 코파일럿인 Blender AI 애드온 및 플러그인, bpy Python 스크립팅, MCP 통합.",
   "src": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with OpenAI, ChatGPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon and plugin, copilot for 3D, bpy Python scripting, MCP integration."
@@ -331,9 +335,17 @@
   "ko": "사진 한 장으로 만드는 AI 디지털 휴먼 토킹헤드 영상: Renoise MCP 생성 + 편집 스타일 5종 + 크리에이터급 패키징 컴포넌트 48종. Claude Code / Codex / OpenClaw / WorkBuddy 등을 위한 에이전트 스킬 …",
   "src": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …"
  },
+ "anhao/ai-pose-gallery-zh": {
+  "ko": "중국어 AI 포즈 참고 이미지 갤러리 · 1439세트 / 2878장 이미지 · 완전 번역 · 의존성 없는 정적 갤러리",
+  "src": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊"
+ },
  "anomalyco/opencode": {
   "ko": "오픈소스 코딩 에이전트입니다.",
   "src": "The open source coding agent."
+ },
+ "anonnerdfrenzy/survival-llm": {
+  "ko": "인터넷 없이 내 컴퓨터에서 실행되는 무료 AI 어시스턴트이자 생존 자료 라이브러리입니다. 모든 답변의 출처를 보여줍니다.",
+  "src": "A free AI assistant and survival library that runs on your own computer, with no internet needed. Shows the source of every answer."
  },
  "anthropics/claude-code": {
   "ko": "Claude Code는 터미널에 상주하며 코드베이스를 이해하고, 일상적인 작업 실행, 복잡한 코드 설명, git 워크플로 처리를 자연어 명령으로 수행해 더 빠르게 코딩하도록 돕는 에이전트형 코딩 도구입니다.",
@@ -358,6 +370,10 @@
  "aws/agent-toolkit-for-aws": {
   "ko": "AI 에이전트가 AWS에서 개발할 수 있도록 돕는, AWS가 공식 지원하는 MCP 서버, 스킬, 플러그인",
   "src": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS"
+ },
+ "blakeandersonw/ai-app-playbook": {
+  "ko": "2026년에 유용하고 수익성 있는 앱을 만드는 방법입니다. 복제한 뒤 코딩 에이전트가 AGENTS.md를 보도록 지정하세요.",
+  "src": "How to build useful, profitable apps in 2026. Clone it and point your coding agent at AGENTS.md."
  },
  "boykopovar/AnyPS5": {
   "ko": "PS5 실행 파일을 Linux와 Windows로 자동 포팅하는 도구입니다.",
@@ -407,6 +423,10 @@
   "ko": "빠른 CPU OCR: 줄 검출, CTC 인식, 읽기 순서 처리, 마크다운 출력",
   "src": "Fast CPU OCR: line detection, CTC recognition, reading order, markdown"
  },
+ "daveebbelaar/bama": {
+  "ko": "BAMA: Build Any Mac App. Swift와 SwiftUI로 네이티브 macOS 앱을 조사, 복제, 설계, 빌드, 최적화, 테스트하는 에이전트 스킬입니다.",
+  "src": "BAMA: Build Any Mac App. Agent skills to research, clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI."
+ },
  "debpalash/VoiceStudio": {
   "ko": "VoiceStudio는 오픈소스이자 완전 로컬에서 동작하는 ElevenLabs 대안입니다. 음성 복제, 음성 디자인, 영상 더빙, 받아쓰기, 전사, 오디오북 제작을 646개 언어로 지원합니다.",
   "src": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages."
@@ -414,6 +434,10 @@
  "deeplethe/solid-glass": {
   "ko": "AI 애플리케이션을 위한 디자인 시스템. 머티리얼, physical, 촉각적, 기술적 요소를 담고 있습니다.",
   "src": "A design system for AI applications. Material, physical, tactile, technical."
+ },
+ "deepopen-com/deepopen-3d-webs": {
+  "ko": "이미지 기반 3D 장면 생성 시스템입니다. 사용자가 참고 이미지와 프롬프트를 입력하면 카메라 궤적에 따라 미리보기, 재생, 추적이 가능한 장면 결과를 생성합니다. 공식 3D 데모 자산으로 브라우저에서 색상/깊이 애니메이션과 가우시안 포인트 클라우드를 바로 볼 수 있습니다. 이미지 기반 3차원 장면 생성 시스템.",
+  "src": "Image-driven 3D scene generation system. Users provide a reference image and prompt words, and the system generates previewable, replayable, and traceable scene results according to the camera trajectory; official 3D demonstration assets allow direct viewing of color/depth animations and Gaussian point clouds in the browser 图像驱动的三维场景生成系统"
  },
  "deepseek-ai/DeepInfer": {
   "ko": "DeepInfer: DeepSeek 모델을 위한 고성능 대규모 추론 프레임워크",
@@ -450,6 +474,10 @@
  "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC": {
   "ko": "php2shell(CVE-2026-109618 / CVE-2026-109619)용 증명 코드(PoC) 익스플로잇으로, 취약한 PHP 환경에서의 원격 코드 실행을 보여줍니다. 보안 연구 및 교육 목적으로만 사용하세요.",
   "src": "Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in vulnerable PHP environments. For security research and educational purposes only."
+ },
+ "expo/skills": {
+  "ko": "Expo 프로젝트와 Expo Application Services를 다루기 위한 AI 에이전트 스킬 모음입니다.",
+  "src": "A collection of AI agent skills for working with Expo projects and Expo Application Services"
  },
  "fastapi/fastapi": {
   "ko": "높은 성능, 배우기 쉬움, 빠른 코딩, 프로덕션 준비 완료된 FastAPI 프레임워크",
@@ -504,12 +532,16 @@
   "src": "CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit research."
  },
  "interplains/Zero-Breach-Toolkit": {
-  "ko": "알려진 용병 스파이웨어 흔적을 무료로 점검하는 오픈소스 오프라인 도구. Windows 컴퓨터와 Android 휴대폰 샘플로 테스트했습니다.",
-  "src": "Free, open-source, offline checks for traces of known mercenary spyware. Tested with Windows computers and Android phone collections."
+  "ko": "알려진 용병 스파이웨어의 흔적을 오프라인에서 무료로 검사하는 오픈소스 도구입니다. Windows, macOS, Linux, Android 휴대폰, iPhone 백업을 지원합니다.",
+  "src": "Free, open-source, offline checks for traces of known mercenary spyware. Works on Windows, macOS and Linux, Android phones and iPhone backups."
  },
  "interplains/zero-breach": {
   "ko": "Zero Breach: AdFection / Candiru 광고 배포 스파이웨어 캠페인의 흔적을 컴퓨터에서 찾아내는 로컬 읽기 전용 스캐너입니다. 네트워크, 관리자 권한, 의존성이 필요하지 않습니다.",
   "src": "Zero Breach — local, read-only scanner that checks a computer for indicators of the AdFection / Candiru ad-delivered spyware campaign. No network, no admin, no dependencies."
+ },
+ "jakubkrehel/skills": {
+  "ko": "훌륭한 인터페이스를 만드는 데 도움을 주는 에이전트 스킬 모음입니다.",
+  "src": "A collection of agent skills that help you build great interfaces."
  },
  "jbiaojerry/ebook-treasure-chest": {
   "ko": "각종 전자책 다운로드 링크를 모아 둔 전자책 다운로드 보고. 고전문학, 경제경영, 자기계발, 평생학습, 직장·창업, 기술 서적 등 다양한 분야의 책을 찾을 수 있습니다. 판샤오(帆书, 구 판덩독서), 위챗 읽기, 징둥 읽기, 시마라야 등 주요 독서 앱의 대부분의 전자책을 포함합니다.",
@@ -542,6 +574,10 @@
  "lyramakesmusic/neuron-explorer": {
   "ko": "Qwen3.5-4B용 조향 중심 뉴런 탐색기. 모든 MLP 뉴런을 밀어보고, 모든 롤아웃을 보관하며, 결과를 탐색할 수 있습니다.",
   "src": "Steering-first neuron explorer for Qwen3.5-4B: push every MLP neuron, keep every rollout, browse the results"
+ },
+ "macro-inc/macro": {
+  "ko": "Macro는 팀을 위한 통합 워크스페이스로, 이메일, 채팅, 문서, 작업, 에이전트, 통화, CRM을 @ 링크로 연결하고 공유 AI 메모리를 제공합니다.",
+  "src": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory."
  },
  "makecindy/cindy": {
   "ko": "맡겨만 주세요. 별다른 설정 없이 바로 작동하는 오픈소스 AI 에이전트. 생각하면, 바로 실현됩니다.",
@@ -652,8 +688,8 @@
   "src": "The open-source app everyone uses to manage agents at work"
  },
  "pbakaus/impeccable": {
-  "ko": "AI 하네스의 디자인 품질을 높여 주는 디자인 언어입니다.",
-  "src": "The design language that makes your AI harness better at design."
+  "ko": "코딩 에이전트를 위한 디자인 어휘 모음입니다. polish와 bolder로 방향을 잡고, critique와 audit으로 검토하며, AI slop을 출시 전에 걸러냅니다.",
+  "src": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships."
  },
  "pengchujin/aerial-tv": {
   "ko": "국산 TV를 위한 깔끔한 바탕화면: tvOS 디자인을 참고한 오픈 소스 Android TV 런처로, 광고가 없고 켜면 자동으로 실행됩니다. Xiaomi, TCL 등 중국 시장 TV를 위한 tvOS 스타일 런처입니다.",
@@ -703,6 +739,10 @@
   "ko": "어떤 SVG든 전문가 수준의 60fps 애니메이션으로 바꿔 줍니다. 그린 것은 무엇이든 살아 움직이게 하는 Claude Code 스킬로, 라이브 얼굴, 전신 연기, 장면 전체를 React Native와 SwiftUI에서 구현합니다.",
   "src": "Turn any SVG into a professional 60 fps animation. A Claude Code skill that brings anything drawn to life: live faces, full-body acting and whole scenes, in React Native and SwiftUI."
  },
+ "ruvnet/RuView": {
+  "ko": "π RuView는 일반 WiFi 신호를 실시간 공간 인텔리전스, 생체 신호 모니터링, 존재 감지로 바꿔줍니다. 영상 픽셀 하나 없이도 가능합니다.",
+  "src": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video."
+ },
  "ruvnet/ruflo": {
   "ko": "🌊 원조 에이전트 하네스입니다. 지능형 다중 플레이어 스웜을 배포하고, 자율 워크플로를 조율하며, 대화형 AI 시스템을 구축하세요. 적응형 메모리, 자기 학습 지능, 페더레이션, 벡터 RAG 통합, 그리고 네이티브 Claude Code / Codex / Hermes 등 여러 통합을 지원합니다.",
   "src": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated"
@@ -722,6 +762,10 @@
  "simbasjungles/free-my-tv": {
   "ko": "Google TV, LG webOS, Samsung Tizen용 빠르고 광고 없는 홈 화면. 버튼 한 번으로 되돌리기가 가능합니다.",
   "src": "A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo."
+ },
+ "smithjohn78390/tongjiang-lab": {
+  "ko": "고등학생을 위한 무료 인터랙티브 3D 과학 수업 · 통장 실험실 · https://lab.tongjiang.app",
+  "src": "Free interactive 3D science lessons for high school · 铜匠实验室 · https://lab.tongjiang.app"
  },
  "solana-classic/solana-classic": {
   "ko": "재미를 되찾자. 아트, NFT, 밈과 그 커뮤니티에 초점을 맞춘 오픈소스 SVM 블록체인 개발 프로젝트. 실험용 테스트넷이 공개되었습니다.",
@@ -839,6 +883,10 @@
   "ko": "HatchZip은 Windows, macOS, Linux용 무료 오픈소스 압축 해제 도구입니다. ZIP, 7z, RAR, tar, 분할 압축 파일을 제자리에서 풀어, 추출된 파일 용량만큼의 여유 공간만 필요합니다. 데스크톱 앱과 CLI를 제공합니다.",
   "src": "HatchZip is a free, open-source archive extractor for Windows, macOS and Linux that extracts ZIP, 7z, RAR, tar and split archives in place, so it needs free space for the extracted files only. Desktop app and CLI."
  },
+ "xiaolai/the-craft-of-selfteaching": {
+  "ko": "스스로를 가르칠 수 없는 사람에게는 미래가 없다.",
+  "src": "One has no future if one couldn't teach themself."
+ },
  "xiaoyang111222/cn-math-taxonomy": {
   "ko": "초등부터 고등까지의 수학, 3학년부터 고등까지의 영어, 중학교 물리의 지식 그래프: 1644개 지식점, 2403개 선수 관계 간선, 6723개 문제. 교육과정 기준에 맞추고 적응형 사전 진단을 제공합니다.",
   "src": "数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。"
@@ -846,6 +894,10 @@
  "xscreensaver-official/xscreensaver": {
   "ko": "공식 XScreenSaver GitHub 저장소는 없습니다.",
   "src": "There is no official XScreenSaver GitHub repository."
+ },
+ "yaojingang/GEOInflow": {
+  "ko": "생성형 엔진 최적화(GEO)를 위한 자체 호스팅 웹 및 AI 크롤러 분석 도구입니다. 방문자, AI 검색 유입, 크롤링 로그, 콘텐츠 범위, 전환을 추적합니다. 리카이 테크놀로지와 베이징일보사 즈위안 GEO가 공동 발행했습니다. MIT 라이선스.",
+  "src": "Self-hosted web and AI crawler analytics for Generative Engine Optimization (GEO). Track visitors, AI search referrals, crawl logs, content coverage, and conversions. Jointly published by 猎看科技 · 北京日报社智源GEO. MIT licensed."
  },
  "zcbacxc/mcd-party-planner": {
   "ko": "맥도날드 MCP 모임·단체 식사 조직 도우미: Model Context Protocol 기반의 파티 예약 및 단체 식사 계획 CLI/Skill",
