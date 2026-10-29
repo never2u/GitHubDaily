@@ -156,3 +156,24 @@ def collect(today: dt.date | None = None, log=print) -> dict:
         edition["fallback"] = True
 
     return edition
+
+
+def fetch_created_dates(edition: dict, cache: dict, log=print) -> int:
+    """Fill `cache` (name -> "YYYY-MM-DD") with creation dates of this edition's repos.
+
+    Creation dates never change, so each repository is looked up once.
+    """
+    names = {r["full_name"] for repos in edition.get("trending", {}).values() for r in repos}
+    for a in edition.get("new_arrivals", []):
+        if a.get("created_at"):
+            cache.setdefault(a["full_name"], a["created_at"][:10])
+    todo = sorted(n for n in names if n not in cache)
+    for name in todo:
+        try:
+            meta = json.loads(_get(f"https://api.github.com/repos/{urllib.parse.quote(name)}",
+                                   "application/vnd.github+json"))
+            cache[name] = meta["created_at"][:10]
+        except Exception as exc:
+            log(f"created date for {name} failed: {exc}")
+    log(f"created dates: {len(todo)} looked up")
+    return len(todo)

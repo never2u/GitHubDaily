@@ -2,12 +2,19 @@ name: Daily edition
 
 on:
   # GitHub starts scheduled runs late (1.5-2.5 h observed), so start well before
-  # 08:00 KST to have the edition live by then. The second schedule is a retry
-  # for days the first run fails; it skips itself if today's edition exists.
+  # 08:00 KST to have the edition live by then. The second schedule is a retry:
+  # it does nothing if today's edition is complete, only fills in missing
+  # translations / top story if it is incomplete, and runs fully if it is missing.
   schedule:
     - cron: "47 19 * * *"  # 04:47 KST -> usually published ~06:30-07:30
-    - cron: "13 22 * * *"  # 07:13 KST retry (skipped when already published)
+    - cron: "13 22 * * *"  # 07:13 KST retry / completion
   workflow_dispatch:
+    inputs:
+      mode:
+        description: "full: collect again / fill: only complete today's edition"
+        type: choice
+        options: [full, fill]
+        default: full
   push:
     branches: [main]
     paths: ["ghnews/**", ".github/workflows/daily.yml"]
@@ -25,21 +32,26 @@ jobs:
   check:
     runs-on: ubuntu-latest
     outputs:
-      skip: ${{ steps.guard.outputs.skip }}
+      mode: ${{ steps.guard.outputs.mode }}
     steps:
       - uses: actions/checkout@v4
       - id: guard
-        name: Skip a scheduled run if today's edition is already out
+        name: Decide what this run does
         run: |
-          today="$(TZ=Asia/Seoul date +%F)"
-          if [ "${{ github.event_name }}" = "schedule" ] && [ -f "data/$today.json" ]; then
-            echo "Edition $today already published - nothing to do."
-            echo "skip=true" >> "$GITHUB_OUTPUT"
+          state="$(python3 -m ghnews --status)"
+          mode=full
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            [ "$state" = complete ] && mode=skip
+            [ "$state" = incomplete ] && mode=fill
+          elif [ "${{ inputs.mode }}" = fill ] && [ "$state" != missing ]; then
+            mode=fill
           fi
+          echo "today's edition: $state -> mode: $mode"
+          echo "mode=$mode" >> "$GITHUB_OUTPUT"
 
   build:
     needs: check
-    if: needs.check.outputs.skip != 'true'
+    if: needs.check.outputs.mode != 'skip'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -57,7 +69,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
-        run: python -m ghnews ${{ github.event_name == 'push' && '--no-fetch' || '' }}
+        run: >-
+          python -m ghnews
+          ${{ github.event_name == 'push' && '--no-fetch' || (needs.check.outputs.mode == 'fill' && '--fill' || '') }}
       - name: Save edition data
         if: github.event_name != 'push'
         run: |

@@ -180,6 +180,15 @@ def _badges(repo: dict) -> str:
     return "".join(out)
 
 
+def _created(repo: dict, short: bool = False) -> str:
+    """Repository creation date as '2024.05.01' (or '2024.05' when short); '' if unknown."""
+    c = repo.get("created")
+    if not c:
+        return ""
+    y, m, d = c.split("-")
+    return f"{y}.{m}" if short else f"{y}.{m}.{d}"
+
+
 def _meta(repo: dict, gain_label: str | None) -> str:
     parts = []
     if repo.get("language"):
@@ -191,6 +200,8 @@ def _meta(repo: dict, gain_label: str | None) -> str:
         parts.append(f'<span>⑂ {fmt_num(repo["forks"])}</span>')
     if gain_label and repo.get("stars_gained"):
         parts.append(f'<span class="gain">+{fmt_num(repo["stars_gained"])} {gain_label}</span>')
+    if _created(repo):
+        parts.append(f'<span title="저장소 등록일">{_created(repo)} 등록</span>')
     return f'<div class="meta">{"".join(parts)}</div>'
 
 
@@ -316,6 +327,8 @@ def _stat_box(top: dict) -> str:
         cells.append(("트렌딩", f'{top["streak"]}일째'))
     if top.get("language"):
         cells.append(("언어", escape(top["language"])))
+    if _created(top):
+        cells.append(("등록일", _created(top)))
     return '<div class="stats">' + "".join(
         f'<div><b>{v}</b><span>{k}</span></div>' for k, v in cells) + "</div>"
 
@@ -361,7 +374,8 @@ def _compact_list(repos: list[dict], gain_label: str, numbered: bool = True, str
         items.append(
             f'<li>{f"<span class=n>{i}</span>" if numbered else ""}'
             f'<a href="{escape(r["url"])}" target="_blank" rel="noopener">{escape(r["full_name"])}</a>'
-            f'<small><b>★ +{fmt_num(r.get("stars_gained", 0))}</b> {gain_label}{extra}</small></li>')
+            f'<small><b>★ +{fmt_num(r.get("stars_gained", 0))}</b> {gain_label}{extra}'
+            f'{f" · {_created(r, True)} 등록" if _created(r) else ""}</small></li>')
     return f'<ol class="compact">{"".join(items)}</ol>'
 
 
@@ -401,7 +415,8 @@ def _chart_section(chart: dict | None) -> str:
             f'<td class="name"><a href="{escape(e["url"])}" target="_blank" rel="noopener">'
             f'{escape(e["full_name"])}</a>{crown}{f"<p>{intro}</p>" if intro else ""}</td>'
             f'<td class="stat">★ +{fmt_num(e.get("stars_gained", 0))} 주간<br>'
-            f'최고 {e["peak"]}위 · 차트 {e["weeks"]}주</td></tr>'
+            f'최고 {e["peak"]}위 · 차트 {e["weeks"]}주'
+            f'{f"<br>{_created(e, True)} 등록" if _created(e) else ""}</td></tr>'
         )
     sub = (f"{monday.month}월 {monday.day}일 주간 · 매주 월요일 갱신 · 일주일간 받은 별 순위"
            + (" · 순위 변동은 지난주 차트 대비" if chart["has_previous"] else ""))

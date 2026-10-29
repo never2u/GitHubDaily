@@ -22,7 +22,7 @@ from pathlib import Path
 
 from .editorial import pick
 from .fetch import _get
-from .translate import is_korean
+from .translate import PROPER_NOUN_RULE, RETRY_NOTE, is_korean
 
 ARTICLE_MODEL = "claude-sonnet-5-5"
 BLURB_MODEL = "claude-haiku-5-5"
@@ -37,7 +37,7 @@ repositories. Write in natural, readable Korean news style (평서문, ~다/~습
 are both fine but be consistent). Base every statement only on the provided
 metadata and README; never invent features, numbers, companies or quotes.
 Keep product, library and command names in their original form. Do not
-mention today's star counts or rankings - those are shown separately."""
+mention today's star counts or rankings - those are shown separately. """ + PROPER_NOUN_RULE
 
 ARTICLE_SCHEMA = {
     "type": "object",
@@ -69,7 +69,7 @@ You write short Korean introductions of GitHub repositories for a Korean
 tech news site. Explain what the project does and why it is interesting or
 useful, based only on the given metadata and README. Never invent features
 or numbers. Keep product, library and command names in their original
-form. Write natural Korean, no bullet points, no star counts."""
+form. Write natural Korean, no bullet points, no star counts. """ + PROPER_NOUN_RULE
 
 BLURB_SCHEMA = {
     "type": "object",
@@ -198,10 +198,32 @@ def _json_text(response) -> dict:
     return json.loads(next(b.text for b in response.content if b.type == "text"))
 
 
-def write_article(client, repo: dict, readme: str, usage) -> dict:
-    """`readme` is the raw README; it is cleaned here and scanned for an image."""
+def _article_is_korean(art: dict) -> bool:
+    parts = [art["headline"], art.get("subheadline", ""), art["lead"],
+             *(x["heading"] + " " + x["text"] for x in art["sections"]), *art["highlights"]]
+    return all(is_korean(p) for p in parts if p.strip())
+
+
+def write_article(client, repo: dict, readme: str, usage, log=print) -> dict:
+    """`readme` is the raw README; it is cleaned here and scanned for an image.
+
+    A rejected article (not Korean / empty) is asked for once more with feedback.
+    """
     image = find_image(readme, repo["full_name"])
     readme = clean_readme(readme)
+    for attempt in range(2):
+        try:
+            art = _request_article(client, repo, readme, usage, note=RETRY_NOTE if attempt else "")
+        except RuntimeError as exc:
+            if attempt:
+                raise
+            log(f"stories: article rejected ({exc}), retrying once")
+            continue
+        art["image"] = image
+        return art
+
+
+def _request_article(client, repo: dict, readme: str, usage, note: str = "") -> dict:
     response = client.beta.messages.create(
         model=ARTICLE_MODEL,
         max_tokens=16000,
@@ -210,6 +232,7 @@ def write_article(client, repo: dict, readme: str, usage) -> dict:
         system=ARTICLE_SYSTEM,
         output_config={"effort": "medium", "format": {"type": "json_schema", "schema": ARTICLE_SCHEMA}},
         messages=[{"role": "user", "content": (
+            (note + "\n\n" if note else "") +
             "Write today's top story about this repository. Make it rich and informative, "
             "like the lead article of a newspaper.\n\n"
             f"{_meta_block(repo)}\n\nREADME (truncated):\n{readme[:README_CHARS['article']] or '(none)'}"
@@ -220,13 +243,12 @@ def write_article(client, repo: dict, readme: str, usage) -> dict:
     art["sections"] = [{"heading": x["heading"].strip(), "text": x["text"].strip()}
                        for x in art["sections"] if x["text"].strip()]
     art["highlights"] = [h.strip() for h in art["highlights"] if h.strip()]
-    if not is_korean(art["headline"] + art["lead"]) or not art["sections"]:
+    if not art["sections"] or not _article_is_korean(art):
         raise RuntimeError("article is empty or not Korean")
-    art["image"] = image
     return art
 
 
-def write_blurbs(client, items: list[tuple[dict, bool, str]], usage) -> dict[str, str]:
+def write_blurbs(client, items: list[tuple[dict, bool, str]], usage, note: str = "") -> dict[str, str]:
     blocks = []
     for i, (repo, long, readme) in enumerate(items):
         length = "3-4 sentences" if long else "2-3 sentences"
@@ -237,6 +259,7 @@ def write_blurbs(client, items: list[tuple[dict, bool, str]], usage) -> dict[str
         system=BLURB_SYSTEM,
         output_config={"effort": "low", "format": {"type": "json_schema", "schema": BLURB_SCHEMA}},
         messages=[{"role": "user", "content": (
+            (note + "\n\n" if note else "") +
             "Write one Korean introduction per id, with the requested length.\n\n" + "\n\n".join(blocks)
         )}],
     )
@@ -273,7 +296,7 @@ def write_stories(daily: list[dict], cache: dict, today: dt.date, usage, client=
     written = 0
     if article_repo:
         try:
-            art = write_article(client, article_repo, readme(article_repo["full_name"]), usage)
+            art = write_article(client, article_repo, readme(article_repo["full_name"]), usage, log)
             cache["articles"][article_repo["full_name"]] = {"date": today.isoformat(), **art}
             written += 1
         except Exception as exc:
@@ -281,14 +304,26 @@ def write_stories(daily: list[dict], cache: dict, today: dt.date, usage, client=
 
     jobs = [(repo, long, clean_readme(readme(repo["full_name"]))[:README_CHARS["long" if long else "short"]])
             for repo, long in blurb_jobs]
+    longs = {repo["full_name"]: long for repo, long, _ in jobs}
+    failed = []
     for start in range(0, len(jobs), BLURB_CHUNK):
         chunk = jobs[start:start + BLURB_CHUNK]
         try:
             result = write_blurbs(client, chunk, usage)
         except Exception as exc:
             log(f"stories: blurb chunk {start // BLURB_CHUNK + 1} failed: {exc}")
-            continue
-        longs = {repo["full_name"]: long for repo, long, _ in chunk}
+            result = {}
+        for name, text in result.items():
+            cache["blurbs"][name] = {"date": today.isoformat(), "long": longs[name], "text": text}
+        written += len(result)
+        failed += [j for j in chunk if j[0]["full_name"] not in result]
+    if failed:  # one retry, telling the model what was wrong
+        log(f"stories: retrying {len(failed)} rejected blurbs")
+        try:
+            result = write_blurbs(client, failed, usage, note=RETRY_NOTE)
+        except Exception as exc:
+            log(f"stories: blurb retry failed: {exc}")
+            result = {}
         for name, text in result.items():
             cache["blurbs"][name] = {"date": today.isoformat(), "long": longs[name], "text": text}
         written += len(result)

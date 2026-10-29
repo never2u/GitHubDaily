@@ -21,15 +21,35 @@ HANGUL = re.compile("[\uac00-\ud7a3]")
 HAN_RUN = re.compile("[\u4e00-\u9fff\u3040-\u30ff]{3,}")  # leftover Chinese/Japanese text
 
 
+# Original-language names may stay in brackets, e.g. "바이두 넷디스크(百度网盘)".
+BRACKETED = re.compile(r"\([^)]*\)|（[^）]*）|【[^】]*】|「[^」]*」|『[^』]*』|《[^》]*》|\[[^\]]*\]")
+
+PROPER_NOUN_RULE = (
+    "Write Chinese or Japanese proper nouns (product, service, company, project names) as their "
+    "Korean reading or translation followed by the original in parentheses, e.g. "
+    "'바이두 넷디스크(百度网盘)'. Outside parentheses, never leave Chinese or Japanese text."
+)
+RETRY_NOTE = ("Your previous answer was rejected because it left Chinese or Japanese text outside "
+              "parentheses or was not Korean. " + PROPER_NOUN_RULE)
+
+
 def is_korean(text: str) -> bool:
-    return bool(HANGUL.search(text)) and not HAN_RUN.search(text)
+    """Korean text, allowing original-language names inside brackets."""
+    return bool(HANGUL.search(text)) and not HAN_RUN.search(BRACKETED.sub(" ", text))
+
+
+def needs_translation(desc: str) -> bool:
+    """False for text with nothing to translate: already Korean, or a bare name like 'foo-bar'."""
+    if is_korean(desc):
+        return False
+    return bool(re.search(r"\s", desc.strip())) or bool(re.search("[\u3040-\u30ff\u4e00-\u9fff]", desc))
 
 SYSTEM_PROMPT = """\
 You translate short GitHub repository descriptions into natural Korean for a
 Korean tech news site. Descriptions may be written in any language (English,
 Chinese, Japanese, ...); always translate them into Korean. If a description
 repeats the same content in several languages, translate it once into a single
-Korean text - do not leave any Chinese or Japanese in the output. Keep product names, library names, code identifiers,
+Korean text. """ + PROPER_NOUN_RULE + """ Keep product names, library names, code identifiers,
 acronyms and emoji as they are. Write concise, natural Korean (not a stiff
 word-for-word translation) and keep the original meaning; do not add
 information. If a description is already Korean, return it unchanged."""
@@ -76,13 +96,13 @@ def pending(edition: dict, cache: dict) -> dict[str, str]:
         if not desc:
             continue
         cached = cache.get(repo["full_name"])
-        if cached and cached.get("src") == desc and is_korean(cached.get("ko", "")):
+        if cached and cached.get("src") == desc and (cached.get("keep") or is_korean(cached.get("ko", ""))):
             continue
         todo[repo["full_name"]] = desc
     return todo
 
 
-def _translate_chunk(client, items: list[tuple[str, str]], usage=None) -> dict[str, str]:
+def _translate_chunk(client, items: list[tuple[str, str]], usage=None, note: str = "") -> dict[str, str]:
     numbered = "\n".join(
         json.dumps({"id": i, "text": desc[:MAX_DESC_CHARS]}, ensure_ascii=False)
         for i, (_, desc) in enumerate(items)
@@ -94,7 +114,8 @@ def _translate_chunk(client, items: list[tuple[str, str]], usage=None) -> dict[s
         output_config={"effort": "low", "format": {"type": "json_schema", "schema": SCHEMA}},
         messages=[{
             "role": "user",
-            "content": "Translate each description into Korean. Return one entry per id.\n\n" + numbered,
+            "content": (note + "\n\n" if note else "")
+                       + "Translate each description into Korean. Return one entry per id.\n\n" + numbered,
         }],
     )
     if usage is not None:
@@ -129,15 +150,29 @@ def translate_edition(edition: dict, cache: dict, client=None, log=print, usage=
 
         client = anthropic.Anthropic()
 
-    items = list(todo.items())
     done = 0
+    for name in [n for n, d in todo.items() if not needs_translation(d)]:
+        cache[name] = {"src": todo.pop(name), "ko": "", "keep": True}  # nothing to translate
+    items = list(todo.items())
+    failed = []
     for start in range(0, len(items), CHUNK_SIZE):
         chunk = items[start:start + CHUNK_SIZE]
         try:
             result = _translate_chunk(client, chunk, usage)
-        except Exception as exc:  # API error, refusal, bad JSON - keep English
+        except Exception as exc:  # API error, refusal, bad JSON - retried below
             log(f"translate: chunk {start // CHUNK_SIZE + 1} failed: {exc}")
-            continue
+            result = {}
+        for name, ko in result.items():
+            cache[name] = {"src": todo[name], "ko": ko}
+        done += len(result)
+        failed += [(n, d) for n, d in chunk if n not in result]
+    if failed:  # one retry, telling the model what was wrong
+        log(f"translate: retrying {len(failed)} rejected descriptions")
+        try:
+            result = _translate_chunk(client, failed, usage, note=RETRY_NOTE)
+        except Exception as exc:
+            log(f"translate: retry failed: {exc}")
+            result = {}
         for name, ko in result.items():
             cache[name] = {"src": todo[name], "ko": ko}
         done += len(result)

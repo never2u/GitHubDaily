@@ -221,3 +221,61 @@ class SiteTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class CompletionTest(unittest.TestCase):
+    def test_created_dates_are_looked_up_once(self):
+        from unittest import mock
+        from ghnews import fetch
+        e = ed("2026-10-29", ["o/a", "o/b"])
+        e["new_arrivals"] = [{**repo("n/new"), "created_at": "2026-10-25T01:02:03Z"}]
+        cache = {"o/a": "2020-01-01"}
+        with mock.patch.object(fetch, "_get", return_value='{"created_at": "2024-05-01T00:00:00Z"}') as get:
+            fetch.fetch_created_dates(e, cache, log=lambda *_: None)
+        self.assertEqual(get.call_count, 1)                       # only o/b; arrivals carry their date
+        self.assertEqual(cache, {"o/a": "2020-01-01", "o/b": "2024-05-01", "n/new": "2026-10-25"})
+
+    def test_status(self):
+        from ghnews.__main__ import status
+        with tempfile.TemporaryDirectory() as tmp:
+            data = Path(tmp)
+            day = dt.date(2026, 10, 29)
+            self.assertEqual(status(data, day), "missing")
+            e = ed("2026-10-29", [], daily=["o/a"])
+            e["layout"] = {"top": "o/a", "rising": [], "fresh": [], "steady": [], "arrivals": []}
+            Path(data, "2026-10-29.json").write_text(json.dumps(e))
+            self.assertEqual(status(data, day), "incomplete")      # no translation, no article
+            Path(data, "translations.json").write_text(json.dumps({"o/a": {"src": "desc", "ko": "설명"}}))
+            self.assertEqual(status(data, day), "incomplete")      # still no top article
+            stories.save_cache(data / "stories.json", {"articles": {"o/a": {"date": "2026-10-29"}}, "blurbs": {}})
+            self.assertEqual(status(data, day), "complete")
+
+    def test_article_retry_after_rejection(self):
+        client = FakeClient()
+        original = client._article
+
+        def flaky(**kw):
+            r = original(**kw)
+            if len(client.calls) == 1:                           # first answer leaves Chinese text
+                body = json.loads(r.content[0].text)
+                body["lead"] = "百度网盘下载工具 소개"
+                r.content[0].text = json.dumps(body, ensure_ascii=False)
+            return r
+
+        client.beta.messages.create = flaky
+        art = stories.write_article(client, repo("o/r0"), "README", Usage(), log=lambda *_: None)
+        self.assertEqual(art["lead"], "요약입니다.")
+        self.assertIn("rejected", client.calls[1]["messages"][0]["content"])
+
+    def test_page_shows_registration_dates(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            data, out = Path(tmp, "data"), Path(tmp, "site")
+            data.mkdir()
+            e = ed("2026-10-19", ["o/r0"], daily=["o/r0", "o/r1"])
+            Path(data, "2026-10-19.json").write_text(json.dumps(e))
+            Path(data, "repos.json").write_text(json.dumps({"o/r0": "2024-05-01", "o/r1": "2026-10-10"}))
+            build_site(data, out, "https://example.com/")
+            html = (out / "index.html").read_text()
+            self.assertIn("<b>2024.05.01</b><span>등록일</span>", html)  # top story numbers box
+            self.assertIn("2026.10.10 등록", html)                       # rising / card meta
+            self.assertIn("2024.05 등록", html)                          # weekly chart
