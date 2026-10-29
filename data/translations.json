@@ -51,6 +51,10 @@
   "ko": "자체 호스팅 가능한 GPTibo 스토어프론트, 관리자 페이지, Go 백엔드. 민감 정보를 제거한 MIT 라이선스 소스",
   "src": "Self-hosted GPTibo storefront, admin and Go backend — sanitized MIT source"
  },
+ "CopilotKit/OpenBot": {
+  "ko": "각자 전용 컴퓨터(브라우저, 파일, 도구)를 할당받는 오픈소스 AI 동료. 모든 동작은 실행 전에 결정되고 실행 후 기록됩니다. 어떤 AG-UI 에이전트든 가져와 사용할 수 있습니다.",
+  "src": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent."
+ },
  "DenisSergeevitch/ex-ussr-kinship-research": {
   "ko": "구소련 지역의 교회 기록, 민사, 군사, 강제 이주 및 탄압 기록을 다루는 증거 중심 족보 스킬(Codex, Claude Code용). 사용자의 언어로 응답합니다.",
   "src": "Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across the former USSR. Replies in your language."
@@ -62,6 +66,10 @@
  "Domainsun/awesome-chinese-secondhand-slang": {
   "ko": "🐟 중국 중고거래 은어 완전 정리 및 함정 회피·규정 준수 가이드 (Xianyu / Zhuanzhuan / 샤오홍슈 기준 4,476개 이상의 실전 은어 변형, 판매자 속뜻 해석, 구매자 검수 및 사기 방지 가이드)",
   "src": "🐟 中国二手交易暗语全书与避坑合规指南 (闲鱼 / 转转 / 小红书 4,476+ 条实战暗号变体、卖家潜台词透视与买家验货防割指南)"
+ },
+ "Donchitos/Claude-Code-Game-Studios": {
+  "ko": "Claude Code를 완전한 게임 개발 스튜디오로 전환합니다. AI 에이전트 49개, 워크플로 스킬 72개, 실제 스튜디오 계층 구조를 반영한 완벽한 협업 시스템을 제공합니다.",
+  "src": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy."
  },
  "DrWhax/unfairplay": {
   "ko": "macOS에서 IPA 파일 복호화",
@@ -202,6 +210,10 @@
  "Nutlope/hallmark": {
   "ko": "Claude Code, Cursor, Codex를 위한 AI 슬롭(저품질 AI 결과물)을 배제한 디자인 스킬",
   "src": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex."
+ },
+ "OpenBMB/MiniCPM-OCR": {
+  "ko": "정확도 평가 기능을 갖춘 빠르고 정확한 OCR.",
+  "src": "Fast, accurate OCR with correctness assessment."
  },
  "OpenBMB/VoxCPM": {
   "ko": "VoxCPM2: 다국어 음성 생성, 창의적 음성 설계, 실물에 가까운 음성 복제를 위한 토크나이저 없는 TTS",
@@ -363,6 +375,10 @@
   "ko": "Blender용 AI 어시스턴트이자 MCP 서버입니다. 시각적 채팅, 씬 도구, 다중 에이전트 워크플로를 제공합니다. OpenAI, ChatGPT, Claude, Gemini, Ollama, OpenCode와 함께 작동합니다. Blender AI 애드온과 플러그인, 3D 코파일럿, bpy Python 스크립팅, MCP 연동을 지원합니다.",
   "src": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with OpenAI, ChatGPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon and plugin, copilot for 3D, bpy Python scripting, MCP integration."
  },
+ "aschmelyun/print-my-profile-pic": {
+  "ko": "치즈! 이 저장소에 스타를 누르면 프로필 사진이 영수증 프린터로 출력됩니다.",
+  "src": "Say cheese! Star this repo and your profile picture gets printed out on a receipt printer."
+ },
  "assetnote/php2shell-scanner": {
   "ko": "php2shell(CVE-2026-109618, CVE-2026-109619)을 정밀하게 탐지하는 스캐너",
   "src": "High fidelity scanner for php2shell (CVE-2026-109618 and CVE-2026-109619)"
@@ -511,6 +527,10 @@
   "ko": "LLM에 전달하기 전에 도구 출력, 로그, 파일, RAG 청크를 압축합니다. 코딩 에이전트에서는 토큰을 20% 줄이고, JSON에서는 60~95% 줄이며, 답변은 동일하게 유지합니다. 라이브러리, 프록시, MCP 서버로 제공됩니다.",
   "src": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server."
  },
+ "hevnsnt/CVEngine": {
+  "ko": "지속적인 탐색, 근거 기반 취약점 검증, 개발자 에이전트 MCP 연동을 갖춘 AI 중심 외부 공격 표면 평가 도구.",
+  "src": "AI-first external attack surface assessment with continuous discovery, evidence-based vulnerability validation, and developer-agent MCP integration."
+ },
  "heygen-com/hyperframes": {
   "ko": "HTML을 작성하고 영상을 렌더링하세요. 에이전트를 위해 만들어졌습니다.",
   "src": "Write HTML. Render video. Built for agents."
@@ -522,6 +542,10 @@
  "huaxialucaicaizi/ai-startup-skills": {
   "ko": "스타트업이 AI 제품을 만드는 7단계 Agent Skill 모음: 검증 → 사업계획서 → 정책 → 발표 → 고객 확보 → 가격 책정 → 등록.",
   "src": "创业公司做 AI 产品的 7 步 Agent Skill 合集：验证 → BP → 政策 → 路演 → 获客 → 定价 → 注册。"
+ },
+ "hugohe3/ppt-master": {
+  "ko": "AI가 문서나 주제를 실제 네이티브 PowerPoint 프레젠테이션으로 만들어 줍니다. 네이티브 도형, 전환 효과, 애니메이션, 요청 시 데이터 기반 차트와 표, 발표자 노트를 활용한 음성 내레이션을 지원하며, 자신만의 .pptx 템플릿도 사용할 수 있습니다. · 제작자: Hugo He",
+  "src": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He"
  },
  "humblemuzzu/dumbtv": {
   "ko": "루트 권한 없이 ADB를 통해 Fire TV에서 광고, 추적, 불필요한 요소를 제거합니다. 모든 단계는 되돌릴 수 있으며, 오픈소스 홈 화면이 함께 제공됩니다.",
@@ -558,6 +582,10 @@
  "kitlangton/scrawl": {
   "ko": "에이전트에게 문제를 보여 주세요: 표시하고, 기록하고, 전송합니다.",
   "src": "Show an agent a problem: mark up, record, send"
+ },
+ "konlu/story-studio": {
+  "ko": "주제 선정부터 쟝잉(剪映) 초안까지 한 번에 처리하는 AI 숏폼 영상 콘텐츠 제작 에이전트 스킬",
+  "src": "从选题到剪映草稿的一站式 AI 短视频内容创作 Agent Skill"
  },
  "lesnolie/Tigris": {
   "ko": "Android TV용 tvOS 27 스타일 런처 Tigris: 리퀴드 글래스 도크, 탑 셸프, 글래스 제어 센터, 사진 화면보호기를 제공합니다. 에이전트로 설치할 수 있습니다.",
@@ -598,6 +626,10 @@
  "mattpocock/skills": {
   "ko": "실무 엔지니어를 위한 스킬. 제 .agents 디렉터리에서 그대로 가져왔습니다.",
   "src": "Skills for Real Engineers. Straight from my .agents directory."
+ },
+ "milind-soni/OpenMausBot": {
+  "ko": "가상 머신을 갖춘 봇이 사용할 수 있는 오픈소스 Grok Bot 대안",
+  "src": "Open-source Grok Bot alternative with a virtual machine that bots can use"
  },
  "mirkobrombin/raven": {
   "ko": "앱이 인식하는 Windows.",
@@ -706,6 +738,10 @@
  "pollen-robotics/microduck": {
   "ko": "작은 이족보행 오리 로봇 🦆",
   "src": "A Tiny biped duck robot 🦆"
+ },
+ "qybaihe/bla": {
+  "ko": "🛡️ BLA(Blind LLM Agents) — 바이너리, Electron 앱, JS 번들, Python, WebAssembly를 REA 같은 AI 리버스 엔지니어링 에이전트로부터 보호하는 적대적 방어 방패입니다. 오염 -> 소진 -> 환각.",
+  "src": "🛡️ BLA (Blind LLM Agents) — Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI reverse-engineering agents like REA. Poison -> Exhaust -> Hallucinate."
  },
  "ranxianglei/billion-context": {
   "ko": "작은 컨텍스트 창(100K 컨텍스트면 충분), 토큰 5배 절감, 월 단위 단일 세션(수십억 토큰)을 위한 컨텍스트 압축 플러그인. billion-context is all you need",
@@ -906,6 +942,10 @@
  "zcbacxc/mcd-party-planner": {
   "ko": "맥도날드 MCP 모임·단체 식사 조직 도우미: Model Context Protocol 기반의 파티 예약 및 단체 식사 계획 CLI/Skill",
   "src": "麦当劳 MCP 聚会/团餐组织助手 — 基于 Model Context Protocol 的派对预订与团餐规划 CLI/Skill"
+ },
+ "zeabur-oss/zeabur": {
+  "ko": "자체 Kubernetes에서 운영하는 셀프 호스팅 PaaS.",
+  "src": "Self-hosted PaaS on your own Kubernetes."
  },
  "zeusinsight/FinderSearch": {
   "ko": "fsearch 기반의 빠른 퍼지 파일명 검색을 제공하는 네이티브 macOS 파일 브라우저",
