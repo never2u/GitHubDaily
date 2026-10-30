@@ -380,6 +380,39 @@
    ],
    "subheadline": "php/php-src, 빌드부터 테스트·기여 절차까지 한곳에 담은 PHP의 공식 저장소"
   },
+  "pingdotgg/t3code": {
+   "date": "2026-10-31",
+   "headline": "T3 Code, 에이전트를 한곳에서 다루는 제어판",
+   "highlights": [
+    "모바일(iOS·Android), 웹, Electron 데스크톱 앱으로 에이전트 제어",
+    "Claude Code, Codex, Cursor, Grok Build, OpenCode, Antigravity 지원",
+    "`t3` 명령 또는 `npx t3@latest`로 간편 실행",
+    "판매 목적이 아닌 개방형 프로젝트, 포크 가능",
+    "초기 단계로 버그 가능성 있고 외부 기여는 제한적"
+   ],
+   "image": null,
+   "image_caption": "T3 Code의 에이전트 제어 화면을 소개하는 저장소 대표 이미지",
+   "lead": "pingdotgg가 공개한 T3 Code는 내 컴퓨터에 설치된 AI 코딩 에이전트를 모바일 앱, 웹 앱, Electron 기반 데스크톱 앱으로 제어하는 '에이전트 하니스 제어판'입니다. 별도로 판매하는 제품이 아니며, 누구나 포크해 원하는 에디터를 만들 수 있도록 열어 두었다는 점을 강조합니다.",
+   "sections": [
+    {
+     "heading": "무엇인가: 에이전트 하니스 제어판",
+     "text": "T3 Code는 스스로를 'agent harness control surface'라고 소개합니다. 사용자의 기기에서 돌아가는 에이전트를 iOS·Android 모바일 앱, 웹 앱, 데스크톱 앱으로 다룰 수 있게 해 줍니다. 지원 대상은 Claude Code, Codex, Cursor, Grok Build, OpenCode, Google Antigravity입니다. 이미 컴퓨터에 구독과 설정이 되어 있다면 T3 Code가 이를 제어할 수 있다는 설명입니다."
+    },
+    {
+     "heading": "만든 이유: 성능, 원격 사용, 개방성",
+     "text": "개발진은 에이전트와 함께 일하는 최고의 개발 경험을 원해 직접 만들었다고 밝혔습니다. Codex 데스크톱 앱, Conductor, Claude Desktop, Cursor Glass 같은 기존 솔루션에서 영감을 받았지만 기준을 충족하는 것이 없었다고 합니다. 목표는 빠르고, 원격 사용이 가능하며, 진정으로 열려 있는 도구입니다. 방향이 잘못되더라도 사용자가 포크해 직접 만들 수 있게 필요한 것을 모두 제공하겠다는 입장입니다."
+    },
+    {
+     "heading": "설치와 시작 방법",
+     "text": "사용 전에 최소 하나의 제공자를 설치하고 인증해야 합니다. Codex는 `codex login`, Claude는 `claude auth login`, Cursor는 `agent login`, Grok Build는 `grok login`, OpenCode는 `opencode auth login`을 실행합니다. Antigravity는 설정에서 활성화한 뒤 **Install Antigravity**와 **Sign in with Google**을 사용하며 CLI가 필요 없습니다. 명령줄에서는 `t3`로 서버를 시작하고 로컬 웹 앱을 엽니다. `t3 service install`은 백그라운드 실행, `t3 update`는 새 버전 이동, `t3 --help`는 전체 안내를 제공합니다. 설치 없이 `npx t3@latest`로 한 번 써 볼 수도 있습니다. 데스크톱 앱은 GitHub Releases와 winget, scoop, Homebrew, .deb, AUR, nixpkgs로 받을 수 있습니다."
+    },
+    {
+     "heading": "아직 초기 단계, 기여는 제한적",
+     "text": "프로젝트는 매우 초기이며 버그를 예상해야 한다고 안내합니다. 기여는 대부분 받지 않고 작은 수정만 검토하며 큰 기능은 받지 않습니다. 그래도 기여하려면 Vite+의 `vp` 도구를 설치하고 CONTRIBUTING.md를 먼저 읽어야 합니다. 문서는 docs/에 있으며 권한 모드, 단축키, 원격 접속, MCP 연결, 다중 계정, 백그라운드 서비스 등을 다룹니다. 문서 사이트는 아직 없습니다."
+    }
+   ],
+   "subheadline": "모바일·웹·데스크톱에서 Claude Code, Codex 등 여러 AI 에이전트를 조작하는 오픈 도구"
+  },
   "shiyu-coder/Kronos": {
    "date": "2026-10-20",
    "headline": "금융 시장의 언어를 읽는 파운데이션 모델 Kronos",
@@ -611,6 +644,11 @@
    "long": false,
    "text": "knowledge-work-plugins는 Anthropic이 공개한 플러그인 모음으로, Claude를 특정 직무와 팀, 회사 환경에 맞는 전문가로 만들어 줍니다. Claude Cowork에서 설치할 수 있고 Claude Code와도 호환됩니다. 각 플러그인은 직무별 스킬, 커넥터, 슬래시 명령, 서브 에이전트를 묶어 제공하며, 사용자는 회사의 도구와 용어, 업무 절차에 맞게 커스터마이즈할 수 있습니다. 지식 노동자가 반복되는 업무를 일관된 방식으로 처리하도록 돕는 프로젝트입니다."
   },
+  "anthropics/skills": {
+   "date": "2026-10-31",
+   "long": true,
+   "text": "Anthropic이 공개한 Claude용 에이전트 스킬 예제 저장소로, 스킬은 지시문, 스크립트, 리소스를 담은 폴더 형태다. 창의, 개발, 기업 커뮤니케이션, 문서 작업 등 다양한 스킬 예시를 담고 있으며, 각 스킬은 SKILL.md 파일로 동작을 정의한다. 문서 생성 스킬인 docx, pdf, pptx, xlsx는 소스 공개가 아닌 참고용으로 제공되며, 저장소 자체는 교육 목적이라고 명시되어 있다. Claude Code 플러그인 마켓플레이스로 등록해 바로 설치할 수 있다는 점이 실용적이다."
+  },
   "aws/agent-toolkit-for-aws": {
    "date": "2026-10-25",
    "long": false,
@@ -661,6 +699,11 @@
    "long": true,
    "text": "Headroom은 코딩 에이전트나 LLM이 읽기 전에 도구 출력, 로그, 파일, RAG 청크 등을 압축해 토큰 사용량을 줄여주는 도구입니다. Python과 TypeScript에서 쓸 수 있는 라이브러리, 코드 변경 없이 붙일 수 있는 프록시, MCP 서버 형태로 제공되며 압축은 사용자 기기에서 이루어져 내용이 외부로 전송되지 않습니다. 원본은 로컬에 보관되어 필요할 때 다시 가져올 수 있어, 답변 품질을 유지하면서 비용을 줄이려는 개발자에게 흥미로운 선택지입니다."
   },
+  "lightpanda-io/browser": {
+   "date": "2026-10-31",
+   "long": true,
+   "text": "AI 에이전트와 자동화를 위해 처음부터 새로 만든 헤드리스 브라우저 라이트판다(Lightpanda)다. Chromium 포크나 WebKit 패치가 아닌 Zig로 작성된 새 브라우저이며, README에 따르면 Chromium보다 16배 가볍고 9배 빠르다고 한다. 설치는 Homebrew, AUR, 나이틀리 빌드, Docker, Nix 등 여러 방식을 지원하고, CDP 서버와 WebDriver BiDi 프로토콜을 제공해 Puppeteer나 Playwright 같은 클라이언트와 연결할 수 있다. 페이지를 markdown, png, pdf로 덤프하거나 에이전트 모드로 직접 구동하는 기능도 갖추고 있다."
+  },
   "lightseekorg/tokenspeed": {
    "date": "2026-10-16",
    "long": false,
@@ -680,6 +723,11 @@
    "date": "2026-10-25",
    "long": true,
    "text": "Cindy는 여러 하네스, 모델, 도구를 하나의 에이전트로 묶어 프로젝트와 앱에서 실제 작업을 끝내도록 만든 오픈소스 AI 에이전트입니다. 이 저장소는 데스크톱과 모바일 앱, 공유 패키지를 담은 pnpm 모노레포 클라이언트이며 Apache-2.0 라이선스로 공개되어 있습니다. 현재는 Claude Code와 Codex를 지원하고, 메모리와 스킬, 자동화 등을 사용자가 직접 바꿔 쓸 수 있다는 점이 특징입니다."
+  },
+  "mattpocock/skills": {
+   "date": "2026-10-31",
+   "long": true,
+   "text": "매트 포콕(Matt Pocock)이 실제 개발에 쓰는 에이전트 스킬을 모은 저장소로, 바이브 코딩이 아닌 실전 엔지니어링을 위한 도구 모음이다. 스킬은 작고 수정하기 쉬우며 조합 가능하도록 설계되었고, 어떤 모델과도 함께 쓸 수 있다고 소개한다. 특히 /grill-me와 /grill-with-docs로 에이전트에게 작업 내용을 꼼꼼히 질문받아 요구사항을 맞추는 방식이 핵심 기능으로 꼽힌다. 다른 프로세스 도구와 달리 작업 통제권을 개발자에게 남겨 둔다는 점이 특징이다."
   },
   "mksglu/context-mode": {
    "date": "2026-10-16",
