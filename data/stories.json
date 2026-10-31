@@ -99,6 +99,39 @@
    ],
    "subheadline": "커널 수준 격리와 형식 검증으로 자율 에이전트의 파일·네트워크·자격 증명 접근을 통제한다"
   },
+  "Orkas-AI/Orkas": {
+   "date": "2026-11-01",
+   "headline": "데스크톱에 들어온 AI 팀, 오픈소스 Orkas",
+   "highlights": [
+    "MIT 라이선스의 로컬 우선 멀티 에이전트 데스크톱 앱",
+    "Commander가 목표를 할 일로 나누고 16개 내장 에이전트를 지휘",
+    "Claude Code, Codex, OpenCode, OpenClaw, Hermes-Agent 병행 실행",
+    "프로젝트 메모리, Auto-advance, 시간·일·주·월 단위 예약 자동화",
+    "macOS·Windows 무료 앱, 내장 모델 500 크레딧 또는 자체 API 키 사용"
+   ],
+   "image": "https://raw.githubusercontent.com/Orkas-AI/Orkas/HEAD/resources/app-ui/task-en.png",
+   "image_caption": "Orkas 데스크톱 앱에서 Commander와 에이전트 팀이 작업을 진행하는 모습을 소개하는 영상",
+   "lead": "Orkas는 MIT 라이선스로 공개된 로컬 우선 멀티 에이전트 데스크톱 앱이다. 사용자가 목표를 말하면 Commander가 계획을 세우고 내장 전문 에이전트와 Claude Code, Codex 등 기존 에이전트를 조율해 작업을 끝까지 이끈다.",
+   "sections": [
+    {
+     "heading": "무엇인가: 한 번의 답변이 아닌 ‘계속되는 일’을 위한 도구",
+     "text": "Orkas는 단일 프롬프트에 답하는 데 그치지 않고 프로젝트를 계속 굴러가게 하는 것을 목표로 한다. 프로젝트에는 목표와 규칙, 메모리, 파일이 담겨 새 대화를 시작해도 이전 맥락이 이어진다. 할 일(To-dos)은 사람과 에이전트가 나눠 맡고, Auto-advance를 켜면 팀이 다음 할 일을 스스로 가져가 처리한 뒤 결과를 검토용으로 돌려준다. 모든 데이터는 사용자의 컴퓨터에 저장된다고 README는 밝히고 있다."
+    },
+    {
+     "heading": "어떻게 작동하나: Commander와 16개 전문가",
+     "text": "Commander는 목표를 쪼개 적절한 에이전트, 스킬, 커넥터, 도구를 고르고, 전문가가 더 적합하지 않은 분석·글쓰기·리서치·파일 작업은 직접 처리한다. 앱에는 16개 전문 에이전트가 기본 탑재된다. VideoStudio, VoiceStudio, ImageStudio가 영상·음성·이미지를, DeepResearcher, SeoGeoAgent, StockAnalyser가 리서치와 SEO, 시장 분석을 맡는다. ContentWriter와 PptMaker는 글과 슬라이드, UIDesigner와 ProductDeveloper는 웹사이트·UI·코드, OfficeWorker는 Word·Excel·PowerPoint·PDF 작업을 담당한다. 이커머스용 에이전트 다섯 종도 포함된다. 에이전트 마켓플레이스에서는 30개 이상을 둘러볼 수 있고, 원하는 역할을 설명하면 맞춤 에이전트를 만들어 준다."
+    },
+    {
+     "heading": "기존 에이전트와의 협업, 자동화와 커넥터",
+     "text": "Orkas는 설치된 Claude Code, Codex, OpenCode 같은 코딩 에이전트와 OpenClaw, Hermes-Agent 같은 개인 에이전트를 로컬 세션으로 실행한다. Commander가 하나의 계획 아래 각자 잘하는 부분을 배분해, 한 대화에서 버그 수정과 변경 검토, 릴리스 노트 초안까지 처리할 수 있다는 설명이다. 예약 자동화는 시간·일·주·월 단위로 반복 작업을 실행하며, v1.9부터는 컴퓨터가 깨어나거나 앱이 시작될 때 12시간 이내에 놓친 최근 실행을 한 번 보충한다. Gmail, Google Calendar, Notion, Slack, Shopify, Stripe 등 커넥터가 제공되며 기본적으로 전송·게시·삭제 전에는 사용자에게 먼저 묻는다."
+    },
+    {
+     "heading": "모델과 사용 조건, 한계",
+     "text": "macOS와 Windows용 앱은 무료이며 내장 Orkas 모델용 500 크레딧이 제공돼 API 키 없이 시작할 수 있다. Claude, OpenAI, Gemini, DeepSeek, Kimi, GLM, Qwen, MiniMax, Doubao 키나 로컬 OpenAI 호환 엔드포인트도 쓸 수 있다. 자체 키를 쓰면 모델 호출은 사용자 기기에서 제공자로 바로 나간다. 다만 공유 프로젝트, 클라우드 동기화, 웹 앱 게시는 패키지 앱에서만 지원되고 오픈소스 빌드에서는 아직 쓸 수 없다. VideoStudio의 참조 영상 재현도 소셜 플랫폼 공유 링크 다운로드는 지원하지 않으며, 정확한 카메라 움직임이나 프레임 단위 일치는 보장하지 않는다."
+    }
+   ],
+   "subheadline": "Commander가 목표를 할 일로 쪼개고 16개 전문 에이전트와 외부 CLI 에이전트를 함께 지휘한다"
+  },
   "affaan-m/ECC": {
    "date": "2026-10-27",
    "headline": "AI 코딩 에이전트에 '엔지니어링 체계'를 입힌다, ECC",
@@ -594,10 +627,20 @@
    "long": true,
    "text": "OpenBMB가 공개한 VoxCPM2는 토크나이저 없이 연속 음성 표현을 직접 생성하는 다국어 TTS 시스템입니다. 2B 파라미터 모델로 30개 언어를 지원하며, 자연어 설명만으로 새로운 목소리를 만드는 보이스 디자인, 짧은 참조 음성을 이용한 제어 가능한 음성 복제, 48kHz 고품질 오디오 출력 기능을 갖추고 있습니다. Apache-2.0 라이선스로 공개되어 상업적 이용도 가능하며, 한국어를 포함한 다양한 언어의 음성 합성이 필요한 개발자에게 주목할 만한 프로젝트입니다."
   },
+  "Renhuai123/ziwei-doushu": {
+   "date": "2026-11-01",
+   "long": true,
+   "text": "니하이샤(倪海厦)의 《천기(天纪)》 체계를 바탕으로 한 자미두수(紫微斗数) 오픈소스 명반 계산 엔진입니다. TypeScript로 작성된 이 프로젝트는 명반 계산 알고리즘, 사화 체계, 격국 지식베이스와 고서 원문 데이터를 공개합니다. 알고리즘은 전통의 지식이므로 공개되어야 한다는 철학을 내세우며, 2026년 10월 발표된 v4.0 해석 데이터셋은 명반 약 67.5만 장에 대한 해석을 담고 있습니다. 육친 판단에는 한계가 있다는 점을 README에서 분명히 밝히고 있습니다."
+  },
   "SnailSploit/Claude-Red": {
    "date": "2026-10-24",
    "long": true,
    "text": "Claude 스킬 시스템을 위한 공격적 보안(오펜시브 시큐리티) 스킬 모음 프로젝트입니다. 각 스킬은 특정 공격 표면에 대한 전문가 수준의 방법론을 담은 SKILL.md 파일로 구성되어, SQL 인젝션부터 셸코드, EDR 우회, 익스플로잇 개발까지 다룹니다. 대화 내용에 따라 필요한 스킬만 자동으로 불러오기 때문에 컨텍스트를 낭비하지 않는 점이 특징입니다. 레드팀 작업, 버그 바운티, CTF 준비 등 승인된 보안 점검 용도로 활용할 수 있으며, MIT 라이선스로 공개되어 있습니다."
+  },
+  "THU-MAIC/OpenMAIC": {
+   "date": "2026-11-01",
+   "long": false,
+   "text": "버튼 한 번으로 몰입형 다중 에이전트 학습 교실을 만들어 주는 오픈소스 프로젝트입니다. 여러 AI 에이전트가 함께 수업을 진행하는 경험을 제공하며, 2026년 10월 발표된 v1.3.0에서는 업로드한 파일을 지식베이스에 보관하고 에이전트가 읽고 검색할 수 있는 기능이 추가되었습니다. TypeScript로 작성되었습니다."
   },
   "TauricResearch/TradingAgents": {
    "date": "2026-10-26",
@@ -653,6 +696,11 @@
    "date": "2026-10-25",
    "long": false,
    "text": "Agent Toolkit for AWS는 AWS가 공식 지원하는 MCP 서버, 스킬, 플러그인 모음으로, Claude Code, Codex, Cursor 같은 AI 코딩 에이전트가 AWS 서비스를 다루며 애플리케이션을 만들고 배포하도록 돕습니다. Claude Code에서는 공식 마켓플레이스를 통해 aws-core, aws-agents, aws-data-analytics 등 용도별 플러그인을 설치할 수 있습니다. AWS 환경에서 에이전트를 활용하려는 개발자에게 바로 쓸 수 있는 도구입니다."
+  },
+  "bregman-arie/devops-exercises": {
+   "date": "2026-11-01",
+   "long": true,
+   "text": "DevOps와 SRE 분야의 면접 준비용 질문과 실습 문제를 모은 저장소입니다. Linux, Kubernetes, AWS, Terraform, Prometheus 등 여러 기술 주제에 걸쳐 2624개의 문제와 과제가 수록되어 있습니다. 다만 실제 면접 문제를 그대로 옮긴 것은 아니며, 모든 주제를 다 배울 필요는 없다고 저자가 강조합니다. TCP/IP, 이더넷, MAC 주소처럼 네트워크의 기본 개념을 짚는 질문부터 시작합니다."
   },
   "coollabsio/coolify": {
    "date": "2026-10-26",
@@ -813,6 +861,11 @@
    "date": "2026-10-21",
    "long": false,
    "text": "vLLM은 대규모 언어 모델(LLM)의 추론과 서빙을 빠르고 저렴하게 처리하는 오픈소스 엔진입니다. PagedAttention으로 어텐션 키·값 메모리를 효율적으로 관리하고, 연속 배치와 다양한 양자화 기법을 지원해 높은 처리량을 목표로 합니다. UC Berkeley Sky Computing Lab에서 시작해 많은 기여자가 참여하는 활발한 AI 프로젝트로 성장했습니다."
+  },
+  "vorssaint/vorssaint-utils": {
+   "date": "2026-11-01",
+   "long": true,
+   "text": "macOS 메뉴바에서 동작하는 무료 오픈소스 유틸리티 모음입니다. 앱별 볼륨 조절, 시스템 모니터, 앱 전환기, 창 배치, Dock 미리보기, 클립보드 기록 등 Mac 사용자가 보통 따로 구매하는 기능들을 하나의 메뉴바 아이콘에 모았습니다. 계정, 텔레메트리, 구독 없이 사용할 수 있고, 필요한 기능만 골라 설치하면 나머지는 로드되지 않는 구조가 특징입니다. Swift로 작성되었습니다."
   },
   "withmarbleapp/os-taxonomy": {
    "date": "2026-10-20",

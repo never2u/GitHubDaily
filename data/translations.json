@@ -31,9 +31,21 @@
   "ko": "Qwen-Image 2.1 NSFW/포즈 이미지 생성 스킬입니다. 작성자 수준의 프롬프트 레시피, NSFW LoRA, 136가지 포즈를 제어하는 VNCCS 인형 컨트롤을 제공하며, Claude Code / Codex / Cursor / OpenClaw에서 사용할 수 있습니다.",
   "src": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw"
  },
+ "Arjun-Ingole/hop": {
+  "ko": "USB 없이 Windows 옆에 Linux 설치하기",
+  "src": "Install Linux next to Windows without a USB stick"
+ },
+ "AstrBotDevs/AstrBot": {
+  "ko": "여러 IM 플랫폼, LLM, 플러그인, AI 기능을 통합한 AI 에이전트 어시스턴트 및 개발 프레임워크입니다. openclaw의 대안이 될 수 있습니다. ✨",
+  "src": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨"
+ },
  "BaruqueRodrigues/llm-legislativo": {
   "ko": "대규모 브라질 법률 말뭉치와 순수 PyTorch로 처음부터 학습한 인과적 Transformer 모델.",
   "src": "Corpus legislativo brasileiro em larga escala e modelo Transformer causal treinado do zero em PyTorch puro."
+ },
+ "BookracyFOS/bookracy": {
+  "ko": "무료 오픈소스 도서 검색, 리더, 도서관 프로그램입니다.",
+  "src": "Free, open-source book search, reader and library."
  },
  "BreezeSolicitorMap/undress.ai": {
   "ko": "사진 한 장으로 가상 의류 착용을 체험하는 모바일 웹 앱. 사람 사진과 의류 사진을 업로드하면 사실적인 결과물을 얻을 수 있습니다.",
@@ -70,6 +82,10 @@
  "DietrichGebert/ponytail": {
   "ko": "AI 에이전트가 방 안에서 가장 게으른 시니어 개발자처럼 생각하게 만듭니다. 최고의 코드는 작성하지 않은 코드입니다.",
   "src": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote."
+ },
+ "Djihads80/Eglantine": {
+  "ko": "매우 실험적인 닌텐도 스위치 2 에뮬레이터",
+  "src": "VERY experimental Nintendo Switch 2 emulator"
  },
  "Domainsun/awesome-chinese-secondhand-slang": {
   "ko": "🐟 중국 중고거래 은어 완전 정리 및 함정 회피·규정 준수 가이드 (Xianyu / Zhuanzhuan / 샤오홍슈 기준 4,476개 이상의 실전 은어 변형, 판매자 속뜻 해석, 구매자 검수 및 사기 방지 가이드)",
@@ -235,6 +251,10 @@
   "ko": "MOSS-Image의 공식 저장소. 고품질 텍스트 렌더링, 레이아웃 생성, 효율적인 미세 조정을 지원하는 50억 파라미터 기반 DiT 모델입니다.",
   "src": "Official repository for MOSS-Image, a 5B-parameter base DiT model with high-quality text rendering, layout generation, and efficient fine-tuning."
  },
+ "Orkas-AI/Orkas": {
+  "ko": "Orkas는 오픈소스(MIT) 로컬 우선 AI 팀으로, 데스크톱에서 사용할 수 있습니다. 커맨더가 목표를 할 일 목록으로 바꾸고, 내장된 전문 에이전트 16개와 Claude Code, Codex, OpenCode, OpenClaw, Hermes를 조율합니다. 프로젝트, 예약 자동화, 커넥터 기능도 제공합니다. macOS와 Windows용 무료 앱이며, 내장 모델 또는 직접 준비한 API 키를 사용할 수 있습니다.",
+  "src": "Orkas is an open-source (MIT), local-first AI team for your desktop: a Commander turns your goal into to-dos and coordinates 16 built-in specialist agents plus Claude Code, Codex, OpenCode, OpenClaw and Hermes, with projects, scheduled automations and connectors. Free app for macOS & Windows; built-in models or your own keys."
+ },
  "OverkillLabs3/driveclub-recomp": {
   "ko": "Windows에서 네이티브로 실행되는 DriveClub (PS4, 버전 1.28)",
   "src": "DriveClub (PS4, version 1.28) running natively on Windows"
@@ -270,6 +290,10 @@
  "TG-Twilight/c001apk": {
   "ko": "가볍고 비공식적인 쿠안(酷安) 클라이언트",
   "src": "一个轻量的非官方酷安客户端"
+ },
+ "THU-MAIC/OpenMAIC": {
+  "ko": "여러 에이전트가 참여하는 인터랙티브 교실, Open Multi-Agent Interactive Classroom. 클릭 한 번으로 몰입감 있는 다중 에이전트 학습 경험을 시작하세요.",
+  "src": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click"
  },
  "TauricResearch/TradingAgents": {
   "ko": "TradingAgents: 다중 에이전트 LLM 금융 트레이딩 프레임워크",
@@ -403,6 +427,10 @@
   "ko": "AI 에이전트가 AWS에서 개발할 수 있도록 돕는, AWS가 공식 지원하는 MCP 서버, 스킬, 플러그인",
   "src": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS"
  },
+ "benderandrew069/deepseek-api-pricing-2026": {
+  "ko": "DeepSeek API 요금 가이드: 모델, 캐시 히트, 피크 시간대별 요금(2026).",
+  "src": "DeepSeek API pricing guide for models, cache hits, and peak hours (2026)."
+ },
  "blakeandersonw/ai-app-playbook": {
   "ko": "2026년에 유용하고 수익성 있는 앱을 만드는 방법입니다. 복제한 뒤 코딩 에이전트가 AGENTS.md를 보도록 지정하세요.",
   "src": "How to build useful, profitable apps in 2026. Clone it and point your coding agent at AGENTS.md."
@@ -410,6 +438,10 @@
  "boykopovar/AnyPS5": {
   "ko": "PS5 실행 파일을 Linux와 Windows로 자동 포팅하는 도구입니다.",
   "src": "Tool for automatic PS5 executables porting to Linux and Windows"
+ },
+ "bregman-arie/devops-exercises": {
+  "ko": "Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization을 다루는 DevOps 면접 질문 모음",
+  "src": "Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions"
  },
  "c22dev/muguet": {
   "ko": "멀티플레이를 지원하는 GTA V의 iOS/macOS용 네이티브 Mach-O 포트",
@@ -479,6 +511,10 @@
   "ko": "DeepInfer: DeepSeek 모델을 위한 고성능 대규모 추론 프레임워크",
   "src": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models"
  },
+ "deepseek-ai/dsh-superagent-prototype": {
+  "ko": "더 자율적인 에이전트 시스템을 향하여",
+  "src": "Towards a More Autonomous Agent System"
+ },
  "designfuchen/word-atlas": {
   "ko": "词光 · Word Atlas: 7,298개 단어를 담은 삽화 포함 IELTS 어휘 학습 앱. 영국/미국 발음 오디오와 FSRS 복습 제공. 오픈소스 앱 + CC BY 4.0 데이터셋.",
   "src": "词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset."
@@ -543,6 +579,10 @@
   "ko": "Gemini의 능력을 터미널에서 바로 사용할 수 있게 해주는 오픈소스 AI 에이전트",
   "src": "An open-source AI agent that brings the power of Gemini directly into your terminal."
  },
+ "haydenschmitty/floorplan": {
+  "ko": "앱의 구성 요소가 실제로 어떻게 맞물리는지 확인하세요. Claude 또는 Codex가 그린, 코드베이스의 인터랙티브하고 쉬운 설명형 지도입니다.",
+  "src": "See how your app actually fits together. An interactive, plain-English map of your codebase, drawn by Claude or Codex."
+ },
  "headroomlabs-ai/headroom": {
   "ko": "LLM에 전달하기 전에 도구 출력, 로그, 파일, RAG 청크를 압축합니다. 코딩 에이전트에서는 토큰을 20% 줄이고, JSON에서는 60~95% 줄이며, 답변은 동일하게 유지합니다. 라이브러리, 프록시, MCP 서버로 제공됩니다.",
   "src": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server."
@@ -590,6 +630,14 @@
  "interplains/zero-breach": {
   "ko": "Zero Breach: AdFection / Candiru 광고 배포 스파이웨어 캠페인의 흔적을 컴퓨터에서 찾아내는 로컬 읽기 전용 스캐너입니다. 네트워크, 관리자 권한, 의존성이 필요하지 않습니다.",
   "src": "Zero Breach — local, read-only scanner that checks a computer for indicators of the AdFection / Candiru ad-delivered spyware campaign. No network, no admin, no dependencies."
+ },
+ "jacke-pp/open-yoki": {
+  "ko": "서버 한 대에서 실행되는 AI 라이브 방송 진행자입니다. 음성, 얼굴, 채팅, 메모리, 게시물 기능을 갖추고 있으며, yoki의 기반이 되는 프로그램입니다. 제작자 Jacke_pp, 연락처: X에서 @Jacke_pp에게 DM",
+  "src": "An AI live-stream host that runs on one server: voice, face, chat, memory, posts. The base yoki runs on. By Jacke_pp · contact: DM @Jacke_pp on X"
+ },
+ "jackwener/DSH-Android": {
+  "ko": "루트 권한과 Termux 없이, APK 하나로 안드로이드 폰에서 DeepSeek Harness를 실행합니다. 엔진은 앱 프로세스에 내장되며, 화면 읽기 및 앱 조작, 시스템 설정 변경, 시간/조건 기반 자동화를 지원하고 Shizuku는 선택 사항입니다. (免 ROOT 免 Termux)",
+  "src": "免 ROOT 免 Termux，一个 APK 在安卓手机上跑 DeepSeek Harness。引擎内嵌 App 进程 · 读屏操作 App · 改系统设置 · 定时/条件自动化 · 可选 Shizuku"
  },
  "jakubkrehel/skills": {
   "ko": "훌륭한 인터페이스를 만드는 데 도움을 주는 에이전트 스킬 모음입니다.",
@@ -767,6 +815,10 @@
   "ko": "업무에서 에이전트를 관리할 때 모두가 쓰는 오픈소스 앱입니다.",
   "src": "The open-source app everyone uses to manage agents at work"
  },
+ "patch-gg/pixelfx": {
+  "ko": "232가지 픽셀 아트 효과를 담았으며, 각 효과는 작은 코드 한 조각입니다. 직접 만들 수 있는 Claude Code 스킬도 포함되어 있습니다.",
+  "src": "232 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own."
+ },
  "pbakaus/impeccable": {
   "ko": "코딩 에이전트를 위한 디자인 어휘 모음입니다. polish와 bolder로 방향을 잡고, critique와 audit으로 검토하며, AI slop을 출시 전에 걸러냅니다.",
   "src": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships."
@@ -778,6 +830,10 @@
  "php/php-src": {
   "ko": "PHP 인터프리터",
   "src": "The PHP Interpreter"
+ },
+ "physicsdolphin/nv-uefi-unlocker": {
+  "ko": "Windows, Linux, 하킨토시 및 EFI 부팅이 가능한 모든 시스템을 위한 UEFI 프리 드라이버 NVIDIA GPU 잠금 해제기(Rust). SEC2 스크러버 -> FWSEC/WPR2 -> 서명된 Booter -> V67 4회 쓰기 페이로드 순서이며, 읽기 검증을 거칩니다. 대부분의 RTX 20, 30, 40 시리즈에서 검증되었습니다.",
+  "src": "UEFI pre-driver NVIDIA GPU unlocker for Windows Linux Hackintosh and all EFI-bootable system (Rust): SEC2 scrubber -> FWSEC/WPR2 -> signed Booter -> V67 four-write payload, read-back verified. Verified on most RTX 20 30 40 Series."
  },
  "pollen-robotics/microduck": {
   "ko": "작은 이족보행 오리 로봇 🦆",
@@ -954,6 +1010,10 @@
  "vllm-project/vllm": {
   "ko": "처리량이 높고 메모리 효율이 좋은 LLM용 추론 및 서빙 엔진",
   "src": "A high-throughput and memory-efficient inference and serving engine for LLMs"
+ },
+ "vorssaint/vorssaint-utils": {
+  "ko": "무료 오픈소스 macOS 메뉴 막대 도구 모음입니다.",
+  "src": "Free and open-source macOS menu bar toolkit."
  },
  "wangrongding/tv-fresh": {
   "ko": "tv-fresh TV 새단장: 샤오미 TV(MIUI TV)의 광고 제거, 기본 설치 앱 정리, 바탕화면 변경, 프록시 및 영상 창고 설치를 돕는 에이전트 스킬. 루트 없이 되돌릴 수 있으며, 펌웨어 리버싱 기록과 원클릭 스크립트 포함",
