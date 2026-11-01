@@ -1,0 +1,1515 @@
+{
+ "date": "2026-11-02",
+ "trending": {
+  "daily": [
+   {
+    "rank": 1,
+    "full_name": "thedotmack/claude-mem",
+    "owner": "thedotmack",
+    "url": "https://github.com/thedotmack/claude-mem",
+    "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+    "language": "TypeScript",
+    "stars": 109161,
+    "forks": 9560,
+    "stars_gained": 1527,
+    "built_by": [
+     "thedotmack",
+     "claude",
+     "rudycelekli",
+     "cursoragent",
+     "rodboev"
+    ]
+   },
+   {
+    "rank": 2,
+    "full_name": "lightpanda-io/browser",
+    "owner": "lightpanda-io",
+    "url": "https://github.com/lightpanda-io/browser",
+    "description": "Lightpanda: the headless browser designed for AI and automation",
+    "language": "Zig",
+    "stars": 40056,
+    "forks": 1959,
+    "stars_gained": 827,
+    "built_by": [
+     "karlseguin",
+     "krichprollsch",
+     "arrufat",
+     "mookums",
+     "nikneym"
+    ]
+   },
+   {
+    "rank": 3,
+    "full_name": "shiyu-coder/Kronos",
+    "owner": "shiyu-coder",
+    "url": "https://github.com/shiyu-coder/Kronos",
+    "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+    "language": "Python",
+    "stars": 45327,
+    "forks": 7497,
+    "stars_gained": 611,
+    "built_by": [
+     "shiyu-coder",
+     "Luciferbobo",
+     "CharlesJ-ABu",
+     "AnMakc",
+     "randyy179"
+    ]
+   },
+   {
+    "rank": 4,
+    "full_name": "pingdotgg/t3code",
+    "owner": "pingdotgg",
+    "url": "https://github.com/pingdotgg/t3code",
+    "description": "",
+    "language": "TypeScript",
+    "stars": 37817,
+    "forks": 8902,
+    "stars_gained": 3100,
+    "built_by": [
+     "juliusmarminge",
+     "claude",
+     "t3dotgg",
+     "maria-rcks",
+     "codex"
+    ]
+   },
+   {
+    "rank": 5,
+    "full_name": "milind-soni/OpenMausBot",
+    "owner": "milind-soni",
+    "url": "https://github.com/milind-soni/OpenMausBot",
+    "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+    "language": "TypeScript",
+    "stars": 10472,
+    "forks": 1451,
+    "stars_gained": 919,
+    "built_by": [
+     "milind-soni",
+     "claude",
+     "aivsomkar",
+     "robinsonnblack",
+     "bradhallett"
+    ]
+   },
+   {
+    "rank": 6,
+    "full_name": "public-apis/public-apis",
+    "owner": "public-apis",
+    "url": "https://github.com/public-apis/public-apis",
+    "description": "A collective list of free APIs",
+    "language": "Python",
+    "stars": 494529,
+    "forks": 55198,
+    "stars_gained": 298,
+    "built_by": [
+     "matheusfelipeog",
+     "commit10",
+     "davemachado",
+     "pawelborkar",
+     "jbrooksuk"
+    ]
+   },
+   {
+    "rank": 7,
+    "full_name": "cjpais/Handy",
+    "owner": "cjpais",
+    "url": "https://github.com/cjpais/Handy",
+    "description": "A free, open source, and extensible speech-to-text application that works completely offline.",
+    "language": "Rust",
+    "stars": 36490,
+    "forks": 3448,
+    "stars_gained": 383,
+    "built_by": [
+     "cjpais",
+     "claude",
+     "vladstudio",
+     "VirenMohindra",
+     "xilec"
+    ]
+   },
+   {
+    "rank": 8,
+    "full_name": "Donchitos/Claude-Code-Game-Studios",
+    "owner": "Donchitos",
+    "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+    "description": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
+    "language": "Shell",
+    "stars": 32198,
+    "forks": 4391,
+    "stars_gained": 970,
+    "built_by": [
+     "Donchitos",
+     "claude"
+    ]
+   },
+   {
+    "rank": 9,
+    "full_name": "kornia/kornia",
+    "owner": "kornia",
+    "url": "https://github.com/kornia/kornia",
+    "description": "🐍 Geometric Computer Vision Library for Spatial AI",
+    "language": "Python",
+    "stars": 11761,
+    "forks": 1465,
+    "stars_gained": 88,
+    "built_by": [
+     "edgarriba",
+     "ducha-aiki",
+     "claude",
+     "johnnv1"
+    ]
+   },
+   {
+    "rank": 10,
+    "full_name": "beenuar/AiSOC",
+    "owner": "beenuar",
+    "url": "https://github.com/beenuar/AiSOC",
+    "description": "Open-source AI Security Operations Center: alert fusion, LLM-agent triage, MITRE ATT&CK investigation, and a replayable decision ledger for every agent step. Self-hostable, runs with no API keys, MIT licensed. Ships an MCP server for Claude, Cursor and Continue.",
+    "language": "Python",
+    "stars": 6181,
+    "forks": 643,
+    "stars_gained": 436,
+    "built_by": [
+     "beenuar",
+     "cursoragent",
+     "alexmateescu",
+     "prince30121"
+    ]
+   },
+   {
+    "rank": 11,
+    "full_name": "Renhuai123/ziwei-doushu",
+    "owner": "Renhuai123",
+    "url": "https://github.com/Renhuai123/ziwei-doushu",
+    "description": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
+    "language": "TypeScript",
+    "stars": 13057,
+    "forks": 2554,
+    "stars_gained": 953,
+    "built_by": [
+     "Renhuai123",
+     "claude",
+     "Renhuai",
+     "sakura168899-debug"
+    ]
+   },
+   {
+    "rank": 12,
+    "full_name": "anomalyco/hex",
+    "owner": "anomalyco",
+    "url": "https://github.com/anomalyco/hex",
+    "description": "Local voice dictation for mac, windows and linux",
+    "language": "Rust",
+    "stars": 3209,
+    "forks": 189,
+    "stars_gained": 1329,
+    "built_by": [
+     "kitlangton",
+     "thdxr",
+     "Hona",
+     "vimtor"
+    ]
+   },
+   {
+    "rank": 13,
+    "full_name": "CopilotKit/OpenBot",
+    "owner": "CopilotKit",
+    "url": "https://github.com/CopilotKit/OpenBot",
+    "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+    "language": "TypeScript",
+    "stars": 9492,
+    "forks": 1185,
+    "stars_gained": 178,
+    "built_by": [
+     "davidmckayv",
+     "kevin9327",
+     "claude",
+     "Ayush7614",
+     "guidovizoso"
+    ]
+   },
+   {
+    "rank": 14,
+    "full_name": "togg53192-cmd/jailbreaks",
+    "owner": "togg53192-cmd",
+    "url": "https://github.com/togg53192-cmd/jailbreaks",
+    "description": "LIST OF ALL MY JAILBREAKS",
+    "language": null,
+    "stars": 12910,
+    "forks": 1942,
+    "stars_gained": 730,
+    "built_by": [
+     "togg53192-cmd",
+     "raghavraut",
+     "metalim",
+     "reblox01"
+    ]
+   },
+   {
+    "rank": 15,
+    "full_name": "patchy631/ai-engineering-hub",
+    "owner": "patchy631",
+    "url": "https://github.com/patchy631/ai-engineering-hub",
+    "description": "In-depth tutorials on LLMs, RAGs and real-world AI agent applications.",
+    "language": "Jupyter Notebook",
+    "stars": 40184,
+    "forks": 6481,
+    "stars_gained": 573,
+    "built_by": [
+     "patchy631",
+     "sitammeur",
+     "ChawlaAvi",
+     "nikhil-1e9",
+     "namanvirk18"
+    ]
+   },
+   {
+    "rank": 16,
+    "full_name": "FlashML-org/FreeToken",
+    "owner": "FlashML-org",
+    "url": "https://github.com/FlashML-org/FreeToken",
+    "description": "FreeToken brings datacenter-scale model serving to your desktop. Run massive models locally, fast and efficiently.",
+    "language": "Python",
+    "stars": 15364,
+    "forks": 1548,
+    "stars_gained": 232,
+    "built_by": [
+     "jason-fxz",
+     "andy-yang-1",
+     "taking-lying-flat",
+     "void-mckenzie",
+     "zihaomu"
+    ]
+   },
+   {
+    "rank": 17,
+    "full_name": "hyprwm/Hyprland",
+    "owner": "hyprwm",
+    "url": "https://github.com/hyprwm/Hyprland",
+    "description": "Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.",
+    "language": "C++",
+    "stars": 39340,
+    "forks": 2128,
+    "stars_gained": 91,
+    "built_by": [
+     "vaxerski",
+     "fufexan",
+     "gulafaran",
+     "MightyPlaza",
+     "UjinT34"
+    ]
+   }
+  ],
+  "weekly": [
+   {
+    "rank": 1,
+    "full_name": "Nutlope/hallmark",
+    "owner": "Nutlope",
+    "url": "https://github.com/Nutlope/hallmark",
+    "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+    "language": "CSS",
+    "stars": 44816,
+    "forks": 2380,
+    "stars_gained": 12062,
+    "built_by": [
+     "Luffixos",
+     "Nutlope",
+     "xunguangzlj-cloud",
+     "claude",
+     "riccardogiorato"
+    ]
+   },
+   {
+    "rank": 2,
+    "full_name": "pbakaus/impeccable",
+    "owner": "pbakaus",
+    "url": "https://github.com/pbakaus/impeccable",
+    "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+    "language": "Rust",
+    "stars": 99272,
+    "forks": 5868,
+    "stars_gained": 12031,
+    "built_by": [
+     "pbakaus",
+     "claude",
+     "abdulwahabone",
+     "cursoragent"
+    ]
+   },
+   {
+    "rank": 3,
+    "full_name": "AgriciDaniel/claude-seo",
+    "owner": "AgriciDaniel",
+    "url": "https://github.com/AgriciDaniel/claude-seo",
+    "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
+    "language": "Python",
+    "stars": 25505,
+    "forks": 3357,
+    "stars_gained": 4814,
+    "built_by": [
+     "AgriciDaniel",
+     "claude",
+     "Nordalux",
+     "codex"
+    ]
+   },
+   {
+    "rank": 4,
+    "full_name": "thedotmack/claude-mem",
+    "owner": "thedotmack",
+    "url": "https://github.com/thedotmack/claude-mem",
+    "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+    "language": "TypeScript",
+    "stars": 109161,
+    "forks": 9560,
+    "stars_gained": 4575,
+    "built_by": [
+     "thedotmack",
+     "claude",
+     "rudycelekli",
+     "cursoragent",
+     "rodboev"
+    ]
+   },
+   {
+    "rank": 5,
+    "full_name": "cloudflare/security-audit-skill",
+    "owner": "cloudflare",
+    "url": "https://github.com/cloudflare/security-audit-skill",
+    "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+    "language": "JavaScript",
+    "stars": 56324,
+    "forks": 3672,
+    "stars_gained": 11908,
+    "built_by": [
+     "literally-dan",
+     "CooperSheroy",
+     "kennysarnoski-jarvis"
+    ]
+   },
+   {
+    "rank": 6,
+    "full_name": "obra/superpowers",
+    "owner": "obra",
+    "url": "https://github.com/obra/superpowers",
+    "description": "An agentic skills framework & software development methodology that works.",
+    "language": "Shell",
+    "stars": 310614,
+    "forks": 27648,
+    "stars_gained": 5636,
+    "built_by": [
+     "obra",
+     "arittr",
+     "claude",
+     "clkao",
+     "arimu1"
+    ]
+   },
+   {
+    "rank": 7,
+    "full_name": "JetBrains/thinkrail",
+    "owner": "JetBrains",
+    "url": "https://github.com/JetBrains/thinkrail",
+    "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+    "language": "TypeScript",
+    "stars": 6961,
+    "forks": 391,
+    "stars_gained": 5738,
+    "built_by": [
+     "rsolmano",
+     "danyaberezun",
+     "OLavrik",
+     "claude",
+     "Mark-Life"
+    ]
+   },
+   {
+    "rank": 8,
+    "full_name": "pingdotgg/t3code",
+    "owner": "pingdotgg",
+    "url": "https://github.com/pingdotgg/t3code",
+    "description": "",
+    "language": "TypeScript",
+    "stars": 37817,
+    "forks": 8902,
+    "stars_gained": 3718,
+    "built_by": [
+     "juliusmarminge",
+     "claude",
+     "t3dotgg",
+     "maria-rcks",
+     "codex"
+    ]
+   },
+   {
+    "rank": 9,
+    "full_name": "multica-ai/andrej-karpathy-skills",
+    "owner": "multica-ai",
+    "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+    "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+    "language": null,
+    "stars": 227967,
+    "forks": 22740,
+    "stars_gained": 4277,
+    "built_by": [
+     "forrestchang",
+     "claude",
+     "back1ply",
+     "herobrine19",
+     "szkocot"
+    ]
+   },
+   {
+    "rank": 10,
+    "full_name": "jakubkrehel/skills",
+    "owner": "jakubkrehel",
+    "url": "https://github.com/jakubkrehel/skills",
+    "description": "A collection of agent skills that help you build great interfaces.",
+    "language": "Markdown",
+    "stars": 10052,
+    "forks": 391,
+    "stars_gained": 1272,
+    "built_by": [
+     "jakubkrehel",
+     "claude"
+    ]
+   },
+   {
+    "rank": 11,
+    "full_name": "TauricResearch/TradingAgents",
+    "owner": "TauricResearch",
+    "url": "https://github.com/TauricResearch/TradingAgents",
+    "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+    "language": "Python",
+    "stars": 119506,
+    "forks": 22866,
+    "stars_gained": 5483,
+    "built_by": [
+     "Yijia-Xiao",
+     "EdwardoSunny",
+     "CadeYu",
+     "luohy15",
+     "claude"
+    ]
+   },
+   {
+    "rank": 12,
+    "full_name": "Leonxlnx/taste-skill",
+    "owner": "Leonxlnx",
+    "url": "https://github.com/Leonxlnx/taste-skill",
+    "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
+    "language": "JavaScript",
+    "stars": 107737,
+    "forks": 7277,
+    "stars_gained": 4975,
+    "built_by": [
+     "Leonxlnx",
+     "cursoragent",
+     "claude",
+     "HugoSpy",
+     "flexi767"
+    ]
+   },
+   {
+    "rank": 13,
+    "full_name": "anthropics/skills",
+    "owner": "anthropics",
+    "url": "https://github.com/anthropics/skills",
+    "description": "Public repository for Agent Skills",
+    "language": "Python",
+    "stars": 186346,
+    "forks": 22015,
+    "stars_gained": 2389,
+    "built_by": [
+     "rlancemartin",
+     "klazuka",
+     "claude",
+     "cj-ant",
+     "ericharmeling"
+    ]
+   },
+   {
+    "rank": 14,
+    "full_name": "affaan-m/ECC",
+    "owner": "affaan-m",
+    "url": "https://github.com/affaan-m/ECC",
+    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+    "language": "JavaScript",
+    "stars": 294760,
+    "forks": 43632,
+    "stars_gained": 6380,
+    "built_by": [
+     "affaan-m",
+     "haelyra",
+     "claude",
+     "montjeffrey"
+    ]
+   },
+   {
+    "rank": 15,
+    "full_name": "YuJunZhiXue/dsh-purge",
+    "owner": "YuJunZhiXue",
+    "url": "https://github.com/YuJunZhiXue/dsh-purge",
+    "description": "DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐ 如要二开，请查看署名要求部分",
+    "language": "JavaScript",
+    "stars": 15325,
+    "forks": 3519,
+    "stars_gained": 6641,
+    "built_by": [
+     "cursoragent",
+     "YuJunZhiXue",
+     "claude",
+     "Musan-34"
+    ]
+   },
+   {
+    "rank": 16,
+    "full_name": "ghostty-org/ghostty",
+    "owner": "ghostty-org",
+    "url": "https://github.com/ghostty-org/ghostty",
+    "description": "👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.",
+    "language": "Zig",
+    "stars": 63172,
+    "forks": 3817,
+    "stars_gained": 556,
+    "built_by": [
+     "mitchellh",
+     "jcollie",
+     "qwerasd205"
+    ]
+   }
+  ],
+  "monthly": [
+   {
+    "rank": 1,
+    "full_name": "cloudflare/security-audit-skill",
+    "owner": "cloudflare",
+    "url": "https://github.com/cloudflare/security-audit-skill",
+    "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+    "language": "JavaScript",
+    "stars": 56324,
+    "forks": 3672,
+    "stars_gained": 31731,
+    "built_by": [
+     "literally-dan",
+     "CooperSheroy",
+     "kennysarnoski-jarvis"
+    ]
+   },
+   {
+    "rank": 2,
+    "full_name": "heygen-com/hyperframes",
+    "owner": "heygen-com",
+    "url": "https://github.com/heygen-com/hyperframes",
+    "description": "Write HTML. Render video. Built for agents.",
+    "language": "TypeScript",
+    "stars": 77085,
+    "forks": 7064,
+    "stars_gained": 22303,
+    "built_by": [
+     "miguel-heygen",
+     "vanceingalls",
+     "jrusso1020",
+     "claude",
+     "ukimsanov"
+    ]
+   },
+   {
+    "rank": 3,
+    "full_name": "Nutlope/hallmark",
+    "owner": "Nutlope",
+    "url": "https://github.com/Nutlope/hallmark",
+    "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+    "language": "CSS",
+    "stars": 44816,
+    "forks": 2380,
+    "stars_gained": 14378,
+    "built_by": [
+     "Luffixos",
+     "Nutlope",
+     "xunguangzlj-cloud",
+     "claude",
+     "riccardogiorato"
+    ]
+   },
+   {
+    "rank": 4,
+    "full_name": "debpalash/VoiceStudio",
+    "owner": "debpalash",
+    "url": "https://github.com/debpalash/VoiceStudio",
+    "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+    "language": "Python",
+    "stars": 97851,
+    "forks": 10869,
+    "stars_gained": 47234,
+    "built_by": [
+     "debpalash",
+     "claude",
+     "velixio",
+     "kevin9327",
+     "jaketame"
+    ]
+   },
+   {
+    "rank": 5,
+    "full_name": "anthropics/knowledge-work-plugins",
+    "owner": "anthropics",
+    "url": "https://github.com/anthropics/knowledge-work-plugins",
+    "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+    "language": "Python",
+    "stars": 34353,
+    "forks": 3798,
+    "stars_gained": 8375,
+    "built_by": [
+     "jordanecker-ant",
+     "bryan-anthropic",
+     "claude",
+     "mattpic-ant"
+    ]
+   },
+   {
+    "rank": 6,
+    "full_name": "pbakaus/impeccable",
+    "owner": "pbakaus",
+    "url": "https://github.com/pbakaus/impeccable",
+    "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+    "language": "Rust",
+    "stars": 99272,
+    "forks": 5868,
+    "stars_gained": 25479,
+    "built_by": [
+     "pbakaus",
+     "claude",
+     "abdulwahabone",
+     "cursoragent"
+    ]
+   },
+   {
+    "rank": 7,
+    "full_name": "earthtojake/text-to-cad",
+    "owner": "earthtojake",
+    "url": "https://github.com/earthtojake/text-to-cad",
+    "description": "Design physical products with AI",
+    "language": "Python",
+    "stars": 24729,
+    "forks": 2362,
+    "stars_gained": 8092,
+    "built_by": [
+     "earthtojake",
+     "claude",
+     "warun7"
+    ]
+   },
+   {
+    "rank": 8,
+    "full_name": "thedotmack/claude-mem",
+    "owner": "thedotmack",
+    "url": "https://github.com/thedotmack/claude-mem",
+    "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+    "language": "TypeScript",
+    "stars": 109161,
+    "forks": 9560,
+    "stars_gained": 12705,
+    "built_by": [
+     "thedotmack",
+     "claude",
+     "rudycelekli",
+     "cursoragent",
+     "rodboev"
+    ]
+   },
+   {
+    "rank": 9,
+    "full_name": "NationalSecurityAgency/ghidra",
+    "owner": "NationalSecurityAgency",
+    "url": "https://github.com/NationalSecurityAgency/ghidra",
+    "description": "Ghidra is a software reverse engineering (SRE) framework",
+    "language": "Java",
+    "stars": 96760,
+    "forks": 10925,
+    "stars_gained": 16685,
+    "built_by": [
+     "ryanmkurtz",
+     "ghidra1",
+     "dragonmacher",
+     "nsadeveloper789",
+     "caheckman"
+    ]
+   },
+   {
+    "rank": 10,
+    "full_name": "pingdotgg/t3code",
+    "owner": "pingdotgg",
+    "url": "https://github.com/pingdotgg/t3code",
+    "description": "",
+    "language": "TypeScript",
+    "stars": 37817,
+    "forks": 8902,
+    "stars_gained": 9973,
+    "built_by": [
+     "juliusmarminge",
+     "claude",
+     "t3dotgg",
+     "maria-rcks",
+     "codex"
+    ]
+   },
+   {
+    "rank": 11,
+    "full_name": "anthropics/claude-plugins-official",
+    "owner": "anthropics",
+    "url": "https://github.com/anthropics/claude-plugins-official",
+    "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+    "language": "Python",
+    "stars": 45712,
+    "forks": 4759,
+    "stars_gained": 8525,
+    "built_by": [
+     "jordanecker-ant",
+     "bryan-anthropic",
+     "mhegazy",
+     "claude"
+    ]
+   },
+   {
+    "rank": 12,
+    "full_name": "mksglu/context-mode",
+    "owner": "mksglu",
+    "url": "https://github.com/mksglu/context-mode",
+    "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+    "language": "TypeScript",
+    "stars": 33159,
+    "forks": 2285,
+    "stars_gained": 8881,
+    "built_by": [
+     "mksglu",
+     "claude",
+     "ipedro",
+     "ousamabenyounes"
+    ]
+   },
+   {
+    "rank": 13,
+    "full_name": "Leonxlnx/taste-skill",
+    "owner": "Leonxlnx",
+    "url": "https://github.com/Leonxlnx/taste-skill",
+    "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
+    "language": "JavaScript",
+    "stars": 107737,
+    "forks": 7277,
+    "stars_gained": 15847,
+    "built_by": [
+     "Leonxlnx",
+     "cursoragent",
+     "claude",
+     "HugoSpy",
+     "flexi767"
+    ]
+   },
+   {
+    "rank": 14,
+    "full_name": "flutter/flutter",
+    "owner": "flutter",
+    "url": "https://github.com/flutter/flutter",
+    "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
+    "language": "Dart",
+    "stars": 180952,
+    "forks": 32857,
+    "stars_gained": 2257,
+    "built_by": [
+     "skia-flutter-autoroll",
+     "engine-flutter-autoroll",
+     "abarth",
+     "Hixie",
+     "jason-simmons"
+    ]
+   },
+   {
+    "rank": 15,
+    "full_name": "cursor/plugins",
+    "owner": "cursor",
+    "url": "https://github.com/cursor/plugins",
+    "description": "Cursor plugin specification and official plugins",
+    "language": "TypeScript",
+    "stars": 15006,
+    "forks": 1547,
+    "stars_gained": 5799,
+    "built_by": [
+     "cursoragent",
+     "poteto",
+     "minupalaniappan",
+     "djiang-jq",
+     "ericzakariasson"
+    ]
+   },
+   {
+    "rank": 16,
+    "full_name": "android/skills",
+    "owner": "android",
+    "url": "https://github.com/android/skills",
+    "description": "",
+    "language": "Kotlin",
+    "stars": 10223,
+    "forks": 666,
+    "stars_gained": 2568,
+    "built_by": [
+     "android-devrel-github-bot",
+     "simona-anomis",
+     "JoseAlcerreca",
+     "bentrengrove",
+     "vinishavathwani"
+    ]
+   },
+   {
+    "rank": 17,
+    "full_name": "AgriciDaniel/claude-seo",
+    "owner": "AgriciDaniel",
+    "url": "https://github.com/AgriciDaniel/claude-seo",
+    "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
+    "language": "Python",
+    "stars": 25505,
+    "forks": 3357,
+    "stars_gained": 6891,
+    "built_by": [
+     "AgriciDaniel",
+     "claude",
+     "Nordalux",
+     "codex"
+    ]
+   },
+   {
+    "rank": 18,
+    "full_name": "vercel-labs/skills",
+    "owner": "vercel-labs",
+    "url": "https://github.com/vercel-labs/skills",
+    "description": "The open agent skills tool - npx skills",
+    "language": "TypeScript",
+    "stars": 37605,
+    "forks": 3250,
+    "stars_gained": 4721,
+    "built_by": [
+     "quuu",
+     "huozhi",
+     "antfubot",
+     "claude"
+    ]
+   },
+   {
+    "rank": 19,
+    "full_name": "tashfeenahmed/freellmapi",
+    "owner": "tashfeenahmed",
+    "url": "https://github.com/tashfeenahmed/freellmapi",
+    "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+    "language": "TypeScript",
+    "stars": 45692,
+    "forks": 6240,
+    "stars_gained": 15643,
+    "built_by": [
+     "tashfeenahmed",
+     "claude",
+     "suantea",
+     "tashdroid",
+     "OhOkThisIsFine"
+    ]
+   }
+  ]
+ },
+ "new_arrivals": [
+  {
+   "rank": 1,
+   "full_name": "deepseek-ai/dsh-superagent-prototype",
+   "owner": "deepseek-ai",
+   "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+   "description": "Towards a More Autonomous Agent System",
+   "language": "TypeScript",
+   "stars": 7092,
+   "forks": 713,
+   "stars_gained": 7092,
+   "topics": [],
+   "created_at": "2026-10-31T09:32:46Z",
+   "built_by": [
+    "deepseek-ai"
+   ]
+  },
+  {
+   "rank": 2,
+   "full_name": "anhao/ai-pose-gallery-zh",
+   "owner": "anhao",
+   "url": "https://github.com/anhao/ai-pose-gallery-zh",
+   "description": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
+   "language": "TypeScript",
+   "stars": 5126,
+   "forks": 1312,
+   "stars_gained": 5126,
+   "topics": [
+    "ai-art",
+    "chinese",
+    "cloudflare-pages",
+    "gallery",
+    "i18n",
+    "pose"
+   ],
+   "created_at": "2026-10-27T12:24:37Z",
+   "built_by": [
+    "anhao"
+   ]
+  },
+  {
+   "rank": 3,
+   "full_name": "heydamir/unslop",
+   "owner": "heydamir",
+   "url": "https://github.com/heydamir/unslop",
+   "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
+   "language": "JavaScript",
+   "stars": 4805,
+   "forks": 239,
+   "stars_gained": 4805,
+   "topics": [],
+   "created_at": "2026-10-29T15:41:21Z",
+   "built_by": [
+    "heydamir"
+   ]
+  },
+  {
+   "rank": 4,
+   "full_name": "wangzan101/Mika",
+   "owner": "wangzan101",
+   "url": "https://github.com/wangzan101/Mika",
+   "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
+   "language": "Kotlin",
+   "stars": 3783,
+   "forks": 688,
+   "stars_gained": 3783,
+   "topics": [
+    "accessibility",
+    "ai-agent",
+    "android",
+    "automation",
+    "jetpack-compose",
+    "kotlin"
+   ],
+   "created_at": "2026-10-29T14:34:07Z",
+   "built_by": [
+    "wangzan101"
+   ]
+  },
+  {
+   "rank": 5,
+   "full_name": "valentderah/totk-pc-recomp",
+   "owner": "valentderah",
+   "url": "https://github.com/valentderah/totk-pc-recomp",
+   "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows x86-64, with a Vulkan renderer. Game files not included.",
+   "language": "C",
+   "stars": 3165,
+   "forks": 254,
+   "stars_gained": 3165,
+   "topics": [],
+   "created_at": "2026-10-29T12:32:46Z",
+   "built_by": [
+    "valentderah"
+   ]
+  },
+  {
+   "rank": 6,
+   "full_name": "patch-gg/pixelfx",
+   "owner": "patch-gg",
+   "url": "https://github.com/patch-gg/pixelfx",
+   "description": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
+   "language": "JavaScript",
+   "stars": 2525,
+   "forks": 323,
+   "stars_gained": 2525,
+   "topics": [
+    "agent-skills",
+    "animation",
+    "canvas",
+    "claude-code-plugin",
+    "gamedev",
+    "pixel-art"
+   ],
+   "created_at": "2026-10-30T06:43:25Z",
+   "built_by": [
+    "patch-gg"
+   ]
+  },
+  {
+   "rank": 7,
+   "full_name": "Djihads80/Eglantine",
+   "owner": "Djihads80",
+   "url": "https://github.com/Djihads80/Eglantine",
+   "description": "VERY experimental Nintendo Switch 2 emulator",
+   "language": "C++",
+   "stars": 1966,
+   "forks": 233,
+   "stars_gained": 1966,
+   "topics": [],
+   "created_at": "2026-10-29T00:25:18Z",
+   "built_by": [
+    "Djihads80"
+   ]
+  },
+  {
+   "rank": 8,
+   "full_name": "paipiange/nvzhuang",
+   "owner": "paipiange",
+   "url": "https://github.com/paipiange/nvzhuang",
+   "description": "1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang",
+   "language": "Go",
+   "stars": 1861,
+   "forks": 490,
+   "stars_gained": 1861,
+   "topics": [],
+   "created_at": "2026-10-29T06:08:00Z",
+   "built_by": [
+    "paipiange"
+   ]
+  },
+  {
+   "rank": 9,
+   "full_name": "haydenschmitty/floorplan",
+   "owner": "haydenschmitty",
+   "url": "https://github.com/haydenschmitty/floorplan",
+   "description": "See how your app actually fits together. An interactive, plain-English map of your codebase, drawn by Claude or Codex.",
+   "language": "JavaScript",
+   "stars": 1702,
+   "forks": 116,
+   "stars_gained": 1702,
+   "topics": [
+    "ai-coding",
+    "architecture-diagram",
+    "claude",
+    "claude-code",
+    "claude-code-plugin",
+    "codebase-visualization"
+   ],
+   "created_at": "2026-10-27T12:03:01Z",
+   "built_by": [
+    "haydenschmitty"
+   ]
+  },
+  {
+   "rank": 10,
+   "full_name": "aschmelyun/print-my-profile-pic",
+   "owner": "aschmelyun",
+   "url": "https://github.com/aschmelyun/print-my-profile-pic",
+   "description": "Say cheese! Star this repo and your profile picture gets printed out on a receipt printer.",
+   "language": null,
+   "stars": 1691,
+   "forks": 6,
+   "stars_gained": 1691,
+   "topics": [],
+   "created_at": "2026-10-27T20:40:05Z",
+   "built_by": [
+    "aschmelyun"
+   ]
+  },
+  {
+   "rank": 11,
+   "full_name": "lexifina/global-law",
+   "owner": "lexifina",
+   "url": "https://github.com/lexifina/global-law",
+   "description": "Git for Global Law: the law of every country as one git history, each country's record a submodule, every commit one law taking effect",
+   "language": "HTML",
+   "stars": 1583,
+   "forks": 140,
+   "stars_gained": 1583,
+   "topics": [],
+   "created_at": "2026-10-28T13:34:16Z",
+   "built_by": [
+    "lexifina"
+   ]
+  },
+  {
+   "rank": 12,
+   "full_name": "kevinraymond/florilegium",
+   "owner": "kevinraymond",
+   "url": "https://github.com/kevinraymond/florilegium",
+   "description": "Procedurally generated Delft-blue floral page margins for LuaLaTeX, drawn in Lua",
+   "language": "Lua",
+   "stars": 1283,
+   "forks": 32,
+   "stars_gained": 1283,
+   "topics": [
+    "generative-art",
+    "latex",
+    "latex-package",
+    "lua",
+    "lualatex",
+    "postscript"
+   ],
+   "created_at": "2026-10-30T07:49:05Z",
+   "built_by": [
+    "kevinraymond"
+   ]
+  },
+  {
+   "rank": 13,
+   "full_name": "smithjohn78390/tongjiang-lab",
+   "owner": "smithjohn78390",
+   "url": "https://github.com/smithjohn78390/tongjiang-lab",
+   "description": "Free interactive 3D science lessons for high school · 铜匠实验室 · https://lab.tongjiang.app",
+   "language": "HTML",
+   "stars": 1250,
+   "forks": 333,
+   "stars_gained": 1250,
+   "topics": [
+    "3d",
+    "biology",
+    "chemistry",
+    "education",
+    "geography",
+    "high-school"
+   ],
+   "created_at": "2026-10-28T04:29:29Z",
+   "built_by": [
+    "smithjohn78390"
+   ]
+  },
+  {
+   "rank": 14,
+   "full_name": "Arjun-Ingole/hop",
+   "owner": "Arjun-Ingole",
+   "url": "https://github.com/Arjun-Ingole/hop",
+   "description": "Install Linux next to Windows without a USB stick",
+   "language": "PowerShell",
+   "stars": 1198,
+   "forks": 41,
+   "stars_gained": 1198,
+   "topics": [],
+   "created_at": "2026-10-30T19:40:45Z",
+   "built_by": [
+    "Arjun-Ingole"
+   ]
+  },
+  {
+   "rank": 15,
+   "full_name": "BryceYuuu/RUN",
+   "owner": "BryceYuuu",
+   "url": "https://github.com/BryceYuuu/RUN",
+   "description": "RUN · 润：海外移居手册（欧洲 36 国 · 110 条路线 · 主要移民地区）",
+   "language": "Python",
+   "stars": 1146,
+   "forks": 67,
+   "stars_gained": 1146,
+   "topics": [],
+   "created_at": "2026-10-29T11:28:43Z",
+   "built_by": [
+    "BryceYuuu"
+   ]
+  },
+  {
+   "rank": 16,
+   "full_name": "HRuiCcc/RuiC-PoseAtlas",
+   "owner": "HRuiCcc",
+   "url": "https://github.com/HRuiCcc/RuiC-PoseAtlas",
+   "description": "RuiC-PoseAtlas｜姿态 + 衣装双图鉴：288 组人体姿态 × 5 视角 × 1,439 张人台线稿，加 1,407 套无人物衣装 × 8 分类 × 86 个三语标签。中/英/日切换、搜索筛选、键盘浏览、原图下载，纯静态零依赖。",
+   "language": "JavaScript",
+   "stars": 960,
+   "forks": 247,
+   "stars_gained": 960,
+   "topics": [
+    "3d-modeling",
+    "ai-art",
+    "art-reference",
+    "gallery",
+    "photography",
+    "pose-reference"
+   ],
+   "created_at": "2026-10-28T07:00:53Z",
+   "built_by": [
+    "HRuiCcc"
+   ]
+  },
+  {
+   "rank": 17,
+   "full_name": "storytold/craft-anything",
+   "owner": "storytold",
+   "url": "https://github.com/storytold/craft-anything",
+   "description": "Craft Anything: understand how any software works, and craft your own.",
+   "language": "Rust",
+   "stars": 902,
+   "forks": 143,
+   "stars_gained": 902,
+   "topics": [],
+   "created_at": "2026-10-31T14:50:00Z",
+   "built_by": [
+    "storytold"
+   ]
+  },
+  {
+   "rank": 18,
+   "full_name": "elvarofficial/teardown",
+   "owner": "elvarofficial",
+   "url": "https://github.com/elvarofficial/teardown",
+   "description": "A Claude Code skill that turns any machine into a 3D simulator you can take apart",
+   "language": "JavaScript",
+   "stars": 902,
+   "forks": 153,
+   "stars_gained": 902,
+   "topics": [],
+   "created_at": "2026-10-30T09:29:01Z",
+   "built_by": [
+    "elvarofficial"
+   ]
+  },
+  {
+   "rank": 19,
+   "full_name": "OpenBMB/MiniCPM-OCR",
+   "owner": "OpenBMB",
+   "url": "https://github.com/OpenBMB/MiniCPM-OCR",
+   "description": "Fast, accurate OCR with correctness assessment.",
+   "language": "TypeScript",
+   "stars": 738,
+   "forks": 49,
+   "stars_gained": 738,
+   "topics": [
+    "image2text",
+    "minicpm-v",
+    "ocr"
+   ],
+   "created_at": "2026-10-27T13:22:00Z",
+   "built_by": [
+    "OpenBMB"
+   ]
+  },
+  {
+   "rank": 20,
+   "full_name": "NiazMorshed2007/reanimate",
+   "owner": "NiazMorshed2007",
+   "url": "https://github.com/NiazMorshed2007/reanimate",
+   "description": "A Claude Code skill that reverse-engineers any animation frame by frame, then proves the copy moves the same.",
+   "language": "JavaScript",
+   "stars": 727,
+   "forks": 64,
+   "stars_gained": 727,
+   "topics": [
+    "agent-skills",
+    "animation",
+    "claude-code",
+    "claude-skills",
+    "frontend",
+    "motion"
+   ],
+   "created_at": "2026-10-29T06:20:59Z",
+   "built_by": [
+    "NiazMorshed2007"
+   ]
+  },
+  {
+   "rank": 21,
+   "full_name": "jacke-pp/open-yoki",
+   "owner": "jacke-pp",
+   "url": "https://github.com/jacke-pp/open-yoki",
+   "description": "An AI live-stream host that runs on one server: voice, face, chat, memory, posts. The base yoki runs on. By Jacke_pp · contact: DM @Jacke_pp on X",
+   "language": "JavaScript",
+   "stars": 706,
+   "forks": 46,
+   "stars_gained": 706,
+   "topics": [],
+   "created_at": "2026-10-28T08:58:27Z",
+   "built_by": [
+    "jacke-pp"
+   ]
+  },
+  {
+   "rank": 22,
+   "full_name": "benderandrew069/deepseek-api-pricing-2026",
+   "owner": "benderandrew069",
+   "url": "https://github.com/benderandrew069/deepseek-api-pricing-2026",
+   "description": "DeepSeek API pricing guide for models, cache hits, and peak hours (2026).",
+   "language": null,
+   "stars": 699,
+   "forks": 1,
+   "stars_gained": 699,
+   "topics": [
+    "api-pricing",
+    "cost-calculator",
+    "deepseek",
+    "deepseek-api",
+    "prompt-caching"
+   ],
+   "created_at": "2026-10-27T06:22:04Z",
+   "built_by": [
+    "benderandrew069"
+   ]
+  },
+  {
+   "rank": 23,
+   "full_name": "jackwener/DSH-Android",
+   "owner": "jackwener",
+   "url": "https://github.com/jackwener/DSH-Android",
+   "description": "免 ROOT 免 Termux，一个 APK 在安卓手机上跑 DeepSeek Harness。引擎内嵌 App 进程 · 读屏操作 App · 改系统设置 · 定时/条件自动化 · 可选 Shizuku",
+   "language": "Kotlin",
+   "stars": 692,
+   "forks": 72,
+   "stars_gained": 692,
+   "topics": [
+    "ai-agent",
+    "android",
+    "deepseek",
+    "deepseek-harness",
+    "llm",
+    "phone-agent"
+   ],
+   "created_at": "2026-10-27T19:26:12Z",
+   "built_by": [
+    "jackwener"
+   ]
+  },
+  {
+   "rank": 24,
+   "full_name": "ramenvr/autopilot",
+   "owner": "ramenvr",
+   "url": "https://github.com/ramenvr/autopilot",
+   "description": "Play any game",
+   "language": "Python",
+   "stars": 616,
+   "forks": 43,
+   "stars_gained": 616,
+   "topics": [],
+   "created_at": "2026-10-30T03:47:28Z",
+   "built_by": [
+    "ramenvr"
+   ]
+  },
+  {
+   "rank": 25,
+   "full_name": "hyz317/HairDeck",
+   "owner": "hyz317",
+   "url": "https://github.com/hyz317/HairDeck",
+   "description": "HairDeck: Animation-Ready Stylized Hair Cards from a Single Image",
+   "language": "Python",
+   "stars": 588,
+   "forks": 38,
+   "stars_gained": 588,
+   "topics": [],
+   "created_at": "2026-10-29T17:16:13Z",
+   "built_by": [
+    "hyz317"
+   ]
+  },
+  {
+   "rank": 26,
+   "full_name": "joeblau/subvox",
+   "owner": "joeblau",
+   "url": "https://github.com/joeblau/subvox",
+   "description": "",
+   "language": "Swift",
+   "stars": 562,
+   "forks": 85,
+   "stars_gained": 562,
+   "topics": [],
+   "created_at": "2026-10-31T01:48:19Z",
+   "built_by": [
+    "joeblau"
+   ]
+  },
+  {
+   "rank": 27,
+   "full_name": "sleepy-zone/ai-ref-library-cn",
+   "owner": "sleepy-zone",
+   "url": "https://github.com/sleepy-zone/ai-ref-library-cn",
+   "description": "AI 作图素材库 · 中文版（脸 / 姿势 / 服装）",
+   "language": "JavaScript",
+   "stars": 558,
+   "forks": 151,
+   "stars_gained": 558,
+   "topics": [
+    "ai",
+    "gpt"
+   ],
+   "created_at": "2026-10-29T15:28:16Z",
+   "built_by": [
+    "sleepy-zone"
+   ]
+  },
+  {
+   "rank": 28,
+   "full_name": "Humpalumps/Ultra-Water",
+   "owner": "Humpalumps",
+   "url": "https://github.com/Humpalumps/Ultra-Water",
+   "description": "Real-time FFT ocean renderer for three.js (WebGL2): shore breakers, foam, caustics, underwater rendering and buoyancy at 200+ fps",
+   "language": "JavaScript",
+   "stars": 530,
+   "forks": 74,
+   "stars_gained": 530,
+   "topics": [],
+   "created_at": "2026-10-28T16:27:44Z",
+   "built_by": [
+    "Humpalumps"
+   ]
+  },
+  {
+   "rank": 29,
+   "full_name": "speridlabs/idol-sdk",
+   "owner": "speridlabs",
+   "url": "https://github.com/speridlabs/idol-sdk",
+   "description": "Idol: a single image to 3D Gaussians. Inference SDK and demo.",
+   "language": "Python",
+   "stars": 503,
+   "forks": 37,
+   "stars_gained": 503,
+   "topics": [],
+   "created_at": "2026-10-28T19:44:27Z",
+   "built_by": [
+    "speridlabs"
+   ]
+  },
+  {
+   "rank": 30,
+   "full_name": "alchaincyf/huashu-bird-sticker",
+   "owner": "alchaincyf",
+   "url": "https://github.com/alchaincyf/huashu-bird-sticker",
+   "description": "花叔开源的全球鸟类贴纸库 · Stickers for all 11,064 living bird species, with names in 43 languages and structured data",
+   "language": null,
+   "stars": 496,
+   "forks": 85,
+   "stars_gained": 496,
+   "topics": [
+    "ai-generated",
+    "biodiversity",
+    "birding",
+    "birds",
+    "birdwatching",
+    "claude-code"
+   ],
+   "created_at": "2026-10-30T05:19:33Z",
+   "built_by": [
+    "alchaincyf"
+   ]
+  }
+ ],
+ "layout": {
+  "top": "anomalyco/hex",
+  "rising": [
+   "shiyu-coder/Kronos",
+   "patchy631/ai-engineering-hub",
+   "beenuar/AiSOC"
+  ],
+  "fresh": [
+   "public-apis/public-apis",
+   "cjpais/Handy",
+   "kornia/kornia",
+   "FlashML-org/FreeToken",
+   "hyprwm/Hyprland"
+  ],
+  "steady": [
+   "thedotmack/claude-mem",
+   "lightpanda-io/browser",
+   "pingdotgg/t3code",
+   "milind-soni/OpenMausBot",
+   "Donchitos/Claude-Code-Game-Studios",
+   "Renhuai123/ziwei-doushu",
+   "CopilotKit/OpenBot",
+   "togg53192-cmd/jailbreaks"
+  ],
+  "arrivals": [
+   "patch-gg/pixelfx",
+   "Djihads80/Eglantine",
+   "haydenschmitty/floorplan",
+   "kevinraymond/florilegium"
+  ]
+ },
+ "top_story": "anomalyco/hex"
+}

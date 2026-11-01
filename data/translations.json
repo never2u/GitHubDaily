@@ -111,6 +111,10 @@
   "ko": "독립적인 키 파생 방식을 사용한 오프라인 FairPlay App Store IPA 복호화",
   "src": "Offline FairPlay App Store IPA decryption with independent key derivation"
  },
+ "FlashML-org/FreeToken": {
+  "ko": "FreeToken은 데이터센터급 모델 서빙을 데스크톱으로 가져옵니다. 대규모 모델을 로컬에서 빠르고 효율적으로 실행하세요.",
+  "src": "FreeToken brings datacenter-scale model serving to your desktop. Run massive models locally, fast and efficiently."
+ },
  "Gathin23/cleanyourtv": {
   "ko": "Wi-Fi로 모든 Android 또는 Google TV의 불필요한 기능을 정리하고, Apple TV 스타일의 홈 화면을 만들어 줍니다.",
   "src": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home."
@@ -150,6 +154,10 @@
  "Hugo-Dz/spritefusion-sprite-normals": {
   "ko": "임의의 스프라이트와 애니메이션 스프라이트 시트에서 노멀 맵을 생성하는 도구.",
   "src": "A tool to generate normal maps from any sprite and animated sprite sheet."
+ },
+ "Humpalumps/Ultra-Water": {
+  "ko": "three.js(WebGL2)용 실시간 FFT 바다 렌더러: 해안 파도, 거품, 코스틱, 수중 렌더링, 부력을 200+ fps로 구현",
+  "src": "Real-time FFT ocean renderer for three.js (WebGL2): shore breakers, foam, caustics, underwater rendering and buoyancy at 200+ fps"
  },
  "Jakeschincariol/day-trader-skill": {
   "ko": "데이 트레이딩을 위한 Claude 스킬 11종: 수천 개의 차트를 스캔하고, 속보 뉴스를 추적하며, 모든 진입과 청산 시점을 정하고, 돈을 걸기 전에 모든 결과를 재생해 봅니다.",
@@ -230,6 +238,10 @@
  "NationalSecurityAgency/ghidra": {
   "ko": "Ghidra는 소프트웨어 리버스 엔지니어링(SRE) 프레임워크입니다.",
   "src": "Ghidra is a software reverse engineering (SRE) framework"
+ },
+ "NiazMorshed2007/reanimate": {
+  "ko": "어떤 애니메이션이든 프레임 단위로 역공학하고, 복제본이 동일하게 움직이는지 검증하는 Claude Code 스킬.",
+  "src": "A Claude Code skill that reverse-engineers any animation frame by frame, then proves the copy moves the same."
  },
  "Noniv/web-ocean": {
   "ko": "엔진 없이 처음부터 작성한 실시간 WebGPU 바다 렌더러입니다. FFT 파도, 백캡, 햇빛 반짝임, 구름이 있는 물리 기반 일몰 하늘, 자유 카메라를 지원합니다. Claude Code(Opus 5.5)로 제작되었으며, 61KB 단일 HTML 파일을 Chrome에서 열어 실행합니다.",
@@ -367,6 +379,10 @@
   "ko": "코딩 에이전트 CLI를 위한 장기 기억 솔루션이며, 서로 다른 에이전트 벤더 간 작업 인계를 돕습니다.",
   "src": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors"
  },
+ "alchaincyf/huashu-bird-sticker": {
+  "ko": "화수(花叔)가 공개한 전 세계 새 스티커 라이브러리 · 현존하는 11,064종 조류 전체의 스티커, 43개 언어 이름과 구조화된 데이터 제공",
+  "src": "花叔开源的全球鸟类贴纸库 · Stickers for all 11,064 living bird species, with names in 43 languages and structured data"
+ },
  "alchaincyf/huashu-design": {
   "ko": "Huashu Design 3.0 · 에이전트에 한마디만 하면 바로 납품 가능한 디자인을 받습니다: 웹 / 앱 프로토타입 / 편집 가능한 PPTX / 애니메이션 / 인포그래픽 · 여섯 개 후보 중 세 방향 선택 · 샘플이 포함된 84가지 스타일 라이브러리 · 사용할수록 나를 알아가는 외관 기록과 디자인 점검 · Claude Code, Codex, Cursor 및 모든 에이전트를 위한 HTML 네이티브 디자인 스킬",
   "src": "Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 84 种带样张的风格库 · 越用越懂你的外观账本与设计体检 · HTML-native design skill for Claude Code, Codex, Cursor & any agent"
@@ -386,6 +402,10 @@
  "anhao/ai-pose-gallery-zh": {
   "ko": "중국어 AI 포즈 참고 이미지 갤러리 · 1439세트 / 2878장 이미지 · 완전 번역 · 의존성 없는 정적 갤러리",
   "src": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊"
+ },
+ "anomalyco/hex": {
+  "ko": "mac, Windows, Linux용 로컬 음성 받아쓰기",
+  "src": "Local voice dictation for mac, windows and linux"
  },
  "anomalyco/opencode": {
   "ko": "오픈소스 코딩 에이전트입니다.",
@@ -427,6 +447,10 @@
   "ko": "AI 에이전트가 AWS에서 개발할 수 있도록 돕는, AWS가 공식 지원하는 MCP 서버, 스킬, 플러그인",
   "src": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS"
  },
+ "beenuar/AiSOC": {
+  "ko": "오픈소스 AI 보안 관제센터(SOC): 경보 통합, LLM 에이전트 기반 트리아지, MITRE ATT&CK 조사, 그리고 에이전트의 모든 단계를 재현 가능하게 기록하는 의사결정 원장을 제공합니다. 직접 호스팅할 수 있으며 API 키 없이 실행되고 MIT 라이선스입니다. Claude, Cursor, Continue용 MCP 서버를 포함합니다.",
+  "src": "Open-source AI Security Operations Center: alert fusion, LLM-agent triage, MITRE ATT&CK investigation, and a replayable decision ledger for every agent step. Self-hostable, runs with no API keys, MIT licensed. Ships an MCP server for Claude, Cursor and Continue."
+ },
  "benderandrew069/deepseek-api-pricing-2026": {
   "ko": "DeepSeek API 요금 가이드: 모델, 캐시 히트, 피크 시간대별 요금(2026).",
   "src": "DeepSeek API pricing guide for models, cache hits, and peak hours (2026)."
@@ -466,6 +490,10 @@
  "chenwei810/Semiconductor_Manufacturing_Introduction": {
   "ko": "반도체 제조 입문",
   "src": "Introduction to Semiconductor Manufacturing"
+ },
+ "cjpais/Handy": {
+  "ko": "완전히 오프라인으로 작동하는 무료 오픈소스 확장 가능 음성-텍스트 변환 애플리케이션",
+  "src": "A free, open source, and extensible speech-to-text application that works completely offline."
  },
  "cloudflare/security-audit-skill": {
   "ko": "독립적으로 검증되고 기계가 읽을 수 있는 결과를 제공하는 다단계 보안 감사용 코딩 에이전트 스킬",
@@ -539,6 +567,10 @@
   "ko": "오픈소스 Grok Bot 대안. 원하는 모델과 샌드박스를 직접 선택할 수 있습니다.",
   "src": "Open-source Grok Bot alternative. Choose your own model and sandbox."
  },
+ "elvarofficial/teardown": {
+  "ko": "어떤 기기든 분해해 볼 수 있는 3D 시뮬레이터로 바꿔주는 Claude Code 스킬",
+  "src": "A Claude Code skill that turns any machine into a 3D simulator you can take apart"
+ },
  "enesozturk/dimensional-drawing": {
   "ko": "UI 컴포넌트의 Apple 스타일 치수 도면을 만듭니다.",
   "src": "Create Apple style dimensional drawings of UI components."
@@ -566,6 +598,10 @@
  "flutter/flutter": {
   "ko": "Flutter로 모바일과 그 밖의 플랫폼에서 아름다운 앱을 쉽고 빠르게 만들 수 있습니다",
   "src": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond"
+ },
+ "ghostty-org/ghostty": {
+  "ko": "👻 Ghostty는 플랫폼 네이티브 UI와 GPU 가속을 사용하는 빠르고 기능이 풍부한 크로스 플랫폼 터미널 에뮬레이터입니다.",
+  "src": "👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration."
  },
  "gichirimaku/wp2shell-PoC": {
   "ko": "CVE-2026-63030 + CVE-2026-60137 익스플로잇 RCE 체인",
@@ -615,6 +651,14 @@
   "ko": "루트 권한 없이 ADB를 통해 Fire TV에서 광고, 추적, 불필요한 요소를 제거합니다. 모든 단계는 되돌릴 수 있으며, 오픈소스 홈 화면이 함께 제공됩니다.",
   "src": "Take the ads, tracking and clutter out of your Fire TV over ADB, no root. Every step can be undone. Comes with its own open-source home screen."
  },
+ "hyprwm/Hyprland": {
+  "ko": "Hyprland는 외관을 희생하지 않으면서 고도로 커스터마이즈할 수 있는 독립형 동적 타일링 Wayland 컴포지터입니다.",
+  "src": "Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks."
+ },
+ "hyz317/HairDeck": {
+  "ko": "HairDeck: 단일 이미지에서 애니메이션에 바로 쓸 수 있는 스타일화된 헤어 카드 생성",
+  "src": "HairDeck: Animation-Ready Stylized Hair Cards from a Single Image"
+ },
  "i12bp8/decomp.wtf": {
   "ko": "What The Function: AI 에이전트가 사용자가 소유한 게임을 디컴파일하여, 동일한 바이트로 컴파일되는 C 코드로 바꿔줍니다. 로컬에서 실행됩니다.",
   "src": "What The Function: your AI agent decompiles games you own into C that compiles to the exact same bytes. Runs locally."
@@ -662,6 +706,10 @@
  "konlu/story-studio": {
   "ko": "주제 선정부터 쟝잉(剪映) 초안까지 한 번에 처리하는 AI 숏폼 영상 콘텐츠 제작 에이전트 스킬",
   "src": "从选题到剪映草稿的一站式 AI 短视频内容创作 Agent Skill"
+ },
+ "kornia/kornia": {
+  "ko": "🐍 공간 AI를 위한 기하학 컴퓨터 비전 라이브러리",
+  "src": "🐍 Geometric Computer Vision Library for Spatial AI"
  },
  "lesnolie/Tigris": {
   "ko": "Android TV용 tvOS 27 스타일 런처 Tigris: 리퀴드 글래스 도크, 탑 셸프, 글래스 제어 센터, 사진 화면보호기를 제공합니다. 에이전트로 설치할 수 있습니다.",
@@ -816,8 +864,12 @@
   "src": "The open-source app everyone uses to manage agents at work"
  },
  "patch-gg/pixelfx": {
-  "ko": "232가지 픽셀 아트 효과를 담았으며, 각 효과는 작은 코드 한 조각입니다. 직접 만들 수 있는 Claude Code 스킬도 포함되어 있습니다.",
-  "src": "232 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own."
+  "ko": "244가지 픽셀 아트 효과, 각각은 작은 코드 조각입니다. 직접 만들 수 있는 Claude Code 스킬도 포함.",
+  "src": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own."
+ },
+ "patchy631/ai-engineering-hub": {
+  "ko": "LLM, RAG, 실제 AI 에이전트 응용에 대한 심층 튜토리얼.",
+  "src": "In-depth tutorials on LLMs, RAGs and real-world AI agent applications."
  },
  "pbakaus/impeccable": {
   "ko": "코딩 에이전트를 위한 디자인 어휘 모음입니다. polish와 bolder로 방향을 잡고, critique와 audit으로 검토하며, AI slop을 출시 전에 걸러냅니다.",
@@ -839,9 +891,17 @@
   "ko": "작은 이족보행 오리 로봇 🦆",
   "src": "A Tiny biped duck robot 🦆"
  },
+ "public-apis/public-apis": {
+  "ko": "무료 API들을 모아 놓은 목록",
+  "src": "A collective list of free APIs"
+ },
  "qybaihe/bla": {
   "ko": "🛡️ BLA(Blind LLM Agents) — 바이너리, Electron 앱, JS 번들, Python, WebAssembly를 REA 같은 AI 리버스 엔지니어링 에이전트로부터 보호하는 적대적 방어 방패입니다. 오염 -> 소진 -> 환각.",
   "src": "🛡️ BLA (Blind LLM Agents) — Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI reverse-engineering agents like REA. Poison -> Exhaust -> Hallucinate."
+ },
+ "ramenvr/autopilot": {
+  "ko": "어떤 게임이든 플레이",
+  "src": "Play any game"
  },
  "ranxianglei/billion-context": {
   "ko": "작은 컨텍스트 창(100K 컨텍스트면 충분), 토큰 5배 절감, 월 단위 단일 세션(수십억 토큰)을 위한 컨텍스트 압축 플러그인. billion-context is all you need",
@@ -903,6 +963,10 @@
   "ko": "Google TV, LG webOS, Samsung Tizen용 빠르고 광고 없는 홈 화면. 버튼 한 번으로 되돌리기가 가능합니다.",
   "src": "A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo."
  },
+ "sleepy-zone/ai-ref-library-cn": {
+  "ko": "AI 작화 소재 라이브러리 · 중문판 (얼굴 / 포즈 / 의상)",
+  "src": "AI 作图素材库 · 中文版（脸 / 姿势 / 服装）"
+ },
  "smithjohn78390/tongjiang-lab": {
   "ko": "고등학생을 위한 무료 인터랙티브 3D 과학 수업 · 통장 실험실 · https://lab.tongjiang.app",
   "src": "Free interactive 3D science lessons for high school · 铜匠实验室 · https://lab.tongjiang.app"
@@ -914,6 +978,10 @@
  "songjianyang/xss-audit": {
   "ko": "React, TypeScript, JavaScript 프로젝트를 위한 14개 계층 검사를 갖춘 정적 XSS 감사 스킬.",
   "src": "Static XSS audit skill with 14 layers of checks for React, TypeScript, and JavaScript projects."
+ },
+ "speridlabs/idol-sdk": {
+  "ko": "Idol: 단일 이미지를 3D 가우시안으로 변환. 추론 SDK와 데모.",
+  "src": "Idol: a single image to 3D Gaussians. Inference SDK and demo."
  },
  "stablyai/orca": {
   "ko": "Orca는 여러 에이전트(예: Grok Bot, Claude Code)를 함께 운영하는 공간입니다. 자신의 구독으로 어떤 코딩 에이전트든 실행할 수 있으며, 데스크톱, 모바일, 원격 런타임에서 사용할 수 있습니다.",
@@ -930,6 +998,10 @@
  "storytold/artcraft": {
   "ko": "예술가, 디자이너, 영상 제작자를 위한 의도 중심 창작 엔진 ArtCraft",
   "src": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers"
+ },
+ "storytold/craft-anything": {
+  "ko": "무엇이든 만들기: 어떤 소프트웨어든 어떻게 동작하는지 이해하고, 직접 만들어 보세요.",
+  "src": "Craft Anything: understand how any software works, and craft your own."
  },
  "storytold/craft-launcher": {
   "ko": "The Craft 앱 런처입니다.",
@@ -1020,8 +1092,8 @@
   "src": "tv-fresh 电视焕新：小米电视(MIUI TV)去广告/清理预装/换桌面/装代理与影视仓的 Agent Skill——免root可逆，含固件逆向实录与一键脚本"
  },
  "wangzan101/Mika": {
-  "ko": "Mika — 휴대폰 속 개인 AI 비서로, 앱 조작과 웹 검색을 대신해 일을 처리해 줍니다. 앱과 웹을 조작해 일을 해결하는 안드로이드용 온디바이스 AI 에이전트입니다.",
-  "src": "Mika — 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。An on-device AI agent for Android that operates apps and the web to get things done for you."
+  "ko": "앱과 웹을 조작해 작업을 대신 처리하는 Android용 온디바이스 AI 에이전트.",
+  "src": "An on-device AI agent for Android that operates apps and the web to get things done for you."
  },
  "wesbos/3d-model-anything": {
   "ko": "iPhone LiDAR와 사진을 캡처해 편집 가능한 Three.js 방을 재구성하고, 브라우저에서 둘러볼 수 있게 합니다.",
