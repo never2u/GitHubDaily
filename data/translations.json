@@ -35,6 +35,10 @@
   "ko": "USB 없이 Windows 옆에 Linux 설치하기",
   "src": "Install Linux next to Windows without a USB stick"
  },
+ "AssassinCreator/steam-stash-value-report-card": {
+  "ko": "터미널에서 Steam 보유 게임의 가치를 평가하고 공유용 카드로 출력합니다. 게임별, 시장별로 판매된 항목과 남은 항목을 보여줍니다. 계정 없이 사용하는 Windows 휴대용 빌드 하나로 제공됩니다.",
+  "src": "Value your Steam stash in the terminal and print it as a share card: per game, per market, what sold and what sits. One Windows portable build, no account."
+ },
  "AstrBotDevs/AstrBot": {
   "ko": "여러 IM 플랫폼, LLM, 플러그인, AI 기능을 통합한 AI 에이전트 어시스턴트 및 개발 프레임워크입니다. openclaw의 대안이 될 수 있습니다. ✨",
   "src": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨"
@@ -59,6 +63,10 @@
   "ko": "REA로 Claude 공식 데스크톱 UI를 심층 분석하여 고충실도로 재현한 프로젝트. 독립 React 컴포넌트 30개와 핵심 인터랙션 물리 알고리즘 8종을 재현하며, 3000줄 이상의 역공학 분석 문서를 포함합니다.",
   "src": "基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。"
  },
+ "Centiplatrap/pc-game-fps-doctor": {
+  "ko": "버튼 하나로 게임이 끊기는 이유, 렉이 걸리는 이유, 실행되지 않는 이유를 파악합니다. Pitstop은 PresentMon으로 측정하고 쉬운 말로 설명하며, Windows에서만 수정하고 모든 변경 사항을 한 번의 클릭으로 되돌립니다.",
+  "src": "One button: why the game stutters, why it lags and why it won't start. Pitstop measures with PresentMon, explains in plain words, fixes Windows only, and undoes every change in one click."
+ },
  "Comfy-Org/ComfyUI": {
   "ko": "가장 강력하고 모듈식인 확산 모델 GUI, API 및 백엔드(그래프/노드 인터페이스). 세계에서 가장 빠른 로컬 추론 엔진.",
   "src": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world."
@@ -74,6 +82,10 @@
  "D3voz/openjutsu": {
   "ko": "영상 속 인물을 원클릭으로 바꾸는 도구: ComfyUI와 MiniMax H3 기반의 오픈소스 로컬 Higgsfield Genjutsu 대안이며, FLUX.3 Klein 리라이팅 기능을 포함합니다.",
   "src": "One-click character swap for videos: an open-source, local Higgsfield Genjutsu alternative built on ComfyUI and MiniMax H3, with FLUX.3 Klein relighting."
+ },
+ "D4Vinci/Scrapling": {
+  "ko": "🕷️ 단일 요청부터 대규모 크롤링까지 모든 것을 처리하는 최고의 웹 스크레이핑 프레임워크! 주저하지 말고 여기 디스코드(https://discord.gg/EMgGbDceNQ)에 참여하고, 매일 팁과 노하우를 보려면 여기(https://x.com/Scrapling_dev)를 팔로우하세요!",
+  "src": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev"
  },
  "DenisSergeevitch/ex-ussr-kinship-research": {
   "ko": "구소련 지역의 교회 기록, 민사, 군사, 강제 이주 및 탄압 기록을 다루는 증거 중심 족보 스킬(Codex, Claude Code용). 사용자의 언어로 응답합니다.",
@@ -156,8 +168,8 @@
   "src": "A tool to generate normal maps from any sprite and animated sprite sheet."
  },
  "Humpalumps/Ultra-Water": {
-  "ko": "three.js(WebGL2)용 실시간 FFT 바다 렌더러: 해안 파도, 거품, 코스틱, 수중 렌더링, 부력을 200+ fps로 구현",
-  "src": "Real-time FFT ocean renderer for three.js (WebGL2): shore breakers, foam, caustics, underwater rendering and buoyancy at 200+ fps"
+  "ko": "three.js(WebGL2)용 실시간 FFT 바다 렌더러: 해안 파도, 거품, caustic(빛 굴절 무늬), 수중 렌더링, 부력을 170–300 fps로 구현합니다.",
+  "src": "Real-time FFT ocean renderer for three.js (WebGL2): shore breakers, foam, caustics, underwater rendering and buoyancy at 170–300 fps"
  },
  "Jakeschincariol/day-trader-skill": {
   "ko": "데이 트레이딩을 위한 Claude 스킬 11종: 수천 개의 차트를 스캔하고, 속보 뉴스를 추적하며, 모든 진입과 청산 시점을 정하고, 돈을 걸기 전에 모든 결과를 재생해 봅니다.",
@@ -178,6 +190,10 @@
  "JustAResearcher/gpu-unlock-ada": {
   "ko": "RTX 4090 및 실험적 RTX 4070 Ti SUPER용 GPU 텐서 잠금 해제 소스. 펌웨어는 로컬에서 생성됨",
   "src": "GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally"
+ },
+ "JustVugg/colibri": {
+  "ko": "이미 보유한 하드웨어에서 최신 MoE 모델을 실행하세요. 순수 C로 작성되었고 의존성이 없으며, 전문가 모델은 디스크에서 스트리밍됩니다. 작은 엔진으로 거대한 모델을 구동합니다. 🐦",
+  "src": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦"
  },
  "K-Dense-AI/scientific-agent-skills": {
   "ko": "어떤 AI 에이전트든 AI 과학자로 바꿔 줍니다. 전 세계 25만 명 이상의 과학자가 사용하는 과학 분야 1위 Agent Skills 라이브러리입니다. 검증된 즉시 사용 가능한 스킬 177개와 100개 이상의 과학 데이터베이스를 제공하며, 생물학, 화학, 의학, 신약 개발을 다룹니다. Cursor, Claude Code, Codex, Pi, Antigravity 및 오픈 Agent Skills 표준과 호환됩니다.",
@@ -226,6 +242,10 @@
  "MyLuxy/overdrive": {
   "ko": "PS5용 홈브루 게임 스토어 Overdrive, 1,800여 개의 게임 제공.",
   "src": "Overdrive, a PS5 homebrew game store with 1,800+ games."
+ },
+ "N1nEmAn/sapper-v2": {
+  "ko": "자율형 침투 테스트 군단: AI 지휘관, 작업자 군집, 계층형 사실-의도 그래프. 텐센트 지능형 공방전 온라인 대회 3위(634개 팀 · 8시간 무인 · 4.5B 토큰을 1B 토큰으로 이김). 누와 테스트: AI에게 창조, 언어, 역사를 주고 문명이 성장하도록 합니다.",
+  "src": "Autonomous pentest legion — AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defense online champion (634 teams · 8h unattended · 1B tokens beat 4.5B). The Nüwa Test: give AIs Create/Language/History, let a civilization grow."
  },
  "NVIDIA/OpenShell": {
   "ko": "OpenShell은 자율 AI 에이전트를 위한 안전하고 비공개적인 런타임입니다.",
@@ -279,6 +299,10 @@
   "ko": "AI 에이전트에 인터넷 전체를 볼 수 있는 눈을 달아 주세요. 트위터, 레딧, 유튜브, 깃허브, 빌리빌리, 샤오홍슈를 읽고 검색하세요. CLI 하나로, API 요금은 0원.",
   "src": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees."
  },
+ "Pika-Labs/Pika-H3-Flex": {
+  "ko": "Pika H3 Flex: 영상 및 오디오 생성 추론",
+  "src": "Pika H3 Flex: video and audio generation inference"
+ },
  "Renhuai123/ziwei-doushu": {
   "ko": "《天纪》 체계를 기반으로 한 오픈소스 자미두수 배반 엔진. 완전한 배반 알고리즘, 사화 시스템, 격국 지식 베이스, 고전 원문 데이터를 포함합니다.",
   "src": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据"
@@ -330,6 +354,10 @@
  "VectifyAI/PageIndex": {
   "ko": "📑 PageIndex: 벡터 없이 추론 기반으로 동작하는 RAG를 위한 문서 인덱스",
   "src": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG"
+ },
+ "Verlintas/NOIR": {
+  "ko": "휴대폰 개인정보 감사: adb로 Android 앱의 권한, 데이터 전송 엔드포인트, 데이터 흐름을 스캔하고 되돌릴 수 있는 조치를 제시합니다. 데스크톱 Android 유출 감사: 권한, 엔드포인트, 데이터 흐름, 되돌릴 수 있는 수정.",
+  "src": "手机隐私审计：用 adb 扫出 Android 应用的权限、上报端点与数据流向，并给出可回滚的处置。Desktop Android leak audit: permissions, endpoints, data flows, reversible fixes."
  },
  "YeonwooSung/my-claude-code-mods": {
   "ko": "내가 필요한 맞춤형 Claude Code 모드",
@@ -474,6 +502,10 @@
  "c22dev/mush8": {
   "ko": "Mario Kart 8 Deluxe를 iOS/macOS에서 네이티브로 실행할 수 있도록 Mach-O로 移植한 프로젝트이며, LAN, 온라인, 무선 멀티플레이어를 지원합니다.",
   "src": "A native Mach-O iOS/macOS port of Mario Kart 8 Deluxe, with LAN, online and wireless multiplayer"
+ },
+ "caru-ini/stack-diagram": {
+  "ko": "에이전트 스킬: 기술 스택을 한 문장으로 설명하면 공식 로고가 포함된 아키텍처 다이어그램을 생성합니다.",
+  "src": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos"
  },
  "cathrynlavery/diagram-design": {
   "ko": "Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Pi를 위한 편집 디자인 다이어그램 도구입니다. 44가지 다이어그램 유형을 지원하며, 독립형 HTML + SVG로 만들어집니다. 그림자 효과가 없고 Mermaid 방식의 어설픈 결과물이 아닙니다.",
@@ -695,6 +727,10 @@
   "ko": "Reign of the Warlock 확장팩이 포함된 Diablo II: Resurrected를 iOS / macOS에서 실행하는 오픈소스 호환 레이어. 보유한 Switch 게임 사본을 iPhone, iPad, Mac에서 네이티브로 실행하며, 완전한 터치 조작, 60 fps, 새로운 엔드게임 모드를 지원합니다. 게임 파일은 직접 준비해야 합니다.",
   "src": "Open-source iOS / macOS compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad and Mac — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS 兼容层"
  },
+ "karpathy/nanochat": {
+  "ko": "100달러로 살 수 있는 최고의 ChatGPT.",
+  "src": "The best ChatGPT that $100 can buy."
+ },
  "kevinraymond/florilegium": {
   "ko": "Lua로 그린, 절차적으로 생성되는 델프트 블루 꽃무늬 페이지 여백 LuaLaTeX 패키지",
   "src": "Procedurally generated Delft-blue floral page margins for LuaLaTeX, drawn in Lua"
@@ -759,6 +795,14 @@
   "ko": "실무 엔지니어를 위한 스킬. 제 .agents 디렉터리에서 그대로 가져왔습니다.",
   "src": "Skills for Real Engineers. Straight from my .agents directory."
  },
+ "max-sixty/worktrunk": {
+  "ko": "Worktrunk는 병렬 AI 에이전트 워크플로를 위해 설계된 Git 워크트리 관리 CLI입니다.",
+  "src": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows"
+ },
+ "michael-denyer/pstack-claude": {
+  "ko": "Poteto의 pstack을 Claude Code, Codex, Copilot, Pi, OpenCode, Muse, Gemini, Prime Agent 버전으로 제공합니다. Cursor 기본 요소를 다른 하네스에 맞게 변환한 엄격한 에이전트 워크플로입니다.",
+  "src": "Claude Code, Codex, Copilot, Pi, OpenCode, Muse, Gemini, and Prime Agent versions of Poteto's pstack. Rigorous agent workflows with Cursor primitives translated for other harnesses."
+ },
  "milind-soni/OpenMausBot": {
   "ko": "가상 머신을 갖춘 봇이 사용할 수 있는 오픈소스 Grok Bot 대안",
   "src": "Open-source Grok Bot alternative with a virtual machine that bots can use"
@@ -780,8 +824,8 @@
   "src": "Rust Google Drive direct downloader using pinned libaria2"
  },
  "mksglu/context-mode": {
-  "ko": "AI 코딩 에이전트를 위한 컨텍스트 윈도우 최적화 도구입니다. 도구 출력을 샌드박스로 격리해 98% 줄이고, 세션 메모리를 유지하며, MCP와 훅을 통해 17개 플랫폼에 걸쳐 라우팅을 적용합니다.",
-  "src": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks."
+  "ko": "코딩 에이전트의 컨텍스트 창에 도구 출력이 들어가지 않도록 하는 무료 로컬 플러그인입니다. 샌드박스와 SQLite FTS5 검색을 제공하며, 컨텍스트에 들어가는 바이트를 99% 줄입니다. Claude Code, Codex, Pi, OpenCode, Gemini CLI, Copilot CLI 등 4개 에이전트를 더 지원합니다. 텔레메트리 없음.",
+  "src": "Free, local plugin that keeps tool output out of your coding agent's context window. Sandbox and SQLite FTS5 search, 99% fewer bytes in context. Works with Claude Code, Codex, Pi, OpenCode, Gemini CLI, Copilot CLI and 4 more agents. Zero telemetry."
  },
  "mlabonne/llm-course": {
   "ko": "로드맵과 Colab 노트북으로 배우는 대규모 언어 모델(LLM) 입문 강좌.",
@@ -798,6 +842,10 @@
  "morluto/rea": {
   "ko": "에이전트로 앱 동작부터 네이티브 바이너리까지 무엇이든 리버스 엔지니어링합니다.",
   "src": "Reverse engineer anything with agents, from app behavior down to native binaries."
+ },
+ "mromidev/claude-animated-shorts": {
+  "ko": "무료 Claude 스킬: three.js와 Remotion으로 만든 바이럴 애니메이션 스토리 숏폼(3D 세계 속 2D 캐릭터).",
+  "src": "Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion"
  },
  "msitarzewski/agency-agents": {
   "ko": "손끝에서 쓸 수 있는 완전한 AI 에이전시입니다. 프론트엔드 마법사부터 레딧 커뮤니티 닌자, 위미(whimsy) 인젝터부터 현실 점검가까지 다양합니다. 각 에이전트는 개성, 프로세스, 검증된 결과물을 갖춘 전문가입니다.",
@@ -855,6 +903,10 @@
   "ko": "탈옥된 PS5용 Overdrive 릴리스",
   "src": "Overdrive releases for jailbroken PS5"
  },
+ "p-e-w/heretic": {
+  "ko": "학습 없이 언어 모델을 수정하는 도구: 검열 제거, 슬롭 억제, 아첨 감소 등을 지원합니다.",
+  "src": "Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more"
+ },
  "paipiange/nvzhuang": {
   "ko": "AI 여성 의류 참고 이미지 1,407장 모음과 가상 피팅 웹사이트. 한국어·영어 검색을 지원하며, OpenAI Images, Gemini, 더우바오(豆包) 및 사용자 지정 Base URL, API Key, 모델을 사용할 수 있습니다. https://github.com/paipiange/nvzhuang",
   "src": "1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang"
@@ -904,8 +956,8 @@
   "src": "Play any game"
  },
  "ranxianglei/billion-context": {
-  "ko": "작은 컨텍스트 창(100K 컨텍스트면 충분), 토큰 5배 절감, 월 단위 단일 세션(수십억 토큰)을 위한 컨텍스트 압축 플러그인. billion-context is all you need",
-  "src": "A context-compression plugin for small context windows (a 100K context is enough), token savings (5x fewer tokens), and month-long single sessions (billions of tokens).上下文压缩插件，兼顾小窗口(100k上下文足矣)省token(省5倍token)和超长会话(数月级别几十亿token单会话)。billion-context is all you need"
+  "ko": "한 달 이상 이어지는 단일 세션(수십억 토큰), 작은 컨텍스트 윈도우(100K 컨텍스트면 충분), 토큰 절약(토큰 5배 절감)을 위한 컨텍스트 압축 플러그인. 컨텍스트 압축 플러그인(上下文压缩插件)으로, 월 단위 장기 세션을 지원하면서 작은 윈도우 환경에서도 토큰을 5배 덜 쓰도록 돕습니다. billion-context is all you need",
+  "src": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need"
  },
  "raymondchins/Bridgeplay": {
   "ko": "NotProton의 무료 포크: CodeWeavers의 Wine과 Apple의 Game Porting Toolkit으로 Mac Steam에서 Windows Steam 게임을 실행합니다.",
@@ -1035,6 +1087,10 @@
   "ko": "100% 순수 x86-64 어셈블리 시스템 언어",
   "src": "The 100% Pure x86-64 Assembly Systems Language"
  },
+ "tester-army/e2e": {
+  "ko": "웹 및 모바일 앱을 위한 차세대 e2e 테스팅 프레임워크.",
+  "src": "Next generation e2e testing framework for web and mobile apps."
+ },
  "thedotmack/claude-mem": {
   "ko": "모든 에이전트를 위한 세션 간 지속 컨텍스트입니다. 세션 중 에이전트가 하는 모든 일을 기록하고 AI로 압축한 뒤, 관련 컨텍스트를 이후 세션에 다시 주입합니다. Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode 등과 함께 작동합니다.",
   "src": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More"
@@ -1068,12 +1124,16 @@
   "src": "A community-built phone app for Clean Your TV: clean up an Android TV from your phone. No laptop, no coding agent, nothing uninstalled."
  },
  "valentderah/totk-pc-recomp": {
-  "ko": "젤다의 전설: 왕국의 눈물을 Vulkan 렌더러를 갖춘 네이티브 Windows x86-64용으로 정적 재컴파일한 프로젝트. 게임 파일은 포함되어 있지 않습니다.",
-  "src": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows x86-64, with a Vulkan renderer. Game files not included."
+  "ko": "젤다의 전설: 왕국의 눈물을 네이티브 Windows 및 Linux x86-64용으로 정적 재컴파일하고 Vulkan 렌더러를 탑재했습니다. 게임 파일은 포함되어 있지 않습니다.",
+  "src": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included."
  },
  "vectorize-io/hindsight": {
   "ko": "Hindsight: 학습하는 에이전트 메모리",
   "src": "Hindsight: Agent Memory That Learns"
+ },
+ "vercel-labs/agent-desktop": {
+  "ko": "AI 에이전트를 위한 컴퓨터 사용 CLI",
+  "src": "Computer use CLI for AI agents"
  },
  "vercel-labs/skills": {
   "ko": "오픈 에이전트 스킬 도구 - npx skills",
