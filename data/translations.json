@@ -43,6 +43,10 @@
   "ko": "여러 IM 플랫폼, LLM, 플러그인, AI 기능을 통합한 AI 에이전트 어시스턴트 및 개발 프레임워크입니다. openclaw의 대안이 될 수 있습니다. ✨",
   "src": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨"
  },
+ "Balanov/uncut": {
+  "ko": "손실 없는 헤드리스 코딩 에이전트 하네스. 7MB 정적 바이너리 하나, 도구 네 개, 단순한 stdin/stdout 방식이며 조용히 잘리는 일이 없습니다.",
+  "src": "The lossless, headless coding agent harness. One 7 MB static binary, four tools, plain stdin/stdout, no silent cuts."
+ },
  "BaruqueRodrigues/llm-legislativo": {
   "ko": "대규모 브라질 법률 말뭉치와 순수 PyTorch로 처음부터 학습한 인과적 Transformer 모델.",
   "src": "Corpus legislativo brasileiro em larga escala e modelo Transformer causal treinado do zero em PyTorch puro."
@@ -192,8 +196,8 @@
   "src": "GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally"
  },
  "JustVugg/colibri": {
-  "ko": "이미 보유한 하드웨어에서 최신 MoE 모델을 실행하세요. 순수 C로 작성되었고 의존성이 없으며, 전문가 모델은 디스크에서 스트리밍됩니다. 작은 엔진으로 거대한 모델을 구동합니다. 🐦",
-  "src": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦"
+  "ko": "최신 MoE 모델을 위한 계층형 추론 엔진: 자주 쓰는 전문가(experts)는 GPU(CUDA, Vulkan)에, 덜 쓰는 것은 RAM에, 거의 쓰지 않는 것은 NVMe에서 스트리밍으로 불러옵니다. C로 작성되었으며, 이미 가진 하드웨어에서 실행됩니다.",
+  "src": "A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own."
  },
  "K-Dense-AI/scientific-agent-skills": {
   "ko": "어떤 AI 에이전트든 AI 과학자로 바꿔 줍니다. 전 세계 25만 명 이상의 과학자가 사용하는 과학 분야 1위 Agent Skills 라이브러리입니다. 검증된 즉시 사용 가능한 스킬 177개와 100개 이상의 과학 데이터베이스를 제공하며, 생물학, 화학, 의학, 신약 개발을 다룹니다. Cursor, Claude Code, Codex, Pi, Antigravity 및 오픈 Agent Skills 표준과 호환됩니다.",
@@ -307,6 +311,10 @@
   "ko": "《天纪》 체계를 기반으로 한 오픈소스 자미두수 배반 엔진. 완전한 배반 알고리즘, 사화 시스템, 격국 지식 베이스, 고전 원문 데이터를 포함합니다.",
   "src": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据"
  },
+ "RikiyaT/lm_understand-logs": {
+  "ko": "블로그 글 'LLM은 신경망 가중치를 이해하고 작성할 수 있다'의 실험 전체 로그",
+  "src": "Complete logs of the experiments in the blog post 'LLMs can understand and write neural network weights'"
+ },
  "SnailSploit/Claude-Red": {
   "ko": "claude-red는 Claude 스킬 시스템을 위해 설계된 공격형 보안 스킬 큐레이션 라이브러리입니다. 각 스킬은 SQL 인젝션부터 셸코드, EDR 우회부터 익스플로잇 개발까지 특정 공격 영역에 대해 전문가 수준의 방법론을 Claude에 주입하는 구조화된 SKILL.md 파일입니다.",
   "src": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development."
@@ -346,6 +354,10 @@
  "UniXNU/UniXNU": {
   "ko": "UEFI를 통해 비 Apple ARM64 하드웨어에서 iOS 및 macOS를 실행합니다.",
   "src": "Run iOS and macOS on non-Apple ARM64 hardware through UEFI."
+ },
+ "Usagi-org/ai-goofish-monitor": {
+  "ko": "Playwright와 AI를 기반으로 한 센위(闲鱼, Xianyu) 다중 작업 실시간/예약 모니터링 및 지능형 분석 시스템으로, 기능이 잘 갖춰진 백엔드 관리 UI를 제공합니다. 방대한 센위 상품 중에서 마음에 드는 제품을 찾을 수 있도록 도와줍니다.",
+  "src": "基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。"
  },
  "VITASID57/bluntcore-intimacy-lab": {
   "ko": "🧬 钝核｜인간-기계 친밀 실험실 · Bluntcore Intimacy Lab: 인간-AI 연애, 성인용 AI, 프롬프트, 메모리, 에이전트, 모델 테스트 및 실험 기록.",
@@ -462,6 +474,10 @@
  "anujasid/blender-ai-mcp-addon": {
   "ko": "Blender용 AI 어시스턴트이자 MCP 서버입니다. 시각적 채팅, 씬 도구, 다중 에이전트 워크플로를 제공합니다. OpenAI, ChatGPT, Claude, Gemini, Ollama, OpenCode와 함께 작동합니다. Blender AI 애드온과 플러그인, 3D 코파일럿, bpy Python 스크립팅, MCP 연동을 지원합니다.",
   "src": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with OpenAI, ChatGPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon and plugin, copilot for 3D, bpy Python scripting, MCP integration."
+ },
+ "arpanjot-coding/AVault": {
+  "ko": "AVault - 통화 녹음기(루팅 불필요) | 안드로이드 12~16+용 개인정보 우선, 하드웨어 암호화 오디오 보관함. Shizuku를 통해 루팅 없이 통화를 녹음하며 AES-256-GCM, 생체 인증, 자동 정리를 지원합니다.",
+  "src": "AVault - Call Recorder (No Root Required) | Privacy-first, hardware-encrypted audio vault for Android 12-16+. Rootless call recording via Shizuku with AES-256-GCM, biometrics & auto-cleanup."
  },
  "aschmelyun/print-my-profile-pic": {
   "ko": "치즈! 이 저장소에 스타를 누르면 프로필 사진이 영수증 프린터로 출력됩니다.",
@@ -626,6 +642,10 @@
  "feder-cr/open_scion": {
   "ko": "코딩 에이전트를 위해 만든 버전 관리 시스템 Scion의 오픈소스 버전입니다.",
   "src": "Open-source version of Scion: version control built for coding agents."
+ },
+ "floci-io/floci": {
+  "ko": "가볍고 푹신하며 언제나 무료 - AWS 로컬 에뮬레이터 대안",
+  "src": "Light, fluffy, and always free - The AWS Local Emulator alternative"
  },
  "flutter/flutter": {
   "ko": "Flutter로 모바일과 그 밖의 플랫폼에서 아름다운 앱을 쉽고 빠르게 만들 수 있습니다",
@@ -975,6 +995,10 @@
   "ko": "Reason Network: 팀의 코딩 에이전트들이 서로 소통하게 합니다. `reason network`의 핵심 엔진입니다.",
   "src": "Reason Network: your team's coding agents, talking to each other. The engine behind `reason network`."
  },
+ "rerun-build/rerun": {
+  "ko": "업무를 대신 실행하는 AI 동료. 직접 호스팅할 수 있으며 AGPL-3.0 라이선스입니다.",
+  "src": "AI coworkers that run your work. Self-hostable, AGPL-3.0."
+ },
  "rociiu/talorys": {
   "ko": "본인의 Cloudflare 계정에서 실행하는 개인 AI 에이전트. 채팅, 메모리, 작업, 메모, 예약 알림을 지원하며, 명령어 하나(npx create-talorys@latest)로 배포합니다. 무료 요금제에 적합하고, 단일 사용자용이며, 텔레메트리가 없습니다.",
   "src": "Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friendly, single-user, no telemetry."
@@ -1199,6 +1223,10 @@
   "ko": "fsearch 기반의 빠른 퍼지 파일명 검색을 제공하는 네이티브 macOS 파일 브라우저",
   "src": "A native macOS file browser with fast fuzzy filename search, powered by fsearch."
  },
+ "zhanghao123vip/ai-manju-skills": {
+  "ko": "21개 주제를 다루는 AI 만화 드라마 전 과정 스킬: 한 문장 아이디어로 기획안, 자산 이미지 프롬프트, 회차별 대본, 콘티, 영상 프롬프트를 생성합니다. Claude Code, WorkBuddy, DeepSeek에서 사용할 수 있습니다.",
+  "src": "21 个题材的 AI 漫剧全流程 Skill：一句点子生成企划案、资产图提示词、分集剧本、分镜与视频提示词。可用于 Claude Code、WorkBuddy、DeepSeek"
+ },
  "zhuyansen/new-term-radar": {
   "ko": "새로운 AI 용어를 매일 탐지하는 레이더. 키워드 도구가 목록에 올리기 전에 X, Hugging Face, GitHub, 사이트맵에서 새 모델, 제품, 저장소 이름을 찾아냅니다.",
   "src": "Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging Face, GitHub and sitemaps before keyword tools list them."
@@ -1206,5 +1234,9 @@
  "zita-ch/supermimic_vibed": {
   "ko": "1시간 만에 바이브 코딩으로 만든 supermimic, 1.5 GPU시간 학습으로 LAFAN 통과",
   "src": "vibe coded supermimic within 1h, LAFAN passed within 1.5 gpuh training"
+ },
+ "zortos293/Lichii": {
+  "ko": "매우 실험적인 닌텐도 스위치 2 에뮬레이터",
+  "src": "VERY experimental Nintendo Switch 2 emulator"
  }
 }

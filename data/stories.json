@@ -297,6 +297,39 @@
    ],
    "subheadline": "음성 복제부터 영상 더빙, 오디오북까지 646개 언어를 로컬에서 처리한다"
   },
+  "floci-io/floci": {
+   "date": "2026-11-04",
+   "headline": "로컬 AWS 에뮬레이터 플로치, 무료로 도전장",
+   "highlights": [
+    "계정·인증 토큰·기능 제한 없이 docker compose up 한 번으로 실행",
+    "Lambda, RDS, EKS 등은 실제 Docker 컨테이너로 구동해 충실도 확보",
+    "LocalStack 이미지 교체만으로 이전 가능, 환경 변수 자동 변환 지원",
+    "Java, Python, Node.js, Go, Rust용 SDK 연동과 Testcontainers 모듈 제공",
+    "매월 15일과 말일 정기 릴리스, nightly 태그는 main 브랜치 추적"
+   ],
+   "image": "https://raw.githubusercontent.com/floci-io/floci/HEAD/docs/assets/floci-black.svg#gh-light-mode-only",
+   "image_caption": "어디서나 로컬로, 가볍고 폭신하게 — Floci의 대표 이미지",
+   "lead": "플로치(Floci)는 AWS 계정 없이 로컬에서 AWS 서비스를 흉내 내는 오픈소스 에뮬레이터다. 기존 AWS SDK, CLI, Terraform 설정을 http://localhost:4566 으로 향하게 하면 그대로 쓸 수 있고, LocalStack 사용자는 이미지만 바꿔 옮겨갈 수 있다고 소개한다.",
+   "sections": [
+    {
+     "heading": "무엇인가: 계정 없는 로컬 AWS",
+     "text": "Floci는 개발, 테스트, CI를 위한 무료 오픈소스 로컬 AWS 에뮬레이터다. 클라우드 계정, 인증 토큰, 유료 기능 제한 없이 AWS 형태의 서비스를 내 컴퓨터에서 쓸 수 있다. 이름은 팝콘처럼 생긴 구름 형태인 '털구름(floccus)'에서 따왔으며, Floci 에뮬레이터 패밀리 중 AWS를 맡고 있다. 실행은 공식 CLI나 docker compose up으로 하고, Docker가 없는 환경을 위해 Linux, macOS, Windows용 독립 실행 바이너리 floci-aws도 릴리스마다 제공한다."
+    },
+    {
+     "heading": "어떻게 동작하나: 필요한 곳엔 진짜 Docker",
+     "text": "모든 서비스는 http://localhost:4566 에서 제공되며, 공개된 AWS 리전은 모두 사용할 수 있다. 자격 증명은 엄격한 인증 검사를 켜지 않는 한 비어 있지 않은 값이면 된다. 충실도가 중요한 Lambda, RDS, Neptune, ElastiCache, MSK, ECS, EC2, EKS, OpenSearch, CodeBuild, Managed Service for Apache Flink는 얄팍한 모의 구현 대신 실제 Docker 컨테이너로 실행한다. 이 서비스들에는 Docker 소켓이 필요하다. 저장 방식은 memory, persistent, hybrid, write-ahead log 중에서 FLOCI_STORAGE_MODE 또는 서비스별 설정으로 고를 수 있다."
+    },
+    {
+     "heading": "편의 기능: 웹 콘솔과 계정 격리",
+     "text": "http://localhost:4566/_floci/ui 에서 브라우저 콘솔로 로컬 리소스를 살펴볼 수 있다. 첫 요청 때 콘솔 이미지를 받아 사이드카 컨테이너로 띄우는 방식이며, Floci 콘솔 계약(Console Contract v1)을 따르면 다른 콘솔도 이미지 이름만으로 교체할 수 있다. StackPort와 Floci Dash가 예로 언급된다. 또한 AWS_ACCESS_KEY_ID가 정확히 12자리 숫자면 이를 계정 ID로 삼아 계정별로 리소스를 격리하며, AssumeRole로 받은 임시 자격 증명도 해당 역할의 계정으로 연결된다."
+    },
+    {
+     "heading": "왜 지금: LocalStack 대안과 이전 경로",
+     "text": "README는 LocalStack 커뮤니티 에디션이 2026년 3월 종료되어 인증 토큰이 필요해지고 보안 업데이트가 멈췄다고 설명하며, Floci를 조건 없는 대안으로 내세운다. 포트, 자격 증명, SDK 설정, CLI 엔드포인트 방식이 같고 LocalStack 환경 변수는 자동 변환된다. /etc/localstack/init/ 아래 초기화 스크립트와 /_localstack/health 엔드포인트도 유지되며, LOCALSTACK_PARITY=false로 변환을 끌 수 있다. 호환성 검증을 위해 5개 SDK와 3개 IaC 도구에 걸쳐 2,576개의 자동화 테스트를 운영한다고 밝혔다."
+    }
+   ],
+   "subheadline": "계정도 인증 토큰도 기능 제한도 없는 '가볍고 폭신한' 개발·테스트용 AWS 대체재"
+  },
   "hmjz100/LinkSwift": {
    "date": "2026-10-29",
    "headline": "링크스위프트, 주요 클라우드 드라이브 직링크 확보",
@@ -732,6 +765,11 @@
    "long": true,
    "text": "TradingAgents는 여러 LLM 에이전트가 역할을 나눠 맡아 금융 거래 결정을 내리는 Python 기반 프레임워크입니다. 분석가, 연구 관리자, 트레이더, 포트폴리오 매니저 같은 역할이 협력하는 구조로 설계되어 있어 주식 분석 과정을 다단계로 살펴볼 수 있습니다. README에는 백테스트, 여러 LLM 제공자 지원, CLI 실행, HTML 리포트 저장 같은 기능이 꾸준히 추가되고 있다는 릴리스 소식이 담겨 있어, LLM 기반 투자 분석 도구를 실험하려는 개발자에게 참고가 될 만합니다."
   },
+  "Usagi-org/ai-goofish-monitor": {
+   "date": "2026-11-04",
+   "long": true,
+   "text": "이 프로젝트는 Playwright와 AI를 결합해 중고 거래 플랫폼 闲鱼(쎈위, Xianyu)의 여러 검색 작업을 실시간 또는 주기적으로 감시하고 상품을 분석하는 시스템입니다. 웹 관리 화면에서 작업, 계정, AI 분석 기준, 실행 로그, 결과를 한눈에 관리할 수 있고, 자연어로 작업을 만들거나 다중 모델로 상품을 깊이 있게 살펴볼 수 있습니다. ntfy.sh, 기업 위챗(企业微信) 등 여러 채널로 알림을 받을 수 있고 Docker로 손쉽게 배포할 수 있어, 원하는 물건을 대량의 매물 속에서 찾고자 하는 사용자에게 유용해 보입니다."
+  },
   "affaan-m/ECC": {
    "date": "2026-10-16",
    "long": true,
@@ -971,6 +1009,11 @@
    "date": "2026-10-21",
    "long": false,
    "text": "AAS Core는 2,700여 개의 SKILL.md 플레이북을 담은 Agentic Awesome Skills 라이브러리의 로컬 제어 도구입니다. Codex나 Claude가 전체 로컬 카탈로그를 검색하고, 에이전트가 직접 고른 스킬을 기록한 뒤 대상에 적용하기 전에 계획을 미리 확인할 수 있게 해 줍니다. README에서는 Core가 스킬을 순위화하거나 추천하지 않는다고 명시하고 있으며, CLI, 로컬 MCP, 카탈로그, 플러그인, Workbench를 함께 제공합니다. 적용과 복구 기능은 아직 실험 단계라고 밝혀져 있습니다."
+  },
+  "spotify/portal-ai-plugins": {
+   "date": "2026-11-04",
+   "long": true,
+   "text": "Spotify 내부 개발자 포털인 Portal을 Claude Code, Codex, Cursor, pi 같은 코딩 에이전트 환경에 연결하는 플러그인 모음입니다. 포털 CLI를 이용해 인증 설정, 소프트웨어 카탈로그 자연어 검색, 서비스 브리핑 생성, 진단 실행, 포털 액션 호출 같은 작업을 에이전트 안에서 바로 수행할 수 있습니다. Fleetshift 실행을 만들고 확인하거나 완료된 결과로 PR을 여는 기능도 포함되며, 드라이런과 확인 절차로 안전장치를 갖춘 점이 특징입니다. 또한 대량 파일 읽기처럼 I/O가 많은 작업을 더 저렴한 모델로 넘기는 shunt 플러그인도 Claude Code용으로 함께 제공됩니다."
   },
   "stablyai/orca": {
    "date": "2026-10-18",
