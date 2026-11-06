@@ -43,6 +43,10 @@
   "ko": "여러 IM 플랫폼, LLM, 플러그인, AI 기능을 통합한 AI 에이전트 어시스턴트 및 개발 프레임워크입니다. openclaw의 대안이 될 수 있습니다. ✨",
   "src": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨"
  },
+ "Balanov/shim": {
+  "ko": "작고 로컬 우선의 AI 하네스: 모든 모델, MCP, Agent Skills를 지원하며 자연어 CLI를 제공합니다. 의존성이 없고 MIT 라이선스입니다.",
+  "src": "Tiny local-first AI harness: any model, MCP and Agent Skills, natural-language CLI. Zero dependencies. MIT."
+ },
  "Balanov/uncut": {
   "ko": "손실 없는 헤드리스 코딩 에이전트 하네스. 7MB 정적 바이너리 하나, 도구 네 개, 단순한 stdin/stdout 방식이며 조용히 잘리는 일이 없습니다.",
   "src": "The lossless, headless coding agent harness. One 7 MB static binary, four tools, plain stdin/stdout, no silent cuts."
@@ -74,6 +78,10 @@
  "Comfy-Org/ComfyUI": {
   "ko": "가장 강력하고 모듈식인 확산 모델 GUI, API 및 백엔드(그래프/노드 인터페이스). 세계에서 가장 빠른 로컬 추론 엔진.",
   "src": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world."
+ },
+ "ConardLi/garden-skills": {
+  "ko": "ConardLi가 공개한 오픈소스 스킬 모음으로, 웹 디자인, 지식 검색, 이미지 생성 등을 포함합니다.",
+  "src": "ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more."
  },
  "CoolkHz/gptibo": {
   "ko": "자체 호스팅 가능한 GPTibo 스토어프론트, 관리자 페이지, Go 백엔드. 민감 정보를 제거한 MIT 라이선스 소스",
@@ -475,6 +483,10 @@
   "ko": "안전하고 빠르며 효율적이고, 알리바바 규모에서 검증되었습니다. 결정적 파이프라인과 LLM 에이전트를 결합한 하이브리드 코드 리뷰 도구로, 정밀한 라인 단위 코멘트를 제공하며 NPE, 스레드 안전성, XSS, SQL 인젝션 등 다국어 기본 규칙셋을 내장하고 OpenAI 및 Anthropic과 호환됩니다.",
   "src": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible."
  },
+ "andrew-babo/muse4ai": {
+  "ko": "Muse4AI: AI 에이전트가 이미지와 영상을 만들 수 있게 해줍니다. REST, MCP, OAuth를 통해 Muse에 연결하는 로컬 Windows 브리지입니다.",
+  "src": "Muse4AI — let your AI agent make the pictures and the videos. Local Windows bridge for Muse via REST, MCP, and OAuth."
+ },
  "andyhuo520/digital-human-koubo": {
   "ko": "사진 한 장으로 만드는 AI 디지털 휴먼 토킹헤드 영상: Renoise MCP 생성 + 편집 스타일 5종 + 크리에이터급 패키징 컴포넌트 48종. Claude Code / Codex / OpenClaw / WorkBuddy 등을 위한 에이전트 스킬 …",
   "src": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …"
@@ -655,6 +667,10 @@
   "ko": "하나의 사이드바에서 여러 Claude Code 및 Codex 에이전트를 나란히 실행하고, 어떤 에이전트가 사용자의 확인을 필요로 하는지 알려줍니다. Warp의 비공식 포크입니다.",
   "src": "Run many Claude Code and Codex agents side by side, in one sidebar that tells you which one needs you. An unofficial fork of Warp."
  },
+ "drakolordx7/switch2-recomp": {
+  "ko": "Nintendo Switch 2 게임을 PC에서 네이티브로 실행되도록 재컴파일한 것입니다.",
+  "src": "Nintendo Switch 2 games recompiled to run natively on PC."
+ },
  "eagle-hq/EAGLE-4": {
   "ko": "EAGLE-4 공식 추론 코드",
   "src": "Official Inference Code of EAGLE-4"
@@ -726,6 +742,10 @@
  "google-gemini/gemini-cli": {
   "ko": "Gemini의 능력을 터미널에서 바로 사용할 수 있게 해주는 오픈소스 AI 에이전트",
   "src": "An open-source AI agent that brings the power of Gemini directly into your terminal."
+ },
+ "google/skills": {
+  "ko": "Google 제품 및 기술을 위한 에이전트 스킬",
+  "src": "Agent Skills for Google products and technologies"
  },
  "govijr/terminal-mac": {
   "ko": "터미널에서 macOS 전체를 실행합니다.",
@@ -815,6 +835,10 @@
   "ko": "Reign of the Warlock 확장팩이 포함된 Diablo II: Resurrected를 iOS / macOS에서 실행하는 오픈소스 호환 레이어. 보유한 Switch 게임 사본을 iPhone, iPad, Mac에서 네이티브로 실행하며, 완전한 터치 조작, 60 fps, 새로운 엔드게임 모드를 지원합니다. 게임 파일은 직접 준비해야 합니다.",
   "src": "Open-source iOS / macOS compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad and Mac — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS 兼容层"
  },
+ "jxy333967/jianxunyun": {
+  "ko": "짠뎬윈(简讯云) - 최고의 VPN 서비스",
+  "src": "简讯云  最好的vpn服务"
+ },
  "karpathy/nanochat": {
   "ko": "100달러로 살 수 있는 최고의 ChatGPT.",
   "src": "The best ChatGPT that $100 can buy."
@@ -822,6 +846,10 @@
  "kevinraymond/florilegium": {
   "ko": "Lua로 그린, 절차적으로 생성되는 델프트 블루 꽃무늬 페이지 여백 LuaLaTeX 패키지",
   "src": "Procedurally generated Delft-blue floral page margins for LuaLaTeX, drawn in Lua"
+ },
+ "kevintngo/looseleaf": {
+  "ko": "손으로 그린 shadcn/ui: 종이에 그린 듯한 모습의 접근성 높은 React 컴포넌트 123개와 shadcn 레지스트리를 제공합니다.",
+  "src": "shadcn/ui, drawn by hand: 123 accessible React components that look drawn on paper, with a shadcn registry."
  },
  "kitlangton/scrawl": {
   "ko": "에이전트에게 문제를 보여 주세요: 표시하고, 기록하고, 전송합니다.",
@@ -863,6 +891,10 @@
   "ko": "Qwen3.5-4B용 조향 중심 뉴런 탐색기. 모든 MLP 뉴런을 밀어보고, 모든 롤아웃을 보관하며, 결과를 탐색할 수 있습니다.",
   "src": "Steering-first neuron explorer for Qwen3.5-4B: push every MLP neuron, keep every rollout, browse the results"
  },
+ "lz4/lz4": {
+  "ko": "극도로 빠른 압축 알고리즘",
+  "src": "Extremely Fast Compression algorithm"
+ },
  "macro-inc/macro": {
   "ko": "Macro는 팀을 위한 통합 워크스페이스로, 이메일, 채팅, 문서, 작업, 에이전트, 통화, CRM을 @ 링크로 연결하고 공유 AI 메모리를 제공합니다.",
   "src": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory."
@@ -890,6 +922,10 @@
  "michael-denyer/pstack-claude": {
   "ko": "Poteto의 pstack을 Claude Code, Codex, Copilot, Pi, OpenCode, Muse, Gemini, Prime Agent 버전으로 제공합니다. Cursor 기본 요소를 다른 하네스에 맞게 변환한 엄격한 에이전트 워크플로입니다.",
   "src": "Claude Code, Codex, Copilot, Pi, OpenCode, Muse, Gemini, and Prime Agent versions of Poteto's pstack. Rigorous agent workflows with Cursor primitives translated for other harnesses."
+ },
+ "microsoft/VibeVoice": {
+  "ko": "오픈소스 최첨단 음성 AI",
+  "src": "Open-Source Frontier Voice AI"
  },
  "milind-soni/OpenMausBot": {
   "ko": "가상 머신을 갖춘 봇이 사용할 수 있는 오픈소스 Grok Bot 대안",
@@ -1003,6 +1039,10 @@
   "ko": "업무에서 에이전트를 관리할 때 모두가 쓰는 오픈소스 앱입니다.",
   "src": "The open-source app everyone uses to manage agents at work"
  },
+ "parallelpan/hongguo-downloader": {
+  "ko": "홍궈(红果) 단편극 다운로더: 홍궈 단편극 및 홍궈 무료 단편극의 전체 에피소드 다운로드, 일괄 다운로드, 전편 ZIP 묶음 다운로드를 지원합니다. 공유 링크를 붙여넣으면 클라우드에서 처리하고 회차별로 받을 수 있으며, 설치 없이 웹에서 사용할 수 있습니다. Hongguo downloader — short drama downloader for cdrama & duanju: paste a link, fetch every episode online, pay per episode, no install.",
+  "src": "红果短剧下载工具：红果短剧 / 红果免费短剧 全集下载、批量下载与整剧打包 ZIP，粘贴分享链接即云端处理、按集取件，免安装网页版。Hongguo downloader — short drama downloader for cdrama & duanju: paste a link, fetch every episode online, pay per episode, no install."
+ },
  "patch-gg/pixelfx": {
   "ko": "244가지 픽셀 아트 효과, 각각은 작은 코드 조각입니다. 직접 만들 수 있는 Claude Code 스킬도 포함.",
   "src": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own."
@@ -1092,8 +1132,8 @@
   "src": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated"
  },
  "s1dashu/quiet-md": {
-  "ko": "macOS와 Windows용 초고속 네이티브 노트 앱. Rust와 GPUI 기반, 로컬 우선, 페이슈/Lark DocxXML 호환. 고성능 로컬 노트이며 비슷한 飞书(페이슈) 문서 형식을 지원합니다.",
-  "src": "Blazing-fast native notes app for macOS & Windows. Rust + GPUI, local-first, compatible with Feishu/Lark DocxXML. 高性能本地笔记，兼容飞书文档格式。"
+  "ko": "macOS와 Windows를 위한 매우 빠른 네이티브 노트 앱입니다. Rust와 GPUI로 만들었고, 로컬 우선으로 동작하며 Feishu/Lark DocxXML과 호환됩니다.",
+  "src": "Blazing-fast native notes app for macOS & Windows. Rust + GPUI, local-first, compatible with Feishu/Lark DocxXML."
  },
  "scenario-labs/skills": {
   "ko": "어떤 AI 에이전트에서든 프로덕션 수준의 이미지, 영상, 오디오, 3D를 얻으세요. 적합한 모델을 고르고, 지출 전에 가격을 확인하며, Scenario MCP를 통해 캐릭터와 브랜드의 일관성을 유지하는 스킬과, Blender, Maya, ZBrush, Unreal, Unity를 다루는 전문가 팀을 제공합니다.",
@@ -1118,6 +1158,10 @@
  "sleepy-zone/ai-ref-library-cn": {
   "ko": "AI 작화 소재 라이브러리 · 중문판 (얼굴 / 포즈 / 의상)",
   "src": "AI 作图素材库 · 中文版（脸 / 姿势 / 服装）"
+ },
+ "smarkyie/NSP-Box": {
+  "ko": "NSP Box: Switch 2 게임 패키저입니다. 합법적으로 얻은 게임 스냅샷과 추출된 DLC를 다루는 실험적 Windows 도구이며, 되돌릴 수 있는 에뮬레이터 패치 기능을 제공합니다.",
+  "src": "NSP Box: A Switch 2 Game Packager. Experimental Windows tool for lawfully obtained game snapshots and extracted DLC, with reversible emulator patching."
  },
  "smithjohn78390/tongjiang-lab": {
   "ko": "고등학생을 위한 무료 인터랙티브 3D 과학 수업 · 통장 실험실 · https://lab.tongjiang.app",
@@ -1231,6 +1275,10 @@
   "ko": "Hindsight: 학습하는 에이전트 메모리",
   "src": "Hindsight: Agent Memory That Learns"
  },
+ "vercel-labs/agent-browser": {
+  "ko": "AI 에이전트를 위한 브라우저 자동화 CLI",
+  "src": "Browser automation CLI for AI agents"
+ },
  "vercel-labs/agent-desktop": {
   "ko": "AI 에이전트를 위한 컴퓨터 사용 CLI",
   "src": "Computer use CLI for AI agents"
@@ -1265,8 +1313,8 @@
   "src": "Google_AI_Pro_2Year_ZeroCost_Auto"
  },
  "wquguru/cicada": {
-  "ko": "지우(知了) Cicada: 모든 회의와 라이브 방송을 위한 실시간 자막, 동시통역, AI 회의록 (macOS). Mac에서 어떤 통화나 스트림이든 실시간 자막, 통역, 회의 메모를 제공합니다.",
-  "src": "知了 Cicada · 任意会议与直播的实时字幕、同声传译、AI 会议纪要（macOS）。Live subtitles, interpreting and meeting notes for any call or stream on your Mac."
+  "ko": "지루(Cicada, 知了) - 모든 회의와 라이브 방송의 실시간 자막, 동시통역, AI 회의록을 제공합니다. Mac, Windows, Linux, Android에서 무료로 사용할 수 있는 오픈소스입니다.",
+  "src": "知了 Cicada · 任何会议和直播的实时字幕、同声传译、AI 会议纪要，Mac、Windows、Linux、Android 免费开源。Live subtitles, interpreting and meeting notes for any call or stream, on Mac, Windows, Linux and Android."
  },
  "wshobson/agents": {
   "ko": "Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, Pi를 지원하는 멀티 하네스 에이전틱 플러그인 마켓플레이스",
@@ -1295,6 +1343,10 @@
  "yaojingang/GEOInflow": {
   "ko": "생성형 엔진 최적화(GEO)를 위한 자체 호스팅 웹 및 AI 크롤러 분석 도구입니다. 방문자, AI 검색 유입, 크롤링 로그, 콘텐츠 범위, 전환을 추적합니다. 리카이 테크놀로지와 베이징일보사 즈위안 GEO가 공동 발행했습니다. MIT 라이선스.",
   "src": "Self-hosted web and AI crawler analytics for Generative Engine Optimization (GEO). Track visitors, AI search referrals, crawl logs, content coverage, and conversions. Jointly published by 猎看科技 · 北京日报社智源GEO. MIT licensed."
+ },
+ "yetone/alma-relay": {
+  "ko": "Alma Remote Access용 릴레이를 직접 호스팅하세요. 어디서든 휴대폰으로 데스크톱 Alma를 제어할 수 있습니다. Docker 또는 Cloudflare Workers를 사용할 수 있습니다.",
+  "src": "Self-host the relay for Alma Remote Access — control your desktop Alma from your phone, anywhere. Docker or Cloudflare Workers."
  },
  "zcbacxc/mcd-party-planner": {
   "ko": "맥도날드 MCP 모임·단체 식사 조직 도우미: Model Context Protocol 기반의 파티 예약 및 단체 식사 계획 CLI/Skill",
