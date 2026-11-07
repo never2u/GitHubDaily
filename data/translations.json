@@ -91,6 +91,10 @@
   "ko": "각자 전용 컴퓨터(브라우저, 파일, 도구)를 할당받는 오픈소스 AI 동료. 모든 동작은 실행 전에 결정되고 실행 후 기록됩니다. 어떤 AG-UI 에이전트든 가져와 사용할 수 있습니다.",
   "src": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent."
  },
+ "CzJam/gjgjxweb": {
+  "ko": "「搞机工具箱(고지 툴박스)」 웹 이식판",
+  "src": "《搞机工具箱》Web移植版"
+ },
  "D3voz/openjutsu": {
   "ko": "영상 속 인물을 원클릭으로 바꾸는 도구: ComfyUI와 MiniMax H3 기반의 오픈소스 로컬 Higgsfield Genjutsu 대안이며, FLUX.3 Klein 리라이팅 기능을 포함합니다.",
   "src": "One-click character swap for videos: an open-source, local Higgsfield Genjutsu alternative built on ComfyUI and MiniMax H3, with FLUX.3 Klein relighting."
@@ -207,6 +211,10 @@
   "ko": "REAP - REA(Reverse Engineer Anything)를 활용해 어떤 프로그램이든 최대한 활용하고, 복제하거나 분석할 수 있도록 돕는 프롬프트 모음",
   "src": "REAP - Prompts for you to use REA (Reverse Engineer Anything), get the most out of it, and clone or break down any program"
  },
+ "JosssphZhou/poki": {
+  "ko": "AI 에이전트가 실제 iPhone을 조작하도록 합니다. 탈옥이나 추가 하드웨어 없이 로컬 MCP 서버와 에이전트로 동작합니다.",
+  "src": "Let AI agents operate a real iPhone. Local MCP server and agent, no jailbreak, no extra hardware."
+ },
  "JuliusBrussee/caveman": {
   "ko": "🪨 적은 토큰으로 될 일에 왜 많은 토큰을 쓰나요? 원시인처럼 말해서 토큰을 65% 줄여 주는, 코딩 에이전트용 화제의 스킬 겸 프록시입니다.",
   "src": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman."
@@ -246,6 +254,10 @@
  "Leonxlnx/taste-skill": {
   "ko": "일반적인 AI 페이지 대신 아트 디렉션, 참고 이미지, 브라우저 검사를 통해 코딩 에이전트에게 감각을 부여하는 에이전트 스킬입니다.",
   "src": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages"
+ },
+ "Leviidev/Henge": {
+  "ko": "iOS와 iPadOS에서 macOS를 에뮬레이트합니다",
+  "src": "Emulate macOS on iOS and iPadOS"
  },
  "LiCinCan/blender-ai-mcp-addon": {
   "ko": "Blender용 AI 어시스턴트이자 MCP 서버: 시각적 채팅, 씬 도구, 다중 에이전트 워크플로우. OpenAI, ChatGPT, Claude, Gemini, Ollama, OpenCode와 함께 작동합니다. 3D 코파일럿인 Blender AI 애드온 및 플러그인, bpy Python 스크립팅, MCP 통합.",
@@ -310,6 +322,10 @@
  "Noniv/web-ocean": {
   "ko": "엔진 없이 처음부터 작성한 실시간 WebGPU 바다 렌더러입니다. FFT 파도, 백캡, 햇빛 반짝임, 구름이 있는 물리 기반 일몰 하늘, 자유 카메라를 지원합니다. Claude Code(Opus 5.5)로 제작되었으며, 61KB 단일 HTML 파일을 Chrome에서 열어 실행합니다.",
   "src": "Real-time WebGPU ocean renderer written from scratch, no engine. FFT waves, whitecaps, sun glitter, physically based sunset sky with clouds, free camera. Built with Claude Code (Opus 5.5). Opens from a single 61 KB HTML file in Chrome."
+ },
+ "NotRexed/Hookshot": {
+  "ko": "닌텐도 스위치 2용 리메이크 「젤다의 전설: 时之笛」(Ocarina of Time)을 네이티브로 재컴파일한 버전",
+  "src": "A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake"
  },
  "Nutlope/hallmark": {
   "ko": "Claude Code, Cursor, Codex를 위한 AI 슬롭(저품질 AI 결과물)을 배제한 디자인 스킬",
@@ -438,6 +454,10 @@
  "Verlintas/NOIR": {
   "ko": "휴대폰 개인정보 감사: adb로 Android 앱의 권한, 데이터 전송 엔드포인트, 데이터 흐름을 스캔하고 되돌릴 수 있는 조치를 제시합니다. 데스크톱 Android 유출 감사: 권한, 엔드포인트, 데이터 흐름, 되돌릴 수 있는 수정.",
   "src": "手机隐私审计：用 adb 扫出 Android 应用的权限、上报端点与数据流向，并给出可回滚的处置。Desktop Android leak audit: permissions, endpoints, data flows, reversible fixes."
+ },
+ "WoYun520/gif-factory": {
+  "ko": "GIF 공장(GIF 工厂): 스타일별 픽셀, 인물과 반려동물, 클레이 마스코트, 래스터 카드, 동적 포스터 GIF를 만드는 스킬.",
+  "src": "GIF 工厂：按风格制作像素、人物与宠物、粘土吉祥物、光栅卡与动态海报的 GIF Skill。"
  },
  "WoYun520/pixel-gif-sticker-pack": {
   "ko": "캐릭터 레퍼런스로 애니메이션 GIF 스티커 팩을 만들고 검증하는 Codex 스킬입니다.",
@@ -715,6 +735,10 @@
   "ko": "Nintendo Switch 2 게임을 PC에서 네이티브로 실행되도록 재컴파일한 것입니다.",
   "src": "Nintendo Switch 2 games recompiled to run natively on PC."
  },
+ "dsx-ai-factory/nvke": {
+  "ko": "NVIDIA Kubernetes Engine(NVKE). 베어메탈 환경에서 GPU Kubernetes를 관리하는 관리 플레인.",
+  "src": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal."
+ },
  "eagle-hq/EAGLE-4": {
   "ko": "EAGLE-4 공식 추론 코드",
   "src": "Official Inference Code of EAGLE-4"
@@ -722,6 +746,10 @@
  "earthtojake/text-to-cad": {
   "ko": "AI로 실물 제품 디자인하기",
   "src": "Design physical products with AI"
+ },
+ "egoist/mygo-music": {
+  "ko": "플러그인으로 기능을 확장할 수 있는 네이티브 음악 플레이어",
+  "src": "A native music player you extend with plugins"
  },
  "elie222/rakazo": {
   "ko": "오픈소스 Grok Bot 대안. 원하는 모델과 샌드박스를 직접 선택할 수 있습니다.",
@@ -979,6 +1007,14 @@
   "ko": "Worktrunk는 병렬 AI 에이전트 워크플로를 위해 설계된 Git 워크트리 관리 CLI입니다.",
   "src": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows"
  },
+ "mbillow/localthings": {
+  "ko": "클라우드 계정 없이 홈 네트워크를 통해 Home Assistant에서 삼성 가전제품을 제어합니다.",
+  "src": "Control your Samsung appliances from Home Assistant over your home network, with no cloud account."
+ },
+ "meta/astryx": {
+  "ko": "완전히 커스터마이징할 수 있고 에이전트에 바로 쓸 수 있는 오픈소스 디자인 시스템",
+  "src": "An open source design system that's fully customizable and agent ready"
+ },
  "mhfed/vn-law-check": {
   "ko": "베트남 법률에 따른 웹사이트 법적 감사 도구(BVDLCN 91/2025, TMĐT 122/2025, ANM 116/2025, AI 134/2025)로, Claude Code, Cursor, Copilot, Windsurf, Cline을 지원합니다.",
   "src": "Audit pháp lý website theo luật Việt Nam (BVDLCN 91/2025, TMĐT 122/2025, ANM 116/2025, AI 134/2025) cho Claude Code, Cursor, Copilot, Windsurf, Cline"
@@ -1199,6 +1235,10 @@
   "ko": "업무를 대신 실행하는 AI 동료. 직접 호스팅할 수 있으며 AGPL-3.0 라이선스입니다.",
   "src": "AI coworkers that run your work. Self-hostable, AGPL-3.0."
  },
+ "riyadhHDA/wichforks": {
+  "ko": "닌텐도 스위치 2 에뮬레이터 포크의 활용 가이드: 빌드, 게임, GPU, 안드로이드, 커뮤니티 리포트를 다룹니다.",
+  "src": "Use-case guide to Nintendo Switch 2 emulator forks: builds, games, GPUs, Android, and community reports."
+ },
  "rociiu/talorys": {
   "ko": "본인의 Cloudflare 계정에서 실행하는 개인 AI 에이전트. 채팅, 메모리, 작업, 메모, 예약 알림을 지원하며, 명령어 하나(npx create-talorys@latest)로 배포합니다. 무료 요금제에 적합하고, 단일 사용자용이며, 텔레메트리가 없습니다.",
   "src": "Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friendly, single-user, no telemetry."
@@ -1239,9 +1279,17 @@
   "ko": "어떤 AI 에이전트에서든 프로덕션 수준의 이미지, 영상, 오디오, 3D를 얻으세요. 적합한 모델을 고르고, 지출 전에 가격을 확인하며, Scenario MCP를 통해 캐릭터와 브랜드의 일관성을 유지하는 스킬과, Blender, Maya, ZBrush, Unreal, Unity를 다루는 전문가 팀을 제공합니다.",
   "src": "Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity."
  },
+ "shanselman/gputaskman": {
+  "ko": "Windows, Linux, WSL용 GPU 작업 관리자. 프로세스별 VRAM, GPU 활동, LLM 모델/KV 캐시 정보를 제공하며 Windows의 AMD와 NVIDIA를 지원합니다.",
+  "src": "A GPU task manager for Windows, Linux, and WSL: per-process VRAM, GPU activity, and LLM model/KV-cache insights (Windows AMD and NVIDIA)."
+ },
  "shaongitbd/doory": {
   "ko": "오픈 소스 Canva 대안",
   "src": "Open source canva alternative"
+ },
+ "sherlock-project/sherlock": {
+  "ko": "여러 소셜 네트워크에서 사용자명으로 소셜 미디어 계정을 찾아내는 도구",
+  "src": "Hunt down social media accounts by username across social networks"
  },
  "shiyu-coder/Kronos": {
   "ko": "Kronos: 금융 시장의 언어를 위한 파운데이션 모델",
@@ -1274,6 +1322,10 @@
  "songjianyang/xss-audit": {
   "ko": "React, TypeScript, JavaScript 프로젝트를 위한 14개 계층 검사를 갖춘 정적 XSS 감사 스킬.",
   "src": "Static XSS audit skill with 14 layers of checks for React, TypeScript, and JavaScript projects."
+ },
+ "sostenesfreitas/ocarina-recomp": {
+  "ko": "에뮬레이터 없이 Windows에서 네이티브로 실행되는 Ocarina of Time. 사용자가 소유한 원본으로 PC에서 직접 빌드하며 게임 파일은 포함되지 않습니다.",
+  "src": "Ocarina of Time running natively on Windows, no emulator. Built on your PC from your own copy. No game files included."
  },
  "speridlabs/idol-sdk": {
   "ko": "Idol: 단일 이미지를 3D 가우시안으로 변환. 추론 SDK와 데모.",
@@ -1326,6 +1378,10 @@
  "t3dotgg/tstack": {
   "ko": "제가 매일 사용하는 에이전트 스킬. Claude Code 및 Codex와 함께 작동합니다.",
   "src": "The agent skills I use every day. Works with Claude Code and Codex."
+ },
+ "tailwindlabs/tailwindcss": {
+  "ko": "빠른 UI 개발을 위한 유틸리티 우선 CSS 프레임워크.",
+  "src": "A utility-first CSS framework for rapid UI development."
  },
  "tashfeenahmed/freellmapi": {
   "ko": "월 77억 토큰, 무료 LLM 제공자 34곳, 무료 모델 엔드포인트 635개를 하나의 /v1 엔드포인트로 제공합니다. 원하는 커스텀 OpenAI 호환 엔드포인트도 추가할 수 있습니다. 스마트 라우팅, 자동 장애 조치, 암호화된 키를 지원합니다. 개인 실험용으로만 사용하세요.",
@@ -1399,6 +1455,10 @@
   "ko": "무료 오픈소스 macOS 메뉴 막대 도구 모음입니다.",
   "src": "Free and open-source macOS menu bar toolkit."
  },
+ "voyager-so/vork": {
+  "ko": "에이전트를 위한 헤드리스 3D 및 VFX 엔진. 리서치 프리뷰.",
+  "src": "Headless 3D and VFX engine for agents. Research preview."
+ },
  "wangrongding/tv-fresh": {
   "ko": "tv-fresh TV 새단장: 샤오미 TV(MIUI TV)의 광고 제거, 기본 설치 앱 정리, 바탕화면 변경, 프록시 및 영상 창고 설치를 돕는 에이전트 스킬. 루트 없이 되돌릴 수 있으며, 펌웨어 리버싱 기록과 원클릭 스크립트 포함",
   "src": "tv-fresh 电视焕新：小米电视(MIUI TV)去广告/清理预装/换桌面/装代理与影视仓的 Agent Skill——免root可逆，含固件逆向实录与一键脚本"
@@ -1410,6 +1470,10 @@
  "wesbos/3d-model-anything": {
   "ko": "iPhone LiDAR와 사진을 캡처해 편집 가능한 Three.js 방을 재구성하고, 브라우저에서 둘러볼 수 있게 합니다.",
   "src": "Capture iPhone LiDAR and photos, reconstruct editable Three.js rooms, and explore them in a browser."
+ },
+ "woniuniuniu/dsh-media-desk": {
+  "ko": "DeepSeek Harness(DeepSeek 하네스) 자미디어 작업대 플러그인: 한 문장으로 영감을 기록하고 대본, 커버, 삽화, 분경을 한 번에 생성합니다",
+  "src": "DeepSeek Harness 自媒体工作台插件：一句话记灵感，一键生成脚本、封面、配图和分镜"
  },
  "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto": {
   "keep": true,
