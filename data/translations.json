@@ -991,6 +991,10 @@
   "ko": "오픈소스 최첨단 음성 AI",
   "src": "Open-Source Frontier Voice AI"
  },
+ "microsoft/vscode": {
+  "ko": "비주얼 스튜디오 코드",
+  "src": "Visual Studio Code"
+ },
  "milind-soni/OpenMausBot": {
   "ko": "가상 머신을 갖춘 봇이 사용할 수 있는 오픈소스 Grok Bot 대안",
   "src": "Open-source Grok Bot alternative with a virtual machine that bots can use"
@@ -1158,6 +1162,10 @@
  "qybaihe/bla": {
   "ko": "🛡️ BLA(Blind LLM Agents) — 바이너리, Electron 앱, JS 번들, Python, WebAssembly를 REA 같은 AI 리버스 엔지니어링 에이전트로부터 보호하는 적대적 방어 방패입니다. 오염 -> 소진 -> 환각.",
   "src": "🛡️ BLA (Blind LLM Agents) — Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI reverse-engineering agents like REA. Poison -> Exhaust -> Hallucinate."
+ },
+ "rails/rails": {
+  "ko": "루비 온 레일즈",
+  "src": "Ruby on Rails"
  },
  "ramenvr/autopilot": {
   "ko": "어떤 게임이든 플레이",
