@@ -43,6 +43,10 @@
   "ko": "여러 IM 플랫폼, LLM, 플러그인, AI 기능을 통합한 AI 에이전트 어시스턴트 및 개발 프레임워크입니다. openclaw의 대안이 될 수 있습니다. ✨",
   "src": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨"
  },
+ "AtomIllusionistDwell/watson-username-footprint-finder": {
+  "ko": "무료 인물 검색 데스크톱 앱: 닉네임, 이메일, 전화번호 또는 사이트를 3,100개 이상의 공개 페이지에서 조회해 하나의 읽기 쉬운 보고서로 받아볼 수 있습니다.",
+  "src": "Free people-search desktop app: look up a nickname, email, phone or site across 3,100+ public pages and get one readable report."
+ },
  "Balanov/shim": {
   "ko": "작고 로컬 우선의 AI 하네스: 모든 모델, MCP, Agent Skills를 지원하며 자연어 CLI를 제공합니다. 의존성이 없고 MIT 라이선스입니다.",
   "src": "Tiny local-first AI harness: any model, MCP and Agent Skills, natural-language CLI. Zero dependencies. MIT."
@@ -75,6 +79,10 @@
   "ko": "버튼 하나로 게임이 끊기는 이유, 렉이 걸리는 이유, 실행되지 않는 이유를 파악합니다. Pitstop은 PresentMon으로 측정하고 쉬운 말로 설명하며, Windows에서만 수정하고 모든 변경 사항을 한 번의 클릭으로 되돌립니다.",
   "src": "One button: why the game stutters, why it lags and why it won't start. Pitstop measures with PresentMon, explains in plain words, fixes Windows only, and undoes every change in one click."
  },
+ "CityPulso/PulsoIcon": {
+  "ko": "애니메이션 React 아이콘. 모든 Lucide 아이콘에 추가 아이콘과 브랜드 로고를 더했으며, 각각 직접 손으로 만든 모션이 적용되어 있습니다. Motion 기반의 lucide-react 대체 라이브러리입니다.",
+  "src": "Animated React icons — every Lucide icon plus extra icons and brand logos, each with its own hand-written motion. Drop-in replacement for lucide-react, built on Motion."
+ },
  "Comfy-Org/ComfyUI": {
   "ko": "가장 강력하고 모듈식인 확산 모델 GUI, API 및 백엔드(그래프/노드 인터페이스). 세계에서 가장 빠른 로컬 추론 엔진.",
   "src": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world."
@@ -102,6 +110,10 @@
  "D4Vinci/Scrapling": {
   "ko": "🕷️ 단일 요청부터 대규모 크롤링까지 모든 것을 처리하는 최고의 웹 스크레이핑 프레임워크! 주저하지 말고 여기 디스코드(https://discord.gg/EMgGbDceNQ)에 참여하고, 매일 팁과 노하우를 보려면 여기(https://x.com/Scrapling_dev)를 팔로우하세요!",
   "src": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev"
+ },
+ "DIYgod/pinky": {
+  "ko": "사용자가 개입한 상태에서 AI 에이전트가 내 휴대폰을 사용하도록 합니다.",
+  "src": "Let AI agents use your phone, with you in the loop."
  },
  "DenisSergeevitch/ex-ussr-kinship-research": {
   "ko": "구소련 지역의 교회 기록, 민사, 군사, 강제 이주 및 탄압 기록을 다루는 증거 중심 족보 스킬(Codex, Claude Code용). 사용자의 언어로 응답합니다.",
@@ -198,6 +210,10 @@
  "Humpalumps/Ultra-Water": {
   "ko": "three.js(WebGL2)용 실시간 FFT 바다 렌더러: 해안 파도, 거품, caustic(빛 굴절 무늬), 수중 렌더링, 부력을 170–300 fps로 구현합니다.",
   "src": "Real-time FFT ocean renderer for three.js (WebGL2): shore breakers, foam, caustics, underwater rendering and buoyancy at 170–300 fps"
+ },
+ "IainKay/ram-altman": {
+  "ko": "RAM을 모니터링하고 \"꽤 끔찍한\" 미사용 용량을 OpenAI CEO에게 직접 보고합니다.",
+  "src": "Monitors your RAM and reports any \"quite terrible\" unused capacity directly to the CEO of OpenAI."
  },
  "Jakeschincariol/day-trader-skill": {
   "ko": "데이 트레이딩을 위한 Claude 스킬 11종: 수천 개의 차트를 스캔하고, 속보 뉴스를 추적하며, 모든 진입과 청산 시점을 정하고, 돈을 걸기 전에 모든 결과를 재생해 봅니다.",
@@ -423,6 +439,10 @@
   "ko": "더 똑똑한 직접 호스팅 AI 어시스턴트로, 다중 사용자와 다중 에이전트를 지원합니다.",
   "src": "A smarter, self-hosted AI assistant — multi-user, multi-agent."
  },
+ "Th0rgal/satmux": {
+  "ko": "따뜻한 BBR TCP 다중화, 1-RTT Ground-TLS, zlib(의존성 없음)을 활용해 지연 시간이 높은 GEO 기내 Wi-Fi를 가속합니다",
+  "src": "Accelerate high-latency GEO inflight Wi-Fi via warm BBR TCP multiplexing + 1-RTT Ground-TLS + zlib (zero dependencies)"
+ },
  "The-PR-Agent/pr-agent": {
   "ko": "🚀 PR Agent: 원조 오픈소스 PR 리뷰어. 이 프로젝트는 Qodo 무료 티어가 아닙니다.",
   "src": "🚀 PR Agent: The Original Open-Source PR Reviewer. This project is not the Qodo free tier."
@@ -567,6 +587,10 @@
   "ko": "Anthropic이 직접 관리하는 공식 디렉터리로, 고품질 Claude Code 플러그인을 모아 둔 곳입니다.",
   "src": "Official, Anthropic-managed directory of high quality Claude Code Plugins."
  },
+ "anthropics/claude-quickstarts": {
+  "ko": "개발자가 Claude API로 배포 가능한 애플리케이션을 빠르게 만들 수 있도록 돕는 프로젝트 모음",
+  "src": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API"
+ },
  "anthropics/knowledge-work-plugins": {
   "ko": "Claude Cowork에서 주로 지식 노동자가 사용하도록 만든 플러그인 모음 오픈소스 저장소입니다.",
   "src": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork"
@@ -610,6 +634,10 @@
  "benderandrew069/deepseek-api-pricing-2026": {
   "ko": "DeepSeek API 요금 가이드: 모델, 캐시 히트, 피크 시간대별 요금(2026).",
   "src": "DeepSeek API pricing guide for models, cache hits, and peak hours (2026)."
+ },
+ "blader/humanizer": {
+  "ko": "텍스트에서 AI가 생성한 글의 흔적을 제거하는 에이전트 스킬",
+  "src": "Agent skill that removes signs of AI-generated writing from text"
  },
  "blakeandersonw/ai-app-playbook": {
   "ko": "2026년에 유용하고 수익성 있는 앱을 만드는 방법입니다. 복제한 뒤 코딩 에이전트가 AGENTS.md를 보도록 지정하세요.",
@@ -815,6 +843,10 @@
   "ko": "📨 최고의 에이전틱 소셜 미디어 예약 도구 🤖",
   "src": "📨 The ultimate agentic social media scheduling tool 🤖"
  },
+ "google-deepmind/mujoco": {
+  "ko": "접촉을 포함한 다관절 동역학 시뮬레이터. 범용 물리 시뮬레이터.",
+  "src": "Multi-Joint dynamics with Contact. A general purpose physics simulator."
+ },
  "google-gemini/gemini-cli": {
   "ko": "Gemini의 능력을 터미널에서 바로 사용할 수 있게 해주는 오픈소스 AI 에이전트",
   "src": "An open-source AI agent that brings the power of Gemini directly into your terminal."
@@ -903,6 +935,10 @@
   "ko": "훌륭한 인터페이스를 만드는 데 도움을 주는 에이전트 스킬 모음입니다.",
   "src": "A collection of agent skills that help you build great interfaces."
  },
+ "jamesondh/chimera-vocal-synth": {
+  "ko": "궁극의 보컬 합성기. 노래, 말하기, 비트박스 등을 지원합니다.",
+  "src": "the ultimate vocal synthesizer - sing, speak, beatbox, and more"
+ },
  "jbiaojerry/ebook-treasure-chest": {
   "ko": "각종 전자책 다운로드 링크를 모아 둔 전자책 다운로드 보고. 고전문학, 경제경영, 자기계발, 평생학습, 직장·창업, 기술 서적 등 다양한 분야의 책을 찾을 수 있습니다. 판샤오(帆书, 구 판덩독서), 위챗 읽기, 징둥 읽기, 시마라야 등 주요 독서 앱의 대부분의 전자책을 포함합니다.",
   "src": "欢迎来到电子书下载宝库，一个汇聚了各类电子书下载链接的地方。无论你是喜欢阅读经典文学、经管励志、终身学习、职场创业、技术手册还是其他类型的书籍，这里都能满足你的需求。 该库涵盖了帆书app(原樊登读书)、微信读书、京东读书、喜马拉雅等读书app的大部分电子书。"
@@ -970,6 +1006,10 @@
  "luongnv89/claude-howto": {
   "ko": "기본 개념부터 고급 에이전트까지, 바로 활용 가능한 복사-붙여넣기 템플릿과 함께하는 예제 중심의 시각적 Claude Code 가이드",
   "src": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value."
+ },
+ "lxe/phoneuse": {
+  "ko": "Linux PC에서 수정하지 않은 iPhone을 보고 조작합니다. AirPlay 미러링 입력, 블루투스 HID 마우스/키보드 출력, 그리고 에이전트용 CLI와 스킬을 제공합니다.",
+  "src": "See and operate an unmodified iPhone from a Linux PC: AirPlay mirror in, Bluetooth HID mouse/keyboard out, plus a CLI and skill for agents."
  },
  "lyramakesmusic/neuron-explorer": {
   "ko": "Qwen3.5-4B용 조향 중심 뉴런 탐색기. 모든 MLP 뉴런을 밀어보고, 모든 롤아웃을 보관하며, 결과를 탐색할 수 있습니다.",
@@ -1274,6 +1314,10 @@
  "sarpstar/cinecode": {
   "ko": "코드로 만드는 영화. 단편 영화, 긴 YouTube 영상, 광고, 설명 영상, 뮤직비디오를 AI 코딩 에이전트가 대본을 쓰고, 모든 프레임을 코드로 만들고, 사운드를 디자인해 MP4 파일로 제공합니다.",
   "src": "Films made with code. Short films, long YouTube videos, ads, explainers and music videos: an AI coding agent writes the script, builds every frame in code, designs the sound and hands you an MP4."
+ },
+ "sassiestrhihno/boxshelf-beta": {
+  "ko": "Windows, Android(AYN Thor), Linux / Steam Deck용 Boxshelf 공개 베타: 에뮬레이터, Steam 게임, 미디어 앱을 위한 TV 스타일 3D 박스아트 선반입니다.",
+  "src": "Boxshelf public beta for Windows, Android (AYN Thor) and Linux / Steam Deck: a TV-style 3D box-art shelf for your emulators, Steam games and media apps."
  },
  "scenario-labs/skills": {
   "ko": "어떤 AI 에이전트에서든 프로덕션 수준의 이미지, 영상, 오디오, 3D를 얻으세요. 적합한 모델을 고르고, 지출 전에 가격을 확인하며, Scenario MCP를 통해 캐릭터와 브랜드의 일관성을 유지하는 스킬과, Blender, Maya, ZBrush, Unreal, Unity를 다루는 전문가 팀을 제공합니다.",

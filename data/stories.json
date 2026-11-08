@@ -264,6 +264,39 @@
    ],
    "subheadline": "내부 개발 플러그인과 서드파티 플러그인을 한곳에 모은 큐레이션 마켓플레이스"
   },
+  "anthropics/claude-quickstarts": {
+   "date": "2026-11-09",
+   "headline": "Claude API 시작하기, 퀵스타트 모음 공개",
+   "highlights": [
+    "Claude API 키만 있으면 시작할 수 있는 예제 프로젝트 모음",
+    "고객 지원, 금융 분석, 컴퓨터·브라우저 제어 등 다양한 사례 제공",
+    "Managed Agents 기반 Slack, Linear, Sentry 연동 예제 다수 포함",
+    "Python과 TypeScript로 제공되는 최소 툴셋 예제",
+    "Computer Use Best Practices는 VM에서 실행할 것을 권고"
+   ],
+   "image": null,
+   "image_caption": "Claude API 기반 퀵스타트 프로젝트 모음을 소개하는 claude-quickstarts 저장소",
+   "lead": "앤트로픽(Anthropic)이 공개한 claude-quickstarts는 Claude API로 애플리케이션을 빠르게 만들 수 있도록 돕는 예제 프로젝트 모음입니다. 각 퀵스타트는 개발자가 자신의 필요에 맞게 확장할 수 있는 기초 틀을 제공합니다.",
+   "sections": [
+    {
+     "heading": "무엇인가",
+     "text": "이 저장소는 Claude API를 활용한 여러 프로젝트를 한데 모은 컬렉션입니다. 사용하려면 Claude API 키가 필요하며, console.anthropic.com에서 무료로 가입해 발급받을 수 있다고 README는 안내합니다. 주요 프로젝트로는 지식 베이스를 연동한 Customer Support Agent, 채팅으로 금융 데이터를 분석하고 대화형 시각화를 제공하는 Financial Data Analyst 등이 있습니다."
+    },
+    {
+     "heading": "컴퓨터와 브라우저를 다루는 에이전트",
+     "text": "Computer Use Demo는 Claude가 데스크톱 컴퓨터를 제어하는 환경과 도구를 보여주며, 각 컴퓨터 동작을 모델이 이름으로 호출하는 멤버 도구로 취급하는 `computer_toolset_20260801` 형태를 지원합니다. Computer Use Best Practices는 macOS에서 직접 실행하는 교육용 참조 구현으로, 명시적 도구 정의, 이미지 크기 조정과 정리, 프롬프트 캐싱, 서버 측 컴팩션, 배치 도구 호출, 샌드박스 셸, 궤적 기록 등의 패턴을 다룹니다. VM에서 실행하라는 권고가 붙어 있습니다. Browser Use Demo는 Playwright 기반 브라우저 도구로 웹사이트 탐색, DOM 요소 조사와 상호작용, 콘텐츠 추출, 폼 입력을 구현합니다. Browser Toolset Quickstart(`browser_toolset_20260801`)와 Computer Toolset Quickstart는 각각 CDP와 VNC 기반의 최소 예제로, Python과 TypeScript로 제공되며 인터페이스를 보여주는 용도이고 프로덕션 코드는 아니라고 명시돼 있습니다."
+    },
+    {
+     "heading": "Managed Agents 계열 예제",
+     "text": "저장소의 상당 부분은 Claude Managed Agents를 활용한 사례입니다. Chat SDK 예제는 Vercel의 Chat SDK와 결합해 어댑터 교체만으로 Slack, Teams, Discord, Telegram, WhatsApp에서 같은 핸들러를 실행합니다. CopilotKit과 AG-UI 예제는 에이전트 도구 호출을 대화형 생성 UI로 렌더링합니다. Daily Brief는 평일마다 Slack 채널과 GitHub 풀 리퀘스트를 읽어 요약을 Slack에 게시하며, `ant apply`로 적용하는 파일 기반 배포를 보여줍니다. Knowledge Wiki는 SEC EDGAR 공개 공시로 구성한 M&A 데이터룸을 한 번 정리해 버전이 관리되는 메모리 스토어 위키로 만들고, 모든 사실에 출처를 달아 질문에 답합니다. 이 밖에 Linear에서 멘션하거나 할당할 수 있는 에이전트, 아홉 개 도구로 Sessions API를 노출하는 TypeScript MCP 서버, 국립공원 로드트립 플래너, Sentry 트리아지와 Sentry Autofix 예제가 포함돼 있습니다."
+    },
+    {
+     "heading": "자율 코딩 에이전트",
+     "text": "Autonomous Coding Agent는 Claude Agent SDK로 만든 예제로, 초기화 에이전트와 코딩 에이전트가 짝을 이루는 두 에이전트 패턴을 보여줍니다. 여러 세션에 걸쳐 완성된 애플리케이션을 만들며, 진행 상황은 git과 기능 목록으로 보존되고 에이전트가 목록을 차례로 처리합니다."
+    }
+   ],
+   "subheadline": "고객 지원부터 컴퓨터 제어, 매니지드 에이전트까지 배포 가능한 예제 프로젝트를 한곳에"
+  },
   "cloudflare/security-audit-skill": {
    "date": "2026-11-07",
    "headline": "코딩 에이전트를 보안 감사관으로 바꾸는 스킬",
@@ -989,6 +1022,11 @@
    "date": "2026-10-27",
    "long": false,
    "text": "Postiz는 소셜 미디어 게시물을 예약하고 자동화하며 성과를 분석할 수 있는 관리 플랫폼입니다. 팀원과 함께 게시물을 검토하고 예약할 수 있으며, 공개 API와 n8n, Make.com 같은 자동화 도구 연동을 지원합니다. 클라우드 버전을 쓰거나 자체 인프라에 오픈소스 버전을 직접 배포할 수 있다는 점이 특징입니다."
+  },
+  "google-deepmind/mujoco": {
+   "date": "2026-11-09",
+   "long": true,
+   "text": "MuJoCo는 Multi-Joint dynamics with Contact의 약자로, 로봇공학, 생체역학, 그래픽과 애니메이션, 머신러닝 등에서 관절로 연결된 구조물이 환경과 상호작용하는 모습을 빠르고 정확하게 시뮬레이션하기 위해 만들어진 범용 물리 엔진이다. Google DeepMind가 관리하며, C API를 기본으로 제공하고 Python 바인딩과 Unity 게임 엔진용 플러그인도 함께 지원한다. 브라우저에서 바로 실행해 볼 수 있는 WebAssembly 버전과 네이티브 데스크톱 뷰어도 제공해 연구자와 개발자가 설치 부담 없이 시작할 수 있다는 점이 눈에 띈다."
   },
   "google-gemini/gemini-cli": {
    "date": "2026-10-25",
