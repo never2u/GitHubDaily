@@ -7,6 +7,10 @@
   "ko": "공식 버전을 수정할 필요가 없고 display_errors나 limit_memory가 필요 없는 php2shell 익스플로잇.",
   "src": "A php2shell exploit that requires no modifications to the official version, and does not require display_errors or limit_memory."
  },
+ "AbhramJohn/instagram-engagement-bot": {
+  "ko": "데스크톱용 고급 자동화를 갖춘 커뮤니티 기반 Instagram 좋아요 봇",
+  "src": "Community-driven Instagram Liker Bot with advanced automation for desktop"
+ },
  "Acelogic/Snapintosh": {
   "ko": "ASUS A16(Snapdragon X2 Elite)에서 macOS를 부팅하는 EL2 하이퍼바이저 및 툴체인, Adreno Metal/IOGPU 스택 포함",
   "src": "EL2 hypervisor and toolchain that boots macOS on the ASUS A16 (Snapdragon X2 Elite), with an Adreno Metal/IOGPU stack"
@@ -499,9 +503,21 @@
   "ko": "macOS, Windows, Linux용 에이전트 우선 리버스 엔지니어링 도구. 모든 ACP 에이전트가 바이너리, 안드로이드 앱, GPU 커널을 읽고, 이름을 바꾸고, 패치할 수 있습니다.",
   "src": "Agent-first reverse engineering for macOS, Windows and Linux: any ACP agent reads, renames and patches binaries, Android apps and GPU kernels next to you."
  },
+ "ZhuLinsen/daily_stock_analysis": {
+  "ko": "LLM 기반 다중 시장 주식 분석 시스템: 여러 소스의 시세, 실시간 뉴스, 의사결정 대시보드, 자동 알림을 제공하며 비용 없이 예약 실행이 가능합니다.",
+  "src": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs."
+ },
  "ZiChuanLan/agent-purge": {
   "ko": "하나의 페르소나를 여러 코딩 에이전트에 적용하세요. 로컬 웹 콘솔에서 codex, claude, opencode, grok, omp, hermes, pi, zcode의 시스템 프롬프트를 교체하거나 주입합니다.",
   "src": "One persona, many coding agents. Replace or inject system prompts across codex, claude, opencode, grok, omp, hermes, pi, zcode - with a local web console."
+ },
+ "abdulmannanmalik13-wq/adobe-substance-3d-studio": {
+  "ko": "Adobe Substance 3D Creative Studio 2026 - 보안 에셋 파이프라인 데스크톱 설치 프로그램",
+  "src": "Adobe Substance 3D Creative Studio 2026 - Secure Asset Pipeline Desktop Installer"
+ },
+ "abhijot11/fabfilter-total": {
+  "ko": "전체 기능 검증과 설치 프로그램 검증을 갖춘 Fabfilter Total 2026 보안 점검 도구 모음",
+  "src": "Fabfilter Total 2026 security assessment toolkit with full feature validation and installer verifica"
  },
  "addyosmani/agent-skills": {
   "ko": "AI 코딩 에이전트를 위한 실무 수준의 엔지니어링 스킬입니다.",
@@ -747,6 +763,14 @@
   "ko": "词光 · Word Atlas: 7,298개 단어를 담은 삽화 포함 IELTS 어휘 학습 앱. 영국/미국 발음 오디오와 FSRS 복습 제공. 오픈소스 앱 + CC BY 4.0 데이터셋.",
   "src": "词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset."
  },
+ "devvmhq/devvm": {
+  "ko": "프로젝트마다 하나의 VM을. 프로젝트의 툴체인이 갖춰진 격리 샌드박스로, 사용자나 코딩 에이전트가 바로 코딩을 시작할 수 있습니다.",
+  "src": "One VM for every project. An isolated sandbox with your project’s toolchain, ready for you or a coding agent to start coding"
+ },
+ "dhruvthakur11/youtube-ai-video-editing-system": {
+  "ko": "Eyeline 텔레프롬프터에 편집 에이전트를 결합한 JSON 기반 애니메이션 및 모션 그래픽 워크플로",
+  "src": "Eyeline teleprompter meets editing agents: JSON-driven animation and motion graphics workflow"
+ },
  "dipa-studio/ios-sweet": {
   "ko": "Redmi Note 10 Pro(sweet, SM7150)에서 구동하는 iOS 16 userland + XNU",
   "src": "iOS 16 userland + XNU on Redmi Note 10 Pro (sweet, SM7150)"
@@ -823,6 +847,10 @@
   "ko": "Flutter로 모바일과 그 밖의 플랫폼에서 아름다운 앱을 쉽고 빠르게 만들 수 있습니다",
   "src": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond"
  },
+ "garrytan/gbrain": {
+  "ko": "Garry의 독자적인 OpenClaw/Hermes 에이전트 브레인",
+  "src": "Garry's Opinionated OpenClaw/Hermes Agent Brain"
+ },
  "garrytan/gstack": {
   "ko": "Garry Tan의 Claude Code 설정을 그대로 사용하세요. CEO, 디자이너, 엔지니어링 매니저, 릴리스 매니저, 문서 엔지니어, QA 역할을 수행하는 23개의 뚜렷한 방식의 도구입니다.",
   "src": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA"
@@ -887,6 +915,14 @@
   "ko": "JavaScript 기반의 네트워크 디스크 파일 다운로드 주소 추출 도구. 【网盘直链下载助手】를 수정하여 만들었으며, 바이두 넷디스크(百度网盘), 알리윈판(阿里云盘), 중국모바일 클라우드(中国移动云盘), 톈이윈(天翼云盘), 쉰레이 클라우드(迅雷云盘), 쿼크 넷디스크(夸克网盘), UC 넷디스크(UC网盘), 123 클라우드(123云盘) 등 8개 네트워크 디스크를 지원합니다.",
   "src": "一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘"
  },
+ "homeassistant-ai/ha-mcp": {
+  "ko": "Claude, ChatGPT 등 다양한 AI 어시스턴트로 Home Assistant를 설정하고 자동화합니다.",
+  "src": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants."
+ },
+ "huamidev/GestaltX": {
+  "ko": "iOS 27.x용 MobileGestalt 편집기로, 지역 코드 조정, 기기 프리셋, 백업 기능과 7개 언어를 지원합니다.",
+  "src": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages."
+ },
  "huaxialucaicaizi/ai-startup-skills": {
   "ko": "스타트업이 AI 제품을 만드는 7단계 Agent Skill 모음: 검증 → 사업계획서 → 정책 → 발표 → 고객 확보 → 가격 책정 → 등록.",
   "src": "创业公司做 AI 产品的 7 步 Agent Skill 合集：验证 → BP → 政策 → 路演 → 获客 → 定价 → 注册。"
@@ -942,6 +978,10 @@
  "jbiaojerry/ebook-treasure-chest": {
   "ko": "각종 전자책 다운로드 링크를 모아 둔 전자책 다운로드 보고. 고전문학, 경제경영, 자기계발, 평생학습, 직장·창업, 기술 서적 등 다양한 분야의 책을 찾을 수 있습니다. 판샤오(帆书, 구 판덩독서), 위챗 읽기, 징둥 읽기, 시마라야 등 주요 독서 앱의 대부분의 전자책을 포함합니다.",
   "src": "欢迎来到电子书下载宝库，一个汇聚了各类电子书下载链接的地方。无论你是喜欢阅读经典文学、经管励志、终身学习、职场创业、技术手册还是其他类型的书籍，这里都能满足你的需求。 该库涵盖了帆书app(原樊登读书)、微信读书、京东读书、喜马拉雅等读书app的大部分电子书。"
+ },
+ "jhaizhou-ops/S2Arm": {
+  "ko": "Switch 게임을 iPhone, iPad, Mac에서 네이티브로 실행합니다. 게임 코드를 ARM64로 재작성하고 그래픽은 Metal로 직접 출력하며, 하나의 앱으로 전체 라이브러리를 이용할 수 있습니다. 게임과 키는 직접 준비해야 합니다. (把你自己的 Switch 游戏原生带到 iPhone / iPad / Mac。)",
+  "src": "Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one app for the whole library. Bring your own games and keys. 把你自己的 Switch 游戏原生带到 iPhone / iPad / Mac。"
  },
  "jhaizhou-ops/d2r-mobile": {
   "ko": "Reign of the Warlock 확장팩이 포함된 Diablo II: Resurrected를 iOS / macOS에서 실행하는 오픈소스 호환 레이어. 보유한 Switch 게임 사본을 iPhone, iPad, Mac에서 네이티브로 실행하며, 완전한 터치 조작, 60 fps, 새로운 엔드게임 모드를 지원합니다. 게임 파일은 직접 준비해야 합니다.",
@@ -1022,6 +1062,10 @@
  "macro-inc/macro": {
   "ko": "Macro는 팀을 위한 통합 워크스페이스로, 이메일, 채팅, 문서, 작업, 에이전트, 통화, CRM을 @ 링크로 연결하고 공유 AI 메모리를 제공합니다.",
   "src": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory."
+ },
+ "mahmoudtawfik1998/secure-pdf-document-processor": {
+  "ko": "Adobe Acrobat Pro 2026: 데스크톱용 보안 독립 실행형 PDF 문서 처리기",
+  "src": "Adobe Acrobat Pro 2026: Secure Standalone PDF Document Processor for Desktop"
  },
  "majorminorlabs/hermes-voice": {
   "ko": "Home Assistant Assist를 통해 Hermes Agent 프로필과 대화합니다.",
@@ -1323,6 +1367,10 @@
   "ko": "어떤 AI 에이전트에서든 프로덕션 수준의 이미지, 영상, 오디오, 3D를 얻으세요. 적합한 모델을 고르고, 지출 전에 가격을 확인하며, Scenario MCP를 통해 캐릭터와 브랜드의 일관성을 유지하는 스킬과, Blender, Maya, ZBrush, Unreal, Unity를 다루는 전문가 팀을 제공합니다.",
   "src": "Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity."
  },
+ "shammahcharumbira/universal-neural-injector-center": {
+  "ko": "모든 RTX 타이틀을 지원하는 범용 뉴럴 DLSS 5 인젝터 및 게임 센터",
+  "src": "Universal Neural DLSS 5 Injector and Game Center for All RTX Titles"
+ },
  "shanselman/gputaskman": {
   "ko": "Windows, Linux, WSL용 GPU 작업 관리자. 프로세스별 VRAM, GPU 활동, LLM 모델/KV 캐시 정보를 제공하며 Windows의 AMD와 NVIDIA를 지원합니다.",
   "src": "A GPU task manager for Windows, Linux, and WSL: per-process VRAM, GPU activity, and LLM model/KV-cache insights (Windows AMD and NVIDIA)."
@@ -1555,6 +1603,10 @@
  "yaojingang/GEOInflow": {
   "ko": "생성형 엔진 최적화(GEO)를 위한 자체 호스팅 웹 및 AI 크롤러 분석 도구입니다. 방문자, AI 검색 유입, 크롤링 로그, 콘텐츠 범위, 전환을 추적합니다. 리카이 테크놀로지와 베이징일보사 즈위안 GEO가 공동 발행했습니다. MIT 라이선스.",
   "src": "Self-hosted web and AI crawler analytics for Generative Engine Optimization (GEO). Track visitors, AI search referrals, crawl logs, content coverage, and conversions. Jointly published by 猎看科技 · 北京日报社智源GEO. MIT licensed."
+ },
+ "yappologistic/CUI": {
+  "ko": "C용 네이티브 UI 컴포넌트 약 150개를 제공하며, 스프링 모션과 완전한 키보드 지원을 갖췄습니다. Windows, macOS, Linux에서 의존성 없이 동작합니다.",
+  "src": "Native UI components for C: about 150 of them, with spring motion and full keyboard support. Windows, macOS and Linux, no dependencies."
  },
  "yetone/alma-relay": {
   "ko": "Alma Remote Access용 릴레이를 직접 호스팅하세요. 어디서든 휴대폰으로 데스크톱 Alma를 제어할 수 있습니다. Docker 또는 Cloudflare Workers를 사용할 수 있습니다.",
