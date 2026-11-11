@@ -151,6 +151,10 @@
   "ko": "Ely Office: Rust와 GPUI로 만든 오프라인 우선 데스크톱 앱",
   "src": "Ely Office: offline-first desktop apps in Rust and GPUI"
  },
+ "Eriazeri/on1-photo-raw-max-config": {
+  "ko": "on1-photo-raw-max: 고급 이미지 도구를 포함한 완전 독립 실행형 설치본",
+  "src": "on1-photo-raw-max: complete standalone setup with advanced image tools"
+ },
  "EthanArbuckle/fairplay-decrypt": {
   "ko": "독립적인 키 파생 방식을 사용한 오프라인 FairPlay App Store IPA 복호화",
   "src": "Offline FairPlay App Store IPA decryption with independent key derivation"
@@ -255,6 +259,10 @@
   "ko": "명령줄 에이전트가 백그라운드에서 스스로 작업을 받아 끝까지 진행하도록 합니다. 평소에는 방해하지 않고, 판단이 어려운 일이 생기면 카드를 보내 결정을 요청합니다.",
   "src": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。"
  },
+ "Kianuni/Erosion-CN": {
+  "ko": "iOS / iPadOS 시스템 설정 및 MobileGestalt 연구 툴킷(간체 중국어 방백애(防白苹果) 보안 강화판)",
+  "src": "iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（简体中文防白苹果安全加固版）"
+ },
  "KillaBoi/StealMyBitcoin-PoC": {
   "ko": "Steal My Bitcoin 챌린지의 공개 릴리스",
   "src": "A public release of the Steal My Bitcoin challenge"
@@ -290,6 +298,10 @@
  "MadsLorentzen/ai-job-search": {
   "ko": "내 컴퓨터에서 돌아가는 구직 도구. Claude Code 기반의 AI 지원 프레임워크로, 채용 공고 평가, 이력서 맞춤화, 자기소개서 작성, 면접 준비를 도와줍니다. 포크해서 내 것으로 만들어 쓰세요.",
   "src": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it."
+ },
+ "Malik-825/sketchup-pro-desktop": {
+  "ko": "Sketchup Pro 2026 완전 독립 실행형 데스크톱 설치본(모든 기능 사전 활성화)",
+  "src": "Sketchup Pro 2026 Complete Standalone Desktop Setup with All Features Pre-Activated"
  },
  "Meloong-Git/PCL": {
   "ko": "Minecraft 런처 Plain Craft Launcher(PCL).",
@@ -398,6 +410,14 @@
  "RikiyaT/lm_understand-logs": {
   "ko": "블로그 글 'LLM은 신경망 가중치를 이해하고 작성할 수 있다'의 실험 전체 로그",
   "src": "Complete logs of the experiments in the blog post 'LLMs can understand and write neural network weights'"
+ },
+ "RolandoV3/metatrader-5-bot": {
+  "ko": "커뮤니티 중심의 MetaTrader 5 봇, 데스크톱에서 바로 사용할 수 있는 모든 기능 포함",
+  "src": "Community-driven MetaTrader 5 bot with full features ready for desktop use"
+ },
+ "SK-Dev666/rust-external-trainer-tool": {
+  "ko": "Rust External 2026: 바로 실행 가능한 독립 실행형 트레이너 설치본(도구 및 종속 요소 포함)",
+  "src": "Rust External 2026: Full Standalone Trainer Setup, Tools and Dependencies Ready to Run"
  },
  "Sandflow-ai/sand3d": {
   "ko": "LLM을 위해 만들어진 Python 기반 3D 모델링 도구입니다.",
@@ -651,6 +671,10 @@
   "ko": "DeepSeek API 요금 가이드: 모델, 캐시 히트, 피크 시간대별 요금(2026).",
   "src": "DeepSeek API pricing guide for models, cache hits, and peak hours (2026)."
  },
+ "bipro45/actual-multi-display-configurator": {
+  "ko": "향상된 디스플레이 옵션을 갖춘 멀티 모니터 데스크톱 구성 설치 프로그램",
+  "src": "Multi-Monitor Desktop Configuration Installer with Enhanced Display Options"
+ },
  "blader/humanizer": {
   "ko": "텍스트에서 AI가 생성한 글의 흔적을 제거하는 에이전트 스킬",
   "src": "Agent skill that removes signs of AI-generated writing from text"
@@ -730,6 +754,10 @@
  "cursor/plugins": {
   "ko": "Cursor 플러그인 사양 및 공식 플러그인입니다.",
   "src": "Cursor plugin specification and official plugins"
+ },
+ "daiphu2708-crypto/melodyne-5-desktop-setup": {
+  "ko": "Melodyne-5: 전체 기능을 갖춘 전문 오디오 편집 데스크톱 스위트",
+  "src": "Melodyne-5: Professional Audio Editing Desktop Suite with Full Feature Set"
  },
  "datalab-to/indra": {
   "ko": "빠른 CPU OCR: 줄 검출, CTC 인식, 읽기 순서 처리, 마크다운 출력",
@@ -1015,6 +1043,10 @@
   "ko": "🐍 공간 AI를 위한 기하학 컴퓨터 비전 라이브러리",
   "src": "🐍 Geometric Computer Vision Library for Spatial AI"
  },
+ "leanislizarzado/ibm-spss-desktop-suite": {
+  "ko": "IBM SPSS Statistics 2026 독립 실행형 설치본(전체 기능 구성 포함)",
+  "src": "IBM SPSS Statistics 2026 Standalone Setup with Full Feature Configuration"
+ },
  "lesnolie/Tigris": {
   "ko": "Android TV용 tvOS 27 스타일 런처 Tigris: 리퀴드 글래스 도크, 탑 셸프, 글래스 제어 센터, 사진 화면보호기를 제공합니다. 에이전트로 설치할 수 있습니다.",
   "src": "Tigris — tvOS 27 style launcher for Android TV: Liquid Glass dock, Top Shelf, glass Control Center, photo screensaver. Agent-installable."
@@ -1074,6 +1106,10 @@
  "makecindy/cindy": {
   "ko": "맡겨만 주세요. 별다른 설정 없이 바로 작동하는 오픈소스 AI 에이전트. 생각하면, 바로 실현됩니다.",
   "src": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。"
+ },
+ "manjushree-iyer/soundpad-audio-suite": {
+  "ko": "Soundpad: 전문 DAW 워크플로를 위한 고급 오디오 처리",
+  "src": "Soundpad: Advanced Audio Processing for Professional DAW Workflows"
  },
  "marclou/mailcheap": {
   "ko": "보내는 이메일에 대해서만 요금을 내는 뉴스레터 서비스. 휴면 구독자에게는 요금이 없으며, beehiiv 등과 비교해 훨씬 저렴합니다. 오픈 소스이므로 직접 호스팅하거나 mailcheap.ai를 이용할 수 있습니다.",
@@ -1307,6 +1343,10 @@
   "ko": "국산 안드로이드 휴대폰 시스템의 광고, 인기 검색어, 정보 추천, 마케팅 푸시를 끕니다. 루팅이 필요 없고 원상복구가 가능하며, AI 에이전트로 한 번에 실행할 수 있습니다.",
   "src": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。"
  },
+ "rdeepak-wq121/quicken-deluxe-installer": {
+  "ko": "Quicken Deluxe 데스크톱 설치 프로그램(전체 기능 활성화)",
+  "src": "Quicken Deluxe Desktop Installer with Full Feature Set Enabled"
+ },
  "react/react": {
   "ko": "웹과 네이티브 사용자 인터페이스를 위한 라이브러리입니다.",
   "src": "The library for web and native user interfaces."
@@ -1378,6 +1418,10 @@
  "shaongitbd/doory": {
   "ko": "오픈 소스 Canva 대안",
   "src": "Open source canva alternative"
+ },
+ "shayannazar84-hero/honkai-star-rail-companion-suite": {
+  "ko": "Honkai Star Rail 2026 트레이너 도구: 바로 실행 가능한 완전 독립 설치본",
+  "src": "Honkai Star Rail 2026 Trainer Tool: Complete Standalone Setup, Ready to Run"
  },
  "sherlock-project/sherlock": {
   "ko": "여러 소셜 네트워크에서 사용자명으로 소셜 미디어 계정을 찾아내는 도구",
@@ -1491,6 +1535,10 @@
   "ko": "모든 에이전트를 위한 세션 간 지속 컨텍스트입니다. 세션 중 에이전트가 하는 모든 일을 기록하고 AI로 압축한 뒤, 관련 컨텍스트를 이후 세션에 다시 주입합니다. Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode 등과 함께 작동합니다.",
   "src": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More"
  },
+ "thiagoaureliomartins-programador/chief-architect-premier": {
+  "ko": "Chief Architect Premier 2026: 모든 기능이 활성화된 사전 구성 데스크톱 에디션",
+  "src": "Chief Architect Premier 2026: Pre-Configured Desktop Edition with All Features Enabled"
+ },
  "threerocks/sweety-handdraw-video": {
   "ko": "주제나 글로 손그림 강의 영상을 만들어 줍니다. 부위별 선 그리기, 글자별 필기, VoiceStudio 더빙, 기본 제공 제작 의존성 5종을 지원합니다.",
   "src": "从主题或文章制作完整手绘讲解视频：按部位描线、逐字书写、VoiceStudio 配音、五项内置制作依赖。"
@@ -1498,6 +1546,10 @@
  "togg53192-cmd/jailbreaks": {
   "ko": "내 모든 재일브레이크(탈옥) 목록",
   "src": "LIST OF ALL MY JAILBREAKS"
+ },
+ "tokio-rs/topcoat": {
+  "ko": "웹 앱 개발을 위한 배터리 포함(batteries-included) 프레임워크",
+  "src": "A batteries-included framework for building web apps"
  },
  "torrentplayer/torrentplayer": {
   "ko": "토렌트, 동영상, 오디오를 스트리밍하고 원하는 지점으로 약 1초 만에 이동할 수 있습니다. Windows, macOS, Linux용 무료 오픈소스 데스크톱 앱. 서버, 계정, 텔레메트리가 없습니다.",
@@ -1559,6 +1611,10 @@
   "ko": "앱과 웹을 조작해 작업을 대신 처리하는 Android용 온디바이스 AI 에이전트.",
   "src": "An on-device AI agent for Android that operates apps and the web to get things done for you."
  },
+ "we-promise/sure": {
+  "ko": "모두를 위한 (모두가 만든) 개인 금융 앱",
+  "src": "The personal finance app for everyone (by everyone)"
+ },
  "wesbos/3d-model-anything": {
   "ko": "iPhone LiDAR와 사진을 캡처해 편집 가능한 Three.js 방을 재구성하고, 브라우저에서 둘러볼 수 있게 합니다.",
   "src": "Capture iPhone LiDAR and photos, reconstruct editable Three.js rooms, and explore them in a browser."
@@ -1566,6 +1622,10 @@
  "woniuniuniu/dsh-media-desk": {
   "ko": "DeepSeek Harness(DeepSeek 하네스) 자미디어 작업대 플러그인: 한 문장으로 영감을 기록하고 대본, 커버, 삽화, 분경을 한 번에 생성합니다",
   "src": "DeepSeek Harness 自媒体工作台插件：一句话记灵感，一键生成脚本、封面、配图和分镜"
+ },
+ "woo20080623-cell/cinebench-desktop": {
+  "ko": "Cinebench 2026 독립 실행형 데스크톱 설치본(기능 사전 활성화)",
+  "src": "Cinebench 2026 Standalone Desktop Setup with Pre-Activated Features"
  },
  "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto": {
   "keep": true,
