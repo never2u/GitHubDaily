@@ -23,6 +23,10 @@
   "ko": "Shadow of the Colossus(PS4, CUSA08809)의 Windows 네이티브 포트. 본인의 게임 덤프가 필요합니다. PC용 네이티브 포트.",
   "src": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC."
  },
+ "AleRibeiro44/archicad-desktop-setup": {
+  "ko": "Archicad 2026 완전 독립형 데스크톱 설치본, 사전 구성되어 바로 실행 가능한 빌드",
+  "src": "Archicad 2026 complete standalone desktop setup with pre-configured ready-to-run installation build"
+ },
  "Alejandros17487/ai-jailbreaks": {
   "ko": "AI 탈옥 프롬프트: 25개 이상의 최신 및 오픈 웨이트 모델용 바로 붙여넣기 가능한 35개의 AI 탈옥 프롬프트. 시스템 프롬프트, AGENTS.md 명세, Ollama Modelfile을 포함하며 AI 보안 연구 및 레드팀 테스트를 위해 만들어졌습니다.",
   "src": "AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, AGENTS.md specs, and Ollama Modelfiles. Built for AI security research and red-team testing."
@@ -30,6 +34,10 @@
  "Ansub/tv-detox": {
   "ko": "Claude Code나 Codex로 오래된 Android TV를 다시 빠르게 만듭니다. 광고 없는 간단한 홈 화면과 이를 정리하는 프롬프트를 제공합니다.",
   "src": "Make an old Android TV fast again with Claude Code or Codex: a tiny ad-free home screen plus the prompt to clean it up"
+ },
+ "Arda313131882/aion-2-trainer-tool": {
+  "ko": "Aion 2 AI 프롬프트 엔지니어링 툴킷 - 독립형 데스크톱 트레이너 설치본",
+  "src": "Aion 2 AI Prompt Engineering Toolkit - Standalone Desktop Trainer Setup"
  },
  "Arekejoker/qwen21-nsfw-pose-skill": {
   "ko": "Qwen-Image 2.1 NSFW/포즈 이미지 생성 스킬입니다. 작성자 수준의 프롬프트 레시피, NSFW LoRA, 136가지 포즈를 제어하는 VNCCS 인형 컨트롤을 제공하며, Claude Code / Codex / Cursor / OpenClaw에서 사용할 수 있습니다.",
@@ -86,6 +94,10 @@
  "CityPulso/PulsoIcon": {
   "ko": "애니메이션 React 아이콘. 모든 Lucide 아이콘에 추가 아이콘과 브랜드 로고를 더했으며, 각각 직접 손으로 만든 모션이 적용되어 있습니다. Motion 기반의 lucide-react 대체 라이브러리입니다.",
   "src": "Animated React icons — every Lucide icon plus extra icons and brand logos, each with its own hand-written motion. Drop-in replacement for lucide-react, built on Motion."
+ },
+ "CodeSouvik/clion-standalone-enhancement": {
+  "ko": "CLion 전체 설치 프로그램: 완전 독립형 설치본, 모든 기능 활성화",
+  "src": "CLion full installer: complete standalone setup, all features activated"
  },
  "Comfy-Org/ComfyUI": {
   "ko": "가장 강력하고 모듈식인 확산 모델 GUI, API 및 백엔드(그래프/노드 인터페이스). 세계에서 가장 빠른 로컬 추론 엔진.",
@@ -150,6 +162,10 @@
  "ELY-Open-Source/ElyOffice": {
   "ko": "Ely Office: Rust와 GPUI로 만든 오프라인 우선 데스크톱 앱",
   "src": "Ely Office: offline-first desktop apps in Rust and GPUI"
+ },
+ "Elegantic/designcenter-nx-desktop": {
+  "ko": "Designcenter-NX: 즉시 배포 가능한 전체 기능 데스크톱 설치 프로그램",
+  "src": "Designcenter-NX: Full-Feature Desktop Installer for Immediate Deployment"
  },
  "Eriazeri/on1-photo-raw-max-config": {
   "ko": "on1-photo-raw-max: 고급 이미지 도구를 포함한 완전 독립 실행형 설치본",
@@ -223,9 +239,17 @@
   "ko": "RAM을 모니터링하고 \"꽤 끔찍한\" 미사용 용량을 OpenAI CEO에게 직접 보고합니다.",
   "src": "Monitors your RAM and reports any \"quite terrible\" unused capacity directly to the CEO of OpenAI."
  },
+ "IsaiaR09/daemon-pro-desktop": {
+  "ko": "daemon-pro: 모든 기능이 포함된 완전 독립형 데스크톱 설치본",
+  "src": "daemon-pro: Complete Standalone Desktop Setup with Full Feature setup"
+ },
  "Jakeschincariol/day-trader-skill": {
   "ko": "데이 트레이딩을 위한 Claude 스킬 11종: 수천 개의 차트를 스캔하고, 속보 뉴스를 추적하며, 모든 진입과 청산 시점을 정하고, 돈을 걸기 전에 모든 결과를 재생해 봅니다.",
   "src": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar."
+ },
+ "JasonCharb/directory-opus": {
+  "ko": "directory-opus: 모든 기능이 미리 활성화되어 바로 실행 가능한 완전 독립형 데스크톱 설치본",
+  "src": "directory-opus: complete standalone desktop setup with all features pre-enabled, ready to run"
  },
  "JetBrains/thinkrail": {
   "ko": "작업 방식에 맞춰 스스로 커스터마이즈되는 가볍고 실용적인 IDE에서 pi로 바이브 코딩하세요. 당신에게 필요한 바이브.",
@@ -294,6 +318,10 @@
  "LibreSpark/LibreTV": {
   "ko": "Docker 등 배포 방식을 지원하는 1분 만에 구축 가능한 영상 사이트",
   "src": "一分钟搭建影视站，支持Docker等部署方式"
+ },
+ "Luk177Master/easy-worship-desktop": {
+  "ko": "Easy-Worship 2026: 모든 기능이 활성화된 완전 독립형 데스크톱 설치본",
+  "src": "Easy-Worship 2026: Complete Standalone Desktop Setup with All Features Enabled"
  },
  "MadsLorentzen/ai-job-search": {
   "ko": "내 컴퓨터에서 돌아가는 구직 도구. Claude Code 기반의 AI 지원 프레임워크로, 채용 공고 평가, 이력서 맞춤화, 자기소개서 작성, 면접 준비를 도와줍니다. 포크해서 내 것으로 만들어 쓰세요.",
@@ -383,6 +411,10 @@
   "ko": "Windows에서 네이티브로 실행되는 DriveClub (PS4, 버전 1.28)",
   "src": "DriveClub (PS4, version 1.28) running natively on Windows"
  },
+ "PHISHER420/autodesk-inventor-desktop-config": {
+  "ko": "Autodesk Inventor 2026 전문가용 데스크톱 설치 프로그램, 전체 기능 사전 구성",
+  "src": "Autodesk Inventor 2026 Professional Desktop Installer with Pre-Configured Full Feature Set"
+ },
  "PS5Dev/Byepervisor-Reborn": {
   "ko": "어쩌다 보니 Byepervisor가 반환되었다...",
   "src": "Somehow, Byepervisor returned..."
@@ -415,6 +447,10 @@
   "ko": "커뮤니티 중심의 MetaTrader 5 봇, 데스크톱에서 바로 사용할 수 있는 모든 기능 포함",
   "src": "Community-driven MetaTrader 5 bot with full features ready for desktop use"
  },
+ "RyoTheOne/dxo-photolab-10-config": {
+  "ko": "dxo-photolab-10: 완전 독립형 설정, 바로 실행 가능, 모든 기능 포함",
+  "src": "dxo-photolab-10: complete standalone config, ready to run, nothing held back"
+ },
  "SK-Dev666/rust-external-trainer-tool": {
   "ko": "Rust External 2026: 바로 실행 가능한 독립 실행형 트레이너 설치본(도구 및 종속 요소 포함)",
   "src": "Rust External 2026: Full Standalone Trainer Setup, Tools and Dependencies Ready to Run"
@@ -423,6 +459,10 @@
   "ko": "LLM을 위해 만들어진 Python 기반 3D 모델링 도구입니다.",
   "src": "3D modeling in Python, built for LLMs."
  },
+ "Sanidhya0510/dvd-creator-game-enhancement": {
+  "ko": "DVD-Creator 2026: 모든 기능이 활성화된 완전 데스크톱 빌드",
+  "src": "DVD-Creator 2026: Full Desktop Build, Every Feature Enabled"
+ },
  "SnailSploit/Claude-Red": {
   "ko": "claude-red는 Claude 스킬 시스템을 위해 설계된 공격형 보안 스킬 큐레이션 라이브러리입니다. 각 스킬은 SQL 인젝션부터 셸코드, EDR 우회부터 익스플로잇 개발까지 특정 공격 영역에 대해 전문가 수준의 방법론을 Claude에 주입하는 구조화된 SKILL.md 파일입니다.",
   "src": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development."
@@ -430,6 +470,10 @@
  "Snapintosh/Snapintosh": {
   "ko": "Snapdragon X2 Elite 기반 ASUS A16에서 macOS를 부팅하는 EL2 하이퍼바이저 및 툴체인으로, Adreno Metal/IOGPU 스택을 포함합니다.",
   "src": "EL2 hypervisor and toolchain that boots macOS on the ASUS A16 (Snapdragon X2 Elite), with an Adreno Metal/IOGPU stack"
+ },
+ "Somenicehispanic/ashampoo-winoptimizer-desktop": {
+  "ko": "Ashampoo WinOptimizer 2026 독립형 설치본, 모든 기능 활성화",
+  "src": "Ashampoo WinOptimizer 2026 Standalone Setup with Full Feature Set Enabled"
  },
  "SubmitGame/awesome-decomp-games": {
   "ko": "디컴파일, 재컴파일, 리버스 엔지니어링된 게임을 평가와 함께 자동 갱신하는 목록. 디컴프, 정적 리컴파일, 소스 포트, 엔진 리메이크, 브라우저 포트를 포함합니다.",
@@ -471,6 +515,10 @@
   "ko": "🚀 PR Agent: 원조 오픈소스 PR 리뷰어. 이 프로젝트는 Qodo 무료 티어가 아닙니다.",
   "src": "🚀 PR Agent: The Original Open-Source PR Reviewer. This project is not the Qodo free tier."
  },
+ "TheAlgorithms/Java": {
+  "ko": "Java로 구현한 모든 알고리즘",
+  "src": "All Algorithms implemented in Java"
+ },
  "Thysrael/Horizon": {
   "ko": "📡 나만의 AI 기반 뉴스 레이더입니다. 영어와 중국어로 일일 브리핑을 생성합니다. | AI로 나만의 뉴스 레이더를 구축하세요",
   "src": "📡 Your own AI-powered news radar. Generates daily briefings in English & Chinese. | 用 AI 构建你专属的新闻雷达"
@@ -498,6 +546,10 @@
  "Verlintas/NOIR": {
   "ko": "휴대폰 개인정보 감사: adb로 Android 앱의 권한, 데이터 전송 엔드포인트, 데이터 흐름을 스캔하고 되돌릴 수 있는 조치를 제시합니다. 데스크톱 Android 유출 감사: 권한, 엔드포인트, 데이터 흐름, 되돌릴 수 있는 수정.",
   "src": "手机隐私审计：用 adb 扫出 Android 应用的权限、上报端点与数据流向，并给出可回滚的处置。Desktop Android leak audit: permissions, endpoints, data flows, reversible fixes."
+ },
+ "Vesuvio1/display-fusion": {
+  "ko": "Display Fusion 2026 독립형 데스크톱 설치본, 전체 기능 구성 포함",
+  "src": "Display Fusion 2026 standalone desktop setup with complete feature configuration"
  },
  "WoYun520/gif-factory": {
   "ko": "GIF 공장(GIF 工厂): 스타일별 픽셀, 인물과 반려동물, 클레이 마스코트, 래스터 카드, 동적 포스터 GIF를 만드는 스킬.",
@@ -827,6 +879,10 @@
   "ko": "AI로 실물 제품 디자인하기",
   "src": "Design physical products with AI"
  },
+ "ebtsamalhakmy-sketch/desktop-backup-suite": {
+  "ko": "Aomei Backupper 2026: 모든 기능을 갖춘 데스크톱 백업 및 복구 제품군",
+  "src": "Aomei Backupper 2026: Full-Feature Desktop Backup and Recovery Suite"
+ },
  "egoist/mygo-music": {
   "ko": "플러그인으로 기능을 확장할 수 있는 네이티브 음악 플레이어",
   "src": "A native music player you extend with plugins"
@@ -866,6 +922,10 @@
  "feder-cr/open_scion": {
   "ko": "코딩 에이전트를 위해 만든 버전 관리 시스템 Scion의 오픈소스 버전입니다.",
   "src": "Open-source version of Scion: version control built for coding agents."
+ },
+ "flgomes/dxo-photolab-10-desktop": {
+  "ko": "전문가용 사진 처리 워크플로를 위한 DxO PhotoLab 10 데스크톱 빌드",
+  "src": "DxO PhotoLab 10 desktop build for professional photo processing workflows"
  },
  "floci-io/floci": {
   "ko": "가볍고 푹신하며 언제나 무료 - AWS 로컬 에뮬레이터 대안",
@@ -915,6 +975,10 @@
   "ko": "터미널에서 macOS 전체를 실행합니다.",
   "src": "Entire MacOS running in your terminal."
  },
+ "groschen81-web/secure-desktop-installer": {
+  "ko": "강화된 보안 기능을 갖춘 전문가용 데스크톱 설치 프로그램",
+  "src": "Professional Desktop Installer with Enhanced Security Features"
+ },
  "harry0703/MoneyPrinterTurbo": {
   "ko": "AI 대모델과 자동화 워크플로를 활용해 주제나 키워드만으로 고화질 숏폼 영상을 한 번에 생성합니다. 바이두 넷디스크(百度网盘)와는 무관합니다.",
   "src": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow."
@@ -926,6 +990,14 @@
  "headroomlabs-ai/headroom": {
   "ko": "LLM에 전달하기 전에 도구 출력, 로그, 파일, RAG 청크를 압축합니다. 코딩 에이전트에서는 토큰을 20% 줄이고, JSON에서는 60~95% 줄이며, 답변은 동일하게 유지합니다. 라이브러리, 프록시, MCP 서버로 제공됩니다.",
   "src": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server."
+ },
+ "hembramneeraj3-create/aida-64-extreme": {
+  "ko": "Aida 64 Extreme 2026: 모든 기능이 설정된 완전 독립형 데스크톱 설치본",
+  "src": "Aida 64 Extreme 2026: Complete Standalone Desktop Setup with Full Feature Configuration"
+ },
+ "herdrdev/herdr": {
+  "ko": "코딩 에이전트가 동작하는 런타임",
+  "src": "the runtime your coding agents live on"
  },
  "hevnsnt/CVEngine": {
   "ko": "지속적인 탐색, 근거 기반 취약점 검증, 개발자 에이전트 MCP 연동을 갖춘 AI 중심 외부 공격 표면 평가 도구.",
@@ -1003,6 +1075,10 @@
   "ko": "궁극의 보컬 합성기. 노래, 말하기, 비트박스 등을 지원합니다.",
   "src": "the ultimate vocal synthesizer - sing, speak, beatbox, and more"
  },
+ "janitoff0/ninjatrader-bot": {
+  "ko": "Ninjatrader Bot 2026: 강력한 기능을 갖춘 친근하고 커뮤니티 중심의 트레이딩 동반자",
+  "src": "Ninjatrader Bot 2026: a friendly, community-driven trading companion packed with powerful features"
+ },
  "jbiaojerry/ebook-treasure-chest": {
   "ko": "각종 전자책 다운로드 링크를 모아 둔 전자책 다운로드 보고. 고전문학, 경제경영, 자기계발, 평생학습, 직장·창업, 기술 서적 등 다양한 분야의 책을 찾을 수 있습니다. 판샤오(帆书, 구 판덩독서), 위챗 읽기, 징둥 읽기, 시마라야 등 주요 독서 앱의 대부분의 전자책을 포함합니다.",
   "src": "欢迎来到电子书下载宝库，一个汇聚了各类电子书下载链接的地方。无论你是喜欢阅读经典文学、经管励志、终身学习、职场创业、技术手册还是其他类型的书籍，这里都能满足你的需求。 该库涵盖了帆书app(原樊登读书)、微信读书、京东读书、喜马拉雅等读书app的大部分电子书。"
@@ -1022,6 +1098,10 @@
  "karpathy/nanochat": {
   "ko": "100달러로 살 수 있는 최고의 ChatGPT.",
   "src": "The best ChatGPT that $100 can buy."
+ },
+ "kcgeekedup-hash/delta-force-trainer-tool": {
+  "ko": "Delta Force 트레이너 도구: 모든 도구와 설정이 포함된 완전 작동 설치 프로그램",
+  "src": "Delta Force Trainer Tool: Full Working Installer With All Tools and Configurations"
  },
  "kevinraymond/florilegium": {
   "ko": "Lua로 그린, 절차적으로 생성되는 델프트 블루 꽃무늬 페이지 여백 LuaLaTeX 패키지",
@@ -1247,6 +1327,10 @@
   "ko": "7달러짜리 ESP32로 AI 모델이 실제 iPhone을 사용하게 하세요. AirPlay를 눈으로, USB HID를 손으로 쓰며, OpenAI 호환 비전 모델이면 무엇이든 가능합니다. Mac도, 개발자 계정도, 탈옥도 필요 없습니다.",
   "src": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak."
  },
+ "openai/codex-security": {
+  "ko": "OpenAI의 보안 취약점 탐지, 검증 및 수정을 위한 Codex Security CLI 및 TypeScript SDK입니다. npm: https://www.npmjs.com/package/@openai/codex-security",
+  "src": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security"
+ },
  "opengeos/RustGIS": {
   "ko": "순수 Rust로 만든 빠르고 무료인 오픈 소스 GIS",
   "src": "A fast, free and open-source GIS in pure Rust."
@@ -1395,6 +1479,10 @@
   "ko": "macOS와 Windows를 위한 매우 빠른 네이티브 노트 앱입니다. Rust와 GPUI로 만들었고, 로컬 우선으로 동작하며 Feishu/Lark DocxXML과 호환됩니다.",
   "src": "Blazing-fast native notes app for macOS & Windows. Rust + GPUI, local-first, compatible with Feishu/Lark DocxXML."
  },
+ "sajawal-12/cubase-studio-desktop": {
+  "ko": "Cubase Studio 2026 데스크톱 설치본, 전체 플러그인 모음과 모든 기능 포함",
+  "src": "Cubase Studio 2026 desktop setup with full plugin suite and complete feature set"
+ },
  "sarpstar/cinecode": {
   "ko": "코드로 만드는 영화. 단편 영화, 긴 YouTube 영상, 광고, 설명 영상, 뮤직비디오를 AI 코딩 에이전트가 대본을 쓰고, 모든 프레임을 코드로 만들고, 사운드를 디자인해 MP4 파일로 제공합니다.",
   "src": "Films made with code. Short films, long YouTube videos, ads, explainers and music videos: an AI coding agent writes the script, builds every frame in code, designs the sound and hands you an MP4."
@@ -1406,6 +1494,10 @@
  "scenario-labs/skills": {
   "ko": "어떤 AI 에이전트에서든 프로덕션 수준의 이미지, 영상, 오디오, 3D를 얻으세요. 적합한 모델을 고르고, 지출 전에 가격을 확인하며, Scenario MCP를 통해 캐릭터와 브랜드의 일관성을 유지하는 스킬과, Blender, Maya, ZBrush, Unreal, Unity를 다루는 전문가 팀을 제공합니다.",
   "src": "Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity."
+ },
+ "shadcn/improve": {
+  "ko": "가장 뛰어난 모델로 코드베이스를 감사하고, 저렴한 모델이 실행할 계획을 작성하세요.",
+  "src": "Use your most capable model to audit your codebase and write plans for cheaper models to execute."
  },
  "shammahcharumbira/universal-neural-injector-center": {
   "ko": "모든 RTX 타이틀을 지원하는 범용 뉴럴 DLSS 5 인젝터 및 게임 센터",
@@ -1558,6 +1650,10 @@
  "trycua/cua": {
   "ko": "오픈소스 드라이버, 크로스 OS 샌드박스, 학습·평가·데이터 생성용 벤치마크로 computer-use 2.0을 확장합니다.",
   "src": "Scale computer-use 2.0 with open-source drivers, cross-OS sandboxes, and benchmarks for training, evaluation, and data generation."
+ },
+ "tss878/delta-executor-toolkit": {
+  "ko": "Delta Executor PC용: 모든 도구가 사전 구성된 완전 작동 설치 프로그램",
+  "src": "Delta Executor for PC: Full Working Installer with All Tools Pre-Configured"
  },
  "twentyhq/twenty": {
   "ko": "AI를 위해 설계된, Salesforce의 오픈 대안.",

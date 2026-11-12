@@ -1,0 +1,1367 @@
+{
+ "date": "2026-11-12",
+ "trending": {
+  "daily": [
+   {
+    "rank": 1,
+    "full_name": "meta/astryx",
+    "owner": "meta",
+    "url": "https://github.com/meta/astryx",
+    "description": "An open source design system that's fully customizable and agent ready",
+    "language": "TypeScript",
+    "stars": 25056,
+    "forks": 1957,
+    "stars_gained": 2776,
+    "built_by": [
+     "cixzhang",
+     "rubyycheung",
+     "josephfarina",
+     "vjeux"
+    ]
+   },
+   {
+    "rank": 2,
+    "full_name": "ZhuLinsen/daily_stock_analysis",
+    "owner": "ZhuLinsen",
+    "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+    "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+    "language": "Python",
+    "stars": 70296,
+    "forks": 56856,
+    "stars_gained": 278,
+    "built_by": [
+     "ZhuLinsen",
+     "massif-01",
+     "freesme",
+     "Activer007",
+     "birdxs"
+    ]
+   },
+   {
+    "rank": 3,
+    "full_name": "GoogleChrome/modern-web-guidance-src",
+    "owner": "GoogleChrome",
+    "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+    "description": "",
+    "language": "TypeScript",
+    "stars": 1793,
+    "forks": 142,
+    "stars_gained": 159,
+    "built_by": [
+     "paulirish",
+     "rviscomi",
+     "micahjo7",
+     "philipwalton"
+    ]
+   },
+   {
+    "rank": 4,
+    "full_name": "shadcn/improve",
+    "owner": "shadcn",
+    "url": "https://github.com/shadcn/improve",
+    "description": "Use your most capable model to audit your codebase and write plans for cheaper models to execute.",
+    "language": null,
+    "stars": 10921,
+    "forks": 445,
+    "stars_gained": 361,
+    "built_by": [
+     "shadcn",
+     "claude",
+     "erikpr1994",
+     "beastawakens",
+     "morinim"
+    ]
+   },
+   {
+    "rank": 5,
+    "full_name": "addyosmani/agent-skills",
+    "owner": "addyosmani",
+    "url": "https://github.com/addyosmani/agent-skills",
+    "description": "Production-grade engineering skills for AI coding agents.",
+    "language": "JavaScript",
+    "stars": 115978,
+    "forks": 12165,
+    "stars_gained": 787,
+    "built_by": [
+     "addyosmani",
+     "nucliweb",
+     "claude",
+     "rudycelekli",
+     "ayobamiseun"
+    ]
+   },
+   {
+    "rank": 6,
+    "full_name": "vercel-labs/agent-browser",
+    "owner": "vercel-labs",
+    "url": "https://github.com/vercel-labs/agent-browser",
+    "description": "Browser automation CLI for AI agents",
+    "language": "Rust",
+    "stars": 49893,
+    "forks": 3491,
+    "stars_gained": 708,
+    "built_by": [
+     "ctate",
+     "Railly",
+     "lahfir",
+     "claude"
+    ]
+   },
+   {
+    "rank": 7,
+    "full_name": "we-promise/sure",
+    "owner": "we-promise",
+    "url": "https://github.com/we-promise/sure",
+    "description": "The personal finance app for everyone (by everyone)",
+    "language": "Ruby",
+    "stars": 12989,
+    "forks": 959,
+    "stars_gained": 1078,
+    "built_by": [
+     "jjmata",
+     "claude",
+     "zachgoll",
+     "Shpigford"
+    ]
+   },
+   {
+    "rank": 8,
+    "full_name": "homeassistant-ai/ha-mcp",
+    "owner": "homeassistant-ai",
+    "url": "https://github.com/homeassistant-ai/ha-mcp",
+    "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+    "language": "Python",
+    "stars": 7388,
+    "forks": 454,
+    "stars_gained": 645,
+    "built_by": [
+     "claude",
+     "kingpanther13",
+     "julienld"
+    ]
+   },
+   {
+    "rank": 9,
+    "full_name": "openai/codex-security",
+    "owner": "openai",
+    "url": "https://github.com/openai/codex-security",
+    "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+    "language": "TypeScript",
+    "stars": 11768,
+    "forks": 941,
+    "stars_gained": 52,
+    "built_by": [
+     "mldangelo-oai",
+     "codex",
+     "ianw-oai",
+     "kmbroai"
+    ]
+   },
+   {
+    "rank": 10,
+    "full_name": "TheAlgorithms/Java",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/Java",
+    "description": "All Algorithms implemented in Java",
+    "language": "Java",
+    "stars": 67041,
+    "forks": 21510,
+    "stars_gained": 51,
+    "built_by": [
+     "alxkm",
+     "vil02",
+     "Hardvan",
+     "yanglbme"
+    ]
+   }
+  ],
+  "weekly": [
+   {
+    "rank": 1,
+    "full_name": "NVIDIA/auto-ontology",
+    "owner": "NVIDIA",
+    "url": "https://github.com/NVIDIA/auto-ontology",
+    "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+    "language": "Python",
+    "stars": 11862,
+    "forks": 971,
+    "stars_gained": 7947,
+    "built_by": [
+     "DinaLaptii",
+     "yuvalshkolar",
+     "liavnave",
+     "liofnv",
+     "tomer-levin-nv"
+    ]
+   },
+   {
+    "rank": 2,
+    "full_name": "anthropics/skills",
+    "owner": "anthropics",
+    "url": "https://github.com/anthropics/skills",
+    "description": "Public repository for Agent Skills",
+    "language": "Python",
+    "stars": 193160,
+    "forks": 22733,
+    "stars_gained": 5738,
+    "built_by": [
+     "rlancemartin",
+     "klazuka",
+     "claude",
+     "cj-ant",
+     "ericharmeling"
+    ]
+   },
+   {
+    "rank": 3,
+    "full_name": "vercel-labs/agent-desktop",
+    "owner": "vercel-labs",
+    "url": "https://github.com/vercel-labs/agent-desktop",
+    "description": "Computer use CLI for AI agents",
+    "language": "Rust",
+    "stars": 22113,
+    "forks": 1647,
+    "stars_gained": 7772,
+    "built_by": [
+     "lahfir",
+     "ctate"
+    ]
+   },
+   {
+    "rank": 4,
+    "full_name": "milind-soni/OpenMausBot",
+    "owner": "milind-soni",
+    "url": "https://github.com/milind-soni/OpenMausBot",
+    "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+    "language": "TypeScript",
+    "stars": 21256,
+    "forks": 2968,
+    "stars_gained": 9257,
+    "built_by": [
+     "milind-soni",
+     "claude",
+     "aivsomkar",
+     "AdityaUmale",
+     "robinsonnblack"
+    ]
+   },
+   {
+    "rank": 5,
+    "full_name": "vercel-labs/agent-browser",
+    "owner": "vercel-labs",
+    "url": "https://github.com/vercel-labs/agent-browser",
+    "description": "Browser automation CLI for AI agents",
+    "language": "Rust",
+    "stars": 49893,
+    "forks": 3491,
+    "stars_gained": 4183,
+    "built_by": [
+     "ctate",
+     "Railly",
+     "lahfir",
+     "claude"
+    ]
+   },
+   {
+    "rank": 6,
+    "full_name": "cloudflare/security-audit-skill",
+    "owner": "cloudflare",
+    "url": "https://github.com/cloudflare/security-audit-skill",
+    "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+    "language": "JavaScript",
+    "stars": 70397,
+    "forks": 4667,
+    "stars_gained": 11507,
+    "built_by": [
+     "literally-dan",
+     "CooperSheroy",
+     "kennysarnoski-jarvis"
+    ]
+   },
+   {
+    "rank": 7,
+    "full_name": "mattpocock/skills",
+    "owner": "mattpocock",
+    "url": "https://github.com/mattpocock/skills",
+    "description": "Skills for Real Engineers. Straight from my .agents directory.",
+    "language": "Shell",
+    "stars": 322060,
+    "forks": 27007,
+    "stars_gained": 9575,
+    "built_by": [
+     "mattpocock",
+     "claude",
+     "gabimoncha"
+    ]
+   },
+   {
+    "rank": 8,
+    "full_name": "D4Vinci/Scrapling",
+    "owner": "D4Vinci",
+    "url": "https://github.com/D4Vinci/Scrapling",
+    "description": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
+    "language": "Python",
+    "stars": 101663,
+    "forks": 10594,
+    "stars_gained": 5814,
+    "built_by": [
+     "D4Vinci",
+     "yetval",
+     "AbdullahY36",
+     "SulimanAbdulrazzaq",
+     "codex"
+    ]
+   },
+   {
+    "rank": 9,
+    "full_name": "zed-industries/zed",
+    "owner": "zed-industries",
+    "url": "https://github.com/zed-industries/zed",
+    "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+    "language": "Rust",
+    "stars": 94718,
+    "forks": 11631,
+    "stars_gained": 2310,
+    "built_by": [
+     "as-cii",
+     "maxbrunsfeld",
+     "maxdeviant",
+     "nathansobo",
+     "ConradIrwin"
+    ]
+   },
+   {
+    "rank": 10,
+    "full_name": "Donchitos/Claude-Code-Game-Studios",
+    "owner": "Donchitos",
+    "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+    "description": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
+    "language": "Shell",
+    "stars": 38490,
+    "forks": 5008,
+    "stars_gained": 3150,
+    "built_by": [
+     "Donchitos",
+     "claude"
+    ]
+   },
+   {
+    "rank": 11,
+    "full_name": "google/skills",
+    "owner": "google",
+    "url": "https://github.com/google/skills",
+    "description": "Agent Skills for Google products and technologies",
+    "language": "Python",
+    "stars": 23947,
+    "forks": 1998,
+    "stars_gained": 2013,
+    "built_by": [
+     "cloud-ix-copybara",
+     "holtskinner",
+     "martinvarelaj",
+     "helloeve",
+     "wangauone"
+    ]
+   },
+   {
+    "rank": 12,
+    "full_name": "google-deepmind/mujoco",
+    "owner": "google-deepmind",
+    "url": "https://github.com/google-deepmind/mujoco",
+    "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+    "language": "C++",
+    "stars": 17647,
+    "forks": 2172,
+    "stars_gained": 1535,
+    "built_by": [
+     "yuvaltassa",
+     "quagla",
+     "haroonq",
+     "kbayes",
+     "saran-t"
+    ]
+   },
+   {
+    "rank": 13,
+    "full_name": "herdrdev/herdr",
+    "owner": "herdrdev",
+    "url": "https://github.com/herdrdev/herdr",
+    "description": "the runtime your coding agents live on",
+    "language": "Rust",
+    "stars": 50344,
+    "forks": 4065,
+    "stars_gained": 2213,
+    "built_by": [
+     "ogulcancelik",
+     "JJLiebig",
+     "akbash-bot",
+     "kangal-bot"
+    ]
+   }
+  ],
+  "monthly": [
+   {
+    "rank": 1,
+    "full_name": "morluto/rea",
+    "owner": "morluto",
+    "url": "https://github.com/morluto/rea",
+    "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+    "language": "TypeScript",
+    "stars": 452834,
+    "forks": 111337,
+    "stars_gained": 366818,
+    "built_by": [
+     "morluto",
+     "kaoru0822-kitauji",
+     "N0zoM1z0",
+     "claude",
+     "gensokyo-dev"
+    ]
+   },
+   {
+    "rank": 2,
+    "full_name": "Nutlope/hallmark",
+    "owner": "Nutlope",
+    "url": "https://github.com/Nutlope/hallmark",
+    "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+    "language": "CSS",
+    "stars": 53432,
+    "forks": 2846,
+    "stars_gained": 23478,
+    "built_by": [
+     "Luffixos",
+     "Nutlope",
+     "rudycelekli",
+     "cursoragent",
+     "xunguangzlj-cloud"
+    ]
+   },
+   {
+    "rank": 3,
+    "full_name": "cloudflare/security-audit-skill",
+    "owner": "cloudflare",
+    "url": "https://github.com/cloudflare/security-audit-skill",
+    "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+    "language": "JavaScript",
+    "stars": 70397,
+    "forks": 4667,
+    "stars_gained": 42138,
+    "built_by": [
+     "literally-dan",
+     "CooperSheroy",
+     "kennysarnoski-jarvis"
+    ]
+   },
+   {
+    "rank": 4,
+    "full_name": "thedotmack/claude-mem",
+    "owner": "thedotmack",
+    "url": "https://github.com/thedotmack/claude-mem",
+    "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+    "language": "TypeScript",
+    "stars": 116248,
+    "forks": 10089,
+    "stars_gained": 17247,
+    "built_by": [
+     "thedotmack",
+     "claude",
+     "rudycelekli",
+     "Afloat16",
+     "cursoragent"
+    ]
+   },
+   {
+    "rank": 5,
+    "full_name": "pingdotgg/t3code",
+    "owner": "pingdotgg",
+    "url": "https://github.com/pingdotgg/t3code",
+    "description": "",
+    "language": "TypeScript",
+    "stars": 57082,
+    "forks": 10527,
+    "stars_gained": 29814,
+    "built_by": [
+     "juliusmarminge",
+     "claude",
+     "t3dotgg",
+     "maria-rcks",
+     "codex"
+    ]
+   },
+   {
+    "rank": 6,
+    "full_name": "heygen-com/hyperframes",
+    "owner": "heygen-com",
+    "url": "https://github.com/heygen-com/hyperframes",
+    "description": "Write HTML. Render video. Built for agents.",
+    "language": "TypeScript",
+    "stars": 82936,
+    "forks": 7657,
+    "stars_gained": 22422,
+    "built_by": [
+     "miguel-heygen",
+     "vanceingalls",
+     "claude",
+     "jrusso1020",
+     "ukimsanov"
+    ]
+   },
+   {
+    "rank": 7,
+    "full_name": "pbakaus/impeccable",
+    "owner": "pbakaus",
+    "url": "https://github.com/pbakaus/impeccable",
+    "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+    "language": "Rust",
+    "stars": 108327,
+    "forks": 6441,
+    "stars_gained": 28902,
+    "built_by": [
+     "pbakaus",
+     "claude",
+     "abdulwahabone",
+     "cursoragent"
+    ]
+   },
+   {
+    "rank": 8,
+    "full_name": "HKUDS/DeepTutor",
+    "owner": "HKUDS",
+    "url": "https://github.com/HKUDS/DeepTutor",
+    "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ .",
+    "language": "Python",
+    "stars": 58350,
+    "forks": 7094,
+    "stars_gained": 17406,
+    "built_by": [
+     "pancacake",
+     "claude",
+     "Pinkllow",
+     "evan188199-tech"
+    ]
+   },
+   {
+    "rank": 9,
+    "full_name": "debpalash/VoiceStudio",
+    "owner": "debpalash",
+    "url": "https://github.com/debpalash/VoiceStudio",
+    "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+    "language": "Python",
+    "stars": 108374,
+    "forks": 12008,
+    "stars_gained": 50619,
+    "built_by": [
+     "debpalash",
+     "claude",
+     "velixio",
+     "kevin9327",
+     "rudycelekli"
+    ]
+   },
+   {
+    "rank": 10,
+    "full_name": "anthropics/claude-plugins-official",
+    "owner": "anthropics",
+    "url": "https://github.com/anthropics/claude-plugins-official",
+    "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+    "language": "Python",
+    "stars": 46923,
+    "forks": 4876,
+    "stars_gained": 9448,
+    "built_by": [
+     "jordanecker-ant",
+     "mhegazy",
+     "bryan-anthropic",
+     "claude"
+    ]
+   },
+   {
+    "rank": 11,
+    "full_name": "anthropics/skills",
+    "owner": "anthropics",
+    "url": "https://github.com/anthropics/skills",
+    "description": "Public repository for Agent Skills",
+    "language": "Python",
+    "stars": 193160,
+    "forks": 22733,
+    "stars_gained": 13018,
+    "built_by": [
+     "rlancemartin",
+     "klazuka",
+     "claude",
+     "cj-ant",
+     "ericharmeling"
+    ]
+   },
+   {
+    "rank": 12,
+    "full_name": "sherlock-project/sherlock",
+    "owner": "sherlock-project",
+    "url": "https://github.com/sherlock-project/sherlock",
+    "description": "Hunt down social media accounts by username across social networks",
+    "language": "Python",
+    "stars": 110104,
+    "forks": 12754,
+    "stars_gained": 16350,
+    "built_by": [
+     "sdushantha",
+     "hoadlck",
+     "ppfeister",
+     "TheYahya",
+     "Czechball"
+    ]
+   },
+   {
+    "rank": 13,
+    "full_name": "Leonxlnx/taste-skill",
+    "owner": "Leonxlnx",
+    "url": "https://github.com/Leonxlnx/taste-skill",
+    "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
+    "language": "JavaScript",
+    "stars": 113596,
+    "forks": 7643,
+    "stars_gained": 19310,
+    "built_by": [
+     "Leonxlnx",
+     "claude",
+     "cursoragent",
+     "HugoSpy",
+     "bougieL"
+    ]
+   },
+   {
+    "rank": 14,
+    "full_name": "anthropics/knowledge-work-plugins",
+    "owner": "anthropics",
+    "url": "https://github.com/anthropics/knowledge-work-plugins",
+    "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+    "language": "Python",
+    "stars": 35481,
+    "forks": 3926,
+    "stars_gained": 6534,
+    "built_by": [
+     "jordanecker-ant",
+     "bryan-anthropic",
+     "claude",
+     "mattpic-ant"
+    ]
+   },
+   {
+    "rank": 15,
+    "full_name": "AgriciDaniel/claude-seo",
+    "owner": "AgriciDaniel",
+    "url": "https://github.com/AgriciDaniel/claude-seo",
+    "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
+    "language": "Python",
+    "stars": 28283,
+    "forks": 3649,
+    "stars_gained": 9470,
+    "built_by": [
+     "AgriciDaniel",
+     "claude",
+     "rudycelekli",
+     "Nordalux"
+    ]
+   },
+   {
+    "rank": 16,
+    "full_name": "NationalSecurityAgency/ghidra",
+    "owner": "NationalSecurityAgency",
+    "url": "https://github.com/NationalSecurityAgency/ghidra",
+    "description": "Ghidra is a software reverse engineering (SRE) framework",
+    "language": "Java",
+    "stars": 99630,
+    "forks": 11297,
+    "stars_gained": 16749,
+    "built_by": [
+     "ryanmkurtz",
+     "ghidra1",
+     "dragonmacher",
+     "nsadeveloper789",
+     "caheckman"
+    ]
+   }
+  ]
+ },
+ "new_arrivals": [
+  {
+   "rank": 1,
+   "full_name": "huamidev/GestaltX",
+   "owner": "huamidev",
+   "url": "https://github.com/huamidev/GestaltX",
+   "description": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages.",
+   "language": "Swift",
+   "stars": 6278,
+   "forks": 2429,
+   "stars_gained": 6278,
+   "topics": [],
+   "created_at": "2026-11-09T05:15:48Z",
+   "built_by": [
+    "huamidev"
+   ]
+  },
+  {
+   "rank": 2,
+   "full_name": "tangerineturtle1/NX2navi",
+   "owner": "tangerineturtle1",
+   "url": "https://github.com/tangerineturtle1/NX2navi",
+   "description": "",
+   "language": "C",
+   "stars": 3267,
+   "forks": 219,
+   "stars_gained": 3267,
+   "topics": [],
+   "created_at": "2026-11-07T10:01:23Z",
+   "built_by": [
+    "tangerineturtle1"
+   ]
+  },
+  {
+   "rank": 3,
+   "full_name": "jhaizhou-ops/S2Arm",
+   "owner": "jhaizhou-ops",
+   "url": "https://github.com/jhaizhou-ops/S2Arm",
+   "description": "Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one app for the whole library. Bring your own games and keys. 把你自己的 Switch 游戏原生带到 iPhone / iPad / Mac。",
+   "language": "C#",
+   "stars": 2599,
+   "forks": 481,
+   "stars_gained": 2599,
+   "topics": [
+    "apple-silicon",
+    "arm64",
+    "game-porting",
+    "ios",
+    "ipados",
+    "macos"
+   ],
+   "created_at": "2026-11-08T05:49:46Z",
+   "built_by": [
+    "jhaizhou-ops"
+   ]
+  },
+  {
+   "rank": 4,
+   "full_name": "JenkinWoo/sheeridVerify",
+   "owner": "JenkinWoo",
+   "url": "https://github.com/JenkinWoo/sheeridVerify",
+   "description": "",
+   "language": "JavaScript",
+   "stars": 2036,
+   "forks": 1099,
+   "stars_gained": 2036,
+   "topics": [],
+   "created_at": "2026-11-06T09:28:09Z",
+   "built_by": [
+    "JenkinWoo"
+   ]
+  },
+  {
+   "rank": 5,
+   "full_name": "DIYgod/pinky",
+   "owner": "DIYgod",
+   "url": "https://github.com/DIYgod/pinky",
+   "description": "Let AI agents use your phone, with you in the loop.",
+   "language": "Go",
+   "stars": 1875,
+   "forks": 195,
+   "stars_gained": 1875,
+   "topics": [],
+   "created_at": "2026-11-06T16:53:14Z",
+   "built_by": [
+    "DIYgod"
+   ]
+  },
+  {
+   "rank": 6,
+   "full_name": "Kianuni/Erosion-CN",
+   "owner": "Kianuni",
+   "url": "https://github.com/Kianuni/Erosion-CN",
+   "description": "iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（简体中文防白苹果安全加固版）",
+   "language": "Swift",
+   "stars": 1553,
+   "forks": 351,
+   "stars_gained": 1553,
+   "topics": [],
+   "created_at": "2026-11-10T02:37:31Z",
+   "built_by": [
+    "Kianuni"
+   ]
+  },
+  {
+   "rank": 7,
+   "full_name": "mahmoudtawfik1998/secure-pdf-document-processor",
+   "owner": "mahmoudtawfik1998",
+   "url": "https://github.com/mahmoudtawfik1998/secure-pdf-document-processor",
+   "description": "Adobe Acrobat Pro 2026: Secure Standalone PDF Document Processor for Desktop",
+   "language": "HTML",
+   "stars": 1305,
+   "forks": 0,
+   "stars_gained": 1305,
+   "topics": [
+    "acrobat-dc-pro",
+    "acrobat-for-free-2026",
+    "acrobat-no-limits",
+    "acrobat-pdf",
+    "automation",
+    "desktop"
+   ],
+   "created_at": "2026-11-06T21:23:09Z",
+   "built_by": [
+    "mahmoudtawfik1998"
+   ]
+  },
+  {
+   "rank": 8,
+   "full_name": "hembramneeraj3-create/aida-64-extreme",
+   "owner": "hembramneeraj3-create",
+   "url": "https://github.com/hembramneeraj3-create/aida-64-extreme",
+   "description": "Aida 64 Extreme 2026: Complete Standalone Desktop Setup with Full Feature Configuration",
+   "language": "HTML",
+   "stars": 1304,
+   "forks": 0,
+   "stars_gained": 1304,
+   "topics": [
+    "aida64",
+    "aida64-extreme-compatibility-check",
+    "aida64-extreme-detailed-reporting",
+    "aida64-extreme-hardware-diagnostics",
+    "aida64-extreme-setup",
+    "aida64-extreme-system-information"
+   ],
+   "created_at": "2026-11-06T20:33:44Z",
+   "built_by": [
+    "hembramneeraj3-create"
+   ]
+  },
+  {
+   "rank": 9,
+   "full_name": "abdulmannanmalik13-wq/adobe-substance-3d-studio",
+   "owner": "abdulmannanmalik13-wq",
+   "url": "https://github.com/abdulmannanmalik13-wq/adobe-substance-3d-studio",
+   "description": "Adobe Substance 3D Creative Studio 2026 - Secure Asset Pipeline Desktop Installer",
+   "language": "HTML",
+   "stars": 1304,
+   "forks": 0,
+   "stars_gained": 1304,
+   "topics": [
+    "automation",
+    "desktop",
+    "developer-tools",
+    "open-source",
+    "python",
+    "scripts"
+   ],
+   "created_at": "2026-11-06T20:33:06Z",
+   "built_by": [
+    "abdulmannanmalik13-wq"
+   ]
+  },
+  {
+   "rank": 10,
+   "full_name": "AleRibeiro44/archicad-desktop-setup",
+   "owner": "AleRibeiro44",
+   "url": "https://github.com/AleRibeiro44/archicad-desktop-setup",
+   "description": "Archicad 2026 complete standalone desktop setup with pre-configured ready-to-run installation build",
+   "language": "HTML",
+   "stars": 1301,
+   "forks": 0,
+   "stars_gained": 1301,
+   "topics": [
+    "archicad",
+    "archicad-2026",
+    "archicad-download",
+    "automation",
+    "desktop",
+    "developer-tools"
+   ],
+   "created_at": "2026-11-06T20:36:04Z",
+   "built_by": [
+    "AleRibeiro44"
+   ]
+  },
+  {
+   "rank": 11,
+   "full_name": "Somenicehispanic/ashampoo-winoptimizer-desktop",
+   "owner": "Somenicehispanic",
+   "url": "https://github.com/Somenicehispanic/ashampoo-winoptimizer-desktop",
+   "description": "Ashampoo WinOptimizer 2026 Standalone Setup with Full Feature Set Enabled",
+   "language": "HTML",
+   "stars": 1301,
+   "forks": 0,
+   "stars_gained": 1301,
+   "topics": [
+    "ashampoo-gmbh",
+    "ashampoo-uninstaller-install-setup-windows-2026",
+    "ashampoo-winoptimizer-system-clea",
+    "ashampoo-winoptimizer-windows",
+    "automation",
+    "clean-up"
+   ],
+   "created_at": "2026-11-06T20:36:25Z",
+   "built_by": [
+    "Somenicehispanic"
+   ]
+  },
+  {
+   "rank": 12,
+   "full_name": "PHISHER420/autodesk-inventor-desktop-config",
+   "owner": "PHISHER420",
+   "url": "https://github.com/PHISHER420/autodesk-inventor-desktop-config",
+   "description": "Autodesk Inventor 2026 Professional Desktop Installer with Pre-Configured Full Feature Set",
+   "language": "HTML",
+   "stars": 1300,
+   "forks": 0,
+   "stars_gained": 1300,
+   "topics": [
+    "autodesk-inventor-pro",
+    "autodesk-inventor-pro-pc",
+    "automation",
+    "developer-tools",
+    "inventor",
+    "inventor-automation"
+   ],
+   "created_at": "2026-11-06T20:40:29Z",
+   "built_by": [
+    "PHISHER420"
+   ]
+  },
+  {
+   "rank": 13,
+   "full_name": "CodeSouvik/clion-standalone-enhancement",
+   "owner": "CodeSouvik",
+   "url": "https://github.com/CodeSouvik/clion-standalone-enhancement",
+   "description": "CLion full installer: complete standalone setup, all features activated",
+   "language": "HTML",
+   "stars": 1298,
+   "forks": 0,
+   "stars_gained": 1298,
+   "topics": [
+    "automation",
+    "clion-2026",
+    "clion-download-windows",
+    "cmake-ide",
+    "cpp-ide",
+    "desktop"
+   ],
+   "created_at": "2026-11-06T20:48:32Z",
+   "built_by": [
+    "CodeSouvik"
+   ]
+  },
+  {
+   "rank": 14,
+   "full_name": "sajawal-12/cubase-studio-desktop",
+   "owner": "sajawal-12",
+   "url": "https://github.com/sajawal-12/cubase-studio-desktop",
+   "description": "Cubase Studio 2026 desktop setup with full plugin suite and complete feature set",
+   "language": "HTML",
+   "stars": 1298,
+   "forks": 0,
+   "stars_gained": 1298,
+   "topics": [
+    "automation",
+    "cubase",
+    "cubase-15",
+    "cubase-for-beginners",
+    "cubase-pro",
+    "cubase-pro-2026"
+   ],
+   "created_at": "2026-11-06T20:50:21Z",
+   "built_by": [
+    "sajawal-12"
+   ]
+  },
+  {
+   "rank": 15,
+   "full_name": "Arda313131882/aion-2-trainer-tool",
+   "owner": "Arda313131882",
+   "url": "https://github.com/Arda313131882/aion-2-trainer-tool",
+   "description": "Aion 2 AI Prompt Engineering Toolkit - Standalone Desktop Trainer Setup",
+   "language": "HTML",
+   "stars": 1296,
+   "forks": 0,
+   "stars_gained": 1296,
+   "topics": [
+    "aion-2",
+    "aion-2-2026",
+    "aion-2-game",
+    "aion-2-optimizer",
+    "aion-2-trainer",
+    "aion-2-trainer-tool"
+   ],
+   "created_at": "2026-11-06T20:34:15Z",
+   "built_by": [
+    "Arda313131882"
+   ]
+  },
+  {
+   "rank": 16,
+   "full_name": "ebtsamalhakmy-sketch/desktop-backup-suite",
+   "owner": "ebtsamalhakmy-sketch",
+   "url": "https://github.com/ebtsamalhakmy-sketch/desktop-backup-suite",
+   "description": "Aomei Backupper 2026: Full-Feature Desktop Backup and Recovery Suite",
+   "language": "TypeScript",
+   "stars": 1296,
+   "forks": 0,
+   "stars_gained": 1296,
+   "topics": [
+    "aomei",
+    "aomei-partition",
+    "aomei-setup",
+    "automation",
+    "developer-tools",
+    "disk-manager"
+   ],
+   "created_at": "2026-11-06T20:53:28Z",
+   "built_by": [
+    "ebtsamalhakmy-sketch"
+   ]
+  },
+  {
+   "rank": 17,
+   "full_name": "IsaiaR09/daemon-pro-desktop",
+   "owner": "IsaiaR09",
+   "url": "https://github.com/IsaiaR09/daemon-pro-desktop",
+   "description": "daemon-pro: Complete Standalone Desktop Setup with Full Feature setup",
+   "language": "HTML",
+   "stars": 1295,
+   "forks": 0,
+   "stars_gained": 1295,
+   "topics": [
+    "automation",
+    "daemon-2026",
+    "daemon-tools",
+    "daemon-tools-install-setup-windows-2026",
+    "daemon-tools-pro-advanced",
+    "daemon-tools-pro-vs-ultra"
+   ],
+   "created_at": "2026-11-06T20:50:44Z",
+   "built_by": [
+    "IsaiaR09"
+   ]
+  },
+  {
+   "rank": 18,
+   "full_name": "tss878/delta-executor-toolkit",
+   "owner": "tss878",
+   "url": "https://github.com/tss878/delta-executor-toolkit",
+   "description": "Delta Executor for PC: Full Working Installer with All Tools Pre-Configured",
+   "language": "TypeScript",
+   "stars": 1295,
+   "forks": 0,
+   "stars_gained": 1295,
+   "topics": [
+    "automation",
+    "delta-exec",
+    "delta-executor-26",
+    "delta-executor-exploit",
+    "delta-executor-for-free",
+    "delta-executor-for-pc-2026"
+   ],
+   "created_at": "2026-11-06T20:51:54Z",
+   "built_by": [
+    "tss878"
+   ]
+  },
+  {
+   "rank": 19,
+   "full_name": "JasonCharb/directory-opus",
+   "owner": "JasonCharb",
+   "url": "https://github.com/JasonCharb/directory-opus",
+   "description": "directory-opus: complete standalone desktop setup with all features pre-enabled, ready to run",
+   "language": "HTML",
+   "stars": 1294,
+   "forks": 0,
+   "stars_gained": 1294,
+   "topics": [
+    "automation",
+    "desktop",
+    "developer-tools",
+    "directory-opus",
+    "directory-opus-crack-2026",
+    "directory-opus-for-win"
+   ],
+   "created_at": "2026-11-06T20:54:11Z",
+   "built_by": [
+    "JasonCharb"
+   ]
+  },
+  {
+   "rank": 20,
+   "full_name": "kcgeekedup-hash/delta-force-trainer-tool",
+   "owner": "kcgeekedup-hash",
+   "url": "https://github.com/kcgeekedup-hash/delta-force-trainer-tool",
+   "description": "Delta Force Trainer Tool: Full Working Installer With All Tools and Configurations",
+   "language": "HTML",
+   "stars": 1294,
+   "forks": 0,
+   "stars_gained": 1294,
+   "topics": [
+    "automation",
+    "delta-force",
+    "delta-force-aim-assist",
+    "desktop",
+    "developer-tools",
+    "open-source"
+   ],
+   "created_at": "2026-11-06T20:51:48Z",
+   "built_by": [
+    "kcgeekedup-hash"
+   ]
+  },
+  {
+   "rank": 21,
+   "full_name": "Elegantic/designcenter-nx-desktop",
+   "owner": "Elegantic",
+   "url": "https://github.com/Elegantic/designcenter-nx-desktop",
+   "description": "Designcenter-NX: Full-Feature Desktop Installer for Immediate Deployment",
+   "language": "HTML",
+   "stars": 1279,
+   "forks": 0,
+   "stars_gained": 1279,
+   "topics": [
+    "automation",
+    "desktop",
+    "developer-tools",
+    "nx-cad",
+    "nxopen",
+    "open-source"
+   ],
+   "created_at": "2026-11-06T20:52:51Z",
+   "built_by": [
+    "Elegantic"
+   ]
+  },
+  {
+   "rank": 22,
+   "full_name": "Vesuvio1/display-fusion",
+   "owner": "Vesuvio1",
+   "url": "https://github.com/Vesuvio1/display-fusion",
+   "description": "Display Fusion 2026 standalone desktop setup with complete feature configuration",
+   "language": "HTML",
+   "stars": 1271,
+   "forks": 0,
+   "stars_gained": 1271,
+   "topics": [
+    "automation",
+    "desktop-tools",
+    "developer-tools",
+    "display-management",
+    "displayfusion",
+    "displayfusion-2026"
+   ],
+   "created_at": "2026-11-06T20:54:55Z",
+   "built_by": [
+    "Vesuvio1"
+   ]
+  },
+  {
+   "rank": 23,
+   "full_name": "Sanidhya0510/dvd-creator-game-enhancement",
+   "owner": "Sanidhya0510",
+   "url": "https://github.com/Sanidhya0510/dvd-creator-game-enhancement",
+   "description": "DVD-Creator 2026: Full Desktop Build, Every Feature Enabled",
+   "language": "HTML",
+   "stars": 1252,
+   "forks": 0,
+   "stars_gained": 1252,
+   "topics": [
+    "acer-nitro",
+    "ais-data",
+    "aiseesoft-data-recovery-speed-comparison",
+    "aiseesoft-fonelab-for-ios",
+    "aiseesoft-recover-deleted-files",
+    "aiseesoft-video-converter-pc"
+   ],
+   "created_at": "2026-11-06T20:55:25Z",
+   "built_by": [
+    "Sanidhya0510"
+   ]
+  },
+  {
+   "rank": 24,
+   "full_name": "RyoTheOne/dxo-photolab-10-config",
+   "owner": "RyoTheOne",
+   "url": "https://github.com/RyoTheOne/dxo-photolab-10-config",
+   "description": "dxo-photolab-10: complete standalone config, ready to run, nothing held back",
+   "language": "HTML",
+   "stars": 1241,
+   "forks": 0,
+   "stars_gained": 1241,
+   "topics": [
+    "automation",
+    "desktop",
+    "developer-tools",
+    "digital-photography",
+    "dxo-photolab-coupon",
+    "dxo-photolab-discount-code"
+   ],
+   "created_at": "2026-11-06T20:56:41Z",
+   "built_by": [
+    "RyoTheOne"
+   ]
+  },
+  {
+   "rank": 25,
+   "full_name": "flgomes/dxo-photolab-10-desktop",
+   "owner": "flgomes",
+   "url": "https://github.com/flgomes/dxo-photolab-10-desktop",
+   "description": "DxO PhotoLab 10 desktop build for professional photo processing workflows",
+   "language": "HTML",
+   "stars": 1229,
+   "forks": 0,
+   "stars_gained": 1229,
+   "topics": [
+    "automation",
+    "desktop",
+    "developer-tools",
+    "digital-photography",
+    "dxo-photolab-coupon",
+    "dxo-photolab-discount-code"
+   ],
+   "created_at": "2026-11-06T20:56:37Z",
+   "built_by": [
+    "flgomes"
+   ]
+  },
+  {
+   "rank": 26,
+   "full_name": "Luk177Master/easy-worship-desktop",
+   "owner": "Luk177Master",
+   "url": "https://github.com/Luk177Master/easy-worship-desktop",
+   "description": "Easy-Worship 2026: Complete Standalone Desktop Setup with All Features Enabled",
+   "language": "HTML",
+   "stars": 1210,
+   "forks": 0,
+   "stars_gained": 1210,
+   "topics": [
+    "automation",
+    "church-presentation",
+    "desktop",
+    "developer-tools",
+    "easyworship",
+    "easyworship-pro"
+   ],
+   "created_at": "2026-11-06T20:57:14Z",
+   "built_by": [
+    "Luk177Master"
+   ]
+  },
+  {
+   "rank": 27,
+   "full_name": "groschen81-web/secure-desktop-installer",
+   "owner": "groschen81-web",
+   "url": "https://github.com/groschen81-web/secure-desktop-installer",
+   "description": "Professional Desktop Installer with Enhanced Security Features",
+   "language": "HTML",
+   "stars": 1210,
+   "forks": 0,
+   "stars_gained": 1210,
+   "topics": [
+    "android-repair-tools",
+    "automation",
+    "desktop",
+    "developer-tools",
+    "open-source",
+    "python"
+   ],
+   "created_at": "2026-11-06T21:23:15Z",
+   "built_by": [
+    "groschen81-web"
+   ]
+  },
+  {
+   "rank": 28,
+   "full_name": "RolandoV3/metatrader-5-bot",
+   "owner": "RolandoV3",
+   "url": "https://github.com/RolandoV3/metatrader-5-bot",
+   "description": "Community-driven MetaTrader 5 bot with full features ready for desktop use",
+   "language": "TypeScript",
+   "stars": 1204,
+   "forks": 0,
+   "stars_gained": 1204,
+   "topics": [
+    "automation",
+    "background-process",
+    "developer-tools",
+    "metatrader5-no-gui",
+    "mt5-api",
+    "mt5-bot"
+   ],
+   "created_at": "2026-11-06T21:09:36Z",
+   "built_by": [
+    "RolandoV3"
+   ]
+  },
+  {
+   "rank": 29,
+   "full_name": "janitoff0/ninjatrader-bot",
+   "owner": "janitoff0",
+   "url": "https://github.com/janitoff0/ninjatrader-bot",
+   "description": "Ninjatrader Bot 2026: a friendly, community-driven trading companion packed with powerful features",
+   "language": "HTML",
+   "stars": 1201,
+   "forks": 0,
+   "stars_gained": 1201,
+   "topics": [
+    "automation",
+    "desktop",
+    "developer-tools",
+    "ninjatrader",
+    "ninjatrader-8",
+    "ninjatrader-addon"
+   ],
+   "created_at": "2026-11-06T21:13:59Z",
+   "built_by": [
+    "janitoff0"
+   ]
+  },
+  {
+   "rank": 30,
+   "full_name": "leanislizarzado/ibm-spss-desktop-suite",
+   "owner": "leanislizarzado",
+   "url": "https://github.com/leanislizarzado/ibm-spss-desktop-suite",
+   "description": "IBM SPSS Statistics 2026 Standalone Setup with Full Feature Configuration",
+   "language": "HTML",
+   "stars": 1201,
+   "forks": 0,
+   "stars_gained": 1201,
+   "topics": [
+    "analytics-suite",
+    "automation",
+    "desktop",
+    "developer-tools",
+    "ibm-analytics",
+    "ibm-spss"
+   ],
+   "created_at": "2026-11-06T21:04:22Z",
+   "built_by": [
+    "leanislizarzado"
+   ]
+  }
+ ],
+ "layout": {
+  "top": "shadcn/improve",
+  "rising": [
+   "GoogleChrome/modern-web-guidance-src",
+   "openai/codex-security",
+   "TheAlgorithms/Java"
+  ],
+  "fresh": [],
+  "steady": [
+   "meta/astryx",
+   "ZhuLinsen/daily_stock_analysis",
+   "addyosmani/agent-skills",
+   "vercel-labs/agent-browser",
+   "we-promise/sure",
+   "homeassistant-ai/ha-mcp"
+  ],
+  "arrivals": [
+   "Kianuni/Erosion-CN",
+   "mahmoudtawfik1998/secure-pdf-document-processor",
+   "hembramneeraj3-create/aida-64-extreme",
+   "abdulmannanmalik13-wq/adobe-substance-3d-studio"
+  ]
+ },
+ "top_story": "shadcn/improve"
+}
