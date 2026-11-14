@@ -11,6 +11,10 @@
   "ko": "공식 버전을 수정할 필요가 없고 display_errors나 limit_memory가 필요 없는 php2shell 익스플로잇.",
   "src": "A php2shell exploit that requires no modifications to the official version, and does not require display_errors or limit_memory."
  },
+ "AIRzZ90/study-materials-fork": {
+  "ko": "크로스 플랫폼 Tauri 2 인터페이스 및 상호작용 실습 프로젝트",
+  "src": "A cross-platform Tauri 2 interface and interaction practice project"
+ },
  "AbhramJohn/instagram-engagement-bot": {
   "ko": "데스크톱용 고급 자동화를 갖춘 커뮤니티 기반 Instagram 좋아요 봇",
   "src": "Community-driven Instagram Liker Bot with advanced automation for desktop"
@@ -99,6 +103,10 @@
   "ko": "버튼 하나로 게임이 끊기는 이유, 렉이 걸리는 이유, 실행되지 않는 이유를 파악합니다. Pitstop은 PresentMon으로 측정하고 쉬운 말로 설명하며, Windows에서만 수정하고 모든 변경 사항을 한 번의 클릭으로 되돌립니다.",
   "src": "One button: why the game stutters, why it lags and why it won't start. Pitstop measures with PresentMon, explains in plain words, fixes Windows only, and undoes every change in one click."
  },
+ "ChromeDevTools/chrome-devtools-mcp": {
+  "ko": "코딩 에이전트를 위한 Chrome DevTools",
+  "src": "Chrome DevTools for coding agents"
+ },
  "CityPulso/PulsoIcon": {
   "ko": "애니메이션 React 아이콘. 모든 Lucide 아이콘에 추가 아이콘과 브랜드 로고를 더했으며, 각각 직접 손으로 만든 모션이 적용되어 있습니다. Motion 기반의 lucide-react 대체 라이브러리입니다.",
   "src": "Animated React icons — every Lucide icon plus extra icons and brand logos, each with its own hand-written motion. Drop-in replacement for lucide-react, built on Motion."
@@ -142,6 +150,10 @@
  "DenisSergeevitch/ex-ussr-kinship-research": {
   "ko": "구소련 지역의 교회 기록, 민사, 군사, 강제 이주 및 탄압 기록을 다루는 증거 중심 족보 스킬(Codex, Claude Code용). 사용자의 언어로 응답합니다.",
   "src": "Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across the former USSR. Replies in your language."
+ },
+ "DevedevT/FFmpeg-GUI-Editor-Windows": {
+  "ko": "Windows용 경량 휴대용 FFmpeg GUI 및 무손실 비디오 트리머(바로 사용 가능한 .exe). 영어, 러시아어, 중국어, 독일어, 프랑스어, 이탈리아어를 지원합니다.",
+  "src": "Lightweight portable FFmpeg GUI & lossless video trimmer for Windows (ready-to-use .exe). Supports English, Russian, Chinese, German, French & Italian."
  },
  "DietrichGebert/ponytail": {
   "ko": "AI 에이전트가 방 안에서 가장 게으른 시니어 개발자처럼 생각하게 만듭니다. 최고의 코드는 작성하지 않은 코드입니다.",
@@ -196,8 +208,8 @@
   "src": "FreeToken brings datacenter-scale model serving to your desktop. Run massive models locally, fast and efficiently."
  },
  "FrigadeHQ/yogurt": {
-  "ko": "개인용 AI 회의 노트. 무료이며 오픈소스",
-  "src": "Private AI meeting notes. Free and open source."
+  "ko": "내 컴퓨터에만 저장되는 개인용 AI 회의록 도구입니다. Mac, Windows, Linux용 무료 오픈소스 Granola 대안입니다.",
+  "src": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux."
  },
  "Gathin23/cleanyourtv": {
   "ko": "Wi-Fi로 모든 Android 또는 Google TV의 불필요한 기능을 정리하고, Apple TV 스타일의 홈 화면을 만들어 줍니다.",
@@ -362,6 +374,10 @@
  "LibreSpark/LibreTV": {
   "ko": "Docker 등 배포 방식을 지원하는 1분 만에 구축 가능한 영상 사이트",
   "src": "一分钟搭建影视站，支持Docker等部署方式"
+ },
+ "Likely7/Veyra-NRVideo": {
+  "ko": "DLSS 5로 PS5 GTA6를 120FPS로 구현합니다. 동영상, 이미지, 캡처 카드 소스를 실시간 미리보기로 지원하는 고급 Windows 비디오 플레이어 및 캡처 향상 도구입니다. AI 기반 초해상도, DLSS 5 이미지 향상, 프레임 생성을 결합해 차세대 시각 경험을 제공합니다.",
+  "src": "Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super Resolution, DLSS5 image enhancement, and Frame Generation to deliver a next-generation visual experience."
  },
  "Luk177Master/easy-worship-desktop": {
   "ko": "Easy-Worship 2026: 모든 기능이 활성화된 완전 독립형 데스크톱 설치본",
@@ -767,6 +783,10 @@
   "ko": "Apex Compute의 Apex Neural Rendering(ANR)",
   "src": "Apex Neural Rendering (ANR) by Apex Compute"
  },
+ "aronhy/pibrowse": {
+  "ko": "오픈소스 브라우저 프로필 워크스페이스",
+  "src": "Open-source browser profile workspaces"
+ },
  "arpanjot-coding/AVault": {
   "ko": "AVault - 통화 녹음기(루팅 불필요) | 안드로이드 12~16+용 개인정보 우선, 하드웨어 암호화 오디오 보관함. Shizuku를 통해 루팅 없이 통화를 녹음하며 AES-256-GCM, 생체 인증, 자동 정리를 지원합니다.",
   "src": "AVault - Call Recorder (No Root Required) | Privacy-first, hardware-encrypted audio vault for Android 12-16+. Rootless call recording via Shizuku with AES-256-GCM, biometrics & auto-cleanup."
@@ -795,6 +815,10 @@
   "ko": "AI 에이전트가 AWS에서 개발할 수 있도록 돕는, AWS가 공식 지원하는 MCP 서버, 스킬, 플러그인",
   "src": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS"
  },
+ "backnotprop/plannotator": {
+  "ko": "에이전트를 계속 파악하고 주도하기 위한 워크스페이스로, 형태 잡기, 결정, 계획, 주석 달기, 코드 리뷰, 팀 공유, 그리고 모든 피드백을 한 번의 클릭으로 에이전트에 전달하는 기능을 제공합니다.",
+  "src": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click."
+ },
  "beenuar/AiSOC": {
   "ko": "오픈소스 AI 보안 관제센터(SOC): 경보 통합, LLM 에이전트 기반 트리아지, MITRE ATT&CK 조사, 그리고 에이전트의 모든 단계를 재현 가능하게 기록하는 의사결정 원장을 제공합니다. 직접 호스팅할 수 있으며 API 키 없이 실행되고 MIT 라이선스입니다. Claude, Cursor, Continue용 MCP 서버를 포함합니다.",
   "src": "Open-source AI Security Operations Center: alert fusion, LLM-agent triage, MITRE ATT&CK investigation, and a replayable decision ledger for every agent step. Self-hostable, runs with no API keys, MIT licensed. Ships an MCP server for Claude, Cursor and Continue."
@@ -814,6 +838,10 @@
  "blakeandersonw/ai-app-playbook": {
   "ko": "2026년에 유용하고 수익성 있는 앱을 만드는 방법입니다. 복제한 뒤 코딩 에이전트가 AGENTS.md를 보도록 지정하세요.",
   "src": "How to build useful, profitable apps in 2026. Clone it and point your coding agent at AGENTS.md."
+ },
+ "block/buzz": {
+  "ko": "하이브 마인드 방식의 커뮤니케이션 플랫폼",
+  "src": "A hive mind communication platform"
  },
  "boykopovar/AnyPS5": {
   "ko": "PS5 실행 파일을 Linux와 Windows로 자동 포팅하는 도구입니다.",
@@ -919,6 +947,10 @@
   "ko": "DeepInfer: DeepSeek 모델을 위한 고성능 대규모 추론 프레임워크",
   "src": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models"
  },
+ "deepseek-ai/chat-demo": {
+  "ko": "채팅 데모",
+  "src": "Chat Demo"
+ },
  "deepseek-ai/dsh-superagent-prototype": {
   "ko": "더 자율적인 에이전트 시스템을 향하여",
   "src": "Towards a More Autonomous Agent System"
@@ -938,6 +970,10 @@
  "dipa-studio/ios-sweet": {
   "ko": "Redmi Note 10 Pro(sweet, SM7150)에서 구동하는 iOS 16 userland + XNU",
   "src": "iOS 16 userland + XNU on Redmi Note 10 Pro (sweet, SM7150)"
+ },
+ "djyde/dalibre": {
+  "ko": "가벼운 Calibre 대안",
+  "src": "A lightweight Calibre alternative"
  },
  "dominikmartn/harp": {
   "ko": "하나의 사이드바에서 여러 Claude Code 및 Codex 에이전트를 나란히 실행하고, 어떤 에이전트가 사용자의 확인을 필요로 하는지 알려줍니다. Warp의 비공식 포크입니다.",
@@ -994,6 +1030,10 @@
  "expo/skills": {
   "ko": "Expo 프로젝트와 Expo Application Services를 다루기 위한 AI 에이전트 스킬 모음입니다.",
   "src": "A collection of AI agent skills for working with Expo projects and Expo Application Services"
+ },
+ "faizfahmi77/ScanDot": {
+  "ko": "실험적인 안드로이드 3D 스캐닝 및 포인트 클라우드 뷰어",
+  "src": "Experimental Android 3D scanning and point-cloud viewer"
  },
  "fastapi/fastapi": {
   "ko": "높은 성능, 배우기 쉬움, 빠른 코딩, 프로덕션 준비 완료된 FastAPI 프레임워크",
@@ -1058,6 +1098,10 @@
  "google-gemini/gemini-cli": {
   "ko": "Gemini의 능력을 터미널에서 바로 사용할 수 있게 해주는 오픈소스 AI 에이전트",
   "src": "An open-source AI agent that brings the power of Gemini directly into your terminal."
+ },
+ "google/elephant-goldfish-model": {
+  "ko": "에이전트와 함께 소프트웨어를 설계하고 리뷰하기 위한 오픈소스 플러그인",
+  "src": "Open-source plugin for designing and reviewing software with agents"
  },
  "google/skills": {
   "ko": "Google 제품 및 기술을 위한 에이전트 스킬",
@@ -1247,13 +1291,29 @@
   "ko": "TokenSpeed는 빛의 속도에 가까운 LLM 추론 엔진입니다.",
   "src": "TokenSpeed is a speed-of-light LLM inference engine."
  },
+ "linknimiball1974/ai-texture-forge": {
+  "ko": "Blender용 AI 기반 텍스처 제작 도구로, 텍스트 프롬프트를 로컬 또는 클라우드 디퓨전 모델로 이음새 없는 PBR 재질, 컨셉 아트, 씬 전체 투영으로 바꾸며 Windows에서 3D 뷰포트 안에서 바로 동작합니다. · dream textures · dream textures blender · dream textures addon · dream textures ai · dream textures seamless · dream textures pbr",
+  "src": "An AI-powered texture forge for Blender — turn text prompts into seamless PBR materials, concept art and scene-wide projections with local or cloud diffusion models, straight inside the 3D viewport on Windows. · dream textures · dream textures blender · dream textures addon · dream textures ai · dream textures seamless · dream textures pbr"
+ },
  "livliv-dev/player": {
   "ko": "립싱크와 웹캠 얼굴 추적을 지원하는 웹용 경량 2.5D 캐릭터 플레이어입니다.",
   "src": "A lightweight 2.5D character player for the web, with lip sync and webcam face tracking."
  },
+ "lizTheDeveloper/flyover-scrub": {
+  "ko": "오디오/비디오에서 항공기 도플러 시그니처를 제거해 상공 비행으로 녹음 위치를 특정할 수 없게 합니다. 이를 측정하는 참조 공격 점수 도구가 포함되어 있습니다.",
+  "src": "Remove aircraft Doppler signatures from audio/video so recordings can't be geolocated from flyovers. Includes a reference attack scorer to measure it."
+ },
+ "lobehub/lobehub": {
+  "ko": "🤯 LobeHub - 팀 내 슈퍼 에이전트. 팀이 이미 사용하는 채팅에 슈퍼 에이전트를 추가하세요. 스스로 업무를 맡아 처리하며 매주 더 나아집니다.",
+  "src": "🤯 LobeHub - Super-Agents on Your Team. Add super-agents to the chats your team already uses.They take on work by themselves and get better every week."
+ },
  "longbridge/gpui-kit": {
   "ko": "GPUI를 사용해 훌륭한 크로스 플랫폼 데스크톱 애플리케이션을 만들기 위한 Rust GUI 컴포넌트입니다.",
   "src": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI."
+ },
+ "louislam/uptime-kuma": {
+  "ko": "멋진 자체 호스팅 모니터링 도구",
+  "src": "A fancy self-hosted monitoring tool"
  },
  "luobinger/PerkRadar": {
   "ko": "PerkRadar — 여러 출처에서 2시간마다 무료 혜택, 기간 한정 제안, 할인 정보를 가져오는 셀프 호스팅 할인 정보 수집기. 출처 상태 추적, 만료 처리, 개인 북마크 기능 제공",
@@ -1290,6 +1350,10 @@
  "makecindy/cindy": {
   "ko": "맡겨만 주세요. 별다른 설정 없이 바로 작동하는 오픈소스 AI 에이전트. 생각하면, 바로 실현됩니다.",
   "src": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。"
+ },
+ "makepad/relax": {
+  "ko": "Rust JIT 완화하기",
+  "src": "Relax Rust JIT"
  },
  "manjushree-iyer/soundpad-audio-suite": {
   "ko": "Soundpad: 전문 DAW 워크플로를 위한 고급 오디오 처리",
@@ -1563,6 +1627,10 @@
   "ko": "업무를 대신 실행하는 AI 동료. 직접 호스팅할 수 있으며 AGPL-3.0 라이선스입니다.",
   "src": "AI coworkers that run your work. Self-hostable, AGPL-3.0."
  },
+ "rivet-dev/open-orange": {
+  "ko": "Cloudflare Workers와 Durable Objects를 수정 없이 AWS, GCP, Azure 또는 자체 서버에서 실행합니다.",
+  "src": "Run Cloudflare Workers and Durable Objects unchanged on AWS, GCP, Azure or your own servers."
+ },
  "riyadhHDA/wichforks": {
   "ko": "닌텐도 스위치 2 에뮬레이터 포크의 활용 가이드: 빌드, 게임, GPU, 안드로이드, 커뮤니티 리포트를 다룹니다.",
   "src": "Use-case guide to Nintendo Switch 2 emulator forks: builds, games, GPUs, Android, and community reports."
@@ -1731,6 +1799,10 @@
   "ko": "제가 매일 사용하는 에이전트 스킬. Claude Code 및 Codex와 함께 작동합니다.",
   "src": "The agent skills I use every day. Works with Claude Code and Codex."
  },
+ "tailscale/tailcat": {
+  "ko": "netcat과 비슷하지만 Tailscale의 컨트롤 플레인 없이 Tailscale의 데이터 플레인을 통해 동작합니다",
+  "src": "like netcat, but over Tailscale's data plane, without Tailscale's control plane"
+ },
  "tailwindlabs/tailwindcss": {
   "ko": "빠른 UI 개발을 위한 유틸리티 우선 CSS 프레임워크.",
   "src": "A utility-first CSS framework for rapid UI development."
@@ -1770,6 +1842,10 @@
  "torrentplayer/torrentplayer": {
   "ko": "토렌트, 동영상, 오디오를 스트리밍하고 원하는 지점으로 약 1초 만에 이동할 수 있습니다. Windows, macOS, Linux용 무료 오픈소스 데스크톱 앱. 서버, 계정, 텔레메트리가 없습니다.",
   "src": "Stream any torrent, video or audio, and skip to any moment in about a second. Free, open-source desktop app for Windows, macOS and Linux. No servers, no accounts, no telemetry."
+ },
+ "tradermonty/claude-trading-skills": {
+  "ko": "주식 투자자와 트레이더를 위한 Claude Code 스킬로, 시장 분석, 기술적 차트, 경제 캘린더, 스크리너, 트레이딩 전략 개발 기능을 제공합니다.",
+  "src": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development."
  },
  "trycua/cua": {
   "ko": "오픈소스 드라이버, 크로스 OS 샌드박스, 학습·평가·데이터 생성용 벤치마크로 computer-use 2.0을 확장합니다.",
