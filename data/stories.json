@@ -495,6 +495,43 @@
    ],
    "subheadline": "계정도 인증 토큰도 기능 제한도 없는 '가볍고 폭신한' 개발·테스트용 AWS 대체재"
   },
+  "google-labs-code/stitch-skills": {
+   "date": "2026-11-16",
+   "headline": "구글 스티치, 코딩 에이전트용 스킬 라이브러리 공개",
+   "highlights": [
+    "Agent Skills 오픈 표준 기반으로 여러 코딩 에이전트와 호환",
+    "stitch-design, stitch-build, stitch-utilities 세 가지 플러그인 제공",
+    "Codex 마켓플레이스 등록 후 필요한 플러그인만 골라 설치 가능",
+    "사용하려면 Stitch MCP 서버 설정이 필수",
+    "구글 공식 지원 제품은 아님"
+   ],
+   "image": null,
+   "image_caption": "Stitch MCP 서버와 연동되는 에이전트 스킬 라이브러리 stitch-skills",
+   "lead": "google-labs-code가 공개한 'stitch-skills'는 구글 스티치(Stitch) MCP 서버와 함께 쓰도록 만든 에이전트 스킬과 플러그인 모음입니다. Agent Skills 오픈 표준을 따르기 때문에 여러 코딩 에이전트에서 같은 스킬을 활용할 수 있습니다.",
+   "sections": [
+    {
+     "heading": "무엇인가",
+     "text": "Stitch Design Skills는 구글 Stitch를 위한 에이전트 스킬과 플러그인 컬렉션입니다. 저장소 설명에 따르면 각 스킬은 Agent Skills 오픈 표준을 따르며, Antigravity, Gemini CLI, Claude Code, Cursor 같은 코딩 에이전트와 호환됩니다. README는 Codex와 OpenCode(수동 설치)도 지원 대상으로 안내합니다. 주 언어는 TypeScript입니다."
+    },
+    {
+     "heading": "세 갈래의 플러그인 구성",
+     "text": "스킬은 세 가지 플러그인으로 묶여 있습니다. stitch-design은 Stitch 안에서 디자인을 만들고 관리하고 최적화하는 핵심 워크플로를 다룹니다. stitch-build는 Stitch 디자인에서 코드 생성, 프레임워크 연동, 에셋 컴파일을 담당합니다. stitch-utilities는 프롬프트 개선, 디자인 명세 생성, 디자인 표준 적용 등을 돕는 보조 도구입니다."
+    },
+    {
+     "heading": "설치 방법",
+     "text": "README는 플러그인 전체를 전역으로 설치하는 방식을 권장합니다. Codex에서는 Stitch Skills 마켓플레이스를 추가한 뒤 필요한 플러그인을 설치하며, CLI나 Codex UI의 Settings → Plugin Marketplaces → Add에서 등록할 수 있습니다. CLI의 --sparse 플래그는 선택 사항으로, 필요한 경로만 체크아웃해 클론 속도를 높여 줍니다. 필요한 스킬만 골라 설치할 수도 있으나, 스킬 간 의존성이 있어 필요한 의존 스킬을 함께 넣어야 합니다."
+    },
+    {
+     "heading": "OpenCode 사용자가 알아둘 점",
+     "text": "OpenCode는 npx plugins나 npx skills, Codex·Claude 마켓플레이스 구조를 쓰지 않아 스킬 폴더를 직접 복사하고 Stitch MCP 서버를 수동으로 등록해야 합니다. 스킬 name은 소문자 kebab-case이며 디렉터리 이름과 일치해야 하므로, stitch::… 형태의 이름은 이름과 폴더를 바꿔야 합니다. 스킬 지침 속 도구 이름도 OpenCode 내장 도구(webfetch, bash)에 맞춰 조정하는 편이 좋다고 안내합니다."
+    },
+    {
+     "heading": "사전 조건과 기여",
+     "text": "모든 스킬은 에이전트 환경에 Stitch MCP 서버가 설정되어 실행 중이어야 동작합니다. 새 스킬 후보로는 Stitch HTML을 다른 UI 프레임워크로 변환하고 문법을 검증하는 스킬, 정적 디자인 콘텐츠를 외부 목 데이터 파일로 분리하는 스킬, 주어진 데이터로 Stitch에서 새 디자인 화면을 생성하는 스킬이 제시됐습니다. 다만 이 프로젝트는 구글의 공식 지원 제품이 아니며 구글 오픈소스 취약점 보상 프로그램 대상도 아닙니다."
+    }
+   ],
+   "subheadline": "Agent Skills 표준 따르는 Stitch 디자인 스킬 모음, Codex·Claude Code·Cursor 등 지원"
+  },
   "hmjz100/LinkSwift": {
    "date": "2026-10-29",
    "headline": "링크스위프트, 주요 클라우드 드라이브 직링크 확보",
@@ -943,6 +980,11 @@
    "long": true,
    "text": "Scrapling은 빠른 HTTP 요청, 스텔스 브라우저, 강력한 파싱, 동시 크롤링을 하나의 라이브러리에 묶은 Python 웹 스크래핑 프레임워크입니다. 정적 페이지 수집부터 JavaScript 렌더링, API 호출 데이터 추출까지 다루며, 세션 재사용, 프록시 로테이션, 자동 재시도, 일시정지와 재개 기능으로 대규모 크롤러를 만들 수 있습니다. Python 코드뿐 아니라 터미널, MCP 서버를 통해 AI 에이전트에서도 사용할 수 있다는 점이 특징입니다. 하나의 페이지에서 시작해 웹사이트 전체를 Markdown으로 수집하는 작업까지 한 흐름으로 이어진다는 점에서 실용성이 높습니다."
   },
+  "DeanChensj/jiangshan-map": {
+   "date": "2026-11-16",
+   "long": false,
+   "text": "중국 역사의 전국시대(기원전 403년)부터 현재까지를 시간 축을 따라 탐색할 수 있는 인터랙티브 역사 지도 프로젝트입니다. 18개 왕조와 198개 영토 스냅샷을 바탕으로 강산시서(江山时序) 또는 강산 지도(jiangshan-map)라는 이름으로 소개되며, 고대 도시와 지명의 변천, 고전 시가 속 여행 경로를 지도 위에서 따라가 볼 수 있게 구성되어 있습니다. 역사책 속 지도를 넘어 시를 읽는 감각으로 중국사를 체험하고 싶은 독자에게 흥미로운 도구입니다."
+  },
   "DietrichGebert/ponytail": {
    "date": "2026-10-21",
    "long": true,
@@ -1027,6 +1069,11 @@
    "date": "2026-11-05",
    "long": false,
    "text": "90DaysOfDevOps는 한 개인이 DevOps 기초 지식을 공부하며 기록하던 저장소에서 출발해, 이제 커뮤니티가 함께 쓰는 체계적인 학습 지도로 자리 잡은 프로젝트입니다. 원리, 프로세스, 도구, 활용 사례 등 DevOps 전반을 다루며, 모든 내용을 무료이거나 오픈소스인 도구로 학습할 수 있게 구성되어 있습니다."
+  },
+  "NVIDIA/SkillEvaluator": {
+   "date": "2026-11-16",
+   "long": true,
+   "text": "SkillEvaluator는 AI 에이전트 스킬의 품질을 여러 단계로 점검하는 프레임워크입니다. 품질 게이트와 스킬 간 의미적 중복 탐지, 합성 평가 데이터셋 생성 기능을 제공하며, 실제 에이전트를 실행해 스킬이 에이전트의 동작에 어떤 영향을 주는지 측정합니다. 먼저 정적 품질 검사를 하고 스킬이 있을 때와 없을 때의 실행 결과를 비교하는 흐름이 특징입니다. CLI를 직접 실행하거나 CI에 붙이거나 에이전트와 연결하는 세 가지 방식으로 사용할 수 있습니다."
   },
   "NVIDIA/SkillSpector": {
    "date": "2026-10-27",
@@ -1228,6 +1275,11 @@
    "long": false,
    "text": "gstack은 Y Combinator의 Garry Tan이 직접 사용하는 설정을 공개한 MIT 라이선스 오픈소스 프로젝트로, Claude Code를 CEO, 디자이너, 엔지니어링 매니저, 릴리스 매니저, QA 등 역할이 나뉜 가상의 개발 팀처럼 동작하게 만드는 슬래시 명령 모음입니다. /office-hours로 설계 문서를 작성하고, /review로 운영 환경에서만 드러나는 버그를 찾고, /qa로 스테이징 환경을 점검하는 식으로 활용합니다. 작성자가 제시하는 생산성 수치와 활용 사례는 README의 별도 문서에서 확인할 수 있습니다."
   },
+  "getarcaneapp/arcane": {
+   "date": "2026-11-16",
+   "long": false,
+   "text": "Arcane은 누구나 쉽게 쓸 수 있도록 설계된 현대적인 Docker 관리 도구입니다. 메인 브랜치는 v3 버전이며, 2.x 릴리스는 release/2.x.x 브랜치에서 확인할 수 있습니다. 기능 요청은 Discussions로 옮겨졌고 이슈는 버그 보고 용도로만 사용됩니다. 소프트웨어 구성 명세서(SBOM)를 공개하는 등 투명성에도 신경 쓴 프로젝트입니다."
+  },
   "ggml-org/llama.cpp": {
    "date": "2026-11-13",
    "long": true,
@@ -1253,6 +1305,11 @@
    "long": false,
    "text": "Gemini CLI는 Gemini 모델의 기능을 터미널에서 바로 사용할 수 있게 해 주는 오픈소스 AI 에이전트입니다. npx, npm, Homebrew 등 여러 방법으로 설치할 수 있고 주간 프리뷰와 안정 버전 등 릴리스 채널을 제공합니다. 다만 README에는 이 도구가 Antigravity CLI로 대체되었고 최신 Gemini 모델에 최적화되어 있지 않다는 안내가 함께 적혀 있어 이 점을 확인하는 것이 좋습니다."
   },
+  "google-research/paper-orchestra": {
+   "date": "2026-11-16",
+   "long": true,
+   "text": "PaperOrchestra는 AI 연구 논문 작성을 자동화하는 멀티 에이전트 프레임워크입니다. 아이디어와 실험 로그 같은 원자료를 받아 개요 작성, 문헌 조사, 섹션 작성, 내용 보완, 그림 생성을 여러 전문 에이전트가 나눠 맡아 제출 가능한 LaTeX 원고를 만들어 냅니다. 학회 템플릿에 맞춘 LaTeX 자동화를 지원하며, 실행은 Python CLI나 셸 스크립트로 할 수 있습니다. 데이터셋은 저장소에 포함되어 있지 않고 추후 별도로 공개될 예정입니다."
+  },
   "google/skills": {
    "date": "2026-11-06",
    "long": true,
@@ -1277,6 +1334,11 @@
    "date": "2026-11-02",
    "long": false,
    "text": "Hyprland는 외부 컴포지터 라이브러리에 의존하지 않는 독립형 Wayland 컴포지터로, 창을 자동으로 배치하는 동적 타일링 방식을 사용합니다. 그림자, 블러, 애니메이션 같은 시각 효과를 풍부하게 갖추면서도 설정과 플러그인, 소켓 기반 IPC로 세부 동작을 폭넓게 바꿀 수 있습니다. 게임 성능을 위한 티어링 지원과 빠르게 이어지는 개발 속도도 눈에 띄는 장점입니다."
+  },
+  "kajisho5/ffmpeg-skill": {
+   "date": "2026-11-16",
+   "long": true,
+   "text": "ffmpeg-skill은 Claude Code, Cursor, Codex 같은 코딩 에이전트가 로컬 FFmpeg로 영상을 편집하도록 돕는 도구입니다. 자르기, 자막, 화면 비율 맞추기, 라우드니스 조정, 플랫폼별 내보내기 등 42개의 FFmpeg 도구를 제공하며, MCP 서버와 기계가 읽을 수 있는 계약 정보도 함께 갖추고 있습니다. API 키나 클라우드 없이 Python 표준 라이브러리만으로 오프라인에서 동작하는 점이 눈에 띕니다. 에이전트가 편집 결과를 스스로 검증하는 흐름을 따르도록 설계되었습니다."
   },
   "karpathy/nanochat": {
    "date": "2026-11-03",
@@ -1372,6 +1434,11 @@
    "date": "2026-10-27",
    "long": true,
    "text": "andrej-karpathy-skills는 Andrej Karpathy가 지적한 LLM 코딩의 문제점을 바탕으로 만든 하나의 CLAUDE.md 파일입니다. 가정을 명시하고, 단순함을 우선하며, 필요한 부분만 수정하고, 성공 기준을 정해 검증할 때까지 반복하라는 네 가지 원칙을 담고 있습니다. 파일 하나만 프로젝트에 추가하면 Claude Code의 작업 방식을 조정할 수 있어 간단하게 적용해 볼 수 있습니다."
+  },
+  "mvanhorn/last30days-skill": {
+   "date": "2026-11-16",
+   "long": false,
+   "text": "last30days는 Reddit, X, YouTube, HN, Polymarket 등 여러 플랫폼과 웹을 검색해 특정 주제를 조사하고, 근거에 기반한 요약을 만들어 주는 AI 에이전트 스킬입니다. 검색 결과를 좋아요나 추천 수 같은 실제 사용자 반응으로 점수화하며, AI 에이전트가 이를 종합해 하나의 브리프로 정리합니다. Reddit, HN, Polymarket, GitHub는 별도 설정 없이 바로 사용할 수 있고, 설정 마법사를 실행하면 X, YouTube 등 더 많은 소스를 추가할 수 있습니다. Claude Code, Codex, Cursor 등 여러 에이전트 환경에 설치해 쓸 수 있습니다."
   },
   "nightly-labs/openbot": {
    "date": "2026-10-27",
@@ -1497,6 +1564,11 @@
    "date": "2026-10-22",
    "long": true,
    "text": "freehire는 기업 채용 페이지에서 직접 수집한 IT 채용 공고를 모아 보여주는 오픈소스 검색 엔진입니다. 중개업체의 재게시글이나 죽은 링크 없이 원본 공고로 연결되며, 여러 게시판에 올라온 같은 공고는 하나로 합쳐 보여준다고 소개합니다. 직무, 근무 형태, 연차, 기술 스택, 연봉 등 여러 조건으로 검색할 수 있고, MIT 라이선스로 공개되어 직접 호스팅하거나 API와 CLI를 활용해 확장할 수도 있다는 점이 특징입니다. Go와 PostgreSQL, Meilisearch 등으로 구성되어 있습니다."
+  },
+  "sveltejs/svelte": {
+   "date": "2026-11-16",
+   "long": false,
+   "text": "Svelte는 선언적으로 작성한 컴포넌트를 DOM을 효율적으로 직접 갱신하는 JavaScript 코드로 변환하는 컴파일러 방식의 웹 애플리케이션 빌드 도구입니다. 런타임 부담을 줄이는 접근이 특징이며, MIT 라이선스의 오픈 소스 프로젝트로 자원봉사자들의 기여로 개발이 이어지고 있습니다."
   },
   "symfony/symfony": {
    "date": "2026-11-07",
