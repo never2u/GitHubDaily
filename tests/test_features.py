@@ -279,3 +279,29 @@ class CompletionTest(unittest.TestCase):
             self.assertIn("<b>2024.05.01</b><span>등록일</span>", html)  # top story numbers box
             self.assertIn("2026.10.10 등록", html)                       # rising / card meta
             self.assertIn("2024.05 등록", html)                          # weekly chart
+
+
+class ApiProblemTest(unittest.TestCase):
+    def client(self, exc=None):
+        def retrieve(_):
+            if exc:
+                raise exc
+        return SimpleNamespace(models=SimpleNamespace(retrieve=retrieve))
+
+    def test_rejected_key_is_reported(self):
+        from ghnews.__main__ import api_problem
+        AuthenticationError = type("AuthenticationError", (Exception,), {})
+        self.assertIn("401", api_problem(self.client(AuthenticationError())))
+        self.assertIsNone(api_problem(self.client()))
+        self.assertIsNone(api_problem(self.client(TimeoutError())))   # a passing outage is not a key problem
+
+    def test_enrich_stops_and_flags(self):
+        from unittest import mock
+        import ghnews.__main__ as m
+        with tempfile.TemporaryDirectory() as tmp, mock.patch.object(m, "api_problem", return_value="bad key"), \
+                mock.patch.object(m, "fetch_created_dates", return_value=0), \
+                mock.patch.object(m, "API_PROBLEM_FILE", str(Path(tmp, ".api_problem"))), \
+                mock.patch.object(m.translate, "translate_edition") as tr:
+            m.enrich(ed("2026-11-16", [], daily=["o/a"]), Path(tmp), dt.date(2026, 11, 16))
+            tr.assert_not_called()
+            self.assertEqual(Path(tmp, ".api_problem").read_text(), "bad key")

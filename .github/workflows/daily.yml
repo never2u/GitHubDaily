@@ -53,6 +53,8 @@ jobs:
     needs: check
     if: needs.check.outputs.mode != 'skip'
     runs-on: ubuntu-latest
+    outputs:
+      api_problem: ${{ steps.collect.outputs.api_problem }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -65,6 +67,7 @@ jobs:
       - name: Test
         run: python -m unittest discover -s tests -t .
       - name: Collect and build
+        id: collect
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -72,6 +75,7 @@ jobs:
         run: >-
           python -m ghnews
           ${{ github.event_name == 'push' && '--no-fetch' || (needs.check.outputs.mode == 'fill' && '--fill' || '') }}
+          && { [ ! -f .api_problem ] || echo "api_problem=true" >> "$GITHUB_OUTPUT"; }
       - name: Save edition data
         if: github.event_name != 'push'
         run: |
@@ -100,3 +104,14 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  # The site is still published (in English) when the Claude API key is rejected; this job then fails on purpose,
+  # so the run shows red and GitHub notifies the owner instead of the problem passing silently.
+  alert:
+    needs: build
+    if: needs.build.outputs.api_problem == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "::error title=Claude API key problem::ANTHROPIC_API_KEY was rejected. Translations and the top story were skipped. Update the secret, then run this workflow with mode=fill."
+          exit 1

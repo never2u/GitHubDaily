@@ -75,12 +75,45 @@ def build_site(data_dir: Path, out_dir: Path, base_url: str) -> int:
     return len(editions)
 
 
+API_PROBLEM_FILE = ".api_problem"
+
+
+def api_problem(client=None) -> str | None:
+    """A one-line reason when the Claude API cannot be used at all (bad key, no access); None when it can.
+
+    One free call up front, so a dead key is reported once and clearly instead of failing every request.
+    """
+    if client is None:
+        if not os.environ.get("ANTHROPIC_API_KEY"):
+            return None                       # no key configured: the documented English-only mode
+        import anthropic
+
+        client = anthropic.Anthropic()
+    try:
+        client.models.retrieve(translate.MODEL)
+    except Exception as exc:
+        name = type(exc).__name__
+        if name == "AuthenticationError":
+            return ("The ANTHROPIC_API_KEY secret was rejected (401 invalid x-api-key): the key was deleted, "
+                    "disabled or mistyped. Create a new key in the Claude Console and update the repository secret.")
+        if name == "PermissionDeniedError":
+            return "The ANTHROPIC_API_KEY secret has no permission to use the API (403). Check the key's workspace."
+    return None
+
+
 def enrich(edition: dict, data_dir: Path, today: dt.date) -> None:
     """Add what Claude and the GitHub API provide: creation dates, translations, stories."""
     created_path = data_dir / "repos.json"
     created = load_json(created_path)
     if fetch_created_dates(edition, created):
         save_json(created_path, created)
+
+    problem = api_problem()
+    if problem:
+        # Shown as an annotation on the run, and the workflow's alert job fails so GitHub e-mails the owner.
+        print(f"::error title=Claude API key problem::{problem} Today's edition is published untranslated.")
+        Path(API_PROBLEM_FILE).write_text(problem, encoding="utf-8")
+        return
 
     usage = Usage()
     cache_path = data_dir / "translations.json"
@@ -130,14 +163,17 @@ def main() -> None:
         print(status(args.data, today))
         return
     if args.fill:
-        path = args.data / f"{today.isoformat()}.json"
-        if not path.exists():
+        # Complete today's edition and, when a bad day left gaps, the two before it; nothing is collected again.
+        editions = load_editions(args.data)
+        assign_layouts(editions)
+        recent = [e for e in editions if 0 <= (today - dt.date.fromisoformat(e["date"])).days <= 2]
+        if not any(e["date"] == today.isoformat() for e in recent):
             raise SystemExit(f"no edition for {today} to fill")
-        edition = json.loads(path.read_text(encoding="utf-8"))
-        if not edition.get("layout"):
-            assign_layouts([e for e in load_editions(args.data)])
-            edition = next(e for e in load_editions(args.data) if e["date"] == today.isoformat())
-        enrich(edition, args.data, today)
+        for edition in sorted(recent, key=lambda e: e["date"]):
+            day = dt.date.fromisoformat(edition["date"])
+            if status(args.data, day) == "incomplete":
+                print(f"filling {edition['date']}")
+                enrich(edition, args.data, day)
     elif not args.no_fetch:
         edition = collect(today)
         has_content = edition["trending"].get("daily") or edition["new_arrivals"]
