@@ -83,6 +83,10 @@
   "ko": "대규모 브라질 법률 말뭉치와 순수 PyTorch로 처음부터 학습한 인과적 Transformer 모델.",
   "src": "Corpus legislativo brasileiro em larga escala e modelo Transformer causal treinado do zero em PyTorch puro."
  },
+ "BigPizzaV3/ClaudeMom": {
+  "ko": "Claude 계정 없이 사용하세요! API 키를 로그인 방식으로 전환해 Claude 데스크톱 앱의 모든 기능(한국어화, 음성, 컴퓨터 제어)을 잠금 해제합니다.",
+  "src": "不用 Claude 账号！把 API Key 变成登录模式，Claude 桌面版全功能解锁（汉化 / 语音 / 电脑控制）"
+ },
  "BookracyFOS/bookracy": {
   "ko": "무료 오픈소스 도서 검색, 리더, 도서관 프로그램입니다.",
   "src": "Free, open-source book search, reader and library."
@@ -436,8 +440,8 @@
   "src": "OpenShell is the safe, private runtime for autonomous AI agents."
  },
  "NVIDIA/SkillEvaluator": {
-  "ko": "품질 게이트, 의미적 중복 탐지, 합성 평가 데이터셋 생성, 스킬이 에이전트 행동에 미치는 영향을 측정하는 실시간 에이전트 평가를 갖춘 AI 에이전트 스킬 평가용 다계층 프레임워크",
-  "src": "Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior."
+  "ko": "AI 에이전트 스킬 및 플러그인을 평가하기 위한 다계층 프레임워크로, 품질 게이트, 의미적 중복 탐지, 합성 평가 데이터셋 생성, 그리고 스킬이 에이전트 동작에 미치는 영향을 측정하는 실시간 에이전트 평가 기능을 제공합니다.",
+  "src": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior."
  },
  "NVIDIA/SkillSpector": {
   "ko": "Claude Code, Codex, MCP 스킬을 설치하기 전에 취약점, 악성 패턴, 보안 위험, 프롬프트 인젝션, 데이터 유출, 공급망 위험을 탐지하는 AI 에이전트 스킬 보안 스캐너.",
@@ -863,6 +867,10 @@
   "ko": "DeepSeek API 요금 가이드: 모델, 캐시 히트, 피크 시간대별 요금(2026).",
   "src": "DeepSeek API pricing guide for models, cache hits, and peak hours (2026)."
  },
+ "benzgasfuncring197110/blender-ai-copilot-bridge": {
+  "ko": "OpenCode 및 호환되는 모든 클라이언트에 27개의 감독형 장면 도구를 제공하는 Blender용 MCP 브리지입니다. 로컬 엔드포인트에서 인증된 Streamable HTTP를 지원하며, 내부에는 시각적 채팅 스튜디오와 에이전트 팀이 포함되어 있습니다. · blender-ai-copilot-bridge · blender · blender 3d · blender addon · blender plugin · blender extension · blender scripting",
+  "src": "An MCP bridge for Blender that exposes 27 supervised scene tools to OpenCode and any compatible client—authenticated Streamable HTTP on a local endpoint, with the visual chat studio and agent teams on the inside. · blender-ai-copilot-bridge · blender · blender 3d · blender addon · blender plugin · blender extension · blender scripting"
+ },
  "berkantay/gpucanvas": {
   "ko": "무한 캔버스에 수천 개의 실시간 DOM 노드를 올릴 수 있습니다. GPU가 이를 그리고, 편집기로 선택·이동·크기 조절할 수 있으며, 셰이더와 전환 효과를 적용할 수 있고, AI 에이전트가 이를 읽고 가리킬 수 있습니다.",
   "src": "Put thousands of live DOM nodes on an infinite canvas: the GPU draws them, an editor selects, moves and resizes them, shaders and transitions run on them, and an AI agent can read them and point at them."
@@ -1103,6 +1111,10 @@
   "ko": "코딩 에이전트를 위해 만든 버전 관리 시스템 Scion의 오픈소스 버전입니다.",
   "src": "Open-source version of Scion: version control built for coding agents."
  },
+ "findavoulot1973/Blender-AI-MCP-Suite": {
+  "ko": "Blender AI MCP Suite는 Blender용 AI 어시스턴트이자 내장 Model Context Protocol(MCP) 서버로, 일상 언어로 된 지시를 검사·승인 가능하고 되돌릴 수 있는 3D 장면 작업으로 바꿔줍니다. 시각적 Studio 작업 공간, 다중 에이전트 팀, 21개 이상의 장면 도구, 그리고 원하는 AI 모델 선택 기능을 제공합니다. · blender ai mcp suite · blender ai mcp · ai for blender",
+  "src": "Blender AI MCP Suite is an AI assistant and built-in Model Context Protocol MCP server for Blender that turns plain-language briefs into inspected, approved and reversible 3D scene operations — with a visual Studio workspace, multi-agent teams, 21+ scene tools and your choice of AI models. · blender ai mcp suite · blender ai mcp · ai for blender"
+ },
  "flgomes/dxo-photolab-10-desktop": {
   "ko": "전문가용 사진 처리 워크플로를 위한 DxO PhotoLab 10 데스크톱 빌드",
   "src": "DxO PhotoLab 10 desktop build for professional photo processing workflows"
@@ -1222,6 +1234,10 @@
  "heygen-com/hyperframes": {
   "ko": "HTML을 작성하고 영상을 렌더링하세요. 에이전트를 위해 만들어졌습니다.",
   "src": "Write HTML. Render video. Built for agents."
+ },
+ "higurashi-ai/Haru": {
+  "ko": "Haru: 지연 시간이 짧은 다국어 전이중(full-duplex) 음성 대화 모델",
+  "src": "Haru: a low-latency, multilingual, full-duplex spoken dialogue model"
  },
  "hitkeeen/blender-ai-mcp-addon": {
   "ko": "Blender용 AI 어시스턴트이자 MCP 서버: 시각적 채팅, 장면 도구, 멀티 에이전트 워크플로를 제공합니다. ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode와 함께 작동합니다. Blender AI 애드온, 3D용 코파일럿, bpy 파이썬 스크립팅, MCP 연동을 지원합니다.",
@@ -1498,6 +1514,10 @@
  "mistralai/timestral": {
   "ko": "Mistral AI의 시계열 기반 모델 Timestral의 저장소",
   "src": "Repository for Timestral, the time-series foundation model by Mistral AI"
+ },
+ "mit-han-lab/pear": {
+  "ko": "실제 로봇을 자연스럽게 사용하도록 시뮬레이션에서 추론 모델을 학습시키는 기술",
+  "src": "Training Reasoning Models in Simulation to Natively Use Real Robots"
  },
  "mizorewww/gdirect": {
   "ko": "고정된 libaria2를 사용하는 Rust 기반 Google 드라이브 직접 다운로더",

@@ -1,0 +1,1389 @@
+{
+ "date": "2026-11-17",
+ "trending": {
+  "daily": [
+   {
+    "rank": 1,
+    "full_name": "ag-ui-protocol/ag-ui",
+    "owner": "ag-ui-protocol",
+    "url": "https://github.com/ag-ui-protocol/ag-ui",
+    "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+    "language": "TypeScript",
+    "stars": 19142,
+    "forks": 1971,
+    "stars_gained": 791,
+    "built_by": [
+     "ranst91",
+     "contextablemark",
+     "mme",
+     "claude",
+     "jpr5"
+    ]
+   },
+   {
+    "rank": 2,
+    "full_name": "backnotprop/plannotator",
+    "owner": "backnotprop",
+    "url": "https://github.com/backnotprop/plannotator",
+    "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+    "language": "TypeScript",
+    "stars": 12633,
+    "forks": 1231,
+    "stars_gained": 696,
+    "built_by": [
+     "backnotprop",
+     "claude",
+     "utpalsinghdev",
+     "leoreisdias",
+     "uvw"
+    ]
+   },
+   {
+    "rank": 3,
+    "full_name": "dream-num/univer",
+    "owner": "dream-num",
+    "url": "https://github.com/dream-num/univer",
+    "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+    "language": "TypeScript",
+    "stars": 27858,
+    "forks": 2531,
+    "stars_gained": 1828,
+    "built_by": [
+     "jikkai",
+     "DR-Univer",
+     "wpxp123456",
+     "wzhudev",
+     "Dushusir"
+    ]
+   },
+   {
+    "rank": 4,
+    "full_name": "tradermonty/claude-trading-skills",
+    "owner": "tradermonty",
+    "url": "https://github.com/tradermonty/claude-trading-skills",
+    "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+    "language": "Python",
+    "stars": 6371,
+    "forks": 1332,
+    "stars_gained": 837,
+    "built_by": [
+     "claude",
+     "tradermonty",
+     "raikkonenPotter",
+     "wolframarnold"
+    ]
+   },
+   {
+    "rank": 5,
+    "full_name": "getarcaneapp/arcane",
+    "owner": "getarcaneapp",
+    "url": "https://github.com/getarcaneapp/arcane",
+    "description": "Modern Docker Management, Designed for Everyone",
+    "language": "Go",
+    "stars": 8796,
+    "forks": 408,
+    "stars_gained": 46,
+    "built_by": [
+     "kmendell",
+     "getarcaneappbot",
+     "cabaucom376",
+     "GiulioSavini"
+    ]
+   },
+   {
+    "rank": 6,
+    "full_name": "DeanChensj/jiangshan-map",
+    "owner": "DeanChensj",
+    "url": "https://github.com/DeanChensj/jiangshan-map",
+    "description": "江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 198 territory snapshots, ancient-to-modern place genealogy & classical poetry routes",
+    "language": "JavaScript",
+    "stars": 6909,
+    "forks": 801,
+    "stars_gained": 288,
+    "built_by": [
+     "DeanChensj",
+     "claude",
+     "xcv58",
+     "mathieuwang",
+     "zsc8917zsc"
+    ]
+   },
+   {
+    "rank": 7,
+    "full_name": "google-labs-code/stitch-skills",
+    "owner": "google-labs-code",
+    "url": "https://github.com/google-labs-code/stitch-skills",
+    "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+    "language": "TypeScript",
+    "stars": 9762,
+    "forks": 1243,
+    "stars_gained": 529,
+    "built_by": [
+     "JLXIA",
+     "davideast",
+     "Emp1500",
+     "dalmaer",
+     "meeChn"
+    ]
+   },
+   {
+    "rank": 8,
+    "full_name": "mvanhorn/last30days-skill",
+    "owner": "mvanhorn",
+    "url": "https://github.com/mvanhorn/last30days-skill",
+    "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+    "language": "Python",
+    "stars": 68193,
+    "forks": 6041,
+    "stars_gained": 135,
+    "built_by": [
+     "mvanhorn",
+     "tmchow",
+     "claude",
+     "iliaal"
+    ]
+   },
+   {
+    "rank": 9,
+    "full_name": "NVIDIA/SkillEvaluator",
+    "owner": "NVIDIA",
+    "url": "https://github.com/NVIDIA/SkillEvaluator",
+    "description": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
+    "language": "Python",
+    "stars": 2786,
+    "forks": 367,
+    "stars_gained": 873,
+    "built_by": [
+     "rng1995",
+     "chrisknvidia",
+     "claude",
+     "YMuskrat",
+     "kweinmeister"
+    ]
+   },
+   {
+    "rank": 10,
+    "full_name": "alibaba/open-code-review",
+    "owner": "alibaba",
+    "url": "https://github.com/alibaba/open-code-review",
+    "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+    "language": "Go",
+    "stars": 53010,
+    "forks": 4302,
+    "stars_gained": 951,
+    "built_by": [
+     "lizhengfeng101",
+     "wu21-web",
+     "chethanuk",
+     "Qiyuanqiii",
+     "stay-foolish-forever"
+    ]
+   },
+   {
+    "rank": 11,
+    "full_name": "google-research/paper-orchestra",
+    "owner": "google-research",
+    "url": "https://github.com/google-research/paper-orchestra",
+    "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
+    "language": "Python",
+    "stars": 1609,
+    "forks": 242,
+    "stars_gained": 313,
+    "built_by": [
+     "yiwen-song",
+     "obrienciaran"
+    ]
+   },
+   {
+    "rank": 12,
+    "full_name": "ChromeDevTools/chrome-devtools-mcp",
+    "owner": "ChromeDevTools",
+    "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+    "description": "Chrome DevTools for coding agents",
+    "language": "TypeScript",
+    "stars": 57727,
+    "forks": 4853,
+    "stars_gained": 841,
+    "built_by": [
+     "OrKoN",
+     "Lightning00Blade",
+     "browser-automation-bot",
+     "yulunz"
+    ]
+   },
+   {
+    "rank": 13,
+    "full_name": "sveltejs/svelte",
+    "owner": "sveltejs",
+    "url": "https://github.com/sveltejs/svelte",
+    "description": "web development for the rest of us",
+    "language": "JavaScript",
+    "stars": 89026,
+    "forks": 6094,
+    "stars_gained": 115,
+    "built_by": [
+     "Rich-Harris",
+     "dummdidumm",
+     "Conduitry",
+     "trueadm"
+    ]
+   },
+   {
+    "rank": 14,
+    "full_name": "kajisho5/ffmpeg-skill",
+    "owner": "kajisho5",
+    "url": "https://github.com/kajisho5/ffmpeg-skill",
+    "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
+    "language": "Python",
+    "stars": 6885,
+    "forks": 606,
+    "stars_gained": 367,
+    "built_by": [
+     "claude",
+     "kajisho5"
+    ]
+   }
+  ],
+  "weekly": [
+   {
+    "rank": 1,
+    "full_name": "GoogleChrome/modern-web-guidance-src",
+    "owner": "GoogleChrome",
+    "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+    "description": "Keep your coding agent up to date with the latest web best practices",
+    "language": "TypeScript",
+    "stars": 8034,
+    "forks": 699,
+    "stars_gained": 6542,
+    "built_by": [
+     "paulirish",
+     "rviscomi",
+     "micahjo7",
+     "LeaVerou"
+    ]
+   },
+   {
+    "rank": 2,
+    "full_name": "meta/astryx",
+    "owner": "meta",
+    "url": "https://github.com/meta/astryx",
+    "description": "An open source design system that's fully customizable and agent ready",
+    "language": "TypeScript",
+    "stars": 29662,
+    "forks": 2310,
+    "stars_gained": 10939,
+    "built_by": [
+     "cixzhang",
+     "josephfarina",
+     "rubyycheung",
+     "vjeux"
+    ]
+   },
+   {
+    "rank": 3,
+    "full_name": "backnotprop/plannotator",
+    "owner": "backnotprop",
+    "url": "https://github.com/backnotprop/plannotator",
+    "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+    "language": "TypeScript",
+    "stars": 12633,
+    "forks": 1231,
+    "stars_gained": 2325,
+    "built_by": [
+     "backnotprop",
+     "claude",
+     "utpalsinghdev",
+     "leoreisdias",
+     "uvw"
+    ]
+   },
+   {
+    "rank": 4,
+    "full_name": "anthropics/skills",
+    "owner": "anthropics",
+    "url": "https://github.com/anthropics/skills",
+    "description": "Public repository for Agent Skills",
+    "language": "Python",
+    "stars": 196098,
+    "forks": 23022,
+    "stars_gained": 5666,
+    "built_by": [
+     "rlancemartin",
+     "klazuka",
+     "claude",
+     "cj-ant",
+     "ericharmeling"
+    ]
+   },
+   {
+    "rank": 5,
+    "full_name": "vercel-labs/agent-browser",
+    "owner": "vercel-labs",
+    "url": "https://github.com/vercel-labs/agent-browser",
+    "description": "Browser automation CLI for AI agents",
+    "language": "Rust",
+    "stars": 52053,
+    "forks": 3638,
+    "stars_gained": 3760,
+    "built_by": [
+     "ctate",
+     "Railly",
+     "lahfir",
+     "claude"
+    ]
+   },
+   {
+    "rank": 6,
+    "full_name": "we-promise/sure",
+    "owner": "we-promise",
+    "url": "https://github.com/we-promise/sure",
+    "description": "The personal finance app for everyone (by everyone)",
+    "language": "Ruby",
+    "stars": 16025,
+    "forks": 1392,
+    "stars_gained": 4679,
+    "built_by": [
+     "jjmata",
+     "claude",
+     "zachgoll",
+     "Shpigford"
+    ]
+   },
+   {
+    "rank": 7,
+    "full_name": "ZhuLinsen/daily_stock_analysis",
+    "owner": "ZhuLinsen",
+    "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+    "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+    "language": "Python",
+    "stars": 72835,
+    "forks": 57678,
+    "stars_gained": 4355,
+    "built_by": [
+     "ZhuLinsen",
+     "massif-01",
+     "freesme",
+     "Activer007",
+     "birdxs"
+    ]
+   },
+   {
+    "rank": 8,
+    "full_name": "sherlock-project/sherlock",
+    "owner": "sherlock-project",
+    "url": "https://github.com/sherlock-project/sherlock",
+    "description": "Hunt down social media accounts by username across social networks",
+    "language": "Python",
+    "stars": 113216,
+    "forks": 13036,
+    "stars_gained": 7067,
+    "built_by": [
+     "sdushantha",
+     "hoadlck",
+     "ppfeister",
+     "TheYahya",
+     "Czechball"
+    ]
+   },
+   {
+    "rank": 9,
+    "full_name": "google/elephant-goldfish-model",
+    "owner": "google",
+    "url": "https://github.com/google/elephant-goldfish-model",
+    "description": "Open-source plugin for designing and reviewing software with agents",
+    "language": "Python",
+    "stars": 20406,
+    "forks": 1509,
+    "stars_gained": 4249,
+    "built_by": [
+     "n3wth",
+     "briansuchy",
+     "eewing314",
+     "briansuchy-goog"
+    ]
+   },
+   {
+    "rank": 10,
+    "full_name": "google-deepmind/mujoco",
+    "owner": "google-deepmind",
+    "url": "https://github.com/google-deepmind/mujoco",
+    "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+    "language": "C++",
+    "stars": 18189,
+    "forks": 2204,
+    "stars_gained": 1448,
+    "built_by": [
+     "yuvaltassa",
+     "quagla",
+     "haroonq",
+     "kbayes",
+     "thowell"
+    ]
+   },
+   {
+    "rank": 11,
+    "full_name": "alibaba/open-code-review",
+    "owner": "alibaba",
+    "url": "https://github.com/alibaba/open-code-review",
+    "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+    "language": "Go",
+    "stars": 53010,
+    "forks": 4302,
+    "stars_gained": 3056,
+    "built_by": [
+     "lizhengfeng101",
+     "wu21-web",
+     "chethanuk",
+     "Qiyuanqiii",
+     "stay-foolish-forever"
+    ]
+   },
+   {
+    "rank": 12,
+    "full_name": "addyosmani/agent-skills",
+    "owner": "addyosmani",
+    "url": "https://github.com/addyosmani/agent-skills",
+    "description": "Production-grade engineering skills for AI coding agents.",
+    "language": "JavaScript",
+    "stars": 118362,
+    "forks": 12356,
+    "stars_gained": 3960,
+    "built_by": [
+     "addyosmani",
+     "nucliweb",
+     "ayobamiseun",
+     "claude",
+     "rudycelekli"
+    ]
+   },
+   {
+    "rank": 13,
+    "full_name": "openai/codex-security",
+    "owner": "openai",
+    "url": "https://github.com/openai/codex-security",
+    "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+    "language": "TypeScript",
+    "stars": 13787,
+    "forks": 1074,
+    "stars_gained": 2352,
+    "built_by": [
+     "mldangelo-oai",
+     "codex",
+     "ianw-oai",
+     "kmbroai"
+    ]
+   },
+   {
+    "rank": 14,
+    "full_name": "QwenLM/qwen-code",
+    "owner": "QwenLM",
+    "url": "https://github.com/QwenLM/qwen-code",
+    "description": "An open-source AI coding agent that lives in your terminal.",
+    "language": "TypeScript",
+    "stars": 30656,
+    "forks": 3548,
+    "stars_gained": 1497,
+    "built_by": [
+     "wenshao",
+     "qwencoder",
+     "yiliang114",
+     "tanzhenxin",
+     "qwen-code-dev-bot"
+    ]
+   }
+  ],
+  "monthly": [
+   {
+    "rank": 1,
+    "full_name": "Nutlope/hallmark",
+    "owner": "Nutlope",
+    "url": "https://github.com/Nutlope/hallmark",
+    "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+    "language": "CSS",
+    "stars": 56183,
+    "forks": 3026,
+    "stars_gained": 25988,
+    "built_by": [
+     "Luffixos",
+     "Nutlope",
+     "rudycelekli",
+     "cursoragent",
+     "xunguangzlj-cloud"
+    ]
+   },
+   {
+    "rank": 2,
+    "full_name": "cloudflare/security-audit-skill",
+    "owner": "cloudflare",
+    "url": "https://github.com/cloudflare/security-audit-skill",
+    "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+    "language": "JavaScript",
+    "stars": 74015,
+    "forks": 4954,
+    "stars_gained": 43924,
+    "built_by": [
+     "literally-dan",
+     "CooperSheroy",
+     "kennysarnoski-jarvis"
+    ]
+   },
+   {
+    "rank": 3,
+    "full_name": "pingdotgg/t3code",
+    "owner": "pingdotgg",
+    "url": "https://github.com/pingdotgg/t3code",
+    "description": "The best way to control Claude Code, Codex and more from any computer or phone",
+    "language": "TypeScript",
+    "stars": 62899,
+    "forks": 11168,
+    "stars_gained": 34691,
+    "built_by": [
+     "juliusmarminge",
+     "claude",
+     "maria-rcks",
+     "t3dotgg",
+     "codex"
+    ]
+   },
+   {
+    "rank": 4,
+    "full_name": "thedotmack/claude-mem",
+    "owner": "thedotmack",
+    "url": "https://github.com/thedotmack/claude-mem",
+    "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+    "language": "TypeScript",
+    "stars": 117721,
+    "forks": 10225,
+    "stars_gained": 17074,
+    "built_by": [
+     "thedotmack",
+     "claude",
+     "Afloat16",
+     "rudycelekli",
+     "cursoragent"
+    ]
+   },
+   {
+    "rank": 5,
+    "full_name": "anthropics/skills",
+    "owner": "anthropics",
+    "url": "https://github.com/anthropics/skills",
+    "description": "Public repository for Agent Skills",
+    "language": "Python",
+    "stars": 196098,
+    "forks": 23022,
+    "stars_gained": 14817,
+    "built_by": [
+     "rlancemartin",
+     "klazuka",
+     "claude",
+     "cj-ant",
+     "ericharmeling"
+    ]
+   },
+   {
+    "rank": 6,
+    "full_name": "pbakaus/impeccable",
+    "owner": "pbakaus",
+    "url": "https://github.com/pbakaus/impeccable",
+    "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+    "language": "Rust",
+    "stars": 111431,
+    "forks": 6659,
+    "stars_gained": 29881,
+    "built_by": [
+     "pbakaus",
+     "claude",
+     "abdulwahabone",
+     "cursoragent"
+    ]
+   },
+   {
+    "rank": 7,
+    "full_name": "HKUDS/DeepTutor",
+    "owner": "HKUDS",
+    "url": "https://github.com/HKUDS/DeepTutor",
+    "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ .",
+    "language": "Python",
+    "stars": 59810,
+    "forks": 7242,
+    "stars_gained": 18533,
+    "built_by": [
+     "pancacake",
+     "claude",
+     "evan188199-tech",
+     "Pinkllow"
+    ]
+   },
+   {
+    "rank": 8,
+    "full_name": "heygen-com/hyperframes",
+    "owner": "heygen-com",
+    "url": "https://github.com/heygen-com/hyperframes",
+    "description": "Write HTML. Render video. Built for agents.",
+    "language": "TypeScript",
+    "stars": 85286,
+    "forks": 7900,
+    "stars_gained": 20459,
+    "built_by": [
+     "miguel-heygen",
+     "vanceingalls",
+     "claude",
+     "jrusso1020",
+     "ukimsanov"
+    ]
+   },
+   {
+    "rank": 9,
+    "full_name": "sherlock-project/sherlock",
+    "owner": "sherlock-project",
+    "url": "https://github.com/sherlock-project/sherlock",
+    "description": "Hunt down social media accounts by username across social networks",
+    "language": "Python",
+    "stars": 113216,
+    "forks": 13036,
+    "stars_gained": 19079,
+    "built_by": [
+     "sdushantha",
+     "hoadlck",
+     "ppfeister",
+     "TheYahya",
+     "Czechball"
+    ]
+   },
+   {
+    "rank": 10,
+    "full_name": "Leonxlnx/taste-skill",
+    "owner": "Leonxlnx",
+    "url": "https://github.com/Leonxlnx/taste-skill",
+    "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
+    "language": "JavaScript",
+    "stars": 116967,
+    "forks": 7833,
+    "stars_gained": 19384,
+    "built_by": [
+     "Leonxlnx",
+     "claude",
+     "cursoragent",
+     "HugoSpy",
+     "bougieL"
+    ]
+   },
+   {
+    "rank": 11,
+    "full_name": "AgriciDaniel/claude-seo",
+    "owner": "AgriciDaniel",
+    "url": "https://github.com/AgriciDaniel/claude-seo",
+    "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
+    "language": "Python",
+    "stars": 30075,
+    "forks": 3784,
+    "stars_gained": 10989,
+    "built_by": [
+     "AgriciDaniel",
+     "claude",
+     "Afloat16",
+     "Nordalux",
+     "rudycelekli"
+    ]
+   },
+   {
+    "rank": 12,
+    "full_name": "anthropics/knowledge-work-plugins",
+    "owner": "anthropics",
+    "url": "https://github.com/anthropics/knowledge-work-plugins",
+    "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+    "language": "Python",
+    "stars": 36315,
+    "forks": 4011,
+    "stars_gained": 6537,
+    "built_by": [
+     "jordanecker-ant",
+     "bryan-anthropic",
+     "claude",
+     "mattpic-ant"
+    ]
+   },
+   {
+    "rank": 13,
+    "full_name": "backnotprop/plannotator",
+    "owner": "backnotprop",
+    "url": "https://github.com/backnotprop/plannotator",
+    "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+    "language": "TypeScript",
+    "stars": 12633,
+    "forks": 1231,
+    "stars_gained": 2848,
+    "built_by": [
+     "backnotprop",
+     "claude",
+     "utpalsinghdev",
+     "leoreisdias",
+     "uvw"
+    ]
+   },
+   {
+    "rank": 14,
+    "full_name": "Vincentwei1021/video-shotcraft",
+    "owner": "Vincentwei1021",
+    "url": "https://github.com/Vincentwei1021/video-shotcraft",
+    "description": "AI video skill for Claude Code & Codex — cinematic, editable product promos with Remotion: 124 shot recipe cards, 150 motion previews, beat sync, sound design, Motion Workbench & JianYing (CapCut CN) export.",
+    "language": "TypeScript",
+    "stars": 20629,
+    "forks": 1904,
+    "stars_gained": 8363,
+    "built_by": [
+     "claude",
+     "Vincentwei1021",
+     "skyzhao1223",
+     "Nombah501"
+    ]
+   },
+   {
+    "rank": 15,
+    "full_name": "vercel-labs/agent-browser",
+    "owner": "vercel-labs",
+    "url": "https://github.com/vercel-labs/agent-browser",
+    "description": "Browser automation CLI for AI agents",
+    "language": "Rust",
+    "stars": 52053,
+    "forks": 3638,
+    "stars_gained": 7943,
+    "built_by": [
+     "ctate",
+     "Railly",
+     "lahfir",
+     "claude"
+    ]
+   }
+  ]
+ },
+ "new_arrivals": [
+  {
+   "rank": 1,
+   "full_name": "deepseek-ai/chat-demo",
+   "owner": "deepseek-ai",
+   "url": "https://github.com/deepseek-ai/chat-demo",
+   "description": "Chat Demo",
+   "language": "TypeScript",
+   "stars": 4139,
+   "forks": 868,
+   "stars_gained": 4139,
+   "topics": [],
+   "created_at": "2026-11-12T08:08:19Z",
+   "built_by": [
+    "deepseek-ai"
+   ]
+  },
+  {
+   "rank": 2,
+   "full_name": "apex-compute/ANR",
+   "owner": "apex-compute",
+   "url": "https://github.com/apex-compute/ANR",
+   "description": "Apex Neural Rendering (ANR) by Apex Compute",
+   "language": "C++",
+   "stars": 2477,
+   "forks": 53,
+   "stars_gained": 2477,
+   "topics": [],
+   "created_at": "2026-11-11T04:27:17Z",
+   "built_by": [
+    "apex-compute"
+   ]
+  },
+  {
+   "rank": 3,
+   "full_name": "hitkeeen/blender-ai-mcp-addon",
+   "owner": "hitkeeen",
+   "url": "https://github.com/hitkeeen/blender-ai-mcp-addon",
+   "description": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
+   "language": null,
+   "stars": 2234,
+   "forks": 54,
+   "stars_gained": 2234,
+   "topics": [
+    "ai-agents",
+    "ai-assistant",
+    "blender",
+    "blender-addon",
+    "blender-ai",
+    "blender-automation"
+   ],
+   "created_at": "2026-11-12T14:32:15Z",
+   "built_by": [
+    "hitkeeen"
+   ]
+  },
+  {
+   "rank": 4,
+   "full_name": "Noniv/abyssal-garden",
+   "owner": "Noniv",
+   "url": "https://github.com/Noniv/abyssal-garden",
+   "description": "A dreamy underwater world you can swim through in your browser: swaying kelp forests, sunbeams, a sunken ship and manta rays. Everything is generated by code with WebGPU (no images, models or sound files), all in a single 97 KB HTML file.",
+   "language": "JavaScript",
+   "stars": 1757,
+   "forks": 266,
+   "stars_gained": 1757,
+   "topics": [],
+   "created_at": "2026-11-12T13:57:34Z",
+   "built_by": [
+    "Noniv"
+   ]
+  },
+  {
+   "rank": 5,
+   "full_name": "duwqijlk/muse-protocol",
+   "owner": "duwqijlk",
+   "url": "https://github.com/duwqijlk/muse-protocol",
+   "description": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）",
+   "language": "Python",
+   "stars": 1462,
+   "forks": 575,
+   "stars_gained": 1462,
+   "topics": [],
+   "created_at": "2026-11-14T01:24:58Z",
+   "built_by": [
+    "duwqijlk"
+   ]
+  },
+  {
+   "rank": 6,
+   "full_name": "Eynnzerr/TelemetryCleaner",
+   "owner": "Eynnzerr",
+   "url": "https://github.com/Eynnzerr/TelemetryCleaner",
+   "description": "基于 Shizuku 免 Root 清除国产安卓 SystemHelper、RegService 等系统预装隐私数据收集模块",
+   "language": "Kotlin",
+   "stars": 1332,
+   "forks": 112,
+   "stars_gained": 1332,
+   "topics": [],
+   "created_at": "2026-11-11T06:25:10Z",
+   "built_by": [
+    "Eynnzerr"
+   ]
+  },
+  {
+   "rank": 7,
+   "full_name": "ZiChuanLan/freebie-radar",
+   "owner": "ZiChuanLan",
+   "url": "https://github.com/ZiChuanLan/freebie-radar",
+   "description": "白嫖与资讯资源聚合雷达：100+个源定时采集 + AI 二审过滤假福利 + 获取方式分级隔离抽奖/试用/推广 + Telegram 即时推送",
+   "language": "TypeScript",
+   "stars": 1177,
+   "forks": 203,
+   "stars_gained": 1177,
+   "topics": [],
+   "created_at": "2026-11-12T09:08:11Z",
+   "built_by": [
+    "ZiChuanLan"
+   ]
+  },
+  {
+   "rank": 8,
+   "full_name": "opencoredev/islandcn",
+   "owner": "opencoredev",
+   "url": "https://github.com/opencoredev/islandcn",
+   "description": "The open-source Dynamic Island for React, installed with shadcn.",
+   "language": "TypeScript",
+   "stars": 778,
+   "forks": 63,
+   "stars_gained": 778,
+   "topics": [
+    "dynamic-island",
+    "nextjs",
+    "react",
+    "shadcn",
+    "typescript",
+    "ui-components"
+   ],
+   "created_at": "2026-11-13T11:50:50Z",
+   "built_by": [
+    "opencoredev"
+   ]
+  },
+  {
+   "rank": 9,
+   "full_name": "AIRzZ90/study-materials-fork",
+   "owner": "AIRzZ90",
+   "url": "https://github.com/AIRzZ90/study-materials-fork",
+   "description": "A cross-platform Tauri 2 interface and interaction practice project",
+   "language": "TypeScript",
+   "stars": 738,
+   "forks": 1212,
+   "stars_gained": 738,
+   "topics": [],
+   "created_at": "2026-11-12T10:52:32Z",
+   "built_by": [
+    "AIRzZ90"
+   ]
+  },
+  {
+   "rank": 10,
+   "full_name": "linknimiball1974/ai-texture-forge",
+   "owner": "linknimiball1974",
+   "url": "https://github.com/linknimiball1974/ai-texture-forge",
+   "description": "An AI-powered texture forge for Blender — turn text prompts into seamless PBR materials, concept art and scene-wide projections with local or cloud diffusion models, straight inside the 3D viewport on Windows. · dream textures · dream textures blender · dream textures addon · dream textures ai · dream textures seamless · dream textures pbr",
+   "language": null,
+   "stars": 685,
+   "forks": 31,
+   "stars_gained": 685,
+   "topics": [
+    "dream-textures",
+    "dream-textures-addon",
+    "dream-textures-ai",
+    "dream-textures-blender",
+    "dream-textures-diffusion",
+    "dream-textures-generation"
+   ],
+   "created_at": "2026-11-11T19:09:18Z",
+   "built_by": [
+    "linknimiball1974"
+   ]
+  },
+  {
+   "rank": 11,
+   "full_name": "haziqahmedqasmi/PeakCut",
+   "owner": "haziqahmedqasmi",
+   "url": "https://github.com/haziqahmedqasmi/PeakCut",
+   "description": "AI clipping for long videos and live streams. Self-hosted, bring your own AI key.",
+   "language": "Python",
+   "stars": 672,
+   "forks": 230,
+   "stars_gained": 672,
+   "topics": [],
+   "created_at": "2026-11-14T07:38:20Z",
+   "built_by": [
+    "haziqahmedqasmi"
+   ]
+  },
+  {
+   "rank": 12,
+   "full_name": "rivet-dev/open-orange",
+   "owner": "rivet-dev",
+   "url": "https://github.com/rivet-dev/open-orange",
+   "description": "Run Cloudflare Workers and Durable Objects unchanged on AWS, GCP, Azure or your own servers.",
+   "language": "TypeScript",
+   "stars": 631,
+   "forks": 24,
+   "stars_gained": 631,
+   "topics": [
+    "cloudflare",
+    "cloudflare-workers",
+    "durable-objects",
+    "nodejs",
+    "rivet",
+    "self-hosted"
+   ],
+   "created_at": "2026-11-12T00:44:12Z",
+   "built_by": [
+    "rivet-dev"
+   ]
+  },
+  {
+   "rank": 13,
+   "full_name": "n4ze3m/tiny-voca",
+   "owner": "n4ze3m",
+   "url": "https://github.com/n4ze3m/tiny-voca",
+   "description": "A 4.5M-parameter two-voice English text-to-speech model, trained from scratch",
+   "language": "Python",
+   "stars": 623,
+   "forks": 74,
+   "stars_gained": 623,
+   "topics": [
+    "onnx",
+    "text-to-speech",
+    "tts"
+   ],
+   "created_at": "2026-11-14T16:02:56Z",
+   "built_by": [
+    "n4ze3m"
+   ]
+  },
+  {
+   "rank": 14,
+   "full_name": "yetanotherbrowser/yab",
+   "owner": "yetanotherbrowser",
+   "url": "https://github.com/yetanotherbrowser/yab",
+   "description": "Yab, yet another browser: a fast native macOS browser with an iPhone and Android companion",
+   "language": "Swift",
+   "stars": 596,
+   "forks": 50,
+   "stars_gained": 596,
+   "topics": [],
+   "created_at": "2026-11-14T23:56:32Z",
+   "built_by": [
+    "yetanotherbrowser"
+   ]
+  },
+  {
+   "rank": 15,
+   "full_name": "makepad/relax",
+   "owner": "makepad",
+   "url": "https://github.com/makepad/relax",
+   "description": "Relax Rust JIT",
+   "language": "Rust",
+   "stars": 579,
+   "forks": 31,
+   "stars_gained": 579,
+   "topics": [],
+   "created_at": "2026-11-11T19:12:58Z",
+   "built_by": [
+    "makepad"
+   ]
+  },
+  {
+   "rank": 16,
+   "full_name": "BigPizzaV3/ClaudeMom",
+   "owner": "BigPizzaV3",
+   "url": "https://github.com/BigPizzaV3/ClaudeMom",
+   "description": "不用 Claude 账号！把 API Key 变成登录模式，Claude 桌面版全功能解锁（汉化 / 语音 / 电脑控制）",
+   "language": "Rust",
+   "stars": 557,
+   "forks": 114,
+   "stars_gained": 557,
+   "topics": [
+    "claude",
+    "claude-code",
+    "claude-desktop",
+    "tauri"
+   ],
+   "created_at": "2026-11-12T07:06:59Z",
+   "built_by": [
+    "BigPizzaV3"
+   ]
+  },
+  {
+   "rank": 17,
+   "full_name": "faizfahmi77/ScanDot",
+   "owner": "faizfahmi77",
+   "url": "https://github.com/faizfahmi77/ScanDot",
+   "description": "Experimental Android 3D scanning and point-cloud viewer",
+   "language": "Kotlin",
+   "stars": 542,
+   "forks": 5,
+   "stars_gained": 542,
+   "topics": [
+    "3d-scanning",
+    "android",
+    "photogrammetry",
+    "point-cloud"
+   ],
+   "created_at": "2026-11-13T04:07:57Z",
+   "built_by": [
+    "faizfahmi77"
+   ]
+  },
+  {
+   "rank": 18,
+   "full_name": "higurashi-ai/Haru",
+   "owner": "higurashi-ai",
+   "url": "https://github.com/higurashi-ai/Haru",
+   "description": "Haru: a low-latency, multilingual, full-duplex spoken dialogue model",
+   "language": "Python",
+   "stars": 528,
+   "forks": 39,
+   "stars_gained": 528,
+   "topics": [],
+   "created_at": "2026-11-12T11:15:42Z",
+   "built_by": [
+    "higurashi-ai"
+   ]
+  },
+  {
+   "rank": 19,
+   "full_name": "credoksopho1984/blender-ai-copilot-studio",
+   "owner": "credoksopho1984",
+   "url": "https://github.com/credoksopho1984/blender-ai-copilot-studio",
+   "description": "An AI copilot and MCP server for Blender that turns plain-language briefs into scene operations—inside a visual chat studio with multi-agent teams, your choice of AI models, and 27 built-in scene tools. · blender-ai-copilot-studio · blender ai · ai for blender · blender copilot · blender ai copilot · blender ai assistant · blender mcp server",
+   "language": null,
+   "stars": 516,
+   "forks": 14,
+   "stars_gained": 516,
+   "topics": [
+    "3d-automation",
+    "3d-modeling",
+    "blender",
+    "blender-addon",
+    "blender-agents",
+    "blender-ai"
+   ],
+   "created_at": "2026-11-12T19:30:32Z",
+   "built_by": [
+    "credoksopho1984"
+   ]
+  },
+  {
+   "rank": 20,
+   "full_name": "racdeufindurch198812/Blender-AI-MCP-Studio",
+   "owner": "racdeufindurch198812",
+   "url": "https://github.com/racdeufindurch198812/Blender-AI-MCP-Studio",
+   "description": "Blender AI MCP Studio is an AI assistant and built-in Model Context Protocol MCP server for Blender that turns plain-language briefs into inspected, approved and reversible 3D scene operations — with a visual chat workspace, multi-agent teams and your choice of AI models. · blender ai mcp studio · mcp-for-blender · mcp for blender pro",
+   "language": null,
+   "stars": 514,
+   "forks": 13,
+   "stars_gained": 514,
+   "topics": [
+    "3d-automation",
+    "3d-modeling",
+    "blender",
+    "blender-addon",
+    "blender-agents",
+    "blender-ai"
+   ],
+   "created_at": "2026-11-12T19:28:20Z",
+   "built_by": [
+    "racdeufindurch198812"
+   ]
+  },
+  {
+   "rank": 21,
+   "full_name": "tiobeharxi1987/blender-ai-copilot-flow",
+   "owner": "tiobeharxi1987",
+   "url": "https://github.com/tiobeharxi1987/blender-ai-copilot-flow",
+   "description": "A controlled AI workflow for Blender: every copilot edit is a supervised tool call—proposed, approved, executed in sequence, cancellable after the current step and undoable by name—inside a visual studio with a built-in MCP server. · blender-ai-copilot-flow · blender · blender 3d · blender addon · blender plugin · blender extension",
+   "language": null,
+   "stars": 514,
+   "forks": 12,
+   "stars_gained": 514,
+   "topics": [
+    "3d-automation",
+    "3d-modeling",
+    "blender",
+    "blender-addon",
+    "blender-agents",
+    "blender-ai"
+   ],
+   "created_at": "2026-11-12T19:38:53Z",
+   "built_by": [
+    "tiobeharxi1987"
+   ]
+  },
+  {
+   "rank": 22,
+   "full_name": "mit-han-lab/pear",
+   "owner": "mit-han-lab",
+   "url": "https://github.com/mit-han-lab/pear",
+   "description": "Training Reasoning Models in Simulation to Natively Use Real Robots",
+   "language": "Python",
+   "stars": 513,
+   "forks": 36,
+   "stars_gained": 513,
+   "topics": [],
+   "created_at": "2026-11-13T17:43:06Z",
+   "built_by": [
+    "mit-han-lab"
+   ]
+  },
+  {
+   "rank": 23,
+   "full_name": "zovulrira1974/blender-ai-copilot-assets",
+   "owner": "zovulrira1974",
+   "url": "https://github.com/zovulrira1974/blender-ai-copilot-assets",
+   "description": "An asset-savvy AI copilot for Blender—search Poly Haven, Sketchfab and Poly Pizza mid-conversation, check what fits, import after your confirmation, with 27 scene tools and a built-in MCP server alongside. · blender-ai-copilot-assets · blender · blender 3d · blender addon · blender plugin · blender extension · blender scripting · blender automation",
+   "language": null,
+   "stars": 510,
+   "forks": 15,
+   "stars_gained": 510,
+   "topics": [
+    "3d-automation",
+    "3d-modeling",
+    "blender",
+    "blender-addon",
+    "blender-agents",
+    "blender-ai"
+   ],
+   "created_at": "2026-11-12T19:39:54Z",
+   "built_by": [
+    "zovulrira1974"
+   ]
+  },
+  {
+   "rank": 24,
+   "full_name": "Doug-218/blender-ai-copilot-forge",
+   "owner": "Doug-218",
+   "url": "https://github.com/Doug-218/blender-ai-copilot-forge",
+   "description": "A scene-forging AI copilot for Blender—describe the layout and watch primitives, cameras, lights, materials and parenting assemble in ordered steps, with approvals, named undo and a built-in MCP server. · blender-ai-copilot-forge · blender · blender 3d · blender addon · blender plugin · blender extension · blender scripting · blender automation",
+   "language": null,
+   "stars": 509,
+   "forks": 13,
+   "stars_gained": 509,
+   "topics": [
+    "3d-automation",
+    "3d-modeling",
+    "blender",
+    "blender-addon",
+    "blender-agents",
+    "blender-ai"
+   ],
+   "created_at": "2026-11-12T19:35:10Z",
+   "built_by": [
+    "Doug-218"
+   ]
+  },
+  {
+   "rank": 25,
+   "full_name": "berkantay/gpucanvas",
+   "owner": "berkantay",
+   "url": "https://github.com/berkantay/gpucanvas",
+   "description": "Put thousands of live DOM nodes on an infinite canvas: the GPU draws them, an editor selects, moves and resizes them, shaders and transitions run on them, and an AI agent can read them and point at them.",
+   "language": "TypeScript",
+   "stars": 508,
+   "forks": 32,
+   "stars_gained": 508,
+   "topics": [
+    "ai-agents",
+    "canvas",
+    "design-tools",
+    "editor",
+    "html-in-canvas",
+    "infinite-canvas"
+   ],
+   "created_at": "2026-11-12T23:19:42Z",
+   "built_by": [
+    "berkantay"
+   ]
+  },
+  {
+   "rank": 26,
+   "full_name": "precygtrucqui1981/blender-ai-copilot-lab",
+   "owner": "precygtrucqui1981",
+   "url": "https://github.com/precygtrucqui1981/blender-ai-copilot-lab",
+   "description": "An AI lab for Blender where manager–worker–reviewer agent teams run multi-step scene briefs as supervised experiments—a live task board, review findings, one correction attempt per blocked task, named undo, and a built-in MCP server. · blender-ai-copilot-lab · blender · blender 3d · blender addon · blender plugin · blender extension",
+   "language": null,
+   "stars": 507,
+   "forks": 13,
+   "stars_gained": 507,
+   "topics": [
+    "3d-automation",
+    "3d-modeling",
+    "blender",
+    "blender-addon",
+    "blender-agents",
+    "blender-ai"
+   ],
+   "created_at": "2026-11-12T19:33:16Z",
+   "built_by": [
+    "precygtrucqui1981"
+   ]
+  },
+  {
+   "rank": 27,
+   "full_name": "fumbdendade19718/blender-ai-copilot-desk",
+   "owner": "fumbdendade19718",
+   "url": "https://github.com/fumbdendade19718/blender-ai-copilot-desk",
+   "description": "A visual AI desk for Blender—chat, scene objects, viewport snapshots, approvals and a live task board in one companion window, backed by your choice of models and a built-in MCP server. · blender-ai-copilot-desk · blender · blender 3d · blender addon · blender plugin · blender extension · blender scripting · blender automation · blender mcp",
+   "language": null,
+   "stars": 505,
+   "forks": 11,
+   "stars_gained": 505,
+   "topics": [
+    "3d-automation",
+    "3d-modeling",
+    "blender",
+    "blender-addon",
+    "blender-agents",
+    "blender-ai"
+   ],
+   "created_at": "2026-11-12T19:37:25Z",
+   "built_by": [
+    "fumbdendade19718"
+   ]
+  },
+  {
+   "rank": 28,
+   "full_name": "baiblinocun1986/blender-ai-copilot-hub",
+   "owner": "baiblinocun1986",
+   "url": "https://github.com/baiblinocun1986/blender-ai-copilot-hub",
+   "description": "A multi-provider AI copilot hub for Blender—bring OpenAI, Anthropic Claude, Google Gemini, OpenRouter, OpenCode Zen, Ollama and custom endpoints into one hub of saved connections, with 27 supervised scene tools and a built-in MCP server. · blender-ai-copilot-hub · blender · blender 3d · blender addon · blender plugin · blender extension",
+   "language": null,
+   "stars": 501,
+   "forks": 16,
+   "stars_gained": 501,
+   "topics": [
+    "3d-automation",
+    "3d-modeling",
+    "blender",
+    "blender-addon",
+    "blender-agents",
+    "blender-ai"
+   ],
+   "created_at": "2026-11-12T19:32:22Z",
+   "built_by": [
+    "baiblinocun1986"
+   ]
+  },
+  {
+   "rank": 29,
+   "full_name": "findavoulot1973/Blender-AI-MCP-Suite",
+   "owner": "findavoulot1973",
+   "url": "https://github.com/findavoulot1973/Blender-AI-MCP-Suite",
+   "description": "Blender AI MCP Suite is an AI assistant and built-in Model Context Protocol MCP server for Blender that turns plain-language briefs into inspected, approved and reversible 3D scene operations — with a visual Studio workspace, multi-agent teams, 21+ scene tools and your choice of AI models. · blender ai mcp suite · blender ai mcp · ai for blender",
+   "language": null,
+   "stars": 498,
+   "forks": 12,
+   "stars_gained": 498,
+   "topics": [
+    "3d-automation",
+    "3d-modeling",
+    "blender",
+    "blender-addon",
+    "blender-agents",
+    "blender-ai"
+   ],
+   "created_at": "2026-11-12T19:26:22Z",
+   "built_by": [
+    "findavoulot1973"
+   ]
+  },
+  {
+   "rank": 30,
+   "full_name": "benzgasfuncring197110/blender-ai-copilot-bridge",
+   "owner": "benzgasfuncring197110",
+   "url": "https://github.com/benzgasfuncring197110/blender-ai-copilot-bridge",
+   "description": "An MCP bridge for Blender that exposes 27 supervised scene tools to OpenCode and any compatible client—authenticated Streamable HTTP on a local endpoint, with the visual chat studio and agent teams on the inside. · blender-ai-copilot-bridge · blender · blender 3d · blender addon · blender plugin · blender extension · blender scripting",
+   "language": null,
+   "stars": 492,
+   "forks": 13,
+   "stars_gained": 492,
+   "topics": [
+    "3d-automation",
+    "3d-modeling",
+    "blender",
+    "blender-addon",
+    "blender-agents",
+    "blender-ai"
+   ],
+   "created_at": "2026-11-12T19:36:26Z",
+   "built_by": [
+    "benzgasfuncring197110"
+   ]
+  }
+ ],
+ "layout": {
+  "top": "alibaba/open-code-review",
+  "rising": [],
+  "fresh": [],
+  "steady": [
+   "ag-ui-protocol/ag-ui",
+   "backnotprop/plannotator",
+   "dream-num/univer",
+   "tradermonty/claude-trading-skills",
+   "getarcaneapp/arcane",
+   "DeanChensj/jiangshan-map",
+   "google-labs-code/stitch-skills",
+   "mvanhorn/last30days-skill",
+   "NVIDIA/SkillEvaluator",
+   "google-research/paper-orchestra",
+   "ChromeDevTools/chrome-devtools-mcp",
+   "sveltejs/svelte",
+   "kajisho5/ffmpeg-skill"
+  ],
+  "arrivals": [
+   "ZiChuanLan/freebie-radar",
+   "opencoredev/islandcn",
+   "AIRzZ90/study-materials-fork",
+   "linknimiball1974/ai-texture-forge"
+  ]
+ },
+ "top_story": "alibaba/open-code-review"
+}
