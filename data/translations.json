@@ -139,6 +139,10 @@
   "ko": "「搞机工具箱(고지 툴박스)」 웹 이식판",
   "src": "《搞机工具箱》Web移植版"
  },
+ "CzzzzzzJ/mdldm-maitian": {
+  "ko": "마이티엔(麦田): 자체 미디어 다중 플랫폼 발행 관제 및 데이터 모니터링(B站/抖音/小红书/视频号/YouTube/X), 페이슈(飞书) 카드 알림 + 데이터 대시보드",
+  "src": "麦田：自媒体多平台发布中控与数据监控（B站/抖音/小红书/视频号/YouTube/X），飞书卡片通知 + 数据大屏"
+ },
  "D3voz/openjutsu": {
   "ko": "영상 속 인물을 원클릭으로 바꾸는 도구: ComfyUI와 MiniMax H3 기반의 오픈소스 로컬 Higgsfield Genjutsu 대안이며, FLUX.3 Klein 리라이팅 기능을 포함합니다.",
   "src": "One-click character swap for videos: an open-source, local Higgsfield Genjutsu alternative built on ComfyUI and MiniMax H3, with FLUX.3 Klein relighting."
@@ -302,6 +306,10 @@
  "IainKay/ram-altman": {
   "ko": "RAM을 모니터링하고 \"꽤 끔찍한\" 미사용 용량을 OpenAI CEO에게 직접 보고합니다.",
   "src": "Monitors your RAM and reports any \"quite terrible\" unused capacity directly to the CEO of OpenAI."
+ },
+ "Immortal-Protocols/lastbook": {
+  "ko": "생존과 재건을 위한 오프라인 지식 AI, 지도, 동영상",
+  "src": "Offline knowledge AI, maps and videos for survival and rebuilding"
  },
  "IsaiaR09/daemon-pro-desktop": {
   "ko": "daemon-pro: 모든 기능이 포함된 완전 독립형 데스크톱 설치본",
@@ -590,6 +598,10 @@
  "TauricResearch/TradingAgents": {
   "ko": "TradingAgents: 다중 에이전트 LLM 금융 트레이딩 프레임워크",
   "src": "TradingAgents: Multi-Agents LLM Financial Trading Framework"
+ },
+ "Tencent/LoopForge": {
+  "ko": "코딩 에이전트 기반 개발 배포를 위한 자체 호스팅 워크플로입니다. 스크립트와 사람의 승인 단계를 거쳐 CodeBuddy, Codex, Claude Code를 조율합니다. 코딩 어시스턴트용 로컬 워크플로도 포함합니다.",
+  "src": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants."
  },
  "Tencent/WeKnora": {
   "ko": "오픈소스 LLM 지식 플랫폼입니다. 원본 문서를 질의 가능한 RAG, 자율 추론 에이전트, 스스로 관리되는 위키로 바꿔 줍니다.",
@@ -891,6 +903,10 @@
   "ko": "하이브 마인드 방식의 커뮤니케이션 플랫폼",
   "src": "A hive mind communication platform"
  },
+ "boringmarketer/boring-marketing-skills": {
+  "ko": "AI 에이전트를 위한 무료 마케팅 스킬 32개: 리서치, 포지셔닝, 카피, 페이지, SEO, AI 검색, 광고, 이메일, 콘텐츠와 심층 로컬 비즈니스 팩을 포함합니다. MIT 라이선스.",
+  "src": "32 free marketing skills for your AI agent: research, positioning, copy, pages, SEO, AI search, ads, email and content, plus a deep local-business pack. MIT."
+ },
  "boykopovar/AnyPS5": {
   "ko": "PS5 실행 파일을 Linux와 Windows로 자동 포팅하는 도구입니다.",
   "src": "Tool for automatic PS5 executables porting to Linux and Windows"
@@ -938,6 +954,10 @@
  "chenwei810/Semiconductor_Manufacturing_Introduction": {
   "ko": "반도체 제조 입문",
   "src": "Introduction to Semiconductor Manufacturing"
+ },
+ "chuanqisun/spaceship": {
+  "ko": "아이디어를 실시간으로 조종하세요",
+  "src": "Steer your ideas in realtime"
  },
  "cjpais/Handy": {
   "ko": "완전히 오프라인으로 작동하는 무료 오픈소스 확장 가능 음성-텍스트 변환 애플리케이션",
@@ -1067,6 +1087,10 @@
   "ko": "플러그인으로 기능을 확장할 수 있는 네이티브 음악 플레이어",
   "src": "A native music player you extend with plugins"
  },
+ "elementalsouls/Claude-BugHunter": {
+  "ko": "버그 헌팅과 외부 레드팀 작업을 위한 Claude Code 스킬 묶음입니다. 스킬 82개, 슬래시 명령어 15개, 공개된 취약점 보고서 기반 패턴 681개가 핵심 취약점 클래스 24개에 맞춰 정리되어 있으며, 기업 신원 및 인프라 공격 매트릭스도 포함합니다.",
+  "src": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices."
+ },
  "elie222/rakazo": {
   "ko": "오픈소스 Grok Bot 대안. 원하는 모델과 샌드박스를 직접 선택할 수 있습니다.",
   "src": "Open-source Grok Bot alternative. Choose your own model and sandbox."
@@ -1082,6 +1106,10 @@
  "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC": {
   "ko": "php2shell(CVE-2026-109618 / CVE-2026-109619)용 증명 코드(PoC) 익스플로잇으로, 취약한 PHP 환경에서의 원격 코드 실행을 보여줍니다. 보안 연구 및 교육 목적으로만 사용하세요.",
   "src": "Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in vulnerable PHP environments. For security research and educational purposes only."
+ },
+ "erkamyaman/rust-anything": {
+  "ko": "앱 전체를 한 번에 조금씩 Rust로 다시 작성하며, 매 단계마다 원본의 기록된 동작과 대조해 검증합니다. TypeScript, Python, C, Go, Ruby, Java로 작성된 CLI, HTTP 서버, 라이브러리를 대상으로 합니다.",
+  "src": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java."
  },
  "etcd-io/etcd": {
   "ko": "분산 시스템의 가장 중요한 데이터를 위한 분산형 신뢰성 키-값 저장소",
@@ -1259,6 +1287,10 @@
   "ko": "스타트업이 AI 제품을 만드는 7단계 Agent Skill 모음: 검증 → 사업계획서 → 정책 → 발표 → 고객 확보 → 가격 책정 → 등록.",
   "src": "创业公司做 AI 产品的 7 步 Agent Skill 合集：验证 → BP → 政策 → 路演 → 获客 → 定价 → 注册。"
  },
+ "huggingface/pybot": {
+  "ko": "PyBot: 에이전트 무리가 순수 Python으로 작성한 챗봇입니다. 가중치도, 학습도 없고 규칙만 있습니다.",
+  "src": "PyBot: a chatbot written in pure Python by a swarm of agents. No weights, no training, just rules."
+ },
  "hugohe3/ppt-master": {
   "ko": "AI가 문서나 주제를 실제 네이티브 PowerPoint 프레젠테이션으로 만들어 줍니다. 네이티브 도형, 전환 효과, 애니메이션, 요청 시 데이터 기반 차트와 표, 발표자 노트를 활용한 음성 내레이션을 지원하며, 자신만의 .pptx 템플릿도 사용할 수 있습니다. · 제작자: Hugo He",
   "src": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He"
@@ -1327,6 +1359,14 @@
   "ko": "Reign of the Warlock 확장팩이 포함된 Diablo II: Resurrected를 iOS / macOS에서 실행하는 오픈소스 호환 레이어. 보유한 Switch 게임 사본을 iPhone, iPad, Mac에서 네이티브로 실행하며, 완전한 터치 조작, 60 fps, 새로운 엔드게임 모드를 지원합니다. 게임 파일은 직접 준비해야 합니다.",
   "src": "Open-source iOS / macOS compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad and Mac — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS 兼容层"
  },
+ "jingyaogong/minimind": {
+  "ko": "🧠 단 2시간 만에 64M 파라미터 LLM을 처음부터 학습시키기!",
+  "src": "🧠 Train a 64M-parameter LLM from scratch in just 2h!"
+ },
+ "joshpuckett/allo": {
+  "ko": "Allo는 가까운 이웃 같은 친근한 서체입니다. 무료이며 오픈 소스입니다.",
+  "src": "Allo is your friendly neighborhood typeface, free and open source"
+ },
  "jxy333967/jianxunyun": {
   "ko": "짠뎬윈(简讯云) - 최고의 VPN 서비스",
   "src": "简讯云  最好的vpn服务"
@@ -1366,6 +1406,10 @@
  "kornia/kornia": {
   "ko": "🐍 공간 AI를 위한 기하학 컴퓨터 비전 라이브러리",
   "src": "🐍 Geometric Computer Vision Library for Spatial AI"
+ },
+ "krisgfx9/Wireless-Device-Battery-Monitor": {
+  "ko": "무선 마우스, 헤드셋, 키보드, 컨트롤러의 배터리 잔량을 Windows 10/11 작업 표시줄에 표시합니다. 가벼운 트레이 앱이며 제조사 소프트웨어가 필요 없습니다. Logitech, Razer, SteelSeries, Corsair, HyperX, Glorious, PS4/PS5 DualSense, Xbox 및 블루투스 장치를 지원합니다.",
+  "src": "Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Supports Logitech, Razer, SteelSeries, Corsair, HyperX, Glorious, PS4/PS5 DualSense, Xbox and Bluetooth devices."
  },
  "leanislizarzado/ibm-spss-desktop-suite": {
   "ko": "IBM SPSS Statistics 2026 독립 실행형 설치본(전체 기능 구성 포함)",
@@ -1918,6 +1962,10 @@
  "sveltejs/svelte": {
   "ko": "우리 모두를 위한 웹 개발",
   "src": "web development for the rest of us"
+ },
+ "sybil-solutions/inference-optimisation-skill": {
+  "ko": "모든 하드웨어와 양자화 방식에서 로컬 LLM 서빙 속도(디코딩, 추측 디코딩, 프리필, KV, 시작 시간, TTFT)를 단계적으로 최적화하는 에이전트 스킬",
+  "src": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization"
  },
  "symfony/symfony": {
   "ko": "Symfony PHP 프레임워크",
