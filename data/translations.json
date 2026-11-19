@@ -299,6 +299,10 @@
   "ko": "three.js(WebGL2)용 실시간 FFT 바다 렌더러: 해안 파도, 거품, caustic(빛 굴절 무늬), 수중 렌더링, 부력을 170–300 fps로 구현합니다.",
   "src": "Real-time FFT ocean renderer for three.js (WebGL2): shore breakers, foam, caustics, underwater rendering and buoyancy at 170–300 fps"
  },
+ "Hut-hzf/ung220z-tool": {
+  "ko": "ung220z-tool은 UNG220Z(Jiulian/Unionman 중국 모바일 광모뎀)용 원클릭 자격 증명 추출 도구입니다. 잊어버린 관리자 비밀번호를 되찾거나, 브로드밴드 설정을 옮기거나, 보안 점검을 하는 용도로 본인 기기에서만 사용하도록 설계되었습니다.",
+  "src": "ung220z-tool 是一个针对 UNG220Z（九联/Unionman 中国移动光猫）的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。"
+ },
  "HybridRobotics/supermimic": {
   "ko": "하나의 미분 가능한 월드 모델로 구현한 휴머노이드 전신 동작 추적",
   "src": "Humanoid whole-body motion tracking with one differentiable world model."
@@ -635,6 +639,14 @@
   "ko": "finalshell 유사 SSH 클라이언트(类finalshell的ssh客户端). 공개 소스 형태의 finalshell 복제본으로, go 런타임과 mygo UI 사용",
   "src": "类finalshell的ssh客户端 // An source-available finalshell copy, with go runtime and mygo UI"
  },
+ "TrooperFilter/Gemini-Config-Checker-": {
+  "ko": "체인 리전 스캐너: Google AI Studio와 Gemini에 접속할 수 있는 프록시 설정을 찾아줍니다(로그인된 브라우저 확인, DPI 차단 우회, Windows/macOS/Linux/Android 지원)",
+  "src": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)"
+ },
+ "TurtleReside/Gemini-Config-Checker-": {
+  "ko": "체인 리전 스캐너: Google AI Studio와 Gemini에 접속할 수 있는 프록시 설정을 찾아줍니다(로그인된 브라우저 확인, DPI 차단 우회, Windows/macOS/Linux/Android 지원)",
+  "src": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)"
+ },
  "UncensoredLabs/uncensored-ai-api": {
   "ko": "검열 없는 AI API 및 브라우저 채팅: DeepSeek 및 GLM 모델, 스트리밍, Python 및 TypeScript 예제, 가격 및 설정 가이드를 제공합니다.",
   "src": "Uncensored AI API and browser chat: DeepSeek and GLM models, streaming, Python and TypeScript examples, pricing and setup guides."
@@ -667,6 +679,26 @@
   "ko": "Claude Code 및 Codex용 AI 동영상 스킬: Remotion으로 영화 같은 편집 가능한 제품 홍보 영상을 만듭니다. 샷 레시피 카드 124종, 모션 미리보기 150종, 비트 동기화, 사운드 디자인, Motion Workbench와 젠잉(剪映, CapCut 중국판) 내보내기를 지원합니다.",
   "src": "AI video skill for Claude Code & Codex — cinematic, editable product promos with Remotion: 124 shot recipe cards, 150 motion previews, beat sync, sound design, Motion Workbench & JianYing (CapCut CN) export."
  },
+ "Violetnyudress/Gemini-Config-Checker-": {
+  "ko": "체인 리전 스캐너: Google AI Studio와 Gemini에 접속할 수 있는 프록시 설정을 찾아줍니다(로그인된 브라우저 확인, DPI 차단 우회, Windows/macOS/Linux/Android 지원)",
+  "src": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)"
+ },
+ "Watchlespeed/Gemini-Config-Checker-": {
+  "ko": "체인 리전 스캐너: Google AI Studio와 Gemini에 접속할 수 있는 프록시 설정을 찾아줍니다(로그인된 브라우저 확인, DPI 차단 우회, Windows/macOS/Linux/Android 지원)",
+  "src": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)"
+ },
+ "WerewolfEmuHub/Gemini-Config-Checker-": {
+  "ko": "체인 리전 스캐너: Google AI Studio와 Gemini에 접속할 수 있는 프록시 설정을 찾아줍니다(로그인된 브라우저 확인, DPI 차단 우회, Windows/macOS/Linux/Android 지원)",
+  "src": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)"
+ },
+ "WindGatorRise37/Gemini-Config-Checker-": {
+  "ko": "체인 리전 스캐너: Google AI Studio와 Gemini에 접속할 수 있는 프록시 설정을 찾아줍니다(로그인된 브라우저 확인, DPI 차단 우회, Windows/macOS/Linux/Android 지원)",
+  "src": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)"
+ },
+ "WindowStaffGate11/Gemini-Config-Checker-": {
+  "ko": "체인 리전 스캐너: Google AI Studio와 Gemini에 접속할 수 있는 프록시 설정을 찾아줍니다(로그인된 브라우저 확인, DPI 차단 우회, Windows/macOS/Linux/Android 지원)",
+  "src": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)"
+ },
  "WoYun520/gif-factory": {
   "ko": "GIF 공장(GIF 工厂): 스타일별 픽셀, 인물과 반려동물, 클레이 마스코트, 래스터 카드, 동적 포스터 GIF를 만드는 스킬.",
   "src": "GIF 工厂：按风格制作像素、人物与宠物、粘土吉祥物、光栅卡与动态海报的 GIF Skill。"
@@ -674,6 +706,14 @@
  "WoYun520/pixel-gif-sticker-pack": {
   "ko": "캐릭터 레퍼런스로 애니메이션 GIF 스티커 팩을 만들고 검증하는 Codex 스킬입니다.",
   "src": "A Codex skill for creating and verifying animated GIF sticker packs from character references."
+ },
+ "WyrmClimberManacle/Gemini-Config-Checker-": {
+  "ko": "체인 리전 스캐너: Google AI Studio와 Gemini에 접속할 수 있는 프록시 설정을 찾아줍니다(로그인된 브라우저 확인, DPI 차단 우회, Windows/macOS/Linux/Android 지원)",
+  "src": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)"
+ },
+ "YellowLaborerMarket/Gemini-Config-Checker-": {
+  "ko": "체인 리전 스캐너: Google AI Studio와 Gemini에 접속할 수 있는 프록시 설정을 찾아줍니다(로그인된 브라우저 확인, DPI 차단 우회, Windows/macOS/Linux/Android 지원)",
+  "src": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)"
  },
  "YeonwooSung/my-claude-code-mods": {
   "ko": "내가 필요한 맞춤형 Claude Code 모드",
@@ -831,6 +871,10 @@
   "ko": "Apex Compute의 Apex Neural Rendering(ANR)",
   "src": "Apex Neural Rendering (ANR) by Apex Compute"
  },
+ "appwrite/appwrite": {
+  "ko": "에이전트와 개발자를 위한 오픈소스 클라우드. 인증, 데이터베이스, 스토리지, 함수, 메시징, 호스팅, 실시간 기능, WAF 등을 포함합니다.",
+  "src": "The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more"
+ },
  "aronhy/pibrowse": {
   "ko": "오픈소스 브라우저 프로필 워크스페이스",
   "src": "Open-source browser profile workspaces"
@@ -858,6 +902,10 @@
  "astral-sh/ruff": {
   "ko": "Rust로 작성된 매우 빠른 Python 린터 및 코드 포매터입니다.",
   "src": "An extremely fast Python linter and code formatter, written in Rust."
+ },
+ "astral-sh/uv": {
+  "ko": "Rust로 작성된 매우 빠른 Python 패키지 및 프로젝트 관리자.",
+  "src": "An extremely fast Python package and project manager, written in Rust."
  },
  "aws/agent-toolkit-for-aws": {
   "ko": "AI 에이전트가 AWS에서 개발할 수 있도록 돕는, AWS가 공식 지원하는 MCP 서버, 스킬, 플러그인",
@@ -1260,8 +1308,8 @@
   "src": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface"
  },
  "heygen-com/hyperframes": {
-  "ko": "HTML을 작성하고 영상을 렌더링하세요. 에이전트를 위해 만들어졌습니다.",
-  "src": "Write HTML. Render video. Built for agents."
+  "ko": "실제로 편집할 수 있는 AI 비디오. HyperFrames는 무료 오픈소스 AI 비디오 편집기입니다. 원하는 영상을 설명하면 프레임 단위까지 수정할 수 있는 실제 프로젝트를 만들어 줍니다.",
+  "src": "AI video you can actually edit. HyperFrames is a free, open-source AI video editor. Describe any video and get a real project you can change down to the frame."
  },
  "higurashi-ai/Haru": {
   "ko": "Haru: 지연 시간이 짧은 다국어 전이중(full-duplex) 음성 대화 모델",
@@ -1366,6 +1414,10 @@
  "joshpuckett/allo": {
   "ko": "Allo는 가까운 이웃 같은 친근한 서체입니다. 무료이며 오픈 소스입니다.",
   "src": "Allo is your friendly neighborhood typeface, free and open source"
+ },
+ "jquery/jquery": {
+  "ko": "jQuery JavaScript 라이브러리",
+  "src": "jQuery JavaScript Library"
  },
  "jxy333967/jianxunyun": {
   "ko": "짠뎬윈(简讯云) - 최고의 VPN 서비스",
@@ -1619,6 +1671,10 @@
   "ko": "처음부터 학습한 450만 파라미터 규모의 두 가지 음성을 지원하는 영어 텍스트 음성 변환(TTS) 모델",
   "src": "A 4.5M-parameter two-voice English text-to-speech model, trained from scratch"
  },
+ "n8n-io/n8n": {
+  "ko": "네이티브 AI 기능을 갖춘 페어코드(fair-code) 워크플로 자동화 플랫폼. 시각적 빌딩과 커스텀 코드를 결합하며, 셀프 호스팅 또는 클라우드로 사용할 수 있고 400개 이상의 통합을 지원합니다.",
+  "src": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations."
+ },
  "nateherkai/roast-room": {
   "ko": "Claude Code에서 일곱 명의 AI 자문가(베이조스, 폴 그레이엄, 호르모지, 게리 베이너척, 댄 마텔, 지노 위크먼, 버핏)가 테이블에 둘러앉아 여러분의 사업 결정을 실시간으로 토론합니다.",
   "src": "Seven AI advisors (Bezos, Paul Graham, Hormozi, Gary Vee, Dan Martell, Gino Wickman, Buffett) debate your business decision in Claude Code, live around a table."
@@ -1670,6 +1726,10 @@
  "openssl/openssl": {
   "ko": "범용 TLS 및 암호화 라이브러리",
   "src": "General purpose TLS and crypto library"
+ },
+ "openvinotoolkit/openvino": {
+  "ko": "OpenVINO™는 AI 추론을 최적화하고 배포하기 위한 오픈소스 툴킷입니다.",
+  "src": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference"
  },
  "outcrawlai/scout": {
   "ko": "Scout: Outcrawl이 만든 오픈 소스 브라우저 에이전트. Outcrawl의 원본 저장소에서 자동으로 미러링됩니다.",
@@ -1746,6 +1806,14 @@
  "public-apis/public-apis": {
   "ko": "무료 API들을 모아 놓은 목록",
   "src": "A collective list of free APIs"
+ },
+ "punkpeye/awesome-mcp-servers": {
+  "ko": "MCP 서버 모음.",
+  "src": "A collection of MCP servers."
+ },
+ "quer3q/kraken-mount": {
+  "ko": "PKG, 폴더 덤프, zstd 및 lz4를 지원하는 미니멀한 PS5 게임 마운터",
+  "src": "Minimalist PS5 game mounter supporting PKG, folder dumps, zstd and lz4"
  },
  "qybaihe/bla": {
   "ko": "🛡️ BLA(Blind LLM Agents) — 바이너리, Electron 앱, JS 번들, Python, WebAssembly를 REA 같은 AI 리버스 엔지니어링 에이전트로부터 보호하는 적대적 방어 방패입니다. 오염 -> 소진 -> 환각.",
@@ -1887,6 +1955,10 @@
   "ko": "AAS Core는 전체 카탈로그 탐색, 에이전트 주도 선택, 스택 검증, 계획 수립을 위한 로컬 중심 에이전트 제어 플레인으로, 2,600개 이상의 에이전틱 스킬을 기반으로 합니다. CLI, 로컬 MCP, 카탈로그, 플러그인, Workbench를 포함합니다.",
   "src": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,600+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench."
  },
+ "siliconjungle/shapeshift-labs-ink-studio": {
+  "ko": "픽셀 아트 가우시안 스플랫을 위한 조각, 애니메이션 및 시뮬레이션 툴킷",
+  "src": "Sculpting, animation and simulation toolkit for pixel-art Gaussian splats"
+ },
  "simbasjungles/free-my-tv": {
   "ko": "Google TV, LG webOS, Samsung Tizen용 빠르고 광고 없는 홈 화면. 버튼 한 번으로 되돌리기가 가능합니다.",
   "src": "A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo."
@@ -1906,6 +1978,10 @@
  "solana-classic/solana-classic": {
   "ko": "재미를 되찾자. 아트, NFT, 밈과 그 커뮤니티에 초점을 맞춘 오픈소스 SVM 블록체인 개발 프로젝트. 실험용 테스트넷이 공개되었습니다.",
   "src": "Bring back the fun. Open-source SVM blockchain development focused on art, NFTs, memes and their communities. Experimental testnet live."
+ },
+ "solidjs/solid": {
+  "ko": "사용자 인터페이스를 구축하기 위한 선언적이고 효율적이며 유연한 JavaScript 라이브러리.",
+  "src": "A declarative, efficient, and flexible JavaScript library for building user interfaces."
  },
  "songjianyang/xss-audit": {
   "ko": "React, TypeScript, JavaScript 프로젝트를 위한 14개 계층 검사를 갖춘 정적 XSS 감사 스킬.",
@@ -2091,9 +2167,17 @@
   "ko": "모두를 위한 (모두가 만든) 개인 금융 앱",
   "src": "The personal finance app for everyone (by everyone)"
  },
+ "weldbladesmithwharf/Gemini-Config-Checker-": {
+  "ko": "체인 리전 스캐너: Google AI Studio와 Gemini에 접속할 수 있는 프록시 설정을 찾아줍니다(로그인된 브라우저 확인, DPI 차단 우회, Windows/macOS/Linux/Android 지원)",
+  "src": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)"
+ },
  "wesbos/3d-model-anything": {
   "ko": "iPhone LiDAR와 사진을 캡처해 편집 가능한 Three.js 방을 재구성하고, 브라우저에서 둘러볼 수 있게 합니다.",
   "src": "Capture iPhone LiDAR and photos, reconstruct editable Three.js rooms, and explore them in a browser."
+ },
+ "wisemeadowlarkspike/Gemini-Config-Checker-": {
+  "ko": "체인 리전 스캐너: Google AI Studio와 Gemini에 접속할 수 있는 프록시 설정을 찾아줍니다(로그인된 브라우저 확인, DPI 차단 우회, Windows/macOS/Linux/Android 지원)",
+  "src": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)"
  },
  "woniuniuniu/dsh-media-desk": {
   "ko": "DeepSeek Harness(DeepSeek 하네스) 자미디어 작업대 플러그인: 한 문장으로 영감을 기록하고 대본, 커버, 삽화, 분경을 한 번에 생성합니다",
@@ -2171,6 +2255,10 @@
  "zeekk0/OpenAmika": {
   "ko": "OpenAmika: MekaHime의 AI 동반자 Amika의 오픈소스 버전입니다. Live2D 아바타, 실시간 음성, 장기 기억, OpenRouter 또는 Ollama 기반 두뇌를 갖추고 있습니다.",
   "src": "OpenAmika: MekaHime's AI companion Amika, open source. Live2D avatar, real-time voice, long-term memory, OpenRouter or Ollama brain."
+ },
+ "zephyr4123/snug": {
+  "ko": "UU远程(UU 원격)용 Mac 모바일 작업 공간: 독립 세로 화면, 창 자동 맞춤 전체 화면, 화면에 따라 확대되는 글자 크기, iOS 조작 방식을 따르는 터치 操作으로 Mac을 휴대폰에서 네이티브 수준으로 사용할 수 있습니다. 또한 UU 원격을 통해 Mac을 제어하는 네이티브급 iPhone 작업 공간입니다.",
+  "src": "为 UU远程 打造的 Mac 移动端工作区：独立竖屏、窗口自适应铺满、字号随屏放大、触控遵循 iOS 交互习惯，让 Mac 在手机上拥有原生级的操作体验。A native-grade iPhone workspace for controlling your Mac over UU Remote."
  },
  "zeusinsight/FinderSearch": {
   "ko": "fsearch 기반의 빠른 퍼지 파일명 검색을 제공하는 네이티브 macOS 파일 브라우저",
