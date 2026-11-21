@@ -327,6 +327,10 @@
   "ko": "daemon-pro: 모든 기능이 포함된 완전 독립형 데스크톱 설치본",
   "src": "daemon-pro: Complete Standalone Desktop Setup with Full Feature setup"
  },
+ "ItsNotRexed/Leonida": {
+  "ko": "Leonida: Xbox 버전 GTA 6를 PC 네이티브로 재컴파일한 프로젝트",
+  "src": "Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6"
+ },
  "JDhruv14/line-art-animation": {
   "ko": "애니메이션 선 그림 SVG 컴포넌트를 위한 Claude 스킬 및 TypeScript 라이브러리. 걷고 반응하는 잉크 그림과 낮/밤 주기가 있는 장면을 만듭니다",
   "src": "A Claude skill and TypeScript library for animated line-art SVG components: ink figures that walk and react, scenes with a day/night cycle."
@@ -550,6 +554,10 @@
  "QwenLM/qwen-code": {
   "ko": "터미널에서 동작하는 오픈소스 AI 코딩 에이전트",
   "src": "An open-source AI coding agent that lives in your terminal."
+ },
+ "R0Y00/Xbox2Windows": {
+  "ko": "x64 Windows에서 Xbox Series X|S(Scarlett)를 대상으로 한 정적 재컴파일 연구. 셰이더 번역, BC7 텍스처, 스크립트 상태 재생, D3D12/PE 검사 포함.",
+  "src": "Static recompilation research for Xbox Series X|S (Scarlett) on x64 Windows, including shader translation, BC7 textures, script-state replay and D3D12/PE checks."
  },
  "Renhuai123/ziwei-doushu": {
   "ko": "《天纪》 체계를 기반으로 한 오픈소스 자미두수 배반 엔진. 완전한 배반 알고리즘, 사화 시스템, 격국 지식 베이스, 고전 원문 데이터를 포함합니다.",
@@ -899,6 +907,10 @@
   "ko": "에이전트 스킬을 위한 공개 저장소",
   "src": "Public repository for Agent Skills"
  },
+ "anton-clark-x2003y0/gta-5-enhanced-mod-menu": {
+  "ko": "GTA 5 향상 모드 메뉴 — YimMenu V2 외부 오버레이, 자금 회수 및 강도 편집기 — 미리 빌드된 Windows 10/11 x64 릴리스 다운로드. 키워드: gta 5 모드 메뉴, gta5 enhanced, yimmenu, yimmenu v2, fsl gta5, 치트, 해킹, GTA 온라인 모드 메뉴.",
+  "src": "GTA 5 Enhanced Mod Menu — YimMenu V2 External Overlay, Money Recovery & Heist Editor — Download prebuilt Windows 10/11 x64 release. Keywords: gta 5 mod menu, gta5 enhanced, yimmenu, yimmenu v2, fsl gta5, gta 5 cheat, gta 5 hack, gta online mod menu."
+ },
  "anujasid/blender-ai-mcp-addon": {
   "ko": "Blender용 AI 어시스턴트이자 MCP 서버입니다. 시각적 채팅, 씬 도구, 다중 에이전트 워크플로를 제공합니다. OpenAI, ChatGPT, Claude, Gemini, Ollama, OpenCode와 함께 작동합니다. Blender AI 애드온과 플러그인, 3D 코파일럿, bpy Python 스크립팅, MCP 연동을 지원합니다.",
   "src": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with OpenAI, ChatGPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon and plugin, copilot for 3D, bpy Python scripting, MCP integration."
@@ -1047,6 +1059,10 @@
   "ko": "반도체 제조 입문",
   "src": "Introduction to Semiconductor Manufacturing"
  },
+ "chris-code-90e9/3utools-pro-mdm-unlocker-2026": {
+  "ko": "3uTools Pro + iRemoval Pro Windows — 원클릭 MDM 우회, IPA 사이드로더 및 가상 GPS(2026 에디션). 핫 리로드 가능한 JSON 설정, 낮은 오버헤드의 런타임을 갖춘 네이티브 64비트 Windows 10/11 포터블 x64 빌드와 미리 빌드된 포터블 릴리스 제공.",
+  "src": "3uTools Pro + iRemoval Pro Windows — 1-Click MDM Skip, IPA Sideloader & Virtual GPS (2026 Edition): native 64-bit Windows 10/11 portable x64 build with hot-reloadable JSON configuration, low-overhead runtime, and prebuilt portable release."
+ },
  "chuanqisun/spaceship": {
   "ko": "우주 비행사처럼 아이디어를 자유자재로 조종하세요!",
   "src": "Steer ideas like a space pilot!"
@@ -1095,6 +1111,10 @@
   "ko": "BAMA: Build Any Mac App. Swift와 SwiftUI로 네이티브 macOS 앱을 조사, 복제, 설계, 빌드, 최적화, 테스트하는 에이전트 스킬입니다.",
   "src": "BAMA: Build Any Mac App. Agent skills to research, clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI."
  },
+ "daviddevhq98y8/monster-hunter-wilds-reframework": {
+  "ko": "Monster Hunter Wilds REFramework + 몬스터 HP 바, 왕관 및 DPS 오버레이 모드 — 미리 빌드된 Windows 10/11 x64 릴리스 다운로드. 키워드: monster hunter wilds, mhwilds, 모드, 치트, 트레이너, reframework, 세이브 편집기, DPS 오버레이.",
+  "src": "Monster Hunter Wilds REFramework + Monster HP Bar, Crown & DPS Overlay Mod — Download prebuilt Windows 10/11 x64 release. Keywords: monster hunter wilds, mhwilds, monster hunter wilds mods, monster hunter wilds cheat, monster hunter wilds trainer, reframework, mhwilds save editor, mhwilds dps overlay."
+ },
  "debpalash/VoiceStudio": {
   "ko": "VoiceStudio는 오픈소스이자 완전 로컬에서 동작하는 ElevenLabs 대안입니다. 음성 복제, 음성 디자인, 영상 더빙, 받아쓰기, 전사, 오디오북 제작을 646개 언어로 지원합니다.",
   "src": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages."
@@ -1138,6 +1158,10 @@
  "djyde/dalibre": {
   "ko": "가벼운 Calibre 대안",
   "src": "A lightweight Calibre alternative"
+ },
+ "dmitry-m-99v2/schedule-1-mod-menu-download": {
+  "ko": "Schedule I 모드 메뉴(MelonLoader) — 아이템 스포너, 무제한 현금, 경찰 무효화 및 속도 배율 [직접 다운로드] — 미리 빌드된 Windows 10/11 x64 릴리스 다운로드. 키워드: schedule 1, schedule i, 치트, 모드 메뉴, 트레이너, 모드, 세이브 편집기, melonloader.",
+  "src": "Schedule I Mod Menu (MelonLoader) — Item Spawner, Unlimited Cash, No Police & Speed Multiplier [Direct Download] — Download prebuilt Windows 10/11 x64 release. Keywords: schedule 1, schedule i, schedule 1 cheat, schedule 1 mod menu, schedule 1 trainer, schedule 1 mods, schedule 1 save editor, melonloader."
  },
  "dominikmartn/harp": {
   "ko": "하나의 사이드바에서 여러 Claude Code 및 Codex 에이전트를 나란히 실행하고, 어떤 에이전트가 사용자의 확인을 필요로 하는지 알려줍니다. Warp의 비공식 포크입니다.",
@@ -1198,6 +1222,10 @@
  "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC": {
   "ko": "php2shell(CVE-2026-109618 / CVE-2026-109619)용 증명 코드(PoC) 익스플로잇으로, 취약한 PHP 환경에서의 원격 코드 실행을 보여줍니다. 보안 연구 및 교육 목적으로만 사용하세요.",
   "src": "Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in vulnerable PHP environments. For security research and educational purposes only."
+ },
+ "eric-lopezdev1992b4/polar-client-skyblock-mining-2026": {
+  "ko": "Polar Client 사전 활성화 — 하이픽셀 스카이블록용 미스릴, 젬스톤, 파우더 및 커미션 매크로(2026 에디션). 핫 리로드 가능한 JSON 설정, 낮은 오버헤드의 런타임을 갖춘 네이티브 64비트 Windows 10/11 포터블 x64 빌드와 미리 빌드된 포터블 릴리스 제공.",
+  "src": "Polar Client preactivated — Hypixel Skyblock Mithril, Gemstone, Powder & Commission Macro (2026 Edition): native 64-bit Windows 10/11 portable x64 build with hot-reloadable JSON configuration, low-overhead runtime, and prebuilt portable release."
  },
  "erkamyaman/rust-anything": {
   "ko": "앱 전체를 한 번에 조금씩 Rust로 다시 작성하며, 매 단계마다 원본의 기록된 동작과 대조해 검증합니다. TypeScript, Python, C, Go, Ruby, Java로 작성된 CLI, HTTP 서버, 라이브러리를 대상으로 합니다.",
@@ -1651,6 +1679,10 @@
   "ko": "비주얼 스튜디오 코드",
   "src": "Visual Studio Code"
  },
+ "mikesantoseng02g8/valorant-hwid-smbios-utility-2026": {
+  "ko": "Valorant HWID smbios-utility — 영구 Vanguard VAN 152, TPM 2.0, 보안 부팅 및 SMBIOS 잠금 해제(2026 에디션). 핫 리로드 가능한 JSON 설정, 낮은 오버헤드의 런타임을 갖춘 네이티브 64비트 Windows 10/11 포터블 x64 빌드와 미리 빌드된 포터블 릴리스 제공.",
+  "src": "Valorant HWID smbios-utility — Perm Vanguard VAN 152, TPM 2.0, Secure Boot & SMBIOS unlocker (2026 Edition): native 64-bit Windows 10/11 portable x64 build with hot-reloadable JSON configuration, low-overhead runtime, and prebuilt portable release."
+ },
  "milind-soni/OpenMausBot": {
   "ko": "가상 머신을 갖춘 봇이 사용할 수 있는 오픈소스 Grok Bot 대안",
   "src": "Open-source Grok Bot alternative with a virtual machine that bots can use"
@@ -1751,6 +1783,10 @@
   "ko": "영속적인 AI 팀원을 위한 로컬 우선 데스크톱 워크스페이스. 전용 워크스페이스, 작업 큐, 파일 공유, 브라우저 제어, 에이전트 간 협업으로 Codex, Claude, Grok을 실행하세요.",
   "src": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration."
  },
+ "nikitadlab00k6/fivem-hwid-spoofer": {
+  "ko": "FiveM HWID 스푸퍼 및 밴 해제 도구 — Adhesive 전역 밴 정리 및 시리얼 초기화 도구 — 미리 빌드된 Windows 10/11 x64 릴리스 다운로드. 키워드: fivem, fivem 치트, fivem 해킹, fivem 스푸퍼, fivem lua 익스큐터, fivem 덤퍼, fivem 에임봇, fivem ESP.",
+  "src": "FiveM HWID Spoofer & Unban Tool — Adhesive Global Ban Cleaner & Serial Resetter — Download prebuilt Windows 10/11 x64 release. Keywords: fivem, fivem cheat, fivem hack, fivem spoofer, fivem lua executor, fivem dumper, fivem aimbot, fivem esp."
+ },
  "nilbuild/stick-scene": {
   "ko": "막대 인간 애니메이션 시각물을 그리는 스킬",
   "src": "Skill to draw stick figure animated visuals"
@@ -1779,6 +1815,10 @@
   "ko": "실제로 잘 동작하는 에이전트 스킬 프레임워크이자 소프트웨어 개발 방법론입니다.",
   "src": "An agentic skills framework & software development methodology that works."
  },
+ "omonkeyz/xbox-emulator": {
+  "ko": "PC에서 Xbox Series X|S 빌드를 실행하기 위한 진행 노트 (TomBox + rage9)",
+  "src": "Progress notes for running Xbox Series X|S builds on PC (TomBox + rage9)"
+ },
  "onehumanbeing/esp32-iphone-agent": {
   "ko": "7달러짜리 ESP32로 AI 모델이 실제 iPhone을 사용하게 하세요. AirPlay를 눈으로, USB HID를 손으로 쓰며, OpenAI 호환 비전 모델이면 무엇이든 가능합니다. Mac도, 개발자 계정도, 탈옥도 필요 없습니다.",
   "src": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak."
@@ -1802,6 +1842,14 @@
  "openvinotoolkit/openvino": {
   "ko": "OpenVINO™는 AI 추론을 최적화하고 배포하기 위한 오픈소스 툴킷입니다.",
   "src": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference"
+ },
+ "oscar-j-code1904n1/blox-fruits-script": {
+  "ko": "Blox Fruits 스크립트 2026 — 키리스 자동 파밍, 바다 이벤트, 키츠네 및 과일 스나이퍼 — 미리 빌드된 Windows 10/11 x64 릴리스 다운로드. 키워드: blox fruits script, fisch script, rivals script, jujutsu infinite script, blue lock rivals script, da hood script, pet simulator 99 script, anime vanguards script.",
+  "src": "Blox Fruits Script 2026 — Keyless Auto-Farm, Sea Events, Kitsune & Fruit Sniper — Download prebuilt Windows 10/11 x64 release. Keywords: blox fruits script, fisch script, rivals script, jujutsu infinite script, blue lock rivals script, da hood script, pet simulator 99 script, anime vanguards script."
+ },
+ "oscar-kumareng1996j2/robrun-cheat": {
+  "ko": "ROB RUN 치트 및 외부 해킹 — 공간 뼈 ESP, 루트 레이더 및 스피드핵 — 미리 빌드된 Windows 10/11 x64 릴리스 다운로드. 키워드: robrun, rob run, robrun 치트, robrun 해킹, robrun ESP, robrun 트레이너, robrun 에임봇, robrun 루트 레이더.",
+  "src": "ROB RUN Cheat & External Hack — Spatial Bone ESP, Loot Radar & Speedhack — Download prebuilt Windows 10/11 x64 release. Keywords: robrun, rob run, robrun cheat, robrun hack, robrun esp, robrun trainer, robrun aimbot, robrun loot radar."
  },
  "outcrawlai/scout": {
   "ko": "Scout: Outcrawl이 만든 오픈 소스 브라우저 에이전트. Outcrawl의 원본 저장소에서 자동으로 미러링됩니다.",
@@ -1931,6 +1979,10 @@
   "ko": "Reason Network: 팀의 코딩 에이전트들이 서로 소통하게 합니다. `reason network`의 핵심 엔진입니다.",
   "src": "Reason Network: your team's coding agents, talking to each other. The engine behind `reason network`."
  },
+ "replit/datacat": {
+  "ko": "자체 호스팅 관측성 도구: 메트릭, 로그, 트레이스, 대시보드 및 알림 제공. PostgreSQL 또는 ClickHouse에 데이터 저장. OpenTelemetry 데이터 수집 지원.",
+  "src": "Self-hosted observability: metrics, logs, traces, dashboards and alerts. Stores data in PostgreSQL or ClickHouse. Accepts OpenTelemetry data."
+ },
  "rerun-build/rerun": {
   "ko": "업무를 대신 실행하는 AI 동료. 직접 호스팅할 수 있으며 AGPL-3.0 라이선스입니다.",
   "src": "AI coworkers that run your work. Self-hostable, AGPL-3.0."
@@ -1979,6 +2031,10 @@
   "ko": "Cubase Studio 2026 데스크톱 설치본, 전체 플러그인 모음과 모든 기능 포함",
   "src": "Cubase Studio 2026 desktop setup with full plugin suite and complete feature set"
  },
+ "sam-santos1905e5/slay-the-spire-2-trainer": {
+  "ko": "Slay the Spire 2 트레이너, 개발자 콘솔 잠금 해제 및 유물/골드 세이브 편집기 — 미리 빌드된 Windows 10/11 x64 릴리스 다운로드. 키워드: slay the spire 2, 트레이너, 치트, 모드, 세이브 편집기, 모드 로더, 콘솔 잠금 해제, 덱 트래커.",
+  "src": "Slay the Spire 2 Trainer, Developer Console Unlocker & Relic/Gold Save Editor — Download prebuilt Windows 10/11 x64 release. Keywords: slay the spire 2, slay the spire 2 trainer, slay the spire 2 cheat, slay the spire 2 mods, slay the spire 2 save editor, mod loader, console unlocker, deck tracker."
+ },
  "sarpstar/cinecode": {
   "ko": "코드로 만드는 영화. 단편 영화, 긴 YouTube 영상, 광고, 설명 영상, 뮤직비디오를 AI 코딩 에이전트가 대본을 쓰고, 모든 프레임을 코드로 만들고, 사운드를 디자인해 MP4 파일로 제공합니다.",
   "src": "Films made with code. Short films, long YouTube videos, ads, explainers and music videos: an AI coding agent writes the script, builds every frame in code, designs the sound and hands you an MP4."
@@ -1990,6 +2046,10 @@
  "scenario-labs/skills": {
   "ko": "어떤 AI 에이전트에서든 프로덕션 수준의 이미지, 영상, 오디오, 3D를 얻으세요. 적합한 모델을 고르고, 지출 전에 가격을 확인하며, Scenario MCP를 통해 캐릭터와 브랜드의 일관성을 유지하는 스킬과, Blender, Maya, ZBrush, Unreal, Unity를 다루는 전문가 팀을 제공합니다.",
   "src": "Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity."
+ },
+ "sergey-kingx89f1/spt-aki-profile-editor-tarkov-2026": {
+  "ko": "Escape from Tarkov SPT-AKI 3.10 프로필 편집기, 플리마켓 잠금 해제 및 BattlEye 스푸퍼(2026 에디션). 핫 리로드 가능한 JSON 설정, 낮은 오버헤드의 런타임을 갖춘 네이티브 64비트 Windows 10/11 포터블 x64 빌드와 미리 빌드된 포터블 릴리스 제공.",
+  "src": "Escape from Tarkov SPT-AKI 3.10 Profile Editor, Flea Unlocker & BattlEye Spoofer (2026 Edition): native 64-bit Windows 10/11 portable x64 build with hot-reloadable JSON configuration, low-overhead runtime, and prebuilt portable release."
  },
  "serveroshq/panel": {
   "ko": "오픈소스 ServerOS 패널: 이미 소유한 리눅스 서버를 한곳에서 운영하세요",
@@ -2222,6 +2282,10 @@
  "vercel-labs/skills": {
   "ko": "오픈 에이전트 스킬 도구 - npx skills",
   "src": "The open agent skills tool - npx skills"
+ },
+ "victor-miller-code2097u8/cs2-cheat-esp-aimbot": {
+  "ko": "CS2 치트 및 외부 해킹 — 뼈 ESP, 에임봇, 트리거봇, 레이더 및 인벤토리 스킨 변경기",
+  "src": "CS2 Cheat & External Hack — Bone ESP, Aimbot, Triggerbot, Radar & Inventory Skin Changer"
  },
  "vllm-project/vllm": {
   "ko": "처리량이 높고 메모리 효율이 좋은 LLM용 추론 및 서빙 엔진",

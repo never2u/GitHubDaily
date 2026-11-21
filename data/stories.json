@@ -235,6 +235,39 @@
    ],
    "subheadline": "Commander가 목표를 할 일로 쪼개고 16개 전문 에이전트와 외부 CLI 에이전트를 함께 지휘한다"
   },
+  "XiaoYouChR/Ghost-Downloader-3": {
+   "date": "2026-11-22",
+   "headline": "모든 다운로드를 하나로, 고스트 다운로더 3",
+   "highlights": [
+    "HTTP, Magnet/BT, FTP, M3U8, MPEG-DASH, eD2k를 한 앱에서 지원",
+    "YouTube·Bilibili(哔哩哔哩)의 구간 선택, 화질, 자막, 재생목록 다운로드",
+    "브라우저 확장과 데스크톱 앱 연동으로 인증 상태까지 이어받기",
+    "aria2 호환 RPC API와 ghd 명령줄 도구 제공",
+    "다운로드 중 URL·헤더·프록시 변경 가능, GPL v3.0 공개"
+   ],
+   "image": "https://raw.githubusercontent.com/XiaoYouChR/Ghost-Downloader-3/HEAD/github/assets/ad/Swiftproxy.webp",
+   "image_caption": "고스트 다운로더 3의 프로젝트 배너와 실행 화면",
+   "lead": "Ghost Downloader 3는 HTTP, Magnet/BT, FTP, M3U8, MPEG-DASH, eD2k 등 다양한 프로토콜을 한 앱에서 처리하겠다는 목표로 만들어진 Python 기반 오픈소스 다운로더다. 4개 플랫폼을 지원하며, 브라우저 확장과 데스크톱 앱이 연동되어 영상 다운로드 경험을 단순화했다.",
+   "sections": [
+    {
+     "heading": "무엇인가: 다섯 개 앱을 대신하는 하나",
+     "text": "저장소 설명은 'The only downloader you need'라는 문구로 요약된다. README에 따르면 이 프로젝트는 HTTP, Magnet/BT, FTP, M3U8, MPEG-DASH, eD2k를 모두 지원한다. YouTube와 Bilibili(哔哩哔哩)에서는 구간 선택, 화질 선택, 자막, 재생목록과 다중 파트 에피소드 다운로드를 제공하고, GitHub와 HuggingFace는 미러 가속을 지원한다. 시작은 한 Bilibili(哔哩哔哩) 창작자의 자료 관리를 돕기 위한 개인 프로젝트였으며, 지금은 4개 플랫폼에 배포되고 Feature Packs 플러그인 생태계도 성장 중이라고 소개한다."
+    },
+    {
+     "heading": "어떻게 동작하나: 속도와 연동성",
+     "text": "핵심은 열악한 네트워크에서의 성능이다. 파일 병합 없이 동작하는 스마트 청크 방식과 대역폭 자동 감지를 내세우며, 실제 브라우저의 TLS 핑거프린트를 사용해 안티봇 검사에 걸리지 않도록 했다. 브라우저 확장은 영상 옆에 다운로드 버튼을 붙이고, 팝업에서 페이지의 모든 미디어를 나열한다. 평소처럼 다운로드를 시작해도 데스크톱 앱이 넘겨받으며, 인증 상태도 함께 전달되어 링크를 복사할 필요가 없다. 내부적으로는 yt-dlp, FFmpeg, libtorrent, N_m3u8DL-RE, wreq, PySide6 등 여러 오픈소스를 활용한다."
+    },
+    {
+     "heading": "제어권과 플랫폼 지원",
+     "text": "사용자는 다운로드 도중에도 URL, 헤더, 프록시를 바꿀 수 있고 진행 상황은 유지된다. 서드파티 도구를 위해 aria2 호환 RPC API를 제공하며, 설정의 Command Line Tool 메뉴에서 ghd 명령줄 도구를 설치할 수 있다. Android에서는 라이브 M3U8 스트림을 녹화하고 백그라운드에서 다운로드를 이어간다. Arch Linux 사용자를 위해 커뮤니티가 관리하는 AUR 패키지 ghost-downloader-bin과 ghost-downloader-git도 있다."
+    },
+    {
+     "heading": "주의할 점과 앞으로의 계획",
+     "text": "README는 Qt 6.6 이상이 AVX 명령어 세트가 없는 CPU를 더 이상 지원하지 않는다고 경고한다. 번역은 Crowdin에서 관리되며 데스크톱 텍스트의 60%가 번역되면 새 언어가 앱에 반영된다. 로드맵에는 플러그인 API 공개와, 하나의 작업에 여러 세션을 연결하는 등 작업 편집 기능 강화가 포함돼 있다. 라이선스는 GPL v3.0이다."
+    }
+   ],
+   "subheadline": "HTTP부터 BT, M3U8, 유튜브까지 아우르는 크로스플랫폼 올인원 다운로더"
+  },
   "ZhuLinsen/daily_stock_analysis": {
    "date": "2026-11-10",
    "headline": "AI가 매일 주식을 분석해 알려주는 오픈소스",

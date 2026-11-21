@@ -1,0 +1,1455 @@
+{
+ "date": "2026-11-22",
+ "trending": {
+  "daily": [
+   {
+    "rank": 1,
+    "full_name": "elementalsouls/Claude-BugHunter",
+    "owner": "elementalsouls",
+    "url": "https://github.com/elementalsouls/Claude-BugHunter",
+    "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+    "language": "Python",
+    "stars": 16012,
+    "forks": 1827,
+    "stars_gained": 1794,
+    "built_by": [
+     "claude",
+     "injectifytest",
+     "elementalsouls",
+     "rudycelekli"
+    ]
+   },
+   {
+    "rank": 2,
+    "full_name": "obra/superpowers",
+    "owner": "obra",
+    "url": "https://github.com/obra/superpowers",
+    "description": "An agentic skills framework & software development methodology that works.",
+    "language": "Shell",
+    "stars": 323708,
+    "forks": 28713,
+    "stars_gained": 884,
+    "built_by": [
+     "obra",
+     "arittr",
+     "claude",
+     "clkao",
+     "arimu1"
+    ]
+   },
+   {
+    "rank": 3,
+    "full_name": "HKUDS/CLI-Anything",
+    "owner": "HKUDS",
+    "url": "https://github.com/HKUDS/CLI-Anything",
+    "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+    "language": "Python",
+    "stars": 62065,
+    "forks": 5626,
+    "stars_gained": 767,
+    "built_by": [
+     "yuh-yang",
+     "claude",
+     "AiMiDi",
+     "omerarslan0",
+     "hito0512"
+    ]
+   },
+   {
+    "rank": 4,
+    "full_name": "jingyaogong/minimind",
+    "owner": "jingyaogong",
+    "url": "https://github.com/jingyaogong/minimind",
+    "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+    "language": "Python",
+    "stars": 68138,
+    "forks": 8904,
+    "stars_gained": 488,
+    "built_by": [
+     "jingyaogong",
+     "iomgaa-ycz",
+     "Linxiushen",
+     "basil-k-aji-dev",
+     "readlnh"
+    ]
+   },
+   {
+    "rank": 5,
+    "full_name": "cursor/plugins",
+    "owner": "cursor",
+    "url": "https://github.com/cursor/plugins",
+    "description": "Cursor plugin specification and official plugins",
+    "language": "TypeScript",
+    "stars": 18098,
+    "forks": 1976,
+    "stars_gained": 261,
+    "built_by": [
+     "cursoragent",
+     "poteto",
+     "djiang-jq",
+     "minupalaniappan",
+     "ericzakariasson"
+    ]
+   },
+   {
+    "rank": 6,
+    "full_name": "firecrawl/firecrawl",
+    "owner": "firecrawl",
+    "url": "https://github.com/firecrawl/firecrawl",
+    "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
+    "language": "TypeScript",
+    "stars": 206167,
+    "forks": 10777,
+    "stars_gained": 999,
+    "built_by": [
+     "nickscamara",
+     "mogery",
+     "rafaelsideguide",
+     "abimaelmartell",
+     "claude"
+    ]
+   },
+   {
+    "rank": 7,
+    "full_name": "nginx/nginx",
+    "owner": "nginx",
+    "url": "https://github.com/nginx/nginx",
+    "description": "The official NGINX Open Source repository.",
+    "language": "C",
+    "stars": 32726,
+    "forks": 8374,
+    "stars_gained": 195,
+    "built_by": [
+     "mdounin",
+     "arut",
+     "vl-homutov",
+     "VBart",
+     "pluknet"
+    ]
+   },
+   {
+    "rank": 8,
+    "full_name": "openvinotoolkit/openvino",
+    "owner": "openvinotoolkit",
+    "url": "https://github.com/openvinotoolkit/openvino",
+    "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+    "language": "C++",
+    "stars": 11927,
+    "forks": 3651,
+    "stars_gained": 202,
+    "built_by": [
+     "ilya-lavrenov",
+     "rkazants",
+     "ilyachur",
+     "mvafin"
+    ]
+   },
+   {
+    "rank": 9,
+    "full_name": "cathrynlavery/diagram-design",
+    "owner": "cathrynlavery",
+    "url": "https://github.com/cathrynlavery/diagram-design",
+    "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+    "language": "HTML",
+    "stars": 69787,
+    "forks": 4685,
+    "stars_gained": 582,
+    "built_by": [
+     "cathrynlavery",
+     "rudycelekli",
+     "claude",
+     "mvanhorn"
+    ]
+   },
+   {
+    "rank": 10,
+    "full_name": "mvanhorn/last30days-skill",
+    "owner": "mvanhorn",
+    "url": "https://github.com/mvanhorn/last30days-skill",
+    "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+    "language": "Python",
+    "stars": 71987,
+    "forks": 6372,
+    "stars_gained": 566,
+    "built_by": [
+     "mvanhorn",
+     "claude",
+     "tmchow",
+     "iliaal"
+    ]
+   },
+   {
+    "rank": 11,
+    "full_name": "google-labs-code/stitch-skills",
+    "owner": "google-labs-code",
+    "url": "https://github.com/google-labs-code/stitch-skills",
+    "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+    "language": "TypeScript",
+    "stars": 11411,
+    "forks": 1439,
+    "stars_gained": 324,
+    "built_by": [
+     "JLXIA",
+     "davideast",
+     "Emp1500",
+     "dalmaer",
+     "meeChn"
+    ]
+   },
+   {
+    "rank": 12,
+    "full_name": "mjmirza/app-store-compliance",
+    "owner": "mjmirza",
+    "url": "https://github.com/mjmirza/app-store-compliance",
+    "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 117 documented rejection patterns and fixes, privacy manifest and Data safety checks, 95 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
+    "language": "Shell",
+    "stars": 3386,
+    "forks": 212,
+    "stars_gained": 724,
+    "built_by": [
+     "mjmirza",
+     "omaralbeik",
+     "akash5852",
+     "userInDev"
+    ]
+   },
+   {
+    "rank": 13,
+    "full_name": "Tracer-Cloud/opensre",
+    "owner": "Tracer-Cloud",
+    "url": "https://github.com/Tracer-Cloud/opensre",
+    "description": "The open-source agent for CI/CD reliability.",
+    "language": "Python",
+    "stars": 13982,
+    "forks": 1943,
+    "stars_gained": 450,
+    "built_by": [
+     "davincios",
+     "VaibhavUpreti",
+     "muddlebee",
+     "YauhenBichel",
+     "cursoragent"
+    ]
+   },
+   {
+    "rank": 14,
+    "full_name": "toeverything/AFFiNE",
+    "owner": "toeverything",
+    "url": "https://github.com/toeverything/AFFiNE",
+    "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
+    "language": "TypeScript",
+    "stars": 76280,
+    "forks": 5593,
+    "stars_gained": 577,
+    "built_by": [
+     "darkskygit",
+     "pengx17",
+     "JimmFly",
+     "EYHN"
+    ]
+   },
+   {
+    "rank": 15,
+    "full_name": "XiaoYouChR/Ghost-Downloader-3",
+    "owner": "XiaoYouChR",
+    "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
+    "description": "The only downloader you need. 下载器的集大成者。",
+    "language": "Python",
+    "stars": 14424,
+    "forks": 876,
+    "stars_gained": 774,
+    "built_by": [
+     "XiaoYouChR",
+     "i0ntempest",
+     "Alpha-Qian",
+     "LittleNightSong"
+    ]
+   },
+   {
+    "rank": 16,
+    "full_name": "zhouxiaoka/autoclip",
+    "owner": "zhouxiaoka",
+    "url": "https://github.com/zhouxiaoka/autoclip",
+    "description": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
+    "language": "Python",
+    "stars": 12834,
+    "forks": 2072,
+    "stars_gained": 689,
+    "built_by": [
+     "zhouxiaoka",
+     "cursoragent",
+     "claude",
+     "mitsa-ng",
+     "charlie"
+    ]
+   }
+  ],
+  "weekly": [
+   {
+    "rank": 1,
+    "full_name": "backnotprop/plannotator",
+    "owner": "backnotprop",
+    "url": "https://github.com/backnotprop/plannotator",
+    "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+    "language": "TypeScript",
+    "stars": 14160,
+    "forks": 1410,
+    "stars_gained": 3555,
+    "built_by": [
+     "backnotprop",
+     "claude",
+     "rudycelekli",
+     "utpalsinghdev",
+     "leoreisdias"
+    ]
+   },
+   {
+    "rank": 2,
+    "full_name": "google-labs-code/stitch-skills",
+    "owner": "google-labs-code",
+    "url": "https://github.com/google-labs-code/stitch-skills",
+    "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+    "language": "TypeScript",
+    "stars": 11411,
+    "forks": 1439,
+    "stars_gained": 2152,
+    "built_by": [
+     "JLXIA",
+     "davideast",
+     "Emp1500",
+     "dalmaer",
+     "meeChn"
+    ]
+   },
+   {
+    "rank": 3,
+    "full_name": "GoogleChrome/modern-web-guidance-src",
+    "owner": "GoogleChrome",
+    "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+    "description": "Keep your coding agent up to date with the latest web best practices",
+    "language": "TypeScript",
+    "stars": 9890,
+    "forks": 789,
+    "stars_gained": 5224,
+    "built_by": [
+     "paulirish",
+     "rviscomi",
+     "micahjo7",
+     "LeaVerou"
+    ]
+   },
+   {
+    "rank": 4,
+    "full_name": "alibaba/open-code-review",
+    "owner": "alibaba",
+    "url": "https://github.com/alibaba/open-code-review",
+    "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+    "language": "Go",
+    "stars": 55099,
+    "forks": 4563,
+    "stars_gained": 4457,
+    "built_by": [
+     "lizhengfeng101",
+     "wu21-web",
+     "chethanuk",
+     "Qiyuanqiii",
+     "stay-foolish-forever"
+    ]
+   },
+   {
+    "rank": 5,
+    "full_name": "mvanhorn/last30days-skill",
+    "owner": "mvanhorn",
+    "url": "https://github.com/mvanhorn/last30days-skill",
+    "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+    "language": "Python",
+    "stars": 71987,
+    "forks": 6372,
+    "stars_gained": 3788,
+    "built_by": [
+     "mvanhorn",
+     "claude",
+     "tmchow",
+     "iliaal"
+    ]
+   },
+   {
+    "rank": 6,
+    "full_name": "ChromeDevTools/chrome-devtools-mcp",
+    "owner": "ChromeDevTools",
+    "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+    "description": "Chrome DevTools for coding agents",
+    "language": "TypeScript",
+    "stars": 58692,
+    "forks": 4905,
+    "stars_gained": 3306,
+    "built_by": [
+     "OrKoN",
+     "Lightning00Blade",
+     "browser-automation-bot",
+     "yulunz"
+    ]
+   },
+   {
+    "rank": 7,
+    "full_name": "tradermonty/claude-trading-skills",
+    "owner": "tradermonty",
+    "url": "https://github.com/tradermonty/claude-trading-skills",
+    "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+    "language": "Python",
+    "stars": 7622,
+    "forks": 1480,
+    "stars_gained": 3471,
+    "built_by": [
+     "claude",
+     "tradermonty",
+     "raikkonenPotter",
+     "sx4im"
+    ]
+   },
+   {
+    "rank": 8,
+    "full_name": "ag-ui-protocol/ag-ui",
+    "owner": "ag-ui-protocol",
+    "url": "https://github.com/ag-ui-protocol/ag-ui",
+    "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+    "language": "TypeScript",
+    "stars": 21011,
+    "forks": 2142,
+    "stars_gained": 3621,
+    "built_by": [
+     "ranst91",
+     "contextablemark",
+     "mme",
+     "claude",
+     "jpr5"
+    ]
+   },
+   {
+    "rank": 9,
+    "full_name": "meta/astryx",
+    "owner": "meta",
+    "url": "https://github.com/meta/astryx",
+    "description": "An open source design system that's fully customizable and agent ready",
+    "language": "TypeScript",
+    "stars": 31796,
+    "forks": 2498,
+    "stars_gained": 4131,
+    "built_by": [
+     "cixzhang",
+     "josephfarina",
+     "rubyycheung",
+     "vjeux"
+    ]
+   },
+   {
+    "rank": 10,
+    "full_name": "pookjw/HermesEnabler",
+    "owner": "pookjw",
+    "url": "https://github.com/pookjw/HermesEnabler",
+    "description": "Enable Hermès Watch Faces on any Apple Watch devices",
+    "language": "Objective-C",
+    "stars": 2352,
+    "forks": 198,
+    "stars_gained": 582,
+    "built_by": [
+     "pookjw",
+     "metalnodeug",
+     "claude",
+     "SamZong233",
+     "AVGThor"
+    ]
+   },
+   {
+    "rank": 11,
+    "full_name": "we-promise/sure",
+    "owner": "we-promise",
+    "url": "https://github.com/we-promise/sure",
+    "description": "The personal finance app for everyone (by everyone)",
+    "language": "Ruby",
+    "stars": 17137,
+    "forks": 1498,
+    "stars_gained": 2476,
+    "built_by": [
+     "jjmata",
+     "claude",
+     "zachgoll",
+     "Shpigford"
+    ]
+   },
+   {
+    "rank": 12,
+    "full_name": "dream-num/univer",
+    "owner": "dream-num",
+    "url": "https://github.com/dream-num/univer",
+    "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+    "language": "TypeScript",
+    "stars": 31099,
+    "forks": 2834,
+    "stars_gained": 7539,
+    "built_by": [
+     "jikkai",
+     "DR-Univer",
+     "wpxp123456",
+     "wzhudev",
+     "Dushusir"
+    ]
+   },
+   {
+    "rank": 13,
+    "full_name": "kajisho5/ffmpeg-skill",
+    "owner": "kajisho5",
+    "url": "https://github.com/kajisho5/ffmpeg-skill",
+    "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
+    "language": "Python",
+    "stars": 9268,
+    "forks": 836,
+    "stars_gained": 3268,
+    "built_by": [
+     "kajisho5",
+     "claude"
+    ]
+   }
+  ],
+  "monthly": [
+   {
+    "rank": 1,
+    "full_name": "Nutlope/hallmark",
+    "owner": "Nutlope",
+    "url": "https://github.com/Nutlope/hallmark",
+    "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+    "language": "CSS",
+    "stars": 59055,
+    "forks": 3227,
+    "stars_gained": 28266,
+    "built_by": [
+     "Luffixos",
+     "Nutlope",
+     "rudycelekli",
+     "cursoragent",
+     "xunguangzlj-cloud"
+    ]
+   },
+   {
+    "rank": 2,
+    "full_name": "cloudflare/security-audit-skill",
+    "owner": "cloudflare",
+    "url": "https://github.com/cloudflare/security-audit-skill",
+    "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+    "language": "JavaScript",
+    "stars": 76685,
+    "forks": 5167,
+    "stars_gained": 43310,
+    "built_by": [
+     "literally-dan",
+     "CooperSheroy",
+     "kennysarnoski-jarvis"
+    ]
+   },
+   {
+    "rank": 3,
+    "full_name": "milind-soni/OpenMausBot",
+    "owner": "milind-soni",
+    "url": "https://github.com/milind-soni/OpenMausBot",
+    "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+    "language": "TypeScript",
+    "stars": 26500,
+    "forks": 3779,
+    "stars_gained": 21024,
+    "built_by": [
+     "milind-soni",
+     "claude",
+     "AdityaUmale",
+     "aivsomkar",
+     "robinsonnblack"
+    ]
+   },
+   {
+    "rank": 4,
+    "full_name": "pingdotgg/t3code",
+    "owner": "pingdotgg",
+    "url": "https://github.com/pingdotgg/t3code",
+    "description": "The best way to control Claude Code, Codex and more from any computer or phone",
+    "language": "TypeScript",
+    "stars": 69510,
+    "forks": 11890,
+    "stars_gained": 38744,
+    "built_by": [
+     "juliusmarminge",
+     "claude",
+     "maria-rcks",
+     "t3dotgg",
+     "codex"
+    ]
+   },
+   {
+    "rank": 5,
+    "full_name": "anthropics/skills",
+    "owner": "anthropics",
+    "url": "https://github.com/anthropics/skills",
+    "description": "Public repository for Agent Skills",
+    "language": "Python",
+    "stars": 198470,
+    "forks": 23227,
+    "stars_gained": 16149,
+    "built_by": [
+     "rlancemartin",
+     "klazuka",
+     "claude",
+     "cj-ant",
+     "ericharmeling"
+    ]
+   },
+   {
+    "rank": 6,
+    "full_name": "thedotmack/claude-mem",
+    "owner": "thedotmack",
+    "url": "https://github.com/thedotmack/claude-mem",
+    "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+    "language": "TypeScript",
+    "stars": 118839,
+    "forks": 10333,
+    "stars_gained": 17381,
+    "built_by": [
+     "thedotmack",
+     "claude",
+     "Afloat16",
+     "rudycelekli",
+     "cursoragent"
+    ]
+   },
+   {
+    "rank": 7,
+    "full_name": "Jakeschincariol/instagram-agent-skill",
+    "owner": "Jakeschincariol",
+    "url": "https://github.com/Jakeschincariol/instagram-agent-skill",
+    "description": "Thirteen Claude skills that run an Instagram account: Reels off 26 scored hook formulas, a viral research skill, a caption linter, and a humanizer. Free, MIT.",
+    "language": "Python",
+    "stars": 7968,
+    "forks": 1472,
+    "stars_gained": 5504,
+    "built_by": [
+     "claude",
+     "Jakeschincariol"
+    ]
+   },
+   {
+    "rank": 8,
+    "full_name": "backnotprop/plannotator",
+    "owner": "backnotprop",
+    "url": "https://github.com/backnotprop/plannotator",
+    "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+    "language": "TypeScript",
+    "stars": 14160,
+    "forks": 1410,
+    "stars_gained": 4344,
+    "built_by": [
+     "backnotprop",
+     "claude",
+     "rudycelekli",
+     "utpalsinghdev",
+     "leoreisdias"
+    ]
+   },
+   {
+    "rank": 9,
+    "full_name": "HKUDS/DeepTutor",
+    "owner": "HKUDS",
+    "url": "https://github.com/HKUDS/DeepTutor",
+    "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ .",
+    "language": "Python",
+    "stars": 61350,
+    "forks": 7407,
+    "stars_gained": 19469,
+    "built_by": [
+     "pancacake",
+     "claude",
+     "evan188199-tech",
+     "Pinkllow"
+    ]
+   },
+   {
+    "rank": 10,
+    "full_name": "pbakaus/impeccable",
+    "owner": "pbakaus",
+    "url": "https://github.com/pbakaus/impeccable",
+    "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+    "language": "Rust",
+    "stars": 114528,
+    "forks": 6814,
+    "stars_gained": 30831,
+    "built_by": [
+     "pbakaus",
+     "claude",
+     "abdulwahabone",
+     "cursoragent"
+    ]
+   },
+   {
+    "rank": 11,
+    "full_name": "sherlock-project/sherlock",
+    "owner": "sherlock-project",
+    "url": "https://github.com/sherlock-project/sherlock",
+    "description": "Hunt down social media accounts by username across social networks",
+    "language": "Python",
+    "stars": 115471,
+    "forks": 13222,
+    "stars_gained": 20748,
+    "built_by": [
+     "sdushantha",
+     "hoadlck",
+     "ppfeister",
+     "TheYahya",
+     "Czechball"
+    ]
+   },
+   {
+    "rank": 12,
+    "full_name": "AgriciDaniel/claude-seo",
+    "owner": "AgriciDaniel",
+    "url": "https://github.com/AgriciDaniel/claude-seo",
+    "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
+    "language": "Python",
+    "stars": 31396,
+    "forks": 3879,
+    "stars_gained": 11786,
+    "built_by": [
+     "AgriciDaniel",
+     "claude",
+     "Afloat16",
+     "Nordalux",
+     "rudycelekli"
+    ]
+   },
+   {
+    "rank": 13,
+    "full_name": "google-labs-code/stitch-skills",
+    "owner": "google-labs-code",
+    "url": "https://github.com/google-labs-code/stitch-skills",
+    "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+    "language": "TypeScript",
+    "stars": 11411,
+    "forks": 1439,
+    "stars_gained": 2406,
+    "built_by": [
+     "JLXIA",
+     "davideast",
+     "Emp1500",
+     "dalmaer",
+     "meeChn"
+    ]
+   },
+   {
+    "rank": 14,
+    "full_name": "heygen-com/hyperframes",
+    "owner": "heygen-com",
+    "url": "https://github.com/heygen-com/hyperframes",
+    "description": "AI video you can actually edit. HyperFrames is a free, open-source AI video editor. Describe any video and get a real project you can change down to the frame.",
+    "language": "TypeScript",
+    "stars": 87831,
+    "forks": 8177,
+    "stars_gained": 19612,
+    "built_by": [
+     "miguel-heygen",
+     "claude",
+     "vanceingalls",
+     "jrusso1020",
+     "ukimsanov"
+    ]
+   },
+   {
+    "rank": 15,
+    "full_name": "elementalsouls/Claude-BugHunter",
+    "owner": "elementalsouls",
+    "url": "https://github.com/elementalsouls/Claude-BugHunter",
+    "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+    "language": "Python",
+    "stars": 16012,
+    "forks": 1827,
+    "stars_gained": 8329,
+    "built_by": [
+     "claude",
+     "injectifytest",
+     "elementalsouls",
+     "rudycelekli"
+    ]
+   },
+   {
+    "rank": 16,
+    "full_name": "kajisho5/ffmpeg-skill",
+    "owner": "kajisho5",
+    "url": "https://github.com/kajisho5/ffmpeg-skill",
+    "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
+    "language": "Python",
+    "stars": 9268,
+    "forks": 836,
+    "stars_gained": 6641,
+    "built_by": [
+     "kajisho5",
+     "claude"
+    ]
+   },
+   {
+    "rank": 17,
+    "full_name": "vercel-labs/agent-browser",
+    "owner": "vercel-labs",
+    "url": "https://github.com/vercel-labs/agent-browser",
+    "description": "Browser automation CLI for AI agents",
+    "language": "Rust",
+    "stars": 53230,
+    "forks": 3727,
+    "stars_gained": 8855,
+    "built_by": [
+     "ctate",
+     "Railly",
+     "lahfir",
+     "claude"
+    ]
+   }
+  ]
+ },
+ "new_arrivals": [
+  {
+   "rank": 1,
+   "full_name": "erkamyaman/rust-anything",
+   "owner": "erkamyaman",
+   "url": "https://github.com/erkamyaman/rust-anything",
+   "description": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
+   "language": "Rust",
+   "stars": 7399,
+   "forks": 588,
+   "stars_gained": 7399,
+   "topics": [
+    "agent-skills",
+    "claude-code",
+    "cli",
+    "code-migration",
+    "codex",
+    "ffi"
+   ],
+   "created_at": "2026-11-16T12:10:36Z",
+   "built_by": [
+    "erkamyaman"
+   ]
+  },
+  {
+   "rank": 2,
+   "full_name": "krisgfx9/Wireless-Device-Battery-Monitor",
+   "owner": "krisgfx9",
+   "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
+   "description": "Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Supports Logitech, Razer, SteelSeries, Corsair, HyperX, Glorious, PS4/PS5 DualSense, Xbox and Bluetooth devices.",
+   "language": "C++",
+   "stars": 5805,
+   "forks": 488,
+   "stars_gained": 5805,
+   "topics": [],
+   "created_at": "2026-11-16T19:28:29Z",
+   "built_by": [
+    "krisgfx9"
+   ]
+  },
+  {
+   "rank": 3,
+   "full_name": "ItsNotRexed/Leonida",
+   "owner": "ItsNotRexed",
+   "url": "https://github.com/ItsNotRexed/Leonida",
+   "description": "Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6",
+   "language": "Python",
+   "stars": 5043,
+   "forks": 348,
+   "stars_gained": 5043,
+   "topics": [],
+   "created_at": "2026-11-20T20:07:13Z",
+   "built_by": [
+    "ItsNotRexed"
+   ]
+  },
+  {
+   "rank": 4,
+   "full_name": "gylive/google-ultra",
+   "owner": "gylive",
+   "url": "https://github.com/gylive/google-ultra",
+   "description": "",
+   "language": "Python",
+   "stars": 2598,
+   "forks": 78,
+   "stars_gained": 2598,
+   "topics": [],
+   "created_at": "2026-11-17T10:21:54Z",
+   "built_by": [
+    "gylive"
+   ]
+  },
+  {
+   "rank": 5,
+   "full_name": "bookwjitchieni1986/blender-ai-mcp-addon",
+   "owner": "bookwjitchieni1986",
+   "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
+   "description": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
+   "language": null,
+   "stars": 2367,
+   "forks": 32,
+   "stars_gained": 2367,
+   "topics": [
+    "ai-agents",
+    "ai-assistant",
+    "blender",
+    "blender-addon",
+    "blender-ai",
+    "blender-automation"
+   ],
+   "created_at": "2026-11-19T14:43:10Z",
+   "built_by": [
+    "bookwjitchieni1986"
+   ]
+  },
+  {
+   "rank": 6,
+   "full_name": "iamajmeena/neonclipping",
+   "owner": "iamajmeena",
+   "url": "https://github.com/iamajmeena/neonclipping",
+   "description": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
+   "language": "Python",
+   "stars": 1733,
+   "forks": 86,
+   "stars_gained": 1733,
+   "topics": [
+    "ai-video-clipper",
+    "clipping",
+    "faster-whisper",
+    "ffmpeg",
+    "gameplay-clipper",
+    "local-llm"
+   ],
+   "created_at": "2026-11-19T10:00:43Z",
+   "built_by": [
+    "iamajmeena"
+   ]
+  },
+  {
+   "rank": 7,
+   "full_name": "sybil-solutions/inference-optimisation-skill",
+   "owner": "sybil-solutions",
+   "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+   "description": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
+   "language": "Python",
+   "stars": 1625,
+   "forks": 146,
+   "stars_gained": 1625,
+   "topics": [
+    "agent-skill",
+    "benchmarking",
+    "claude-code",
+    "inference",
+    "llm",
+    "speculative-decoding"
+   ],
+   "created_at": "2026-11-16T18:40:04Z",
+   "built_by": [
+    "sybil-solutions"
+   ]
+  },
+  {
+   "rank": 8,
+   "full_name": "chuanqisun/spaceship",
+   "owner": "chuanqisun",
+   "url": "https://github.com/chuanqisun/spaceship",
+   "description": "Steer ideas like a space pilot!",
+   "language": "HTML",
+   "stars": 1023,
+   "forks": 109,
+   "stars_gained": 1023,
+   "topics": [],
+   "created_at": "2026-11-16T14:43:45Z",
+   "built_by": [
+    "chuanqisun"
+   ]
+  },
+  {
+   "rank": 9,
+   "full_name": "hatsunemiku-ai/google-one-tools",
+   "owner": "hatsunemiku-ai",
+   "url": "https://github.com/hatsunemiku-ai/google-one-tools",
+   "description": "",
+   "language": "Python",
+   "stars": 1020,
+   "forks": 509,
+   "stars_gained": 1020,
+   "topics": [],
+   "created_at": "2026-11-20T22:12:47Z",
+   "built_by": [
+    "hatsunemiku-ai"
+   ]
+  },
+  {
+   "rank": 10,
+   "full_name": "Lemxy/WinRust",
+   "owner": "Lemxy",
+   "url": "https://github.com/Lemxy/WinRust",
+   "description": "Windows shell replacement in Rust: taskbar, file manager, NTFS search, task manager, disk cleaner. One installer exe.",
+   "language": "Rust",
+   "stars": 958,
+   "forks": 50,
+   "stars_gained": 958,
+   "topics": [],
+   "created_at": "2026-11-17T14:27:06Z",
+   "built_by": [
+    "Lemxy"
+   ]
+  },
+  {
+   "rank": 11,
+   "full_name": "siliconjungle/shapeshift-labs-ink-studio",
+   "owner": "siliconjungle",
+   "url": "https://github.com/siliconjungle/shapeshift-labs-ink-studio",
+   "description": "Sculpting, animation and simulation toolkit for pixel-art Gaussian splats",
+   "language": "JavaScript",
+   "stars": 957,
+   "forks": 80,
+   "stars_gained": 957,
+   "topics": [],
+   "created_at": "2026-11-16T07:44:00Z",
+   "built_by": [
+    "siliconjungle"
+   ]
+  },
+  {
+   "rank": 12,
+   "full_name": "R0Y00/Xbox2Windows",
+   "owner": "R0Y00",
+   "url": "https://github.com/R0Y00/Xbox2Windows",
+   "description": "Static recompilation research for Xbox Series X|S (Scarlett) on x64 Windows, including shader translation, BC7 textures, script-state replay and D3D12/PE checks.",
+   "language": "Python",
+   "stars": 898,
+   "forks": 83,
+   "stars_gained": 898,
+   "topics": [
+    "d3d12",
+    "directx-raytracing",
+    "scarlett",
+    "static-recompilation",
+    "windows",
+    "xbox"
+   ],
+   "created_at": "2026-11-20T17:43:52Z",
+   "built_by": [
+    "R0Y00"
+   ]
+  },
+  {
+   "rank": 13,
+   "full_name": "boringmarketer/boring-marketing-skills",
+   "owner": "boringmarketer",
+   "url": "https://github.com/boringmarketer/boring-marketing-skills",
+   "description": "32 free marketing skills for your AI agent: research, positioning, copy, pages, SEO, AI search, ads, email and content, plus a deep local-business pack. MIT.",
+   "language": "Python",
+   "stars": 773,
+   "forks": 280,
+   "stars_gained": 773,
+   "topics": [
+    "agent-skills",
+    "ai-agents",
+    "claude-code",
+    "codex",
+    "copywriting",
+    "local-seo"
+   ],
+   "created_at": "2026-11-16T15:09:46Z",
+   "built_by": [
+    "boringmarketer"
+   ]
+  },
+  {
+   "rank": 14,
+   "full_name": "omonkeyz/xbox-emulator",
+   "owner": "omonkeyz",
+   "url": "https://github.com/omonkeyz/xbox-emulator",
+   "description": "Progress notes for running Xbox Series X|S builds on PC (TomBox + rage9)",
+   "language": "Rust",
+   "stars": 743,
+   "forks": 39,
+   "stars_gained": 743,
+   "topics": [],
+   "created_at": "2026-11-21T08:08:39Z",
+   "built_by": [
+    "omonkeyz"
+   ]
+  },
+  {
+   "rank": 15,
+   "full_name": "MSNightmare/FastUnlock",
+   "owner": "MSNightmare",
+   "url": "https://github.com/MSNightmare/FastUnlock",
+   "description": "FastUnlock : Windows Narrator LockScreen Bypass 0day Vulnerability",
+   "language": null,
+   "stars": 646,
+   "forks": 106,
+   "stars_gained": 646,
+   "topics": [],
+   "created_at": "2026-11-19T12:37:51Z",
+   "built_by": [
+    "MSNightmare"
+   ]
+  },
+  {
+   "rank": 16,
+   "full_name": "0xkaka/homeport",
+   "owner": "0xkaka",
+   "url": "https://github.com/0xkaka/homeport",
+   "description": "",
+   "language": "HTML",
+   "stars": 615,
+   "forks": 107,
+   "stars_gained": 615,
+   "topics": [],
+   "created_at": "2026-11-17T05:39:46Z",
+   "built_by": [
+    "0xkaka"
+   ]
+  },
+  {
+   "rank": 17,
+   "full_name": "eric-lopezdev1992b4/polar-client-skyblock-mining-2026",
+   "owner": "eric-lopezdev1992b4",
+   "url": "https://github.com/eric-lopezdev1992b4/polar-client-skyblock-mining-2026",
+   "description": "Polar Client preactivated — Hypixel Skyblock Mithril, Gemstone, Powder & Commission Macro (2026 Edition): native 64-bit Windows 10/11 portable x64 build with hot-reloadable JSON configuration, low-overhead runtime, and prebuilt portable release.",
+   "language": "C#",
+   "stars": 552,
+   "forks": 53,
+   "stars_gained": 552,
+   "topics": [
+    "cmake",
+    "configuration",
+    "cpp",
+    "directx-11",
+    "directx-12",
+    "hypixel-skyblock"
+   ],
+   "created_at": "2026-11-21T23:19:31Z",
+   "built_by": [
+    "eric-lopezdev1992b4"
+   ]
+  },
+  {
+   "rank": 18,
+   "full_name": "sam-santos1905e5/slay-the-spire-2-trainer",
+   "owner": "sam-santos1905e5",
+   "url": "https://github.com/sam-santos1905e5/slay-the-spire-2-trainer",
+   "description": "Slay the Spire 2 Trainer, Developer Console Unlocker & Relic/Gold Save Editor — Download prebuilt Windows 10/11 x64 release. Keywords: slay the spire 2, slay the spire 2 trainer, slay the spire 2 cheat, slay the spire 2 mods, slay the spire 2 save editor, mod loader, console unlocker, deck tracker.",
+   "language": "Jupyter Notebook",
+   "stars": 548,
+   "forks": 59,
+   "stars_gained": 548,
+   "topics": [
+    "cmake",
+    "configuration",
+    "cpp",
+    "directx-11",
+    "directx-12",
+    "imgui"
+   ],
+   "created_at": "2026-11-21T21:54:30Z",
+   "built_by": [
+    "sam-santos1905e5"
+   ]
+  },
+  {
+   "rank": 19,
+   "full_name": "daviddevhq98y8/monster-hunter-wilds-reframework",
+   "owner": "daviddevhq98y8",
+   "url": "https://github.com/daviddevhq98y8/monster-hunter-wilds-reframework",
+   "description": "Monster Hunter Wilds REFramework + Monster HP Bar, Crown & DPS Overlay Mod — Download prebuilt Windows 10/11 x64 release. Keywords: monster hunter wilds, mhwilds, monster hunter wilds mods, monster hunter wilds cheat, monster hunter wilds trainer, reframework, mhwilds save editor, mhwilds dps overlay.",
+   "language": "C++",
+   "stars": 539,
+   "forks": 51,
+   "stars_gained": 539,
+   "topics": [
+    "cmake",
+    "configuration",
+    "cpp",
+    "directx-11",
+    "directx-12",
+    "imgui"
+   ],
+   "created_at": "2026-11-21T21:54:34Z",
+   "built_by": [
+    "daviddevhq98y8"
+   ]
+  },
+  {
+   "rank": 20,
+   "full_name": "dmitry-m-99v2/schedule-1-mod-menu-download",
+   "owner": "dmitry-m-99v2",
+   "url": "https://github.com/dmitry-m-99v2/schedule-1-mod-menu-download",
+   "description": "Schedule I Mod Menu (MelonLoader) — Item Spawner, Unlimited Cash, No Police & Speed Multiplier [Direct Download] — Download prebuilt Windows 10/11 x64 release. Keywords: schedule 1, schedule i, schedule 1 cheat, schedule 1 mod menu, schedule 1 trainer, schedule 1 mods, schedule 1 save editor, melonloader.",
+   "language": "Jupyter Notebook",
+   "stars": 537,
+   "forks": 55,
+   "stars_gained": 537,
+   "topics": [
+    "cmake",
+    "configuration",
+    "cpp",
+    "directx-11",
+    "directx-12",
+    "imgui"
+   ],
+   "created_at": "2026-11-21T23:08:23Z",
+   "built_by": [
+    "dmitry-m-99v2"
+   ]
+  },
+  {
+   "rank": 21,
+   "full_name": "anton-clark-x2003y0/gta-5-enhanced-mod-menu",
+   "owner": "anton-clark-x2003y0",
+   "url": "https://github.com/anton-clark-x2003y0/gta-5-enhanced-mod-menu",
+   "description": "GTA 5 Enhanced Mod Menu — YimMenu V2 External Overlay, Money Recovery & Heist Editor — Download prebuilt Windows 10/11 x64 release. Keywords: gta 5 mod menu, gta5 enhanced, yimmenu, yimmenu v2, fsl gta5, gta 5 cheat, gta 5 hack, gta online mod menu.",
+   "language": "CMake",
+   "stars": 537,
+   "forks": 58,
+   "stars_gained": 537,
+   "topics": [
+    "cmake",
+    "configuration",
+    "cpp",
+    "directx-11",
+    "directx-12",
+    "fsl-gta5"
+   ],
+   "created_at": "2026-11-21T21:54:29Z",
+   "built_by": [
+    "anton-clark-x2003y0"
+   ]
+  },
+  {
+   "rank": 22,
+   "full_name": "mikesantoseng02g8/valorant-hwid-smbios-utility-2026",
+   "owner": "mikesantoseng02g8",
+   "url": "https://github.com/mikesantoseng02g8/valorant-hwid-smbios-utility-2026",
+   "description": "Valorant HWID smbios-utility — Perm Vanguard VAN 152, TPM 2.0, Secure Boot & SMBIOS unlocker (2026 Edition): native 64-bit Windows 10/11 portable x64 build with hot-reloadable JSON configuration, low-overhead runtime, and prebuilt portable release.",
+   "language": "C++",
+   "stars": 529,
+   "forks": 54,
+   "stars_gained": 529,
+   "topics": [
+    "cmake",
+    "configuration",
+    "cpp",
+    "directx-11",
+    "directx-12",
+    "hwid"
+   ],
+   "created_at": "2026-11-21T23:16:52Z",
+   "built_by": [
+    "mikesantoseng02g8"
+   ]
+  },
+  {
+   "rank": 23,
+   "full_name": "oscar-j-code1904n1/blox-fruits-script",
+   "owner": "oscar-j-code1904n1",
+   "url": "https://github.com/oscar-j-code1904n1/blox-fruits-script",
+   "description": "Blox Fruits Script 2026 — Keyless Auto-Farm, Sea Events, Kitsune & Fruit Sniper — Download prebuilt Windows 10/11 x64 release. Keywords: blox fruits script, fisch script, rivals script, jujutsu infinite script, blue lock rivals script, da hood script, pet simulator 99 script, anime vanguards script.",
+   "language": "C++",
+   "stars": 529,
+   "forks": 56,
+   "stars_gained": 529,
+   "topics": [
+    "blox-fruits-script",
+    "blue-lock-rivals-script",
+    "cmake",
+    "configuration",
+    "cpp",
+    "da-hood-script"
+   ],
+   "created_at": "2026-11-21T21:54:29Z",
+   "built_by": [
+    "oscar-j-code1904n1"
+   ]
+  },
+  {
+   "rank": 24,
+   "full_name": "chris-code-90e9/3utools-pro-mdm-unlocker-2026",
+   "owner": "chris-code-90e9",
+   "url": "https://github.com/chris-code-90e9/3utools-pro-mdm-unlocker-2026",
+   "description": "3uTools Pro + iRemoval Pro Windows — 1-Click MDM Skip, IPA Sideloader & Virtual GPS (2026 Edition): native 64-bit Windows 10/11 portable x64 build with hot-reloadable JSON configuration, low-overhead runtime, and prebuilt portable release.",
+   "language": "C#",
+   "stars": 529,
+   "forks": 52,
+   "stars_gained": 529,
+   "topics": [
+    "3utools",
+    "3utools-pro-mdm-unlocker-2026",
+    "broque-ramdisk",
+    "cmake",
+    "configuration",
+    "cpp"
+   ],
+   "created_at": "2026-11-21T23:23:35Z",
+   "built_by": [
+    "chris-code-90e9"
+   ]
+  },
+  {
+   "rank": 25,
+   "full_name": "sergey-kingx89f1/spt-aki-profile-editor-tarkov-2026",
+   "owner": "sergey-kingx89f1",
+   "url": "https://github.com/sergey-kingx89f1/spt-aki-profile-editor-tarkov-2026",
+   "description": "Escape from Tarkov SPT-AKI 3.10 Profile Editor, Flea Unlocker & BattlEye Spoofer (2026 Edition): native 64-bit Windows 10/11 portable x64 build with hot-reloadable JSON configuration, low-overhead runtime, and prebuilt portable release.",
+   "language": "C++",
+   "stars": 527,
+   "forks": 55,
+   "stars_gained": 527,
+   "topics": [
+    "cmake",
+    "configuration",
+    "cpp",
+    "directx-11",
+    "directx-12",
+    "eft"
+   ],
+   "created_at": "2026-11-21T23:19:32Z",
+   "built_by": [
+    "sergey-kingx89f1"
+   ]
+  },
+  {
+   "rank": 26,
+   "full_name": "nataphong-lab/Open-Source-Face-Recognition-Ultimate",
+   "owner": "nataphong-lab",
+   "url": "https://github.com/nataphong-lab/Open-Source-Face-Recognition-Ultimate",
+   "description": "Face Recognition, Face Liveness Detection, Face Anti-Spoofing, Face Detection, Face Landmarks, Face Compare, Face Matching, Face Pose, Face Expression, Face Attributes, Face Templates Extraction, Face Landmarks",
+   "language": "Python",
+   "stars": 523,
+   "forks": 426,
+   "stars_gained": 523,
+   "topics": [],
+   "created_at": "2026-11-19T10:40:46Z",
+   "built_by": [
+    "nataphong-lab"
+   ]
+  },
+  {
+   "rank": 27,
+   "full_name": "nikitadlab00k6/fivem-hwid-spoofer",
+   "owner": "nikitadlab00k6",
+   "url": "https://github.com/nikitadlab00k6/fivem-hwid-spoofer",
+   "description": "FiveM HWID Spoofer & Unban Tool — Adhesive Global Ban Cleaner & Serial Resetter — Download prebuilt Windows 10/11 x64 release. Keywords: fivem, fivem cheat, fivem hack, fivem spoofer, fivem lua executor, fivem dumper, fivem aimbot, fivem esp.",
+   "language": "CMake",
+   "stars": 518,
+   "forks": 32,
+   "stars_gained": 518,
+   "topics": [
+    "cmake",
+    "configuration",
+    "cpp",
+    "directx-11",
+    "directx-12",
+    "fivem"
+   ],
+   "created_at": "2026-11-21T21:54:29Z",
+   "built_by": [
+    "nikitadlab00k6"
+   ]
+  },
+  {
+   "rank": 28,
+   "full_name": "oscar-kumareng1996j2/robrun-cheat",
+   "owner": "oscar-kumareng1996j2",
+   "url": "https://github.com/oscar-kumareng1996j2/robrun-cheat",
+   "description": "ROB RUN Cheat & External Hack — Spatial Bone ESP, Loot Radar & Speedhack — Download prebuilt Windows 10/11 x64 release. Keywords: robrun, rob run, robrun cheat, robrun hack, robrun esp, robrun trainer, robrun aimbot, robrun loot radar.",
+   "language": "CMake",
+   "stars": 515,
+   "forks": 52,
+   "stars_gained": 515,
+   "topics": [
+    "cmake",
+    "configuration",
+    "cpp",
+    "directx-11",
+    "directx-12",
+    "imgui"
+   ],
+   "created_at": "2026-11-21T21:54:29Z",
+   "built_by": [
+    "oscar-kumareng1996j2"
+   ]
+  },
+  {
+   "rank": 29,
+   "full_name": "victor-miller-code2097u8/cs2-cheat-esp-aimbot",
+   "owner": "victor-miller-code2097u8",
+   "url": "https://github.com/victor-miller-code2097u8/cs2-cheat-esp-aimbot",
+   "description": "CS2 Cheat & External Hack — Bone ESP, Aimbot, Triggerbot, Radar & Inventory Skin Changer",
+   "language": "Jupyter Notebook",
+   "stars": 496,
+   "forks": 73,
+   "stars_gained": 496,
+   "topics": [
+    "cmake",
+    "configuration",
+    "counter-strike-2",
+    "cpp",
+    "cs2",
+    "cs2-esp"
+   ],
+   "created_at": "2026-11-21T21:41:30Z",
+   "built_by": [
+    "victor-miller-code2097u8"
+   ]
+  },
+  {
+   "rank": 30,
+   "full_name": "replit/datacat",
+   "owner": "replit",
+   "url": "https://github.com/replit/datacat",
+   "description": "Self-hosted observability: metrics, logs, traces, dashboards and alerts. Stores data in PostgreSQL or ClickHouse. Accepts OpenTelemetry data.",
+   "language": "TypeScript",
+   "stars": 493,
+   "forks": 52,
+   "stars_gained": 493,
+   "topics": [
+    "alerting",
+    "apm",
+    "clickhouse",
+    "dashboards",
+    "logging",
+    "metrics"
+   ],
+   "created_at": "2026-11-17T02:51:06Z",
+   "built_by": [
+    "replit"
+   ]
+  }
+ ],
+ "layout": {
+  "top": "XiaoYouChR/Ghost-Downloader-3",
+  "rising": [],
+  "fresh": [],
+  "steady": [
+   "elementalsouls/Claude-BugHunter",
+   "obra/superpowers",
+   "HKUDS/CLI-Anything",
+   "jingyaogong/minimind",
+   "cursor/plugins",
+   "firecrawl/firecrawl",
+   "nginx/nginx",
+   "openvinotoolkit/openvino",
+   "cathrynlavery/diagram-design",
+   "mvanhorn/last30days-skill",
+   "google-labs-code/stitch-skills",
+   "mjmirza/app-store-compliance",
+   "Tracer-Cloud/opensre",
+   "toeverything/AFFiNE",
+   "zhouxiaoka/autoclip"
+  ],
+  "arrivals": [
+   "ItsNotRexed/Leonida",
+   "hatsunemiku-ai/google-one-tools",
+   "R0Y00/Xbox2Windows",
+   "boringmarketer/boring-marketing-skills"
+  ]
+ },
+ "top_story": "XiaoYouChR/Ghost-Downloader-3"
+}
