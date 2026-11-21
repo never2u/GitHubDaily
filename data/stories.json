@@ -536,6 +536,39 @@
    ],
    "subheadline": "음성 복제부터 영상 더빙, 오디오북까지 646개 언어를 로컬에서 처리한다"
   },
+  "elementalsouls/Claude-BugHunter": {
+   "date": "2026-11-21",
+   "headline": "버그바운티 특화 Claude 스킬 번들 '클로드-버그헌터' 공개",
+   "highlights": [
+    "83개 스킬과 15개 슬래시 커맨드, 681건의 공개 리포트 패턴 수록",
+    "24개 핵심 취약점 분류 및 엔터프라이즈 아이덴티티·인프라 공격 매트릭스 포함",
+    "Think-Hunt-Hit-Ship 4단계 레이어 구조로 설계",
+    "Burp Suite MCP 연동 및 /hunt 엔게이지먼트 스캐폴딩 지원",
+    "내부 AD 공격·C2·지속성 공격은 의도적으로 범위 밖으로 설정"
+   ],
+   "image": null,
+   "image_caption": "claude-bughunter는 Claude Code를 버그바운티·레드팀 전문 도구로 확장하는 스킬 번들이다.",
+   "lead": "개발자 Sachin Sharma가 Claude Code용 스킬 번들 'claude-bughunter'를 공개했다. 83개의 스킬과 15개의 슬래시 커맨드, 24개 핵심 취약점 분류에 걸친 681건의 공개 리포트 패턴을 담아 Claude Code를 단순 챗봇이 아닌 버그바운티·레드팀 전문 조력자로 전환시킨다.",
+   "sections": [
+    {
+     "heading": "무엇을 제공하나",
+     "text": "이 번들은 Think(방법론), Hunt webapps(웹앱 공격 패턴), Hit the perimeter(엔터프라이즈 플랫폼 공격 체인), Ship it(검증 및 리포팅) 4개 레이어로 구성된다. HackerOne에 공개된 681건의 리포트를 분석해 만든 58개의 'hunt-*' 스킬이 핵심이며, 이 중 433건은 개별적으로 인용·검증 가능하도록 정리됐다."
+    },
+    {
+     "heading": "작동 방식",
+     "text": "사용자가 테스트 대상을 평이한 영어 문장으로 설명하면 관련 스킬이 자동으로 로드되는 방식이다. 별도 명령어 호출 없이도 recon→map & rank→hunt→validate→report로 이어지는 6단계 비선형 워크플로를 따르며, 제출 전 '7-Question Gate' 검증 절차를 거친다. Burp Suite MCP 연동과 `/hunt` 엔게이지먼트 스캐폴딩도 지원한다."
+    },
+    {
+     "heading": "적용 범위와 설치",
+     "text": "대상 범위는 M365/Entra ID, Okta, vCenter, SSL-VPN 어플라이언스, SharePoint, 클라우드 IAM 등 인터넷에서 접근 가능한 외부 공격 표면으로 한정된다. 반면 내부 Active Directory 공격, C2 프레임워크, 지속성·측면이동, AMSI 우회 등은 의도적으로 범위에서 제외했다. 설치는 Claude Code 플러그인 방식이나 `~/.claude/`에 복사하는 방식 중 선택할 수 있으며, Claude Code 외에도 OpenCode, OpenAI Codex CLI, Hermes Agent, Google AntiGravity(안티그래비티) 등 여러 에이전트 환경에서 동일한 SKILL.md 포맷으로 구동된다."
+    },
+    {
+     "heading": "테스트와 검증",
+     "text": "DVWA, OWASP Juice Shop, Hacker101, testphp.vulnweb.com 등 공개 트레이닝 플랫폼은 물론, 승인된 레드팀·버그바운티 실전 업무에서도 검증을 거쳤다고 설명한다. HackerOne, Bugcrowd, Intigriti, Immunefi 등 주요 플랫폼의 VRT 기준에 맞춘 리포팅 포맷도 함께 제공된다."
+    }
+   ],
+   "subheadline": "681건의 실제 리포트 패턴으로 AI를 레드팀 연구원으로 바꾸다"
+  },
   "firecrawl/firecrawl": {
    "date": "2026-11-20",
    "headline": "파이어크롤, AI 에이전트용 지식 인프라로",

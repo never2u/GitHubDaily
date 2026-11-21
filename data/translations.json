@@ -395,6 +395,10 @@
   "ko": "Switch 게임을 iPhone/iPad에서 플레이하세요. 원클릭 macOS 앱, 터미널 불필요. | 그래픽 인터페이스로 원클릭 빌드하여 Switch 게임을 iPhone에 설치하며, 명령줄이 필요 없습니다. 본인의 게임을 가져오세요.",
   "src": "Play your own Switch games on iPhone/iPad — one-click macOS app, no terminal. | 把 Switch 游戏装进 iPhone：图形界面一键构建，不用命令行。Bring your own game."
  },
+ "Lemxy/WinRust": {
+  "ko": "Rust로 만든 Windows 셸 대체 프로그램: 작업 표시줄, 파일 관리자, NTFS 검색, 작업 관리자, 디스크 정리 도구를 포함합니다. 설치 파일은 exe 하나입니다.",
+  "src": "Windows shell replacement in Rust: taskbar, file manager, NTFS search, task manager, disk cleaner. One installer exe."
+ },
  "Leonxlnx/earshot": {
   "ko": "코딩 에이전트를 위한 귀: AI가 듣고, 검토하고, 소리를 만들 수 있게 합니다. CPU만으로 동작하는 오픈소스입니다.",
   "src": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source."
@@ -422,6 +426,10 @@
  "Luk177Master/easy-worship-desktop": {
   "ko": "Easy-Worship 2026: 모든 기능이 활성화된 완전 독립형 데스크톱 설치본",
   "src": "Easy-Worship 2026: Complete Standalone Desktop Setup with All Features Enabled"
+ },
+ "MSNightmare/FastUnlock": {
+  "ko": "FastUnlock: Windows 내레이터 잠금 화면 우회 0day 취약점",
+  "src": "FastUnlock : Windows Narrator LockScreen Bypass 0day Vulnerability"
  },
  "MadsLorentzen/ai-job-search": {
   "ko": "내 컴퓨터에서 돌아가는 구직 도구. Claude Code 기반의 AI 지원 프레임워크로, 채용 공고 평가, 이력서 맞춤화, 자기소개서 작성, 면접 준비를 도와줍니다. 포크해서 내 것으로 만들어 쓰세요.",
@@ -699,6 +707,10 @@
   "ko": "체인 리전 스캐너: Google AI Studio와 Gemini에 접속할 수 있는 프록시 설정을 찾아줍니다(로그인된 브라우저 확인, DPI 차단 우회, Windows/macOS/Linux/Android 지원)",
   "src": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)"
  },
+ "VortexHostFeel/Gemini-Config-Checker-": {
+  "ko": "체인 지역 스캐너: Google AI Studio와 Gemini에 접속할 수 있는 프록시 설정을 찾아줍니다(로그인된 브라우저 확인, DPI 우회 방지, Windows/macOS/Linux/Android 지원).",
+  "src": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)"
+ },
  "Watchlespeed/Gemini-Config-Checker-": {
   "ko": "체인 리전 스캐너: Google AI Studio와 Gemini에 접속할 수 있는 프록시 설정을 찾아줍니다(로그인된 브라우저 확인, DPI 차단 우회, Windows/macOS/Linux/Android 지원)",
   "src": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)"
@@ -713,6 +725,10 @@
  },
  "WindowStaffGate11/Gemini-Config-Checker-": {
   "ko": "체인 리전 스캐너: Google AI Studio와 Gemini에 접속할 수 있는 프록시 설정을 찾아줍니다(로그인된 브라우저 확인, DPI 차단 우회, Windows/macOS/Linux/Android 지원)",
+  "src": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)"
+ },
+ "WingDataVacuum/Gemini-Config-Checker-": {
+  "ko": "체인 지역 스캐너: Google AI Studio와 Gemini에 접속할 수 있는 프록시 설정을 찾아줍니다(로그인된 브라우저 확인, DPI 우회 방지, Windows/macOS/Linux/Android 지원).",
   "src": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)"
  },
  "WoYun520/gif-factory": {
@@ -1032,8 +1048,8 @@
   "src": "Introduction to Semiconductor Manufacturing"
  },
  "chuanqisun/spaceship": {
-  "ko": "아이디어를 실시간으로 조종하세요",
-  "src": "Steer your ideas in realtime"
+  "ko": "우주 비행사처럼 아이디어를 자유자재로 조종하세요!",
+  "src": "Steer ideas like a space pilot!"
  },
  "cjpais/Handy": {
   "ko": "완전히 오프라인으로 작동하는 무료 오픈소스 확장 가능 음성-텍스트 변환 애플리케이션",
@@ -1220,8 +1236,8 @@
   "src": "Blender AI MCP Suite is an AI assistant and built-in Model Context Protocol MCP server for Blender that turns plain-language briefs into inspected, approved and reversible 3D scene operations — with a visual Studio workspace, multi-agent teams, 21+ scene tools and your choice of AI models. · blender ai mcp suite · blender ai mcp · ai for blender"
  },
  "firecrawl/firecrawl": {
-  "ko": "에이전트를 더 똑똑하게 만드는 지식 인프라. 하나의 API로 검색, 스크래핑, 550개 이상의 데이터 제공업체 접근.",
-  "src": "Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API."
+  "ko": "에이전트를 더 똑똑하게 만드는 지식 인프라. 하나의 API로 550개 이상의 데이터 제공업체를 검색, 스크래핑, 접근할 수 있습니다.",
+  "src": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API."
  },
  "flgomes/dxo-photolab-10-desktop": {
   "ko": "전문가용 사진 처리 워크플로를 위한 DxO PhotoLab 10 데스크톱 빌드",
@@ -1390,6 +1406,10 @@
  "i12bp8/decomp.wtf": {
   "ko": "What The Function: AI 에이전트가 사용자가 소유한 게임을 디컴파일하여, 동일한 바이트로 컴파일되는 C 코드로 바꿔줍니다. 로컬에서 실행됩니다.",
   "src": "What The Function: your AI agent decompiles games you own into C that compiles to the exact same bytes. Runs locally."
+ },
+ "iamajmeena/neonclipping": {
+  "ko": "링크를 붙여넣으면 약 2분 만에 자막이 입혀진 9:16 클립을 만들어 줍니다. 무료이며 로컬에서 실행되는 오픈소스 클리핑 엔진으로, 오디오 중심 처리, YouTube 자막, 로컬 LLM을 지원합니다.",
+  "src": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM)."
  },
  "ikow/php2shell-poc": {
   "ko": "CVE-2026-109618/109619 — RCE 체인 5개와 탐지 규칙(Suricata, Sigma, ModSecurity). PHP session.upload_progress 인증 전 익스플로잇 연구.",
@@ -1714,6 +1734,10 @@
  "n8n-io/n8n": {
   "ko": "네이티브 AI 기능을 갖춘 페어코드(fair-code) 워크플로 자동화 플랫폼. 시각적 빌딩과 커스텀 코드를 결합하며, 셀프 호스팅 또는 클라우드로 사용할 수 있고 400개 이상의 통합을 지원합니다.",
   "src": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations."
+ },
+ "nataphong-lab/Open-Source-Face-Recognition-Ultimate": {
+  "ko": "얼굴 인식, 얼굴 라이브니스 탐지, 얼굴 위조 방지, 얼굴 검출, 얼굴 랜드마크, 얼굴 비교, 얼굴 매칭, 얼굴 자세, 얼굴 표정, 얼굴 속성, 얼굴 템플릿 추출, 얼굴 랜드마크",
+  "src": "Face Recognition, Face Liveness Detection, Face Anti-Spoofing, Face Detection, Face Landmarks, Face Compare, Face Matching, Face Pose, Face Expression, Face Attributes, Face Templates Extraction, Face Landmarks"
  },
  "nateherkai/roast-room": {
   "ko": "Claude Code에서 일곱 명의 AI 자문가(베이조스, 폴 그레이엄, 호르모지, 게리 베이너척, 댄 마텔, 지노 위크먼, 버핏)가 테이블에 둘러앉아 여러분의 사업 결정을 실시간으로 토론합니다.",

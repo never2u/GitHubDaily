@@ -1,0 +1,1455 @@
+{
+ "date": "2026-11-21",
+ "trending": {
+  "daily": [
+   {
+    "rank": 1,
+    "full_name": "elementalsouls/Claude-BugHunter",
+    "owner": "elementalsouls",
+    "url": "https://github.com/elementalsouls/Claude-BugHunter",
+    "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+    "language": "Python",
+    "stars": 14276,
+    "forks": 1702,
+    "stars_gained": 1622,
+    "built_by": [
+     "claude",
+     "injectifytest",
+     "elementalsouls",
+     "rudycelekli"
+    ]
+   },
+   {
+    "rank": 2,
+    "full_name": "obra/superpowers",
+    "owner": "obra",
+    "url": "https://github.com/obra/superpowers",
+    "description": "An agentic skills framework & software development methodology that works.",
+    "language": "Shell",
+    "stars": 322843,
+    "forks": 28669,
+    "stars_gained": 890,
+    "built_by": [
+     "obra",
+     "arittr",
+     "claude",
+     "clkao",
+     "arimu1"
+    ]
+   },
+   {
+    "rank": 3,
+    "full_name": "HKUDS/CLI-Anything",
+    "owner": "HKUDS",
+    "url": "https://github.com/HKUDS/CLI-Anything",
+    "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+    "language": "Python",
+    "stars": 61385,
+    "forks": 5563,
+    "stars_gained": 773,
+    "built_by": [
+     "yuh-yang",
+     "claude",
+     "AiMiDi",
+     "omerarslan0",
+     "hito0512"
+    ]
+   },
+   {
+    "rank": 4,
+    "full_name": "jingyaogong/minimind",
+    "owner": "jingyaogong",
+    "url": "https://github.com/jingyaogong/minimind",
+    "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+    "language": "Python",
+    "stars": 67691,
+    "forks": 8855,
+    "stars_gained": 847,
+    "built_by": [
+     "jingyaogong",
+     "iomgaa-ycz",
+     "Linxiushen",
+     "basil-k-aji-dev",
+     "readlnh"
+    ]
+   },
+   {
+    "rank": 5,
+    "full_name": "cursor/plugins",
+    "owner": "cursor",
+    "url": "https://github.com/cursor/plugins",
+    "description": "Cursor plugin specification and official plugins",
+    "language": "TypeScript",
+    "stars": 17847,
+    "forks": 1957,
+    "stars_gained": 299,
+    "built_by": [
+     "cursoragent",
+     "poteto",
+     "djiang-jq",
+     "minupalaniappan",
+     "ericzakariasson"
+    ]
+   },
+   {
+    "rank": 6,
+    "full_name": "firecrawl/firecrawl",
+    "owner": "firecrawl",
+    "url": "https://github.com/firecrawl/firecrawl",
+    "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
+    "language": "TypeScript",
+    "stars": 205275,
+    "forks": 10744,
+    "stars_gained": 1241,
+    "built_by": [
+     "nickscamara",
+     "mogery",
+     "rafaelsideguide",
+     "abimaelmartell",
+     "claude"
+    ]
+   },
+   {
+    "rank": 7,
+    "full_name": "nginx/nginx",
+    "owner": "nginx",
+    "url": "https://github.com/nginx/nginx",
+    "description": "The official NGINX Open Source repository.",
+    "language": "C",
+    "stars": 32567,
+    "forks": 8377,
+    "stars_gained": 246,
+    "built_by": [
+     "mdounin",
+     "arut",
+     "vl-homutov",
+     "VBart",
+     "pluknet"
+    ]
+   },
+   {
+    "rank": 8,
+    "full_name": "openvinotoolkit/openvino",
+    "owner": "openvinotoolkit",
+    "url": "https://github.com/openvinotoolkit/openvino",
+    "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+    "language": "C++",
+    "stars": 11789,
+    "forks": 3636,
+    "stars_gained": 217,
+    "built_by": [
+     "ilya-lavrenov",
+     "rkazants",
+     "ilyachur",
+     "mvafin"
+    ]
+   },
+   {
+    "rank": 9,
+    "full_name": "cathrynlavery/diagram-design",
+    "owner": "cathrynlavery",
+    "url": "https://github.com/cathrynlavery/diagram-design",
+    "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+    "language": "HTML",
+    "stars": 69282,
+    "forks": 4650,
+    "stars_gained": 636,
+    "built_by": [
+     "cathrynlavery",
+     "rudycelekli",
+     "claude",
+     "mvanhorn"
+    ]
+   },
+   {
+    "rank": 10,
+    "full_name": "mvanhorn/last30days-skill",
+    "owner": "mvanhorn",
+    "url": "https://github.com/mvanhorn/last30days-skill",
+    "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+    "language": "Python",
+    "stars": 71451,
+    "forks": 6341,
+    "stars_gained": 681,
+    "built_by": [
+     "mvanhorn",
+     "claude",
+     "tmchow",
+     "iliaal"
+    ]
+   },
+   {
+    "rank": 11,
+    "full_name": "google-labs-code/stitch-skills",
+    "owner": "google-labs-code",
+    "url": "https://github.com/google-labs-code/stitch-skills",
+    "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+    "language": "TypeScript",
+    "stars": 11038,
+    "forks": 1407,
+    "stars_gained": 315,
+    "built_by": [
+     "JLXIA",
+     "davideast",
+     "Emp1500",
+     "dalmaer",
+     "meeChn"
+    ]
+   },
+   {
+    "rank": 12,
+    "full_name": "mjmirza/app-store-compliance",
+    "owner": "mjmirza",
+    "url": "https://github.com/mjmirza/app-store-compliance",
+    "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 117 documented rejection patterns and fixes, privacy manifest and Data safety checks, 95 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
+    "language": "Shell",
+    "stars": 2747,
+    "forks": 176,
+    "stars_gained": 869,
+    "built_by": [
+     "mjmirza",
+     "omaralbeik",
+     "akash5852",
+     "userInDev"
+    ]
+   },
+   {
+    "rank": 13,
+    "full_name": "Tracer-Cloud/opensre",
+    "owner": "Tracer-Cloud",
+    "url": "https://github.com/Tracer-Cloud/opensre",
+    "description": "The open-source agent for CI/CD reliability.",
+    "language": "Python",
+    "stars": 13613,
+    "forks": 1926,
+    "stars_gained": 466,
+    "built_by": [
+     "davincios",
+     "VaibhavUpreti",
+     "muddlebee",
+     "YauhenBichel",
+     "cursoragent"
+    ]
+   },
+   {
+    "rank": 14,
+    "full_name": "toeverything/AFFiNE",
+    "owner": "toeverything",
+    "url": "https://github.com/toeverything/AFFiNE",
+    "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
+    "language": "TypeScript",
+    "stars": 75800,
+    "forks": 5578,
+    "stars_gained": 676,
+    "built_by": [
+     "darkskygit",
+     "pengx17",
+     "JimmFly",
+     "EYHN"
+    ]
+   },
+   {
+    "rank": 15,
+    "full_name": "XiaoYouChR/Ghost-Downloader-3",
+    "owner": "XiaoYouChR",
+    "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
+    "description": "The only downloader you need. 下载器的集大成者。",
+    "language": "Python",
+    "stars": 13705,
+    "forks": 839,
+    "stars_gained": 1082,
+    "built_by": [
+     "XiaoYouChR",
+     "i0ntempest",
+     "Alpha-Qian",
+     "LittleNightSong"
+    ]
+   },
+   {
+    "rank": 16,
+    "full_name": "zhouxiaoka/autoclip",
+    "owner": "zhouxiaoka",
+    "url": "https://github.com/zhouxiaoka/autoclip",
+    "description": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
+    "language": "Python",
+    "stars": 12187,
+    "forks": 2016,
+    "stars_gained": 979,
+    "built_by": [
+     "zhouxiaoka",
+     "cursoragent",
+     "claude",
+     "mitsa-ng",
+     "charlie"
+    ]
+   }
+  ],
+  "weekly": [
+   {
+    "rank": 1,
+    "full_name": "backnotprop/plannotator",
+    "owner": "backnotprop",
+    "url": "https://github.com/backnotprop/plannotator",
+    "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+    "language": "TypeScript",
+    "stars": 13900,
+    "forks": 1389,
+    "stars_gained": 3555,
+    "built_by": [
+     "backnotprop",
+     "claude",
+     "rudycelekli",
+     "utpalsinghdev",
+     "leoreisdias"
+    ]
+   },
+   {
+    "rank": 2,
+    "full_name": "google-labs-code/stitch-skills",
+    "owner": "google-labs-code",
+    "url": "https://github.com/google-labs-code/stitch-skills",
+    "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+    "language": "TypeScript",
+    "stars": 11038,
+    "forks": 1407,
+    "stars_gained": 2152,
+    "built_by": [
+     "JLXIA",
+     "davideast",
+     "Emp1500",
+     "dalmaer",
+     "meeChn"
+    ]
+   },
+   {
+    "rank": 3,
+    "full_name": "GoogleChrome/modern-web-guidance-src",
+    "owner": "GoogleChrome",
+    "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+    "description": "Keep your coding agent up to date with the latest web best practices",
+    "language": "TypeScript",
+    "stars": 9532,
+    "forks": 768,
+    "stars_gained": 5224,
+    "built_by": [
+     "paulirish",
+     "rviscomi",
+     "micahjo7",
+     "LeaVerou"
+    ]
+   },
+   {
+    "rank": 4,
+    "full_name": "alibaba/open-code-review",
+    "owner": "alibaba",
+    "url": "https://github.com/alibaba/open-code-review",
+    "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+    "language": "Go",
+    "stars": 54784,
+    "forks": 4523,
+    "stars_gained": 4457,
+    "built_by": [
+     "lizhengfeng101",
+     "wu21-web",
+     "chethanuk",
+     "Qiyuanqiii",
+     "stay-foolish-forever"
+    ]
+   },
+   {
+    "rank": 5,
+    "full_name": "mvanhorn/last30days-skill",
+    "owner": "mvanhorn",
+    "url": "https://github.com/mvanhorn/last30days-skill",
+    "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+    "language": "Python",
+    "stars": 71451,
+    "forks": 6341,
+    "stars_gained": 3788,
+    "built_by": [
+     "mvanhorn",
+     "claude",
+     "tmchow",
+     "iliaal"
+    ]
+   },
+   {
+    "rank": 6,
+    "full_name": "ChromeDevTools/chrome-devtools-mcp",
+    "owner": "ChromeDevTools",
+    "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+    "description": "Chrome DevTools for coding agents",
+    "language": "TypeScript",
+    "stars": 58541,
+    "forks": 4884,
+    "stars_gained": 3306,
+    "built_by": [
+     "OrKoN",
+     "Lightning00Blade",
+     "browser-automation-bot",
+     "yulunz"
+    ]
+   },
+   {
+    "rank": 7,
+    "full_name": "tradermonty/claude-trading-skills",
+    "owner": "tradermonty",
+    "url": "https://github.com/tradermonty/claude-trading-skills",
+    "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+    "language": "Python",
+    "stars": 7437,
+    "forks": 1470,
+    "stars_gained": 3471,
+    "built_by": [
+     "claude",
+     "tradermonty",
+     "raikkonenPotter",
+     "sx4im"
+    ]
+   },
+   {
+    "rank": 8,
+    "full_name": "ag-ui-protocol/ag-ui",
+    "owner": "ag-ui-protocol",
+    "url": "https://github.com/ag-ui-protocol/ag-ui",
+    "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+    "language": "TypeScript",
+    "stars": 20818,
+    "forks": 2125,
+    "stars_gained": 3621,
+    "built_by": [
+     "ranst91",
+     "contextablemark",
+     "mme",
+     "claude",
+     "jpr5"
+    ]
+   },
+   {
+    "rank": 9,
+    "full_name": "meta/astryx",
+    "owner": "meta",
+    "url": "https://github.com/meta/astryx",
+    "description": "An open source design system that's fully customizable and agent ready",
+    "language": "TypeScript",
+    "stars": 31349,
+    "forks": 2461,
+    "stars_gained": 4131,
+    "built_by": [
+     "cixzhang",
+     "josephfarina",
+     "rubyycheung",
+     "vjeux"
+    ]
+   },
+   {
+    "rank": 10,
+    "full_name": "pookjw/HermesEnabler",
+    "owner": "pookjw",
+    "url": "https://github.com/pookjw/HermesEnabler",
+    "description": "Enable Hermès Watch Faces on any Apple Watch devices",
+    "language": "Objective-C",
+    "stars": 2304,
+    "forks": 192,
+    "stars_gained": 582,
+    "built_by": [
+     "pookjw",
+     "metalnodeug",
+     "claude",
+     "SamZong233",
+     "AVGThor"
+    ]
+   },
+   {
+    "rank": 11,
+    "full_name": "we-promise/sure",
+    "owner": "we-promise",
+    "url": "https://github.com/we-promise/sure",
+    "description": "The personal finance app for everyone (by everyone)",
+    "language": "Ruby",
+    "stars": 16910,
+    "forks": 1489,
+    "stars_gained": 2476,
+    "built_by": [
+     "jjmata",
+     "claude",
+     "zachgoll",
+     "Shpigford"
+    ]
+   },
+   {
+    "rank": 12,
+    "full_name": "dream-num/univer",
+    "owner": "dream-num",
+    "url": "https://github.com/dream-num/univer",
+    "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+    "language": "TypeScript",
+    "stars": 30943,
+    "forks": 2825,
+    "stars_gained": 7539,
+    "built_by": [
+     "jikkai",
+     "DR-Univer",
+     "wpxp123456",
+     "wzhudev",
+     "Dushusir"
+    ]
+   },
+   {
+    "rank": 13,
+    "full_name": "kajisho5/ffmpeg-skill",
+    "owner": "kajisho5",
+    "url": "https://github.com/kajisho5/ffmpeg-skill",
+    "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
+    "language": "Python",
+    "stars": 8853,
+    "forks": 811,
+    "stars_gained": 3268,
+    "built_by": [
+     "kajisho5",
+     "claude"
+    ]
+   }
+  ],
+  "monthly": [
+   {
+    "rank": 1,
+    "full_name": "Nutlope/hallmark",
+    "owner": "Nutlope",
+    "url": "https://github.com/Nutlope/hallmark",
+    "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+    "language": "CSS",
+    "stars": 58597,
+    "forks": 3194,
+    "stars_gained": 28266,
+    "built_by": [
+     "Luffixos",
+     "Nutlope",
+     "rudycelekli",
+     "cursoragent",
+     "xunguangzlj-cloud"
+    ]
+   },
+   {
+    "rank": 2,
+    "full_name": "cloudflare/security-audit-skill",
+    "owner": "cloudflare",
+    "url": "https://github.com/cloudflare/security-audit-skill",
+    "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+    "language": "JavaScript",
+    "stars": 76302,
+    "forks": 5138,
+    "stars_gained": 43310,
+    "built_by": [
+     "literally-dan",
+     "CooperSheroy",
+     "kennysarnoski-jarvis"
+    ]
+   },
+   {
+    "rank": 3,
+    "full_name": "milind-soni/OpenMausBot",
+    "owner": "milind-soni",
+    "url": "https://github.com/milind-soni/OpenMausBot",
+    "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+    "language": "TypeScript",
+    "stars": 26205,
+    "forks": 3735,
+    "stars_gained": 21024,
+    "built_by": [
+     "milind-soni",
+     "claude",
+     "AdityaUmale",
+     "aivsomkar",
+     "robinsonnblack"
+    ]
+   },
+   {
+    "rank": 4,
+    "full_name": "pingdotgg/t3code",
+    "owner": "pingdotgg",
+    "url": "https://github.com/pingdotgg/t3code",
+    "description": "The best way to control Claude Code, Codex and more from any computer or phone",
+    "language": "TypeScript",
+    "stars": 67876,
+    "forks": 11723,
+    "stars_gained": 38744,
+    "built_by": [
+     "juliusmarminge",
+     "claude",
+     "maria-rcks",
+     "t3dotgg",
+     "codex"
+    ]
+   },
+   {
+    "rank": 5,
+    "full_name": "anthropics/skills",
+    "owner": "anthropics",
+    "url": "https://github.com/anthropics/skills",
+    "description": "Public repository for Agent Skills",
+    "language": "Python",
+    "stars": 198070,
+    "forks": 23190,
+    "stars_gained": 16149,
+    "built_by": [
+     "rlancemartin",
+     "klazuka",
+     "claude",
+     "cj-ant",
+     "ericharmeling"
+    ]
+   },
+   {
+    "rank": 6,
+    "full_name": "thedotmack/claude-mem",
+    "owner": "thedotmack",
+    "url": "https://github.com/thedotmack/claude-mem",
+    "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+    "language": "TypeScript",
+    "stars": 118645,
+    "forks": 10313,
+    "stars_gained": 17381,
+    "built_by": [
+     "thedotmack",
+     "claude",
+     "Afloat16",
+     "rudycelekli",
+     "cursoragent"
+    ]
+   },
+   {
+    "rank": 7,
+    "full_name": "Jakeschincariol/instagram-agent-skill",
+    "owner": "Jakeschincariol",
+    "url": "https://github.com/Jakeschincariol/instagram-agent-skill",
+    "description": "Thirteen Claude skills that run an Instagram account: Reels off 26 scored hook formulas, a viral research skill, a caption linter, and a humanizer. Free, MIT.",
+    "language": "Python",
+    "stars": 7676,
+    "forks": 1434,
+    "stars_gained": 5504,
+    "built_by": [
+     "claude",
+     "Jakeschincariol"
+    ]
+   },
+   {
+    "rank": 8,
+    "full_name": "backnotprop/plannotator",
+    "owner": "backnotprop",
+    "url": "https://github.com/backnotprop/plannotator",
+    "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+    "language": "TypeScript",
+    "stars": 13900,
+    "forks": 1389,
+    "stars_gained": 4344,
+    "built_by": [
+     "backnotprop",
+     "claude",
+     "rudycelekli",
+     "utpalsinghdev",
+     "leoreisdias"
+    ]
+   },
+   {
+    "rank": 9,
+    "full_name": "HKUDS/DeepTutor",
+    "owner": "HKUDS",
+    "url": "https://github.com/HKUDS/DeepTutor",
+    "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ .",
+    "language": "Python",
+    "stars": 61100,
+    "forks": 7388,
+    "stars_gained": 19469,
+    "built_by": [
+     "pancacake",
+     "claude",
+     "evan188199-tech",
+     "Pinkllow"
+    ]
+   },
+   {
+    "rank": 10,
+    "full_name": "pbakaus/impeccable",
+    "owner": "pbakaus",
+    "url": "https://github.com/pbakaus/impeccable",
+    "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+    "language": "Rust",
+    "stars": 114055,
+    "forks": 6780,
+    "stars_gained": 30831,
+    "built_by": [
+     "pbakaus",
+     "claude",
+     "abdulwahabone",
+     "cursoragent"
+    ]
+   },
+   {
+    "rank": 11,
+    "full_name": "sherlock-project/sherlock",
+    "owner": "sherlock-project",
+    "url": "https://github.com/sherlock-project/sherlock",
+    "description": "Hunt down social media accounts by username across social networks",
+    "language": "Python",
+    "stars": 115045,
+    "forks": 13185,
+    "stars_gained": 20748,
+    "built_by": [
+     "sdushantha",
+     "hoadlck",
+     "ppfeister",
+     "TheYahya",
+     "Czechball"
+    ]
+   },
+   {
+    "rank": 12,
+    "full_name": "AgriciDaniel/claude-seo",
+    "owner": "AgriciDaniel",
+    "url": "https://github.com/AgriciDaniel/claude-seo",
+    "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
+    "language": "Python",
+    "stars": 31163,
+    "forks": 3859,
+    "stars_gained": 11786,
+    "built_by": [
+     "AgriciDaniel",
+     "claude",
+     "Afloat16",
+     "Nordalux",
+     "rudycelekli"
+    ]
+   },
+   {
+    "rank": 13,
+    "full_name": "google-labs-code/stitch-skills",
+    "owner": "google-labs-code",
+    "url": "https://github.com/google-labs-code/stitch-skills",
+    "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+    "language": "TypeScript",
+    "stars": 11038,
+    "forks": 1407,
+    "stars_gained": 2406,
+    "built_by": [
+     "JLXIA",
+     "davideast",
+     "Emp1500",
+     "dalmaer",
+     "meeChn"
+    ]
+   },
+   {
+    "rank": 14,
+    "full_name": "heygen-com/hyperframes",
+    "owner": "heygen-com",
+    "url": "https://github.com/heygen-com/hyperframes",
+    "description": "AI video you can actually edit. HyperFrames is a free, open-source AI video editor. Describe any video and get a real project you can change down to the frame.",
+    "language": "TypeScript",
+    "stars": 87470,
+    "forks": 8131,
+    "stars_gained": 19612,
+    "built_by": [
+     "miguel-heygen",
+     "claude",
+     "vanceingalls",
+     "jrusso1020",
+     "ukimsanov"
+    ]
+   },
+   {
+    "rank": 15,
+    "full_name": "elementalsouls/Claude-BugHunter",
+    "owner": "elementalsouls",
+    "url": "https://github.com/elementalsouls/Claude-BugHunter",
+    "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+    "language": "Python",
+    "stars": 14276,
+    "forks": 1702,
+    "stars_gained": 8329,
+    "built_by": [
+     "claude",
+     "injectifytest",
+     "elementalsouls",
+     "rudycelekli"
+    ]
+   },
+   {
+    "rank": 16,
+    "full_name": "kajisho5/ffmpeg-skill",
+    "owner": "kajisho5",
+    "url": "https://github.com/kajisho5/ffmpeg-skill",
+    "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
+    "language": "Python",
+    "stars": 8853,
+    "forks": 811,
+    "stars_gained": 6641,
+    "built_by": [
+     "kajisho5",
+     "claude"
+    ]
+   },
+   {
+    "rank": 17,
+    "full_name": "vercel-labs/agent-browser",
+    "owner": "vercel-labs",
+    "url": "https://github.com/vercel-labs/agent-browser",
+    "description": "Browser automation CLI for AI agents",
+    "language": "Rust",
+    "stars": 53083,
+    "forks": 3712,
+    "stars_gained": 8855,
+    "built_by": [
+     "ctate",
+     "Railly",
+     "lahfir",
+     "claude"
+    ]
+   }
+  ]
+ },
+ "new_arrivals": [
+  {
+   "rank": 1,
+   "full_name": "erkamyaman/rust-anything",
+   "owner": "erkamyaman",
+   "url": "https://github.com/erkamyaman/rust-anything",
+   "description": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
+   "language": "Rust",
+   "stars": 6647,
+   "forks": 523,
+   "stars_gained": 6647,
+   "topics": [
+    "agent-skills",
+    "claude-code",
+    "cli",
+    "code-migration",
+    "codex",
+    "ffi"
+   ],
+   "created_at": "2026-11-16T12:10:36Z",
+   "built_by": [
+    "erkamyaman"
+   ]
+  },
+  {
+   "rank": 2,
+   "full_name": "krisgfx9/Wireless-Device-Battery-Monitor",
+   "owner": "krisgfx9",
+   "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
+   "description": "Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Supports Logitech, Razer, SteelSeries, Corsair, HyperX, Glorious, PS4/PS5 DualSense, Xbox and Bluetooth devices.",
+   "language": "C++",
+   "stars": 5305,
+   "forks": 445,
+   "stars_gained": 5305,
+   "topics": [],
+   "created_at": "2026-11-16T19:28:29Z",
+   "built_by": [
+    "krisgfx9"
+   ]
+  },
+  {
+   "rank": 3,
+   "full_name": "gylive/google-ultra",
+   "owner": "gylive",
+   "url": "https://github.com/gylive/google-ultra",
+   "description": "",
+   "language": "Python",
+   "stars": 2533,
+   "forks": 60,
+   "stars_gained": 2533,
+   "topics": [],
+   "created_at": "2026-11-17T10:21:54Z",
+   "built_by": [
+    "gylive"
+   ]
+  },
+  {
+   "rank": 4,
+   "full_name": "Hut-hzf/ung220z-tool",
+   "owner": "Hut-hzf",
+   "url": "https://github.com/Hut-hzf/ung220z-tool",
+   "description": "ung220z-tool 是一个针对 UNG220Z（九联/Unionman 中国移动光猫）的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。",
+   "language": "Python",
+   "stars": 2003,
+   "forks": 455,
+   "stars_gained": 2003,
+   "topics": [],
+   "created_at": "2026-11-15T11:16:46Z",
+   "built_by": [
+    "Hut-hzf"
+   ]
+  },
+  {
+   "rank": 5,
+   "full_name": "bookwjitchieni1986/blender-ai-mcp-addon",
+   "owner": "bookwjitchieni1986",
+   "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
+   "description": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
+   "language": null,
+   "stars": 1779,
+   "forks": 10,
+   "stars_gained": 1779,
+   "topics": [
+    "ai-agents",
+    "ai-assistant",
+    "blender",
+    "blender-addon",
+    "blender-ai",
+    "blender-automation"
+   ],
+   "created_at": "2026-11-19T14:43:10Z",
+   "built_by": [
+    "bookwjitchieni1986"
+   ]
+  },
+  {
+   "rank": 6,
+   "full_name": "sybil-solutions/inference-optimisation-skill",
+   "owner": "sybil-solutions",
+   "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+   "description": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
+   "language": "Python",
+   "stars": 1331,
+   "forks": 119,
+   "stars_gained": 1331,
+   "topics": [
+    "agent-skill",
+    "benchmarking",
+    "claude-code",
+    "inference",
+    "llm",
+    "speculative-decoding"
+   ],
+   "created_at": "2026-11-16T18:40:04Z",
+   "built_by": [
+    "sybil-solutions"
+   ]
+  },
+  {
+   "rank": 7,
+   "full_name": "joshpuckett/allo",
+   "owner": "joshpuckett",
+   "url": "https://github.com/joshpuckett/allo",
+   "description": "Allo is your friendly neighborhood typeface, free and open source",
+   "language": "Python",
+   "stars": 1252,
+   "forks": 35,
+   "stars_gained": 1252,
+   "topics": [],
+   "created_at": "2026-11-15T17:33:42Z",
+   "built_by": [
+    "joshpuckett"
+   ]
+  },
+  {
+   "rank": 8,
+   "full_name": "iamajmeena/neonclipping",
+   "owner": "iamajmeena",
+   "url": "https://github.com/iamajmeena/neonclipping",
+   "description": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
+   "language": "Python",
+   "stars": 1246,
+   "forks": 58,
+   "stars_gained": 1246,
+   "topics": [
+    "clipping",
+    "ffmpeg",
+    "shorts",
+    "video",
+    "whisper",
+    "yt-dlp"
+   ],
+   "created_at": "2026-11-19T10:00:43Z",
+   "built_by": [
+    "iamajmeena"
+   ]
+  },
+  {
+   "rank": 9,
+   "full_name": "chuanqisun/spaceship",
+   "owner": "chuanqisun",
+   "url": "https://github.com/chuanqisun/spaceship",
+   "description": "Steer ideas like a space pilot!",
+   "language": "HTML",
+   "stars": 994,
+   "forks": 105,
+   "stars_gained": 994,
+   "topics": [],
+   "created_at": "2026-11-16T14:43:45Z",
+   "built_by": [
+    "chuanqisun"
+   ]
+  },
+  {
+   "rank": 10,
+   "full_name": "siliconjungle/shapeshift-labs-ink-studio",
+   "owner": "siliconjungle",
+   "url": "https://github.com/siliconjungle/shapeshift-labs-ink-studio",
+   "description": "Sculpting, animation and simulation toolkit for pixel-art Gaussian splats",
+   "language": "JavaScript",
+   "stars": 870,
+   "forks": 71,
+   "stars_gained": 870,
+   "topics": [],
+   "created_at": "2026-11-16T07:44:00Z",
+   "built_by": [
+    "siliconjungle"
+   ]
+  },
+  {
+   "rank": 11,
+   "full_name": "Lemxy/WinRust",
+   "owner": "Lemxy",
+   "url": "https://github.com/Lemxy/WinRust",
+   "description": "Windows shell replacement in Rust: taskbar, file manager, NTFS search, task manager, disk cleaner. One installer exe.",
+   "language": "Rust",
+   "stars": 747,
+   "forks": 39,
+   "stars_gained": 747,
+   "topics": [],
+   "created_at": "2026-11-17T14:27:06Z",
+   "built_by": [
+    "Lemxy"
+   ]
+  },
+  {
+   "rank": 12,
+   "full_name": "boringmarketer/boring-marketing-skills",
+   "owner": "boringmarketer",
+   "url": "https://github.com/boringmarketer/boring-marketing-skills",
+   "description": "32 free marketing skills for your AI agent: research, positioning, copy, pages, SEO, AI search, ads, email and content, plus a deep local-business pack. MIT.",
+   "language": "Python",
+   "stars": 744,
+   "forks": 273,
+   "stars_gained": 744,
+   "topics": [
+    "agent-skills",
+    "ai-agents",
+    "claude-code",
+    "codex",
+    "copywriting",
+    "local-seo"
+   ],
+   "created_at": "2026-11-16T15:09:46Z",
+   "built_by": [
+    "boringmarketer"
+   ]
+  },
+  {
+   "rank": 13,
+   "full_name": "0xkaka/homeport",
+   "owner": "0xkaka",
+   "url": "https://github.com/0xkaka/homeport",
+   "description": "",
+   "language": "HTML",
+   "stars": 585,
+   "forks": 102,
+   "stars_gained": 585,
+   "topics": [],
+   "created_at": "2026-11-17T05:39:46Z",
+   "built_by": [
+    "0xkaka"
+   ]
+  },
+  {
+   "rank": 14,
+   "full_name": "MSNightmare/FastUnlock",
+   "owner": "MSNightmare",
+   "url": "https://github.com/MSNightmare/FastUnlock",
+   "description": "FastUnlock : Windows Narrator LockScreen Bypass 0day Vulnerability",
+   "language": null,
+   "stars": 578,
+   "forks": 92,
+   "stars_gained": 578,
+   "topics": [],
+   "created_at": "2026-11-19T12:37:51Z",
+   "built_by": [
+    "MSNightmare"
+   ]
+  },
+  {
+   "rank": 15,
+   "full_name": "nilbuild/stick-scene",
+   "owner": "nilbuild",
+   "url": "https://github.com/nilbuild/stick-scene",
+   "description": "Skill to draw stick figure animated visuals",
+   "language": "JavaScript",
+   "stars": 536,
+   "forks": 59,
+   "stars_gained": 536,
+   "topics": [],
+   "created_at": "2026-11-15T00:17:40Z",
+   "built_by": [
+    "nilbuild"
+   ]
+  },
+  {
+   "rank": 16,
+   "full_name": "nataphong-lab/Open-Source-Face-Recognition-Ultimate",
+   "owner": "nataphong-lab",
+   "url": "https://github.com/nataphong-lab/Open-Source-Face-Recognition-Ultimate",
+   "description": "Face Recognition, Face Liveness Detection, Face Anti-Spoofing, Face Detection, Face Landmarks, Face Compare, Face Matching, Face Pose, Face Expression, Face Attributes, Face Templates Extraction, Face Landmarks",
+   "language": "Python",
+   "stars": 478,
+   "forks": 388,
+   "stars_gained": 478,
+   "topics": [],
+   "created_at": "2026-11-19T10:40:46Z",
+   "built_by": [
+    "nataphong-lab"
+   ]
+  },
+  {
+   "rank": 17,
+   "full_name": "YellowLaborerMarket/Gemini-Config-Checker-",
+   "owner": "YellowLaborerMarket",
+   "url": "https://github.com/YellowLaborerMarket/Gemini-Config-Checker-",
+   "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+   "language": "Makefile",
+   "stars": 474,
+   "forks": 0,
+   "stars_gained": 474,
+   "topics": [
+    "ai",
+    "ai-search",
+    "aichecker",
+    "chatgpt",
+    "cli",
+    "config-checker"
+   ],
+   "created_at": "2026-11-15T16:48:18Z",
+   "built_by": [
+    "YellowLaborerMarket"
+   ]
+  },
+  {
+   "rank": 18,
+   "full_name": "weightcashiercupola/Gemini-Config-Checker-",
+   "owner": "weightcashiercupola",
+   "url": "https://github.com/weightcashiercupola/Gemini-Config-Checker-",
+   "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+   "language": "Makefile",
+   "stars": 473,
+   "forks": 0,
+   "stars_gained": 473,
+   "topics": [
+    "ai",
+    "ai-search",
+    "aichecker",
+    "chatgpt",
+    "cli",
+    "config-checker"
+   ],
+   "created_at": "2026-11-15T16:47:11Z",
+   "built_by": [
+    "weightcashiercupola"
+   ]
+  },
+  {
+   "rank": 19,
+   "full_name": "WindGatorRise37/Gemini-Config-Checker-",
+   "owner": "WindGatorRise37",
+   "url": "https://github.com/WindGatorRise37/Gemini-Config-Checker-",
+   "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+   "language": "Makefile",
+   "stars": 472,
+   "forks": 0,
+   "stars_gained": 472,
+   "topics": [
+    "ai",
+    "ai-search",
+    "aichecker",
+    "chatgpt",
+    "cli",
+    "config-checker"
+   ],
+   "created_at": "2026-11-15T16:47:17Z",
+   "built_by": [
+    "WindGatorRise37"
+   ]
+  },
+  {
+   "rank": 20,
+   "full_name": "WyrmClimberManacle/Gemini-Config-Checker-",
+   "owner": "WyrmClimberManacle",
+   "url": "https://github.com/WyrmClimberManacle/Gemini-Config-Checker-",
+   "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+   "language": "Makefile",
+   "stars": 472,
+   "forks": 0,
+   "stars_gained": 472,
+   "topics": [
+    "ai",
+    "ai-search",
+    "aichecker",
+    "chatgpt",
+    "cli",
+    "config-checker"
+   ],
+   "created_at": "2026-11-15T16:48:18Z",
+   "built_by": [
+    "WyrmClimberManacle"
+   ]
+  },
+  {
+   "rank": 21,
+   "full_name": "TurtleReside/Gemini-Config-Checker-",
+   "owner": "TurtleReside",
+   "url": "https://github.com/TurtleReside/Gemini-Config-Checker-",
+   "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+   "language": "Go",
+   "stars": 472,
+   "forks": 0,
+   "stars_gained": 472,
+   "topics": [
+    "ai",
+    "ai-search",
+    "aichecker",
+    "chatgpt",
+    "cli",
+    "config-checker"
+   ],
+   "created_at": "2026-11-15T16:46:04Z",
+   "built_by": [
+    "TurtleReside"
+   ]
+  },
+  {
+   "rank": 22,
+   "full_name": "weldbladesmithwharf/Gemini-Config-Checker-",
+   "owner": "weldbladesmithwharf",
+   "url": "https://github.com/weldbladesmithwharf/Gemini-Config-Checker-",
+   "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+   "language": "Makefile",
+   "stars": 472,
+   "forks": 0,
+   "stars_gained": 472,
+   "topics": [
+    "ai",
+    "ai-search",
+    "aichecker",
+    "chatgpt",
+    "cli",
+    "config-checker"
+   ],
+   "created_at": "2026-11-15T16:47:11Z",
+   "built_by": [
+    "weldbladesmithwharf"
+   ]
+  },
+  {
+   "rank": 23,
+   "full_name": "WerewolfEmuHub/Gemini-Config-Checker-",
+   "owner": "WerewolfEmuHub",
+   "url": "https://github.com/WerewolfEmuHub/Gemini-Config-Checker-",
+   "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+   "language": "Go",
+   "stars": 472,
+   "forks": 0,
+   "stars_gained": 472,
+   "topics": [
+    "ai",
+    "ai-search",
+    "aichecker",
+    "chatgpt",
+    "cli",
+    "config-checker"
+   ],
+   "created_at": "2026-11-15T16:47:11Z",
+   "built_by": [
+    "WerewolfEmuHub"
+   ]
+  },
+  {
+   "rank": 24,
+   "full_name": "WindowStaffGate11/Gemini-Config-Checker-",
+   "owner": "WindowStaffGate11",
+   "url": "https://github.com/WindowStaffGate11/Gemini-Config-Checker-",
+   "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+   "language": "Makefile",
+   "stars": 472,
+   "forks": 0,
+   "stars_gained": 472,
+   "topics": [
+    "ai",
+    "ai-search",
+    "aichecker",
+    "chatgpt",
+    "cli",
+    "config-checker"
+   ],
+   "created_at": "2026-11-15T16:47:18Z",
+   "built_by": [
+    "WindowStaffGate11"
+   ]
+  },
+  {
+   "rank": 25,
+   "full_name": "Violetnyudress/Gemini-Config-Checker-",
+   "owner": "Violetnyudress",
+   "url": "https://github.com/Violetnyudress/Gemini-Config-Checker-",
+   "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+   "language": "Go",
+   "stars": 472,
+   "forks": 0,
+   "stars_gained": 472,
+   "topics": [
+    "ai",
+    "ai-search",
+    "aichecker",
+    "chatgpt",
+    "cli",
+    "config-checker"
+   ],
+   "created_at": "2026-11-15T16:46:04Z",
+   "built_by": [
+    "Violetnyudress"
+   ]
+  },
+  {
+   "rank": 26,
+   "full_name": "TrooperFilter/Gemini-Config-Checker-",
+   "owner": "TrooperFilter",
+   "url": "https://github.com/TrooperFilter/Gemini-Config-Checker-",
+   "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+   "language": "Makefile",
+   "stars": 472,
+   "forks": 0,
+   "stars_gained": 472,
+   "topics": [
+    "ai",
+    "ai-search",
+    "aichecker",
+    "chatgpt",
+    "cli",
+    "config-checker"
+   ],
+   "created_at": "2026-11-15T16:46:04Z",
+   "built_by": [
+    "TrooperFilter"
+   ]
+  },
+  {
+   "rank": 27,
+   "full_name": "wisemeadowlarkspike/Gemini-Config-Checker-",
+   "owner": "wisemeadowlarkspike",
+   "url": "https://github.com/wisemeadowlarkspike/Gemini-Config-Checker-",
+   "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+   "language": "Go",
+   "stars": 472,
+   "forks": 0,
+   "stars_gained": 472,
+   "topics": [
+    "ai",
+    "ai-search",
+    "aichecker",
+    "chatgpt",
+    "cli",
+    "config-checker"
+   ],
+   "created_at": "2026-11-15T16:48:18Z",
+   "built_by": [
+    "wisemeadowlarkspike"
+   ]
+  },
+  {
+   "rank": 28,
+   "full_name": "Watchlespeed/Gemini-Config-Checker-",
+   "owner": "Watchlespeed",
+   "url": "https://github.com/Watchlespeed/Gemini-Config-Checker-",
+   "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+   "language": "Makefile",
+   "stars": 472,
+   "forks": 0,
+   "stars_gained": 472,
+   "topics": [
+    "ai",
+    "ai-search",
+    "aichecker",
+    "chatgpt",
+    "cli",
+    "config-checker"
+   ],
+   "created_at": "2026-11-15T16:47:11Z",
+   "built_by": [
+    "Watchlespeed"
+   ]
+  },
+  {
+   "rank": 29,
+   "full_name": "VortexHostFeel/Gemini-Config-Checker-",
+   "owner": "VortexHostFeel",
+   "url": "https://github.com/VortexHostFeel/Gemini-Config-Checker-",
+   "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+   "language": "Makefile",
+   "stars": 472,
+   "forks": 0,
+   "stars_gained": 472,
+   "topics": [
+    "ai",
+    "ai-search",
+    "aichecker",
+    "chatgpt",
+    "cli",
+    "config-checker"
+   ],
+   "created_at": "2026-11-15T16:46:07Z",
+   "built_by": [
+    "VortexHostFeel"
+   ]
+  },
+  {
+   "rank": 30,
+   "full_name": "WingDataVacuum/Gemini-Config-Checker-",
+   "owner": "WingDataVacuum",
+   "url": "https://github.com/WingDataVacuum/Gemini-Config-Checker-",
+   "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+   "language": "Makefile",
+   "stars": 472,
+   "forks": 0,
+   "stars_gained": 472,
+   "topics": [
+    "ai",
+    "ai-search",
+    "aichecker",
+    "chatgpt",
+    "cli",
+    "config-checker"
+   ],
+   "created_at": "2026-11-15T16:47:17Z",
+   "built_by": [
+    "WingDataVacuum"
+   ]
+  }
+ ],
+ "layout": {
+  "top": "elementalsouls/Claude-BugHunter",
+  "rising": [],
+  "fresh": [],
+  "steady": [
+   "obra/superpowers",
+   "HKUDS/CLI-Anything",
+   "jingyaogong/minimind",
+   "cursor/plugins",
+   "firecrawl/firecrawl",
+   "nginx/nginx",
+   "openvinotoolkit/openvino",
+   "cathrynlavery/diagram-design",
+   "mvanhorn/last30days-skill",
+   "google-labs-code/stitch-skills",
+   "mjmirza/app-store-compliance",
+   "Tracer-Cloud/opensre",
+   "toeverything/AFFiNE",
+   "XiaoYouChR/Ghost-Downloader-3",
+   "zhouxiaoka/autoclip"
+  ],
+  "arrivals": [
+   "bookwjitchieni1986/blender-ai-mcp-addon",
+   "iamajmeena/neonclipping",
+   "siliconjungle/shapeshift-labs-ink-studio",
+   "Lemxy/WinRust"
+  ]
+ },
+ "top_story": "elementalsouls/Claude-BugHunter"
+}
