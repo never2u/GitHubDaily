@@ -75,6 +75,10 @@
   "ko": "무료 인물 검색 데스크톱 앱: 닉네임, 이메일, 전화번호 또는 사이트를 3,100개 이상의 공개 페이지에서 조회해 하나의 읽기 쉬운 보고서로 받아볼 수 있습니다.",
   "src": "Free people-search desktop app: look up a nickname, email, phone or site across 3,100+ public pages and get one readable report."
  },
+ "Bagussa998/affinity-designer-2-win": {
+  "ko": "Serif Affinity Designer 2입니다. 래스터와 벡터 작업, 타이포그래피, 내보내기를 지원하는 Windows 10/11용 벡터 그래픽 및 일러스트레이션 소프트웨어입니다.",
+  "src": "Serif Affinity Designer 2 - vector graphics and illustration software for raster and vector workflows, typography and export on Windows 10/11"
+ },
  "Balanov/shim": {
   "ko": "작고 로컬 우선의 AI 하네스: 모든 모델, MCP, Agent Skills를 지원하며 자연어 CLI를 제공합니다. 의존성이 없고 MIT 라이선스입니다.",
   "src": "Tiny local-first AI harness: any model, MCP and Agent Skills, natural-language CLI. Zero dependencies. MIT."
@@ -122,6 +126,10 @@
  "CityPulso/PulsoIcon": {
   "ko": "애니메이션 React 아이콘. 모든 Lucide 아이콘에 추가 아이콘과 브랜드 로고를 더했으며, 각각 직접 손으로 만든 모션이 적용되어 있습니다. Motion 기반의 lucide-react 대체 라이브러리입니다.",
   "src": "Animated React icons — every Lucide icon plus extra icons and brand logos, each with its own hand-written motion. Drop-in replacement for lucide-react, built on Motion."
+ },
+ "CocoSgt/riemann-hypothesis-lean": {
+  "ko": "Levent Alpöge의 리만 가설 Lean 증명을 미러링한 저장소입니다(Claude 사용). 모든 공은 Levent Alpöge에게 있습니다. 출처: alpo.ge",
+  "src": "Mirror of Levent Alpöge's Lean proof of the Riemann Hypothesis (with Claude). All credit to Levent Alpöge. Source: alpo.ge"
  },
  "CodeSouvik/clion-standalone-enhancement": {
   "ko": "CLion 전체 설치 프로그램: 완전 독립형 설치본, 모든 기능 활성화",
@@ -206,6 +214,10 @@
  "DuarteSantos8/openGym": {
   "ko": "직접 호스팅하는 헬스장 및 맨몸 운동 추적기입니다. 루틴 계획, 운동 기록(슈퍼세트, 워밍업, 유산소 포함), 어떤 근육이 훈련되었는지, 피로하거나 훈련량이 줄었는지 확인, FitNotes, Strong, Hevy에서 가져오기, 패스키 로그인을 지원합니다. 데이터도, 서버도 직접 관리하세요.",
   "src": "Self-hosted gym & body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server."
+ },
+ "EL4CTEO/fast-anything": {
+  "ko": "Rust로 다시 쓰지 마세요. Python, Node, Ruby 앱에서 느린 5%만 다시 작성하세요. 프로파일링으로 병목을 찾고, 코딩 에이전트로 핫 함수를 옮긴 뒤 동작이 같은지 검증합니다.",
+  "src": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same."
  },
  "ELY-Open-Source/ElyOffice": {
   "ko": "Ely Office: Rust와 GPUI로 만든 오프라인 우선 데스크톱 앱",
@@ -315,6 +327,10 @@
   "ko": "하나의 미분 가능한 월드 모델로 구현한 휴머노이드 전신 동작 추적",
   "src": "Humanoid whole-body motion tracking with one differentiable world model."
  },
+ "INK-Q/agy-fast": {
+  "ko": "Google Antigravity(CLI/데스크톱/IDE)용 비침습적 MCP 가속 플러그인입니다. 기본 UI나 diff에 영향을 주지 않으면서 LLM 턴 수(-34%), 토큰 할당량(-31%), 업로드 트래픽(-40%)을 줄여줍니다.",
+  "src": "Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%), and upload traffic (-40%) without affecting native UI or diffs."
+ },
  "IainKay/ram-altman": {
   "ko": "RAM을 모니터링하고 \"꽤 끔찍한\" 미사용 용량을 OpenAI CEO에게 직접 보고합니다.",
   "src": "Monitors your RAM and reports any \"quite terrible\" unused capacity directly to the CEO of OpenAI."
@@ -326,6 +342,10 @@
  "IsaiaR09/daemon-pro-desktop": {
   "ko": "daemon-pro: 모든 기능이 포함된 완전 독립형 데스크톱 설치본",
   "src": "daemon-pro: Complete Standalone Desktop Setup with Full Feature setup"
+ },
+ "ItsNotRexed/Hookshot": {
+  "ko": "Hookshot은 Switch 2용 리메이크 '젤다의 전설 시간의 오카리나'를 PC에서 실행할 수 있도록 네이티브로 재컴파일한 프로젝트입니다.",
+  "src": "Hookshot Is A Native PC Recompilation Of The Switch 2 Ocarina Of Time Remake"
  },
  "ItsNotRexed/Leonida": {
   "ko": "Leonida: Xbox 버전 GTA 6를 PC 네이티브로 재컴파일한 프로젝트",
@@ -459,6 +479,10 @@
   "ko": "YellowFruit 서드파티 클라이언트",
   "src": "YellowFruit third-party client"
  },
+ "Mnowak64/iobit-uninstaller-pro-win": {
+  "ko": "IObit Uninstaller Pro입니다. Windows 10/11에서 프로그램을 완전히 제거하고, 잔여 파일을 정리하며, 브라우저 플러그인을 관리하는 제거 유틸리티입니다.",
+  "src": "IObit Uninstaller Pro - software uninstallation utility for complete program removal, leftover file cleanup and browser plugin management on Windows 10/11"
+ },
  "Motionsites-AI/claude-skill": {
   "ko": "무료 Claude 스킬: Claude가 수상작 수준의 영화적인 랜딩 페이지를 만들도록 합니다. MotionSites 제작.",
   "src": "Free Claude skill: make Claude build award-level, cinematic landing pages. By MotionSites."
@@ -556,8 +580,8 @@
   "src": "An open-source AI coding agent that lives in your terminal."
  },
  "R0Y00/Xbox2Windows": {
-  "ko": "x64 Windows에서 Xbox Series X|S(Scarlett)를 대상으로 한 정적 재컴파일 연구. 셰이더 번역, BC7 텍스처, 스크립트 상태 재생, D3D12/PE 검사 포함.",
-  "src": "Static recompilation research for Xbox Series X|S (Scarlett) on x64 Windows, including shader translation, BC7 textures, script-state replay and D3D12/PE checks."
+  "ko": "x64 Windows용 GTA VI 정적 재컴파일 연구입니다. 소스에서 빌드한 EXE가 Windows에서 실행되며, 번역한 픽셀 셰이더 두 개가 실제 하드웨어와 WARP에서 기준 출력과 일치합니다. 전체 게임 시작은 검증되지 않았습니다.",
+  "src": "GTA VI static recompilation research for x64 Windows. Source-built EXEs run on Windows, and two translated pixel shaders match reference outputs on hardware and WARP. Full-game startup is unverified."
  },
  "Renhuai123/ziwei-doushu": {
   "ko": "《天纪》 체계를 기반으로 한 오픈소스 자미두수 배반 엔진. 완전한 배반 알고리즘, 사화 시스템, 격국 지식 베이스, 고전 원문 데이터를 포함합니다.",
@@ -602,6 +626,10 @@
  "Snapintosh/Snapintosh": {
   "ko": "Snapdragon X2 Elite 기반 ASUS A16에서 macOS를 부팅하는 EL2 하이퍼바이저 및 툴체인으로, Adreno Metal/IOGPU 스택을 포함합니다.",
   "src": "EL2 hypervisor and toolchain that boots macOS on the ASUS A16 (Snapdragon X2 Elite), with an Adreno Metal/IOGPU stack"
+ },
+ "Snow-clienT-best1/microsoft-excel-vcardconverter-win": {
+  "ko": "Windows 10/11에서 vCard 가져오기, Excel 시트 변환, 연락처 일괄 내보내기를 지원하는 Microsoft Excel용 연락처 관리 추가 기능 Vcardconverter입니다.",
+  "src": "Microsoft Excel Vcardconverter - contact management add-in for vCard import, Excel sheet conversion and batch contact export on Windows 10/11"
  },
  "Somenicehispanic/ashampoo-winoptimizer-desktop": {
   "ko": "Ashampoo WinOptimizer 2026 독립형 설치본, 모든 기능 활성화",
@@ -654,6 +682,10 @@
  "TheAlgorithms/Java": {
   "ko": "Java로 구현한 모든 알고리즘",
   "src": "All Algorithms implemented in Java"
+ },
+ "ThreatDefence/agentic-attack-detections": {
+  "ko": "AI 에이전트 공격 프레임워크(ARTEX, Cairn, PentAGI, HexStrike, CyberStrikeAI, Strix, Hermes Agent, Agent Zero)용 탐지 규칙과 IOC입니다. Microsoft Sentinel 및 Defender XDR용 KQL 헌팅 쿼리, Sigma, Suricata, Zeek, YARA, Splunk, Elastic, STIX 2.1을 포함합니다.",
+  "src": "Detection rules and IOCs for AI agent attack frameworks: ARTEX, Cairn, PentAGI, HexStrike, CyberStrikeAI, Strix, Hermes Agent, Agent Zero. KQL hunts for Microsoft Sentinel and Defender XDR, Sigma, Suricata, Zeek, YARA, Splunk, Elastic, STIX 2.1."
  },
  "Thysrael/Horizon": {
   "ko": "📡 나만의 AI 기반 뉴스 레이더입니다. 영어와 중국어로 일일 브리핑을 생성합니다. | AI로 나만의 뉴스 레이더를 구축하세요",
@@ -859,6 +891,10 @@
   "ko": "Muse4AI: AI 에이전트가 이미지와 영상을 만들 수 있게 해줍니다. REST, MCP, OAuth를 통해 Muse에 연결하는 로컬 Windows 브리지입니다.",
   "src": "Muse4AI — let your AI agent make the pictures and the videos. Local Windows bridge for Muse via REST, MCP, and OAuth."
  },
+ "andrewpandey/total-commander-win": {
+  "ko": "Ghisler Software의 Total Commander입니다. Windows 10/11에서 양쪽 패널 탐색, 압축 파일 처리, FTP 전송을 지원하는 파일 관리자입니다.",
+  "src": "Ghisler Software Total Commander - file manager for dual-pane navigation, archive handling and FTP transfers on Windows 10/11"
+ },
  "andyhuo520/digital-human-koubo": {
   "ko": "사진 한 장으로 만드는 AI 디지털 휴먼 토킹헤드 영상: Renoise MCP 생성 + 편집 스타일 5종 + 크리에이터급 패키징 컴포넌트 48종. Claude Code / Codex / OpenClaw / WorkBuddy 등을 위한 에이전트 스킬 …",
   "src": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …"
@@ -987,6 +1023,10 @@
   "ko": "향상된 디스플레이 옵션을 갖춘 멀티 모니터 데스크톱 구성 설치 프로그램",
   "src": "Multi-Monitor Desktop Configuration Installer with Enhanced Display Options"
  },
+ "birddebug/cinema-4d-win": {
+  "ko": "Maxon Cinema 4D입니다. 모션 그래픽, 절차적 모델링, 렌더 파이프라인 연동을 지원하는 Windows 10/11용 3D 모델링 및 애니메이션 프로그램입니다.",
+  "src": "Maxon Cinema 4D - 3D modeling and animation suite for motion graphics, procedural modeling and render pipeline integration on Windows 10/11"
+ },
  "blader/humanizer": {
   "ko": "텍스트에서 AI가 생성한 글의 흔적을 제거하는 에이전트 스킬",
   "src": "Agent skill that removes signs of AI-generated writing from text"
@@ -1103,6 +1143,10 @@
   "ko": "Melodyne-5: 전체 기능을 갖춘 전문 오디오 편집 데스크톱 스위트",
   "src": "Melodyne-5: Professional Audio Editing Desktop Suite with Full Feature Set"
  },
+ "danielwh2/sprite-stacking": {
+  "ko": "픽셀 아트 네 개의 뷰를 회전 가능한 가짜 3D 스프라이트로 바꿔주는 에이전트 스킬입니다. Claude Code, Codex, Cursor, OpenCode, Gemini CLI, Pi와 함께 동작합니다.",
+  "src": "Agent skill: turn four pixel art views into fake-3D sprites you can spin. Works with Claude Code, Codex, Cursor, OpenCode, Gemini CLI, Pi."
+ },
  "datalab-to/indra": {
   "ko": "빠른 CPU OCR: 줄 검출, CTC 인식, 읽기 순서 처리, 마크다운 출력",
   "src": "Fast CPU OCR: line detection, CTC recognition, reading order, markdown"
@@ -1118,6 +1162,10 @@
  "debpalash/VoiceStudio": {
   "ko": "VoiceStudio는 오픈소스이자 완전 로컬에서 동작하는 ElevenLabs 대안입니다. 음성 복제, 음성 디자인, 영상 더빙, 받아쓰기, 전사, 오디오북 제작을 646개 언어로 지원합니다.",
   "src": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages."
+ },
+ "deep-patch-true/synchro-arts-revoice-pro-5-win": {
+  "ko": "Synchro Arts Revoice Pro 5입니다. Windows 10/11에서 자동 타이밍 정렬, 피치 변환, 더블 트랙 생성을 지원하는 보컬 편집 및 피치 보정 소프트웨어입니다.",
+  "src": "Synchro Arts Revoice Pro 5 - vocal editing and pitch correction software for automatic timing alignment, pitch shifting and double-track generation on Windows 10/11"
  },
  "deeplethe/solid-glass": {
   "ko": "AI 애플리케이션을 위한 디자인 시스템. 머티리얼, physical, 촉각적, 기술적 요소를 담고 있습니다.",
@@ -1547,6 +1595,10 @@
   "ko": "IBM SPSS Statistics 2026 독립 실행형 설치본(전체 기능 구성 포함)",
   "src": "IBM SPSS Statistics 2026 Standalone Setup with Full Feature Configuration"
  },
+ "leanprover-community/riemann-hypothesis": {
+  "ko": "리만 가설의 Lean 형식화를 위한 독립 비교기 설정 (Alpöge, 2026-11-20)",
+  "src": "Independent Comparator setup for the Lean formalization of the Riemann Hypothesis (Alpöge, 2026-11-20)"
+ },
  "lesnolie/Tigris": {
   "ko": "Android TV용 tvOS 27 스타일 런처 Tigris: 리퀴드 글래스 도크, 탑 셸프, 글래스 제어 센터, 사진 화면보호기를 제공합니다. 에이전트로 설치할 수 있습니다.",
   "src": "Tigris — tvOS 27 style launcher for Android TV: Liquid Glass dock, Top Shelf, glass Control Center, photo screensaver. Agent-installable."
@@ -1708,8 +1760,8 @@
   "src": "Rust Google Drive direct downloader using pinned libaria2"
  },
  "mjmirza/app-store-compliance": {
-  "ko": "App Store와 Google Play의 흔한 심사 거절을 피하세요. 117가지 거절 사례와 해결법을 정리한 플레이북 및 제출 전 점검 도구, 개인정보 매니페스트와 데이터 안전 점검, 95개 추적 마감일(EU AI Act, DSA, COPPA, 연령 관련 법규), AI 코딩 에이전트용 스킬 포함.",
-  "src": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 117 documented rejection patterns and fixes, privacy manifest and Data safety checks, 95 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents."
+  "ko": "App Store와 Google Play 심사 반려를 줄여주는 도구. 124개 반려 사례와 해결법을 정리한 플레이북, 제출 전 점검 기능, 개인정보 매니페스트 및 데이터 안전 점검, EU AI Act, DSA, COPPA, 연령 관련 법 등 112개 마감일 추적, AI 코딩 에이전트용 스킬을 제공합니다.",
+  "src": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 112 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents."
  },
  "mksglu/context-mode": {
   "ko": "코딩 에이전트의 컨텍스트 창에 도구 출력이 들어가지 않도록 하는 무료 로컬 플러그인입니다. 샌드박스와 SQLite FTS5 검색을 제공하며, 컨텍스트에 들어가는 바이트를 99% 줄입니다. Claude Code, Codex, Pi, OpenCode, Gemini CLI, Copilot CLI 등 4개 에이전트를 더 지원합니다. 텔레메트리 없음.",
@@ -1791,6 +1843,10 @@
   "ko": "막대 인간 애니메이션 시각물을 그리는 스킬",
   "src": "Skill to draw stick figure animated visuals"
  },
+ "nkjDSLcvanv/antigravity-codex-theme": {
+  "ko": "Google Antigravity용 Codex 스타일 밝은/어두운 테마로, 간체 중국어 인터페이스, 실시간 세션 상태, 턴별 토큰 통계를 제공합니다. 테마, 한국어화(汉化) 및 토큰 통계 모듈은 필요에 따라 설치하고 수정할 수 있습니다. Antigravity 설치 파일 자체는 수정하지 않습니다. 오른쪽 사이드 질문(Side Question)과 SSH 원격 세션을 지원합니다.",
+  "src": "Google Antigravity 的 Codex 风格浅色与深色主题，提供简体中文界面、实时会话状态和每轮 Token 统计。主题、汉化和Token统计模块可按需安装与修改。全程不修改 Antigravity 安装包本体文件。支持右侧旁路提问（Side Question）与 SSH Remote 远端会话。"
+ },
  "nodejs/node": {
   "ko": "Node.js JavaScript 런타임 ✨🐢🚀✨",
   "src": "Node.js JavaScript runtime ✨🐢🚀✨"
@@ -1842,6 +1898,10 @@
  "openvinotoolkit/openvino": {
   "ko": "OpenVINO™는 AI 추론을 최적화하고 배포하기 위한 오픈소스 툴킷입니다.",
   "src": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference"
+ },
+ "os6/nospeaker": {
+  "ko": "햅틱 모터를 이용해 맥북 트랙패드가 소리를 내게 만듭니다.",
+  "src": "make your macbook's trackpad talk using its haptic motor"
  },
  "oscar-j-code1904n1/blox-fruits-script": {
   "ko": "Blox Fruits 스크립트 2026 — 키리스 자동 파밍, 바다 이벤트, 키츠네 및 과일 스나이퍼 — 미리 빌드된 Windows 10/11 x64 릴리스 다운로드. 키워드: blox fruits script, fisch script, rivals script, jujutsu infinite script, blue lock rivals script, da hood script, pet simulator 99 script, anime vanguards script.",
@@ -2131,6 +2191,10 @@
   "ko": "Idol: 단일 이미지를 3D 가우시안으로 변환. 추론 SDK와 데모.",
   "src": "Idol: a single image to 3D Gaussians. Inference SDK and demo."
  },
+ "sshkeda/minecraft-server-on-orange-cloud": {
+  "ko": "Cloudflare만으로 마인크래프트 자바 서버를 운영합니다. 아무도 접속하지 않으면 절전 상태가 됩니다.",
+  "src": "Run a Minecraft Java server entirely on Cloudflare. Sleeps when nobody's playing."
+ },
  "stablyai/orca": {
   "ko": "Orca는 여러 에이전트(예: Grok Bot, Claude Code)를 함께 운영하는 공간입니다. 자신의 구독으로 어떤 코딩 에이전트든 실행할 수 있으며, 데스크톱, 모바일, 원격 런타임에서 사용할 수 있습니다.",
   "src": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime."
@@ -2178,6 +2242,10 @@
  "sybil-solutions/inference-optimisation-skill": {
   "ko": "모든 하드웨어와 양자화 방식에서 로컬 LLM 서빙 속도(디코딩, 추측 디코딩, 프리필, KV, 시작 시간, TTFT)를 단계적으로 최적화하는 에이전트 스킬",
   "src": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization"
+ },
+ "sybil-solutions/skill-distill": {
+  "ko": "좋은 Claude Code/Codex 세션을 오픈 웨이트 모델이 따라 하며 같은 작업을 재현할 수 있는 스킬로 증류합니다.",
+  "src": "Distill a good Claude Code / Codex session into a skill an open-weight model can follow to reproduce the task"
  },
  "symfony/symfony": {
   "ko": "Symfony PHP 프레임워크",
@@ -2298,6 +2366,10 @@
  "voyager-so/vork": {
   "ko": "에이전트를 위한 헤드리스 3D 및 VFX 엔진. 리서치 프리뷰.",
   "src": "Headless 3D and VFX engine for agents. Research preview."
+ },
+ "w01fb0ss/PiBot": {
+  "ko": "데스크톱용 오픈소스 로컬 우선 AI 에이전트 팀입니다. 다중 에이전트 그룹 채팅, 컴퓨터 사용, 브라우저, MCP, 루틴과 승인 기능을 제공합니다. macOS, Windows, Linux와 Android를 지원하며 pi 기반으로 만들어졌습니다.",
+  "src": "Open-source, local-first AI agent team for your desktop: multi-agent group chats, computer use, browser, MCP, routines and approvals. macOS, Windows, Linux + Android. Built on pi."
  },
  "wangrongding/tv-fresh": {
   "ko": "tv-fresh TV 새단장: 샤오미 TV(MIUI TV)의 광고 제거, 기본 설치 앱 정리, 바탕화면 변경, 프록시 및 영상 창고 설치를 돕는 에이전트 스킬. 루트 없이 되돌릴 수 있으며, 펌웨어 리버싱 기록과 원클릭 스크립트 포함",
