@@ -673,41 +673,37 @@
    "subheadline": "계정도 인증 토큰도 기능 제한도 없는 '가볍고 폭신한' 개발·테스트용 AWS 대체재"
   },
   "google-labs-code/stitch-skills": {
-   "date": "2026-11-16",
+   "date": "2026-11-24",
    "headline": "구글 스티치, 코딩 에이전트용 스킬 라이브러리 공개",
    "highlights": [
-    "Agent Skills 오픈 표준 기반으로 여러 코딩 에이전트와 호환",
-    "stitch-design, stitch-build, stitch-utilities 세 가지 플러그인 제공",
-    "Codex 마켓플레이스 등록 후 필요한 플러그인만 골라 설치 가능",
-    "사용하려면 Stitch MCP 서버 설정이 필수",
-    "구글 공식 지원 제품은 아님"
+    "Agent Skills 오픈 표준을 따르는 스티치 전용 스킬·플러그인 모음",
+    "design, build, utilities 세 플러그인으로 구성",
+    "Codex, Antigravity, Gemini CLI, Claude Code, Cursor 지원, OpenCode는 수동 설치",
+    "모든 스킬에 Stitch MCP 서버 설정이 선행되어야 함",
+    "검증, 데이터 분리, 디자인 생성 등 새 스킬 기여 환영"
    ],
    "image": null,
-   "image_caption": "Stitch MCP 서버와 연동되는 에이전트 스킬 라이브러리 stitch-skills",
-   "lead": "google-labs-code가 공개한 'stitch-skills'는 구글 스티치(Stitch) MCP 서버와 함께 쓰도록 만든 에이전트 스킬과 플러그인 모음입니다. Agent Skills 오픈 표준을 따르기 때문에 여러 코딩 에이전트에서 같은 스킬을 활용할 수 있습니다.",
+   "image_caption": "구글 스티치 MCP 서버와 연동되는 Stitch Design Skills 저장소의 대표 이미지",
+   "lead": "google-labs-code가 공개한 'stitch-skills'는 구글 스티치(Stitch)의 MCP 서버와 함께 쓰도록 만든 에이전트 스킬 라이브러리입니다. Agent Skills 오픈 표준을 따라 여러 코딩 에이전트에서 같은 스킬을 활용할 수 있습니다.",
    "sections": [
     {
-     "heading": "무엇인가",
-     "text": "Stitch Design Skills는 구글 Stitch를 위한 에이전트 스킬과 플러그인 컬렉션입니다. 저장소 설명에 따르면 각 스킬은 Agent Skills 오픈 표준을 따르며, Antigravity, Gemini CLI, Claude Code, Cursor 같은 코딩 에이전트와 호환됩니다. README는 Codex와 OpenCode(수동 설치)도 지원 대상으로 안내합니다. 주 언어는 TypeScript입니다."
+     "heading": "무엇인가: 스티치를 위한 에이전트 스킬 모음",
+     "text": "저장소는 Stitch Design Skills라는 이름으로, 구글 스티치용 에이전트 스킬과 플러그인을 한데 묶었습니다. 주 언어는 TypeScript입니다. 각 스킬은 Agent Skills 오픈 표준의 파일 구조를 따르며, Codex, Antigravity, Gemini CLI, Claude Code, Cursor와 호환됩니다. OpenCode는 수동 설치 방식으로 지원합니다."
     },
     {
-     "heading": "세 갈래의 플러그인 구성",
-     "text": "스킬은 세 가지 플러그인으로 묶여 있습니다. stitch-design은 Stitch 안에서 디자인을 만들고 관리하고 최적화하는 핵심 워크플로를 다룹니다. stitch-build는 Stitch 디자인에서 코드 생성, 프레임워크 연동, 에셋 컴파일을 담당합니다. stitch-utilities는 프롬프트 개선, 디자인 명세 생성, 디자인 표준 적용 등을 돕는 보조 도구입니다."
+     "heading": "어떻게 구성되나: 세 갈래 플러그인",
+     "text": "플러그인은 세 가지입니다. `stitch-design`은 스티치 안에서 디자인을 만들고 관리하고 최적화하는 핵심 워크플로를 담당합니다. `stitch-build`는 스티치 디자인에서 코드 생성, 프레임워크 연동, 에셋 컴파일을 맡습니다. `stitch-utilities`는 프롬프트 개선, 디자인 명세 생성, 디자인 표준 적용을 돕는 보조 도구입니다."
     },
     {
-     "heading": "설치 방법",
-     "text": "README는 플러그인 전체를 전역으로 설치하는 방식을 권장합니다. Codex에서는 Stitch Skills 마켓플레이스를 추가한 뒤 필요한 플러그인을 설치하며, CLI나 Codex UI의 Settings → Plugin Marketplaces → Add에서 등록할 수 있습니다. CLI의 --sparse 플래그는 선택 사항으로, 필요한 경로만 체크아웃해 클론 속도를 높여 줍니다. 필요한 스킬만 골라 설치할 수도 있으나, 스킬 간 의존성이 있어 필요한 의존 스킬을 함께 넣어야 합니다."
+     "heading": "설치 방법: 전체 설치와 선택 설치",
+     "text": "README는 플러그인 일괄 설치를 권장합니다. Codex에서는 CLI 또는 UI의 Settings → Plugin Marketplaces → Add 메뉴로 마켓플레이스를 등록한 뒤 필요한 플러그인을 고를 수 있습니다. CLI에서 `--sparse` 플래그를 쓰면 지정한 경로만 내려받아 더 빠르게 복제할 수 있고, 생략하면 저장소 전체를 가져옵니다. 필요한 스킬만 골라 설치할 수도 있지만, 스킬 간 의존성이 있어 필요한 항목을 함께 포함해야 합니다."
     },
     {
-     "heading": "OpenCode 사용자가 알아둘 점",
-     "text": "OpenCode는 npx plugins나 npx skills, Codex·Claude 마켓플레이스 구조를 쓰지 않아 스킬 폴더를 직접 복사하고 Stitch MCP 서버를 수동으로 등록해야 합니다. 스킬 name은 소문자 kebab-case이며 디렉터리 이름과 일치해야 하므로, stitch::… 형태의 이름은 이름과 폴더를 바꿔야 합니다. 스킬 지침 속 도구 이름도 OpenCode 내장 도구(webfetch, bash)에 맞춰 조정하는 편이 좋다고 안내합니다."
-    },
-    {
-     "heading": "사전 조건과 기여",
-     "text": "모든 스킬은 에이전트 환경에 Stitch MCP 서버가 설정되어 실행 중이어야 동작합니다. 새 스킬 후보로는 Stitch HTML을 다른 UI 프레임워크로 변환하고 문법을 검증하는 스킬, 정적 디자인 콘텐츠를 외부 목 데이터 파일로 분리하는 스킬, 주어진 데이터로 Stitch에서 새 디자인 화면을 생성하는 스킬이 제시됐습니다. 다만 이 프로젝트는 구글의 공식 지원 제품이 아니며 구글 오픈소스 취약점 보상 프로그램 대상도 아닙니다."
+     "heading": "알아둘 점: MCP 서버와 OpenCode 주의사항",
+     "text": "모든 스킬은 에이전트 환경에 Stitch MCP 서버가 설정되어 실행 중이어야 동작합니다. OpenCode는 `npx plugins`나 `npx skills`, Codex·Claude 마켓플레이스 구조를 쓰지 않으므로 스킬 폴더를 직접 복사하고 `opencode.json`에 원격 MCP 항목을 추가해야 합니다. 이때 스킬의 `name`은 소문자 kebab-case이면서 디렉터리 이름과 일치해야 해서, `stitch::…` 형태의 이름은 변경이 필요합니다. 또한 이 프로젝트는 구글이 공식 지원하는 제품이 아니며 구글 오픈소스 취약점 보상 프로그램 대상도 아닙니다."
     }
    ],
-   "subheadline": "Agent Skills 표준 따르는 Stitch 디자인 스킬 모음, Codex·Claude Code·Cursor 등 지원"
+   "subheadline": "Agent Skills 표준 기반 스킬·플러그인 모음, Codex부터 Claude Code·Cursor까지 지원"
   },
   "hmjz100/LinkSwift": {
    "date": "2026-10-29",
