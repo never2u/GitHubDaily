@@ -87,6 +87,10 @@
   "ko": "무료 인물 검색 데스크톱 앱: 닉네임, 이메일, 전화번호 또는 사이트를 3,100개 이상의 공개 페이지에서 조회해 하나의 읽기 쉬운 보고서로 받아볼 수 있습니다.",
   "src": "Free people-search desktop app: look up a nickname, email, phone or site across 3,100+ public pages and get one readable report."
  },
+ "Avaneesh-Inamdar/Stream-Tube-Desktop": {
+  "ko": "Rust로 만든 Windows용 네이티브 YouTube 클라이언트로, SponsorBlock, DeArrow, Return YouTube Dislike가 내장되어 있습니다.",
+  "src": "Native YouTube client for Windows in Rust, with SponsorBlock, DeArrow and Return YouTube Dislike built in"
+ },
  "Bagussa998/affinity-designer-2-win": {
   "ko": "Serif Affinity Designer 2입니다. 래스터와 벡터 작업, 타이포그래피, 내보내기를 지원하는 Windows 10/11용 벡터 그래픽 및 일러스트레이션 소프트웨어입니다.",
   "src": "Serif Affinity Designer 2 - vector graphics and illustration software for raster and vector workflows, typography and export on Windows 10/11"
@@ -235,6 +239,10 @@
   "ko": "Ely Office: Rust와 GPUI로 만든 오프라인 우선 데스크톱 앱",
   "src": "Ely Office: offline-first desktop apps in Rust and GPUI"
  },
+ "Ebony-Vinyl/dsh-our-free-model": {
+  "ko": "dsh에 이 플러그인만 설치하면 로그인, 회원가입, API 키 입력 없이 DeepSeek V4.1 Flash, Kimi K3 등 최신 모델을 바로 쓸 수 있습니다. 완전 무료이며 사용량 제한도 없습니다.",
+  "src": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap."
+ },
  "Elegantic/designcenter-nx-desktop": {
   "ko": "Designcenter-NX: 즉시 배포 가능한 전체 기능 데스크톱 설치 프로그램",
   "src": "Designcenter-NX: Full-Feature Desktop Installer for Immediate Deployment"
@@ -350,6 +358,10 @@
  "Immortal-Protocols/lastbook": {
   "ko": "생존과 재건을 위한 오프라인 지식 AI, 지도, 동영상",
   "src": "Offline knowledge AI, maps and videos for survival and rebuilding"
+ },
+ "Indigo-0167/universal-game-mod-manager": {
+  "ko": "Unity와 Unreal Engine 모드를 찾고, 설치하고, 업데이트하고 관리할 수 있는 무료 Windows 게임 모드 관리자입니다.",
+  "src": "Free Windows game mod manager to discover, install, update and manage universal Unity and Unreal Engine mods."
  },
  "IsaiaR09/daemon-pro-desktop": {
   "ko": "daemon-pro: 모든 기능이 포함된 완전 독립형 데스크톱 설치본",
@@ -530,6 +542,10 @@
  "NationalSecurityAgency/ghidra": {
   "ko": "Ghidra는 소프트웨어 리버스 엔지니어링(SRE) 프레임워크입니다.",
   "src": "Ghidra is a software reverse engineering (SRE) framework"
+ },
+ "Nebula4207/av1-video-encoder-gui": {
+  "ko": "aomenc, rav1e, SVT-AV1, NVENC, Quick Sync, VP9를 지원하고 병렬 인코딩을 제공하는 Windows용 무료 AV1 비디오 인코더 GUI입니다.",
+  "src": "Free Windows AV1 video encoder GUI for aomenc, rav1e, SVT-AV1, NVENC, Quick Sync and VP9 with parallel encoding."
  },
  "NiazMorshed2007/reanimate": {
   "ko": "어떤 애니메이션이든 프레임 단위로 역공학하고, 복제본이 동일하게 움직이는지 검증하는 Claude Code 스킬.",
@@ -726,6 +742,10 @@
  "TurtleReside/Gemini-Config-Checker-": {
   "ko": "체인 리전 스캐너: Google AI Studio와 Gemini에 접속할 수 있는 프록시 설정을 찾아줍니다(로그인된 브라우저 확인, DPI 차단 우회, Windows/macOS/Linux/Android 지원)",
   "src": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)"
+ },
+ "Umbra9179/clipboard-history-manager-windows": {
+  "ko": "검색 가능한 기록, 이미지 미리보기, 태그, 편집, 백업 기능을 갖춘 Windows용 무료 오픈소스 클립보드 관리자입니다.",
+  "src": "Free open-source Windows clipboard manager with searchable history, image previews, tags, editing and backup."
  },
  "UncensoredLabs/uncensored-ai-api": {
   "ko": "검열 없는 AI API 및 브라우저 채팅: DeepSeek 및 GLM 모델, 스트리밍, Python 및 TypeScript 예제, 가격 및 설정 가이드를 제공합니다.",
@@ -1207,6 +1227,10 @@
   "ko": "词光 · Word Atlas: 7,298개 단어를 담은 삽화 포함 IELTS 어휘 학습 앱. 영국/미국 발음 오디오와 FSRS 복습 제공. 오픈소스 앱 + CC BY 4.0 데이터셋.",
   "src": "词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset."
  },
+ "deterministic-machines/deslop-please": {
+  "ko": "코드에 다시 명료함을 되찾아 주세요.",
+  "src": "Bring (back) sanity to your code"
+ },
  "devvmhq/devvm": {
   "ko": "프로젝트마다 하나의 VM을. 프로젝트의 툴체인이 갖춰진 격리 샌드박스로, 사용자나 코딩 에이전트가 바로 코딩을 시작할 수 있습니다.",
   "src": "One VM for every project. An isolated sandbox with your project’s toolchain, ready for you or a coding agent to start coding"
@@ -1354,6 +1378,10 @@
  "fumbdendade19718/blender-ai-copilot-desk": {
   "ko": "Blender용 시각적 AI 데스크: 채팅, 장면 객체, 뷰포트 스냅샷, 승인 절차, 실시간 작업 보드를 하나의 동반 창에 담고, 원하는 모델과 내장 MCP 서버를 함께 사용합니다. · blender-ai-copilot-desk · blender · blender 3d · blender addon · blender plugin · blender extension · blender scripting · blender automation · blender mcp",
   "src": "A visual AI desk for Blender—chat, scene objects, viewport snapshots, approvals and a live task board in one companion window, backed by your choice of models and a built-in MCP server. · blender-ai-copilot-desk · blender · blender 3d · blender addon · blender plugin · blender extension · blender scripting · blender automation · blender mcp"
+ },
+ "fxceless/victory-fork": {
+  "ko": "VIctory 포크를 개발 중인 프로젝트로, Windows PC에서 Xbox Series 타이틀이 렌더링되고 실행되도록 하는 작업입니다. 게임 파일은 포함되어 있지 않습니다.",
+  "src": "Work-in-progress fork of VIctory: getting an Xbox Series title to render and run on a Windows PC. No game files."
  },
  "garrytan/gbrain": {
   "ko": "Garry의 독자적인 OpenClaw/Hermes 에이전트 브레인",
@@ -1579,6 +1607,10 @@
   "ko": "짠뎬윈(简讯云) - 최고의 VPN 서비스",
   "src": "简讯云  最好的vpn服务"
  },
+ "kai415-debug/ffmpeg-video-audio-converter": {
+  "ko": "동영상과 오디오 변환, 일괄 트랜스코딩, 멀티미디어 포맷 인코딩을 지원하는 Windows용 무료 FFmpeg GUI입니다.",
+  "src": "Free Windows FFmpeg GUI for video and audio conversion, batch transcoding, and multimedia format encoding."
+ },
  "kajisho5/ffmpeg-skill": {
   "ko": "코딩 에이전트를 위한 로컬 동영상 편집기: 기계가 읽을 수 있는 계약과 MCP 서버를 갖춘 FFmpeg 도구 42종을 제공하며 Claude Code, Cursor, Codex에서 사용할 수 있습니다. 자르기, 자막, 화면 비율 변경, 음량 조절, 플랫폼별 내보내기를 지원합니다. 클라우드나 API 키가 필요 없습니다.",
   "src": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys."
@@ -1624,8 +1656,8 @@
   "src": "IBM SPSS Statistics 2026 Standalone Setup with Full Feature Configuration"
  },
  "leanprover-community/riemann-hypothesis": {
-  "ko": "리만 가설의 Lean 형식화를 위한 독립 비교기 설정 (Alpöge, 2026-11-20)",
-  "src": "Independent Comparator setup for the Lean formalization of the Riemann Hypothesis (Alpöge, 2026-11-20)"
+  "ko": "Lean 커뮤니티 멤버들이 정리 중인 리만 가설의 Lean 형식화(Alpöge, 2026-11-20)입니다.",
+  "src": "Lean formalization of the Riemann Hypothesis (Alpöge, 2026-11-20) being cleaned up by members of the Lean community."
  },
  "lesnolie/Tigris": {
   "ko": "Android TV용 tvOS 27 스타일 런처 Tigris: 리퀴드 글래스 도크, 탑 셸프, 글래스 제어 센터, 사진 화면보호기를 제공합니다. 에이전트로 설치할 수 있습니다.",
@@ -1903,6 +1935,10 @@
   "ko": "실제로 잘 동작하는 에이전트 스킬 프레임워크이자 소프트웨어 개발 방법론입니다.",
   "src": "An agentic skills framework & software development methodology that works."
  },
+ "olive527/steam-library-manager-windows": {
+  "ko": "Steam, Origin, Ubisoft Connect의 다중 라이브러리를 지원하는 Windows용 무료 게임 라이브러리 관리 및 백업 도구입니다.",
+  "src": "Free Windows game library manager and backup tool for Steam, Origin and Ubisoft Connect with multi-library support."
+ },
  "omonkeyz/xbox-emulator": {
   "ko": "PC에서 Xbox Series X|S 빌드를 실행하기 위한 진행 노트 (TomBox + rage9)",
   "src": "Progress notes for running Xbox Series X|S builds on PC (TomBox + rage9)"
@@ -2107,6 +2143,10 @@
   "ko": "어떤 SVG든 전문가 수준의 60fps 애니메이션으로 바꿔 줍니다. 그린 것은 무엇이든 살아 움직이게 하는 Claude Code 스킬로, 라이브 얼굴, 전신 연기, 장면 전체를 React Native와 SwiftUI에서 구현합니다.",
   "src": "Turn any SVG into a professional 60 fps animation. A Claude Code skill that brings anything drawn to life: live faces, full-body acting and whole scenes, in React Native and SwiftUI."
  },
+ "rowanbyte3329/stardew-valley-mod-manager": {
+  "ko": "SMAPI를 지원하고 모드 업데이트와 사용자 지정 모드 프로필 기능을 갖춘, Windows용 무료 오픈소스 Stardew Valley 모드 관리자입니다.",
+  "src": "Free open-source Stardew Valley mod manager for Windows with SMAPI support, mod updates, and custom mod profiles."
+ },
  "rust-lang/rust": {
   "ko": "누구나 안정적이고 효율적인 소프트웨어를 만들 수 있도록 돕습니다.",
   "src": "Empowering everyone to build reliable and efficient software."
@@ -2211,6 +2251,10 @@
   "ko": "사용자 인터페이스를 구축하기 위한 선언적이고 효율적이며 유연한 JavaScript 라이브러리.",
   "src": "A declarative, efficient, and flexible JavaScript library for building user interfaces."
  },
+ "solv4626/steam-achievement-manager-windows": {
+  "ko": "게임 업적을 관리하고 Steam 게임 통계를 편집할 수 있는 Windows용 무료 오픈소스 Steam 업적 관리자입니다.",
+  "src": "Free open-source Steam Achievement Manager for Windows to manage game achievements and edit Steam game statistics."
+ },
  "songjianyang/xss-audit": {
   "ko": "React, TypeScript, JavaScript 프로젝트를 위한 14개 계층 검사를 갖춘 정적 XSS 감사 스킬.",
   "src": "Static XSS audit skill with 14 layers of checks for React, TypeScript, and JavaScript projects."
@@ -2222,6 +2266,10 @@
  "sourmitocand1987/VividFrame-GPU": {
   "ko": "어떤 소스든 하나의 실시간 GPU 화질 향상 파이프라인으로. · 비디오 향상기 · GPU 비디오 · 실시간 비디오 향상 · HDR · 초해상도 · 게임 스트리밍 · moonlight · 돌비 비전 · 프레임 보간 · 비디오 플레이어 · 미디어 플레이어 · 비디오 초해상도 · 비디오 처리 · 업스케일링 · rife · vulkan · nvidia · windows · 비디오 향상 · ncnn",
   "src": "Any source. One real-time GPU enhancement pipeline. · video enhancer · gpu video · real-time video enhancement · hdr · super-resolution · game-streaming · moonlight · dolby-vision · frame-interpolation · video-player · media-player · video-super-resolution · video-processing · upscaling · rife · vulkan · nvidia · windows · video-enhancement · ncnn"
+ },
+ "sous-labs/songe": {
+  "ko": "유휴 컴퓨팅 자원을 활용해 로컬 모델을 학습시키는 학습 엔진입니다.",
+  "src": "A training engine for your local model, using your idle compute"
  },
  "speridlabs/idol-sdk": {
   "ko": "Idol: 단일 이미지를 3D 가우시안으로 변환. 추론 SDK와 데모.",
@@ -2368,8 +2416,8 @@
   "src": "SwiftUI agent skill for Claude Code, Codex, and other AI tools."
  },
  "ubiquitarianism/leonida": {
-  "ko": "Xbox에서 PC로 옮긴 GTA VI 포트인 Leonida의 후속 프로젝트입니다.",
-  "src": "A continuation of Leonida, the Xbox > PC port of GTA VI"
+  "ko": "Xbox에서 PC로 이식한 GTA VI용 인터페이스 Leonida의 후속 프로젝트입니다.",
+  "src": "A continuation of Leonida, the Xbox > PC port interface for GTA VI"
  },
  "udhaykumarbala/cleanyourtv-app": {
   "ko": "Clean Your TV를 위한 커뮤니티 제작 휴대폰 앱. 노트북이나 코딩 에이전트 없이 휴대폰으로 안드로이드 TV를 정리합니다. 아무것도 제거되지 않습니다.",
@@ -2464,6 +2512,10 @@
   "ko": "Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, Pi를 지원하는 멀티 하네스 에이전틱 플러그인 마켓플레이스",
   "src": "Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, and Pi"
  },
+ "xcl-dev/xcl": {
+  "ko": "Windows용 Xbox Series 호환 레이어로, 콘솔 게임 코드를 네이티브로 실행하고 콘솔 시스템 라이브러리를 재구현하며 RDNA2 셰이더를 DXIL로 재컴파일합니다.",
+  "src": "Xbox Series compatibility layer for Windows - runs console game code natively, reimplements the console system libraries and recompiles RDNA2 shaders to DXIL"
+ },
  "xerj-org/xerj": {
   "ko": "XERJ는 AI가 데이터를 검색하는 새로운 방식입니다. 자동 인덱싱 기능으로 에이전트가 grep(1974년 도구)처럼 토큰을 낭비하지 않고도 데이터를 파악하게 합니다. 명령어 하나로 코드, 문서, 로그, PDF를 인덱싱해 검색, RAG, 보안 감사, 에이전트 메모리에 활용할 수 있으며, grep보다 40배 적은 토큰을 사용합니다. 내구성이 있으며 ElasticSearch를 대체해 인프라 비용을 10배 절감할 수 있습니다.",
   "src": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep (1974 tool). One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. It’s durable and can replace ElasticSearch saving you x10 infra costs."
@@ -2531,6 +2583,10 @@
  "zephyr4123/snug": {
   "ko": "UU远程(UU 원격)용 Mac 모바일 작업 공간: 독립 세로 화면, 창 자동 맞춤 전체 화면, 화면에 따라 확대되는 글자 크기, iOS 조작 방식을 따르는 터치 操作으로 Mac을 휴대폰에서 네이티브 수준으로 사용할 수 있습니다. 또한 UU 원격을 통해 Mac을 제어하는 네이티브급 iPhone 작업 공간입니다.",
   "src": "为 UU远程 打造的 Mac 移动端工作区：独立竖屏、窗口自适应铺满、字号随屏放大、触控遵循 iOS 交互习惯，让 Mac 在手机上拥有原生级的操作体验。A native-grade iPhone workspace for controlling your Mac over UU Remote."
+ },
+ "zero5122/offline-file-converter-windows": {
+  "ko": "Windows용 무료 오프라인 파일 변환기로, PDF, 문서, 이미지, 오디오, 비디오를 개인 기기에서 안전하게 변환합니다.",
+  "src": "Free offline file converter for Windows – convert PDF, documents, images, audio and video privately."
  },
  "zeusinsight/FinderSearch": {
   "ko": "fsearch 기반의 빠른 퍼지 파일명 검색을 제공하는 네이티브 macOS 파일 브라우저",

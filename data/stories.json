@@ -1191,6 +1191,39 @@
     }
    ],
    "subheadline": "버셀 랩스, 접근성 트리 기반 컴퓨터 사용 CLI 'agent-desktop' 공개"
+  },
+  "zhouxiaoka/autoclip": {
+   "date": "2026-11-25",
+   "headline": "링크 하나로 숏폼 완성, 오픈소스 AutoClip",
+   "highlights": [
+    "링크·로컬 파일·라이브 방송 다시보기를 입력하면 자막과 커버가 포함된 클립 생성",
+    "MIT 라이선스 무료 공개, 렌더링은 사용자 PC에서 처리",
+    "Ollama·LM Studio와 Whisper·SenseVoice 조합으로 완전 오프라인 가능",
+    "데스크톱 앱, CLI·MCP, Docker 웹 UI 등 다양한 사용 방식 지원",
+    "FastAPI, React, Tauri, FFmpeg, yt-dlp, Whisper, FunASR 기반으로 1인 개발자가 유지 관리"
+   ],
+   "image": "https://raw.githubusercontent.com/zhouxiaoka/autoclip/HEAD/docs/images/v1.6/autoclip-v1.6-demo.gif",
+   "image_caption": "AutoClip 홈 화면: 링크, 파일, 라이브 다시보기로 숏폼 클립을 만든다.",
+   "lead": "AutoClip은 영상 링크나 파일, 라이브 방송 다시보기를 넣으면 하이라이트를 찾아 자막과 커버, 게시용 문구까지 갖춘 클립으로 내보내는 오픈소스 AI 편집 도구입니다. 자르기와 렌더링을 사용자 PC에서 처리하는 로컬 우선 방식이며, MIT 라이선스로 무료 공개되어 있습니다.",
+   "sections": [
+    {
+     "heading": "무엇을 하는 도구인가",
+     "text": "AutoClip은 긴 영상에서 가장 좋은 장면을 찾아내고 화자를 추적하며, 자막을 입히고 커버를 만들어 바로 올릴 수 있는 클립으로 내보냅니다. 대상 플랫폼은 틱톡(TikTok), 유튜브 쇼츠(YouTube Shorts), 릴스(Reels), 유튜브(YouTube), 더우인(抖音), 샤오홍슈(小红书), 비리비리(哔哩哔哩)입니다. README는 팟캐스트, 인터뷰, 강연, 강의, 게임 방송 다시보기를 잘 맞는 영상으로 꼽습니다. 예시로는 세로형 9:16 클립과 원본 비율을 유지하는 16:9 가로형 클립이 공개되어 있습니다."
+    },
+    {
+     "heading": "로컬 우선 구조와 사용 방법",
+     "text": "데스크톱 앱은 GitHub Releases에서 내려받을 수 있습니다. 애플 실리콘 맥용 aarch64.dmg와 윈도우용 x64-setup.exe가 제공되며 포터블 Python과 FFmpeg가 함께 들어 있습니다. 설정에서 클라우드 제공자를 고르거나 Ollama·LM Studio를 켠 뒤, 링크를 붙여넣거나 파일을 끌어다 놓고 플랫폼을 선택해 Generate를 누르면 됩니다. API 키 없이 내장 예제를 체험하는 기능도 있습니다. CLI와 MCP(Claude Code, Codex, OpenCode 및 스크립트용), 그리고 Docker 웹 UI 방식도 지원합니다."
+    },
+    {
+     "heading": "v1.6의 라이브 다시보기",
+     "text": "v1.6에서는 라이브 다시보기(Live Replay) 기능이 소개됐습니다. 6가지 다시보기 소스를 지원하며 OBS Studio WebSocket 설정을 앱 안에서 바로 할 수 있고, 트위치(Twitch) 가져오기와 로컬 녹화 파일 선택도 가능합니다. 결과 클립에는 출처 표기, 9:16 크롭, 자막이 들어가며 다운로드, 게시, 재생성을 한 번에 누를 수 있습니다. 대사가 적은 게임 방송에는 비전 지원 모델을 켜도록 안내합니다."
+    },
+    {
+     "heading": "프라이버시와 비용",
+     "text": "README에 따르면 자르기와 렌더링은 로컬에서 이뤄지고, 클라우드 분석을 쓸 때는 대본 텍스트만 전송되며 비전 모델에는 샘플링한 프레임만 전달됩니다. 클라우드 음성 인식을 쓰면 오디오가 업로드됩니다. 로컬 LLM과 Whisper·SenseVoice를 조합하면 완전한 오프라인 사용이 가능합니다. 앱 자체는 무료이지만 클라우드 분석, 전사, AI 커버는 사용자의 API 키로 제공자 요금이 부과됩니다. 분석 및 오류 보고는 설정에서 끌 수 있습니다."
+    }
+   ],
+   "subheadline": "팟캐스트·인터뷰·게임 방송을 로컬에서 자동으로 짧은 영상으로 잘라 주는 데스크톱 도구"
   }
  },
  "blurbs": {
