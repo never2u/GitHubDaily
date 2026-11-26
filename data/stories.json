@@ -859,37 +859,37 @@
    "subheadline": "last30days, 최근 30일의 '사람들의 목소리'를 점수화해 하나의 브리프로 합성한다"
   },
   "obra/superpowers": {
-   "date": "2026-11-18",
-   "headline": "코딩 에이전트에 개발 방법론을 입히다, 슈퍼파워",
+   "date": "2026-11-26",
+   "headline": "코딩 에이전트에 개발 방법론을 입히다, Superpowers",
    "highlights": [
-    "스킬이 자동 발동하는 코딩 에이전트용 개발 방법론",
-    "브레인스토밍부터 브랜치 마무리까지 일곱 단계 필수 워크플로",
-    "RED-GREEN-REFACTOR TDD, YAGNI, DRY 강조",
-    "작업마다 서브에이전트를 투입하고 매번 리뷰하는 방식 지원",
-    "Claude Code, Codex, Cursor, Gemini CLI 등 16개 환경 지원"
+    "코딩 에이전트용 조합형 스킬과 개발 방법론을 하나로 묶은 프레임워크",
+    "brainstorming부터 finishing-a-development-branch까지 7단계 필수 워크플로",
+    "red/green TDD, YAGNI, DRY 원칙 강조 및 테스트 전 작성 코드 삭제",
+    "작업당 새 subagent를 투입하고 리뷰하는 subagent-driven-development 지원",
+    "Claude Code, Codex, Cursor, Gemini CLI 등 십수 개 에이전트 환경 지원"
    ],
    "image": null,
-   "image_caption": "Superpowers 저장소의 대표 이미지: 코딩 에이전트에 스킬 기반 개발 방법론을 적용하는 프레임워크",
-   "lead": "obra/superpowers는 코딩 에이전트를 위한 소프트웨어 개발 방법론이자 조합 가능한 스킬 프레임워크다. 에이전트가 바로 코드를 쓰지 않고 먼저 사용자의 의도를 묻고, 설계와 계획, 테스트 중심 구현을 거치도록 이끈다.",
+   "image_caption": "Superpowers 프레임워크가 코딩 에이전트의 개발 흐름을 안내하는 모습을 담은 저장소 대표 이미지",
+   "lead": "obra/superpowers는 코딩 에이전트를 위한 완결된 소프트웨어 개발 방법론으로, 조합 가능한 스킬 모음과 이를 반드시 사용하게 만드는 초기 지침으로 구성됩니다. Claude Code, Codex, Cursor, Gemini CLI 등 다양한 에이전트 환경에 플러그인 형태로 설치할 수 있습니다.",
    "sections": [
     {
-     "heading": "무엇인가: 스킬과 초기 지침의 묶음",
-     "text": "Superpowers는 코딩 에이전트에 적용하는 완결된 개발 방법론이다. 조합 가능한 스킬 모음과, 에이전트가 그 스킬을 반드시 사용하도록 하는 초기 지침으로 이루어진다. 스킬이 자동으로 작동하므로 사용자가 별도의 조작을 할 필요가 없고, 코딩 에이전트가 말 그대로 '슈퍼파워'를 갖게 된다는 것이 README의 설명이다. 저장소의 주 언어는 Shell이다."
+     "heading": "무엇인가: 에이전트가 따르는 개발 방법론",
+     "text": "Superpowers는 단순한 프롬프트 모음이 아니라, 코딩 에이전트가 작업을 어떤 순서와 원칙으로 진행해야 하는지를 정의한 방법론입니다. README에 따르면 스킬은 자동으로 발동되기 때문에 사용자가 특별한 조작을 할 필요가 없고, 에이전트가 처음부터 Superpowers를 갖춘 상태로 동작합니다. 저장소 설명도 이를 '효과가 있는 에이전트 스킬 프레임워크이자 소프트웨어 개발 방법론'으로 소개합니다."
     },
     {
      "heading": "작동 방식: 코드를 쓰기 전에 먼저 묻는다",
-     "text": "에이전트는 사용자가 무언가를 만들려 한다는 것을 인지하면 곧바로 코딩에 들어가지 않고, 실제로 무엇을 하려는지부터 질문한다. 대화에서 스펙을 끌어낸 뒤에는 읽고 소화할 수 있을 만큼 짧은 단위로 나누어 보여준다. 설계가 승인되면 경험이 적은 주니어 엔지니어도 따라 할 수 있을 만큼 명확한 구현 계획을 만든다. 이 계획은 진정한 red/green TDD, YAGNI, DRY를 강조한다. 사용자가 'go'라고 하면 subagent-driven-development 과정이 시작되어 각 작업을 에이전트들이 수행하고 점검하며 검토한다. README에 따르면 에이전트가 계획에서 벗어나지 않고 몇 시간씩 자율적으로 일하는 경우도 드물지 않다."
+     "text": "에이전트는 사용자가 무언가를 만들려는 것을 감지하면 곧바로 코드를 작성하지 않고, 실제로 무엇을 하려는지부터 질문합니다. 대화에서 명세를 끌어낸 뒤에는 읽고 소화할 수 있는 짧은 단위로 나누어 보여줍니다. 설계 승인 이후에는 판단력과 프로젝트 맥락이 없고 테스트를 꺼리는 신입 엔지니어도 따라 할 수 있을 만큼 명확한 구현 계획을 만들며, 진정한 red/green TDD, YAGNI, DRY를 강조합니다. 사용자가 'go'라고 하면 subagent-driven-development 과정이 시작되어 각 작업을 에이전트들이 수행하고 검토하며, 계획에서 벗어나지 않은 채 몇 시간씩 자율적으로 일하는 경우도 드물지 않다고 설명합니다."
     },
     {
      "heading": "기본 워크플로: 일곱 단계의 필수 절차",
-     "text": "워크플로는 brainstorming, using-git-worktrees, writing-plans, subagent-driven-development 또는 executing-plans, test-driven-development, requesting-code-review, finishing-a-development-branch 순으로 구성된다. 브레인스토밍은 질문으로 의도를 끌어내고, 작은 변경은 채팅에서 합의하며 프로젝트에는 설계 문서를 작성한다. 계획 단계에서는 작업을 2~5분 분량으로 쪼개고 정확한 파일 경로, 완전한 코드, 검증 단계를 담는다. TDD 단계는 실패하는 테스트를 먼저 쓰고 통과시키는 RED-GREEN-REFACTOR를 강제하며, 테스트 이전에 작성된 코드는 삭제한다. 코드 리뷰는 계획 대비 이슈를 심각도별로 보고하고 치명적인 문제는 진행을 막는다. README는 에이전트가 모든 작업 전에 관련 스킬을 확인하며, 이는 권고가 아닌 필수 절차라고 밝힌다."
+     "text": "기본 흐름은 brainstorming, using-git-worktrees, writing-plans, subagent-driven-development 또는 executing-plans, test-driven-development, requesting-code-review, finishing-a-development-branch 순으로 이어집니다. 격리된 브랜치 작업공간을 만들어 테스트 기준선을 확인하고, 작업을 2~5분 단위로 쪼개 정확한 파일 경로와 검증 단계를 붙입니다. TDD 단계에서는 실패하는 테스트를 먼저 작성하게 하고, 테스트보다 먼저 쓴 코드는 삭제합니다. 코드 리뷰는 계획 대비 이슈를 심각도별로 보고하며, 치명적 문제는 진행을 막습니다. README는 이것이 제안이 아닌 필수 워크플로라고 못 박습니다."
     },
     {
-     "heading": "폭넓은 지원 환경과 문제 진단",
-     "text": "설치 방법은 하네스마다 다르며, 여러 도구를 쓴다면 각각 따로 설치해야 한다. 지원 대상은 Claude Code, Antigravity, Codex App, Codex CLI, Cursor, Devin CLI, Factory Droid, Gemini CLI, GitHub Copilot CLI, Grok Build CLI, Kimi Code, OpenCode, Pi, Qwen Code, Hermes Agent, Muse 등이다. Claude Code는 공식 플러그인 마켓플레이스로 설치할 수 있고, Codex와 Grok 등도 공식 마켓플레이스를 통해 제공된다. 세션이 오작동할 때는 에이전트에게 superpowers에서 무엇이 잘못됐는지 파악하라고 요청하면 diagnosing-superpowers 스킬이 호출된다. 기업 사용자를 위한 상업적 지원 문의 창구도 안내돼 있다."
+     "heading": "폭넓은 지원과 문제 진단",
+     "text": "설치는 하네스마다 다르며, 여러 도구를 쓴다면 각각 따로 설치해야 합니다. Claude Code 공식 마켓플레이스, Codex 앱과 CLI, Cursor, Devin CLI, Factory Droid, Gemini CLI, GitHub Copilot CLI, Grok Build CLI, Kimi Code, OpenCode, Pi, Qwen Code, Hermes Agent, Muse, Antigravity 등이 안내되어 있습니다. 세션이 오작동할 때는 에이전트에게 superpowers에서 무엇이 잘못됐는지 알아보라고 요청하면 diagnosing-superpowers 스킬이 호출됩니다. 기업 사용자를 위한 상용 지원 문의 창구도 마련돼 있습니다."
     }
    ],
-   "subheadline": "obra/superpowers, 조합형 스킬로 에이전트의 설계·계획·구현·리뷰 전 과정을 강제하는 프레임워크"
+   "subheadline": "브레인스토밍부터 코드 리뷰까지, 조합형 스킬로 에이전트의 작업 흐름을 강제하는 프레임워크"
   },
   "pbakaus/impeccable": {
    "date": "2026-10-25",
@@ -1638,9 +1638,9 @@
    "text": "Hyprland는 외부 컴포지터 라이브러리에 의존하지 않는 독립형 Wayland 컴포지터로, 창을 자동으로 배치하는 동적 타일링 방식을 사용합니다. 그림자, 블러, 애니메이션 같은 시각 효과를 풍부하게 갖추면서도 설정과 플러그인, 소켓 기반 IPC로 세부 동작을 폭넓게 바꿀 수 있습니다. 게임 성능을 위한 티어링 지원과 빠르게 이어지는 개발 속도도 눈에 띄는 장점입니다."
   },
   "jingyaogong/minimind": {
-   "date": "2026-11-18",
-   "long": false,
-   "text": "MiniMind는 처음부터 직접 학습시킬 수 있도록 설계된 초소형 언어 모델 프로젝트로, 약 64M 파라미터 규모입니다. 사전 학습부터 SFT, LoRA, DPO, PPO, GRPO 같은 강화학습과 모델 증류까지 전체 학습 과정을 PyTorch로 직접 구현해 공개했으며, 단일 NVIDIA 3090에서 SFT 1 epoch을 약 2시간 만에 마쳤다고 밝히고 있습니다. LLM의 구조와 학습 파이프라인을 직접 뜯어보며 배우려는 사람에게 실용적인 교육 자료입니다."
+   "date": "2026-11-26",
+   "long": true,
+   "text": "이 프로젝트는 GPT 계열 모델 규모와 비교하면 매우 작은 약 64M 파라미터의 언어 모델 MiniMind를 0부터 직접 학습하는 과정을 담은 오픈소스 저장소입니다. README에 따르면 SFT 단계를 단일 NVIDIA 3090에서 1 epoch 돌린 실측 시간이 2시간이며 GPU 대여 비용은 약 3위안 수준이라고 밝히고 있습니다. 사전학습부터 SFT, LoRA, DPO, PPO/GRPO, 증류까지 전체 학습 파이프라인을 PyTorch로 직접 구현해 보여준다는 점이 특징이라, 대형 모델을 블랙박스로 쓰는 대신 내부 동작을 직접 익히고 싶은 입문자와 연구자에게 유용한 교재 역할을 합니다."
   },
   "jquery/jquery": {
    "date": "2026-11-19",
