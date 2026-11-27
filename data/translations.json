@@ -219,6 +219,10 @@
   "ko": "Claude Code를 완전한 게임 개발 스튜디오로 전환합니다. AI 에이전트 49개, 워크플로 스킬 72개, 실제 스튜디오 계층 구조를 반영한 완벽한 협업 시스템을 제공합니다.",
   "src": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy."
  },
+ "DoubleGhosty/cool_fox": {
+  "ko": "cool_fox: GTA VI PC용 선도적 CGBJ 런타임 연속 실행 - 파레토 상주, Wine/Vulkan 수정, FPS 제한 해제, Port 5 CBV",
+  "src": "cool_fox: Leading CGBJ runtime continuation for GTA VI PC - Pareto residency, Wine/Vulkan fixes, FPS unlock, Port 5 CBV"
+ },
  "Doug-218/blender-ai-copilot-forge": {
   "ko": "Blender용 장면 설계 AI 코파일럿: 배치를 설명하면 프리미티브, 카메라, 조명, 재질, 부모 관계가 순서대로 조립되는 과정을 볼 수 있습니다. 승인 절차, 이름 있는 실행 취소, 내장 MCP 서버를 갖추고 있습니다. · blender-ai-copilot-forge · blender · blender 3d · blender addon · blender plugin · blender extension · blender scripting · blender automation",
   "src": "A scene-forging AI copilot for Blender—describe the layout and watch primitives, cameras, lights, materials and parenting assemble in ordered steps, with approvals, named undo and a built-in MCP server. · blender-ai-copilot-forge · blender · blender 3d · blender addon · blender plugin · blender extension · blender scripting · blender automation"
@@ -623,6 +627,10 @@
   "ko": "다오자이(岛仔) Daozai: Rust로 만든 Windows 데스크톱 정보 섬입니다. 음악 가사, 이메일 인증 코드, 일정 알림, 할 일, AI 사용량을 화면 상단에 가볍게 띄워 줍니다.",
   "src": "岛仔 Daozai：Rust 构建的 Windows 桌面信息岛。音乐歌词、邮件验证码、日程提醒、待办与 AI 额度，让重要信息轻轻出现在屏幕顶部。"
  },
+ "Reukix/Reloc": {
+  "ko": "로컬 루프백을 통해 동작하는 iOS 액세서리 수준 위치 시뮬레이터(iAP2 / MFi-v3 / NMEA)",
+  "src": "iOS accessory-level location simulator over local loopback (iAP2 / MFi-v3 / NMEA)"
+ },
  "RikiyaT/lm_understand-logs": {
   "ko": "블로그 글 'LLM은 신경망 가중치를 이해하고 작성할 수 있다'의 실험 전체 로그",
   "src": "Complete logs of the experiments in the blog post 'LLMs can understand and write neural network weights'"
@@ -915,6 +923,10 @@
   "ko": "에이전트로 상업용 수준의 제품 홍보 영상을 한 번에 만들어 냅니다. 음악도 작곡하고, 화면을 가리키며 수정할 수도 있습니다. Commercial-grade launch films by your coding agent — point at the frame to change it.",
   "src": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it."
  },
+ "alesha-pro/llm.asm": {
+  "ko": "Qwen3-0.6B 추론(12KB), 베어메탈 부팅 가능 OS(22KB), 실시간 점자 TUI를 갖춘 처음부터 만든 Mini-GPT 트레이너(32KB)를 100% 순수 x86-64 NASM 어셈블리로 구현. C 없음, libc 없음, 의존성 없음.",
+  "src": "Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratch Mini-GPT trainer with live Braille TUI (32 KB) in 100% pure x86-64 NASM assembly. Zero C, zero libc, zero dependencies."
+ },
  "alexeyw/lot-map": {
   "ko": "채팅 옆에 표시되는 실시간 지도로 Claude Code의 동작을 보여줍니다. 도구 호출, 모델 단계, 훅, 스킬, 서브에이전트가 실행되는 순간 빛납니다. 로컬에서만 작동하며 7개 언어를 지원합니다",
   "src": "A live map beside the chat that shows what Claude Code is doing: tool calls, model steps, hooks, skills and subagents light up as they happen. Local only, in 7 languages."
@@ -1028,8 +1040,8 @@
   "src": "An extremely fast Python package and project manager, written in Rust."
  },
  "avatarmanz/VIctory-7900XTX": {
-  "ko": "AMD RX 7900 XTX에 맞춰 조정된 Xbox Series 호환 레이어 VIctory입니다. 준비 속도가 빨라지고, 텍스처 read-back 및 분석 결과를 제공합니다. 게임 파일은 포함되지 않습니다.",
-  "src": "VIctory (Xbox Series compatibility layer) tuned for AMD RX 7900 XTX: faster preparing, texture read-back, findings. No game files."
+  "ko": "목표: 본인이 덤프한 Xbox Series 타이틀을 PC에서 4K 레이트레이싱을 적용한 Series X 버전으로 구현하기. 먼저 Xbox 화면과 질감, 조명을 맞춘 뒤 30fps 이상을 달성합니다. 에뮬레이션이 아닌 포팅이며, RX 7900 XTX를 우선 지원합니다. 게임 파일은 포함되지 않습니다.",
+  "src": "Goal: an Xbox Series title (your own dump) on PC as the Series X version at 4K with ray tracing, picture matching the Xbox first (textures, lighting), then 30+ fps. Porting, not emulating. RX 7900 XTX first. No game files."
  },
  "aws/agent-toolkit-for-aws": {
   "ko": "AI 에이전트가 AWS에서 개발할 수 있도록 돕는, AWS가 공식 지원하는 MCP 서버, 스킬, 플러그인",
@@ -1130,6 +1142,10 @@
  "chadyi/StudyOnTV": {
   "ko": "StudyOnTV(Tiledaoti TV) — 아이들이 질문에 답해 화면 시청 시간을 여는 오픈소스 Android TV 앱입니다. 서버나 계정 없이 TV에서 완전히 실행됩니다. 부모는 QR 코드를 스캔해 LAN을 통해 질문을 관리합니다. 먼저 배우고, 나중에 보세요.",
   "src": "StudyOnTV (Tiledaoti TV) — open-source Android TV app where kids unlock screen time by answering questions. Runs fully on the TV: no server, no account. Parents scan a QR code and manage questions from the LAN. Learn first. Watch later."
+ },
+ "chanke17/KuroCat": {
+  "ko": "KuroCat — 무료 오픈소스 네이티브 데스크톱 고양이 펫 및 OBS 오버레이(Bongo Cat 대안, Swift/C++, 802KB)｜오픈소스 무료 네이티브 데스크톱 고양이(macOS·Win·Linux·UOS 전 플랫폼 / 2.5D 머리 회전 사냥 / 태블릿 지원 / OBS 투명 크로마키 / 온라인 스킨 공방 / 키 입력 무전송)",
+  "src": "KuroCat — Free open-source native desktop cat pet & OBS overlay (Bongo Cat alternative, Swift/C++, 802 KB)｜开源免费原生桌面萌猫（全平台 macOS·Win·Linux·UOS / 2.5D转头捕猎 / 数位板 / OBS透明绿幕 / 在线皮肤工坊 / 零按键上传）"
  },
  "chenglou/handwired": {
   "ko": "기존 자바스크립트 코드를 신경망으로 바꿔 줍니다.",
@@ -1707,6 +1723,10 @@
   "ko": "멋진 자체 호스팅 모니터링 도구",
   "src": "A fancy self-hosted monitoring tool"
  },
+ "lsernau/grh-lean": {
+  "ko": "일반化 리만 가설(Generalized Riemann Hypothesis)에 대한 짧은 Lean 4 증명",
+  "src": "A short Lean 4 proof of the Generalized Riemann Hypothesis"
+ },
  "lukendeasy/open-diagram": {
   "ko": "구조를 스스로 검사하는 밀도 높은 아키텍처 다이어그램용 Python 빌딩 블록입니다.",
   "src": "Python building blocks for dense architecture diagrams that check their own layout"
@@ -1828,8 +1848,8 @@
   "src": "Rust Google Drive direct downloader using pinned libaria2"
  },
  "mjmirza/app-store-compliance": {
-  "ko": "App Store와 Google Play의 흔한 심사 거절을 피하도록 돕습니다. 문서화된 거절 패턴 124개와 해결법을 담은 오픈 플레이북과 제출 전 점검 도구, 개인정보 매니페스트 및 데이터 안전 점검, 추적 중인 마감일 114개(EU AI Act, DSA, COPPA, 연령 관련 법률), AI 코딩 에이전트용 스킬을 제공합니다.",
-  "src": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 114 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents."
+  "ko": "App Store와 Google Play 심사 반려를 미리 피하세요. 125개의 반려 사례와 해결법을 정리한 플레이북과 제출 전 점검 도구, 개인정보 매니페스트 및 데이터 안전성 점검, 117개의 추적 마감일(EU AI Act, DSA, COPPA, 연령 관련 법规 등), AI 코딩 에이전트용 스킬을 제공합니다.",
+  "src": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 125 documented rejection patterns and fixes, privacy manifest and Data safety checks, 117 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents."
  },
  "mksglu/context-mode": {
   "ko": "코딩 에이전트의 컨텍스트 창에 도구 출력이 들어가지 않도록 하는 무료 로컬 플러그인입니다. 샌드박스와 SQLite FTS5 검색을 제공하며, 컨텍스트에 들어가는 바이트를 99% 줄입니다. Claude Code, Codex, Pi, OpenCode, Gemini CLI, Copilot CLI 등 4개 에이전트를 더 지원합니다. 텔레메트리 없음.",
@@ -1899,6 +1919,10 @@
   "ko": "Claude Code에서 일곱 명의 AI 자문가(베이조스, 폴 그레이엄, 호르모지, 게리 베이너척, 댄 마텔, 지노 위크먼, 버핏)가 테이블에 둘러앉아 여러분의 사업 결정을 실시간으로 토론합니다.",
   "src": "Seven AI advisors (Bezos, Paul Graham, Hormozi, Gary Vee, Dan Martell, Gino Wickman, Buffett) debate your business decision in Claude Code, live around a table."
  },
+ "nexu-io/opengame": {
+  "ko": "The Super Game Agent — AI 에이전트를 위한 Unity이자 Unreal이며, 바이럴 게임 100여 종을 리믹스할 수 있습니다. 20개 이상의 코딩 에이전트(Claude Code, Codex, DeepSeek 등)를 풀스택 AI 게임 스튜디오로 바꾸고, 3D 및 미니 게임을 만들어 위챗(微信), 더우인(抖音), TikTok, Telegram, itch.io 등에 배포하세요.",
+  "src": "The Super Game Agent — the Unity & Unreal for AI agents, with 100+ viral games to remix. Turn 20+ coding agents (Claude Code, Codex, DeepSeek, etc.) into a full-stack AI game studio. Build and publish 3D & mini-games to WeChat, Douyin, TikTok, Telegram, itch.io, and more."
+ },
  "nginx/nginx": {
   "ko": "NGINX 오픈 소스 공식 저장소.",
   "src": "The official NGINX Open Source repository."
@@ -1942,6 +1966,10 @@
  "obra/superpowers": {
   "ko": "실제로 잘 동작하는 에이전트 스킬 프레임워크이자 소프트웨어 개발 방법론입니다.",
   "src": "An agentic skills framework & software development methodology that works."
+ },
+ "obsidianmd/obsidian-skills": {
+  "ko": "에이전트가 Obsidian과 Markdown, Bases, JSON Canvas 등 개방형 포맷을 사용하도록 가르쳐 보세요.",
+  "src": "Teach your agent to use Obsidian and open formats including Markdown, Bases, JSON Canvas."
  },
  "olive527/steam-library-manager-windows": {
   "ko": "Steam, Origin, Ubisoft Connect의 다중 라이브러리를 지원하는 Windows용 무료 게임 라이브러리 관리 및 백업 도구입니다.",
@@ -2066,6 +2094,10 @@
  "punkpeye/awesome-mcp-servers": {
   "ko": "MCP 서버 모음.",
   "src": "A collection of MCP servers."
+ },
+ "qianyiai/KuroCat": {
+  "ko": "KuroCat — 무료 오픈소스 3D/2D 데스크톱 타이핑 고양이 및 AI 코딩 동반자(Bongo Cat 대안 · Tauri v2 + Rust + MCP · Claude/Codex/DeepSeek/OBS · Win/Mac/Linux/Android)｜오픈소스 3D 데스크톱 타이핑 검은 고양이 및 AI 동반자",
+  "src": "KuroCat — Free open-source 3D/2D desktop typing cat & AI coding companion (Bongo Cat alternative · Tauri v2 + Rust + MCP · Claude/Codex/DeepSeek/OBS · Win/Mac/Linux/Android)｜开源3D桌面打字小黑猫与AI伴侣"
  },
  "qianyiai/kurocat": {
   "ko": "KuroCat — 무료 오픈소스 3D/2D 데스크톱 타이핑 고양이 & AI 코딩 동반자 (Bongo Cat 대안 · Tauri v2 + Rust + MCP · Claude/Codex/DeepSeek/OBS 지원 · Win/Mac/Linux/Android)｜오픈소스 3D 데스크톱 타이핑 검은 고양이 및 AI 동반자",
@@ -2565,8 +2597,8 @@
   "src": "Self-host the relay for Alma Remote Access — control your desktop Alma from your phone, anywhere. Docker or Cloudflare Workers."
  },
  "yetone/magpie": {
-  "ko": "모든 에이전트의 모델을 한곳에서 관리하세요. 메뉴 바에서 Codex는 DeepSeek으로, Claude Code는 Kimi로 연결할 수 있습니다.",
-  "src": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar."
+  "ko": "Claude, ChatGPT, Copilot, GLM Coding Plan, Kimi Code 등 결제 중인 모든 플랜을 한데 모아 Claude Code, Codex, Claude Desktop 등 어떤 에이전트에서든 사용하세요. 하나의 한도가 소진되면 다음 플랜이 자동으로 이어받습니다.",
+  "src": "Pool every plan you pay for — Claude, ChatGPT, Copilot, GLM Coding Plan, Kimi Code and more — and use them in any agent: Claude Code, Codex, Claude Desktop… When one runs out, the next takes over."
  },
  "yetone/rewind-for-x": {
   "ko": "X 홈 타임라인에서 지나쳐 버린 게시물을 다시 볼 수 있게 해주는 크롬 확장 프로그램",
@@ -2605,8 +2637,8 @@
   "src": "21 个题材的 AI 漫剧全流程 Skill：一句点子生成企划案、资产图提示词、分集剧本、分镜与视频提示词。可用于 Claude Code、WorkBuddy、DeepSeek"
  },
  "zhouxiaoka/autoclip": {
-  "ko": "AutoClip｜링크 하나로 바로 영상 완성. 팟캐스트, 인터뷰, 강의 등 긴 영상을 자동으로 짧은 영상으로 잘라 주고 자막, 표지, 게시 문구를 생성하는 오픈 소스 AI 영상 편집 데스크톱 도구. 더우인(抖音), 샤오홍슈(小红书), TikTok, Reels, YouTube Shorts 지원. Open-source AI video clipping & content repurposing.",
-  "src": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing."
+  "ko": "AutoClip｜오픈소스 OpusClip 대안 — 로컬 우선 AI 클리핑 및 MCP 서버, 구독료 없음. 링크 하나로 원클릭 영상 완성. 팟캐스트, 인터뷰, 강의 등 긴 영상을 자동으로 짧은 영상으로 잘라 자막, 썸네일, 게시 문구를 생성하는 오픈소스 AI 영상 편집 데스크톱 도구로, 더우인(抖音), 샤오홍슈(小红书), TikTok, Reels, YouTube Shorts를 지원합니다.",
+  "src": "AutoClip｜The open-source OpusClip alternative — local-first AI clipping & MCP server, zero subscriptions. 一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。"
  },
  "zhuyansen/new-term-radar": {
   "ko": "새로운 AI 용어를 매일 탐지하는 레이더. 키워드 도구가 목록에 올리기 전에 X, Hugging Face, GitHub, 사이트맵에서 새 모델, 제품, 저장소 이름을 찾아냅니다.",
@@ -2619,6 +2651,10 @@
  "zortos293/Lichii": {
   "ko": "매우 실험적인 닌텐도 스위치 2 에뮬레이터",
   "src": "VERY experimental Nintendo Switch 2 emulator"
+ },
+ "zortos293/XSEmu": {
+  "ko": "XCL 변환 계층 기반의 실험적 Windows용 Xbox Series X|S(GDK) 타이틀 실행기: D3D12.X를 D3D12로, RDNA2 셰이더를 DXIL로 변환합니다.",
+  "src": "Experimental Xbox Series X|S (GDK) title runner for Windows, built on the XCL translation layer: D3D12.X to D3D12, RDNA2 shaders to DXIL."
  },
  "zovulrira1974/blender-ai-copilot-assets": {
   "ko": "Blender용 에셋 특화 AI 코파일럿: 대화 중에 Poly Haven, Sketchfab, Poly Pizza를 검색하고 적합한 항목을 확인한 뒤 사용자 확인 후 가져옵니다. 장면 도구 27종과 내장 MCP 서버를 함께 제공합니다. · blender-ai-copilot-assets · blender · blender 3d · blender addon · blender plugin · blender extension · blender scripting · blender automation",

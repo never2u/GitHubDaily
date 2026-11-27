@@ -67,41 +67,37 @@
    "subheadline": "이미지·영상·오디오·3D까지 아우르는 모듈형 확산 모델 GUI이자 API, 백엔드"
   },
   "HKUDS/CLI-Anything": {
-   "date": "2026-11-19",
-   "headline": "모든 소프트웨어를 에이전트용으로 바꾼다",
+   "date": "2026-11-27",
+   "headline": "모든 소프트웨어를 에이전트용으로, CLI-Anything",
    "highlights": [
-    "어떤 소프트웨어든 에이전트가 쓸 수 있는 CLI로 바꾸는 것이 목표",
-    "`pip install cli-anything-hub` 후 `cli-hub install`로 커뮤니티 CLI 설치",
-    "Claude Code, Cursor, Pi, OpenClaw, nanobot 등 다양한 에이전트 대상",
-    "QGIS, Godot, Obsidian, n8n, Calibre 등 폭넓은 하니스 확대",
-    "보안 강화와 테스트 보강이 함께 진행 중"
+    "Pi, OpenClaw, nanobot, Cursor, Claude Code 등 에이전트용 CLI 생성을 표방",
+    "`pip install cli-anything-hub`로 CLI-Hub 설치 후 `cli-hub install`로 CLI 관리",
+    "pip·npm·brew 등 여러 설치 소스의 공개 CLI를 `public_registry.json`으로 지원",
+    "`defusedxml` 적용 등 보안·품질 보강이 이어지는 중",
+    "PR로 CLI를 추가하거나 위시리스트로 요청 가능"
    ],
    "image": "https://raw.githubusercontent.com/HKUDS/CLI-Anything/HEAD/assets/cli-typing.gif",
-   "image_caption": "CLI-Anything이 내세우는 '모든 소프트웨어를 에이전트 네이티브로' 프로젝트 대표 이미지",
-   "lead": "HKUDS가 공개한 오픈소스 프로젝트 CLI-Anything은 \"오늘의 소프트웨어는 인간을 위한 것이지만, 내일의 사용자는 에이전트\"라는 전제 아래 다양한 소프트웨어를 에이전트가 다룰 수 있는 CLI로 바꾸는 것을 목표로 합니다. 커뮤니티가 만든 CLI를 모아 설치·관리하는 CLI-Hub도 함께 운영됩니다.",
+   "image_caption": "CLI-Anything: AI 에이전트와 세상의 소프트웨어를 잇는 프로젝트 소개 이미지",
+   "lead": "HKUDS/CLI-Anything은 \"모든 소프트웨어를 에이전트 네이티브로 만든다\"는 목표를 내건 Python 기반 프로젝트입니다. 사람을 위해 만들어진 소프트웨어를 AI 에이전트가 명령줄로 다룰 수 있게 하고, 커뮤니티가 만든 CLI를 모아 둔 CLI-Hub까지 함께 운영합니다.",
    "sections": [
     {
      "heading": "무엇을 하는 프로젝트인가",
-     "text": "CLI-Anything은 \"Making ALL Software Agent-Native\"를 내세운 Python 기반 프로젝트입니다. README는 하나의 명령줄로 어떤 소프트웨어든 Pi, OpenClaw, nanobot, Cursor, Claude Code 등 에이전트가 쓸 수 있는 상태로 만들 수 있다고 설명합니다. 사람이 GUI로 쓰던 소프트웨어를 에이전트가 호출 가능한 CLI 하니스 형태로 연결하는 것이 핵심 아이디어입니다."
+     "text": "README는 \"오늘의 소프트웨어는 인간을 위해 존재하지만, 내일의 사용자는 에이전트\"라고 소개합니다. CLI-Anything은 AI 에이전트와 세상의 소프트웨어 사이를 잇는 다리를 표방하며, 하나의 명령줄로 소프트웨어를 Pi, OpenClaw, nanobot, Cursor, Claude Code 같은 에이전트가 쓸 수 있는 상태로 만들 수 있다고 설명합니다. 에이전트가 생성된 CLI와 미리보기, 라이브 미리보기, 궤적 반복(trajectory loop)을 활용해 CAD 모델, 3D 장면, 다이어그램, 게임 플레이, 자막 등 실제 결과물을 만드는 데모도 제공됩니다."
     },
     {
-     "heading": "CLI-Hub: 설치와 관리를 한곳에서",
-     "text": "CLI-Hub는 `pip install cli-anything-hub`로 설치한 뒤 `cli-hub install`로 커뮤니티가 만든 CLI를 찾아보고 설치·관리하는 패키지 관리자입니다. 2026년 4월 10일 출시됐고, 4월 15일 v0.2.0에서는 pip, npm, brew, 번들·시스템 도구 등 여러 설치 경로의 공개 CLI를 지원하도록 `public_registry.json`이 도입됐습니다. 웹 허브는 CLI-Anything CLI와 Public CLI를 나눠 보여주도록 개편됐으며, 실제 설치·업데이트·삭제 흐름을 검증하는 종단 간 점검도 갖췄습니다. 새 CLI를 추가하려면 PR을 열면 되고, 허브에 즉시 반영된다고 안내합니다."
+     "heading": "CLI-Hub: 설치와 관리의 창구",
+     "text": "CLI-Hub는 `pip install cli-anything-hub`로 설치한 뒤 `cli-hub install`로 커뮤니티가 만든 CLI를 찾고 설치하고 관리하는 패키지 관리자입니다. 2026년 4월 10일 출시됐고, 4월 15일 v0.2.0에서는 pip, npm, brew, 번들·시스템 도구 등 여러 설치 경로의 공개 CLI를 지원하도록 확장됐습니다. 이를 위해 `public_registry.json`이 도입됐고, 웹 허브도 CLI-Anything CLI와 Public CLI를 나눈 구성으로 개편됐습니다. 직접 만든 CLI는 PR로 추가할 수 있다고 안내합니다."
     },
     {
-     "heading": "빠르게 늘어나는 하니스 목록",
-     "text": "뉴스 항목을 보면 적용 범위가 넓습니다. QGIS CLI, Godot CLI, Obsidian CLI, n8n CLI, Dify Workflow CLI, Exa CLI, Calibre CLI, Rekordbox CLI, 3MF CLI, MiniMax CLI, Joplin CLI, Zotero CLI 등이 병합되거나 제안됐습니다. 지리정보, 게임 엔진, 지식 관리, 워크플로 자동화, 3D 메시, 음악 라이브러리 등 분야가 다양합니다. 2026년 5월 30일에는 ArcGIS Pro용 CLI와 Hermes 스킬이 제안됐습니다."
+     "heading": "빠르게 늘어나는 CLI 목록",
+     "text": "뉴스 항목을 보면 대상 소프트웨어의 폭이 넓습니다. Obsidian, Zotero, Calibre, Joplin 같은 지식·문서 도구와 QGIS, 3MF, Godot, Unreal Insights, Rekordbox, Openscreen, n8n, Dify Workflow, Exa, WireMock 등이 하네스로 병합되거나 제안됐습니다. 5월 말에는 ArcGIS Pro가 공개 레지스트리 후보로 올랐고, Hermes 스킬도 제안됐습니다. 각 항목에는 단위 테스트와 E2E 검증 수치가 함께 적히는 경우가 많습니다."
     },
     {
-     "heading": "품질과 보안 보강도 병행",
-     "text": "최근 업데이트에는 안정성 작업이 눈에 띕니다. Sketch CLI의 토큰 파일 처리는 경로 탐색과 심볼릭 링크 우회 공격에 대비해 강화됐고, XML·SVG 등 신뢰할 수 없는 입력은 `defusedxml`을 거치도록 바뀌었습니다. DomShell에는 URL 검증과 DOM 정화가 추가됐고, CLI-Hub 레지스트리 처리도 보강됐습니다. 4월 18일에는 모든 SKILL.md를 최상위 `skills/` 디렉터리로 통합해 `npx skills add HKUDS/CLI-Anything --skill -g -y` 방식으로 설치할 수 있게 했습니다."
-    },
-    {
-     "heading": "참여 방법",
-     "text": "프로젝트는 새 CLI 하니스를 만드는 기여자를 모집하고 있으며, 검토를 거쳐 병합되면 커뮤니티 기여자로 합류합니다. 원하는 소프트웨어나 서비스가 있다면 위시리스트 요청도 낼 수 있습니다. 또한 생성된 CLI로 에이전트가 CAD 제작, 3D 장면, 다이어그램, 게임플레이, 자막 등 실제 결과물을 만드는 데모도 공개돼 있습니다."
+     "heading": "보안과 품질, 그리고 참여 방식",
+     "text": "최근 업데이트에는 품질과 보안 강화가 눈에 띕니다. Sketch CLI의 토큰 파일 처리는 경로 탐색과 심볼릭 링크 우회에 대비해 보강됐고, XML·SVG·ODF 등 신뢰할 수 없는 입력의 파싱은 `defusedxml`을 거치도록 바뀌었습니다. 4월 18일에는 모든 SKILL.md를 최상위 `skills/` 디렉터리로 통합해 `npx skills add HKUDS/CLI-Anything --skill -g -y`로 설치할 수 있게 했습니다. 프로젝트는 기여자 등록과 원하는 소프트웨어의 CLI 요청도 받고 있습니다."
     }
    ],
-   "subheadline": "HKUDS의 CLI-Anything, AI 에이전트와 세상의 소프트웨어를 잇는 명령줄 하니스 허브로 성장"
+   "subheadline": "HKUDS가 공개한 오픈소스, AI 에이전트와 기존 소프트웨어 사이의 간극을 CLI로 메운다"
   },
   "HKUDS/DeepTutor": {
    "date": "2026-10-28",
@@ -1793,9 +1789,9 @@
    "text": "Codex Security는 코드베이스에서 취약점을 찾고, 검증하고, 수정하는 것을 돕는 도구로, OpenAI가 제공하는 CLI와 TypeScript SDK 형태로 배포됩니다. Codex 세션 안에서 보안 워크플로를 실행하거나 터미널과 CI 환경에서 저장소를 스캔하는 방식으로 사용할 수 있습니다. 스캔 결과로 보고서와 발견 항목을 저장하고, 패치 생성이나 기존 수정 사항 검증도 이어서 할 수 있습니다. Linear, Jira, GitHub 같은 이슈 트래커 연동과 SARIF, JSON, CSV 내보내기도 지원해 보안 점검을 개발 워크플로에 자연스럽게 녹이려는 프로젝트입니다."
   },
   "openvinotoolkit/openvino": {
-   "date": "2026-11-19",
-   "long": false,
-   "text": "OpenVINO는 딥러닝 모델의 추론 성능을 최적화하고 배포하기 위한 오픈소스 툴킷이다. PyTorch, TensorFlow, ONNX 등 여러 프레임워크에서 학습한 모델을 사용할 수 있고, CPU, 인텔 GPU, NPU 등 다양한 플랫폼에서 추론을 실행할 수 있다고 설명한다. 컴퓨터 비전, 음성 인식, 생성형 AI 등 여러 분야에 적용할 수 있는 점이 강점이다."
+   "date": "2026-11-27",
+   "long": true,
+   "text": "OpenVINO는 딥러닝 모델을 최적화하고 다양한 기기에 배포할 수 있게 해 주는 오픈소스 툴킷입니다. PyTorch, TensorFlow, ONNX, PaddlePaddle 등 여러 프레임워크로 만든 모델을 사용할 수 있으며, CPU, Intel GPU, NPU 같은 하드웨어에서 추론을 실행할 수 있습니다. 엣지부터 클라우드까지 폭넓은 환경을 지원하고, 생성형 AI를 위한 GenAI API도 함께 제공해 AI 애플리케이션을 효율적으로 배포하려는 개발자에게 유용합니다."
   },
   "p-e-w/heretic": {
    "date": "2026-11-03",
