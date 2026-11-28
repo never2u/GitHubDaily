@@ -1,0 +1,1547 @@
+{
+ "date": "2026-11-28",
+ "trending": {
+  "daily": [
+   {
+    "rank": 1,
+    "full_name": "elementalsouls/Claude-BugHunter",
+    "owner": "elementalsouls",
+    "url": "https://github.com/elementalsouls/Claude-BugHunter",
+    "description": "A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+    "language": "Python",
+    "stars": 26159,
+    "forks": 2689,
+    "stars_gained": 1608,
+    "built_by": [
+     "claude",
+     "injectifytest",
+     "elementalsouls",
+     "rudycelekli"
+    ]
+   },
+   {
+    "rank": 2,
+    "full_name": "obra/superpowers",
+    "owner": "obra",
+    "url": "https://github.com/obra/superpowers",
+    "description": "An agentic skills framework & software development methodology that works.",
+    "language": "Shell",
+    "stars": 328353,
+    "forks": 29187,
+    "stars_gained": 922,
+    "built_by": [
+     "obra",
+     "arittr",
+     "claude",
+     "clkao",
+     "arimu1"
+    ]
+   },
+   {
+    "rank": 3,
+    "full_name": "HKUDS/CLI-Anything",
+    "owner": "HKUDS",
+    "url": "https://github.com/HKUDS/CLI-Anything",
+    "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+    "language": "Python",
+    "stars": 67032,
+    "forks": 6168,
+    "stars_gained": 666,
+    "built_by": [
+     "yuh-yang",
+     "claude",
+     "AiMiDi",
+     "omerarslan0",
+     "hito0512"
+    ]
+   },
+   {
+    "rank": 4,
+    "full_name": "jingyaogong/minimind",
+    "owner": "jingyaogong",
+    "url": "https://github.com/jingyaogong/minimind",
+    "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+    "language": "Python",
+    "stars": 72235,
+    "forks": 9446,
+    "stars_gained": 660,
+    "built_by": [
+     "jingyaogong",
+     "iomgaa-ycz",
+     "Linxiushen",
+     "basil-k-aji-dev",
+     "readlnh"
+    ]
+   },
+   {
+    "rank": 5,
+    "full_name": "cursor/plugins",
+    "owner": "cursor",
+    "url": "https://github.com/cursor/plugins",
+    "description": "Cursor plugin specification and official plugins",
+    "language": "TypeScript",
+    "stars": 20023,
+    "forks": 2240,
+    "stars_gained": 243,
+    "built_by": [
+     "cursoragent",
+     "poteto",
+     "djiang-jq",
+     "minupalaniappan",
+     "ericzakariasson"
+    ]
+   },
+   {
+    "rank": 6,
+    "full_name": "firecrawl/firecrawl",
+    "owner": "firecrawl",
+    "url": "https://github.com/firecrawl/firecrawl",
+    "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
+    "language": "TypeScript",
+    "stars": 211714,
+    "forks": 11147,
+    "stars_gained": 822,
+    "built_by": [
+     "nickscamara",
+     "mogery",
+     "rafaelsideguide",
+     "abimaelmartell",
+     "claude"
+    ]
+   },
+   {
+    "rank": 7,
+    "full_name": "nginx/nginx",
+    "owner": "nginx",
+    "url": "https://github.com/nginx/nginx",
+    "description": "The official NGINX Open Source repository.",
+    "language": "C",
+    "stars": 33671,
+    "forks": 8486,
+    "stars_gained": 146,
+    "built_by": [
+     "mdounin",
+     "arut",
+     "vl-homutov",
+     "VBart",
+     "pluknet"
+    ]
+   },
+   {
+    "rank": 8,
+    "full_name": "openvinotoolkit/openvino",
+    "owner": "openvinotoolkit",
+    "url": "https://github.com/openvinotoolkit/openvino",
+    "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+    "language": "C++",
+    "stars": 12960,
+    "forks": 3811,
+    "stars_gained": 151,
+    "built_by": [
+     "ilya-lavrenov",
+     "rkazants",
+     "ilyachur",
+     "mvafin"
+    ]
+   },
+   {
+    "rank": 9,
+    "full_name": "cathrynlavery/diagram-design",
+    "owner": "cathrynlavery",
+    "url": "https://github.com/cathrynlavery/diagram-design",
+    "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+    "language": "HTML",
+    "stars": 74483,
+    "forks": 5028,
+    "stars_gained": 725,
+    "built_by": [
+     "cathrynlavery",
+     "rudycelekli",
+     "mvanhorn",
+     "claude"
+    ]
+   },
+   {
+    "rank": 10,
+    "full_name": "mvanhorn/last30days-skill",
+    "owner": "mvanhorn",
+    "url": "https://github.com/mvanhorn/last30days-skill",
+    "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+    "language": "Python",
+    "stars": 76389,
+    "forks": 6797,
+    "stars_gained": 675,
+    "built_by": [
+     "mvanhorn",
+     "claude",
+     "tmchow",
+     "iliaal"
+    ]
+   },
+   {
+    "rank": 11,
+    "full_name": "google-labs-code/stitch-skills",
+    "owner": "google-labs-code",
+    "url": "https://github.com/google-labs-code/stitch-skills",
+    "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+    "language": "TypeScript",
+    "stars": 13605,
+    "forks": 1629,
+    "stars_gained": 311,
+    "built_by": [
+     "JLXIA",
+     "davideast",
+     "rudycelekli",
+     "Emp1500",
+     "dalmaer"
+    ]
+   },
+   {
+    "rank": 12,
+    "full_name": "mjmirza/app-store-compliance",
+    "owner": "mjmirza",
+    "url": "https://github.com/mjmirza/app-store-compliance",
+    "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 125 documented rejection patterns and fixes, privacy manifest and Data safety checks, 117 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
+    "language": "Shell",
+    "stars": 7950,
+    "forks": 598,
+    "stars_gained": 530,
+    "built_by": [
+     "mjmirza",
+     "rudycelekli",
+     "harpreetkbadhan",
+     "satanyakiv"
+    ]
+   },
+   {
+    "rank": 13,
+    "full_name": "Tracer-Cloud/opensre",
+    "owner": "Tracer-Cloud",
+    "url": "https://github.com/Tracer-Cloud/opensre",
+    "description": "The open-source agent for CI/CD reliability.",
+    "language": "Python",
+    "stars": 16151,
+    "forks": 2161,
+    "stars_gained": 328,
+    "built_by": [
+     "davincios",
+     "VaibhavUpreti",
+     "muddlebee",
+     "YauhenBichel",
+     "cursoragent"
+    ]
+   },
+   {
+    "rank": 14,
+    "full_name": "toeverything/AFFiNE",
+    "owner": "toeverything",
+    "url": "https://github.com/toeverything/AFFiNE",
+    "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
+    "language": "TypeScript",
+    "stars": 79481,
+    "forks": 5839,
+    "stars_gained": 474,
+    "built_by": [
+     "darkskygit",
+     "pengx17",
+     "JimmFly",
+     "EYHN"
+    ]
+   },
+   {
+    "rank": 15,
+    "full_name": "XiaoYouChR/Ghost-Downloader-3",
+    "owner": "XiaoYouChR",
+    "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
+    "description": "The only downloader you need. 下载器的集大成者。",
+    "language": "Python",
+    "stars": 19896,
+    "forks": 1262,
+    "stars_gained": 836,
+    "built_by": [
+     "XiaoYouChR",
+     "i0ntempest",
+     "Alpha-Qian",
+     "LittleNightSong"
+    ]
+   },
+   {
+    "rank": 16,
+    "full_name": "zhouxiaoka/autoclip",
+    "owner": "zhouxiaoka",
+    "url": "https://github.com/zhouxiaoka/autoclip",
+    "description": "AutoClip｜The open-source OpusClip alternative — local-first AI clipping & MCP server, zero subscriptions. 一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。",
+    "language": "Python",
+    "stars": 17625,
+    "forks": 2495,
+    "stars_gained": 718,
+    "built_by": [
+     "zhouxiaoka",
+     "cursoragent",
+     "claude",
+     "codex",
+     "YxYL6125"
+    ]
+   }
+  ],
+  "weekly": [
+   {
+    "rank": 1,
+    "full_name": "backnotprop/plannotator",
+    "owner": "backnotprop",
+    "url": "https://github.com/backnotprop/plannotator",
+    "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+    "language": "TypeScript",
+    "stars": 15434,
+    "forks": 1478,
+    "stars_gained": 1596,
+    "built_by": [
+     "backnotprop",
+     "claude",
+     "rudycelekli",
+     "utpalsinghdev",
+     "leoreisdias"
+    ]
+   },
+   {
+    "rank": 2,
+    "full_name": "google-labs-code/stitch-skills",
+    "owner": "google-labs-code",
+    "url": "https://github.com/google-labs-code/stitch-skills",
+    "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+    "language": "TypeScript",
+    "stars": 13605,
+    "forks": 1629,
+    "stars_gained": 2616,
+    "built_by": [
+     "JLXIA",
+     "davideast",
+     "rudycelekli",
+     "Emp1500",
+     "dalmaer"
+    ]
+   },
+   {
+    "rank": 3,
+    "full_name": "GoogleChrome/modern-web-guidance-src",
+    "owner": "GoogleChrome",
+    "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+    "description": "Keep your coding agent up to date with the latest web best practices",
+    "language": "TypeScript",
+    "stars": 11470,
+    "forks": 848,
+    "stars_gained": 2008,
+    "built_by": [
+     "paulirish",
+     "rviscomi",
+     "micahjo7",
+     "LeaVerou"
+    ]
+   },
+   {
+    "rank": 4,
+    "full_name": "n8n-io/nod",
+    "owner": "n8n-io",
+    "url": "https://github.com/n8n-io/nod",
+    "description": "Open source personal agent with its own computer. It chases invoices, preps your calls and cancels trials on real websites, and asks before it acts. Runs on your machine with the model you choose. By n8n.",
+    "language": "TypeScript",
+    "stars": 4358,
+    "forks": 659,
+    "stars_gained": 1424,
+    "built_by": [
+     "aalises",
+     "frstavares",
+     "claude",
+     "riqwan",
+     "johancutych"
+    ]
+   },
+   {
+    "rank": 5,
+    "full_name": "alibaba/open-code-review",
+    "owner": "alibaba",
+    "url": "https://github.com/alibaba/open-code-review",
+    "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+    "language": "Go",
+    "stars": 56907,
+    "forks": 4705,
+    "stars_gained": 2335,
+    "built_by": [
+     "lizhengfeng101",
+     "wu21-web",
+     "chethanuk",
+     "Qiyuanqiii",
+     "stay-foolish-forever"
+    ]
+   },
+   {
+    "rank": 6,
+    "full_name": "mvanhorn/last30days-skill",
+    "owner": "mvanhorn",
+    "url": "https://github.com/mvanhorn/last30days-skill",
+    "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+    "language": "Python",
+    "stars": 76389,
+    "forks": 6797,
+    "stars_gained": 5072,
+    "built_by": [
+     "mvanhorn",
+     "claude",
+     "tmchow",
+     "iliaal"
+    ]
+   },
+   {
+    "rank": 7,
+    "full_name": "ChromeDevTools/chrome-devtools-mcp",
+    "owner": "ChromeDevTools",
+    "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+    "description": "Chrome DevTools for coding agents",
+    "language": "TypeScript",
+    "stars": 59638,
+    "forks": 4857,
+    "stars_gained": 1150,
+    "built_by": [
+     "OrKoN",
+     "Lightning00Blade",
+     "yulunz",
+     "browser-automation-bot"
+    ]
+   },
+   {
+    "rank": 8,
+    "full_name": "tradermonty/claude-trading-skills",
+    "owner": "tradermonty",
+    "url": "https://github.com/tradermonty/claude-trading-skills",
+    "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+    "language": "Python",
+    "stars": 8733,
+    "forks": 1573,
+    "stars_gained": 1332,
+    "built_by": [
+     "tradermonty",
+     "claude",
+     "pinewhite",
+     "charlie-morrison"
+    ]
+   },
+   {
+    "rank": 9,
+    "full_name": "ag-ui-protocol/ag-ui",
+    "owner": "ag-ui-protocol",
+    "url": "https://github.com/ag-ui-protocol/ag-ui",
+    "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+    "language": "TypeScript",
+    "stars": 21956,
+    "forks": 2193,
+    "stars_gained": 1185,
+    "built_by": [
+     "ranst91",
+     "contextablemark",
+     "mme",
+     "claude",
+     "jpr5"
+    ]
+   },
+   {
+    "rank": 10,
+    "full_name": "meta/astryx",
+    "owner": "meta",
+    "url": "https://github.com/meta/astryx",
+    "description": "An open source design system that's fully customizable and agent ready",
+    "language": "TypeScript",
+    "stars": 33543,
+    "forks": 2612,
+    "stars_gained": 2306,
+    "built_by": [
+     "cixzhang",
+     "josephfarina",
+     "rubyycheung",
+     "vjeux"
+    ]
+   },
+   {
+    "rank": 11,
+    "full_name": "pookjw/HermesEnabler",
+    "owner": "pookjw",
+    "url": "https://github.com/pookjw/HermesEnabler",
+    "description": "Enable Hermès Watch Faces on any Apple Watch devices",
+    "language": "Objective-C",
+    "stars": 2582,
+    "forks": 206,
+    "stars_gained": 296,
+    "built_by": [
+     "pookjw",
+     "metalnodeug",
+     "claude",
+     "SamZong233",
+     "AVGThor"
+    ]
+   },
+   {
+    "rank": 12,
+    "full_name": "we-promise/sure",
+    "owner": "we-promise",
+    "url": "https://github.com/we-promise/sure",
+    "description": "The personal finance app for everyone (by everyone)",
+    "language": "Ruby",
+    "stars": 18227,
+    "forks": 1587,
+    "stars_gained": 1375,
+    "built_by": [
+     "jjmata",
+     "claude",
+     "zachgoll",
+     "Shpigford"
+    ]
+   },
+   {
+    "rank": 13,
+    "full_name": "obsidianmd/obsidian-skills",
+    "owner": "obsidianmd",
+    "url": "https://github.com/obsidianmd/obsidian-skills",
+    "description": "Teach your agent to use Obsidian and open formats including Markdown, Bases, JSON Canvas.",
+    "language": "Shell",
+    "stars": 54352,
+    "forks": 3867,
+    "stars_gained": 950,
+    "built_by": [
+     "kepano",
+     "kpeez",
+     "claude",
+     "catlee",
+     "bencharoenwong"
+    ]
+   },
+   {
+    "rank": 14,
+    "full_name": "dream-num/univer",
+    "owner": "dream-num",
+    "url": "https://github.com/dream-num/univer",
+    "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+    "language": "TypeScript",
+    "stars": 32064,
+    "forks": 2881,
+    "stars_gained": 1280,
+    "built_by": [
+     "jikkai",
+     "DR-Univer",
+     "wpxp123456",
+     "wzhudev",
+     "Dushusir"
+    ]
+   },
+   {
+    "rank": 15,
+    "full_name": "kajisho5/ffmpeg-skill",
+    "owner": "kajisho5",
+    "url": "https://github.com/kajisho5/ffmpeg-skill",
+    "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
+    "language": "Python",
+    "stars": 11919,
+    "forks": 985,
+    "stars_gained": 3169,
+    "built_by": [
+     "claude",
+     "kajisho5",
+     "Ethereal49"
+    ]
+   }
+  ],
+  "monthly": [
+   {
+    "rank": 1,
+    "full_name": "Nutlope/hallmark",
+    "owner": "Nutlope",
+    "url": "https://github.com/Nutlope/hallmark",
+    "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+    "language": "CSS",
+    "stars": 62114,
+    "forks": 3414,
+    "stars_gained": 24421,
+    "built_by": [
+     "Luffixos",
+     "Nutlope",
+     "rudycelekli",
+     "cursoragent",
+     "xunguangzlj-cloud"
+    ]
+   },
+   {
+    "rank": 2,
+    "full_name": "cloudflare/security-audit-skill",
+    "owner": "cloudflare",
+    "url": "https://github.com/cloudflare/security-audit-skill",
+    "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+    "language": "JavaScript",
+    "stars": 79294,
+    "forks": 5375,
+    "stars_gained": 30171,
+    "built_by": [
+     "literally-dan",
+     "CooperSheroy",
+     "kennysarnoski-jarvis"
+    ]
+   },
+   {
+    "rank": 3,
+    "full_name": "milind-soni/OpenMausBot",
+    "owner": "milind-soni",
+    "url": "https://github.com/milind-soni/OpenMausBot",
+    "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+    "language": "TypeScript",
+    "stars": 28566,
+    "forks": 4066,
+    "stars_gained": 22900,
+    "built_by": [
+     "milind-soni",
+     "claude",
+     "AdityaUmale",
+     "aivsomkar",
+     "robinsonnblack"
+    ]
+   },
+   {
+    "rank": 4,
+    "full_name": "pingdotgg/t3code",
+    "owner": "pingdotgg",
+    "url": "https://github.com/pingdotgg/t3code",
+    "description": "The best way to control Claude Code, Codex and more from any computer or phone",
+    "language": "TypeScript",
+    "stars": 82234,
+    "forks": 14484,
+    "stars_gained": 51428,
+    "built_by": [
+     "juliusmarminge",
+     "claude",
+     "maria-rcks",
+     "t3dotgg",
+     "codex"
+    ]
+   },
+   {
+    "rank": 5,
+    "full_name": "anthropics/skills",
+    "owner": "anthropics",
+    "url": "https://github.com/anthropics/skills",
+    "description": "Public repository for Agent Skills",
+    "language": "Python",
+    "stars": 201538,
+    "forks": 23593,
+    "stars_gained": 17791,
+    "built_by": [
+     "rlancemartin",
+     "klazuka",
+     "claude",
+     "cj-ant",
+     "ericharmeling"
+    ]
+   },
+   {
+    "rank": 6,
+    "full_name": "thedotmack/claude-mem",
+    "owner": "thedotmack",
+    "url": "https://github.com/thedotmack/claude-mem",
+    "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+    "language": "TypeScript",
+    "stars": 120225,
+    "forks": 10459,
+    "stars_gained": 17228,
+    "built_by": [
+     "thedotmack",
+     "claude",
+     "Afloat16",
+     "rudycelekli",
+     "DeryFerd"
+    ]
+   },
+   {
+    "rank": 7,
+    "full_name": "Jakeschincariol/instagram-agent-skill",
+    "owner": "Jakeschincariol",
+    "url": "https://github.com/Jakeschincariol/instagram-agent-skill",
+    "description": "Thirteen Claude skills that run an Instagram account: Reels off 26 scored hook formulas, a viral research skill, a caption linter, and a humanizer. Free, MIT.",
+    "language": "Python",
+    "stars": 9889,
+    "forks": 1656,
+    "stars_gained": 6548,
+    "built_by": [
+     "claude",
+     "Jakeschincariol"
+    ]
+   },
+   {
+    "rank": 8,
+    "full_name": "backnotprop/plannotator",
+    "owner": "backnotprop",
+    "url": "https://github.com/backnotprop/plannotator",
+    "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+    "language": "TypeScript",
+    "stars": 15434,
+    "forks": 1478,
+    "stars_gained": 5746,
+    "built_by": [
+     "backnotprop",
+     "claude",
+     "rudycelekli",
+     "utpalsinghdev",
+     "leoreisdias"
+    ]
+   },
+   {
+    "rank": 9,
+    "full_name": "Ebony-Vinyl/dsh-our-free-model",
+    "owner": "Ebony-Vinyl",
+    "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+    "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
+    "language": "JavaScript",
+    "stars": 89166,
+    "forks": 2525,
+    "stars_gained": 45874,
+    "built_by": [
+     "zixin947",
+     "Ebony-Vinyl",
+     "look-back-lysj",
+     "menghuanshiguang"
+    ]
+   },
+   {
+    "rank": 10,
+    "full_name": "HKUDS/DeepTutor",
+    "owner": "HKUDS",
+    "url": "https://github.com/HKUDS/DeepTutor",
+    "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ .",
+    "language": "Python",
+    "stars": 63818,
+    "forks": 7691,
+    "stars_gained": 19184,
+    "built_by": [
+     "pancacake",
+     "claude",
+     "evan188199-tech",
+     "Pinkllow"
+    ]
+   },
+   {
+    "rank": 11,
+    "full_name": "yetone/magpie",
+    "owner": "yetone",
+    "url": "https://github.com/yetone/magpie",
+    "description": "Pool every plan you pay for — Claude, ChatGPT, Copilot, GLM Coding Plan, Kimi Code and more — and use them in any agent: Claude Code, Codex, Claude Desktop… When one runs out, the next takes over.",
+    "language": "Go",
+    "stars": 42553,
+    "forks": 3913,
+    "stars_gained": 19543,
+    "built_by": [
+     "yetone",
+     "ggbdpq",
+     "yinwu01",
+     "claude",
+     "waitingsnow"
+    ]
+   },
+   {
+    "rank": 12,
+    "full_name": "pbakaus/impeccable",
+    "owner": "pbakaus",
+    "url": "https://github.com/pbakaus/impeccable",
+    "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+    "language": "Rust",
+    "stars": 118083,
+    "forks": 7074,
+    "stars_gained": 28497,
+    "built_by": [
+     "pbakaus",
+     "claude",
+     "abdulwahabone",
+     "cursoragent"
+    ]
+   },
+   {
+    "rank": 13,
+    "full_name": "sherlock-project/sherlock",
+    "owner": "sherlock-project",
+    "url": "https://github.com/sherlock-project/sherlock",
+    "description": "Hunt down social media accounts by username across social networks",
+    "language": "Python",
+    "stars": 118587,
+    "forks": 13520,
+    "stars_gained": 23807,
+    "built_by": [
+     "sdushantha",
+     "hoadlck",
+     "ppfeister",
+     "TheYahya",
+     "Czechball"
+    ]
+   },
+   {
+    "rank": 14,
+    "full_name": "AgriciDaniel/claude-seo",
+    "owner": "AgriciDaniel",
+    "url": "https://github.com/AgriciDaniel/claude-seo",
+    "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
+    "language": "Python",
+    "stars": 32893,
+    "forks": 3988,
+    "stars_gained": 10462,
+    "built_by": [
+     "AgriciDaniel",
+     "claude",
+     "Afloat16",
+     "Nordalux"
+    ]
+   },
+   {
+    "rank": 15,
+    "full_name": "google-labs-code/stitch-skills",
+    "owner": "google-labs-code",
+    "url": "https://github.com/google-labs-code/stitch-skills",
+    "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+    "language": "TypeScript",
+    "stars": 13605,
+    "forks": 1629,
+    "stars_gained": 4912,
+    "built_by": [
+     "JLXIA",
+     "davideast",
+     "rudycelekli",
+     "Emp1500",
+     "dalmaer"
+    ]
+   },
+   {
+    "rank": 16,
+    "full_name": "heygen-com/hyperframes",
+    "owner": "heygen-com",
+    "url": "https://github.com/heygen-com/hyperframes",
+    "description": "Open-source AI video editor: edit your own footage, or create and remake any video with Claude Code, Codex or the free Studio app. Write HTML, render MP4. By HeyGen.",
+    "language": "TypeScript",
+    "stars": 91553,
+    "forks": 8543,
+    "stars_gained": 18066,
+    "built_by": [
+     "miguel-heygen",
+     "claude",
+     "vanceingalls",
+     "jrusso1020",
+     "ukimsanov"
+    ]
+   },
+   {
+    "rank": 17,
+    "full_name": "elementalsouls/Claude-BugHunter",
+    "owner": "elementalsouls",
+    "url": "https://github.com/elementalsouls/Claude-BugHunter",
+    "description": "A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+    "language": "Python",
+    "stars": 26159,
+    "forks": 2689,
+    "stars_gained": 20246,
+    "built_by": [
+     "claude",
+     "injectifytest",
+     "elementalsouls",
+     "rudycelekli"
+    ]
+   },
+   {
+    "rank": 18,
+    "full_name": "kajisho5/ffmpeg-skill",
+    "owner": "kajisho5",
+    "url": "https://github.com/kajisho5/ffmpeg-skill",
+    "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
+    "language": "Python",
+    "stars": 11919,
+    "forks": 985,
+    "stars_gained": 8708,
+    "built_by": [
+     "claude",
+     "kajisho5",
+     "Ethereal49"
+    ]
+   },
+   {
+    "rank": 19,
+    "full_name": "vercel-labs/agent-browser",
+    "owner": "vercel-labs",
+    "url": "https://github.com/vercel-labs/agent-browser",
+    "description": "Browser automation CLI for AI agents",
+    "language": "Rust",
+    "stars": 54340,
+    "forks": 3792,
+    "stars_gained": 9765,
+    "built_by": [
+     "ctate",
+     "Railly",
+     "lahfir",
+     "claude"
+    ]
+   }
+  ]
+ },
+ "new_arrivals": [
+  {
+   "rank": 1,
+   "full_name": "Marvisak/VIctory",
+   "owner": "Marvisak",
+   "url": "https://github.com/Marvisak/VIctory",
+   "description": "An attempt at running GTA VI on PC",
+   "language": "Rust",
+   "stars": 13831,
+   "forks": 2378,
+   "stars_gained": 13831,
+   "topics": [],
+   "created_at": "2026-11-23T21:47:25Z",
+   "built_by": [
+    "Marvisak"
+   ]
+  },
+  {
+   "rank": 2,
+   "full_name": "trustno1-coder/VIctory-NVIDIA",
+   "owner": "trustno1-coder",
+   "url": "https://github.com/trustno1-coder/VIctory-NVIDIA",
+   "description": "VIctory (Xbox Series compatibility layer) tuned for NVIDIA RTX cards: Series X at 2560x1440 with DLSS, about 26-30 fps on an RTX 5070, DLSS frame generation 2x-6x, an F1 settings menu and F3 stats panel, open water without dark blocks. Built on many repos combined into one. No game files or NVIDIA files included.",
+   "language": "Rust",
+   "stars": 3528,
+   "forks": 1247,
+   "stars_gained": 3528,
+   "topics": [
+    "compatibility-layer",
+    "directx-12",
+    "dlss",
+    "frame-generation",
+    "nvidia",
+    "rust"
+   ],
+   "created_at": "2026-11-25T23:35:29Z",
+   "built_by": [
+    "trustno1-coder"
+   ]
+  },
+  {
+   "rank": 3,
+   "full_name": "fxceless/victory-fork",
+   "owner": "fxceless",
+   "url": "https://github.com/fxceless/victory-fork",
+   "description": "Work-in-progress fork of VIctory: getting an Xbox Series title to render and run on a Windows PC. No game files.",
+   "language": "Rust",
+   "stars": 3362,
+   "forks": 1016,
+   "stars_gained": 3362,
+   "topics": [],
+   "created_at": "2026-11-24T18:02:37Z",
+   "built_by": [
+    "fxceless"
+   ]
+  },
+  {
+   "rank": 4,
+   "full_name": "ProjectLeonida/mandy",
+   "owner": "ProjectLeonida",
+   "url": "https://github.com/ProjectLeonida/mandy",
+   "description": "A continuation of Leonida, the Xbox > PC port interface for GTA VI",
+   "language": "Python",
+   "stars": 2912,
+   "forks": 630,
+   "stars_gained": 2912,
+   "topics": [],
+   "created_at": "2026-11-23T23:54:39Z",
+   "built_by": [
+    "ProjectLeonida"
+   ]
+  },
+  {
+   "rank": 5,
+   "full_name": "nexu-io/opengame",
+   "owner": "nexu-io",
+   "url": "https://github.com/nexu-io/opengame",
+   "description": "The Super Game Agent — the Unity & Unreal for AI agents, with 100+ viral games to remix. Turn 20+ coding agents (Claude Code, Codex, DeepSeek, etc.) into a full-stack AI game studio. Build and publish 3D & mini-games to WeChat, Douyin, TikTok, Telegram, itch.io, and more.",
+   "language": "TypeScript",
+   "stars": 2301,
+   "forks": 371,
+   "stars_gained": 2301,
+   "topics": [
+    "agent-skills",
+    "ai-agents",
+    "ai-game-generator",
+    "claude-code",
+    "codex",
+    "deepseek"
+   ],
+   "created_at": "2026-11-25T10:35:45Z",
+   "built_by": [
+    "nexu-io"
+   ]
+  },
+  {
+   "rank": 6,
+   "full_name": "alesha-pro/llm.asm",
+   "owner": "alesha-pro",
+   "url": "https://github.com/alesha-pro/llm.asm",
+   "description": "Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratch Mini-GPT trainer with live Braille TUI (32 KB) in 100% pure x86-64 NASM assembly. Zero C, zero libc, zero dependencies.",
+   "language": "Assembly",
+   "stars": 2245,
+   "forks": 344,
+   "stars_gained": 2245,
+   "topics": [
+    "assembly",
+    "avx2",
+    "bare-metal",
+    "llm",
+    "machine-learning",
+    "nasm"
+   ],
+   "created_at": "2026-11-25T07:28:51Z",
+   "built_by": [
+    "alesha-pro"
+   ]
+  },
+  {
+   "rank": 7,
+   "full_name": "os6/nospeaker",
+   "owner": "os6",
+   "url": "https://github.com/os6/nospeaker",
+   "description": "make your macbook's trackpad talk using its haptic motor",
+   "language": "Swift",
+   "stars": 1992,
+   "forks": 107,
+   "stars_gained": 1992,
+   "topics": [
+    "haptics",
+    "macos",
+    "swift",
+    "trackpad"
+   ],
+   "created_at": "2026-11-22T12:05:54Z",
+   "built_by": [
+    "os6"
+   ]
+  },
+  {
+   "rank": 8,
+   "full_name": "crhywun/g1-acq",
+   "owner": "crhywun",
+   "url": "https://github.com/crhywun/g1-acq",
+   "description": "",
+   "language": "JavaScript",
+   "stars": 1796,
+   "forks": 411,
+   "stars_gained": 1796,
+   "topics": [],
+   "created_at": "2026-11-22T10:53:17Z",
+   "built_by": [
+    "crhywun"
+   ]
+  },
+  {
+   "rank": 9,
+   "full_name": "Reukix/Reloc",
+   "owner": "Reukix",
+   "url": "https://github.com/Reukix/Reloc",
+   "description": "iOS accessory-level location simulator over local loopback (iAP2 / MFi-v3 / NMEA)",
+   "language": "Swift",
+   "stars": 1693,
+   "forks": 344,
+   "stars_gained": 1693,
+   "topics": [],
+   "created_at": "2026-11-25T17:29:48Z",
+   "built_by": [
+    "Reukix"
+   ]
+  },
+  {
+   "rank": 10,
+   "full_name": "Avaneesh-Inamdar/Stream-Tube-Desktop",
+   "owner": "Avaneesh-Inamdar",
+   "url": "https://github.com/Avaneesh-Inamdar/Stream-Tube-Desktop",
+   "description": "Native YouTube client for Windows in Rust, with SponsorBlock, DeArrow and Return YouTube Dislike built in",
+   "language": "Rust",
+   "stars": 1657,
+   "forks": 147,
+   "stars_gained": 1657,
+   "topics": [
+    "dearrow",
+    "desktop-app",
+    "gpui",
+    "mpv",
+    "rust",
+    "sponsorblock"
+   ],
+   "created_at": "2026-11-22T18:50:17Z",
+   "built_by": [
+    "Avaneesh-Inamdar"
+   ]
+  },
+  {
+   "rank": 11,
+   "full_name": "Pixel679-cmyk/windows-titlebar-blur-customizer",
+   "owner": "Pixel679-cmyk",
+   "url": "https://github.com/Pixel679-cmyk/windows-titlebar-blur-customizer",
+   "description": "Customize Windows 10 and 11 title bar effects with Aero, Acrylic, Mica and advanced DWM blur effects.",
+   "language": "C++",
+   "stars": 1505,
+   "forks": 0,
+   "stars_gained": 1505,
+   "topics": [
+    "acrylic",
+    "aero",
+    "aeroglass",
+    "blur",
+    "cplusplus",
+    "cpp"
+   ],
+   "created_at": "2026-11-26T21:26:56Z",
+   "built_by": [
+    "Pixel679-cmyk"
+   ]
+  },
+  {
+   "rank": 12,
+   "full_name": "Indigo-0167/universal-game-mod-manager",
+   "owner": "Indigo-0167",
+   "url": "https://github.com/Indigo-0167/universal-game-mod-manager",
+   "description": "Free Windows game mod manager to discover, install, update and manage universal Unity and Unreal Engine mods.",
+   "language": "Rust",
+   "stars": 1371,
+   "forks": 1,
+   "stars_gained": 1371,
+   "topics": [
+    "automation",
+    "desktop",
+    "epic-games",
+    "game-development",
+    "game-engine",
+    "game-mods"
+   ],
+   "created_at": "2026-11-23T21:30:10Z",
+   "built_by": [
+    "Indigo-0167"
+   ]
+  },
+  {
+   "rank": 13,
+   "full_name": "deterministic-machines/deslop-please",
+   "owner": "deterministic-machines",
+   "url": "https://github.com/deterministic-machines/deslop-please",
+   "description": "Bring (back) sanity to your code",
+   "language": "Rust",
+   "stars": 1342,
+   "forks": 74,
+   "stars_gained": 1342,
+   "topics": [],
+   "created_at": "2026-11-22T05:36:03Z",
+   "built_by": [
+    "deterministic-machines"
+   ]
+  },
+  {
+   "rank": 14,
+   "full_name": "ZigZagBoi1/ScarlettPort",
+   "owner": "ZigZagBoi1",
+   "url": "https://github.com/ZigZagBoi1/ScarlettPort",
+   "description": "Native PC port layer for an Xbox Series X|S title: the game's x64 code runs on your CPU and its RDNA2 GPU code is recompiled for your graphics card. Bring your own files.",
+   "language": "Rust",
+   "stars": 1329,
+   "forks": 189,
+   "stars_gained": 1329,
+   "topics": [
+    "amd",
+    "compatibility-layer",
+    "d3d12",
+    "directx12",
+    "dxil",
+    "game-port"
+   ],
+   "created_at": "2026-11-24T09:36:26Z",
+   "built_by": [
+    "ZigZagBoi1"
+   ]
+  },
+  {
+   "rank": 15,
+   "full_name": "Umbra9179/clipboard-history-manager-windows",
+   "owner": "Umbra9179",
+   "url": "https://github.com/Umbra9179/clipboard-history-manager-windows",
+   "description": "Free open-source Windows clipboard manager with searchable history, image previews, tags, editing and backup.",
+   "language": "C#",
+   "stars": 1271,
+   "forks": 1,
+   "stars_gained": 1271,
+   "topics": [
+    "clipboard",
+    "clipboard-history",
+    "clipboard-manager",
+    "desktop-app",
+    "desktop-application",
+    "dotnet"
+   ],
+   "created_at": "2026-11-23T21:40:15Z",
+   "built_by": [
+    "Umbra9179"
+   ]
+  },
+  {
+   "rank": 16,
+   "full_name": "solv4626/steam-achievement-manager-windows",
+   "owner": "solv4626",
+   "url": "https://github.com/solv4626/steam-achievement-manager-windows",
+   "description": "Free open-source Steam Achievement Manager for Windows to manage game achievements and edit Steam game statistics.",
+   "language": "Rust",
+   "stars": 1236,
+   "forks": 1,
+   "stars_gained": 1236,
+   "topics": [
+    "achievement-management",
+    "achievements",
+    "desktop",
+    "desktop-application",
+    "game-stats",
+    "game-utility"
+   ],
+   "created_at": "2026-11-23T21:31:33Z",
+   "built_by": [
+    "solv4626"
+   ]
+  },
+  {
+   "rank": 17,
+   "full_name": "kai415-debug/ffmpeg-video-audio-converter",
+   "owner": "kai415-debug",
+   "url": "https://github.com/kai415-debug/ffmpeg-video-audio-converter",
+   "description": "Free Windows FFmpeg GUI for video and audio conversion, batch transcoding, and multimedia format encoding.",
+   "language": "C++",
+   "stars": 1136,
+   "forks": 0,
+   "stars_gained": 1136,
+   "topics": [
+    "audio",
+    "audio-converter",
+    "conversion",
+    "converter-encoding",
+    "cpp",
+    "desktop"
+   ],
+   "created_at": "2026-11-23T21:32:56Z",
+   "built_by": [
+    "kai415-debug"
+   ]
+  },
+  {
+   "rank": 18,
+   "full_name": "Basil0879/steam-game-idler",
+   "owner": "Basil0879",
+   "url": "https://github.com/Basil0879/steam-game-idler",
+   "description": "Free Steam idler for trading card farming, achievement management, playtime boosting and multi-account automation on Windows.",
+   "language": "TypeScript",
+   "stars": 1073,
+   "forks": 0,
+   "stars_gained": 1073,
+   "topics": [
+    "achievement-management",
+    "archisteamfarm",
+    "asf",
+    "automation",
+    "desktop",
+    "idle-master"
+   ],
+   "created_at": "2026-11-23T21:19:48Z",
+   "built_by": [
+    "Basil0879"
+   ]
+  },
+  {
+   "rank": 19,
+   "full_name": "Nebula4207/av1-video-encoder-gui",
+   "owner": "Nebula4207",
+   "url": "https://github.com/Nebula4207/av1-video-encoder-gui",
+   "description": "Free Windows AV1 video encoder GUI for aomenc, rav1e, SVT-AV1, NVENC, Quick Sync and VP9 with parallel encoding.",
+   "language": "C#",
+   "stars": 1066,
+   "forks": 1,
+   "stars_gained": 1066,
+   "topics": [
+    "aom",
+    "aomenc",
+    "av1",
+    "av1-encoders",
+    "chunks",
+    "encoder"
+   ],
+   "created_at": "2026-11-23T21:34:14Z",
+   "built_by": [
+    "Nebula4207"
+   ]
+  },
+  {
+   "rank": 20,
+   "full_name": "lsernau/grh-lean",
+   "owner": "lsernau",
+   "url": "https://github.com/lsernau/grh-lean",
+   "description": "A short Lean 4 proof of the Generalized Riemann Hypothesis",
+   "language": "Lean",
+   "stars": 1057,
+   "forks": 119,
+   "stars_gained": 1057,
+   "topics": [],
+   "created_at": "2026-11-25T20:42:55Z",
+   "built_by": [
+    "lsernau"
+   ]
+  },
+  {
+   "rank": 21,
+   "full_name": "olive527/steam-library-manager-windows",
+   "owner": "olive527",
+   "url": "https://github.com/olive527/steam-library-manager-windows",
+   "description": "Free Windows game library manager and backup tool for Steam, Origin and Ubisoft Connect with multi-library support.",
+   "language": "C#",
+   "stars": 1023,
+   "forks": 0,
+   "stars_gained": 1023,
+   "topics": [
+    "backup",
+    "backup-tool",
+    "csharp",
+    "desktop",
+    "dotnet",
+    "game-backup"
+   ],
+   "created_at": "2026-11-23T21:18:03Z",
+   "built_by": [
+    "olive527"
+   ]
+  },
+  {
+   "rank": 22,
+   "full_name": "umbradev315/ffmpeg-video-audio-converter",
+   "owner": "umbradev315",
+   "url": "https://github.com/umbradev315/ffmpeg-video-audio-converter",
+   "description": "Free open-source FFmpeg GUI for Windows to convert video and audio, batch process media, and analyze quality.",
+   "language": "Kotlin",
+   "stars": 964,
+   "forks": 0,
+   "stars_gained": 964,
+   "topics": [
+    "audio-converter",
+    "audio-encoding",
+    "audio-processing",
+    "batch-processing",
+    "desktop-app",
+    "ffmpeg"
+   ],
+   "created_at": "2026-11-23T21:37:25Z",
+   "built_by": [
+    "umbradev315"
+   ]
+  },
+  {
+   "rank": 23,
+   "full_name": "zortos293/XSEmu",
+   "owner": "zortos293",
+   "url": "https://github.com/zortos293/XSEmu",
+   "description": "Experimental Xbox Series X|S (GDK) title runner for Windows, built on the XCL translation layer: D3D12.X to D3D12, RDNA2 shaders to DXIL.",
+   "language": "Rust",
+   "stars": 924,
+   "forks": 61,
+   "stars_gained": 924,
+   "topics": [
+    "compatibility-layer",
+    "d3d12",
+    "dxil",
+    "emulator",
+    "gdk",
+    "hlsl"
+   ],
+   "created_at": "2026-11-23T12:57:17Z",
+   "built_by": [
+    "zortos293"
+   ]
+  },
+  {
+   "rank": 24,
+   "full_name": "peak85-sketch/stardew-valley-mod-manager",
+   "owner": "peak85-sketch",
+   "url": "https://github.com/peak85-sketch/stardew-valley-mod-manager",
+   "description": "Free open-source Stardew Valley mod manager for Windows with SMAPI support, mod updates and custom profiles.",
+   "language": "C#",
+   "stars": 922,
+   "forks": 0,
+   "stars_gained": 922,
+   "topics": [
+    "avaloniaui",
+    "cross-platform",
+    "csharp",
+    "desktop",
+    "desktop-application",
+    "dotnet"
+   ],
+   "created_at": "2026-11-23T21:28:46Z",
+   "built_by": [
+    "peak85-sketch"
+   ]
+  },
+  {
+   "rank": 25,
+   "full_name": "DeadInternetStudios/100x-engineer-skill",
+   "owner": "DeadInternetStudios",
+   "url": "https://github.com/DeadInternetStudios/100x-engineer-skill",
+   "description": "100x is a skill by a former Cursor engineer that turns prompts into formally verified, production-ready code",
+   "language": "JavaScript",
+   "stars": 900,
+   "forks": 128,
+   "stars_gained": 900,
+   "topics": [
+    "agent-skills",
+    "ai-agents",
+    "claude-code",
+    "codex",
+    "cursor",
+    "formal-verification"
+   ],
+   "created_at": "2026-11-23T11:06:07Z",
+   "built_by": [
+    "DeadInternetStudios"
+   ]
+  },
+  {
+   "rank": 26,
+   "full_name": "DoubleGhosty/cool_fox",
+   "owner": "DoubleGhosty",
+   "url": "https://github.com/DoubleGhosty/cool_fox",
+   "description": "cool_fox: Leading CGBJ runtime continuation for GTA VI PC - Pareto residency, Wine/Vulkan fixes, FPS unlock, Port 5 CBV",
+   "language": "Rust",
+   "stars": 859,
+   "forks": 469,
+   "stars_gained": 859,
+   "topics": [],
+   "created_at": "2026-11-26T08:48:31Z",
+   "built_by": [
+    "DoubleGhosty"
+   ]
+  },
+  {
+   "rank": 27,
+   "full_name": "erkamyaman/safe-anything",
+   "owner": "erkamyaman",
+   "url": "https://github.com/erkamyaman/safe-anything",
+   "description": "Find the holes before someone else does. A fast, 100% Rust vulnerability scanner: XSS, SQL injection, leaked secrets, dependency CVEs and AI agent setups.",
+   "language": "Rust",
+   "stars": 831,
+   "forks": 95,
+   "stars_gained": 831,
+   "topics": [
+    "ai-agents",
+    "claude-code",
+    "claude-code-plugin",
+    "cli",
+    "codex",
+    "cursor"
+   ],
+   "created_at": "2026-11-22T16:44:10Z",
+   "built_by": [
+    "erkamyaman"
+   ]
+  },
+  {
+   "rank": 28,
+   "full_name": "chanke17/KuroCat",
+   "owner": "chanke17",
+   "url": "https://github.com/chanke17/KuroCat",
+   "description": "KuroCat — Free open-source native desktop cat pet & OBS overlay (Bongo Cat alternative, Swift/C++, 802 KB)｜开源免费原生桌面萌猫（全平台 macOS·Win·Linux·UOS / 2.5D转头捕猎 / 数位板 / OBS透明绿幕 / 在线皮肤工坊 / 零按键上传）",
+   "language": "C++",
+   "stars": 765,
+   "forks": 82,
+   "stars_gained": 765,
+   "topics": [
+    "bongo-cat",
+    "bongo-cat-alternative",
+    "cpp",
+    "desktop-companion",
+    "desktop-pet",
+    "drawing-tablet"
+   ],
+   "created_at": "2026-11-23T01:06:18Z",
+   "built_by": [
+    "chanke17"
+   ]
+  },
+  {
+   "rank": 29,
+   "full_name": "gary23w/f-ck_data_brokers",
+   "owner": "gary23w",
+   "url": "https://github.com/gary23w/f-ck_data_brokers",
+   "description": "fck_data_brokers.py is a free, open-source Python script that sends opt-out and deletion requests to data brokers on your behalf.",
+   "language": "Python",
+   "stars": 716,
+   "forks": 56,
+   "stars_gained": 716,
+   "topics": [
+    "ccpa",
+    "cli",
+    "data-brokers",
+    "data-deletion",
+    "gdpr",
+    "lgpd"
+   ],
+   "created_at": "2026-11-26T17:53:07Z",
+   "built_by": [
+    "gary23w"
+   ]
+  },
+  {
+   "rank": 30,
+   "full_name": "riveran0226/windows-explorer-blur-mica",
+   "owner": "riveran0226",
+   "url": "https://github.com/riveran0226/windows-explorer-blur-mica",
+   "description": "Free Windows 10 & 11 Explorer customization tool for Acrylic, Mica, transparency and background blur effects.",
+   "language": "C++",
+   "stars": 611,
+   "forks": 0,
+   "stars_gained": 611,
+   "topics": [
+    "acrylic",
+    "blur",
+    "cpp",
+    "customization",
+    "dark-mode",
+    "desktop"
+   ],
+   "created_at": "2026-11-27T15:22:34Z",
+   "built_by": [
+    "riveran0226"
+   ]
+  }
+ ],
+ "layout": {
+  "top": "firecrawl/firecrawl",
+  "rising": [
+   "cathrynlavery/diagram-design",
+   "mjmirza/app-store-compliance",
+   "toeverything/AFFiNE"
+  ],
+  "fresh": [],
+  "steady": [
+   "elementalsouls/Claude-BugHunter",
+   "obra/superpowers",
+   "HKUDS/CLI-Anything",
+   "jingyaogong/minimind",
+   "cursor/plugins",
+   "nginx/nginx",
+   "openvinotoolkit/openvino",
+   "mvanhorn/last30days-skill",
+   "google-labs-code/stitch-skills",
+   "Tracer-Cloud/opensre",
+   "XiaoYouChR/Ghost-Downloader-3",
+   "zhouxiaoka/autoclip"
+  ],
+  "arrivals": [
+   "trustno1-coder/VIctory-NVIDIA",
+   "ProjectLeonida/mandy",
+   "nexu-io/opengame",
+   "Reukix/Reloc"
+  ]
+ },
+ "top_story": "firecrawl/firecrawl"
+}

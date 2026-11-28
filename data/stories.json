@@ -599,41 +599,37 @@
    "subheadline": "681건의 실제 리포트 패턴으로 AI를 레드팀 연구원으로 바꾸다"
   },
   "firecrawl/firecrawl": {
-   "date": "2026-11-20",
-   "headline": "파이어크롤, AI 에이전트용 지식 인프라로",
+   "date": "2026-11-28",
+   "headline": "AI 에이전트용 지식 인프라, 파이어크롤",
    "highlights": [
-    "하나의 바이너리로 스크레이프·크롤·맵을 로컬에서 실행하는 Firecrawl Local",
-    "`init` 한 번으로 Claude Code, Cursor 등 여러 에이전트에 MCP 서버 등록",
-    "`serve`로 localhost:3002에서 Firecrawl v2 API 제공, 로컬 경로는 API 키 불필요",
-    "Firecrawl Keyless로 월 1,000 무료 크레딧을 키나 가입 없이 제공",
-    "Alexandria를 통해 550개 이상의 데이터 제공자를 단일 API로 접근"
+    "Firecrawl Local, Cloud, 셀프 호스팅 세 가지 방식 지원",
+    "init 한 번으로 Claude Code, Cursor, Codex 등에 MCP 서버 등록",
+    "serve로 localhost:3002에서 Firecrawl v2 API 제공",
+    "Alexandria로 550개 이상 데이터 제공자를 하나의 API로 접근",
+    "라이선스는 주로 AGPL-3.0, SDK는 MIT"
    ],
    "image": "https://raw.githubusercontent.com/firecrawl/firecrawl/main/img/open-source-cloud.png",
-   "image_caption": "AI 에이전트를 위한 지식 인프라를 내세운 Firecrawl의 대표 이미지",
-   "lead": "firecrawl/firecrawl은 검색, 스크레이핑, 550개 이상의 데이터 제공자를 하나의 API로 제공하는 'AI 에이전트용 지식 인프라'를 표방합니다. 이 저장소에는 로컬 실행 도구인 Firecrawl Local과 셀프호스팅 서버 코드, 세 가지 사용 방식에 모두 쓰이는 SDK가 담겨 있습니다.",
+   "image_caption": "AI 에이전트를 위한 지식 인프라를 표방하는 파이어크롤(Firecrawl)의 대표 이미지",
+   "lead": "firecrawl/firecrawl은 AI 에이전트가 웹과 외부 데이터를 쉽게 활용하도록 돕는 지식 인프라입니다. 로컬 바이너리, 클라우드 서비스, 자체 호스팅 서버의 세 가지 방식으로 쓸 수 있으며, 저장소에는 로컬 버전과 서버 코드, SDK가 함께 담겨 있습니다.",
    "sections": [
     {
-     "heading": "세 가지 사용 방식",
-     "text": "README는 Firecrawl을 Local, Cloud, 셀프호스팅의 세 방식으로 쓸 수 있다고 소개합니다. Firecrawl Local은 자신의 컴퓨터에서 하나의 바이너리로 웹사이트를 깔끔한 마크다운으로 바꿔 줍니다. Firecrawl Cloud는 firecrawl.dev에서 제공하는 호스팅 서비스로, 규모에 맞춰 별도 운영 부담 없이 쓸 수 있습니다. 셀프호스팅은 `apps/api`의 전체 서버를 자체 큐, 워커, 데이터베이스와 함께 직접 배포하는 방식입니다."
+     "heading": "무엇인가: 세 가지 사용 방식",
+     "text": "README에 따르면 파이어크롤(Firecrawl)은 세 갈래로 제공됩니다. 첫째는 내 컴퓨터에서 하나의 바이너리로 웹사이트를 깨끗한 마크다운으로 바꾸고, MCP 서버로 AI 에이전트에 연결하며, 로컬호스트에서 Firecrawl API를 제공하는 Firecrawl Local입니다. 둘째는 firecrawl.dev의 호스팅 서비스인 Firecrawl Cloud로, 대규모 처리와 함께 검색 및 데이터 제공자 라이브러리 Alexandria를 쓸 수 있습니다. 셋째는 apps/api의 전체 서버를 자체 인프라에 배포하는 셀프 호스팅입니다."
     },
     {
-     "heading": "Firecrawl Local: 데이터베이스도 컨테이너도 필요 없다",
-     "text": "Firecrawl Local은 데이터베이스, 큐, 컨테이너 없이 로컬에서 스크레이프, 크롤, 맵 작업을 수행합니다. crates.io로 설치하며 Rust와 C 컴파일러가 필요합니다. 자바스크립트가 필요한 페이지는 컴퓨터에 설치된 Chrome 또는 Chromium에서 렌더링하고, PDF와 오피스 문서도 로컬에서 파싱합니다. 브라우저가 없으면 정적 페이지는 여전히 동작하며, 브라우저가 필요했던 페이지는 경고와 함께 결과가 반환됩니다. 기본적으로 로컬에서 로드되지 않는 단일 페이지 스크레이프는 Firecrawl Cloud가 대신 가져오고 결과에 `\"source\": \"firecrawl-cloud\"`가 표시됩니다. `FIRECRAWL_CLOUD=off`를 설정하면 모든 작업을 로컬에 머물게 할 수 있습니다."
-    },
-    {
-     "heading": "에이전트 연동과 로컬 API 서버",
-     "text": "`init` 명령은 컴퓨터에 설치된 Claude Code, Claude Desktop, Cursor, Windsurf, Gemini CLI, Codex를 찾아 MCP 서버로 Firecrawl Local을 추가하며, 설정 파일은 먼저 백업합니다. MCP 서버에는 Node.js 22 이상이 필요합니다. `serve`는 포트 3002에서 Firecrawl v2 API를 제공해 기존 Firecrawl용 코드를 그대로 쓸 수 있고, 로컬 경로에는 API 키가 필요 없습니다. SDK의 API URL을 `http://localhost:3002`로 지정하면 됩니다."
+     "heading": "어떻게 작동하나: 로컬에서 에이전트까지",
+     "text": "Firecrawl Local은 데이터베이스, 큐, 컨테이너 없이 스크래핑, 크롤링, 맵핑을 수행합니다. crates.io로 설치하며 Rust와 C 컴파일러가 필요합니다. 자바스크립트가 필요한 페이지는 기기에 설치된 Chrome 또는 Chromium에서 렌더링하고, PDF와 오피스 문서도 로컬에서 파싱합니다. init 명령은 Claude Code, Claude Desktop, Cursor, Windsurf, Gemini CLI, Codex를 찾아 MCP 서버로 등록하며 설정 파일을 먼저 백업합니다. serve 명령은 포트 3002에서 Firecrawl v2 API를 제공해, 기존 코드를 API URL 변경만으로 로컬에 연결할 수 있습니다. 기본적으로 로컬에서 불러오지 못한 단일 페이지는 Firecrawl Cloud가 대신 가져오며, FIRECRAWL_CLOUD=off로 이를 끌 수 있습니다."
     },
     {
      "heading": "클라우드와 Alexandria",
-     "text": "Firecrawl Cloud는 검색, 스크레이프, Interact, Agent, 크롤, 맵, 배치 스크레이프를 하나의 API로 제공합니다. README는 웹의 96%를 커버하고 수백만 페이지에서 P95 지연 시간이 3.4초라고 밝힙니다. 출력은 마크다운, 구조화 JSON, 스크린샷 등 LLM 친화적 형식입니다. Alexandria는 2억 5천만 명 이상의 인물, 7천5백만 개 이상의 기업, 4천1백만 편 이상의 연구 논문을 포함한 550개 이상의 데이터 제공자를 API, MCP, CLI로 연결합니다. 탐색은 무료이고 도구 실행에는 해당 도구에 표기된 크레딧이 사용됩니다. 셀프호스팅 서버에는 Alexandria가 포함되지 않습니다."
+     "text": "Firecrawl Cloud는 검색, 스크래핑, Interact, Agent, 크롤, 맵, 배치 스크래핑을 단일 API로 제공합니다. README는 웹의 96%를 커버하고, 수백만 페이지에서 P95 지연 시간이 3.4초라고 소개합니다. 출력은 마크다운, 구조화 JSON, 스크린샷 등으로, 에이전트의 토큰 소모를 줄이도록 설계됐다고 설명합니다. Alexandria는 2억 5천만 명 이상의 인물, 7,500만 개 이상의 기업, 4,100만 편 이상의 연구 논문을 포함한 550개 이상의 데이터 제공자를 API, MCP, CLI로 연결합니다. 도구 탐색은 무료이며 실행 시 해당 도구에 표시된 크레딧이 사용됩니다. 키 없이 가입 없이 월 1,000 크레딧을 쓸 수 있는 Firecrawl Keyless도 제공됩니다."
     },
     {
-     "heading": "셀프호스팅과 라이선스",
-     "text": "전체 서버는 Docker Compose로 Redis, PostgreSQL, 브라우저 서비스와 함께 실행되며, 대규모 배포를 위한 쿠버네티스 매니페스트와 Helm 차트도 있습니다. 라이선스는 주로 AGPL-3.0이며 SDK와 일부 UI 구성요소는 MIT입니다. README는 스크레이핑 시 웹사이트 정책을 준수할 책임이 전적으로 사용자에게 있다고 당부합니다."
+     "heading": "누가 쓰면 좋은가",
+     "text": "하나의 머신에서 가볍게 웹 콘텐츠를 에이전트에 공급하려는 개발자는 Firecrawl Local이 적합합니다. 구조화 JSON, Interact, Agent, 단일 머신을 넘는 규모가 필요하면 클라우드로 옮기는 것이 권장됩니다. 전체 서버를 직접 운영하려는 조직은 Docker Compose, Kubernetes 매니페스트, Helm 차트로 셀프 호스팅할 수 있으나, Alexandria는 포함되지 않습니다. Python, Node.js SDK와 Lovable, Zapier, n8n 통합도 지원됩니다. 라이선스는 주로 AGPL-3.0이고 SDK와 일부 UI 컴포넌트는 MIT이며, 스크래핑 시 사이트 정책 준수는 사용자 책임이라고 명시돼 있습니다."
     }
    ],
-   "subheadline": "로컬 바이너리부터 클라우드, 550개 이상 데이터 제공자까지 하나의 API로 묶는다"
+   "subheadline": "웹 스크래핑부터 검색, 550여 데이터 제공자까지 하나의 API로 묶은 오픈소스 프로젝트"
   },
   "floci-io/floci": {
    "date": "2026-11-04",
@@ -1924,9 +1920,9 @@
    "text": "claude-mem은 Claude Code를 위한 영속적 메모리 압축 시스템으로, 에이전트가 세션 중 수행한 도구 사용 기록을 자동으로 수집하고 AI로 의미 있는 요약을 만든 뒤 이후 세션에 관련 맥락으로 다시 주입합니다. 세션이 끝나거나 다시 연결되어도 프로젝트에 대한 지식을 이어갈 수 있게 해 준다는 점이 핵심입니다. Claude Code뿐 아니라 OpenCode, Codex, Gemini 등 여러 에이전트 환경을 지원한다고 소개되어 있으며, README는 한국어를 포함한 다국어로 제공됩니다."
   },
   "toeverything/AFFiNE": {
-   "date": "2026-11-20",
-   "long": false,
-   "text": "AFFiNE는 문서, 캔버스, 표를 하나로 합친 오픈소스 지식 베이스 작업 공간으로, Notion과 Miro를 대체할 수 있도록 설계되었습니다. 텍스트, 포스트잇, 웹 페이지, 데이터베이스, 도형, 슬라이드 등 다양한 블록을 무한 캔버스 위에 자유롭게 배치할 수 있습니다. 프라이버시를 중시하고 로컬 우선 방식으로 동작하며, AI 기능도 함께 제공하는 것이 특징입니다."
+   "date": "2026-11-28",
+   "long": true,
+   "text": "AFFiNE는 문서, 캔버스, 표를 하나로 합친 오픈소스 지식 베이스 겸 올인원 워크스페이스로, Notion과 Miro의 대안을 표방합니다. 블록 단위로 텍스트, 포스트잇, 임베디드 웹페이지, 데이터베이스, 슬라이드 등을 무한 캔버스에 자유롭게 배치할 수 있다는 점이 특징입니다. 로컬 우선(local-first) 방식으로 데이터를 내 디스크에 보관하면서도 실시간 공동 편집을 지원하고, 직접 호스팅하거나 포크해 나만의 버전을 만들 수도 있습니다. 프라이버시와 커스터마이징을 중시하는 사용자에게 흥미로운 선택지입니다."
   },
   "togg53192-cmd/jailbreaks": {
    "date": "2026-10-28",
